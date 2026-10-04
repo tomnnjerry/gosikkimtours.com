@@ -1,13 +1,13 @@
 {% extends "hills/base.html" %}
-{% block title %}Season finder: where to go in Nepal and India each month · Go Sikkim Tours{% endblock %}
-{% block description %}Choose a month and see which places in Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa and UP &amp; Bihar are at their best.{% endblock %}
+{% block title %}Season finder: where to go in Sikkim, Darjeeling and Bhutan each month · Go Sikkim Tours{% endblock %}
+{% block description %}Choose a month and see which places in Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan are at their best.{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
   <p class="eyebrow">Trip tool 01</p><h1 class="h-xl">Season <span class="accent">finder</span></h1>
   <p class="lede">Choose a month. Places rated best for that month come first, then good ones.</p></div></header>
 <section class="wrap" style="padding-bottom: 96px">
   <div class="filters" role="group" aria-label="Month">{% for m in months %}<button type="button" class="js-month" data-m="{{ forloop.counter0 }}" aria-pressed="{% if forloop.counter0 == now %}true{% else %}false{% endif %}">{{ m|slice:":3" }}</button>{% endfor %}</div>
-  <div class="filters" role="group" aria-label="Land"><button type="button" class="js-land" data-r="" aria-pressed="true">All lands</button>{% for r in regions %}<button type="button" class="js-land" data-r="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endfor %}</div>
+  <div class="filters" role="group" aria-label="Land"><button type="button" class="js-land" data-r="" aria-pressed="true">Everywhere</button>{% for r in regions %}<button type="button" class="js-land" data-r="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endfor %}</div>
   <p class="tool-out" style="color: var(--brass-ink)" aria-live="polite" id="sf-head"></p>
   <div class="grid grid--2" id="sf-out"></div>
   <noscript><p>The season finder needs JavaScript. The <a href="{% url 'seasons' %}">season almanac</a> shows the same information without it.</p></noscript>

@@ -5,24 +5,24 @@
   <div class="wrap">
     <div class="hero__top">
       <div class="hero__title">
-        <p class="eyebrow">Private journeys · Nepal &amp; India</p>
-        <h1 class="h-hero">Seven lands, <span class="accent">told slowly</span></h1>
+        <p class="eyebrow">Sikkim · Darjeeling · Kalimpong · Dooars · Bhutan</p>
+        <h1 class="h-hero">The Eastern Himalaya, <span class="accent">at honest prices</span></h1>
       </div>
       <div class="hero__side">
-        <p class="lede">Palaces in Rajasthan, monasteries above 3,500 m in Ladakh, rice-boat nights in Kerala. We plan each journey by hand, with one planner from first call to last transfer.</p>
+        <p class="lede">Snow at Nathu La, the toy train to Darjeeling, rhino in the Dooars and the dzongs of Bhutan. Every package comes in three price tiers{% if cheapest %}, from {{ cheapest|inr }} per person{% endif %}, with shared-jeep fares, permits and every cost written down.</p>
         <div class="btns">
-          <a class="btn btn--brass" href="{% url 'plan' %}?from=/">Plan my journey</a>
-          <a class="btn btn--ghost" href="{% url 'lands' %}">Read the seven hills</a>
+          <a class="btn btn--brass" href="{% url 'plan' %}?from=/">Plan my trip</a>
+          <a class="btn btn--ghost" href="{% url 'lands' %}">See the destinations</a>
         </div>
         <form class="finder" action="{% url 'plan' %}" method="get" data-cta-form="hero-finder">
-          <label><span>Where</span><select name="land"><option value="">Any of the seven lands</option>{% for r in regions %}<option value="{{ r.slug }}">{{ r.name }}</option>{% endfor %}</select></label>
+          <label><span>Where</span><select name="land"><option value="">Anywhere in the hills</option>{% for r in regions %}<option value="{{ r.slug }}">{{ r.name }}</option>{% endfor %}</select></label>
           <label><span>When</span><select name="month"><option value="">Flexible</option>{% for m in months_full %}<option>{{ m }}</option>{% endfor %}</select></label>
           <input type="hidden" name="from" value="/">
           <button class="btn btn--brass" type="submit">Start planning</button>
         </form>
       </div>
     </div>
-    <div class="fan" aria-label="The seven lands">
+    <div class="fan" aria-label="Destinations">
       {% for r in regions %}{% with img=r|first_img %}
       <a class="fan__item{% if forloop.counter == 2 %} is-active{% endif %}" href="{{ r.url }}" data-land="{{ r.slug }}">
         {% if img %}<img src="{{ img|src:960 }}" srcset="{{ img|srcset }}" sizes="(max-width: 760px) 50vw, 45vw" alt="{{ r.name }}" {% if forloop.counter < 3 %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>{% endif %}
@@ -31,7 +31,7 @@
           <b>{{ r.name }}</b>
           <span class="fan__more">
             <p>{{ r.tagline }}. Best {{ r.best_label }}.</p>
-            <span class="fan__go">Open the tale</span>
+            <span class="fan__go">Explore</span>
             {% if img %}<small>Photo: {{ img|short_credit }}, Wikimedia Commons</small>{% endif %}
           </span>
         </span>
@@ -48,9 +48,9 @@
   <div class="wrap split">
     <div class="split__aside" style="top: 120px">
       <p class="eyebrow">The index</p>
-      <h2 class="h-xl" id="idx-h">Choose a <span class="accent">tale</span></h2>
-      <p class="lede">Each land opens on its own map, its own seasons and the rooms we would book for you there.</p>
-      <svg class="seal" viewBox="0 0 132 132" aria-hidden="true"><defs><path id="c" d="M66 66m-50 0a50 50 0 1 1 100 0a50 50 0 1 1-100 0"/></defs><text><textPath href="#c">Seven lands · told slowly · by hand ·</textPath></text></svg>
+      <h2 class="h-xl" id="idx-h">Choose a <span class="accent">valley</span></h2>
+      <p class="lede">Each destination opens on its own map, its seasons, its permits and the rooms we would book for you there.</p>
+      <svg class="seal" viewBox="0 0 132 132" aria-hidden="true"><defs><path id="c" d="M66 66m-50 0a50 50 0 1 1 100 0a50 50 0 1 1-100 0"/></defs><text><textPath href="#c">Sikkim · Darjeeling · Dooars · Bhutan ·</textPath></text></svg>
     </div>
     <div class="split__main" style="gap: 0">
       <div class="toc">
@@ -69,7 +69,7 @@
 {% if featured %}
 <section class="sec paper" aria-labelledby="jr-h">
   <div class="wrap">
-    <div class="sec-head"><div><p class="eyebrow">Signature journeys</p><h2 class="h-l" id="jr-h">Routes we know by heart</h2></div><a class="link-arrow" href="{% url 'journeys' %}">Every journey →</a></div>
+    <div class="sec-head"><div><p class="eyebrow">Packages</p><h2 class="h-l" id="jr-h">Routes we know by heart</h2><p class="muted">Budget tier prices per person, twin sharing. Every package also has Value and Comfort tiers.</p></div><a class="link-arrow" href="{% url 'journeys' %}">Every package →</a></div>
     <div class="grid grid--4" data-fill>{% for j in featured %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" %}</div>
   </div>
 </section>
@@ -77,7 +77,7 @@
 
 <section class="sec dark" aria-labelledby="alm-h">
   <div class="wrap">
-    <div class="sec-head"><div><p class="eyebrow">The season almanac</p><h2 class="h-l" id="alm-h">When each land <span class="accent">is at its best</span></h2></div>
+    <div class="sec-head"><div><p class="eyebrow">The season almanac</p><h2 class="h-l" id="alm-h">When each valley <span class="accent">is at its best</span></h2></div>
       <div class="mkey"><span><i class="v2"></i>Best</span><span><i class="v1"></i>Good</span><span><i></i>Off season</span></div></div>
     <div class="almanac"><div class="almanac__grid">
       <span></span>{% for m in months_short %}<span class="hd">{{ m }}</span>{% endfor %}
@@ -100,24 +100,59 @@
   <div class="wrap">
     <div class="sec-head"><div><p class="eyebrow">How we work</p><h2 class="h-l" id="why-h">Three promises we keep</h2></div></div>
     <div class="hl-list">
-      <div class="hl rv"><span class="lbadge lbadge--lg">{% icon "chat" %}</span><b>One planner, start to finish</b><p>One person shapes the route, books every stay and answers on WhatsApp while you travel.</p></div>
-      <div class="hl rv"><span class="lbadge lbadge--lg">{% icon "compass" %}</span><b>Only lands we know</b><p>We stay inside the regions we know, so the driver, the guide and the room are ones we have tested.</p></div>
-      <div class="hl rv"><span class="lbadge lbadge--lg">{% icon "shield" %}</span><b>Never a group coach</b><p>Private car, private guide, your hours. Every journey is for your party alone.</p></div>
+      <div class="hl rv"><span class="lbadge lbadge--lg">{% icon "rupee" %}</span><b>Three tiers, every cost written down</b><p>Budget, Value or Comfort on every package. Your quote lists each room, car, permit and fee, so you can see where the money goes.</p></div>
+      <div class="hl rv"><span class="lbadge lbadge--lg">{% icon "jeep" %}</span><b>Travel the way hill people do</b><p>Shared jeeps and homestays where they make sense, a registered private car where the permit or the road needs one.</p></div>
+      <div class="hl rv"><span class="lbadge lbadge--lg">{% icon "permit" %}</span><b>Permits and roads handled</b><p>We apply for Nathu La, Tsomgo, North Sikkim and Bhutan permits, and plan a spare day for landslides and snow.</p></div>
     </div>
   </div>
 </section>
 
+{% if fare_rows %}
+<section class="sec" aria-labelledby="fare-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">The fare board</p><h2 class="h-l" id="fare-h">What the hill roads <span class="accent">really cost</span></h2><p class="muted">Indicative fares for planning. Shared jeep fares are set by local taxi associations and change with fuel prices.</p></div><a class="link-arrow" href="{% url 'fares' %}">Full fare board →</a></div>
+    <div class="tbl-wrap"><table class="tbl fareboard"><thead><tr><th scope="col">Route</th><th scope="col">Shared</th><th scope="col">Time</th><th scope="col">Reserved car</th></tr></thead>
+      <tbody>{% for f in fare_rows %}<tr><td><a href="{{ f.rt.url }}">{{ f.rt.from_obj.name }} → {{ f.rt.to_obj.name }}</a></td><td class="num">{{ f.shared.fare }}</td><td>{{ f.shared.time }}</td><td class="num">{% if f.reserved %}{{ f.reserved.fare }}{% else %}–{% endif %}</td></tr>{% endfor %}</tbody></table></div>
+  </div>
+</section>
+{% endif %}
+
+{% if stories %}
+<section class="sec paper" aria-labelledby="sto-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Local stories</p><h2 class="h-l" id="sto-h">Every place has a <span class="accent">story</span></h2><p class="muted">Legends, history and the people behind the places, each with its source named.</p></div><a class="link-arrow" href="{% url 'stories' %}">All stories →</a></div>
+    <div class="grid grid--3" data-fill>{% for st in stories %}<a class="card card--wide rv" href="{{ st.url }}" data-land="{{ st.region }}">{% photo st|first_img alt=st.place_obj.name credit=False sizes="(max-width: 760px) 100vw, 33vw" %}<span class="chip">{{ st.place_obj.name }}</span><span class="card__title card__title--s">{{ st.title }}</span><p>{{ st.paras.0|truncatewords:22 }}</p></a>{% endfor %}{% include "hills/partials/fill.html" %}</div>
+  </div>
+</section>
+{% endif %}
+
+{% if ladder %}
+<section class="sec" aria-labelledby="lad-h">
+  <div class="wrap split">
+    <div class="split__aside">
+      <p class="eyebrow">The altitude ladder</p>
+      <h2 class="h-l" id="lad-h">From the plains <span class="accent">to 5,000 m</span></h2>
+      <p class="lede">Siliguri sits near 120 m; Gurudongmar is above 5,000 m. Sleep high only after a night or two in between.</p>
+      <a class="link-arrow" href="{% url 'tool_altitude' %}">Open the ladder →</a>
+    </div>
+    <div class="split__main">
+      <div class="ladder">{% for p in ladder|dictsortreversed:"altitude_m"|slice:":10" %}<a class="ladder__row" href="{{ p.url }}" data-land="{{ p.region }}"><span class="ladder__name">{{ p.name }}</span><span class="ladder__bar"><i style="width: {% widthratio p.altitude_m 5500 100 %}%"></i></span><span class="ladder__m">{{ p.altitude_m }} m</span></a>{% endfor %}</div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <section class="sec" aria-labelledby="st-h">
   <div class="wrap">
-    <div class="sec-head"><div><p class="eyebrow">Travel styles</p><h2 class="h-l" id="st-h">Start from a feeling</h2></div><a class="link-arrow" href="{% url 'themes' %}">All styles →</a></div>
+    <div class="sec-head"><div><p class="eyebrow">Travel styles</p><h2 class="h-l" id="st-h">Start from what you want</h2></div><a class="link-arrow" href="{% url 'themes' %}">All styles →</a></div>
     <div class="chip-row">{% for t in themes %}<a class="chip chip--line" style="font-size: 12px; padding: 12px 18px" href="{{ t.url }}">{{ t.name }}</a>{% endfor %}</div>
   </div>
 </section>
 
-{% if festivals or guides %}
+{% if festivals or posts %}
 <section class="sec paper" aria-labelledby="jn-h">
   <div class="wrap">
-    <div class="sec-head"><div><p class="eyebrow">From the desk</p><h2 class="h-l" id="jn-h">Read before you go</h2></div><a class="link-arrow" href="{% url 'journal' %}">The Journal →</a></div>
+    <div class="sec-head"><div><p class="eyebrow">From the desk</p><h2 class="h-l" id="jn-h">Read before you go</h2></div><a class="link-arrow" href="{% url 'journal' %}">The blog →</a></div>
     <div class="grid grid--3" data-fill>{% for d in posts %}<a class="card card--wide rv" href="{{ d.url }}"{% if d.land %} data-land="{{ d.land }}"{% endif %}>{% photo d|first_img alt=d.title credit=False sizes="(max-width: 760px) 100vw, 33vw" %}<span class="chip">{{ d.category }} · {{ d.read_min }} min</span><span class="card__title card__title--s">{{ d.title }}</span><p>{{ d.summary|truncatewords:22 }}</p></a>{% endfor %}{% include "hills/partials/fill.html" %}</div>
     {% if festivals %}<div style="margin-top: 56px" class="block"><p class="eyebrow">Coming up</p><div class="chip-row">{% for f in festivals %}<a class="chip" style="--tint: {{ f.region_obj.tint }}; --deep: {{ f.region_obj.deep }}; font-size: 12px; padding: 12px 18px" href="{{ f.url }}">{{ f.name }} · {{ f.when|truncatewords:4 }}</a>{% endfor %}</div></div>{% endif %}
   </div>

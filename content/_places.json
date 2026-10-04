@@ -1,0 +1,10 @@
+{
+  "_note": "Registry of every place slug, by region. A place file content/<region>/places/<slug>.json must exist for each. Values are display names; any region may reference any place here (nearby, routes, journeys).",
+  "east-sikkim": {"gangtok": "Gangtok", "rumtek": "Rumtek", "tsomgo-lake": "Tsomgo Lake", "nathu-la": "Nathu La", "zuluk": "Zuluk", "aritar": "Aritar"},
+  "north-sikkim": {"lachung": "Lachung", "yumthang-valley": "Yumthang Valley", "lachen": "Lachen", "gurudongmar-lake": "Gurudongmar Lake", "dzongu": "Dzongu"},
+  "west-sikkim": {"pelling": "Pelling", "yuksom": "Yuksom", "ravangla": "Ravangla", "namchi": "Namchi", "rinchenpong": "Rinchenpong"},
+  "darjeeling": {"siliguri": "Siliguri", "darjeeling-town": "Darjeeling", "tiger-hill": "Tiger Hill", "kurseong": "Kurseong", "mirik": "Mirik", "sandakphu": "Sandakphu"},
+  "kalimpong": {"kalimpong-town": "Kalimpong", "lava": "Lava", "rishop": "Rishop", "lolegaon": "Lolegaon", "sillery-gaon": "Sillery Gaon"},
+  "dooars": {"jaldapara": "Jaldapara", "gorumara": "Gorumara and Lataguri", "chilapata": "Chilapata", "buxa": "Buxa", "samsing": "Samsing and Suntalekhola"},
+  "bhutan": {"phuentsholing": "Phuentsholing", "paro": "Paro", "thimphu": "Thimphu", "punakha": "Punakha", "phobjikha": "Phobjikha", "haa": "Haa Valley"}
+}

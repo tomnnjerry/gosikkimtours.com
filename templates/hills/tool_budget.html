@@ -1,53 +1,44 @@
 {% extends "hills/base.html" %}
-{% block title %}Budget builder for a luxury trip to Nepal or India · Go Sikkim Tours{% endblock %}
-{% block description %}Estimate a planning range for a private luxury journey in Nepal or India by land, nights, travellers and hotel level.{% endblock %}
+{% block title %}Budget builder for Sikkim, Darjeeling and Bhutan trips · Go Sikkim Tours{% endblock %}
+{% block description %}Estimate a planning range for a trip to Sikkim, Darjeeling, Kalimpong, the Dooars or Bhutan by destination, nights, travellers and tier.{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
   <p class="eyebrow">Trip tool 02</p><h1 class="h-xl">Budget <span class="accent">builder</span></h1>
-  <p class="lede">A planning range, not a quote. It covers hotels, a private car and driver, guides and transfers inside the region; it leaves out international flights, visas and personal spending.</p></div></header>
+  <p class="lede">A planning range, not a quote. It uses our daily costs per person for each destination: rooms, food, local transport and permits. It leaves out travel to Siliguri, shopping and tips.</p></div></header>
 <section class="wrap split" style="padding-bottom: 96px">
   <form class="split__main form" id="bb" onsubmit="return false">
-    <div class="field"><label for="bb-land">Land</label><select id="bb-land">{% for r in regions %}<option value="{{ r.slug }}">{{ r.name }}</option>{% endfor %}</select></div>
-    <div class="field"><label for="bb-level">Hotel level</label><select id="bb-level"><option value="0">Fine (4-star and heritage)</option><option value="1" selected>Luxury (5-star, best rooms)</option><option value="2">Signature (palace suites, top lodges)</option></select></div>
-    <div class="field"><label for="bb-nights">Nights</label><input id="bb-nights" type="number" min="3" max="30" value="10" inputmode="numeric"></div>
+    <div class="field"><label for="bb-land">Destination</label><select id="bb-land">{% for r in regions %}<option value="{{ r.slug }}">{{ r.name }}</option>{% endfor %}</select></div>
+    <div class="field"><label for="bb-level">Tier</label><select id="bb-level"><option value="0" selected>Budget: homestays, shared jeeps where possible</option><option value="1">Value: good hotels, private car</option><option value="2">Comfort: the best rooms on the route</option></select></div>
+    <div class="field"><label for="bb-nights">Nights</label><input id="bb-nights" type="number" min="1" max="30" value="5" inputmode="numeric"></div>
     <div class="field"><label for="bb-pax">Travellers</label><input id="bb-pax" type="number" min="1" max="12" value="2" inputmode="numeric"></div>
-    <div class="field full"><label><input type="checkbox" id="bb-flights"> Add domestic flights inside the region</label></div>
+    <div class="field full"><label><input type="checkbox" id="bb-peak"> Travelling in peak weeks (Durga Puja, Diwali, Christmas, New Year, May holidays)</label></div>
   </form>
   <aside class="split__aside"><div class="panel panel--dark" aria-live="polite">
     <p class="eyebrow">Planning range, per person</p>
     <p class="tool-out" id="bb-pp">–</p>
     <div class="ledger"><div class="ledger__row"><span>Whole party</span><span class="ledger__dots"></span><b id="bb-total">–</b></div>
-      <div class="ledger__row"><span>Per night, per person</span><span class="ledger__dots"></span><b id="bb-night">–</b></div></div>
-    <p class="small" style="color: var(--mist-3); margin-top: 16px">Ranges are our planning estimates for October to March, twin sharing. Peak dates such as Christmas, New Year and Diwali cost more. Your quote is itemised.</p>
+      <div class="ledger__row"><span>Per day, per person</span><span class="ledger__dots"></span><b id="bb-night">–</b></div></div>
+    <p class="small" style="color: var(--mist-3); margin-top: 16px">Ranges come from the daily budgets on each destination page, twin sharing. Peak weeks add roughly 20–30% to rooms and cars. Your quote is itemised.</p>
   </div><a class="btn btn--dark" href="{% url 'plan' %}">Get a real quote</a></aside>
 </section>
 {% endblock %}
 {% block scripts %}
 <script>
 (function () {
-  /* Planning estimates in INR per person per night, twin sharing, incl. car, guide, transfers.
-     [fine, luxury, signature] ranges as [low, high]. Edit here as rates change. */
-  var R = {
-    "nepal": [[14000,20000],[24000,36000],[45000,80000]],
-    "rajasthan": [[16000,24000],[30000,48000],[60000,120000]],
-    "ladakh": [[15000,22000],[24000,36000],[40000,65000]],
-    "north-east": [[13000,19000],[20000,30000],[32000,50000]],
-    "kerala": [[13000,20000],[24000,38000],[45000,75000]],
-    "goa": [[12000,20000],[24000,40000],[45000,85000]],
-    "up-bihar": [[13000,20000],[26000,42000],[48000,85000]]
-  };
-  var F = 9000;
+  /* INR per person per day [low, high] for [Budget, Value, Comfort], from each region's budget_day in content/. */
+  var R = {{ ranges|safe }};
   var $ = function (id) { return document.getElementById(id); };
-  var fmt = function (n) { n = Math.round(n / 5000) * 5000; var s = String(n), t = s.slice(-3), h = s.slice(0, -3); if (h) t = h.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + "," + t; return "₹" + t; };
+  var fmt = function (n) { n = Math.round(n / 100) * 100; var s = String(n), t = s.slice(-3), h = s.slice(0, -3); if (h) t = h.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + "," + t; return "₹" + t; };
   function calc() {
-    var r = R[$("bb-land").value], lv = +$("bb-level").value, n = Math.max(3, Math.min(30, +$("bb-nights").value || 3)), p = Math.max(1, Math.min(12, +$("bb-pax").value || 1));
-    var fl = $("bb-flights").checked ? F * 2 : 0;
-    var lo = r[lv][0] * n + fl, hi = r[lv][1] * n + fl;
+    var r = R[$("bb-land").value], lv = +$("bb-level").value, n = Math.max(1, Math.min(30, +$("bb-nights").value || 1)), p = Math.max(1, Math.min(12, +$("bb-pax").value || 1));
+    if (!r) return;
+    var k = $("bb-peak").checked ? 1.25 : 1, d = n + 1;
+    var lo = r[lv][0] * d * k, hi = r[lv][1] * d * k;
     $("bb-pp").textContent = fmt(lo) + " – " + fmt(hi);
     $("bb-total").textContent = fmt(lo * p) + " – " + fmt(hi * p);
-    $("bb-night").textContent = fmt(r[lv][0]) + " – " + fmt(r[lv][1]);
+    $("bb-night").textContent = fmt(r[lv][0] * k) + " – " + fmt(r[lv][1] * k);
   }
-  ["bb-land","bb-level","bb-nights","bb-pax","bb-flights"].forEach(function (id) { $(id).addEventListener("input", calc); $(id).addEventListener("change", calc); });
+  ["bb-land","bb-level","bb-nights","bb-pax","bb-peak"].forEach(function (id) { $(id).addEventListener("input", calc); $(id).addEventListener("change", calc); });
   calc();
 })();
 </script>

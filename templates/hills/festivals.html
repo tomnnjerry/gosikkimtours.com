@@ -1,10 +1,10 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}Festival calendar for Nepal and India · Go Sikkim Tours{% endblock %}
-{% block description %}Festivals by month across Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa and UP &amp; Bihar, with how to see each one well.{% endblock %}
+{% block title %}Festival calendar for Sikkim, Darjeeling and Bhutan · Go Sikkim Tours{% endblock %}
+{% block description %}Festivals by month across Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan: Losar, Pang Lhabsol, the tshechus and more, with how to see each one well.{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
   <p class="eyebrow">Festivals</p><h1 class="h-hero">The <span class="accent">calendar</span></h1>
-  <p class="lede">Festivals worth planning a journey around. Most follow lunar or local calendars, so dates move each year: check current status before you travel.</p></div></header>
+  <p class="lede">Festivals worth planning a trip around. Most follow lunar or local calendars, so dates move each year: check current status before you travel.</p></div></header>
 <section class="wrap" style="padding-bottom: 96px">
   {% for m in by_month %}{% if m.festivals %}<div class="day" style="grid-template-columns: 180px minmax(0, 1fr)">
     <div class="day__n" style="font-size: 36px">{{ m.name }}</div>

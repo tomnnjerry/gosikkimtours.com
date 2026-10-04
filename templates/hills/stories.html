@@ -1,0 +1,20 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}Local stories from Sikkim, Darjeeling, the Dooars and Bhutan · Go Sikkim Tours{% endblock %}
+{% block description %}Legends, history and the people behind {{ stories|length }} places in Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan, each with its source named.{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Local stories</p><h1 class="h-hero">Every place has <span class="accent">a story</span></h1>
+  <p class="lede">The legend behind a lake, the king who built a palace, the trade that made a town. One story for each place we write about, told plainly and with its source named.</p></div></header>
+<section class="wrap" style="padding-bottom: 96px">
+  <div class="filters" data-filter-group="#sto-list" role="group" aria-label="Filter stories">
+    <button type="button" data-key="region" data-value="" aria-pressed="true">Everywhere</button>
+    {% for r in regions %}<button type="button" data-key="region" data-value="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endfor %}
+  </div>
+  <div class="grid grid--3 storygrid" data-fill id="sto-list">{% for st in stories %}<a class="card card--wide rv" href="{{ st.url }}" data-item data-region="{{ st.region }}" style="--tint: {{ st.place_obj.region_obj.tint }}; --deep: {{ st.place_obj.region_obj.deep }}">
+    {% photo st|first_img alt=st.place_obj.name sizes="(max-width: 760px) 100vw, 33vw" credit=False %}
+    <span class="chip">{{ st.place_obj.name }} · {{ st.place_obj.region_obj.name }}</span>
+    <span class="card__title card__title--s">{{ st.title }}</span>
+    <p>{{ st.paras.0|truncatewords:26 }}</p>
+  </a>{% endfor %}{% include "hills/partials/fill.html" %}</div>
+</section>
+{% endblock %}

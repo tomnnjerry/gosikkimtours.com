@@ -1,0 +1,30 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ st.title }} · {{ p.name }} · Go Sikkim Tours{% endblock %}
+{% block description %}{{ st.paras.0|truncatechars:158 }}{% endblock %}
+{% block og_image %}{% with img=st|first_img %}{% if img %}<meta property="og:image" content="{{ img|src:1280 }}">{% endif %}{% endwith %}{% endblock %}
+{% block body_attrs %} data-land="{{ r.slug }}"{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain">
+  <div class="phead__text" style="margin-top: 32px; max-width: 900px">
+    <div class="chip-row"><a class="chip chip--land" href="{{ r.url }}">{% icon r.slug %} {{ r.name }}</a><a class="chip chip--line" href="{{ p.url }}">{{ p.name }}</a><span class="chip chip--line">{% icon "story" %} Local story</span></div>
+    <h1 class="h-xl">{{ st.title }}</h1>
+    <p class="small muted">By {{ SITE.byline }}</p>
+  </div>
+</header>
+{% if st.images %}<div class="wrap">{% photo st|first_img alt=p.name cls="ratio-pano" eager=True sizes="100vw" %}</div>{% endif %}
+<section class="sec--tight"><div class="wrap split">
+  <article class="split__main">
+    <div class="block prose">{% for para in st.paras %}<p>{{ para }}</p>{% endfor %}</div>
+    {% if st.sources %}<div class="block"><p class="eyebrow">Sources</p><ol class="sources">{% for s in st.sources %}<li>{% if s.url %}<a href="{{ s.url }}" rel="noopener" target="_blank">{{ s.title|default:s }}</a>{% else %}{{ s.title|default:s }}{% endif %}</li>{% endfor %}</ol>
+      <p class="small muted">Legends are retold differently from village to village. Where a story is told locally rather than written down, we say so.</p></div>{% endif %}
+    <nav class="pager" aria-label="More stories"><a href="{{ prev.url }}">← {{ prev.title }}</a><a href="{{ next.url }}">{{ next.title }} →</a></nav>
+  </article>
+  <aside class="split__aside">
+    {% if p.local_word %}<div class="localword"><p class="localword__lang">A word from {{ p.name }}{% if p.local_word.language %} · {{ p.local_word.language }}{% endif %}</p><p class="localword__word">{{ p.local_word.word }}</p><p>{{ p.local_word.meaning }}</p></div>{% endif %}
+    <a class="card rv" href="{{ p.url }}" style="--tint: {{ r.tint }}; --deep: {{ r.deep }}">{% photo p|first_img alt=p.name cls="arch" sizes="(max-width: 760px) 100vw, 25vw" credit=False %}<span class="chip">Visit the place</span><span class="card__title card__title--s">{{ p.name }}</span><p>{{ p.tagline }}</p><span class="card__meta">Best {{ p.best_label }}</span></a>
+    <a class="btn btn--dark" href="{% url 'plan' %}?land={{ r.slug }}&from={{ request.path|urlencode }}">Plan a trip to {{ p.name }}</a>
+  </aside>
+</div></section>
+{% if more %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">More from {{ r.name }}</p><h2 class="h-l">Other stories</h2></div><a class="link-arrow" href="{% url 'stories' %}">All stories →</a></div>
+  <div class="grid grid--3" data-fill>{% for x in more %}<a class="card card--wide rv" href="{{ x.url }}">{% photo x|first_img alt=x.place_obj.name credit=False sizes="(max-width: 760px) 100vw, 33vw" %}<span class="chip">{{ x.place_obj.name }}</span><span class="card__title card__title--s">{{ x.title }}</span><p>{{ x.paras.0|truncatewords:22 }}</p></a>{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div></div></section>{% endif %}
+{% endblock %}

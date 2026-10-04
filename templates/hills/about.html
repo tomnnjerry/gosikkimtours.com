@@ -2,16 +2,16 @@
 {% block title %}About Go Sikkim Tours{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
-  <p class="eyebrow">About us</p><h1 class="h-hero">Seven lands, <span class="accent">nothing else</span></h1>
-  <p class="lede">Go Sikkim Tours plans private journeys in Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa, and Uttar Pradesh with Bihar. We chose these seven because we know their roads, seasons and rooms well enough to plan them by hand.</p></div></header>
+  <p class="eyebrow">About us</p><h1 class="h-hero">The Eastern Himalaya, <span class="accent">nothing else</span></h1>
+  <p class="lede">Go Sikkim Tours plans affordable trips in Sikkim, the Darjeeling hills, Kalimpong, the Dooars and Bhutan. We work only here because we know the roads, the permit offices, the jeep stands and the homestays well enough to plan them honestly.</p></div></header>
 <section class="sec--tight"><div class="wrap split">
   <div class="split__main">
-    <div class="block prose"><p>Every journey we plan is private: one party, one car, guides chosen for the places you visit. A single planner shapes the route with you, books every stay and stays on WhatsApp while you travel.</p>
-      <p>We write the way we plan. Our pages give distances in kilometres, drive times in hours, altitudes in metres and prices in rupees, and they say plainly when something changes year to year, like permits, park seasons and festival dates.</p>
+    <div class="block prose"><p>Most people who visit the hills are families, couples and groups of friends on a budget. We plan for them first. Every package comes in three tiers, Budget, Value and Comfort, and we tell you where a shared jeep or a homestay will do and where it will not.</p><p>A single planner shapes the route with you, applies for the permits, books every room and vehicle and stays on WhatsApp while you travel.</p>
+      <p>We write the way we plan. Our pages give distances in kilometres, drive times in hours, altitudes in metres and prices in rupees, and they say plainly when something changes year to year, like permits, road closures, park seasons and festival dates. Our fare board lists what shared jeeps and reserved cars cost on each route, so you can check our quotes against it.</p>
       <p>Our photographs come from Wikimedia Commons under free licences, and each one names its photographer. We would rather show a credited picture of the real place than a styled one of somewhere else.</p></div>
-    <div class="block"><p class="eyebrow">How a journey comes together</p><ol class="tips">
-      <li>You tell us the dates, who is travelling and what you hope to feel.</li><li>We send a first route with named hotels and an indicative price.</li>
-      <li>We refine it together: rooms, pace, guides, the one dinner that matters.</li><li>You book with a deposit; we confirm every service in writing.</li>
+    <div class="block"><p class="eyebrow">How a trip comes together</p><ol class="tips">
+      <li>You tell us the dates, who is travelling and roughly what you want to spend.</li><li>We send a first route with a price in each tier.</li>
+      <li>We refine it together and send a written quote with every cost on its own line.</li><li>You book with a deposit; we confirm every service in writing.</li>
       <li>On the road, your planner is a message away.</li></ol></div>
     <div class="block"><p class="eyebrow">Company details</p><div class="ledger">
       <div class="ledger__row"><span>Registered name</span><span class="ledger__dots"></span><b>[LEGAL NAME]</b></div>
@@ -19,8 +19,6 @@
       <div class="ledger__row"><span>GSTIN</span><span class="ledger__dots"></span><b>[GSTIN]</b></div>
       <div class="ledger__row"><span>Office</span><span class="ledger__dots"></span><b>{{ SITE.address }}</b></div></div></div>
   </div>
-  <aside class="split__aside"><div class="panel panel--dark"><h2 class="h-s">What you can count on</h2><div class="stats" style="grid-template-columns: 1fr 1fr">
-    
-    </div>{% include "hills/partials/trust.html" with dark=True %}</div></aside>
+  <aside class="split__aside"><div class="panel panel--dark"><h2 class="h-s">What you can count on</h2><div class="ledger" style="margin-bottom: 20px"><div class="ledger__row"><span>Destinations</span><span class="ledger__dots"></span><b>{{ counts.regions }}</b></div><div class="ledger__row"><span>Places written up</span><span class="ledger__dots"></span><b>{{ counts.places }}</b></div><div class="ledger__row"><span>Packages</span><span class="ledger__dots"></span><b>{{ counts.journeys }}</b></div><div class="ledger__row"><span>Routes with fares</span><span class="ledger__dots"></span><b>{{ counts.routes }}</b></div></div>{% include "hills/partials/trust.html" with dark=True %}</div></aside>
 </div></section>
 {% endblock %}

@@ -1,0 +1,26 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}Fare board: shared jeep and taxi fares in Sikkim, Darjeeling and the Dooars · Go Sikkim Tours{% endblock %}
+{% block description %}Indicative shared jeep, bus and reserved car fares from Siliguri, NJP and Bagdogra to Gangtok, Darjeeling, Kalimpong, the Dooars and Bhutan, plus what things cost on the ground.{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">The fare board</p><h1 class="h-hero">What it <span class="accent">really costs</span></h1>
+  <p class="lede">Shared jeep seats, reserved cars, buses and the toy train on every route we write about, with the time each takes. Use it to plan, and to check any quote, ours included.</p>
+  <div class="answer">These are indicative ranges for planning, not fixed prices. Shared jeep fares are set by local taxi associations and change with fuel prices; reserved cars cost more in peak season and for permit areas. Check current status before you travel.</div></div></header>
+<section class="wrap" style="padding-bottom: 64px">
+  <div class="filters" data-filter-group="#fare-list" role="group" aria-label="Filter fares">
+    <button type="button" data-key="region" data-value="" aria-pressed="true">Everywhere</button>
+    {% for r in regions %}{% if r.routes %}<button type="button" data-key="region" data-value="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endif %}{% endfor %}
+  </div>
+  <div id="fare-list">{% for r in regions %}{% if r.routes %}<section class="block" data-item data-region="{{ r.slug }}" style="margin-bottom: 48px">
+    <h2 class="h-m"><span class="lbadge" data-land="{{ r.slug }}">{% icon r.slug %}</span> {{ r.name }}</h2>
+    <div class="tbl-wrap"><table class="tbl fareboard"><thead><tr><th scope="col">Route</th><th scope="col">How</th><th scope="col">Time</th><th scope="col" class="num">Fare</th></tr></thead>
+      <tbody>{% for row in rows %}{% if row.r == r %}{% for o in row.options %}<tr>{% if forloop.first %}<td rowspan="{{ row.options|length }}"><a href="{{ row.rt.url }}">{{ row.rt.from_obj.name }} → {{ row.rt.to_obj.name }}</a><br><small class="muted">{{ row.rt.distance_km }} km</small></td>{% endif %}<td>{{ o.mode }}</td><td>{{ o.time }}</td><td class="num">{{ o.fare }}</td></tr>{% endfor %}{% endif %}{% endfor %}</tbody></table></div>
+  </section>{% endif %}{% endfor %}</div>
+</section>
+{% if costs %}<section class="sec paper"><div class="wrap">
+  <div class="sec-head"><div><p class="eyebrow">On the ground</p><h2 class="h-l">What things cost, place by place</h2><p class="muted">Entry fees, permits, meals, rides and rooms we have priced for planning.</p></div></div>
+  <div class="grid grid--3">{% for c in costs %}<div class="panel panel--line" data-land="{{ c.p.region }}"><h3 class="h-s" style="margin-bottom: 12px"><a href="{{ c.p.url }}" style="text-decoration: none">{{ c.p.name }}</a></h3>
+    <div class="ledger">{% for row in c.costs %}<div class="ledger__row"><span>{{ row.item }}</span><span class="ledger__dots"></span><b>{{ row.inr }}</b></div>{% endfor %}</div></div>{% endfor %}</div>
+</div></section>{% endif %}
+<section class="sec"><div class="wrap narrow">{% include "hills/partials/faq.html" with faqs=faqs faq_title="About these fares" %}</div></section>
+{% endblock %}

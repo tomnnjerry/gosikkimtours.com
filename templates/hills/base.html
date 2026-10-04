@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}Go Sikkim Tours · Private journeys in Nepal and India{% endblock %}</title>
-<meta name="description" content="{% block description %}Private luxury journeys in seven lands: Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa, and Uttar Pradesh with Bihar. Planned by hand, one planner from first call to last transfer.{% endblock %}">
+<title>{% block title %}Go Sikkim Tours · Affordable trips to Sikkim, Darjeeling and Bhutan{% endblock %}</title>
+<meta name="description" content="{% block description %}Affordable, honest trips to Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan. Three price tiers on every package, shared-jeep fares, permits arranged and one planner from first message to last drop.{% endblock %}">
 <link rel="canonical" href="{{ canonical }}">
 <meta property="og:site_name" content="Go Sikkim Tours">
 <meta property="og:title" content="{% block og_title %}{{ block.super }}{% endblock %}">
@@ -12,15 +12,13 @@
 <meta property="og:type" content="website">
 {% block og_image %}{% endblock %}
 <meta name="theme-color" content="#0F2A26">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M8 60V30a24 24 0 0 1 48 0v30z' fill='%230F2A26'/%3E%3Ctext x='32' y='50' font-family='Georgia' font-style='italic' font-size='30' text-anchor='middle' fill='%23C9A15A'%3ET%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M8 60V30a24 24 0 0 1 48 0v30z' fill='%230F2A26'/%3E%3Ctext x='32' y='50' font-family='Georgia' font-style='italic' font-size='30' text-anchor='middle' fill='%23E9A23B'%3EG%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Archivo:wdth,wght@100..125,300..800&display=swap">
 <link rel="preconnect" href="https://upload.wikimedia.org">
 {% block head_extra %}{% endblock %}
-<link rel="stylesheet" href="{% static 'css/folio.css' %}?v={{ V }}">
-<link rel="stylesheet" href="{% static 'css/folio-v2.css' %}?v={{ V }}">
-<link rel="stylesheet" href="{% static 'css/folio-v3.css' %}?v={{ V }}">
+<link rel="stylesheet" href="{% static 'css/site.css' %}?v={{ V }}">
 <style>{% for r in nav_regions %}[data-land="{{ r.slug }}"]{--malachite:{{ r.grad.0 }};--malachite-2:{{ r.grad.1 }};--brass:{{ r.accent }};--brass-ink:{{ r.ink }};--tint:{{ r.tint }};--deep:{{ r.ink }};--grad:linear-gradient(135deg,{{ r.grad.0 }} 0%,{{ r.grad.1 }} 55%,{{ r.grad.2 }} 100%);--foil:linear-gradient(115deg,{{ r.foil.0 }} 0%,{{ r.foil.1 }} 42%,{{ r.foil.2 }} 78%,{{ r.foil.1 }} 100%);--foil-deep:{{ r.foil.2 }}}{% endfor %}</style>
 {% for block_ld in ld %}<script type="application/ld+json">{{ block_ld|safe }}</script>
 {% endfor %}
@@ -32,7 +30,7 @@
 
 <div class="util">
   <div class="wrap util__in">
-    <p class="util__note"><span class="util__dot" aria-hidden="true"></span>Private journeys in seven lands · a planner replies within one working day</p>
+    <p class="util__note"><span class="util__dot" aria-hidden="true"></span>Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan · a planner replies within one working day</p>
     <nav class="util__links" aria-label="Contact">
       {% if tel %}<a href="tel:{{ tel }}" data-cta="util-call">{{ SITE.phone }}</a>{% endif %}
       {% if wa_base %}<a href="{{ wa_base }}?text={{ wa_text }}" data-cta="util-whatsapp" rel="noopener">WhatsApp</a>{% endif %}
@@ -45,33 +43,33 @@
 
 <header class="mast {% block mast_class %}mast--light{% endblock %}">
   <div class="wrap mast__in">
-    <a class="wordmark" href="{% url 'home' %}" aria-label="Go Sikkim Tours, home">Tales <i>of</i> Luxury</a>
+    <a class="wordmark" href="{% url 'home' %}" aria-label="Go Sikkim Tours, home">Go <i>Sikkim</i> Tours</a>
     {% include "hills/partials/nav.html" %}
     <div class="mast__cta">
       <button class="icon-btn" type="button" data-search-open aria-label="Search the site"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
-      <a class="btn btn--brass mast__plan" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="header-plan">Plan my journey</a>
+      <a class="btn btn--brass mast__plan" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="header-plan">Plan my trip</a>
       <button class="burger" type="button" data-sheet-open aria-label="Open menu"><span></span></button>
     </div>
   </div>
 </header>
 
 <div class="sheet" role="dialog" aria-modal="true" aria-label="Menu">
-  <div class="sheet__top"><span class="wordmark">Tales <i>of</i> Luxury</span><button class="sheet__close" type="button" data-sheet-close aria-label="Close menu">×</button></div>
-  <button class="sheet__search" type="button" data-search-open><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg> Search places, journeys, guides</button>
-  <details class="acc" open><summary>Lands</summary><div class="sheet__lands">{% for r in nav_regions %}<a href="{{ r.url }}" data-land="{{ r.slug }}"><span class="lbadge lbadge--foil">{% icon r.slug %}</span><span><b>{{ r.name }}</b><small>{{ r.palette }}</small></span></a>{% endfor %}</div></details>
-  <details class="acc"><summary>Journeys</summary><div class="sheet__links"><a href="{% url 'journeys' %}">Every journey</a>{% for t in nav_themes|slice:":7" %}<a href="{{ t.url }}">{{ t.name }}</a>{% endfor %}</div></details>
+  <div class="sheet__top"><span class="wordmark">Go <i>Sikkim</i> Tours</span><button class="sheet__close" type="button" data-sheet-close aria-label="Close menu">×</button></div>
+  <button class="sheet__search" type="button" data-search-open><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg> Search places, packages, fares</button>
+  <details class="acc" open><summary>Destinations</summary><div class="sheet__lands">{% for r in nav_regions %}<a href="{{ r.url }}" data-land="{{ r.slug }}"><span class="lbadge lbadge--foil">{% icon r.slug %}</span><span><b>{{ r.name }}</b><small>{{ r.palette }}</small></span></a>{% endfor %}</div></details>
+  <details class="acc"><summary>Packages</summary><div class="sheet__links"><a href="{% url 'journeys' %}">Every package</a>{% for t in nav_themes|slice:":7" %}<a href="{{ t.url }}">{{ t.name }}</a>{% endfor %}</div></details>
   <details class="acc"><summary>Experiences and stays</summary><div class="sheet__links">{% for k, n in nav_kinds %}<a href="{% url 'experience_kind' k %}">{{ n }}</a>{% endfor %}<a href="{% url 'stays' %}">Stays</a><a href="{% url 'festivals' %}">Festivals</a></div></details>
-  <details class="acc"><summary>Plan</summary><div class="sheet__links"><a href="{% url 'journal' %}">Journal</a><a href="{% url 'guides' %}">Guides</a><a href="{% url 'seasons' %}">Seasons</a><a href="{% url 'tools' %}">Trip tools</a><a href="{% url 'how_we_work' %}">How we work</a><a href="{% url 'contact' %}">Contact</a><a href="{% url 'faq' %}">FAQ</a><a href="{% url 'policies' %}">Policies</a></div></details>
-  <div class="sheet__cta"><a class="btn btn--brass" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="sheet-plan">Plan my journey</a>{% if wa_base %}<a class="btn btn--ghost" href="{{ wa_base }}?text={{ wa_text }}" data-cta="sheet-whatsapp">WhatsApp</a>{% endif %}{% if tel %}<a class="btn btn--ghost" href="tel:{{ tel }}" data-cta="sheet-call">Call</a>{% endif %}</div>
+  <details class="acc"><summary>Plan</summary><div class="sheet__links"><a href="{% url 'journal' %}">Blog</a><a href="{% url 'guides' %}">Guides</a><a href="{% url 'fares' %}">Fare board</a><a href="{% url 'stories' %}">Local stories</a><a href="{% url 'seasons' %}">Seasons</a><a href="{% url 'tools' %}">Trip tools</a><a href="{% url 'how_we_work' %}">How we work</a><a href="{% url 'contact' %}">Contact</a><a href="{% url 'faq' %}">FAQ</a><a href="{% url 'policies' %}">Policies</a></div></details>
+  <div class="sheet__cta"><a class="btn btn--brass" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="sheet-plan">Plan my trip</a>{% if wa_base %}<a class="btn btn--ghost" href="{{ wa_base }}?text={{ wa_text }}" data-cta="sheet-whatsapp">WhatsApp</a>{% endif %}{% if tel %}<a class="btn btn--ghost" href="tel:{{ tel }}" data-cta="sheet-call">Call</a>{% endif %}</div>
 </div>
 
 <div class="search" role="dialog" aria-modal="true" aria-label="Search" hidden>
   <div class="search__box wrap">
     <label class="sr-only" for="q">Search</label>
-    <input id="q" type="search" placeholder="Search places, journeys, stays, guides…" autocomplete="off" data-search-url="{% url 'search_index' %}">
+    <input id="q" type="search" placeholder="Search places, packages, stays, fares…" autocomplete="off" data-search-url="{% url 'search_index' %}">
     <button type="button" class="sheet__close" data-search-close aria-label="Close search">×</button>
     <ul class="search__results" aria-live="polite"></ul>
-    <p class="small search__hint">Try "Udaipur", "tiger", "honeymoon", "Ladakh in July"</p>
+    <p class="small search__hint">Try "Gangtok", "toy train", "rhino", "Bhutan permit"</p>
   </div>
 </div>
 
@@ -85,28 +83,28 @@
 <footer class="foot">
   <div class="wrap">
     <div class="foot__top">
-      <p class="foot__big">Seven lands,<br><i>told slowly</i></p>
+      <p class="foot__big">The Eastern Himalaya,<br><i>at honest prices</i></p>
       <div class="foot__contact">
-        <a class="fcard" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="footer-plan"><b>Plan online</b><span>Six questions, a first route within one working day</span></a>
+        <a class="fcard" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="footer-plan"><b>Plan online</b><span>A few questions, a first route and price within one working day</span></a>
         {% if wa_base %}<a class="fcard" href="{{ wa_base }}?text={{ wa_text }}" data-cta="footer-whatsapp"><b>WhatsApp a planner</b><span>Quick questions, quick answers</span></a>{% endif %}
         <a class="fcard" href="{% if tel %}tel:{{ tel }}{% else %}mailto:{{ SITE.email }}{% endif %}" data-cta="footer-contact"><b>{% if tel %}Call {{ SITE.phone }}{% else %}Write to us{% endif %}</b><span>{{ SITE.email }}</span></a>
       </div>
     </div>
     <form class="letter" method="post" action="{% url 'subscribe' %}">
       {% csrf_token %}
-      <div><h2 class="h-s">The Folio letter</h2><p>One email a month: which land is at its best, festival dates, new journeys. No offers you did not ask for.</p></div>
+      <div><h2 class="h-s">The hill letter</h2><p>One email a month: which roads are open, which valley is at its best, festival dates and fare changes. No spam.</p></div>
       <div class="letter__row"><label class="sr-only" for="lt-email">Email</label><input id="lt-email" type="email" name="email" required placeholder="Your email"><input type="hidden" name="source_page" value="{{ request.path }}"><input type="text" name="website" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true"><button class="btn btn--brass" type="submit" data-cta="newsletter">Subscribe</button></div>
     </form>
     <div class="foot__cols">
-      <div><h3>Lands</h3><ul>{% for r in nav_regions %}<li><a href="{{ r.url }}" class="foot__land" data-land="{{ r.slug }}"><span class="lbadge lbadge--sm lbadge--foil">{% icon r.slug %}</span>{{ r.name }}</a></li>{% endfor %}</ul></div>
-      <div><h3>Popular journeys</h3><ul>{% for j in nav_popular|slice:":7" %}<li><a href="{{ j.url }}">{{ j.title }}</a></li>{% endfor %}</ul></div>
+      <div><h3>Destinations</h3><ul>{% for r in nav_regions %}<li><a href="{{ r.url }}" class="foot__land" data-land="{{ r.slug }}"><span class="lbadge lbadge--sm lbadge--foil">{% icon r.slug %}</span>{{ r.name }}</a></li>{% endfor %}</ul></div>
+      <div><h3>Popular packages</h3><ul>{% for j in nav_popular|slice:":7" %}<li><a href="{{ j.url }}">{{ j.title }}</a></li>{% endfor %}</ul></div>
       <div><h3>Travel styles</h3><ul>{% for t in nav_themes|slice:":7" %}<li><a href="{{ t.url }}">{{ t.name }}</a></li>{% endfor %}<li><a href="{% url 'themes' %}">All styles</a></li></ul></div>
-      <div><h3>Plan</h3><ul><li><a href="{% url 'journal' %}">Journal</a></li><li><a href="{% url 'guides' %}">Guides</a></li><li><a href="{% url 'seasons' %}">Season almanac</a></li><li><a href="{% url 'festivals' %}">Festivals</a></li><li><a href="{% url 'routes' %}">Routes</a></li><li><a href="{% url 'tools' %}">Trip tools</a></li><li><a href="{% url 'experiences' %}">Experiences</a></li></ul></div>
+      <div><h3>Plan</h3><ul><li><a href="{% url 'journal' %}">Blog</a></li><li><a href="{% url 'guides' %}">Guides</a></li><li><a href="{% url 'fares' %}">Fare board</a></li><li><a href="{% url 'stories' %}">Local stories</a></li><li><a href="{% url 'tool_altitude' %}">Altitude ladder</a></li><li><a href="{% url 'seasons' %}">Season almanac</a></li><li><a href="{% url 'festivals' %}">Festivals</a></li><li><a href="{% url 'routes' %}">Routes</a></li><li><a href="{% url 'tools' %}">Trip tools</a></li><li><a href="{% url 'experiences' %}">Experiences</a></li></ul></div>
       <div><h3>Company</h3><ul><li><a href="{% url 'about' %}">About us</a></li><li><a href="{% url 'how_we_work' %}">How we work</a></li><li><a href="{% url 'contact' %}">Contact</a></li><li><a href="{% url 'faq' %}">FAQ</a></li><li><a href="{% url 'photo_credits' %}">Photo credits</a></li><li><a href="{% url 'html_sitemap' %}">Sitemap</a></li></ul></div>
       <div><h3>Policies</h3><ul>{% for k, n in nav_policies %}<li><a href="{% url 'policy' k %}">{{ n }}</a></li>{% endfor %}</ul></div>
     </div>
     <div class="foot__trust">
-      <span>[Ministry of Tourism approval no.]</span><span>[Industry memberships]</span><span>Payments: [UPI · bank transfer · cards]</span><span>No payment to start · written, itemised quotes</span>
+      <span>[Sikkim Tourism registration no.]</span><span>[Industry memberships]</span><span>Payments: [UPI · bank transfer · cards]</span><span>No payment to start · written, itemised quotes</span>
     </div>
     <div class="foot__base">
       <span>© {% now "Y" %} Go Sikkim Tours · {{ SITE.address }}</span>
@@ -127,12 +125,12 @@
     <a href="mailto:{{ SITE.email }}" data-cta="fab-email"><b>Email</b><span>{{ SITE.email }}</span></a>
   </div>
   <button class="fab__toggle" type="button" aria-expanded="false" aria-controls="fab-panel" aria-label="Contact options"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 10h8M8 13h5"/></svg></button>
-  <a class="fab__main" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="fab-main">{% block fab_label %}Plan my journey{% endblock %}</a>
+  <a class="fab__main" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="fab-main">{% block fab_label %}Plan my trip{% endblock %}</a>
 </div>
 <nav class="dock" aria-label="Quick contact">
   {% if wa_base %}<a href="{{ wa_base }}?text={{ wa_text }}" data-cta="dock-whatsapp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/></svg>WhatsApp</a>{% else %}<a href="mailto:{{ SITE.email }}" data-cta="dock-email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Email</a>{% endif %}
   {% if tel %}<a href="tel:{{ tel }}" data-cta="dock-call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Call</a>{% else %}<a href="{% url 'contact' %}#callback" data-cta="dock-callback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Call back</a>{% endif %}
-  <a class="dock__main" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="dock-plan">Plan my journey</a>
+  <a class="dock__main" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="dock-plan">Plan my trip</a>
 </nav>
 {% endblock %}
 

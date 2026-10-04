@@ -1,13 +1,15 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}Trip tools: season finder, budget builder, permits · Go Sikkim Tours{% endblock %}
+{% block title %}Trip tools: season finder, budget builder, permits, fares · Go Sikkim Tours{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
   <p class="eyebrow">Trip tools</p><h1 class="h-hero">Plan it <span class="accent">yourself, first</span></h1>
-  <p class="lede">Three tools our planners use every day. Free, no sign-up, and nothing you enter leaves your browser.</p></div></header>
+  <p class="lede">Tools our planners use every day. Free, no sign-up, and nothing you enter leaves your browser.</p></div></header>
 <section class="wrap" style="padding-bottom: 96px"><div class="toc">
-  <a class="toc__row" href="{% url 'tool_season' %}"><span class="lbadge">{% icon "calendar" %}</span><span class="toc__name"><b>Season finder</b><span>Pick a month and see every place at its best</span></span><span class="toc__when">Every land</span><span class="toc__arrow" aria-hidden="true">→</span></a>
-  <a class="toc__row" href="{% url 'tool_budget' %}"><span class="lbadge">{% icon "star" %}</span><span class="toc__name"><b>Budget builder</b><span>A planning range for nights, travellers and hotel level</span></span><span class="toc__when">INR</span><span class="toc__arrow" aria-hidden="true">→</span></a>
-  <a class="toc__row" href="{% url 'tool_permits' %}"><span class="lbadge">{% icon "shield" %}</span><span class="toc__name"><b>Permits</b><span>What each land asks of Indian and foreign travellers</span></span><span class="toc__when">Check current status</span><span class="toc__arrow" aria-hidden="true">→</span></a>
-  <a class="toc__row" href="{% url 'seasons' %}"><span class="lbadge">{% icon "compass" %}</span><span class="toc__name"><b>Season almanac</b><span>Every land, every month, on one page</span></span><span class="toc__when">Month by month</span><span class="toc__arrow" aria-hidden="true">→</span></a>
+  <a class="toc__row" href="{% url 'tool_season' %}"><span class="lbadge">{% icon "calendar" %}</span><span class="toc__name"><b>Season finder</b><span>Pick a month and see every place at its best</span></span><span class="toc__when">Every destination</span><span class="toc__arrow" aria-hidden="true">→</span></a>
+  <a class="toc__row" href="{% url 'tool_budget' %}"><span class="lbadge">{% icon "star" %}</span><span class="toc__name"><b>Budget builder</b><span>A planning range for nights, travellers and tier</span></span><span class="toc__when">INR</span><span class="toc__arrow" aria-hidden="true">→</span></a>
+  <a class="toc__row" href="{% url 'tool_permits' %}"><span class="lbadge">{% icon "shield" %}</span><span class="toc__name"><b>Permits</b><span>What each destination asks of Indian and foreign travellers</span></span><span class="toc__when">Check current status</span><span class="toc__arrow" aria-hidden="true">→</span></a>
+  <a class="toc__row" href="{% url 'tool_altitude' %}"><span class="lbadge">{% icon "mountain" %}</span><span class="toc__name"><b>Altitude ladder</b><span>Every place by height, from the plains to 5,000 m</span></span><span class="toc__when">Sleep high slowly</span><span class="toc__arrow" aria-hidden="true">→</span></a>
+  <a class="toc__row" href="{% url 'fares' %}"><span class="lbadge">{% icon "jeep" %}</span><span class="toc__name"><b>Fare board</b><span>Shared jeep and reserved car fares on every route</span></span><span class="toc__when">Indicative INR</span><span class="toc__arrow" aria-hidden="true">→</span></a>
+  <a class="toc__row" href="{% url 'seasons' %}"><span class="lbadge">{% icon "compass" %}</span><span class="toc__name"><b>Season almanac</b><span>Every destination, every month, on one page</span></span><span class="toc__when">Month by month</span><span class="toc__arrow" aria-hidden="true">→</span></a>
 </div></section>
 {% endblock %}

@@ -1,13 +1,13 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}Luxury hotels, palaces and camps we book · Go Sikkim Tours{% endblock %}
-{% block description %}Palace hotels, safari lodges, tented camps and houseboats we book across Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa and UP &amp; Bihar.{% endblock %}
+{% block title %}Hotels, homestays and lodges we book · Go Sikkim Tours{% endblock %}
+{% block description %}Homestays, hill hotels, forest lodges and tea bungalows we book across Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan, at Budget, Value and Comfort levels.{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
-  <p class="eyebrow">Stays</p><h1 class="h-hero">Rooms <span class="accent">worth the trip</span></h1>
-  <p class="lede">Palaces, lodges, camps and boats we know well. We choose by room category as much as by hotel, and quote for your dates.</p></div></header>
+  <p class="eyebrow">Stays</p><h1 class="h-hero">Rooms <span class="accent">at every budget</span></h1>
+  <p class="lede">Village homestays, hill hotels, forest lodges and tea bungalows we know well. We choose by room category as much as by hotel, and quote for your dates.</p></div></header>
 <section class="wrap" style="padding-bottom: 96px">
   <div class="filters" data-filter-group="#st-list" role="group" aria-label="Filter stays">
-    <button type="button" data-key="region" data-value="" aria-pressed="true">All lands</button>
+    <button type="button" data-key="region" data-value="" aria-pressed="true">Everywhere</button>
     {% for r in regions %}<button type="button" data-key="region" data-value="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endfor %}
   </div>
   <div id="st-list">{% for r in regions %}{% if r.stays %}<section class="block" data-section style="margin-bottom: 64px">

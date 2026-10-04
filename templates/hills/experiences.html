@@ -1,14 +1,14 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}Private experiences in Nepal and India · Go Sikkim Tours{% endblock %}
-{% block description %}Private experiences: safaris, dawn boats, palace dinners, monastery mornings, cooking and craft visits across seven lands.{% endblock %}
+{% block title %}Things to do in Sikkim, Darjeeling, the Dooars and Bhutan · Go Sikkim Tours{% endblock %}
+{% block description %}Things to do across Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan: monastery mornings, toy train rides, jeep safaris, tea garden walks, snow days and village homestays.{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
   <p class="eyebrow">Experiences</p><h1 class="h-hero">Hours <span class="accent">to plan around</span></h1>
-  <p class="lede">The moments a journey is remembered by. Every one is private and can be added to any route in its region.</p></div></header>
+  <p class="lede">The hours a trip is remembered by. Every one comes with its cost and can be added to any route in its region.</p></div></header>
 <section class="wrap" style="padding-bottom: 96px">
   <div class="chip-row" style="margin-bottom: 28px">{% for k, n in kind_links %}<a class="chip chip--line" style="font-size: 12px; padding: 12px 18px" href="{% url 'experience_kind' k %}">{{ n }}</a>{% endfor %}</div>
   <div class="filters" data-filter-group="#ex-list" role="group" aria-label="Filter experiences">
-    <button type="button" data-key="region" data-value="" aria-pressed="true">All lands</button>
+    <button type="button" data-key="region" data-value="" aria-pressed="true">Everywhere</button>
     {% for r in regions %}<button type="button" data-key="region" data-value="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endfor %}
     <label>Kind <select data-key="kind"><option value="">Any</option>{% for k in kinds %}<option value="{{ k }}">{{ k|capfirst }}</option>{% endfor %}</select></label>
   </div>
