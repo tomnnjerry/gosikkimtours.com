@@ -1,0 +1,235 @@
+{
+  "slug": "kalimpong-villages-to-gangtok-7-nights",
+  "title": "Kalimpong villages to Gangtok in seven nights",
+  "summary": "A week that starts in Kalimpong, loops through the forest villages of Lolegaon, Lava and Sillery Gaon, then crosses into Sikkim via Rhenock for two nights in Gangtok. It shows the Kalimpong hills in depth and ends in Sikkim's capital.",
+  "meta_description": "7-night trip: Kalimpong, Lolegaon, Lava, Sillery Gaon and Gangtok. Canopy walk, monasteries, Teesta view, then Sikkim. Budget, Value, Comfort prices.",
+  "nights": 7,
+  "start": "NJP or Bagdogra",
+  "end": "Bagdogra or NJP",
+  "pace": "Moderate",
+  "max_altitude_m": 2200,
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    1
+  ],
+  "themes": [
+    "homestays",
+    "monasteries",
+    "treks-and-walks",
+    "photography",
+    "family-trips"
+  ],
+  "stops": [
+    {
+      "place": "kalimpong-town",
+      "nights": 2
+    },
+    {
+      "place": "lolegaon",
+      "nights": 1
+    },
+    {
+      "place": "lava",
+      "nights": 1
+    },
+    {
+      "place": "sillery-gaon",
+      "nights": 1
+    },
+    {
+      "place": "gangtok",
+      "nights": 2
+    }
+  ],
+  "intro": [
+    "This trip follows the old trade route out of Kalimpong. From the town you head into the forests of Lolegaon and Lava, then north through Algarah and Pedong to Sillery Gaon, on the track mule caravans once took towards Jelep La. From there you drop to Rhenock and cross into Sikkim for Gangtok.",
+    "Drives are mostly 1–3 hours, and each village gets a full night. The highest point is Lava at about 2,195 m, so altitude is not a concern. Foreign travellers need a Sikkim Inner Line Permit for the last two nights."
+  ],
+  "highlights": [
+    "The canopy walk and Jhandi Dara sunrise at Lolegaon.",
+    "Lava's monastery and the forest at the edge of Neora Valley.",
+    "Ramitey Dara and the Teesta bends from Sillery Gaon.",
+    "Pedong and the Lepcha history of Damsang on the old Tibet route.",
+    "Two nights in Gangtok to finish, with MG Marg and the monasteries."
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Siliguri to Kalimpong",
+      "place": "kalimpong-town",
+      "overnight": "Kalimpong",
+      "drive": "70 km, 2.5–3 hours",
+      "meals": "Dinner",
+      "text": "Pick-up at NJP or Bagdogra and drive up the Teesta on NH10 to Kalimpong, arriving by early afternoon. After lunch, walk the main bazaar and, if it is Wednesday or Saturday, the haat with its spices, churpi and village produce. Try momos and pick up a piece of Kalimpong cheese. Dinner at your hotel and a briefing on the week ahead."
+    },
+    {
+      "day": 2,
+      "title": "Kalimpong sights",
+      "place": "kalimpong-town",
+      "overnight": "Kalimpong",
+      "drive": "About 25 km of local sightseeing",
+      "meals": "Breakfast, dinner",
+      "text": "Morning at Zang Dhok Palri on Durpin Hill, then past Morgan House and up to Deolo for the view. Stop at Dr Graham's Homes if visits are allowed and at a cactus or orchid nursery. In the afternoon visit the Lepcha Museum, which gives useful background for the villages ahead. Draw enough cash for the next four days, since ATMs in the villages are few."
+    },
+    {
+      "day": 3,
+      "title": "Kalimpong to Lolegaon",
+      "place": "lolegaon",
+      "overnight": "Lolegaon",
+      "drive": "55 km, 2–2.5 hours",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Drive via Algarah and the forest road to Lolegaon, a Lepcha village at about 1,675 m. After lunch at your homestay, walk to the heritage forest and the canopy walk among old oak and cypress. In the late afternoon stroll to Kafer for the view, if the sky is clear. Dinner with your host family, who can tell you about Lepcha life in the village."
+    },
+    {
+      "day": 4,
+      "title": "Jhandi Dara sunrise, then Lava",
+      "place": "lava",
+      "overnight": "Lava",
+      "drive": "24 km, 1 hour",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Before dawn, drive to Jhandi Dara for sunrise over the Kanchenjunga range among the prayer flags. After breakfast, take the forest road to Lava. Visit the Kagyu Thekchen Ling Monastery and walk the quiet roads around the village for birds. With an early start, a short Neora Valley visit or Changey Falls is possible; ask us to add it when the park is open."
+    },
+    {
+      "day": 5,
+      "title": "Lava to Sillery Gaon via Pedong",
+      "place": "sillery-gaon",
+      "overnight": "Sillery Gaon",
+      "drive": "About 45 km, 2–2.5 hours",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Drive back to Algarah and north to Pedong on the old road towards Jelep La. Visit the Sangchen Dorjee monastery and, if the road allows, the ruins of Damsang Fort. A local jeep takes you up to Sillery Gaon. In the afternoon walk to Ramitey Dara for the view of the Teesta far below, then enjoy dinner with your homestay family."
+    },
+    {
+      "day": 6,
+      "title": "Sillery Gaon to Gangtok",
+      "place": "gangtok",
+      "overnight": "Gangtok",
+      "drive": "About 80 km, 3.5–4 hours",
+      "meals": "Breakfast",
+      "text": "Sunrise from the village, then drive down via Pedong to Rhenock and into East Sikkim, continuing via Rorathang and Ranipool to Gangtok. Foreign travellers should carry their Sikkim Inner Line Permit, applied for in advance; we confirm where it can be issued for this route. Check current status before you travel. Arrive by early afternoon and walk MG Marg in the evening."
+    },
+    {
+      "day": 7,
+      "title": "Gangtok monasteries and viewpoints",
+      "place": "gangtok",
+      "overnight": "Gangtok",
+      "drive": "About 40 km of local sightseeing",
+      "meals": "Breakfast",
+      "text": "A day in Gangtok with a Sikkim-registered car: Enchey Monastery, the Namgyal Institute of Tibetology, Do Drul Chorten and a viewpoint such as Tashi or Ganesh Tok. Rumtek Monastery across the valley can be added. Afternoon free for shopping or cafes on MG Marg. Those with more time can add a permit day trip to Tsomgo Lake, booked a day ahead."
+    },
+    {
+      "day": 8,
+      "title": "Gangtok to Bagdogra or NJP",
+      "place": "siliguri",
+      "overnight": "",
+      "drive": "About 125 km, 4.5–5 hours",
+      "meals": "Breakfast",
+      "text": "Leave Gangtok after breakfast and drive down to the Teesta at Singtam and Rangpo, then along NH10 to Siliguri. You reach Bagdogra or NJP by mid-afternoon. Book flights after 3pm, and later in the monsoon, since landslides on NH10 can delay the drive. Check current status before you travel."
+    }
+  ],
+  "stays": [
+    "morgan-house-wbtdc-kalimpong",
+    "mayfair-himalayan-spa-resort-kalimpong",
+    "lolegaon-village-homestays",
+    "wbfdc-lava-nature-resort",
+    "sillery-gaon-village-homestays"
+  ],
+  "includes": [
+    "Seven nights' accommodation in the tier you choose",
+    "Meals as listed: all meals in the villages, breakfast and dinner in Kalimpong, breakfast in Gangtok",
+    "Private car from NJP or Bagdogra through Kalimpong and the villages",
+    "Sikkim-registered car for Gangtok sightseeing and the drive down",
+    "Sunrise cars at Lolegaon and local jeep at Sillery Gaon"
+  ],
+  "excludes": [
+    "Neora Valley permits and guides if added",
+    "Tsomgo Lake permit day trip",
+    "Lunches in Kalimpong and Gangtok, entry fees, donations",
+    "Flights and trains to and from Siliguri",
+    "Tips and personal expenses"
+  ],
+  "good_to_know": [
+    "Foreigners need a Sikkim Inner Line Permit for Gangtok; apply in advance. Check current status before you travel.",
+    "West Bengal cars cannot always run local tours in Sikkim, so we switch to a Sikkim car for Gangtok.",
+    "The last stretch to Sillery Gaon is steep; you may switch to a local jeep at Pedong.",
+    "Village homestays are simple; the Comfort tier is about the best rooms available, not luxury.",
+    "Carry cash for four village nights; ATMs are few beyond Kalimpong."
+  ],
+  "tiers": [
+    {
+      "name": "Budget",
+      "price_inr": 22500,
+      "stays": "Simple hotels in Kalimpong and Gangtok, homestays in the villages",
+      "transport": "Shared jeeps where they run, local cars for village transfers",
+      "note": "A full week in the hills at a fair price"
+    },
+    {
+      "name": "Value",
+      "price_inr": 41000,
+      "stays": "Morgan House, WBFDC Lava resort, best-view homestays, a good Gangtok hotel",
+      "transport": "Private car throughout, Sikkim car in Gangtok",
+      "note": "Our recommended way to do this route"
+    },
+    {
+      "name": "Comfort",
+      "price_inr": 68000,
+      "stays": "Mayfair Himalayan Spa Resort, best village rooms, a top Gangtok hotel",
+      "transport": "Private SUV throughout",
+      "note": "Comfort at both ends, best available in between"
+    }
+  ],
+  "price_from_inr": 22500,
+  "save_tips": [
+    "Travel in March, early December or late February, when rates are lower and roads quiet.",
+    "Take shared jeeps for the Siliguri–Kalimpong and Gangtok–Siliguri legs.",
+    "Skip the Comfort hotel in Gangtok and spend the saving on the best village rooms.",
+    "Share sunrise cars and village guides with other guests at your homestay."
+  ],
+  "faqs": [
+    {
+      "q": "Why go from Sillery Gaon to Gangtok instead of back to Kalimpong?",
+      "a": "Sillery Gaon is close to Rhenock in East Sikkim, so continuing to Gangtok avoids doubling back and lets you end in Sikkim's capital. The road follows part of the old trade route towards Jelep La. It also makes it easy to add Tsomgo Lake or the Old Silk Route if you extend the trip."
+    },
+    {
+      "q": "Do foreigners need a permit for this trip?",
+      "a": "Kalimpong and its villages need no permit. Gangtok needs a Sikkim Inner Line Permit for foreigners, which can be applied for online or obtained at certain entry points such as Rangpo and Melli. Since this route enters via Rhenock, we arrange the permit in advance. Check current status before you travel."
+    },
+    {
+      "q": "Is this trip too much driving?",
+      "a": "Most days have 1–3 hours of driving on slow hill roads, and two longer days of about 4 hours: Sillery Gaon to Gangtok and Gangtok to the plains. The pace leaves afternoons free in each village. Carry motion sickness tablets if you are prone to car sickness."
+    },
+    {
+      "q": "Can I include Neora Valley National Park?",
+      "a": "Yes, if you travel between mid-September and mid-June. With a very early start from Lolegaon you can reach Lava for a short park visit, but it is rushed. Better to add a second night in Lava, making this an eight-night trip. Check current status before you travel."
+    },
+    {
+      "q": "Is the trip suitable for families?",
+      "a": "Yes. The altitude stays below about 2,200 m, the canopy walk and village walks suit children, and Gangtok adds cafes and easy sights at the end. Rooms in the villages are simple and nights cool. Tell us children's ages so we can choose homestays with suitable rooms and food."
+    },
+    {
+      "q": "What is the best season for this route?",
+      "a": "October and November give the clearest views; March to May brings flowers and birds with more haze; December to February is cold and often clear. We do not run it from mid-June to mid-September, when landslides and rain make the village roads slow and views are rare."
+    },
+    {
+      "q": "Can I do this route in reverse?",
+      "a": "Yes. Start in Gangtok, cross to Sillery Gaon via Rhenock, then Lava, Lolegaon and Kalimpong, and drive down to Siliguri. Prices are the same. Starting in Gangtok gives foreign travellers a simpler permit entry at Rangpo."
+    },
+    {
+      "q": "What kind of car is used?",
+      "a": "In the Budget tier, shared jeeps where they run and local cars for village legs. In Value and Comfort, a private car or SUV with driver from Siliguri through the villages, then a Sikkim-registered car for Gangtok sightseeing, since local rules limit outside cars there. All drivers know the hill roads."
+    },
+    {
+      "q": "How much cash should I carry?",
+      "a": "Plan for about ₹1,000–1,500 a day per person for snacks, tips, entry fees and small purchases, more if you add Neora Valley or Tsomgo Lake. Draw cash in Kalimpong before day three, since Lolegaon, Lava and Sillery Gaon have few or no ATMs and digital payments may fail when signal drops."
+    }
+  ]
+}

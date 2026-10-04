@@ -1,0 +1,183 @@
+{
+  "slug": "kalimpong-sillery-gaon-3-nights",
+  "title": "Kalimpong and Sillery Gaon in three nights",
+  "summary": "A short, easy trip: two nights in Kalimpong for Durpin, Deolo, the nurseries and the haat, then a night in the homestay village of Sillery Gaon for Kanchenjunga and the Teesta view from Ramitey Dara. Good for a long weekend from Siliguri or Kolkata.",
+  "meta_description": "3-night Kalimpong and Sillery Gaon trip from NJP: Durpin monastery, nurseries, haat, Ramitey Dara and Pedong. Budget, Value and Comfort prices.",
+  "nights": 3,
+  "start": "NJP or Bagdogra",
+  "end": "NJP or Bagdogra",
+  "pace": "Easy",
+  "max_altitude_m": 1900,
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2
+  ],
+  "themes": [
+    "weekend-breaks",
+    "homestays",
+    "monasteries",
+    "shoestring"
+  ],
+  "stops": [
+    {
+      "place": "kalimpong-town",
+      "nights": 2
+    },
+    {
+      "place": "sillery-gaon",
+      "nights": 1
+    }
+  ],
+  "intro": [
+    "This is the shortest trip we plan in the Kalimpong hills, and one of the most relaxed. The drives are short: 2.5–3 hours up from Siliguri, 1.5 hours from Kalimpong to Sillery Gaon, and about 3.5–4 hours back down to the plains.",
+    "You get the two sides of the district: an old trading town with monasteries, colonial buildings and a twice-weekly haat, and a quiet ridge village where a family cooks for you and the mountains fill the window. Time the trip to include a Wednesday or Saturday if you want the haat at its fullest."
+  ],
+  "highlights": [
+    "Morning prayers at Zang Dhok Palri on Durpin Hill.",
+    "The view from Deolo, Kalimpong's highest point.",
+    "Kalimpong cheese, momos and the haat bazaar.",
+    "Sunrise over Kanchenjunga from a Sillery Gaon homestay.",
+    "The bends of the Teesta from Ramitey Dara."
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Siliguri to Kalimpong",
+      "place": "kalimpong-town",
+      "overnight": "Kalimpong",
+      "drive": "70 km, 2.5–3 hours",
+      "meals": "Dinner",
+      "text": "Pick-up at NJP station or Bagdogra airport, then drive through Sevoke and up the Teesta on NH10. Stop at the river at Teesta Bazaar or Chitre for tea and a view. You reach Kalimpong by early afternoon. After lunch, walk the main bazaar and the area around the motor stand, and try momos or thukpa in one of the small eateries. In the evening, rest at your hotel and plan the next morning's early start for Durpin."
+    },
+    {
+      "day": 2,
+      "title": "Durpin, Deolo and the nurseries",
+      "place": "kalimpong-town",
+      "overnight": "Kalimpong",
+      "drive": "About 25 km of local sightseeing",
+      "meals": "Breakfast, dinner",
+      "text": "Start early at Zang Dhok Palri on Durpin Hill, when monks are at prayer and the mountains are most likely to be clear. Walk past Morgan House, then drive to Deolo Hill for the view over the Teesta. Stop at Dr Graham's Homes if visits are allowed, and at a cactus or orchid nursery. In the afternoon, explore the haat if it is Wednesday or Saturday, and pick up Kalimpong cheese and lollipops on the way back."
+    },
+    {
+      "day": 3,
+      "title": "Kalimpong to Sillery Gaon via Pedong",
+      "place": "sillery-gaon",
+      "overnight": "Sillery Gaon",
+      "drive": "30 km, 1.5 hours",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Drive east through Algarah to Pedong, where the Sangchen Dorjee monastery dates from Bhutanese rule. A local jeep takes you up the last steep stretch to Sillery Gaon. After lunch with your host family, walk about 3 km to Ramitey Dara for the view of the Teesta winding far below. Return for evening tea on the balcony as the light fades on the snow peaks, and a home-cooked dinner."
+    },
+    {
+      "day": 4,
+      "title": "Sunrise, then down to Siliguri",
+      "place": "siliguri",
+      "overnight": "",
+      "drive": "95–100 km, 3.5–4 hours",
+      "meals": "Breakfast",
+      "text": "Wake early for sunrise over the Kanchenjunga range, best from October to February. After breakfast, drive down via Pedong and Kalimpong, or via Algarah and Lava to Gorubathan if NH10 is blocked. You reach NJP or Bagdogra by early afternoon, in time for evening trains and flights. Leave a margin of at least two hours in the monsoon months."
+    }
+  ],
+  "stays": [
+    "morgan-house-wbtdc-kalimpong",
+    "mayfair-himalayan-spa-resort-kalimpong",
+    "sillery-gaon-village-homestays"
+  ],
+  "includes": [
+    "Three nights' accommodation in the tier you choose",
+    "Meals as listed: breakfast and dinner in Kalimpong, all meals in Sillery Gaon",
+    "Transport from NJP or Bagdogra and back, plus local sightseeing",
+    "Local jeep between Pedong and Sillery Gaon",
+    "Help with bookings and a phone contact throughout"
+  ],
+  "excludes": [
+    "Lunches in Kalimpong and snacks",
+    "Entry fees, nursery tickets and donations",
+    "Guides at Ramitey Dara or Damsang Fort",
+    "Flights and trains to and from Siliguri",
+    "Tips and personal expenses"
+  ],
+  "good_to_know": [
+    "Plan for a Wednesday or Saturday in Kalimpong if you want the full haat.",
+    "Large vehicles may not reach Sillery Gaon; you may switch to a local jeep at Pedong.",
+    "Kalimpong cheese sweats in heat; buy it on your last day in town and keep it cool.",
+    "In the monsoon, landslides on NH10 can delay the drive. Check current status before you travel."
+  ],
+  "tiers": [
+    {
+      "name": "Budget",
+      "price_inr": 9500,
+      "stays": "Simple hotel in Kalimpong, homestay in Sillery Gaon",
+      "transport": "Shared jeeps to Kalimpong and Pedong; shared local car for sightseeing",
+      "note": "Cheapest way to see both town and village"
+    },
+    {
+      "name": "Value",
+      "price_inr": 17500,
+      "stays": "Morgan House or a good mid-range hotel, best-view homestay in Sillery",
+      "transport": "Private car throughout, local jeep for the last stretch",
+      "note": "Our most booked option for couples and families"
+    },
+    {
+      "name": "Comfort",
+      "price_inr": 32000,
+      "stays": "Mayfair Himalayan Spa Resort, best homestay in Sillery Gaon",
+      "transport": "Private SUV throughout",
+      "note": "Heritage rooms and a spa after the village night"
+    }
+  ],
+  "price_from_inr": 9500,
+  "save_tips": [
+    "Travel by shared jeep from Siliguri and book a car only for the sightseeing day.",
+    "Go in December, January or March, when hotel rates are lower and skies are often clear.",
+    "Share a sightseeing car with other travellers from your hotel.",
+    "Eat in local momo shops and the bazaar rather than hotel restaurants."
+  ],
+  "faqs": [
+    {
+      "q": "Is three nights enough for Kalimpong and Sillery Gaon?",
+      "a": "Yes, for the main sights at an easy pace. Two nights in Kalimpong cover Durpin, Deolo, the nurseries and the bazaar, and one night in Sillery Gaon gives you a sunrise and Ramitey Dara. If you want Lava or Rishop as well, add two nights, or choose our five-night trip instead."
+    },
+    {
+      "q": "Can I start this trip from Bagdogra airport?",
+      "a": "Yes. Bagdogra is about 80 km from Kalimpong, roughly 3 hours by car. Morning flights let you reach Kalimpong by mid-afternoon. On the last day, aim for a flight after 2pm, and later in the monsoon, since landslides on NH10 can add delays."
+    },
+    {
+      "q": "What is included in the Budget tier?",
+      "a": "A simple hotel in Kalimpong and a homestay in Sillery Gaon with all meals, shared jeeps from Siliguri to Kalimpong and from Kalimpong to Pedong, and a shared car for sightseeing. The local jeep up to Sillery Gaon is included. Lunches in town and entry fees are extra. Prices are indicative per person, twin sharing."
+    },
+    {
+      "q": "Is this trip suitable for elderly travellers?",
+      "a": "Mostly yes. Walks are optional and short, and the highest point is under 2,000 m. The last stretch to Sillery Gaon is steep and bumpy, and some homestays have stairs. Tell us about mobility needs and we will pick rooms close to the road and suggest a Comfort hotel in Kalimpong."
+    },
+    {
+      "q": "Can I do this trip in the monsoon?",
+      "a": "It is possible but not ideal. From June to September landslides can close NH10, the Sillery road gets slippery, and views are rare. If you travel then, keep a spare day at the end and take the Gorubathan route if needed. Check current status before you travel."
+    },
+    {
+      "q": "Will I see Kanchenjunga?",
+      "a": "On clear days, yes, from Durpin, Deolo and Sillery Gaon. October to February gives the best odds, especially at sunrise. From March to May haze often hides the peaks after mid-morning, and from June to September they are usually in cloud. Nobody can promise a view; it is weather."
+    },
+    {
+      "q": "Can I add Lava or Rishop to this trip?",
+      "a": "Yes. Add two nights after Kalimpong: one in Lava for the monastery and a forest walk, one in Rishop for the sunrise view, then go to Sillery Gaon via Algarah and Pedong. That makes a five-night trip. We price it with the same three tiers."
+    },
+    {
+      "q": "Do I need permits for this route?",
+      "a": "No permits are needed for Kalimpong, Pedong or Sillery Gaon, for Indians or foreigners. You need a permit only if you cross into Sikkim, for example towards Aritar or Zuluk from Rhenock. Rules can change. Check current status before you travel."
+    },
+    {
+      "q": "How do I pay and what is your cancellation policy?",
+      "a": "We take a small advance to confirm hotels and the car, with the balance before the trip starts. Homestays and government lodges have their own cancellation rules, which we explain before you pay. If a landslide or road closure forces a change, we rebook or refund unused nights where the property allows."
+    }
+  ]
+}
