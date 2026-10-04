@@ -11,37 +11,110 @@
   "lng": 88.2631,
   "altitude_m": 2045,
   "nights": 3,
-  "best_months": [1, 1, 2, 2, 2, 1, 0, 0, 1, 2, 2, 2],
-  "themes": ["toy-train", "tea-country", "monasteries", "family-trips", "food-trails"],
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2
+  ],
+  "themes": [
+    "toy-train",
+    "tea-country",
+    "monasteries",
+    "family-trips",
+    "food-trails"
+  ],
   "intro": [
     "Darjeeling spreads down a narrow ridge at about 2,045 m, with tea gardens falling away on every side and Kangchenjunga filling the northern sky on clear mornings. The British leased the ridge from the Chogyal of Sikkim in 1835 and built a summer retreat, schools and tea estates. The railway arrived in 1881. Much of that town survives, rebuilt and crowded but still recognisable.",
-    "Most people come for four things: the Darjeeling Himalayan Railway, the tea, the mountain view and the colonial-era centre around Chowrasta and the Mall. Add Tibetan monasteries, the Himalayan Mountaineering Institute and the zoo, with its red pandas and snow leopards, and three days pass quickly.",
-    "Darjeeling is also a working town of Nepali-speaking Gorkhas, Lepchas, Bhutias, Tibetans and Sherpas, and its streets are steep and crowded. Walk rather than drive inside town, start early for the clearest views, and pack warm clothes even in May. October, November and March to May are the best months; winter is cold but often clearest."
+    "Most people come for four things: the Darjeeling Himalayan Railway, the tea, the mountain view and the colonial-era centre around Chowrasta and the Mall. Add Tibetan monasteries, the Himalayan Mountaineering Institute and the zoo, with its red pandas and snow leopards, and three days pass quickly. Food is another reason to linger: momos, thukpa, Nepali thalis and old bakeries sit side by side around Chowrasta and the Chowk Bazar.",
+    "Darjeeling is also a working town of Nepali-speaking Gorkhas, Lepchas, Bhutias, Tibetans and Sherpas, and its streets are steep and crowded. Walk rather than drive inside town, start early for the clearest views, and pack warm clothes even in May. October, November and March to May are the best months; winter is cold but often clearest. Prices are fair outside the peak weeks."
   ],
   "highlights": [
-    {"title": "The toy train joy ride", "text": "A two-hour return trip by steam or diesel to Ghum, with stops at the Batasia Loop and the railway museum."},
-    {"title": "Happy Valley Tea Estate", "text": "Founded in 1854 and only 3 km from town, with garden walks and tastings."},
-    {"title": "HMI and the zoo", "text": "The mountaineering institute founded in 1954, with Tenzing Norgay's story, next to a high-altitude zoo that breeds red pandas and snow leopards."},
-    {"title": "Chowrasta and the Mall", "text": "The flat square at the top of town, ringed by old shops, ponies, benches and tea at Glenary's and Keventer's."},
-    {"title": "Kangchenjunga from the ridge", "text": "On clear mornings from October to May the mountain rises above the town at 8,586 m."},
-    {"title": "Observatory Hill", "text": "The Mahakal temple, where Hindu and Buddhist worship share one hilltop, a short walk from Chowrasta."}
+    {
+      "title": "The toy train joy ride",
+      "text": "A two-hour return trip by steam or diesel to Ghum, with stops at the Batasia Loop and the railway museum."
+    },
+    {
+      "title": "Happy Valley Tea Estate",
+      "text": "Founded in 1854 and only 3 km from town, with garden walks and tastings."
+    },
+    {
+      "title": "HMI and the zoo",
+      "text": "The mountaineering institute founded in 1954, with Tenzing Norgay's story, next to a high-altitude zoo that breeds red pandas and snow leopards."
+    },
+    {
+      "title": "Chowrasta and the Mall",
+      "text": "The flat square at the top of town, ringed by old shops, ponies, benches and tea at Glenary's and Keventer's."
+    },
+    {
+      "title": "Kangchenjunga from the ridge",
+      "text": "On clear mornings from October to May the mountain rises above the town at 8,586 m."
+    },
+    {
+      "title": "Observatory Hill",
+      "text": "The Mahakal temple, where Hindu and Buddhist worship share one hilltop, a short walk from Chowrasta."
+    }
   ],
   "facts": [
-    ["Altitude", "About 2,045 m"],
-    ["From Siliguri", "65 km, 3–3.5 hours"],
-    ["Best for", "Toy train, tea, mountain views, heritage"],
-    ["Nights", "3"],
-    ["Permits", "None for Indians or foreigners"]
+    [
+      "Altitude",
+      "About 2,045 m"
+    ],
+    [
+      "From Siliguri",
+      "65 km, 3–3.5 hours"
+    ],
+    [
+      "Best for",
+      "Toy train, tea, mountain views, heritage"
+    ],
+    [
+      "Nights",
+      "3"
+    ],
+    [
+      "Permits",
+      "None for Indians or foreigners"
+    ]
   ],
   "how_to_reach": [
-    {"mode": "Shared jeep", "text": "Shared jeeps run from Siliguri's Tenzing Norgay Central Bus Terminus and from NJP station to Darjeeling in 3–3.5 hours for ₹250–350 a seat. In Darjeeling they arrive at the Chowk Bazar and old super market stands below the town centre."},
-    {"mode": "Private car", "text": "A reserved car from NJP or Bagdogra takes about 3 hours and costs ₹2,800–3,800 for a small car or more for an Innova. Prepaid counters at both have fixed fares."},
-    {"mode": "Toy train", "text": "The Darjeeling Himalayan Railway's diesel train runs from NJP to Darjeeling, 88 km, in about 7–8 hours. Book on IRCTC. Check current status before you travel, as monsoon landslides sometimes cut services."},
-    {"mode": "Air", "text": "The nearest airport is Bagdogra (IXB), about 70 km away, roughly 3 hours by road."}
+    {
+      "mode": "Shared jeep",
+      "text": "Shared jeeps run from Siliguri's Tenzing Norgay Central Bus Terminus and from NJP station to Darjeeling in 3–3.5 hours for ₹250–350 a seat. In Darjeeling they arrive at the Chowk Bazar and old super market stands below the town centre."
+    },
+    {
+      "mode": "Private car",
+      "text": "A reserved car from NJP or Bagdogra takes about 3 hours and costs ₹2,800–3,800 for a small car or more for an Innova. Prepaid counters at both have fixed fares."
+    },
+    {
+      "mode": "Toy train",
+      "text": "The Darjeeling Himalayan Railway's diesel train runs from NJP to Darjeeling, 88 km, in about 7–8 hours. Book on IRCTC. Check current status before you travel, as monsoon landslides sometimes cut services."
+    },
+    {
+      "mode": "Air",
+      "text": "The nearest airport is Bagdogra (IXB), about 70 km away, roughly 3 hours by road."
+    }
   ],
   "where_to_stay": "Stay within walking distance of Chowrasta: around the Mall, Gandhi Road, Dr Zakir Hussain Road, Robertson Road and Observatory Hill. Budget guesthouses cost ₹1,200–2,500 a night, good mid-range hotels ₹3,500–7,000 and heritage hotels such as the Windamere from about ₹14,000. Rooms facing north get the Kangchenjunga view; ask for one. Lower town near the Chowk Bazar is cheaper but noisy and far from the centre.",
-  "stays": ["darjeeling-town-budget-guesthouses", "windamere-hotel-darjeeling", "glenburn-tea-estate-darjeeling"],
-  "nearby": ["tiger-hill", "kurseong", "mirik", "kalimpong-town"],
+  "stays": [
+    "darjeeling-town-budget-guesthouses",
+    "windamere-hotel-darjeeling",
+    "glenburn-tea-estate-darjeeling"
+  ],
+  "nearby": [
+    "tiger-hill",
+    "kurseong",
+    "mirik",
+    "kalimpong-town"
+  ],
   "tips": [
     "Book the toy train joy ride on IRCTC as soon as your dates are fixed; October and May sell out weeks ahead",
     "Walk inside town; vehicle access around Chowrasta and the Mall is restricted and traffic on Hill Cart Road is slow",
@@ -50,39 +123,100 @@
     "Carry a warm layer even in May; evenings at 2,045 m drop to about 10°C"
   ],
   "costs": [
-    {"item": "Shared jeep, Siliguri to Darjeeling", "inr": "₹250–350 a seat"},
-    {"item": "Toy train joy ride, Darjeeling to Ghum and back", "inr": "₹1,000–1,800 (diesel or steam, indicative)"},
-    {"item": "Zoo and HMI combined entry", "inr": "₹100–150 for Indians, more for foreigners (indicative)"},
-    {"item": "Tea tasting at a garden near town", "inr": "₹200–500"},
-    {"item": "Budget guesthouse room", "inr": "₹1,200–2,500 a night"},
-    {"item": "Local taxi, three-point sightseeing", "inr": "₹1,500–2,500 per car"},
-    {"item": "Momos and tea at a local café", "inr": "₹120–250"}
+    {
+      "item": "Shared jeep, Siliguri to Darjeeling",
+      "inr": "₹250–350 a seat"
+    },
+    {
+      "item": "Toy train joy ride, Darjeeling to Ghum and back",
+      "inr": "₹1,000–1,800 (diesel or steam, indicative)"
+    },
+    {
+      "item": "Zoo and HMI combined entry",
+      "inr": "₹100–150 for Indians, more for foreigners (indicative)"
+    },
+    {
+      "item": "Tea tasting at a garden near town",
+      "inr": "₹200–500"
+    },
+    {
+      "item": "Budget guesthouse room",
+      "inr": "₹1,200–2,500 a night"
+    },
+    {
+      "item": "Local taxi, three-point sightseeing",
+      "inr": "₹1,500–2,500 per car"
+    },
+    {
+      "item": "Momos and tea at a local café",
+      "inr": "₹120–250"
+    }
   ],
-  "local_word": {"word": "Dorje Ling", "language": "Tibetan", "meaning": "Place of the thunderbolt; the usual explanation of the name Darjeeling"},
+  "local_word": {
+    "word": "Dorje Ling",
+    "language": "Tibetan",
+    "meaning": "Place of the thunderbolt; the usual explanation of the name Darjeeling"
+  },
   "story": {
     "title": "The thunderbolt on Observatory Hill",
     "paras": [
       "Long before the British arrived, a small Buddhist monastery stood on the hilltop now called Observatory Hill. The name Darjeeling is usually traced to the Tibetan Dorje Ling, the place of the dorje or thunderbolt, the ritual sceptre of Tibetan Buddhism. Many say it was the name of that monastery.",
       "The Mahakal temple on the same summit is said to have been founded in 1782 by Lama Dorjey Rinzing. Today it is a rare shrine where Hindu priests and Buddhist lamas worship side by side. Shiva lingams sit next to Buddhist images, and the hilltop is hung with thousands of prayer flags.",
-      "In 1835 the East India Company leased the ridge from the Chogyal of Sikkim as a sanatorium, and the town grew around Observatory Hill and Chowrasta. The old monastery was moved away, but the shrine on the summit stayed.",
-      "Walk up from Chowrasta in the early morning and you will see Nepali Hindus ringing bells, Tibetan grandmothers turning prayer wheels and children running between them. Watch out for the monkeys, which take any food left in sight."
+      "In 1835 the East India Company leased the ridge from the Chogyal of Sikkim as a sanatorium, and the town grew around Observatory Hill and Chowrasta. The old monastery was moved away, but the shrine on the summit stayed. The town that grew up around it soon had a sanatorium, churches, boarding schools and, after 1881, a railway station, but local people kept climbing the hill to worship as they always had.",
+      "Walk up from Chowrasta in the early morning and you will see Nepali Hindus ringing bells, Tibetan grandmothers turning prayer wheels and children running between them. Watch out for the monkeys, which take any food left in sight. Prayer flags and temple bells together make it one of the clearest pictures of how faiths share space in the Darjeeling hills."
     ],
     "sources": [
-      {"title": "Darjeeling (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Darjeeling"},
-      {"title": "Mahakal temple (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Mahakal_temple"},
-      {"title": "Told locally in Darjeeling", "url": ""}
+      {
+        "title": "Darjeeling (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Darjeeling"
+      },
+      {
+        "title": "Mahakal temple (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Mahakal_temple"
+      },
+      {
+        "title": "Told locally in Darjeeling",
+        "url": ""
+      }
     ]
   },
   "faqs": [
-    {"q": "How many days do I need in Darjeeling?", "a": "Three nights is right for most travellers. That gives you a Tiger Hill sunrise with Ghum and Batasia, a toy train joy ride, a day for the zoo, HMI, a tea garden and the Mall, and a buffer for cloudy mornings. Two nights is rushed. With five or more nights add Kurseong, Mirik or a trek to Sandakphu."},
-    {"q": "When is the best time to visit Darjeeling?", "a": "October and November bring the clearest views after the monsoon. March to May is warmer, with rhododendrons and first-flush tea, but haze sometimes hides the mountains. December to February is cold, around 2–10°C, yet often very clear and quiet. June to September is the monsoon, with cloud, rain and occasional landslides on the roads."},
-    {"q": "Can you see Kangchenjunga from Darjeeling town?", "a": "Yes, on clear days. From Chowrasta, Observatory Hill and many north-facing hotel rooms, Kangchenjunga fills the northern skyline about 70–75 km away. Views are best at dawn and in the first hours of morning, from October to March. In the monsoon the mountain may stay hidden for weeks. Tiger Hill adds a wider view that can include Everest."},
-    {"q": "How do I book the Darjeeling toy train joy ride?", "a": "Book on the IRCTC website or app, searching from Darjeeling (DJ) to Darjeeling, or at the Darjeeling station counter if seats remain. Choose steam or diesel and a departure time. Rides take about two hours, with stops at Batasia Loop and Ghum. Fares are about ₹1,000–1,800 and change. Check current status before you travel."},
-    {"q": "Is Darjeeling crowded?", "a": "In October, around Durga Puja and Diwali, in May and June, and at Christmas, yes: Chowrasta, Tiger Hill and the toy train get very busy, and Hill Cart Road traffic is slow. Early mornings are calmer everywhere. For fewer crowds, come in November, February, early March or the first half of April, when the weather is still good."},
-    {"q": "Which tea garden should I visit near Darjeeling?", "a": "Happy Valley Tea Estate, founded in 1854 and 3 km from Chowrasta, is the easiest, with garden walks and tastings. For a deeper visit, Makaibari near Kurseong runs tours and homestays. Factories work mainly from March to November. Check opening hours before you go, because estates sometimes stop public visits during busy processing days."},
-    {"q": "Is Darjeeling suitable for elderly travellers?", "a": "Yes, with planning. The town is steep, with many steps and uneven lanes, and cars cannot reach many hotels. Choose a hotel near the Mall that can be reached by vehicle, use taxis between sights, and rest on arrival because 2,045 m can cause mild breathlessness. Winter cold can be hard, so October, November and April suit older travellers best."},
-    {"q": "What should I eat in Darjeeling?", "a": "Eat momos and thukpa in Tibetan cafés, a Nepali thali with gundruk and dal, sel roti at breakfast, and pastries and tea at Glenary's or hot chocolate at Keventer's near Chowrasta. Try local Darjeeling tea at a tasting room rather than in hotel teabags. Shaphaley, a fried Tibetan meat pie, is worth trying in Tibetan cafés."},
-    {"q": "Do I need a permit to visit Darjeeling?", "a": "No. Darjeeling is in West Bengal and needs no permit for Indians or foreigners. Foreigners only need a permit if they cross into Sikkim, for example to Gangtok or Pelling, which needs an Inner Line Permit. Sandakphu needs park entry fees, a licensed guide for trekking and ID. Check current status before you travel."}
+    {
+      "q": "How many days do I need in Darjeeling?",
+      "a": "Three nights is right for most travellers. That gives you a Tiger Hill sunrise with Ghum and Batasia, a toy train joy ride, a day for the zoo, HMI, a tea garden and the Mall, and a buffer for cloudy mornings. Two nights is rushed. With five or more nights add Kurseong, Mirik or a trek to Sandakphu."
+    },
+    {
+      "q": "When is the best time to visit Darjeeling?",
+      "a": "October and November bring the clearest views after the monsoon. March to May is warmer, with rhododendrons and first-flush tea, but haze sometimes hides the mountains. December to February is cold, around 2–10°C, yet often very clear and quiet. June to September is the monsoon, with cloud, rain and occasional landslides on the roads."
+    },
+    {
+      "q": "Can you see Kangchenjunga from Darjeeling town?",
+      "a": "Yes, on clear days. From Chowrasta, Observatory Hill and many north-facing hotel rooms, Kangchenjunga fills the northern skyline about 70–75 km away. Views are best at dawn and in the first hours of morning, from October to March. In the monsoon the mountain may stay hidden for weeks. Tiger Hill adds a wider view that can include Everest."
+    },
+    {
+      "q": "How do I book the Darjeeling toy train joy ride?",
+      "a": "Book on the IRCTC website or app, searching from Darjeeling (DJ) to Darjeeling, or at the Darjeeling station counter if seats remain. Choose steam or diesel and a departure time. Rides take about two hours, with stops at Batasia Loop and Ghum. Fares are about ₹1,000–1,800 and change. Check current status before you travel."
+    },
+    {
+      "q": "Is Darjeeling crowded?",
+      "a": "In October, around Durga Puja and Diwali, in May and June, and at Christmas, yes: Chowrasta, Tiger Hill and the toy train get very busy, and Hill Cart Road traffic is slow. Early mornings are calmer everywhere. For fewer crowds, come in November, February, early March or the first half of April, when the weather is still good."
+    },
+    {
+      "q": "Which tea garden should I visit near Darjeeling?",
+      "a": "Happy Valley Tea Estate, founded in 1854 and 3 km from Chowrasta, is the easiest, with garden walks and tastings. For a deeper visit, Makaibari near Kurseong runs tours and homestays. Factories work mainly from March to November. Check opening hours before you go, because estates sometimes stop public visits during busy processing days."
+    },
+    {
+      "q": "Is Darjeeling suitable for elderly travellers?",
+      "a": "Yes, with planning. The town is steep, with many steps and uneven lanes, and cars cannot reach many hotels. Choose a hotel near the Mall that can be reached by vehicle, use taxis between sights, and rest on arrival because 2,045 m can cause mild breathlessness. Winter cold can be hard, so October, November and April suit older travellers best."
+    },
+    {
+      "q": "What should I eat in Darjeeling?",
+      "a": "Eat momos and thukpa in Tibetan cafés, a Nepali thali with gundruk and dal, sel roti at breakfast, and pastries and tea at Glenary's or hot chocolate at Keventer's near Chowrasta. Try local Darjeeling tea at a tasting room rather than in hotel teabags. Shaphaley, a fried Tibetan meat pie, is worth trying in Tibetan cafés."
+    },
+    {
+      "q": "Do I need a permit to visit Darjeeling?",
+      "a": "No. Darjeeling is in West Bengal and needs no permit for Indians or foreigners. Foreigners only need a permit if they cross into Sikkim, for example to Gangtok or Pelling, which needs an Inner Line Permit. Sandakphu needs park entry fees, a licensed guide for trekking and ID. Check current status before you travel."
+    }
   ],
   "experiences": [
     {
@@ -96,14 +230,27 @@
         "The train halts at the Batasia Loop, where the track spirals around a garden and war memorial with Kangchenjunga behind on clear days. At Ghum there is time to visit the small railway museum. Steam rides cost more and are the ones to choose if you care about the engines. Sit on the left going up for the best valley views."
       ],
       "best_time": "Morning departures from October to May, when skies are clearest.",
-      "good_for": ["Families", "Rail lovers", "Photographers"],
+      "good_for": [
+        "Families",
+        "Rail lovers",
+        "Photographers"
+      ],
       "cost": "₹1,000–1,800 per person depending on steam or diesel (indicative)",
       "wiki": "Darjeeling Himalayan Railway",
       "image_query": "Darjeeling toy train steam Batasia",
       "faqs": [
-        {"q": "Steam or diesel for the Darjeeling joy ride?", "a": "If you can afford it, choose steam. The vintage B-class engines, built in Britain from the late 1880s, are the heart of the railway, with coal smoke, whistles and crew working the fire. Diesel rides cover the same route and stops for a lower fare. Both take about two hours. Steam departures are fewer and sell out first."},
-        {"q": "How long does the train stop at Batasia Loop and Ghum?", "a": "Usually about 10 minutes at the Batasia Loop and around 30 minutes at Ghum, where you can visit the DHR museum. Timings vary slightly by service. The full ride, Darjeeling to Ghum and back, takes about two hours. Keep your ticket with you on the platforms, and listen for the whistle before reboarding."},
-        {"q": "Is the joy ride suitable for small children?", "a": "Yes. The ride is short, slow and safe, and children usually love the whistle and the views. Coaches are small and seats are close together, so keep bags light. The open platforms at Batasia and Ghum have steps and crowds. Carry a warm layer for the walk at Ghum, which is about 200 m higher and noticeably colder than Darjeeling."}
+        {
+          "q": "Steam or diesel for the Darjeeling joy ride?",
+          "a": "If you can afford it, choose steam. The vintage B-class engines, built in Britain from the late 1880s, are the heart of the railway, with coal smoke, whistles and crew working the fire. Diesel rides cover the same route and stops for a lower fare. Both take about two hours. Steam departures are fewer and sell out first."
+        },
+        {
+          "q": "How long does the train stop at Batasia Loop and Ghum?",
+          "a": "Usually about 10 minutes at the Batasia Loop and around 30 minutes at Ghum, where you can visit the DHR museum. Timings vary slightly by service. The full ride, Darjeeling to Ghum and back, takes about two hours. Keep your ticket with you on the platforms, and listen for the whistle before reboarding."
+        },
+        {
+          "q": "Is the joy ride suitable for small children?",
+          "a": "Yes. The ride is short, slow and safe, and children usually love the whistle and the views. Coaches are small and seats are close together, so keep bags light. The open platforms at Batasia and Ghum have steps and crowds. Carry a warm layer for the walk at Ghum, which is about 200 m higher and noticeably colder than Darjeeling."
+        }
       ]
     },
     {
@@ -117,14 +264,27 @@
         "Between March and November you may watch pluckers at work and, on factory days, see withering, rolling and drying. A guide explains how first flush, second flush and autumn teas differ. Tasting is usually offered, and tea is sold on site. Please do not walk into the bushes or photograph workers without asking."
       ],
       "best_time": "March to May for first and second flush; October and November for autumn tea and clear views.",
-      "good_for": ["Tea lovers", "Families", "Walkers"],
+      "good_for": [
+        "Tea lovers",
+        "Families",
+        "Walkers"
+      ],
       "cost": "₹100–500 for a guided visit and tasting (indicative)",
       "wiki": "Happy Valley Tea Estate",
       "image_query": "Happy Valley Tea Estate Darjeeling",
       "faqs": [
-        {"q": "Is Happy Valley Tea Estate open all year?", "a": "The estate itself is open most of the year, but the factory usually works only during the plucking season, roughly March to November. In winter you can walk the gardens but may not see processing. The estate also closes on some Sundays and holidays. Opening hours and visitor rules change, so check current status before you travel."},
-        {"q": "Can I walk to Happy Valley from Chowrasta?", "a": "Yes. It is about 3 km downhill, 30–40 minutes on foot via Hill Cart Road and the lanes below Lebong Cart Road. The walk back is steep uphill, so many people take a taxi back for about ₹200–400. Wear shoes with good grip, as estate paths are steep and can be slippery after rain."},
-        {"q": "What is the difference between first and second flush?", "a": "First flush is plucked from March to April after the winter rest; it is light, bright and floral. Second flush comes from May to June and is fuller, with the muscatel flavour Darjeeling is known for. Monsoon tea is stronger and cheaper. Autumn flush, from October, is mellow and rounded. Prices vary widely between grades and estates."}
+        {
+          "q": "Is Happy Valley Tea Estate open all year?",
+          "a": "The estate itself is open most of the year, but the factory usually works only during the plucking season, roughly March to November. In winter you can walk the gardens but may not see processing. The estate also closes on some Sundays and holidays. Opening hours and visitor rules change, so check current status before you travel."
+        },
+        {
+          "q": "Can I walk to Happy Valley from Chowrasta?",
+          "a": "Yes. It is about 3 km downhill, 30–40 minutes on foot via Hill Cart Road and the lanes below Lebong Cart Road. The walk back is steep uphill, so many people take a taxi back for about ₹200–400. Wear shoes with good grip, as estate paths are steep and can be slippery after rain."
+        },
+        {
+          "q": "What is the difference between first and second flush?",
+          "a": "First flush is plucked from March to April after the winter rest; it is light, bright and floral. Second flush comes from May to June and is fuller, with the muscatel flavour Darjeeling is known for. Monsoon tea is stronger and cheaper. Autumn flush, from October, is mellow and rounded. Prices vary widely between grades and estates."
+        }
       ]
     },
     {
@@ -135,17 +295,30 @@
       "summary": "Visit the Padmaja Naidu Himalayan Zoological Park, which breeds red pandas, snow leopards and Himalayan wolves, and the Himalayan Mountaineering Institute next door, founded in 1954 with Tenzing Norgay as its first director of field training.",
       "body": [
         "The zoo opened in 1958 and sits at around 2,134 m, making it India's largest high-altitude zoo. It is known for captive breeding of red pandas, snow leopards and Himalayan wolves, and is the hub of India's red panda breeding programme. Enclosures follow the hill, so expect plenty of steps.",
-        "The Himalayan Mountaineering Institute shares the same gate. Its museum displays Everest expedition gear, maps and models, and Tenzing Norgay is buried on the hill nearby. One ticket usually covers both. Go in the morning when animals are active, and allow three hours."
+        "The Himalayan Mountaineering Institute shares the same gate. Its museum displays Everest expedition gear, maps and models, and Tenzing Norgay is buried on the hill nearby. One ticket usually covers both. Go in the morning when animals are active, and allow three hours. Mountaineering courses for Indian and foreign students still run from the institute each year."
       ],
       "best_time": "Morning, any season; closed on Thursdays.",
-      "good_for": ["Families", "Wildlife lovers", "Climbers"],
+      "good_for": [
+        "Families",
+        "Wildlife lovers",
+        "Climbers"
+      ],
       "cost": "₹100–150 for Indians, more for foreigners, combined entry (indicative)",
       "wiki": "Padmaja Naidu Himalayan Zoological Park",
       "image_query": "Padmaja Naidu Himalayan Zoological Park red panda",
       "faqs": [
-        {"q": "Will I see a red panda at the Darjeeling zoo?", "a": "Usually yes, though red pandas often sleep curled up in trees. The zoo has several in enclosures designed for them, and early morning visits give the best chance of seeing them move. Snow leopards are also kept here and are most active at opening and closing times. Be patient and quiet near the enclosures."},
-        {"q": "Is the Darjeeling zoo open every day?", "a": "No. The zoo and the Himalayan Mountaineering Institute are normally closed on Thursdays and on some public holidays. Gates open in the morning and close in late afternoon, with last entry a little earlier. Timings and fees change from time to time, so check current status before you travel and plan your sightseeing days accordingly."},
-        {"q": "How far is the zoo from Chowrasta?", "a": "The zoo is on Jawahar Road West, about 1.5–2 km from Chowrasta. It is an easy 20–30 minute walk downhill along a quiet road, or a short taxi ride. The walk back is uphill. Many visitors combine the zoo with the Tenzing Rock, the ropeway and the Tibetan Refugee Self-Help Centre nearby."}
+        {
+          "q": "Will I see a red panda at the Darjeeling zoo?",
+          "a": "Usually yes, though red pandas often sleep curled up in trees. The zoo has several in enclosures designed for them, and early morning visits give the best chance of seeing them move. Snow leopards are also kept here and are most active at opening and closing times. Be patient and quiet near the enclosures."
+        },
+        {
+          "q": "Is the Darjeeling zoo open every day?",
+          "a": "No. The zoo and the Himalayan Mountaineering Institute are normally closed on Thursdays and on some public holidays. Gates open in the morning and close in late afternoon, with last entry a little earlier. Timings and fees change from time to time, so check current status before you travel and plan your sightseeing days accordingly."
+        },
+        {
+          "q": "How far is the zoo from Chowrasta?",
+          "a": "The zoo is on Jawahar Road West, about 1.5–2 km from Chowrasta. It is an easy 20–30 minute walk downhill along a quiet road, or a short taxi ride. The walk back is uphill. Many visitors combine the zoo with the Tenzing Rock, the ropeway and the Tibetan Refugee Self-Help Centre nearby."
+        }
       ]
     },
     {
@@ -159,14 +332,27 @@
         "Then walk down Nehru Road to Glenary's, founded as a confectioner's around 1885 and still one of the town's best-known cafés, for breakfast, pastries and a pot of Darjeeling tea. Keventer's, a few doors down, is famous for its terrace breakfasts and hot chocolate. Prices are higher than local cafés but still fair."
       ],
       "best_time": "Early morning, from 6 am to 9 am, on any clear day.",
-      "good_for": ["Couples", "First-timers", "Food lovers"],
+      "good_for": [
+        "Couples",
+        "First-timers",
+        "Food lovers"
+      ],
       "cost": "₹0 for the walk; ₹300–700 per person for breakfast",
       "wiki": "Glenary's",
       "image_query": "Chowrasta Darjeeling",
       "faqs": [
-        {"q": "What time does Glenary's open?", "a": "Glenary's usually opens in the morning around 7.30 to 8 am and stays open into the evening, with the bakery downstairs and the café and restaurant above. Hours can change in the off season and on holidays. Weekend mornings are busy, so go early for a window table. Check current timings locally before you plan around it."},
-        {"q": "How long is the Mall Road loop in Darjeeling?", "a": "The loop around Observatory Hill from Chowrasta is about 2 km and takes 30–45 minutes at an easy pace. It is mostly level, with benches and views north to Kangchenjunga and the Singalila ridge. Add 15 minutes to climb Observatory Hill to the Mahakal temple. Watch for monkeys near the temple steps."},
-        {"q": "Are there pony rides on Chowrasta?", "a": "Yes, pony owners offer short rides on Chowrasta and around the Mall, popular with children. Agree the price and length of the ride before you start; a short ride is usually a few hundred rupees. Check that the pony looks healthy and well treated. Riders should keep to the Mall area away from traffic."}
+        {
+          "q": "What time does Glenary's open?",
+          "a": "Glenary's usually opens in the morning around 7.30 to 8 am and stays open into the evening, with the bakery downstairs and the café and restaurant above. Hours can change in the off season and on holidays. Weekend mornings are busy, so go early for a window table. Check current timings locally before you plan around it."
+        },
+        {
+          "q": "How long is the Mall Road loop in Darjeeling?",
+          "a": "The loop around Observatory Hill from Chowrasta is about 2 km and takes 30–45 minutes at an easy pace. It is mostly level, with benches and views north to Kangchenjunga and the Singalila ridge. Add 15 minutes to climb Observatory Hill to the Mahakal temple. Watch for monkeys near the temple steps."
+        },
+        {
+          "q": "Are there pony rides on Chowrasta?",
+          "a": "Yes, pony owners offer short rides on Chowrasta and around the Mall, popular with children. Agree the price and length of the ride before you start; a short ride is usually a few hundred rupees. Check that the pony looks healthy and well treated. Riders should keep to the Mall area away from traffic."
+        }
       ]
     }
   ]

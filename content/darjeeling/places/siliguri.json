@@ -4,44 +4,113 @@
   "kind": "Gateway city",
   "tagline": "The plains city where every hill journey begins",
   "summary": "Siliguri is the transit hub for Darjeeling, Sikkim, Kalimpong, the Dooars and Bhutan, with NJP railway station and Bagdogra airport on its edges. Most travellers pass straight through, but if you must stay a night, the city has a forest sanctuary, a large stupa and good, cheap food.",
-  "meta_description": "Siliguri travel guide: NJP and Bagdogra, jeep stands for Darjeeling and Sikkim, Mahananda sanctuary, Salugara stupa, food and honest advice on a transit night.",
+  "meta_description": "Siliguri guide: NJP and Bagdogra, jeep stands for Darjeeling and Sikkim, Mahananda sanctuary, Salugara stupa, food and honest advice on a transit night.",
   "wiki": "Siliguri",
   "image_query": "Siliguri city West Bengal",
   "lat": 26.71,
   "lng": 88.43,
   "altitude_m": 122,
   "nights": 0,
-  "best_months": [2, 2, 2, 1, 0, 0, 0, 0, 1, 2, 2, 2],
-  "themes": ["shoestring", "food-trails", "wildlife-and-birds"],
+  "best_months": [
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2
+  ],
+  "themes": [
+    "shoestring",
+    "food-trails",
+    "wildlife-and-birds"
+  ],
   "intro": [
     "Siliguri is a busy trading city on the Mahananda river, at about 120 m, where the plains of north Bengal meet the first Himalayan foothills. It sits in the narrow Siliguri Corridor, the strip of Indian land between Nepal and Bangladesh that links the North East to the rest of the country. Almost everyone bound for Darjeeling, Gangtok, Kalimpong, the Dooars or Bhutan arrives here.",
     "Let us be honest: most people should not stay. The city is hot and humid from April to September, traffic is heavy and the hills are only two to four hours away. If your train reaches New Jalpaiguri (NJP) or your flight lands at Bagdogra before about 2 pm, head straight up. If you arrive late or leave early, a night here is the sensible choice.",
     "If you do stay, Siliguri has more than its reputation suggests. The Mahananda Wildlife Sanctuary starts at Sukna, 13 km away. The large white stupa at Salugara is a calm stop on the Sevoke road. The Coronation Bridge over the Teesta is a short drive further. And the food, from Bengali fish thalis to Tibetan momos, is cheap and good."
   ],
   "highlights": [
-    {"title": "The gateway for five regions", "text": "Shared jeeps and buses leave Siliguri for Darjeeling, Kalimpong, Gangtok, the Dooars and the Bhutan border at Jaigaon."},
-    {"title": "Mahananda Wildlife Sanctuary", "text": "A foothill forest of sal and riverbeds starting at Sukna, home to elephants, gaur and many birds."},
-    {"title": "Salugara monastery stupa", "text": "A 100 ft white stupa on the Sevoke road, about 6 km from the city centre."},
-    {"title": "Coronation Bridge at Sevoke", "text": "A 1941 arch bridge over the Teesta gorge where the plains end and the hills begin."},
-    {"title": "Cheap, honest food", "text": "Bengali thalis, momos, rolls and sweets for a fraction of hill-station prices."}
+    {
+      "title": "The gateway for five regions",
+      "text": "Shared jeeps and buses leave Siliguri for Darjeeling, Kalimpong, Gangtok, the Dooars and the Bhutan border at Jaigaon."
+    },
+    {
+      "title": "Mahananda Wildlife Sanctuary",
+      "text": "A foothill forest of sal and riverbeds starting at Sukna, home to elephants, gaur and many birds."
+    },
+    {
+      "title": "Salugara monastery stupa",
+      "text": "A 100 ft white stupa on the Sevoke road, about 6 km from the city centre."
+    },
+    {
+      "title": "Coronation Bridge at Sevoke",
+      "text": "A 1941 arch bridge over the Teesta gorge where the plains end and the hills begin."
+    },
+    {
+      "title": "Cheap, honest food",
+      "text": "Bengali thalis, momos, rolls and sweets for a fraction of hill-station prices."
+    }
   ],
   "facts": [
-    ["Altitude", "About 120 m"],
-    ["From Bagdogra airport", "14 km, 30–45 minutes"],
-    ["From NJP station", "6 km, 20–30 minutes"],
-    ["Best for", "A transit night, food, a half-day forest trip"],
-    ["Nights", "0–1"],
-    ["Permits", "None for Indians or foreigners; Sikkim permits can be arranged here for foreigners"]
+    [
+      "Altitude",
+      "About 120 m"
+    ],
+    [
+      "From Bagdogra airport",
+      "14 km, 30–45 minutes"
+    ],
+    [
+      "From NJP station",
+      "6 km, 20–30 minutes"
+    ],
+    [
+      "Best for",
+      "A transit night, food, a half-day forest trip"
+    ],
+    [
+      "Nights",
+      "0–1"
+    ],
+    [
+      "Permits",
+      "None for Indians or foreigners; Sikkim permits can be arranged here for foreigners"
+    ]
   ],
   "how_to_reach": [
-    {"mode": "Air", "text": "Bagdogra airport (IXB), about 14 km west of the city, has direct flights from Delhi, Kolkata, Mumbai, Bengaluru, Guwahati and other cities. Prepaid taxis wait outside arrivals; a car into Siliguri costs about ₹500–800."},
-    {"mode": "Train", "text": "New Jalpaiguri (NJP) is the main railway station, about 6 km south of the centre, with trains from Kolkata, Delhi, Guwahati and beyond. Siliguri Junction, closer to the centre, handles fewer trains. Autos and taxis link NJP to the city in 20–30 minutes."},
-    {"mode": "Shared jeep", "text": "Jeeps from the hills arrive at the stands around the Tenzing Norgay Central Bus Terminus on Hill Cart Road. Sikkim-bound shared jeeps and SNT buses use the SNT bus stand and nearby stands on the same road."},
-    {"mode": "Bus", "text": "Long-distance buses from Kolkata, Bihar, Assam and Nepal arrive at the Tenzing Norgay Central Bus Terminus. Overnight Volvo and sleeper buses from Kolkata take 10–12 hours."}
+    {
+      "mode": "Air",
+      "text": "Bagdogra airport (IXB), about 14 km west of the city, has direct flights from Delhi, Kolkata, Mumbai, Bengaluru, Guwahati and other cities. Prepaid taxis wait outside arrivals; a car into Siliguri costs about ₹500–800."
+    },
+    {
+      "mode": "Train",
+      "text": "New Jalpaiguri (NJP) is the main railway station, about 6 km south of the centre, with trains from Kolkata, Delhi, Guwahati and beyond. Siliguri Junction, closer to the centre, handles fewer trains. Autos and taxis link NJP to the city in 20–30 minutes."
+    },
+    {
+      "mode": "Shared jeep",
+      "text": "Jeeps from the hills arrive at the stands around the Tenzing Norgay Central Bus Terminus on Hill Cart Road. Sikkim-bound shared jeeps and SNT buses use the SNT bus stand and nearby stands on the same road."
+    },
+    {
+      "mode": "Bus",
+      "text": "Long-distance buses from Kolkata, Bihar, Assam and Nepal arrive at the Tenzing Norgay Central Bus Terminus. Overnight Volvo and sleeper buses from Kolkata take 10–12 hours."
+    }
   ],
   "where_to_stay": "Stay near Hill Cart Road or Sevoke Road for easy access to the jeep stands and the hill roads, or near NJP if you have a very early train. Budget lodges near the bus terminus and NJP cost ₹1,000–2,000 a night but vary widely in quality, so read recent reviews. Mid-range business hotels cost ₹3,500–7,000 and are the safer choice for families. Air conditioning matters from April to October.",
-  "stays": ["sinclairs-siliguri"],
-  "nearby": ["kurseong", "mirik", "darjeeling-town", "gorumara"],
+  "stays": [
+    "sinclairs-siliguri"
+  ],
+  "nearby": [
+    "kurseong",
+    "mirik",
+    "darjeeling-town",
+    "gorumara"
+  ],
   "tips": [
     "If you arrive after about 3 pm, stay in Siliguri rather than driving the hill roads in the dark and fog",
     "Use the prepaid taxi counters at NJP and Bagdogra; they are fair and save haggling",
@@ -50,37 +119,92 @@
     "Siliguri traffic is slow from about 9 am to 8 pm; allow at least an hour from the city to Bagdogra for a flight"
   ],
   "costs": [
-    {"item": "Prepaid taxi, Bagdogra airport to Siliguri", "inr": "₹500–800"},
-    {"item": "Auto, NJP station to Hill Cart Road", "inr": "₹150–250"},
-    {"item": "Shared jeep, Siliguri to Darjeeling", "inr": "₹250–350 a seat"},
-    {"item": "Budget hotel near the bus terminus", "inr": "₹1,000–2,000 a night"},
-    {"item": "Bengali fish thali", "inr": "₹150–300"},
-    {"item": "Half-day car to Mahananda sanctuary and Sevoke", "inr": "₹1,500–2,500"}
+    {
+      "item": "Prepaid taxi, Bagdogra airport to Siliguri",
+      "inr": "₹500–800"
+    },
+    {
+      "item": "Auto, NJP station to Hill Cart Road",
+      "inr": "₹150–250"
+    },
+    {
+      "item": "Shared jeep, Siliguri to Darjeeling",
+      "inr": "₹250–350 a seat"
+    },
+    {
+      "item": "Budget hotel near the bus terminus",
+      "inr": "₹1,000–2,000 a night"
+    },
+    {
+      "item": "Bengali fish thali",
+      "inr": "₹150–300"
+    },
+    {
+      "item": "Half-day car to Mahananda sanctuary and Sevoke",
+      "inr": "₹1,500–2,500"
+    }
   ],
-  "local_word": {"word": "Mishti", "language": "Bengali", "meaning": "Sweet, and by extension the milk sweets such as rosogolla and sandesh sold in every Siliguri sweet shop"},
+  "local_word": {
+    "word": "Mishti",
+    "language": "Bengali",
+    "meaning": "Sweet, and by extension the milk sweets such as rosogolla and sandesh sold in every Siliguri sweet shop"
+  },
   "story": {
     "title": "Where the hill railway began",
     "paras": [
       "Before 1878 the journey from Calcutta to Darjeeling took five or six days by train, river steamer, bullock cart and palanquin. That year Siliguri was joined to Calcutta by a metre-gauge railway, and the trip shrank to about two days. From Siliguri, horse-drawn tongas carried travellers up the Hill Cart Road.",
       "Franklin Prestage, an agent of the Eastern Bengal Railway, proposed a steam tramway from Siliguri up to Darjeeling. Work began in 1879. By March 1880 the track had reached Tindharia, and the line from Siliguri to Kurseong opened that August. Trains reached Darjeeling on 4 July 1881, on a track only 2 ft wide.",
       "Siliguri Town station was the original southern end of the Darjeeling Himalayan Railway. In 1962 the line was extended by about 6 km to the new broad-gauge junction at New Jalpaiguri, and the engine sheds moved there. Today the toy train still starts from NJP, and a restored steam engine stands on a plinth outside Siliguri Junction.",
-      "In 1999 UNESCO listed the railway as a World Heritage Site. So the city most travellers see only from a jeep window is, in fact, where one of the world's best-known mountain railways starts its 88 km climb."
+      "In 1999 UNESCO listed the railway as a World Heritage Site. So the city most travellers see only from a jeep window is, in fact, where one of the world's best-known mountain railways starts its 88 km climb. Look for the narrow-gauge track beside Hill Cart Road as you leave the city; the train still shares the road with jeeps and trucks for long stretches on the way up."
     ],
     "sources": [
-      {"title": "Darjeeling Himalayan Railway (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Darjeeling_Himalayan_Railway"},
-      {"title": "Mountain Railways of India (UNESCO World Heritage Centre)", "url": "https://whc.unesco.org/en/list/944"}
+      {
+        "title": "Darjeeling Himalayan Railway (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Darjeeling_Himalayan_Railway"
+      },
+      {
+        "title": "Mountain Railways of India (UNESCO World Heritage Centre)",
+        "url": "https://whc.unesco.org/en/list/944"
+      }
     ]
   },
   "faqs": [
-    {"q": "Is it worth staying in Siliguri?", "a": "Usually not for long. Siliguri is a transit city, hot and humid for much of the year, and the hills are two to four hours away. Stay a night only if your train or flight arrives late or you leave early. If you do, spend the spare hours at the Mahananda sanctuary, the Salugara stupa or the Coronation Bridge, and eat well."},
-    {"q": "How far is NJP from Siliguri city?", "a": "New Jalpaiguri (NJP) station is about 6 km south of central Siliguri, 20–30 minutes by auto or taxi depending on traffic. An auto to Hill Cart Road costs about ₹150–250, a taxi ₹300–500. Many shared jeeps to Darjeeling and Gangtok also wait right outside NJP, so you may not need to go into the city at all."},
-    {"q": "How far is Bagdogra airport from Siliguri?", "a": "Bagdogra airport is about 14 km west of Siliguri, around 30–45 minutes by car. Prepaid taxis into Siliguri cost about ₹500–800. From Bagdogra, Darjeeling is about 3 hours, Kurseong about 1.5 hours and Gangtok about 4–5 hours by reserved car. Leave plenty of time for city traffic when heading to the airport for a flight."},
-    {"q": "Where do shared jeeps to Darjeeling leave from in Siliguri?", "a": "Darjeeling, Kurseong and Mirik jeeps leave from the stand beside the Tenzing Norgay Central Bus Terminus on Hill Cart Road, near Siliguri Junction. Some Darjeeling jeeps also wait outside NJP station. Jeeps run from early morning to mid-afternoon and leave when full. Buy your seat at the counter or from the driver and note the vehicle number."},
-    {"q": "Where is the SNT bus stand in Siliguri?", "a": "The SNT (Sikkim Nationalised Transport) bus stand is on Hill Cart Road, a short walk from the Tenzing Norgay Central Bus Terminus. Buses and shared jeeps for Gangtok and other Sikkim towns leave from here and nearby stands. Foreigners need a Sikkim Inner Line Permit, which can be arranged in Siliguri or at the Rangpo border. Check current status before you travel."},
-    {"q": "What is there to do in Siliguri for a day?", "a": "Take a half-day drive to the Mahananda Wildlife Sanctuary at Sukna, the Salugara monastery stupa and the Coronation Bridge at Sevoke, with a stop at the Sevokeshwari Kali temple. In the evening, shop at Hong Kong Market and Bidhan Market and eat a Bengali thali or momos. A car for half a day costs about ₹1,500–2,500."},
-    {"q": "Is Siliguri safe for tourists?", "a": "Yes, Siliguri is generally safe, with the usual city cautions. Watch your bags at NJP and the bus terminus, where crowds are heavy, and use prepaid taxis or app cabs at night. Touts sometimes offer hotel or jeep deals at the station; book through known counters instead. Women travelling alone should prefer reputable hotels near main roads."},
-    {"q": "Can I see elephants near Siliguri?", "a": "Wild elephants live in the Mahananda Wildlife Sanctuary and the forests towards the Dooars and are sometimes seen from the Sevoke and Sukna roads, especially at dusk. Sightings are never guaranteed. For safaris, the Dooars parks such as Gorumara and Jaldapara, 2–4 hours away, are better organised. Never stop or step out of a car near wild elephants."},
-    {"q": "What is the best food to try in Siliguri?", "a": "Try a Bengali fish thali with rice, dal, vegetables and fish curry, kathi rolls, phuchka from street stalls and sweets such as rosogolla and sandesh. Tibetan and Nepali places near Hill Cart Road serve momos and thukpa. Prices are much lower than in Darjeeling, with a full thali at about ₹150–300 in a simple restaurant."}
+    {
+      "q": "Is it worth staying in Siliguri?",
+      "a": "Usually not for long. Siliguri is a transit city, hot and humid for much of the year, and the hills are two to four hours away. Stay a night only if your train or flight arrives late or you leave early. If you do, spend the spare hours at the Mahananda sanctuary, the Salugara stupa or the Coronation Bridge, and eat well."
+    },
+    {
+      "q": "How far is NJP from Siliguri city?",
+      "a": "New Jalpaiguri (NJP) station is about 6 km south of central Siliguri, 20–30 minutes by auto or taxi depending on traffic. An auto to Hill Cart Road costs about ₹150–250, a taxi ₹300–500. Many shared jeeps to Darjeeling and Gangtok also wait right outside NJP, so you may not need to go into the city at all."
+    },
+    {
+      "q": "How far is Bagdogra airport from Siliguri?",
+      "a": "Bagdogra airport is about 14 km west of Siliguri, around 30–45 minutes by car. Prepaid taxis into Siliguri cost about ₹500–800. From Bagdogra, Darjeeling is about 3 hours, Kurseong about 1.5 hours and Gangtok about 4–5 hours by reserved car. Leave plenty of time for city traffic when heading to the airport for a flight."
+    },
+    {
+      "q": "Where do shared jeeps to Darjeeling leave from in Siliguri?",
+      "a": "Darjeeling, Kurseong and Mirik jeeps leave from the stand beside the Tenzing Norgay Central Bus Terminus on Hill Cart Road, near Siliguri Junction. Some Darjeeling jeeps also wait outside NJP station. Jeeps run from early morning to mid-afternoon and leave when full. Buy your seat at the counter or from the driver and note the vehicle number."
+    },
+    {
+      "q": "Where is the SNT bus stand in Siliguri?",
+      "a": "The SNT (Sikkim Nationalised Transport) bus stand is on Hill Cart Road, a short walk from the Tenzing Norgay Central Bus Terminus. Buses and shared jeeps for Gangtok and other Sikkim towns leave from here and nearby stands. Foreigners need a Sikkim Inner Line Permit, which can be arranged in Siliguri or at the Rangpo border. Check current status before you travel."
+    },
+    {
+      "q": "What is there to do in Siliguri for a day?",
+      "a": "Take a half-day drive to the Mahananda Wildlife Sanctuary at Sukna, the Salugara monastery stupa and the Coronation Bridge at Sevoke, with a stop at the Sevokeshwari Kali temple. In the evening, shop at Hong Kong Market and Bidhan Market and eat a Bengali thali or momos. A car for half a day costs about ₹1,500–2,500."
+    },
+    {
+      "q": "Is Siliguri safe for tourists?",
+      "a": "Yes, Siliguri is generally safe, with the usual city cautions. Watch your bags at NJP and the bus terminus, where crowds are heavy, and use prepaid taxis or app cabs at night. Touts sometimes offer hotel or jeep deals at the station; book through known counters instead. Women travelling alone should prefer reputable hotels near main roads."
+    },
+    {
+      "q": "Can I see elephants near Siliguri?",
+      "a": "Wild elephants live in the Mahananda Wildlife Sanctuary and the forests towards the Dooars and are sometimes seen from the Sevoke and Sukna roads, especially at dusk. Sightings are never guaranteed. For safaris, the Dooars parks such as Gorumara and Jaldapara, 2–4 hours away, are better organised. Never stop or step out of a car near wild elephants."
+    },
+    {
+      "q": "What is the best food to try in Siliguri?",
+      "a": "Try a Bengali fish thali with rice, dal, vegetables and fish curry, kathi rolls, phuchka from street stalls and sweets such as rosogolla and sandesh. Tibetan and Nepali places near Hill Cart Road serve momos and thukpa. Prices are much lower than in Darjeeling, with a full thali at about ₹150–300 in a simple restaurant."
+    }
   ],
   "experiences": [
     {
@@ -94,14 +218,27 @@
         "Entry is usually from Sukna, where the forest office sells permits for the sanctuary and for the Latpanchar side higher up. Drives follow forest roads through sal and riverine forest, with watchtowers in places. Mornings and late afternoons are best. Wildlife is shy, and many visits see only birds and tracks, so go for the forest itself."
       ],
       "best_time": "October to April, early morning or late afternoon; parts close during the monsoon.",
-      "good_for": ["Birdwatchers", "Families", "Transit travellers with a spare half day"],
+      "good_for": [
+        "Birdwatchers",
+        "Families",
+        "Transit travellers with a spare half day"
+      ],
       "cost": "₹100–300 entry per person plus vehicle and guide fees, and ₹1,500–2,500 for a car from Siliguri (indicative)",
       "wiki": "Mahananda Wildlife Sanctuary",
       "image_query": "Mahananda Wildlife Sanctuary",
       "faqs": [
-        {"q": "Can I see tigers in Mahananda Wildlife Sanctuary?", "a": "Very unlikely. Tigers were one reason the sanctuary was set up, but sightings are extremely rare today. Elephants, gaur, barking deer, peafowl and many birds are more realistic, though still not guaranteed. Treat the visit as a forest drive and birding trip rather than a safari, and visit the Dooars parks if large mammals are your main goal."},
-        {"q": "Is Mahananda Wildlife Sanctuary open in the monsoon?", "a": "Forest areas in north Bengal usually close to tourists from mid-June to mid-September for the monsoon and the animal breeding season. Some roads through the sanctuary stay open because they are public highways, but drives inside are stopped. Dates are set by the forest department each year. Check current status before you travel."},
-        {"q": "How do I get a permit for Mahananda?", "a": "Permits are normally issued at the forest office at Sukna, the main gateway, about 13 km from Siliguri. Bring photo ID. Fees for entry, vehicle and a guide are paid there and are indicative. Your Siliguri driver or hotel can help, and a short call to the forest office the day before saves a wasted trip. Check current status before you travel."}
+        {
+          "q": "Can I see tigers in Mahananda Wildlife Sanctuary?",
+          "a": "Very unlikely. Tigers were one reason the sanctuary was set up, but sightings are extremely rare today. Elephants, gaur, barking deer, peafowl and many birds are more realistic, though still not guaranteed. Treat the visit as a forest drive and birding trip rather than a safari, and visit the Dooars parks if large mammals are your main goal."
+        },
+        {
+          "q": "Is Mahananda Wildlife Sanctuary open in the monsoon?",
+          "a": "Forest areas in north Bengal usually close to tourists from mid-June to mid-September for the monsoon and the animal breeding season. Some roads through the sanctuary stay open because they are public highways, but drives inside are stopped. Dates are set by the forest department each year. Check current status before you travel."
+        },
+        {
+          "q": "How do I get a permit for Mahananda?",
+          "a": "Permits are normally issued at the forest office at Sukna, the main gateway, about 13 km from Siliguri. Bring photo ID. Fees for entry, vehicle and a guide are paid there and are indicative. Your Siliguri driver or hotel can help, and a short call to the forest office the day before saves a wasted trip. Check current status before you travel."
+        }
       ]
     },
     {
@@ -112,17 +249,30 @@
       "summary": "A Tibetan Buddhist monastery about 6 km from central Siliguri on the Sevoke road, known for its 100 ft white stupa. It is a quiet stop on the way to Sevoke or the Dooars.",
       "body": [
         "Salugara monastery was founded by Tibetan monks, and its tall white stupa is believed to have been built under the Tibetan lama Kalu Rinpoche. The stupa is said to hold relics and is circled by prayer wheels. Monks live and study in the buildings around it, and the prayer hall is usually open to respectful visitors.",
-        "The visit takes less than an hour. Walk clockwise around the stupa, turning the prayer wheels as you go, and keep your voice low near the prayer hall. Combine it with the Coronation Bridge and the Sevokeshwari Kali temple on the same road for an easy half day."
+        "The visit takes less than an hour. Walk clockwise around the stupa, turning the prayer wheels as you go, and keep your voice low near the prayer hall. Combine it with the Coronation Bridge and the Sevokeshwari Kali temple on the same road for an easy half day. Mornings are cooler and quieter, with fewer visitors from the city."
       ],
       "best_time": "Early morning or late afternoon, when it is cooler and monks are at prayers.",
-      "good_for": ["Families", "Transit travellers", "Photographers"],
+      "good_for": [
+        "Families",
+        "Transit travellers",
+        "Photographers"
+      ],
       "cost": "₹0; donations welcome",
       "wiki": "Salugara Monastery",
       "image_query": "Salugara Monastery Siliguri",
       "faqs": [
-        {"q": "How far is Salugara monastery from NJP?", "a": "Salugara is on the Sevoke road, about 6 km from central Siliguri and roughly 10–12 km from NJP station. By auto or taxi it takes 20–40 minutes depending on traffic. An auto costs about ₹200–300, and a taxi a little more. It fits well into a transit day before an evening train or after an early arrival."},
-        {"q": "What should I wear to Salugara monastery?", "a": "Wear clothes that cover shoulders and knees, and be ready to take off your shoes before entering the prayer hall. Walk clockwise around the stupa and prayer wheels. Ask before photographing monks, and do not use flash inside. A small donation in the box is welcome. The stupa grounds are open and easy to walk for all ages."},
-        {"q": "Can I combine Salugara with Sevoke and the Coronation Bridge?", "a": "Yes, they are on the same road heading north-east from Siliguri. Salugara is about 6 km out, the Sevokeshwari Kali temple and Coronation Bridge are about 20 km out at Sevoke. A half-day car covering all three costs about ₹1,500–2,500. Add Mahananda sanctuary at Sukna if you start early and have a full day."}
+        {
+          "q": "How far is Salugara monastery from NJP?",
+          "a": "Salugara is on the Sevoke road, about 6 km from central Siliguri and roughly 10–12 km from NJP station. By auto or taxi it takes 20–40 minutes depending on traffic. An auto costs about ₹200–300, and a taxi a little more. It fits well into a transit day before an evening train or after an early arrival."
+        },
+        {
+          "q": "What should I wear to Salugara monastery?",
+          "a": "Wear clothes that cover shoulders and knees, and be ready to take off your shoes before entering the prayer hall. Walk clockwise around the stupa and prayer wheels. Ask before photographing monks, and do not use flash inside. A small donation in the box is welcome. The stupa grounds are open and easy to walk for all ages."
+        },
+        {
+          "q": "Can I combine Salugara with Sevoke and the Coronation Bridge?",
+          "a": "Yes, they are on the same road heading north-east from Siliguri. Salugara is about 6 km out, the Sevokeshwari Kali temple and Coronation Bridge are about 20 km out at Sevoke. A half-day car covering all three costs about ₹1,500–2,500. Add Mahananda sanctuary at Sukna if you start early and have a full day."
+        }
       ]
     },
     {
@@ -136,14 +286,27 @@
         "Just before the bridge, steps climb from the road to the Sevokeshwari Kali temple, a busy shrine for travellers on the hill roads. Stand at the viewpoints to watch the Teesta come out of its gorge into the plains. It is a fine short trip, but do not stop on the bridge itself; traffic is heavy and stopping is not allowed."
       ],
       "best_time": "October to March in daylight; in the monsoon the river is spectacular but the roads can slip.",
-      "good_for": ["Families", "Photographers", "Transit travellers"],
+      "good_for": [
+        "Families",
+        "Photographers",
+        "Transit travellers"
+      ],
       "cost": "₹0; car from Siliguri ₹1,200–2,000 return (indicative)",
       "wiki": "Coronation Bridge",
       "image_query": "Coronation Bridge Sevoke Teesta",
       "faqs": [
-        {"q": "How far is the Coronation Bridge from Siliguri?", "a": "The bridge is at Sevoke, about 20 km from Siliguri, 40 minutes to an hour by car depending on traffic. Shared autos and buses go towards Sevoke, but a reserved car is easier and lets you stop at Salugara on the way. Expect to pay around ₹1,200–2,000 for a return trip with waiting time."},
-        {"q": "Can I walk on the Coronation Bridge?", "a": "The bridge is a narrow working road with heavy trucks, and stopping on it is not permitted. The safest views are from the roadside viewpoints and the area near the Sevokeshwari Kali temple. Photographers should use those spots and keep clear of traffic. In the monsoon, watch for landslides on the hillsides above the road."},
-        {"q": "Is Sevoke on the way to Gangtok or the Dooars?", "a": "Yes. Sevoke is where the road to Gangtok and Kalimpong (National Highway 10) leaves the plains and enters the Teesta valley, and the Coronation Bridge carries the road east to the Dooars. If you are heading to Gangtok, Kalimpong or Gorumara, you will pass the area anyway, so a short photo stop needs no extra trip."}
+        {
+          "q": "How far is the Coronation Bridge from Siliguri?",
+          "a": "The bridge is at Sevoke, about 20 km from Siliguri, 40 minutes to an hour by car depending on traffic. Shared autos and buses go towards Sevoke, but a reserved car is easier and lets you stop at Salugara on the way. Expect to pay around ₹1,200–2,000 for a return trip with waiting time."
+        },
+        {
+          "q": "Can I walk on the Coronation Bridge?",
+          "a": "The bridge is a narrow working road with heavy trucks, and stopping on it is not permitted. The safest views are from the roadside viewpoints and the area near the Sevokeshwari Kali temple. Photographers should use those spots and keep clear of traffic. In the monsoon, watch for landslides on the hillsides above the road."
+        },
+        {
+          "q": "Is Sevoke on the way to Gangtok or the Dooars?",
+          "a": "Yes. Sevoke is where the road to Gangtok and Kalimpong (National Highway 10) leaves the plains and enters the Teesta valley, and the Coronation Bridge carries the road east to the Dooars. If you are heading to Gangtok, Kalimpong or Gorumara, you will pass the area anyway, so a short photo stop needs no extra trip."
+        }
       ]
     },
     {
@@ -154,17 +317,30 @@
       "summary": "Spend a transit evening eating your way along Hill Cart Road and around Bidhan Market: a Bengali fish thali, kathi rolls, phuchka and sweets, with Tibetan momos for balance.",
       "body": [
         "Siliguri is a Bengali city with large Nepali, Marwari, Bihari and Tibetan communities, and the food shows it. Simple restaurants serve rice thalis with dal, bhaja, fish curry and chutney. Street stalls sell phuchka, crisp shells filled with spiced potato and tamarind water, and kathi rolls of egg or chicken wrapped in paratha.",
-        "Finish at a sweet shop with rosogolla, sandesh and mishti doi, sweet set yoghurt. Then walk through Hong Kong Market, famous for cheap imported goods, and Bidhan Market. Eat where locals queue, choose stalls that cook to order, and drink bottled or filtered water."
+        "Finish at a sweet shop with rosogolla, sandesh and mishti doi, sweet set yoghurt. Then walk through Hong Kong Market, famous for cheap imported goods, and Bidhan Market. Eat where locals queue, choose stalls that cook to order, and drink bottled or filtered water. Most stalls close by about 10 pm, so go out early."
       ],
       "best_time": "Evenings from October to March, when it is cooler and the stalls are busy.",
-      "good_for": ["Food lovers", "Backpackers", "Transit travellers"],
+      "good_for": [
+        "Food lovers",
+        "Backpackers",
+        "Transit travellers"
+      ],
       "cost": "₹300–700 per person for a full evening of food",
       "wiki": "",
       "image_query": "Bengali thali fish curry",
       "faqs": [
-        {"q": "Is street food in Siliguri safe to eat?", "a": "Most travellers eat Siliguri street food without trouble if they choose well. Pick busy stalls with fast turnover, food cooked hot in front of you and clean water. Phuchka water is the usual risk, so try it at a crowded stall or skip it on your first day. Carry oral rehydration salts in case your stomach objects before the hills."},
-        {"q": "What sweets should I try in Siliguri?", "a": "Try rosogolla, soft cheese balls in syrup, sandesh, a dry milk sweet that changes with the season, and mishti doi, sweet set yoghurt in a clay pot. In winter look for sweets made with nolen gur, date-palm jaggery. A few pieces cost ₹10–30 each in an ordinary sweet shop, so you can taste several."},
-        {"q": "Are there vegetarian options in Siliguri?", "a": "Plenty. Marwari and North Indian vegetarian restaurants are common along Hill Cart Road and Sevoke Road, serving thalis, dosas and chaat. Bengali thalis also come in vegetarian versions with dal, seasonal vegetables and fried snacks. Momos are widely available with vegetable or paneer fillings. Prices for a full vegetarian thali run about ₹150–250."}
+        {
+          "q": "Is street food in Siliguri safe to eat?",
+          "a": "Most travellers eat Siliguri street food without trouble if they choose well. Pick busy stalls with fast turnover, food cooked hot in front of you and clean water. Phuchka water is the usual risk, so try it at a crowded stall or skip it on your first day. Carry oral rehydration salts in case your stomach objects before the hills."
+        },
+        {
+          "q": "What sweets should I try in Siliguri?",
+          "a": "Try rosogolla, soft cheese balls in syrup, sandesh, a dry milk sweet that changes with the season, and mishti doi, sweet set yoghurt in a clay pot. In winter look for sweets made with nolen gur, date-palm jaggery. A few pieces cost ₹10–30 each in an ordinary sweet shop, so you can taste several."
+        },
+        {
+          "q": "Are there vegetarian options in Siliguri?",
+          "a": "Plenty. Marwari and North Indian vegetarian restaurants are common along Hill Cart Road and Sevoke Road, serving thalis, dosas and chaat. Bengali thalis also come in vegetarian versions with dal, seasonal vegetables and fried snacks. Momos are widely available with vegetable or paneer fillings. Prices for a full vegetarian thali run about ₹150–250."
+        }
       ]
     }
   ]

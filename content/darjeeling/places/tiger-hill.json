@@ -11,36 +11,104 @@
   "lng": 88.2854,
   "altitude_m": 2590,
   "nights": 0,
-  "best_months": [2, 2, 1, 1, 1, 0, 0, 0, 1, 2, 2, 2],
-  "themes": ["photography", "monasteries", "toy-train", "family-trips"],
+  "best_months": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2
+  ],
+  "themes": [
+    "photography",
+    "monasteries",
+    "toy-train",
+    "family-trips"
+  ],
   "intro": [
-    "Tiger Hill rises above Ghum, about 11 km from Darjeeling, and is the highest point near the town. Every clear morning, hundreds of people gather here in the dark to watch the first light turn the summit of Kangchenjunga pink, then gold, before the sun clears the eastern hills.",
-    "On an exceptionally clear morning you can also see Everest, Lhotse and Makalu, small and far to the west, about 170 km away as the crow flies. Most days you see Kangchenjunga and its neighbours clearly and the Everest group faintly or not at all. In the monsoon, from June to September, cloud often hides everything.",
-    "Tiger Hill is not a place to stay but a dawn outing. Jeeps leave Darjeeling around 3.30 to 4 am. On the way back, most drivers stop at Ghum Monastery, Batasia Loop and sometimes the Japanese Peace Pagoda in Darjeeling, a set locals call the three-point tour."
+    "Tiger Hill rises above Ghum, about 11 km from Darjeeling, and is the highest point near the town. Every clear morning, hundreds of people gather here in the dark to watch the first light turn the summit of Kangchenjunga pink, then gold, before the sun clears the eastern hills. On busy October and May mornings the summit is packed, so the earlier you arrive, the better your spot.",
+    "On an exceptionally clear morning you can also see Everest, Lhotse and Makalu, small and far to the west, about 170 km away as the crow flies. Most days you see Kangchenjunga and its neighbours clearly and the Everest group faintly or not at all. In the monsoon, from June to September, cloud often hides everything. A clear evening is a good sign.",
+    "Tiger Hill is not a place to stay but a dawn outing. Jeeps leave Darjeeling around 3.30 to 4 am. On the way back, most drivers stop at Ghum Monastery, Batasia Loop and sometimes the Japanese Peace Pagoda in Darjeeling, a set locals call the three-point tour. The whole outing takes about four hours, and you are back in town for a late breakfast."
   ],
   "highlights": [
-    {"title": "Sunrise on Kangchenjunga", "text": "The world's third-highest mountain catches first light while the valleys below are still dark."},
-    {"title": "A glimpse of Everest", "text": "On very clear mornings Everest, Lhotse and Makalu appear on the western horizon."},
-    {"title": "Ghum Monastery", "text": "Yiga Choeling, founded in 1850, with a 15 ft image of Maitreya, the future Buddha."},
-    {"title": "Batasia Loop", "text": "The toy train's spiral loop, built in 1919, with a Gorkha war memorial and mountain views."},
-    {"title": "Senchal forest", "text": "Oak and rhododendron woods of Senchal Wildlife Sanctuary, set up in 1915, cover the slopes."}
+    {
+      "title": "Sunrise on Kangchenjunga",
+      "text": "The world's third-highest mountain catches first light while the valleys below are still dark."
+    },
+    {
+      "title": "A glimpse of Everest",
+      "text": "On very clear mornings Everest, Lhotse and Makalu appear on the western horizon."
+    },
+    {
+      "title": "Ghum Monastery",
+      "text": "Yiga Choeling, founded in 1850, with a 15 ft image of Maitreya, the future Buddha."
+    },
+    {
+      "title": "Batasia Loop",
+      "text": "The toy train's spiral loop, built in 1919, with a Gorkha war memorial and mountain views."
+    },
+    {
+      "title": "Senchal forest",
+      "text": "Oak and rhododendron woods of Senchal Wildlife Sanctuary, set up in 1915, cover the slopes."
+    }
   ],
   "facts": [
-    ["Altitude", "About 2,590 m"],
-    ["From Darjeeling", "11 km, 40–60 minutes before dawn"],
-    ["From Siliguri", "About 70 km, 3 hours"],
-    ["Best for", "Sunrise, mountain photography"],
-    ["Nights", "0 (visit from Darjeeling)"],
-    ["Permits", "None; small entry and viewing-gallery fees"]
+    [
+      "Altitude",
+      "About 2,590 m"
+    ],
+    [
+      "From Darjeeling",
+      "11 km, 40–60 minutes before dawn"
+    ],
+    [
+      "From Siliguri",
+      "About 70 km, 3 hours"
+    ],
+    [
+      "Best for",
+      "Sunrise, mountain photography"
+    ],
+    [
+      "Nights",
+      "0 (visit from Darjeeling)"
+    ],
+    [
+      "Permits",
+      "None; small entry and viewing-gallery fees"
+    ]
   ],
   "how_to_reach": [
-    {"mode": "Shared jeep", "text": "Shared sunrise jeeps leave Darjeeling around 3.30–4 am, often booked through hotels or the stands near Chowrasta, for about ₹300–500 a seat including the three-point stops on the return."},
-    {"mode": "Private car", "text": "A reserved car for Tiger Hill and the three-point tour costs about ₹1,800–2,800. Book the evening before and agree the pickup time and stops."},
-    {"mode": "On foot", "text": "Fit walkers can hike up from Ghum in about 1–1.5 hours on the road and forest tracks, or walk down after sunrise. Carry a torch and go with others in the dark."}
+    {
+      "mode": "Shared jeep",
+      "text": "Shared sunrise jeeps leave Darjeeling around 3.30–4 am, often booked through hotels or the stands near Chowrasta, for about ₹300–500 a seat including the three-point stops on the return."
+    },
+    {
+      "mode": "Private car",
+      "text": "A reserved car for Tiger Hill and the three-point tour costs about ₹1,800–2,800. Book the evening before and agree the pickup time and stops."
+    },
+    {
+      "mode": "On foot",
+      "text": "Fit walkers can hike up from Ghum in about 1–1.5 hours on the road and forest tracks, or walk down after sunrise. Carry a torch and go with others in the dark."
+    }
   ],
   "where_to_stay": "Stay in Darjeeling town and visit Tiger Hill on a dawn trip; there are no recommended stays on the summit. If you want a shorter pre-dawn drive, a few hotels and homestays in Ghum, at about 2,250 m, cut the journey to 20 minutes, but Ghum is colder and has fewer places to eat.",
-  "stays": ["darjeeling-town-budget-guesthouses", "windamere-hotel-darjeeling"],
-  "nearby": ["darjeeling-town", "kurseong", "mirik", "sandakphu"],
+  "stays": [
+    "darjeeling-town-budget-guesthouses",
+    "windamere-hotel-darjeeling"
+  ],
+  "nearby": [
+    "darjeeling-town",
+    "kurseong",
+    "mirik",
+    "sandakphu"
+  ],
   "tips": [
     "Leave Darjeeling by 4 am in peak season; traffic jams on the summit road can make late starters miss the sunrise",
     "Dress for 0–5°C even in spring; the wait in the dark is the coldest part of the day",
@@ -49,38 +117,96 @@
     "Pay for the heated indoor viewing gallery only if you dislike the cold; the open terraces have the best views"
   ],
   "costs": [
-    {"item": "Shared sunrise jeep from Darjeeling with three-point tour", "inr": "₹300–500 a seat"},
-    {"item": "Reserved car for Tiger Hill and three-point tour", "inr": "₹1,800–2,800 per car"},
-    {"item": "Tiger Hill entry fee", "inr": "₹10–50 per person (indicative)"},
-    {"item": "Viewing gallery tower seat", "inr": "₹30–200 depending on floor (indicative)"},
-    {"item": "Ghum Monastery entry", "inr": "₹0–20; donations welcome"},
-    {"item": "Batasia Loop entry", "inr": "₹20–50 (indicative)"},
-    {"item": "Coffee or tea on the summit", "inr": "₹30–60"}
+    {
+      "item": "Shared sunrise jeep from Darjeeling with three-point tour",
+      "inr": "₹300–500 a seat"
+    },
+    {
+      "item": "Reserved car for Tiger Hill and three-point tour",
+      "inr": "₹1,800–2,800 per car"
+    },
+    {
+      "item": "Tiger Hill entry fee",
+      "inr": "₹10–50 per person (indicative)"
+    },
+    {
+      "item": "Viewing gallery tower seat",
+      "inr": "₹30–200 depending on floor (indicative)"
+    },
+    {
+      "item": "Ghum Monastery entry",
+      "inr": "₹0–20; donations welcome"
+    },
+    {
+      "item": "Batasia Loop entry",
+      "inr": "₹20–50 (indicative)"
+    },
+    {
+      "item": "Coffee or tea on the summit",
+      "inr": "₹30–60"
+    }
   ],
-  "local_word": {"word": "Kangchenjunga", "language": "Tibetan origin (Kang-chen-dzö-nga)", "meaning": "The five treasures of the great snow, said to refer to the mountain's five peaks holding gold, silver, gems, grain and holy books"},
+  "local_word": {
+    "word": "Kangchenjunga",
+    "language": "Tibetan origin (Kang-chen-dzö-nga)",
+    "meaning": "The five treasures of the great snow, said to refer to the mountain's five peaks holding gold, silver, gems, grain and holy books"
+  },
   "story": {
     "title": "The mountain that lost its crown",
     "paras": [
-      "For most of the 19th century, the people who watched the dawn from the hills above Darjeeling believed they were looking at the highest mountain in the world. Kangchenjunga, at 8,586 m, filled the northern sky so completely that no one doubted it.",
+      "For most of the 19th century, the people who watched the dawn from the hills above Darjeeling believed they were looking at the highest mountain in the world. Kangchenjunga, at 8,586 m, filled the northern sky so completely that no one doubted it. Visitors wrote home about the highest peak on earth rising above the tea gardens.",
       "The Great Trigonometrical Survey of India took careful readings of the high peaks, and in 1849 the calculations showed that a distant summit in the west, known then only as Peak XV, was higher. That summit was Everest. Until 1852 Kangchenjunga was still assumed to be the highest, and in 1856 it was announced as the third highest, after Everest and K2.",
-      "From Tiger Hill you can see both rivals on a clear morning. Kangchenjunga stands huge and close, about 80 km away. Everest is a small grey point far to the west, with Lhotse and Makalu beside it.",
-      "For the Lepcha and Bhutia people of Sikkim the mountain was never about height. Kangchenjunga is a guardian deity, honoured each year at Pang Lhabsol, and climbers who reach the summit traditionally stop a few metres short of the top out of respect."
+      "From Tiger Hill you can see both rivals on a clear morning. Kangchenjunga stands huge and close, about 80 km away. Everest is a small grey point far to the west, with Lhotse and Makalu beside it. Standing there, it is easy to understand why early observers took the nearer, larger mountain for the highest.",
+      "For the Lepcha and Bhutia people of Sikkim the mountain was never about height. Kangchenjunga is a guardian deity, honoured each year at Pang Lhabsol, and climbers who reach the summit traditionally stop a few metres short of the top out of respect. That custom began with the first ascent in 1955 and has largely been kept since."
     ],
     "sources": [
-      {"title": "Kangchenjunga (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Kangchenjunga"},
-      {"title": "Tiger Hill, Darjeeling (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Tiger_Hill,_Darjeeling"}
+      {
+        "title": "Kangchenjunga (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Kangchenjunga"
+      },
+      {
+        "title": "Tiger Hill, Darjeeling (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Tiger_Hill,_Darjeeling"
+      }
     ]
   },
   "faqs": [
-    {"q": "What time should I leave Darjeeling for Tiger Hill?", "a": "Leave at about 3.45–4 am from March to May and 4–4.30 am from October to February. Sunrise ranges from about 5 am in summer to 6.15 am in winter, and you want to arrive 30–40 minutes before, both to park and to see the first pink light on Kangchenjunga. In October and May the summit road jams, so go earlier."},
-    {"q": "Can you really see Everest from Tiger Hill?", "a": "Yes, but only on very clear mornings, mostly from October to February. Everest, Lhotse and Makalu appear as small peaks on the western horizon, about 170 km away. Kangchenjunga, much closer, dominates the view. Ask a local or the photographers on the terrace to point Everest out, because many visitors look at the wrong summit."},
-    {"q": "Is the Tiger Hill trip worth it?", "a": "On a clear morning, yes: the light on Kangchenjunga is the best-known view in the Darjeeling hills. On a cloudy morning you lose sleep and see little. Check the evening sky and forecast, and keep a spare morning in your plan. If the summit crowds put you off, the sunrise from Ghum or the Batasia Loop is quieter."},
-    {"q": "How cold is Tiger Hill at sunrise?", "a": "Cold. At about 2,590 m, temperatures before sunrise are around -2 to 5°C from November to February and 5–10°C from March to May, with a wind chill on the open terraces. Wear a down jacket, a woollen hat, gloves and warm shoes. Tea and coffee sellers are on the summit, and the heated gallery offers shelter for a fee."},
-    {"q": "What is the Darjeeling three-point tour?", "a": "It is the standard dawn package: Tiger Hill for sunrise, then Ghum Monastery and Batasia Loop on the way back, sometimes with the Japanese Peace Pagoda. It takes about four hours and you are back in Darjeeling for breakfast. Shared jeeps cost about ₹300–500 a seat and reserved cars about ₹1,800–2,800, indicative for 2025–26."},
-    {"q": "Is there a viewing tower at Tiger Hill?", "a": "Yes, a multi-storey viewing gallery stands on the summit, with open terraces and enclosed, heated floors at higher prices. Tickets are sold on the spot; the open areas are cheapest. The tower can feel crowded, and many photographers prefer the open ground beside it for a clear line to Kangchenjunga. Fees are indicative and change."},
-    {"q": "Can I walk to Tiger Hill?", "a": "Yes. From Ghum it is a 1–1.5 hour climb on the road and forest tracks, gaining about 330 m. From Darjeeling allow 2.5–3 hours. Walking in the dark needs a good torch and company, and leopards live in the Senchal forest, so many people take a jeep up and walk down through the forest after sunrise instead."},
-    {"q": "Is Tiger Hill good in the monsoon?", "a": "Rarely. From June to September cloud usually covers both the summit and Kangchenjunga, and dawn trips often see nothing. Jeeps still run, but we suggest skipping it unless the sky is clear the night before. Late September can bring the first clear mornings. Roads are sometimes affected by landslides. Check current status before you travel."},
-    {"q": "Is Tiger Hill suitable for children and elderly visitors?", "a": "Yes, if they can handle the early start and cold. Vehicles go almost to the top, and the final walk is short and gentle. Bring blankets for the wait and a flask of something hot. Elderly visitors may prefer the heated gallery. In peak season the crowds and parking scramble can be tiring, so choose a quieter month if possible."}
+    {
+      "q": "What time should I leave Darjeeling for Tiger Hill?",
+      "a": "Leave at about 3.45–4 am from March to May and 4–4.30 am from October to February. Sunrise ranges from about 5 am in summer to 6.15 am in winter, and you want to arrive 30–40 minutes before, both to park and to see the first pink light on Kangchenjunga. In October and May the summit road jams, so go earlier."
+    },
+    {
+      "q": "Can you really see Everest from Tiger Hill?",
+      "a": "Yes, but only on very clear mornings, mostly from October to February. Everest, Lhotse and Makalu appear as small peaks on the western horizon, about 170 km away. Kangchenjunga, much closer, dominates the view. Ask a local or the photographers on the terrace to point Everest out, because many visitors look at the wrong summit."
+    },
+    {
+      "q": "Is the Tiger Hill trip worth it?",
+      "a": "On a clear morning, yes: the light on Kangchenjunga is the best-known view in the Darjeeling hills. On a cloudy morning you lose sleep and see little. Check the evening sky and forecast, and keep a spare morning in your plan. If the summit crowds put you off, the sunrise from Ghum or the Batasia Loop is quieter."
+    },
+    {
+      "q": "How cold is Tiger Hill at sunrise?",
+      "a": "Cold. At about 2,590 m, temperatures before sunrise are around -2 to 5°C from November to February and 5–10°C from March to May, with a wind chill on the open terraces. Wear a down jacket, a woollen hat, gloves and warm shoes. Tea and coffee sellers are on the summit, and the heated gallery offers shelter for a fee."
+    },
+    {
+      "q": "What is the Darjeeling three-point tour?",
+      "a": "It is the standard dawn package: Tiger Hill for sunrise, then Ghum Monastery and Batasia Loop on the way back, sometimes with the Japanese Peace Pagoda. It takes about four hours and you are back in Darjeeling for breakfast. Shared jeeps cost about ₹300–500 a seat and reserved cars about ₹1,800–2,800, indicative for 2025–26."
+    },
+    {
+      "q": "Is there a viewing tower at Tiger Hill?",
+      "a": "Yes, a multi-storey viewing gallery stands on the summit, with open terraces and enclosed, heated floors at higher prices. Tickets are sold on the spot; the open areas are cheapest. The tower can feel crowded, and many photographers prefer the open ground beside it for a clear line to Kangchenjunga. Fees are indicative and change."
+    },
+    {
+      "q": "Can I walk to Tiger Hill?",
+      "a": "Yes. From Ghum it is a 1–1.5 hour climb on the road and forest tracks, gaining about 330 m. From Darjeeling allow 2.5–3 hours. Walking in the dark needs a good torch and company, and leopards live in the Senchal forest, so many people take a jeep up and walk down through the forest after sunrise instead."
+    },
+    {
+      "q": "Is Tiger Hill good in the monsoon?",
+      "a": "Rarely. From June to September cloud usually covers both the summit and Kangchenjunga, and dawn trips often see nothing. Jeeps still run, but we suggest skipping it unless the sky is clear the night before. Late September can bring the first clear mornings. Roads are sometimes affected by landslides. Check current status before you travel."
+    },
+    {
+      "q": "Is Tiger Hill suitable for children and elderly visitors?",
+      "a": "Yes, if they can handle the early start and cold. Vehicles go almost to the top, and the final walk is short and gentle. Bring blankets for the wait and a flask of something hot. Elderly visitors may prefer the heated gallery. In peak season the crowds and parking scramble can be tiring, so choose a quieter month if possible."
+    }
   ],
   "experiences": [
     {
@@ -91,17 +217,30 @@
       "summary": "Drive up before dawn and watch Kangchenjunga turn from grey to pink to gold as the sun rises behind you, with Everest visible on the clearest mornings.",
       "body": [
         "The trip starts in the dark, around 4 am, with a 40–60 minute drive from Darjeeling through Ghum. At the summit, people crowd the terraces and the viewing tower. The sun rises in the east, but the moment that matters is in the north-west, when the summit of Kangchenjunga catches the first light while everything below is still in shadow.",
-        "The colours last about ten minutes. Then the whole range lights up, from Kabru and Kangchenjunga to Pandim, and on the best days Everest, Lhotse and Makalu show far in the west. Stay a few minutes after the crowds leave; the summit grows quiet and the light softens."
+        "The colours last about ten minutes. Then the whole range lights up, from Kabru and Kangchenjunga to Pandim, and on the best days Everest, Lhotse and Makalu show far in the west. Stay a few minutes after the crowds leave; the summit grows quiet and the light softens. Bring a flask of tea for the wait."
       ],
       "best_time": "October to February, on mornings after a clear evening.",
-      "good_for": ["Photographers", "Couples", "Families"],
+      "good_for": [
+        "Photographers",
+        "Couples",
+        "Families"
+      ],
       "cost": "₹300–500 a seat in a shared jeep, or ₹1,800–2,800 per car; small entry and gallery fees (indicative)",
       "wiki": "Tiger Hill, Darjeeling",
       "image_query": "Tiger Hill sunrise Kangchenjunga",
       "faqs": [
-        {"q": "Which direction should I face at Tiger Hill?", "a": "Face north-west towards Kangchenjunga for the first light on the snow; that is the main event. The sun itself rises in the east over the hills towards Bhutan, which is pleasant but less dramatic. Many photographers turn between the two. Everest appears further west of Kangchenjunga, small on the horizon, on very clear mornings only."},
-        {"q": "What camera lens is best at Tiger Hill?", "a": "A telephoto lens of 100–400 mm helps with Kangchenjunga's summit and is essential for Everest, which is about 170 km away. A standard zoom works for the wider range and the crowds. Bring spare batteries, as cold drains them quickly. A small tripod helps in the blue light before sunrise if you can find a free spot on the terrace."},
-        {"q": "What if it is cloudy at Tiger Hill?", "a": "Clouds can clear in minutes, so wait until about 30 minutes after sunrise before giving up. If it stays cloudy, you have still done the Ghum and Batasia stops. Keep another morning free in your plan to try again. Drivers usually know by 3 am whether it is worth going and will advise you honestly if you ask."}
+        {
+          "q": "Which direction should I face at Tiger Hill?",
+          "a": "Face north-west towards Kangchenjunga for the first light on the snow; that is the main event. The sun itself rises in the east over the hills towards Bhutan, which is pleasant but less dramatic. Many photographers turn between the two. Everest appears further west of Kangchenjunga, small on the horizon, on very clear mornings only."
+        },
+        {
+          "q": "What camera lens is best at Tiger Hill?",
+          "a": "A telephoto lens of 100–400 mm helps with Kangchenjunga's summit and is essential for Everest, which is about 170 km away. A standard zoom works for the wider range and the crowds. Bring spare batteries, as cold drains them quickly. A small tripod helps in the blue light before sunrise if you can find a free spot on the terrace."
+        },
+        {
+          "q": "What if it is cloudy at Tiger Hill?",
+          "a": "Clouds can clear in minutes, so wait until about 30 minutes after sunrise before giving up. If it stays cloudy, you have still done the Ghum and Batasia stops. Keep another morning free in your plan to try again. Drivers usually know by 3 am whether it is worth going and will advise you honestly if you ask."
+        }
       ]
     },
     {
@@ -112,17 +251,30 @@
       "summary": "Yiga Choeling, known as Old Ghoom Monastery, was founded in 1850 and belongs to the Gelug school. Its main hall holds a 15 ft image of Maitreya, the Buddha to come.",
       "body": [
         "The monastery stands just below the main road in Ghum, a short drive from Tiger Hill. It was founded in 1850 by the Mongolian monk and astrologer Sokpo Sherab Gyatso. His successor, Domo Geshe Rinpoche, commissioned the large Maitreya image that fills the main hall, and the monastery holds old texts and thangkas.",
-        "Visit after Tiger Hill when the morning prayers are often under way. Walk clockwise around the hall, turn the prayer wheels and keep your voice down inside. The monastery relies on donations from local devotees, so a small offering helps."
+        "Visit after Tiger Hill when the morning prayers are often under way. Walk clockwise around the hall, turn the prayer wheels and keep your voice down inside. The monastery relies on donations from local devotees, so a small offering helps. It is a 10-minute walk from Ghum station, so you can also visit during the toy train halt."
       ],
       "best_time": "Early morning after the Tiger Hill sunrise.",
-      "good_for": ["Families", "Culture lovers", "First-timers"],
+      "good_for": [
+        "Families",
+        "Culture lovers",
+        "First-timers"
+      ],
       "cost": "₹0–20 entry; donations welcome",
       "wiki": "Ghum Monastery",
       "image_query": "Ghum Monastery Maitreya",
       "faqs": [
-        {"q": "Is Ghum Monastery the same as Yiga Choeling?", "a": "Yes. Old Ghoom Monastery is the popular name for Yiga Choeling, founded in 1850 and part of the Gelug or Yellow Hat school. A second monastery, Samten Choeling, stands nearby on the Darjeeling side of Ghum and is also worth a look. Drivers sometimes mix the two, so ask for Yiga Choeling if you want the old one."},
-        {"q": "Can I take photos inside Ghum Monastery?", "a": "Rules vary; some days photography inside the main hall is not allowed or a small camera fee is asked. Look for signs or ask a monk. Never use flash on the old thangkas and murals, and do not photograph monks at prayer without permission. Photography outside, of the building and the prayer wheels, is generally fine."},
-        {"q": "How far is Ghum Monastery from Darjeeling?", "a": "About 8 km, 20–30 minutes by car. Ghum is also a stop on the toy train joy ride, and the monastery is a 10-minute walk from Ghum station. Many visitors see it on the way back from Tiger Hill as part of the three-point tour. Shared jeeps between Darjeeling and Ghum run all day for a small fare."}
+        {
+          "q": "Is Ghum Monastery the same as Yiga Choeling?",
+          "a": "Yes. Old Ghoom Monastery is the popular name for Yiga Choeling, founded in 1850 and part of the Gelug or Yellow Hat school. A second monastery, Samten Choeling, stands nearby on the Darjeeling side of Ghum and is also worth a look. Drivers sometimes mix the two, so ask for Yiga Choeling if you want the old one."
+        },
+        {
+          "q": "Can I take photos inside Ghum Monastery?",
+          "a": "Rules vary; some days photography inside the main hall is not allowed or a small camera fee is asked. Look for signs or ask a monk. Never use flash on the old thangkas and murals, and do not photograph monks at prayer without permission. Photography outside, of the building and the prayer wheels, is generally fine."
+        },
+        {
+          "q": "How far is Ghum Monastery from Darjeeling?",
+          "a": "About 8 km, 20–30 minutes by car. Ghum is also a stop on the toy train joy ride, and the monastery is a 10-minute walk from Ghum station. Many visitors see it on the way back from Tiger Hill as part of the three-point tour. Shared jeeps between Darjeeling and Ghum run all day for a small fare."
+        }
       ]
     },
     {
@@ -133,17 +285,30 @@
       "summary": "Stand inside the toy train's spiral loop, built in 1919, where the track circles a garden and a memorial to Gorkha soldiers of the Indian Army, with Kangchenjunga behind on clear days.",
       "body": [
         "The Batasia Loop lies about 5 km from Darjeeling, below Ghum. It was built in 1919 so the railway could lose height in a tight spiral instead of a steep gradient. The name is usually explained as the windy place. Inside the loop is a landscaped garden with a memorial to Gorkha soldiers of the Indian Army who have died in service since 1947.",
-        "Come early, when the light is soft and the mountain clear, or time your visit for a train passing on the loop. The joy ride stops here for about 10 minutes. Small stalls sell tea, woollens and souvenirs at the gate."
+        "Come early, when the light is soft and the mountain clear, or time your visit for a train passing on the loop. The joy ride stops here for about 10 minutes. Small stalls sell tea, woollens and souvenirs at the gate. On clear days Kangchenjunga rises directly behind the memorial, one of the best-framed views near Darjeeling."
       ],
       "best_time": "Early morning on a clear day, or when a joy ride train is due.",
-      "good_for": ["Families", "Rail lovers", "Photographers"],
+      "good_for": [
+        "Families",
+        "Rail lovers",
+        "Photographers"
+      ],
       "cost": "₹20–50 entry (indicative)",
       "wiki": "Batasia Loop",
       "image_query": "Batasia Loop Darjeeling",
       "faqs": [
-        {"q": "Why was the Batasia Loop built?", "a": "It was built in 1919 to ease the gradient between Ghum, the highest point on the line, and Darjeeling. Instead of descending steeply, the track spirals around a small hill and crosses over itself, losing height gradually. It is one of the loops that let the 2 ft gauge railway climb from about 100 m at NJP to over 2,200 m at Ghum."},
-        {"q": "Can I see the toy train at Batasia Loop?", "a": "Yes. Joy ride trains between Darjeeling and Ghum pass several times a day and stop for about 10 minutes, and the daily NJP train passes too. Ask at the gate or check the IRCTC timetable for that day's services. Seeing a steam engine curve around the loop with Kangchenjunga behind is one of Darjeeling's classic photographs."},
-        {"q": "What is the war memorial at Batasia?", "a": "It is a memorial to Gorkha soldiers of the Indian Army who have lost their lives since Independence in 1947. A bronze statue of a soldier stands on a raised platform, with names and an eternal flame. Many Darjeeling families have served in the Gorkha regiments, so it is a place of real meaning locally. Please be respectful when taking photos."}
+        {
+          "q": "Why was the Batasia Loop built?",
+          "a": "It was built in 1919 to ease the gradient between Ghum, the highest point on the line, and Darjeeling. Instead of descending steeply, the track spirals around a small hill and crosses over itself, losing height gradually. It is one of the loops that let the 2 ft gauge railway climb from about 100 m at NJP to over 2,200 m at Ghum."
+        },
+        {
+          "q": "Can I see the toy train at Batasia Loop?",
+          "a": "Yes. Joy ride trains between Darjeeling and Ghum pass several times a day and stop for about 10 minutes, and the daily NJP train passes too. Ask at the gate or check the IRCTC timetable for that day's services. Seeing a steam engine curve around the loop with Kangchenjunga behind is one of Darjeeling's classic photographs."
+        },
+        {
+          "q": "What is the war memorial at Batasia?",
+          "a": "It is a memorial to Gorkha soldiers of the Indian Army who have lost their lives since Independence in 1947. A bronze statue of a soldier stands on a raised platform, with names and an eternal flame. Many Darjeeling families have served in the Gorkha regiments, so it is a place of real meaning locally. Please be respectful when taking photos."
+        }
       ]
     },
     {
@@ -157,14 +322,27 @@
         "It is about 4–5 km, mostly downhill, and takes 1.5–2 hours. Go in a group after the sun is up, stay on the road and tracks, and arrange for your car to wait at Ghum. In April and May the rhododendrons flower; in winter the light through the trees is clear and sharp."
       ],
       "best_time": "After sunrise from October to May; avoid the wet, leech-heavy monsoon.",
-      "good_for": ["Walkers", "Birdwatchers", "Photographers"],
+      "good_for": [
+        "Walkers",
+        "Birdwatchers",
+        "Photographers"
+      ],
       "cost": "₹0 beyond your Tiger Hill trip; sanctuary fees may apply (indicative)",
       "wiki": "Senchal Wildlife Sanctuary",
       "image_query": "Senchal Wildlife Sanctuary forest",
       "faqs": [
-        {"q": "Is it safe to walk down from Tiger Hill?", "a": "Yes, in daylight and in company. Stay on the road and main tracks, walk with at least one other person and carry water and a phone. Leopards and wild boar live in the Senchal forest but avoid people; do not walk in the dark. Watch for vehicles on the road sections, especially between 6 and 8 am when sunrise jeeps return."},
-        {"q": "What birds can I see in the Senchal forest?", "a": "Early mornings bring laughingthrushes, minivets, sunbirds, warblers, tits and sometimes the satyr tragopan in winter, though that is rare. Birders often spot green-tailed sunbirds and rufous sibias. Binoculars help, and a local birding guide from Darjeeling can show you the best tracks. Quiet walking pays off."},
-        {"q": "Where does the walk from Tiger Hill end?", "a": "Most people walk down to Ghum, about 4–5 km, and meet their car near Ghum Monastery or the station. From Ghum you can take the toy train or a shared jeep back to Darjeeling, 8 km away. Fit walkers can continue on to Batasia Loop and Darjeeling on foot, adding another 1.5 hours."}
+        {
+          "q": "Is it safe to walk down from Tiger Hill?",
+          "a": "Yes, in daylight and in company. Stay on the road and main tracks, walk with at least one other person and carry water and a phone. Leopards and wild boar live in the Senchal forest but avoid people; do not walk in the dark. Watch for vehicles on the road sections, especially between 6 and 8 am when sunrise jeeps return."
+        },
+        {
+          "q": "What birds can I see in the Senchal forest?",
+          "a": "Early mornings bring laughingthrushes, minivets, sunbirds, warblers, tits and sometimes the satyr tragopan in winter, though that is rare. Birders often spot green-tailed sunbirds and rufous sibias. Binoculars help, and a local birding guide from Darjeeling can show you the best tracks. Quiet walking pays off."
+        },
+        {
+          "q": "Where does the walk from Tiger Hill end?",
+          "a": "Most people walk down to Ghum, about 4–5 km, and meet their car near Ghum Monastery or the station. From Ghum you can take the toy train or a shared jeep back to Darjeeling, 8 km away. Fit walkers can continue on to Batasia Loop and Darjeeling on foot, adding another 1.5 hours."
+        }
       ]
     }
   ]

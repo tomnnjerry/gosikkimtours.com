@@ -8,9 +8,32 @@
   "end": "NJP or Bagdogra",
   "pace": "Easy",
   "max_altitude_m": 2590,
-  "best_months": [1, 1, 2, 2, 2, 1, 0, 0, 1, 2, 2, 2],
-  "themes": ["toy-train", "tea-country", "family-trips", "weekend-breaks"],
-  "stops": [{"place": "darjeeling-town", "nights": 3}],
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2
+  ],
+  "themes": [
+    "toy-train",
+    "tea-country",
+    "family-trips",
+    "weekend-breaks"
+  ],
+  "stops": [
+    {
+      "place": "darjeeling-town",
+      "nights": 3
+    }
+  ],
   "intro": [
     "This is the classic first visit to Darjeeling, built around the things most people come for: the toy train, the tea and the view of Kangchenjunga. Three nights in one hotel keep it relaxed, with no packing and unpacking, and leave a spare morning in case cloud spoils the first sunrise.",
     "We drive up from NJP or Bagdogra rather than taking the full 7–8 hour train, then ride the best section of the railway on the joy ride from Darjeeling to Ghum. On the way down we stop in Kurseong for Makaibari tea and the train in the bazaar."
@@ -23,12 +46,47 @@
     "Tea and the toy train in the bazaar at Kurseong on the drive back down."
   ],
   "days": [
-    {"day": 1, "title": "NJP or Bagdogra to Darjeeling", "place": "darjeeling-town", "overnight": "Darjeeling", "drive": "65–70 km, 3–3.5 hours", "meals": "Dinner", "text": "Meet your car or join a shared jeep at NJP or Bagdogra and climb through Sukna's forest, the Rohini tea gardens, Kurseong and Ghum to Darjeeling at about 2,045 m. Check in, rest for an hour to let your body adjust, then walk up to Chowrasta in the late afternoon. Stroll the Mall loop around Observatory Hill and have an early dinner, as tomorrow starts before dawn."},
-    {"day": 2, "title": "Tiger Hill sunrise and the toy train to Ghum", "place": "tiger-hill", "overnight": "Darjeeling", "drive": "25 km in total, about 4 hours with stops", "meals": "Breakfast, dinner", "text": "Leave at about 4 am for Tiger Hill and watch first light on Kangchenjunga. On the way back stop at Ghum Monastery and the Batasia Loop. After breakfast and a rest, take the late-morning or afternoon toy train joy ride from Darjeeling to Ghum and back, about two hours, with a halt at Batasia and time at the Ghum railway museum. Evening free around Chowrasta."},
-    {"day": 3, "title": "Tea garden, zoo and HMI", "place": "darjeeling-town", "overnight": "Darjeeling", "drive": "Short local drives or walks", "meals": "Breakfast, dinner", "text": "Walk down to Happy Valley Tea Estate for a garden visit and tasting, then take a taxi to the Padmaja Naidu Himalayan Zoological Park and the Himalayan Mountaineering Institute next door (closed on Thursdays). After lunch, visit the Tibetan Refugee Self-Help Centre or the Japanese Peace Pagoda. End with tea and cake at Glenary's on Nehru Road."},
-    {"day": 4, "title": "Darjeeling to Kurseong and down to NJP", "place": "kurseong", "overnight": "", "drive": "65–70 km, 4–5 hours with stops", "meals": "Breakfast", "text": "Drive down to Kurseong, about 1–1.5 hours. Visit Makaibari Tea Estate for a walk and tasting, then watch the toy train pass through Kurseong bazaar if timings work. Take the Rohini or Pankhabari road down to the plains and reach NJP or Bagdogra by mid-afternoon, in time for evening trains and flights."}
+    {
+      "day": 1,
+      "title": "NJP or Bagdogra to Darjeeling",
+      "place": "darjeeling-town",
+      "overnight": "Darjeeling",
+      "drive": "65–70 km, 3–3.5 hours",
+      "meals": "Dinner",
+      "text": "Meet your car or join a shared jeep at NJP or Bagdogra and climb through Sukna's forest, the Rohini tea gardens, Kurseong and Ghum to Darjeeling at about 2,045 m. Check in, rest for an hour to let your body adjust, then walk up to Chowrasta in the late afternoon. Stroll the Mall loop around Observatory Hill and have an early dinner, as tomorrow starts before dawn."
+    },
+    {
+      "day": 2,
+      "title": "Tiger Hill sunrise and the toy train to Ghum",
+      "place": "tiger-hill",
+      "overnight": "Darjeeling",
+      "drive": "25 km in total, about 4 hours with stops",
+      "meals": "Breakfast, dinner",
+      "text": "Leave at about 4 am for Tiger Hill and watch first light on Kangchenjunga. On the way back stop at Ghum Monastery and the Batasia Loop. After breakfast and a rest, take the late-morning or afternoon toy train joy ride from Darjeeling to Ghum and back, about two hours, with a halt at Batasia and time at the Ghum railway museum. Evening free around Chowrasta."
+    },
+    {
+      "day": 3,
+      "title": "Tea garden, zoo and HMI",
+      "place": "darjeeling-town",
+      "overnight": "Darjeeling",
+      "drive": "Short local drives or walks",
+      "meals": "Breakfast, dinner",
+      "text": "Walk down to Happy Valley Tea Estate for a garden visit and tasting, then take a taxi to the Padmaja Naidu Himalayan Zoological Park and the Himalayan Mountaineering Institute next door (closed on Thursdays). After lunch, visit the Tibetan Refugee Self-Help Centre or the Japanese Peace Pagoda. End with tea and cake at Glenary's on Nehru Road. Pick up tea to take home from an estate outlet rather than a roadside stall."
+    },
+    {
+      "day": 4,
+      "title": "Darjeeling to Kurseong and down to NJP",
+      "place": "kurseong",
+      "overnight": "",
+      "drive": "65–70 km, 4–5 hours with stops",
+      "meals": "Breakfast",
+      "text": "Drive down to Kurseong, about 1–1.5 hours. Visit Makaibari Tea Estate for a walk and tasting, then watch the toy train pass through Kurseong bazaar if timings work. Take the Rohini or Pankhabari road down to the plains and reach NJP or Bagdogra by mid-afternoon, in time for evening trains and flights. Keep a buffer for slow traffic near Siliguri."
+    }
   ],
-  "stays": ["darjeeling-town-budget-guesthouses", "windamere-hotel-darjeeling"],
+  "stays": [
+    "darjeeling-town-budget-guesthouses",
+    "windamere-hotel-darjeeling"
+  ],
   "includes": [
     "Three nights' accommodation in Darjeeling, twin sharing",
     "Breakfast and dinner on days 2 and 3, breakfast on day 4, dinner on day 1",
@@ -50,9 +108,27 @@
     "Prices are indicative for 2025–26 and rise around Durga Puja, Diwali and Christmas."
   ],
   "tiers": [
-    {"name": "Budget", "price_inr": 9500, "stays": "Family guesthouses near Chowrasta", "transport": "Shared jeeps up and down; shared jeep for Tiger Hill; local taxis", "note": "Diesel joy ride; the cheapest honest way to do the essentials"},
-    {"name": "Value", "price_inr": 19500, "stays": "Good mid-range hotel near the Mall with mountain-view rooms", "transport": "Private car for transfers and sightseeing", "note": "Steam joy ride and a private car make the days easier"},
-    {"name": "Comfort", "price_inr": 42000, "stays": "Windamere Hotel or a similar heritage hotel", "transport": "Private Innova-class car and driver throughout", "note": "Heritage rooms with fireplaces and a steam joy ride"}
+    {
+      "name": "Budget",
+      "price_inr": 9500,
+      "stays": "Family guesthouses near Chowrasta",
+      "transport": "Shared jeeps up and down; shared jeep for Tiger Hill; local taxis",
+      "note": "Diesel joy ride; the cheapest honest way to do the essentials"
+    },
+    {
+      "name": "Value",
+      "price_inr": 19500,
+      "stays": "Good mid-range hotel near the Mall with mountain-view rooms",
+      "transport": "Private car for transfers and sightseeing",
+      "note": "Steam joy ride and a private car make the days easier"
+    },
+    {
+      "name": "Comfort",
+      "price_inr": 42000,
+      "stays": "Windamere Hotel or a similar heritage hotel",
+      "transport": "Private Innova-class car and driver throughout",
+      "note": "Heritage rooms with fireplaces and a steam joy ride"
+    }
   ],
   "price_from_inr": 9500,
   "save_tips": [
@@ -63,14 +139,41 @@
     "Walk to Happy Valley and the zoo instead of hiring a taxi for each sight."
   ],
   "faqs": [
-    {"q": "Is three nights enough for Darjeeling?", "a": "Three nights is enough for the main sights at an easy pace: Tiger Hill, Ghum and Batasia, the toy train, a tea garden, the zoo and HMI, and the town itself. It also leaves a spare morning if the first sunrise is cloudy. If you want Mirik, Sandakphu or a tea-estate stay, add two or more nights."},
-    {"q": "Why not take the toy train all the way from NJP?", "a": "The full NJP to Darjeeling train takes 7–8 hours to cover 88 km, which uses a whole day of a short trip. The joy ride from Darjeeling to Ghum gives you the most famous section, the Batasia Loop and the railway museum in two hours. If you love trains and have a spare day, we can add the full journey."},
-    {"q": "Steam or diesel for the joy ride?", "a": "Steam is the real thing, with vintage British-built engines, smoke and whistles, and we include it in the Value and Comfort tiers. Diesel covers the same route and stops for less and is included in the Budget tier. You can upgrade Budget to steam for the fare difference, about ₹400–700 per person, if seats are available."},
-    {"q": "What is the best month for this trip?", "a": "October and November give the clearest views, followed by March to May and the cold, bright months of December to February. Avoid the monsoon from June to September, when Tiger Hill is usually clouded and landslides can disrupt the roads and toy train. If you travel in October, book at least six weeks ahead."},
-    {"q": "Is this trip suitable for children and elderly travellers?", "a": "Yes. Drives are short, the pace is easy and there is no trekking. The Tiger Hill start at 4 am is optional for anyone who prefers to sleep. Darjeeling's lanes are steep, so for older travellers we choose a hotel with car access in the Value and Comfort tiers. Pack warm clothes even in spring."},
-    {"q": "How much does the Budget tier cost and what does it include?", "a": "From about ₹9,500 per person, twin sharing, for three nights in a family guesthouse, most meals, shared jeeps, the Tiger Hill trip and a diesel joy ride. Entry fees, lunches and tips are extra. Prices are indicative for 2025–26 and rise in peak weeks. Solo travellers pay a single supplement of about ₹2,500–3,500."},
-    {"q": "Can I start from Bagdogra instead of NJP?", "a": "Yes. Bagdogra airport is about 3 hours from Darjeeling, similar to NJP. For day 1, choose a flight landing before about 1 pm so you reach Darjeeling in daylight. On day 4 we aim to reach Bagdogra by about 2 pm; book an afternoon or evening flight to allow for slow mountain traffic."},
-    {"q": "What if the toy train is cancelled?", "a": "Joy rides are occasionally cancelled for engine faults, landslides or special events. IRCTC refunds the fare for cancelled trains. We then add an alternative such as the Batasia Loop and Ghum museum by car, or rebook for another day of your stay if seats are free. Check current status before you travel in the monsoon."},
-    {"q": "Can I add Mirik or Kalimpong to this trip?", "a": "Yes. Add one night in Mirik on day 4 and return to NJP on day 5 via a different road, or add a night in Kalimpong, about 2.5 hours from Darjeeling. Each extra night adds roughly ₹2,500–4,000 per person in the Budget tier and more in the Value and Comfort tiers, depending on the hotel."}
+    {
+      "q": "Is three nights enough for Darjeeling?",
+      "a": "Three nights is enough for the main sights at an easy pace: Tiger Hill, Ghum and Batasia, the toy train, a tea garden, the zoo and HMI, and the town itself. It also leaves a spare morning if the first sunrise is cloudy. If you want Mirik, Sandakphu or a tea-estate stay, add two or more nights."
+    },
+    {
+      "q": "Why not take the toy train all the way from NJP?",
+      "a": "The full NJP to Darjeeling train takes 7–8 hours to cover 88 km, which uses a whole day of a short trip. The joy ride from Darjeeling to Ghum gives you the most famous section, the Batasia Loop and the railway museum in two hours. If you love trains and have a spare day, we can add the full journey."
+    },
+    {
+      "q": "Steam or diesel for the joy ride?",
+      "a": "Steam is the real thing, with vintage British-built engines, smoke and whistles, and we include it in the Value and Comfort tiers. Diesel covers the same route and stops for less and is included in the Budget tier. You can upgrade Budget to steam for the fare difference, about ₹400–700 per person, if seats are available."
+    },
+    {
+      "q": "What is the best month for this trip?",
+      "a": "October and November give the clearest views, followed by March to May and the cold, bright months of December to February. Avoid the monsoon from June to September, when Tiger Hill is usually clouded and landslides can disrupt the roads and toy train. If you travel in October, book at least six weeks ahead."
+    },
+    {
+      "q": "Is this trip suitable for children and elderly travellers?",
+      "a": "Yes. Drives are short, the pace is easy and there is no trekking. The Tiger Hill start at 4 am is optional for anyone who prefers to sleep. Darjeeling's lanes are steep, so for older travellers we choose a hotel with car access in the Value and Comfort tiers. Pack warm clothes even in spring."
+    },
+    {
+      "q": "How much does the Budget tier cost and what does it include?",
+      "a": "From about ₹9,500 per person, twin sharing, for three nights in a family guesthouse, most meals, shared jeeps, the Tiger Hill trip and a diesel joy ride. Entry fees, lunches and tips are extra. Prices are indicative for 2025–26 and rise in peak weeks. Solo travellers pay a single supplement of about ₹2,500–3,500."
+    },
+    {
+      "q": "Can I start from Bagdogra instead of NJP?",
+      "a": "Yes. Bagdogra airport is about 3 hours from Darjeeling, similar to NJP. For day 1, choose a flight landing before about 1 pm so you reach Darjeeling in daylight. On day 4 we aim to reach Bagdogra by about 2 pm; book an afternoon or evening flight to allow for slow mountain traffic."
+    },
+    {
+      "q": "What if the toy train is cancelled?",
+      "a": "Joy rides are occasionally cancelled for engine faults, landslides or special events. IRCTC refunds the fare for cancelled trains. We then add an alternative such as the Batasia Loop and Ghum museum by car, or rebook for another day of your stay if seats are free. Check current status before you travel in the monsoon."
+    },
+    {
+      "q": "Can I add Mirik or Kalimpong to this trip?",
+      "a": "Yes. Add one night in Mirik on day 4 and return to NJP on day 5 via a different road, or add a night in Kalimpong, about 2.5 hours from Darjeeling. Each extra night adds roughly ₹2,500–4,000 per person in the Budget tier and more in the Value and Comfort tiers, depending on the hotel."
+    }
   ]
 }

@@ -8,12 +8,39 @@
   "end": "NJP or Bagdogra",
   "pace": "Moderate",
   "max_altitude_m": 2590,
-  "best_months": [1, 1, 2, 2, 2, 0, 0, 0, 1, 2, 2, 2],
-  "themes": ["toy-train", "tea-country", "monasteries", "family-trips"],
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2
+  ],
+  "themes": [
+    "toy-train",
+    "tea-country",
+    "monasteries",
+    "family-trips"
+  ],
   "stops": [
-    {"place": "darjeeling-town", "nights": 2},
-    {"place": "kalimpong-town", "nights": 1},
-    {"place": "gangtok", "nights": 2}
+    {
+      "place": "darjeeling-town",
+      "nights": 2
+    },
+    {
+      "place": "kalimpong-town",
+      "nights": 1
+    },
+    {
+      "place": "gangtok",
+      "nights": 2
+    }
   ],
   "intro": [
     "This loop links Darjeeling, Kalimpong and Gangtok, three towns on separate ridges divided by the Teesta valley. Each feels different: Darjeeling has the railway, the tea and the colonial centre; Kalimpong is a quieter market town of nurseries, schools and monasteries; Gangtok is the modern capital of Sikkim.",
@@ -27,14 +54,65 @@
     "Evening walks on Gangtok's car-free MG Marg and the Enchey and Rumtek monasteries."
   ],
   "days": [
-    {"day": 1, "title": "NJP or Bagdogra to Darjeeling", "place": "darjeeling-town", "overnight": "Darjeeling", "drive": "65–70 km, 3–3.5 hours", "meals": "Dinner", "text": "Drive up from NJP or Bagdogra through Sukna, Rohini and Kurseong to Darjeeling at about 2,045 m. Check in and rest, then walk to Chowrasta in the late afternoon and around the Mall loop. Try momos or a Nepali thali for dinner and go to bed early for tomorrow's sunrise."},
-    {"day": 2, "title": "Tiger Hill, toy train and tea", "place": "darjeeling-town", "overnight": "Darjeeling", "drive": "25 km in total", "meals": "Breakfast, dinner", "text": "Leave around 4 am for the Tiger Hill sunrise, returning via Ghum Monastery and the Batasia Loop. After breakfast, ride the toy train from Darjeeling to Ghum and back. In the afternoon walk down to Happy Valley Tea Estate for a tasting, or visit the zoo and HMI if it is not a Thursday."},
-    {"day": 3, "title": "Darjeeling to Kalimpong", "place": "kalimpong-town", "overnight": "Kalimpong", "drive": "50 km, 2.5–3 hours", "meals": "Breakfast, dinner", "text": "Drive down through tea gardens to the Teesta at Teesta Bazaar and climb to Kalimpong at about 1,250 m. Stop at the Lovers' Meet viewpoint above the confluence of the Teesta and Rangeet if the road allows. In the afternoon, visit Zang Dhok Palri Phodang on Durpin Hill and one of Kalimpong's flower nurseries, then walk through the old market."},
-    {"day": 4, "title": "Kalimpong to Gangtok", "place": "gangtok", "overnight": "Gangtok", "drive": "75 km, 3–3.5 hours", "meals": "Breakfast, dinner", "text": "After breakfast, see Dr Graham's Homes or the Mangal Dham temple, then drive down to the Teesta and up through Rangpo, where foreigners show their Sikkim permit, to Gangtok at about 1,650 m. Check in and spend the evening on MG Marg, Gangtok's car-free main street, with its cafés and shops."},
-    {"day": 5, "title": "Gangtok monasteries and viewpoints", "place": "gangtok", "overnight": "Gangtok", "drive": "Local sightseeing, about 50 km", "meals": "Breakfast, dinner", "text": "Visit Rumtek Monastery, 24 km from Gangtok, seat of the Karma Kagyu school in exile. Return for Enchey Monastery, the Namgyal Institute of Tibetology and the Do Drul Chorten, and the ropeway if the queue is short. A day trip to Tsomgo Lake is possible as an add-on with a permit, subject to weather and road status."},
-    {"day": 6, "title": "Gangtok to NJP or Bagdogra", "place": "siliguri", "overnight": "", "drive": "115–125 km, 4–5 hours", "meals": "Breakfast", "text": "Leave Gangtok by 8 am and drive down the Teesta valley via Rangpo, Melli and Sevoke to Siliguri, NJP or Bagdogra. Stop at the Coronation Bridge at Sevoke if time allows. Allow at least five hours for the drive in case of traffic or road works on National Highway 10, and book afternoon or evening onward travel."}
+    {
+      "day": 1,
+      "title": "NJP or Bagdogra to Darjeeling",
+      "place": "darjeeling-town",
+      "overnight": "Darjeeling",
+      "drive": "65–70 km, 3–3.5 hours",
+      "meals": "Dinner",
+      "text": "Drive up from NJP or Bagdogra through Sukna, Rohini and Kurseong to Darjeeling at about 2,045 m. Check in and rest, then walk to Chowrasta in the late afternoon and around the Mall loop. Try momos or a Nepali thali for dinner and go to bed early for tomorrow's sunrise. If you arrive early, stop for tea in Kurseong on the way up."
+    },
+    {
+      "day": 2,
+      "title": "Tiger Hill, toy train and tea",
+      "place": "darjeeling-town",
+      "overnight": "Darjeeling",
+      "drive": "25 km in total",
+      "meals": "Breakfast, dinner",
+      "text": "Leave around 4 am for the Tiger Hill sunrise, returning via Ghum Monastery and the Batasia Loop. After breakfast, ride the toy train from Darjeeling to Ghum and back. In the afternoon walk down to Happy Valley Tea Estate for a tasting, or visit the zoo and HMI if it is not a Thursday. Dinner tonight is a good time to try Tibetan food near Chowrasta."
+    },
+    {
+      "day": 3,
+      "title": "Darjeeling to Kalimpong",
+      "place": "kalimpong-town",
+      "overnight": "Kalimpong",
+      "drive": "50 km, 2.5–3 hours",
+      "meals": "Breakfast, dinner",
+      "text": "Drive down through tea gardens to the Teesta at Teesta Bazaar and climb to Kalimpong at about 1,250 m. Stop at the Lovers' Meet viewpoint above the confluence of the Teesta and Rangeet if the road allows. In the afternoon, visit Zang Dhok Palri Phodang on Durpin Hill and one of Kalimpong's flower nurseries, then walk through the old market."
+    },
+    {
+      "day": 4,
+      "title": "Kalimpong to Gangtok",
+      "place": "gangtok",
+      "overnight": "Gangtok",
+      "drive": "75 km, 3–3.5 hours",
+      "meals": "Breakfast, dinner",
+      "text": "After breakfast, see Dr Graham's Homes or the Mangal Dham temple, then drive down to the Teesta and up through Rangpo, where foreigners show their Sikkim permit, to Gangtok at about 1,650 m. Check in and spend the evening on MG Marg, Gangtok's car-free main street, with its cafés and shops. Indian travellers need only carry photo ID at the Rangpo check post."
+    },
+    {
+      "day": 5,
+      "title": "Gangtok monasteries and viewpoints",
+      "place": "gangtok",
+      "overnight": "Gangtok",
+      "drive": "Local sightseeing, about 50 km",
+      "meals": "Breakfast, dinner",
+      "text": "Visit Rumtek Monastery, 24 km from Gangtok, seat of the Karma Kagyu school in exile. Return for Enchey Monastery, the Namgyal Institute of Tibetology and the Do Drul Chorten, and the ropeway if the queue is short. A day trip to Tsomgo Lake is possible as an add-on with a permit, subject to weather and road status. Evening free on MG Marg."
+    },
+    {
+      "day": 6,
+      "title": "Gangtok to NJP or Bagdogra",
+      "place": "siliguri",
+      "overnight": "",
+      "drive": "115–125 km, 4–5 hours",
+      "meals": "Breakfast",
+      "text": "Leave Gangtok by 8 am and drive down the Teesta valley via Rangpo, Melli and Sevoke to Siliguri, NJP or Bagdogra. Stop at the Coronation Bridge at Sevoke if time allows. Allow at least five hours for the drive in case of traffic or road works on National Highway 10, and book afternoon or evening onward travel. Breakfast is early today."
+    }
   ],
-  "stays": ["darjeeling-town-budget-guesthouses", "windamere-hotel-darjeeling"],
+  "stays": [
+    "darjeeling-town-budget-guesthouses",
+    "windamere-hotel-darjeeling"
+  ],
   "includes": [
     "Five nights' accommodation, twin sharing",
     "Breakfast and dinner daily except dinner on day 6",
@@ -55,9 +133,27 @@
     "In Gangtok, private cars from outside Sikkim cannot do local sightseeing, so we switch to a Sikkim-registered car for days 5 and 6."
   ],
   "tiers": [
-    {"name": "Budget", "price_inr": 15500, "stays": "Family guesthouses and simple hotels", "transport": "Shared jeeps between towns, local taxis for sightseeing", "note": "Good value if you are happy to travel light and start early"},
-    {"name": "Value", "price_inr": 32000, "stays": "Good mid-range hotels with views in each town", "transport": "Private car with driver throughout, Sikkim car in Gangtok", "note": "The most comfortable balance of price and ease"},
-    {"name": "Comfort", "price_inr": 62000, "stays": "Windamere in Darjeeling and the best heritage or boutique hotels in Kalimpong and Gangtok", "transport": "Private Innova-class car and driver throughout", "note": "Heritage rooms, steam joy ride and unhurried days"}
+    {
+      "name": "Budget",
+      "price_inr": 15500,
+      "stays": "Family guesthouses and simple hotels",
+      "transport": "Shared jeeps between towns, local taxis for sightseeing",
+      "note": "Good value if you are happy to travel light and start early"
+    },
+    {
+      "name": "Value",
+      "price_inr": 32000,
+      "stays": "Good mid-range hotels with views in each town",
+      "transport": "Private car with driver throughout, Sikkim car in Gangtok",
+      "note": "The most comfortable balance of price and ease"
+    },
+    {
+      "name": "Comfort",
+      "price_inr": 62000,
+      "stays": "Windamere in Darjeeling and the best heritage or boutique hotels in Kalimpong and Gangtok",
+      "transport": "Private Innova-class car and driver throughout",
+      "note": "Heritage rooms, steam joy ride and unhurried days"
+    }
   ],
   "price_from_inr": 15500,
   "save_tips": [
@@ -67,14 +163,41 @@
     "Eat at local momo and thali places rather than hotel restaurants; meals cost half as much."
   ],
   "faqs": [
-    {"q": "Is five nights enough for Darjeeling, Kalimpong and Gangtok?", "a": "Five nights covers the highlights of all three towns at a moderate pace, with two nights each in Darjeeling and Gangtok and one in Kalimpong. You will not have time for North Sikkim, Tsomgo Lake in a relaxed way or Sandakphu. With seven nights we would add Tsomgo and Nathu La from Gangtok or a night in Mirik."},
-    {"q": "Do Indians need a permit for Gangtok?", "a": "No. Indian citizens need no permit for Gangtok itself, only photo ID. Permits are needed for protected areas such as Tsomgo Lake, Nathu La and North Sikkim, arranged through registered agents. Foreign nationals need a Sikkim Inner Line Permit for Gangtok, issued at Rangpo or arranged in advance. Check current status before you travel."},
-    {"q": "How long is the drive from Darjeeling to Kalimpong?", "a": "About 50 km and 2.5–3 hours via Teesta Bazaar. The road drops from about 2,045 m to the river at around 200 m and climbs again to 1,250 m, with tea gardens and the Lovers' Meet viewpoint on the way. Shared jeeps run from Darjeeling's Chowk Bazar stand in the morning for about ₹200–300 a seat."},
-    {"q": "Can I do this trip in reverse?", "a": "Yes. Starting in Gangtok and ending in Darjeeling works just as well, and some travellers prefer finishing with the toy train. The total driving time is the same. In October and May, book Darjeeling hotels and the joy ride before you fix the direction, since those are the hardest to get."},
-    {"q": "Is this trip suitable for families?", "a": "Yes. Drives are 2.5–5 hours with stops, and each town has easy, child-friendly sights: the toy train and zoo in Darjeeling, nurseries and a cactus garden in Kalimpong, the ropeway and MG Marg in Gangtok. The Tiger Hill dawn start is optional. Choose the Value tier for a private car, which makes travel easier with children."},
-    {"q": "What is the best time for this circuit?", "a": "October to early December and March to May. Autumn gives the clearest mountain views; spring brings flowers and warmer days. Winter is cold but clear. Avoid the monsoon from June to September, when NH10 along the Teesta and the Darjeeling roads are prone to landslides, and views are poor."},
-    {"q": "Can I add Tsomgo Lake to this trip?", "a": "Yes, as a day trip from Gangtok on day 5 or with an extra night. Tsomgo Lake is about 38 km from Gangtok at about 3,750 m, and needs a permit arranged through a registered agent plus a Sikkim-registered vehicle. Roads close after snow. The add-on costs about ₹1,500–3,000 per person in a shared vehicle. Check current status before you travel."},
-    {"q": "What does the Value tier include?", "a": "From about ₹32,000 per person, twin sharing: five nights in good mid-range hotels with views, breakfast and dinner, a private car with driver for all transfers and sightseeing, a Sikkim-registered car for Gangtok, and a toy train joy ride. Entry fees, lunches, permits for protected areas and tips are extra. Prices are indicative for 2025–26."},
-    {"q": "How do I get back to NJP from Gangtok?", "a": "By private car it takes about 4–5 hours via Rangpo, Melli and Sevoke on National Highway 10. Shared jeeps and SNT buses also run to Siliguri. Leave by 8 am for afternoon trains or flights. The highway can slow or close after heavy rain or road works, so keep a buffer. Check current status before you travel."}
+    {
+      "q": "Is five nights enough for Darjeeling, Kalimpong and Gangtok?",
+      "a": "Five nights covers the highlights of all three towns at a moderate pace, with two nights each in Darjeeling and Gangtok and one in Kalimpong. You will not have time for North Sikkim, Tsomgo Lake in a relaxed way or Sandakphu. With seven nights we would add Tsomgo and Nathu La from Gangtok or a night in Mirik."
+    },
+    {
+      "q": "Do Indians need a permit for Gangtok?",
+      "a": "No. Indian citizens need no permit for Gangtok itself, only photo ID. Permits are needed for protected areas such as Tsomgo Lake, Nathu La and North Sikkim, arranged through registered agents. Foreign nationals need a Sikkim Inner Line Permit for Gangtok, issued at Rangpo or arranged in advance. Check current status before you travel."
+    },
+    {
+      "q": "How long is the drive from Darjeeling to Kalimpong?",
+      "a": "About 50 km and 2.5–3 hours via Teesta Bazaar. The road drops from about 2,045 m to the river at around 200 m and climbs again to 1,250 m, with tea gardens and the Lovers' Meet viewpoint on the way. Shared jeeps run from Darjeeling's Chowk Bazar stand in the morning for about ₹200–300 a seat."
+    },
+    {
+      "q": "Can I do this trip in reverse?",
+      "a": "Yes. Starting in Gangtok and ending in Darjeeling works just as well, and some travellers prefer finishing with the toy train. The total driving time is the same. In October and May, book Darjeeling hotels and the joy ride before you fix the direction, since those are the hardest to get."
+    },
+    {
+      "q": "Is this trip suitable for families?",
+      "a": "Yes. Drives are 2.5–5 hours with stops, and each town has easy, child-friendly sights: the toy train and zoo in Darjeeling, nurseries and a cactus garden in Kalimpong, the ropeway and MG Marg in Gangtok. The Tiger Hill dawn start is optional. Choose the Value tier for a private car, which makes travel easier with children."
+    },
+    {
+      "q": "What is the best time for this circuit?",
+      "a": "October to early December and March to May. Autumn gives the clearest mountain views; spring brings flowers and warmer days. Winter is cold but clear. Avoid the monsoon from June to September, when NH10 along the Teesta and the Darjeeling roads are prone to landslides, and views are poor."
+    },
+    {
+      "q": "Can I add Tsomgo Lake to this trip?",
+      "a": "Yes, as a day trip from Gangtok on day 5 or with an extra night. Tsomgo Lake is about 38 km from Gangtok at about 3,750 m, and needs a permit arranged through a registered agent plus a Sikkim-registered vehicle. Roads close after snow. The add-on costs about ₹1,500–3,000 per person in a shared vehicle. Check current status before you travel."
+    },
+    {
+      "q": "What does the Value tier include?",
+      "a": "From about ₹32,000 per person, twin sharing: five nights in good mid-range hotels with views, breakfast and dinner, a private car with driver for all transfers and sightseeing, a Sikkim-registered car for Gangtok, and a toy train joy ride. Entry fees, lunches, permits for protected areas and tips are extra. Prices are indicative for 2025–26."
+    },
+    {
+      "q": "How do I get back to NJP from Gangtok?",
+      "a": "By private car it takes about 4–5 hours via Rangpo, Melli and Sevoke on National Highway 10. Shared jeeps and SNT buses also run to Siliguri. Leave by 8 am for afternoon trains or flights. The highway can slow or close after heavy rain or road works, so keep a buffer. Check current status before you travel."
+    }
   ]
 }
