@@ -240,7 +240,7 @@ html.lenis, html.lenis body { height: auto; }
 @media (min-width: 1000px) {
   .split { flex-direction: row; align-items: flex-start; gap: clamp(48px, 6vw, 88px); }
   .split__main { flex: 1 1 0; }
-  .split__aside { flex: 0 0 clamp(300px, 30%, 380px); position: sticky; top: calc(var(--mast-h) + 28px); }
+  .split__aside { flex: 0 0 clamp(300px, 30%, 380px); align-self: flex-start; }
   .split > .split__aside:first-child { flex-basis: clamp(300px, 34%, 420px); }
 }
 
@@ -1210,6 +1210,12 @@ section.wrap > .day:first-child { border-top: 1px solid var(--line-2); }
 .fareboard td[rowspan] a:hover, .fareboard tbody td:first-child > a:hover { color: var(--brass-ink); text-decoration: underline; }
 .fareboard td[rowspan] small { font-family: var(--sans); font-size: 12px; }
 .fareboard td.num { font-weight: 650; color: var(--ink); }
+@media (max-width: 599.98px) {
+  .tbl { font-size: 13.5px; }
+  .tbl th, .tbl td { padding: 10px 12px; }
+  .tbl td { min-width: 92px; }
+  .fareboard td[rowspan], .fareboard tbody td:first-child:has(> a) { min-width: 128px; font-size: 15px; }
+}
 .fareboard tbody tr:hover { background: color-mix(in srgb, var(--tint) 60%, transparent); }
 .block > .tbl-wrap { margin-top: 24px; }
 
@@ -1593,9 +1599,9 @@ body.has-buybar .nudge { bottom: calc(var(--dock-h) + 92px); }
 .tier__price { font-size: clamp(32px, 3.2vw, 46px); line-height: 1; overflow-wrap: anywhere; letter-spacing: -.02em; font-variant-numeric: lining-nums; }
 .tier__price small { font-family: var(--sans); font-size: 13px; letter-spacing: 0; color: var(--muted); font-weight: 500; margin-left: 4px; }
 .tier__rows { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
-.tier__rows > div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 9px 0; border-bottom: 1px dotted var(--line-2); font-size: 14px; }
-.tier__rows span { color: var(--muted); }
-.tier__rows b { font-weight: 600; text-align: right; }
+.tier__rows > div { display: flex; flex-direction: column; gap: 2px; padding: 10px 0; border-bottom: 1px dotted var(--line-2); font-size: 14px; line-height: 1.45; }
+.tier__rows span { color: var(--muted); font-size: 10.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.tier__rows b { font-weight: 600; }
 .tier__note { font-size: 13.5px; line-height: 1.55; color: var(--muted); }
 .tier__note:last-child { margin-top: auto; }
 .tier > .btn { margin-top: auto; align-self: stretch; }
