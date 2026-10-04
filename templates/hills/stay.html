@@ -1,0 +1,37 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ s.name }}{% if s.place_obj %}, {{ s.place_obj.name }}{% endif %} · Go Sikkim Tours{% endblock %}
+{% block description %}{{ s.summary|truncatechars:158 }}{% endblock %}
+{% block body_attrs %} data-land="{{ s.region_obj.slug }}"{% endblock %}
+{% block content %}
+<header class="phead wrap">
+  <div class="phead__grid">
+    <div class="phead__text">
+      <div class="chip-row"><a class="chip" href="{{ s.region_obj.url }}">{{ s.region_obj.name }}</a><span class="chip chip--line">{{ s.kind }}</span>{% if s.brand %}<span class="chip chip--line">{{ s.brand }}</span>{% endif %}</div>
+      <h1 class="h-xl">{{ s.name }}</h1>
+      <div class="answer">{{ s.summary }}</div>
+    </div>
+    {% photo s|first_img alt=s.name cls="arch ratio-hero" eager=True sizes="(max-width: 900px) 100vw, 40vw" %}
+  </div>
+</header>
+<section class="sec--tight"><div class="wrap split">
+  <div class="split__main">
+    <div class="block prose">{% for para in s.body %}<p>{{ para }}</p>{% endfor %}</div>
+    <div class="block"><p class="eyebrow">Why we book it</p><ol class="tips">{% for w in s.why %}<li>{{ w }}</li>{% endfor %}</ol></div>
+    {% include "hills/partials/faq.html" with faqs=s.faqs %}
+  </div>
+  <aside class="split__aside">
+    <div class="panel panel--dark"><h2 class="h-s">The ledger</h2><div class="ledger">
+      {% if s.place_obj %}<div class="ledger__row"><span>Place</span><span class="ledger__dots"></span><b><a href="{{ s.place_obj.url }}" style="color: inherit">{{ s.place_obj.name }}</a></b></div>{% endif %}
+      <div class="ledger__row"><span>Type</span><span class="ledger__dots"></span><b>{{ s.kind|capfirst }}</b></div>
+      {% if s.best_for %}<div class="ledger__row"><span>Best for</span><span class="ledger__dots"></span><b>{{ s.best_for|join:", " }}</b></div>{% endif %}
+      <div class="ledger__row"><span>Rates</span><span class="ledger__dots"></span><b>On request</b></div>
+    </div>{% if s.website %}<p class="small" style="margin: 16px 0 0"><a href="{{ s.website }}" rel="noopener" target="_blank" style="color: var(--brass)">Official website</a></p>{% endif %}</div>
+    <a class="btn btn--dark" href="{% url 'plan' %}?land={{ s.region }}&from={{ request.path|urlencode }}">Ask us to book {{ s.name }}</a>
+    <p class="small muted">We do not publish room rates: they change daily. We quote the room category you want for your dates.</p>
+  </aside>
+</div></section>
+{% if s.journey_objs %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Journeys</p><h2 class="h-l">Routes that stay here</h2></div></div>
+  <div class="grid grid--3" data-fill>{% for j in s.journey_objs|slice:":3" %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=s.region_obj.slug %}</div></div></section>{% endif %}
+{% if others %}<section class="sec"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Also in {{ s.region_obj.name }}</p><h2 class="h-l">Other stays</h2></div></div>
+  <div class="grid grid--3" data-fill>{% for s in others %}{% include "hills/partials/card_stay.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=s.region_obj.slug %}</div></div></section>{% endif %}
+{% endblock %}

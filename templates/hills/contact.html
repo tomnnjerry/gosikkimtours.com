@@ -1,0 +1,27 @@
+{% extends "hills/base.html" %}
+{% block title %}Contact Go Sikkim Tours · talk to a planner{% endblock %}
+{% block description %}Talk to a Go Sikkim Tours planner by form, email{% if wa_base %}, WhatsApp{% endif %} or a call back. A first route and indicative price within one working day.{% endblock %}
+{% block cta %}{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Contact</p><h1 class="h-hero">Talk to <span class="accent">a planner</span></h1>
+  <p class="lede">However you prefer. Every message reaches a person who plans journeys, not a call centre.</p></div></header>
+<section class="wrap" style="padding-bottom: 40px"><div class="grid grid--3">
+  <a class="panel panel--dark ccard" href="{% url 'plan' %}?from=/contact/" data-cta="contact-plan"><span class="eyebrow">Plan online</span><b class="h-s">Six questions</b><span>A first route and price within one working day.</span></a>
+  {% if wa_base %}<a class="panel panel--line ccard" href="{{ wa_base }}?text={{ wa_text }}" data-cta="contact-whatsapp"><span class="eyebrow">WhatsApp</span><b class="h-s">Message a planner</b><span>Usually the fastest way to a quick answer.</span></a>{% endif %}
+  <a class="panel panel--line ccard" href="{% if tel %}tel:{{ tel }}{% else %}mailto:{{ SITE.email }}{% endif %}" data-cta="contact-direct"><span class="eyebrow">{% if tel %}Call{% else %}Email{% endif %}</span><b class="h-s">{% if tel %}{{ SITE.phone }}{% else %}{{ SITE.email }}{% endif %}</b><span>[Office hours, IST]</span></a>
+</div></section>
+<section class="sec--tight" id="callback"><div class="wrap split">
+  <div class="split__main">
+    {% include "hills/partials/quick_form.html" with qf_id="callback" qf_kind="callback" qf_title="Request a call back" qf_sub="Leave a number and the best time to call. We call within one working day." qf_button="Call me back" qf_message="Please call me back." %}
+  </div>
+  <aside class="split__aside">
+    <div class="panel panel--line"><h2 class="h-s" style="margin-bottom: 12px">Office</h2><div class="ledger">
+      <div class="ledger__row"><span>Address</span><span class="ledger__dots"></span><b>{{ SITE.address }}</b></div>
+      <div class="ledger__row"><span>Email</span><span class="ledger__dots"></span><b><a href="mailto:{{ SITE.email }}">{{ SITE.email }}</a></b></div>
+      <div class="ledger__row"><span>Phone</span><span class="ledger__dots"></span><b>{{ SITE.phone }}</b></div>
+      <div class="ledger__row"><span>Hours</span><span class="ledger__dots"></span><b>[Mon–Sat, 10:00–19:00 IST]</b></div></div></div>
+    {% include "hills/partials/trust.html" %}
+  </aside>
+</div></section>
+{% endblock %}

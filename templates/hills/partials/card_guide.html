@@ -1,0 +1,6 @@
+{% load hills %}<a class="card card--wide rv" href="{{ g.url }}" data-item data-region="{{ g.region }}" data-kind="{{ g.category }}" style="--tint: {{ g.region_obj.tint }}; --deep: {{ g.region_obj.deep }}">
+  {% photo g|first_img alt=g.title sizes="(max-width: 760px) 100vw, 33vw" credit=False %}
+  <span class="chip">{{ g.region_obj.name }} · {{ g.read_min }} min read</span>
+  <span class="card__title card__title--s">{{ g.title }}</span>
+  <p>{{ g.summary|truncatewords:24 }}</p>
+</a>

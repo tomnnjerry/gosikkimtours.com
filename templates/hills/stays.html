@@ -1,0 +1,17 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}Luxury hotels, palaces and camps we book · Go Sikkim Tours{% endblock %}
+{% block description %}Palace hotels, safari lodges, tented camps and houseboats we book across Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa and UP &amp; Bihar.{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Stays</p><h1 class="h-hero">Rooms <span class="accent">worth the trip</span></h1>
+  <p class="lede">Palaces, lodges, camps and boats we know well. We choose by room category as much as by hotel, and quote for your dates.</p></div></header>
+<section class="wrap" style="padding-bottom: 96px">
+  <div class="filters" data-filter-group="#st-list" role="group" aria-label="Filter stays">
+    <button type="button" data-key="region" data-value="" aria-pressed="true">All lands</button>
+    {% for r in regions %}<button type="button" data-key="region" data-value="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endfor %}
+  </div>
+  <div id="st-list">{% for r in regions %}{% if r.stays %}<section class="block" data-section style="margin-bottom: 64px">
+    <h2 class="h-l"><span class="lbadge" data-land="{{ r.slug }}">{% icon r.slug %}</span> {{ r.name }}</h2>
+    <div class="grid grid--3" data-fill>{% for s in r.stays %}{% include "hills/partials/card_stay.html" %}{% endfor %}{% include "hills/partials/fill.html" %}</div></section>{% endif %}{% endfor %}</div>
+</section>
+{% endblock %}

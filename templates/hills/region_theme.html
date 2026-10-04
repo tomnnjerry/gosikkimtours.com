@@ -1,0 +1,26 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ t.name }} in {{ r.name }} · Go Sikkim Tours{% endblock %}
+{% block description %}{{ t.name }} in {{ r.name }}: the places, journeys and stays we would choose. {{ t.tagline }}.{% endblock %}
+{% block body_attrs %} data-land="{{ r.slug }}"{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <div class="chip-row"><a class="chip chip--land" href="{{ r.url }}">{% icon r.slug %} {{ r.name }}</a><a class="chip chip--line" href="{{ t.url }}">{{ t.name }}</a></div>
+  <h1 class="h-xl">{{ t.name }} in <span class="accent">{{ r.name }}</span></h1>
+  <div class="answer">In {{ r.name }}, {{ t.name|lower }} works best in {% for p in places|slice:":4" %}{{ p.name }}{% if not forloop.last %}, {% endif %}{% endfor %}. {{ t.summary }}</div></div></header>
+<section class="sec--tight"><div class="wrap split">
+  <div class="split__main"><div class="block prose prose--plain">{% for para in t.intro %}<p>{{ para }}</p>{% endfor %}</div></div>
+  <aside class="split__aside"><div class="panel panel--dark"><h2 class="h-s">The ledger</h2><div class="ledger">
+    
+    <div class="ledger__row"><span>Style</span><span class="ledger__dots"></span><b>{{ t.name }}</b></div>
+    <div class="ledger__row"><span>Colours</span><span class="ledger__dots"></span><b>{{ r.palette }}</b></div>
+    <div class="ledger__row"><span>Best months</span><span class="ledger__dots"></span><b>{{ r.best_label }}</b></div></div></div></aside>
+</div></section>
+<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Places</p><h2 class="h-l">Where to go</h2></div></div>
+  <div class="grid grid--4" data-fill>{% for p in places %}{% include "hills/partials/card_place.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div></div></section>
+{% if journeys %}<section class="sec"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Journeys</p><h2 class="h-l">Routes to start from</h2></div></div>
+  <div class="grid grid--3" data-fill>{% for j in journeys %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div></div></section>{% endif %}
+{% if experiences %}<section class="sec dark"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Experiences</p><h2 class="h-l">Hours that fit the style</h2></div></div>
+  <div class="grid grid--4" data-fill>{% for e in experiences|slice:":8" %}{% include "hills/partials/card_exp.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div></div></section>{% endif %}
+{% if stays %}<section class="sec"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Stays</p><h2 class="h-l">Where we would book</h2></div></div>
+  <div class="grid grid--3" data-fill>{% for s in stays %}{% include "hills/partials/card_stay.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div></div></section>{% endif %}
+{% endblock %}

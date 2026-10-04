@@ -1,0 +1,9 @@
+{% extends "hills/base.html" %}
+{% block title %}Page not found · Go Sikkim Tours{% endblock %}
+{% block content %}
+<section class="sec wrap narrow"><div class="phead__text">
+  <p class="eyebrow">404</p><h1 class="h-xl">This tale <span class="accent">is not written</span></h1>
+  <p class="lede">The page you asked for does not exist or has moved. Start from one of the seven lands.</p>
+  <div class="chip-row">{% for r in nav_regions %}<a class="chip" style="--tint: {{ r.tint }}; --deep: {{ r.deep }}; font-size: 12px; padding: 12px 18px" href="{{ r.url }}">{{ r.name }}</a>{% endfor %}</div>
+</div></section>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}Travel styles: palaces, safaris, Ayurveda, festivals and more · Go Sikkim Tours{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Travel styles</p><h1 class="h-hero">Start from <span class="accent">a feeling</span></h1>
+  <p class="lede">Every way into the seven lands. Each style page gathers the places, journeys, stays and experiences that suit it.</p></div></header>
+<section class="wrap" style="padding-bottom: 96px"><div class="toc">
+  {% for row in rows %}<a class="toc__row" href="{{ row.t.url }}"><span class="lbadge">{% icon "sparkle" %}</span><span class="toc__name"><b>{{ row.t.name }}</b><span>{{ row.t.tagline }}</span></span><span class="toc__when">Explore</span><span class="toc__arrow" aria-hidden="true">→</span></a>{% endfor %}
+</div></section>
+{% endblock %}

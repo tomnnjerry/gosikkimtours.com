@@ -1,0 +1,19 @@
+<form class="qform" method="post" action="{% url 'plan' %}" data-cta-form="{{ qf_id|default:'quick' }}">
+  {% csrf_token %}
+  <p class="qform__title">{{ qf_title|default:"Get a first route and price" }}</p>
+  <p class="qform__sub">{{ qf_sub|default:"Within one working day. No payment to start." }}</p>
+  <input type="hidden" name="kind" value="{{ qf_kind|default:'quick' }}">
+  <input type="hidden" name="source_page" value="{{ request.path }}">
+  {% if qf_land %}<input type="hidden" name="lands" value="{{ qf_land }}">{% endif %}
+  {% if qf_message %}<input type="hidden" name="message" value="{{ qf_message }}">{% endif %}
+  <input type="text" name="website" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <label class="field"><span>Name</span><input name="name" required autocomplete="name"></label>
+  <label class="field"><span>Email</span><input name="email" type="email" required autocomplete="email"></label>
+  <label class="field"><span>Phone or WhatsApp <small>(optional)</small></span><input name="phone" type="tel" autocomplete="tel"></label>
+  <div class="qform__row">
+    <label class="field"><span>Month</span><select name="month"><option value="">Flexible</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>June</option><option>July</option><option>August</option><option>September</option><option>October</option><option>November</option><option>December</option></select></label>
+    <label class="field"><span>Travellers</span><input name="travellers" type="number" min="1" max="30" value="2" inputmode="numeric"></label>
+  </div>
+  <button class="btn btn--brass" type="submit">{{ qf_button|default:"Send to a planner" }}</button>
+  <p class="qform__fine">We reply by email{% if wa_base %} or WhatsApp{% endif %}. See our <a href="{% url 'policy' 'privacy' %}">privacy policy</a>.</p>
+</form>

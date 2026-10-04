@@ -1,0 +1,23 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}Season almanac: the best month for each of the seven lands · Go Sikkim Tours{% endblock %}
+{% block description %}When to visit Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa and UP &amp; Bihar, month by month, with weather and where to go.{% endblock %}
+{% block mast_class %}mast--dark{% endblock %}
+{% block crumbs %}{% endblock %}
+{% block content %}
+<section class="dark sec" style="padding-top: 0">
+  {% include "hills/partials/crumbs.html" with dark_crumbs=True %}
+  <div class="wrap">
+    <div class="phead__text" style="margin: 40px 0 56px"><p class="eyebrow">The season almanac</p><h1 class="h-hero">Every land, <span class="accent">every month</span></h1>
+      <p class="lede">Choose a cell to read that land in that month: weather, where to go, festivals and the journeys that work.</p>
+      <div class="mkey"><span><i class="v2"></i>Best</span><span><i class="v1"></i>Good</span><span><i></i>Off season</span></div></div>
+    <div class="almanac"><div class="almanac__grid">
+      <span></span>{% for m in months_short %}<span class="hd">{{ m }}</span>{% endfor %}
+      {% for r in regions %}<a class="almanac__name" href="{{ r.url }}">{{ r.name }}</a>{% for c in r.bar %}<a class="almanac__cell v{{ c.v }}" href="{% url 'region_month' r.slug c.full|lower %}" aria-label="{{ r.name }} in {{ c.full }}"></a>{% endfor %}{% endfor %}
+    </div></div>
+  </div>
+</section>
+<section class="sec"><div class="wrap">
+  {% for m in months %}<div class="day"><div class="day__n" style="font-size: 32px">{{ m }}</div><div class="chip-row">
+    {% for r in regions %}<a class="chip" style="--tint: {{ r.tint }}; --deep: {{ r.deep }}; font-size: 12px; padding: 10px 16px" href="{% url 'region_month' r.slug m|lower %}">{{ r.name }} in {{ m }}</a>{% endfor %}</div></div>{% endfor %}
+</div></section>
+{% endblock %}

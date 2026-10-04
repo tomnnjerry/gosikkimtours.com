@@ -1,0 +1,32 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ f.name }}: dates, where to stay and how to see it · Go Sikkim Tours{% endblock %}
+{% block description %}{{ f.summary|truncatechars:158 }}{% endblock %}
+{% block body_attrs %} data-land="{{ f.region_obj.slug }}"{% endblock %}
+{% block content %}
+<header class="phead wrap">
+  <div class="phead__grid">
+    <div class="phead__text">
+      <div class="chip-row"><a class="chip" href="{{ f.region_obj.url }}">{{ f.region_obj.name }}</a>{% if f.place_obj %}<a class="chip chip--line" href="{{ f.place_obj.url }}">{{ f.place_obj.name }}</a>{% endif %}</div>
+      <h1 class="h-xl">{{ f.name }}</h1>
+      <p class="lede" style="font-family: var(--display); font-style: italic; color: var(--ink)">{{ f.when }}</p>
+      <div class="answer">{{ f.summary }}</div>
+    </div>
+    {% photo f|first_img alt=f.name cls="arch ratio-hero" eager=True sizes="(max-width: 900px) 100vw, 40vw" %}
+  </div>
+</header>
+<section class="sec--tight"><div class="wrap split">
+  <div class="split__main">
+    <div class="block prose">{% for para in f.body %}<p>{{ para }}</p>{% endfor %}</div>
+    <div class="block"><p class="eyebrow">How to do it well</p><ol class="tips">{% for t in f.tips %}<li>{{ t }}</li>{% endfor %}</ol></div>
+    {% include "hills/partials/faq.html" with faqs=f.faqs %}
+  </div>
+  <aside class="split__aside">
+    <div class="panel panel--dark"><h2 class="h-s">When it falls</h2>{% include "hills/partials/mbar.html" with bar=bar label=f.when %}
+      <p class="small" style="color: var(--mist-2); margin: 16px 0 0">Dates follow the calendar named above and move each year. Check current status before you travel.</p></div>
+    <a class="btn btn--dark" href="{% url 'plan' %}?land={{ f.region }}&from={{ request.path|urlencode }}">Plan around {{ f.name }}</a>
+    <a class="link-arrow" href="{% url 'festivals' %}">Festival calendar →</a>
+  </aside>
+</div></section>
+{% if journeys %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Festival journeys</p><h2 class="h-l">Routes built around the calendar</h2></div></div>
+  <div class="grid grid--3" data-fill>{% for j in journeys %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=f.region_obj.slug %}</div></div></section>{% endif %}
+{% endblock %}

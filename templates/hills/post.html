@@ -1,0 +1,40 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ d.title }} · Go Sikkim Tours Journal{% endblock %}
+{% block description %}{{ d.meta_description }}{% endblock %}
+{% block og_image %}{% with img=d|first_img %}{% if img %}<meta property="og:image" content="{{ img|src:1280 }}">{% endif %}{% endwith %}{% endblock %}
+{% block body_attrs %}{% if d.land %} data-land="{{ d.land }}"{% endif %}{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain">
+  <div class="phead__text" style="margin-top: 32px; max-width: 980px">
+    <div class="chip-row"><a class="chip" href="{% url 'journal_cat' d.cat_slug %}">{{ d.category }}</a>{% for r in d.region_objs %}<a class="chip chip--line" href="{{ r.url }}">{{ r.name }}</a>{% endfor %}<span class="chip chip--line">{{ d.read_min }} min read</span></div>
+    <h1 class="h-xl">{{ d.title }}</h1>
+    <p class="small muted">By {{ SITE.byline }} · {{ d.date_obj|date:"j F Y" }}</p>
+    <div class="answer">{{ d.summary }}</div>
+  </div>
+</header>
+{% if d.images %}<div class="wrap">{% photo d|first_img alt=d.title cls="ratio-pano" eager=True sizes="100vw" %}</div>{% endif %}
+<section class="sec--tight"><div class="wrap split">
+  <article class="split__main">
+    {% if d.key_takeaways %}<div class="panel panel--paper takeaways"><p class="eyebrow">Key takeaways</p><ol class="tips">{% for k in d.key_takeaways %}<li>{{ k }}</li>{% endfor %}</ol></div>{% endif %}
+    {% for s in d.sections %}<section class="block" id="{{ s.anchor }}">
+      <h2 class="h-m">{{ s.heading }}</h2>
+      <div class="prose prose--plain">{% for para in s.paras %}<p>{{ para }}</p>{% endfor %}{% if s.list %}<ul>{% for x in s.list %}<li>{{ x }}</li>{% endfor %}</ul>{% endif %}</div>
+      {% if s.table %}<div class="tbl-wrap"><table class="tbl"><thead><tr>{% for h in s.table.head %}<th scope="col">{{ h }}</th>{% endfor %}</tr></thead><tbody>{% for row in s.table.rows %}<tr>{% for c in row %}<td>{{ c }}</td>{% endfor %}</tr>{% endfor %}</tbody></table></div>{% endif %}
+      {% if s.link_objs %}<div class="inlinks">{% for l in s.link_objs %}<a class="inlink" href="{{ l.url }}">{% if l.img %}<img src="{{ l.img|src:500 }}" alt="" loading="lazy">{% endif %}<span><small>{{ l.type|capfirst }}</small><b>{{ l.title }}</b></span></a>{% endfor %}</div>{% endif %}
+      {% if forloop.counter == 3 %}<div class="midcta"><div><b>{{ d.cta.title }}</b><p>{{ d.cta.text }}</p></div><a class="btn btn--brass" href="{% url 'plan' %}?from={{ request.path|urlencode }}{% if d.land %}&land={{ d.land }}{% endif %}" data-cta="post-mid">Ask a planner</a></div>{% endif %}
+    </section>{% endfor %}
+    {% if d.journey_objs %}<div class="block"><p class="eyebrow">Journeys from this article</p><h2 class="h-l">Start from a route</h2><div class="grid grid--3" data-fill>{% for j in d.journey_objs %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=d.land %}</div></div>{% endif %}
+    {% include "hills/partials/faq.html" with faqs=d.faqs %}
+  </article>
+  <aside class="split__aside">
+    <nav class="panel panel--line" aria-label="Contents"><p class="eyebrow" style="margin-bottom: 12px">In this article</p>
+      <div class="toc-side">{% for s in d.sections %}<a href="#{{ s.anchor }}">{{ s.heading }}</a>{% endfor %}<a href="#faq-h">Questions</a></div></nav>
+    {% include "hills/partials/quick_form.html" with qf_id="post-aside" qf_title=d.cta.title qf_land=d.land qf_message="From the article: "|add:d.title %}
+  </aside>
+</div></section>
+{% if d.place_objs %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Places in this article</p><h2 class="h-l">Go deeper</h2></div></div>
+  <div class="grid grid--4" data-fill>{% for p in d.place_objs %}{% include "hills/partials/card_place.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=d.land %}</div></div></section>{% endif %}
+{% if more %}<section class="sec"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Keep reading</p><h2 class="h-l">From the Journal</h2></div><a class="link-arrow" href="{% url 'journal' %}">All articles →</a></div>
+  <div class="grid grid--3" data-fill>{% for x in more %}<a class="card card--wide" href="{{ x.url }}">{% photo x|first_img alt=x.title credit=False sizes="33vw" %}<span class="chip">{{ x.category }}</span><span class="card__title card__title--s">{{ x.title }}</span></a>{% endfor %}{% include "hills/partials/fill.html" with fill_land=d.land %}</div></div></section>{% endif %}
+{% include "hills/partials/nudge.html" with nudge_land=d.region_objs.0.name nudge_slug=d.land %}
+{% endblock %}

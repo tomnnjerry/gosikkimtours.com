@@ -1,0 +1,21 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}Sitemap · Go Sikkim Tours{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px"><p class="eyebrow">Sitemap</p><h1 class="h-xl">Every page</h1></div></header>
+<section class="wrap" style="padding-bottom: 96px; display: flex; flex-direction: column; gap: 48px">
+  {% for r in regions %}<div class="block"><h2 class="h-l"><span class="lbadge" data-land="{{ r.slug }}">{% icon r.slug %}</span> <a href="{{ r.url }}">{{ r.name }}</a></h2>
+    <div class="grid grid--4 small">
+      <div><p class="eyebrow">Places and experiences</p><ul>{% for p in r.places %}<li><a href="{{ p.url }}">{{ p.name }}</a><ul>{% for e in p.experiences %}<li><a href="{{ e.url }}">{{ e.title }}</a></li>{% endfor %}</ul></li>{% endfor %}</ul></div>
+      <div><p class="eyebrow">Journeys</p><ul>{% for j in r.journeys %}<li><a href="{{ j.url }}">{{ j.title }}</a></li>{% endfor %}</ul>
+        <p class="eyebrow">Stays</p><ul>{% for s in r.stays %}<li><a href="{{ s.url }}">{{ s.name }}</a></li>{% endfor %}</ul></div>
+      <div><p class="eyebrow">Guides</p><ul>{% for g in r.guides %}<li><a href="{{ g.url }}">{{ g.title }}</a></li>{% endfor %}</ul>
+        <p class="eyebrow">Festivals</p><ul>{% for f in r.festivals %}<li><a href="{{ f.url }}">{{ f.name }}</a></li>{% endfor %}</ul></div>
+      <div><p class="eyebrow">Routes</p><ul>{% for rt in r.routes %}<li><a href="{{ rt.url }}">{{ rt.from_obj.name }} to {{ rt.to_obj.name }}</a></li>{% endfor %}</ul>
+        <p class="eyebrow">Months</p><ul>{% for m, s in month_slugs %}<li><a href="{% url 'region_month' r.slug s %}">{{ r.name }} in {{ m }}</a></li>{% endfor %}</ul></div>
+    </div></div>{% endfor %}
+  <div class="block"><h2 class="h-l">Styles by land</h2><ul class="grid grid--4 small">{% for r, t in pairs %}<li><a href="{% url 'region_theme' r.slug t.slug %}">{{ t.name }} in {{ r.name }}</a></li>{% endfor %}</ul></div>
+  <div class="block"><h2 class="h-l">Experiences by kind</h2><ul class="grid grid--4 small">{% for r, k, n in kind_pairs %}<li><a href="{% url 'region_kind' r.slug k %}">{{ n }} in {{ r.name }}</a></li>{% endfor %}</ul></div>
+  <div class="block"><h2 class="h-l">Company</h2><ul class="small"><li><a href="{% url 'about' %}">About</a></li><li><a href="{% url 'faq' %}">FAQ</a></li><li><a href="{% url 'tools' %}">Trip tools</a></li><li><a href="{% url 'photo_credits' %}">Photo credits</a></li><li><a href="{% url 'plan' %}">Plan a journey</a></li><li><a href="{% url 'how_we_work' %}">How we work</a></li><li><a href="{% url 'contact' %}">Contact</a></li>{% for k, n in nav_policies %}<li><a href="{% url 'policy' k %}">{{ n }}</a></li>{% endfor %}</ul></div>
+  <div class="block"><h2 class="h-l">Journal</h2><ul class="grid grid--3 small">{% for d in cat.posts.values %}<li><a href="{{ d.url }}">{{ d.title }}</a></li>{% endfor %}</ul></div>
+</section>
+{% endblock %}

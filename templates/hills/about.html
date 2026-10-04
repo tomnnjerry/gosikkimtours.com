@@ -1,0 +1,26 @@
+{% extends "hills/base.html" %}
+{% block title %}About Go Sikkim Tours{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">About us</p><h1 class="h-hero">Seven lands, <span class="accent">nothing else</span></h1>
+  <p class="lede">Go Sikkim Tours plans private journeys in Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa, and Uttar Pradesh with Bihar. We chose these seven because we know their roads, seasons and rooms well enough to plan them by hand.</p></div></header>
+<section class="sec--tight"><div class="wrap split">
+  <div class="split__main">
+    <div class="block prose"><p>Every journey we plan is private: one party, one car, guides chosen for the places you visit. A single planner shapes the route with you, books every stay and stays on WhatsApp while you travel.</p>
+      <p>We write the way we plan. Our pages give distances in kilometres, drive times in hours, altitudes in metres and prices in rupees, and they say plainly when something changes year to year, like permits, park seasons and festival dates.</p>
+      <p>Our photographs come from Wikimedia Commons under free licences, and each one names its photographer. We would rather show a credited picture of the real place than a styled one of somewhere else.</p></div>
+    <div class="block"><p class="eyebrow">How a journey comes together</p><ol class="tips">
+      <li>You tell us the dates, who is travelling and what you hope to feel.</li><li>We send a first route with named hotels and an indicative price.</li>
+      <li>We refine it together: rooms, pace, guides, the one dinner that matters.</li><li>You book with a deposit; we confirm every service in writing.</li>
+      <li>On the road, your planner is a message away.</li></ol></div>
+    <div class="block"><p class="eyebrow">Company details</p><div class="ledger">
+      <div class="ledger__row"><span>Registered name</span><span class="ledger__dots"></span><b>[LEGAL NAME]</b></div>
+      <div class="ledger__row"><span>Tourism registration</span><span class="ledger__dots"></span><b>[REGISTRATION NO.]</b></div>
+      <div class="ledger__row"><span>GSTIN</span><span class="ledger__dots"></span><b>[GSTIN]</b></div>
+      <div class="ledger__row"><span>Office</span><span class="ledger__dots"></span><b>{{ SITE.address }}</b></div></div></div>
+  </div>
+  <aside class="split__aside"><div class="panel panel--dark"><h2 class="h-s">What you can count on</h2><div class="stats" style="grid-template-columns: 1fr 1fr">
+    
+    </div>{% include "hills/partials/trust.html" with dark=True %}</div></aside>
+</div></section>
+{% endblock %}

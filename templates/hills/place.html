@@ -1,0 +1,71 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ p.name }}, {{ r.name }}: luxury travel guide · Go Sikkim Tours{% endblock %}
+{% block description %}{{ p.meta_description }}{% endblock %}
+{% block og_image %}{% with img=p|first_img %}{% if img %}<meta property="og:image" content="{{ img|src:1280 }}">{% endif %}{% endwith %}{% endblock %}
+{% block body_attrs %} data-land="{{ r.slug }}"{% endblock %}
+{% block content %}
+<header class="phead wrap">
+  <div class="phead__grid">
+    <div class="phead__text">
+      <div class="chip-row"><a class="chip chip--land" href="{{ r.url }}">{% icon r.slug %} {{ r.name }}</a><span class="chip chip--line">{{ p.kind }}</span></div>
+      <h1 class="h-hero">{{ p.name }}</h1>
+      <p class="lede" style="font-family: var(--display); font-style: italic; font-size: clamp(22px, 2vw, 28px); color: var(--ink)">{{ p.tagline }}</p>
+      <div class="answer">{{ p.summary }}</div>
+    </div>
+    {% photo p|first_img alt=p.name cls="arch ratio-hero" eager=True sizes="(max-width: 900px) 100vw, 40vw" %}
+  </div>
+</header>
+
+<section class="sec--tight">
+  <div class="wrap split">
+    <div class="split__main">
+      <div class="block prose">{% for para in p.intro %}<p>{{ para }}</p>{% endfor %}</div>
+
+      <div class="block"><p class="eyebrow">Highlights</p><h2 class="h-l">What {{ p.name }} does best</h2>
+        <div class="hl-list">{% for h in p.highlights %}<div class="hl rv"><b>{{ h.title }}</b><p>{{ h.text }}</p></div>{% endfor %}</div></div>
+
+      {% if p.experiences %}<div class="block"><p class="eyebrow">Experiences</p><h2 class="h-l">Four hours to plan around</h2>
+        <div class="grid grid--2" data-fill>{% for e in p.experiences %}{% include "hills/partials/card_exp.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div></div>{% endif %}
+
+      {% if p.images|length > 1 %}<div class="gallery">{% for img in p.images|slice:"1:6" %}{% photo img alt=p.name cls="rv" %}{% endfor %}</div>{% endif %}
+
+      <div class="block"><p class="eyebrow">Getting there</p><h2 class="h-l">How to reach {{ p.name }}</h2>
+        <div class="reach">{% for h in p.how_to_reach %}<div class="reach__row"><b>{{ h.mode }}</b><p>{{ h.text }}</p></div>{% endfor %}</div></div>
+
+      <div class="block"><p class="eyebrow">Where to stay</p><h2 class="h-l">Rooms we book</h2><div class="prose prose--plain"><p>{{ p.where_to_stay }}</p></div>
+        {% if p.stay_objs %}<div class="grid grid--2" data-fill>{% for s in p.stay_objs %}{% include "hills/partials/card_stay.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>{% endif %}</div>
+
+      <div class="block"><p class="eyebrow">From our planners</p><h2 class="h-l">Five things to know</h2><ol class="tips">{% for t in p.tips %}<li>{{ t }}</li>{% endfor %}</ol></div>
+
+      {% include "hills/partials/faq.html" with faqs=p.faqs faq_title="Questions about "|add:p.name %}
+    </div>
+
+    <aside class="split__aside">
+      <div class="panel panel--dark">
+        <h2 class="h-s">{{ p.name }}, in brief</h2>
+        <div class="ledger">{% for k, v in p.facts %}<div class="ledger__row"><span>{{ k }}</span><span class="ledger__dots"></span><b>{{ v }}</b></div>{% endfor %}</div>
+        <div style="margin-top: 22px">{% include "hills/partials/mbar.html" with bar=p.bar label=p.best_label %}</div>
+      </div>
+      {% atlas map_points r.slug %}
+      {% include "hills/partials/quick_form.html" with qf_id="place-aside" qf_title="Plan a journey with "|add:p.name qf_land=r.slug qf_message="Interested in "|add:p.name %}
+      {% if p.themes %}<div class="chip-row">{% for t in p.themes %}<a class="chip chip--line" href="{{ t|theme_url }}">{{ t|theme_name }}</a>{% endfor %}</div>{% endif %}
+    </aside>
+  </div>
+</section>
+
+{% if p.journey_objs %}
+<section class="sec paper"><div class="wrap">
+  <div class="sec-head"><div><p class="eyebrow">Journeys</p><h2 class="h-l">Routes that stop in {{ p.name }}</h2></div></div>
+  <div class="grid grid--3" data-fill>{% for j in p.journey_objs|slice:":6" %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
+</div></section>
+{% endif %}
+
+<section class="sec"><div class="wrap">
+  <div class="sec-head"><div><p class="eyebrow">Nearby</p><h2 class="h-l">Pair it with</h2></div></div>
+  <div class="grid grid--4" data-fill>{% for p in p.nearby_objs %}{% include "hills/partials/card_place.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
+  {% if p.route_objs or p.festival_objs %}<div class="chip-row" style="margin-top: 36px">
+    {% for rt in p.route_objs %}<a class="chip chip--line" href="{{ rt.url }}">{{ rt.from_obj.name }} to {{ rt.to_obj.name }}</a>{% endfor %}
+    {% for f in p.festival_objs %}<a class="chip" href="{{ f.url }}">{{ f.name }}</a>{% endfor %}
+  </div>{% endif %}
+</div></section>
+{% endblock %}

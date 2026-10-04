@@ -1,0 +1,7 @@
+{% load hills %}<a class="card rv" href="{{ j.url }}" data-item data-region="{{ j.region }}" data-themes="{{ j.themes|join:' ' }}" data-length="{% if j.nights <= 6 %}short{% elif j.nights <= 10 %}mid{% else %}long{% endif %}" style="--tint: {{ j.region_obj.tint }}; --deep: {{ j.region_obj.deep }}">
+  {% photo j|first_img alt=j.title cls="arch" sizes="(max-width: 760px) 100vw, 33vw" credit=False %}
+  <span class="chip">{{ j.region_obj.name }} · {{ j.nights }} nights</span>
+  <span class="card__title">{{ j.title }}</span>
+  <span class="card__meta">{% for s in j.stop_objs %}{{ s.obj.name }}{% if not forloop.last %} · {% endif %}{% endfor %}</span>
+  {% if j.price_from_inr %}<span class="ledger__row"><span>From</span><span class="ledger__dots"></span><b>{{ j.price_from_inr|inr }} pp</b></span>{% endif %}
+</a>

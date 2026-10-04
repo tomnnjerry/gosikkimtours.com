@@ -1,0 +1,18 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}Private luxury journeys in Nepal and India · Go Sikkim Tours{% endblock %}
+{% block description %}Private luxury itineraries across Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa and UP &amp; Bihar, with day-by-day plans and indicative prices.{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Journeys</p><h1 class="h-hero">Routes, <span class="accent">by hand</span></h1>
+  <p class="lede">Each journey is a starting point with real hotels, real drive times and an indicative price per person, twin sharing. Change anything.</p></div></header>
+<section class="wrap" style="padding-bottom: 96px">
+  <div class="filters" data-filter-group="#jr-list" role="group" aria-label="Filter journeys">
+    <button type="button" data-key="region" data-value="" aria-pressed="true">All lands</button>
+    {% for r in regions %}<button type="button" data-key="region" data-value="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endfor %}
+    <label>Style <select data-key="themes"><option value="">Any</option>{% for t in themes %}<option value="{{ t.slug }}">{{ t.name }}</option>{% endfor %}</select></label>
+    <label>Length <select data-key="length"><option value="">Any</option><option value="short">Short escapes</option><option value="mid">About a week</option><option value="long">The grand tour</option></select></label>
+  </div>
+  
+  <div class="grid grid--3" data-fill id="jr-list">{% for j in journeys %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" %}</div>
+</section>
+{% endblock %}

@@ -1,0 +1,6 @@
+{% load hills %}<a class="card card--wide rv" href="{{ e.url }}" data-item data-region="{{ e.region }}" data-kind="{{ e.kind }}" style="--tint: {{ e.region_obj.tint }}; --deep: {{ e.region_obj.deep }}">
+  {% photo e|first_img alt=e.title sizes="(max-width: 760px) 100vw, 25vw" credit=False %}
+  <span class="chip">{{ e.kind }} · {{ e.duration }}</span>
+  <span class="card__title card__title--s">{{ e.title }}</span>
+  <span class="card__meta">{{ e.place_obj.name }}, {{ e.region_obj.name }}</span>
+</a>

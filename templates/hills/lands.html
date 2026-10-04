@@ -1,0 +1,26 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}The seven lands: Nepal, Rajasthan, Ladakh, North East, Kerala, Goa, UP &amp; Bihar · Go Sikkim Tours{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">The seven lands</p><h1 class="h-hero">Seven <span class="accent">hills</span></h1>
+  <p class="lede">We work in seven regions and nowhere else. Each one has its own seasons, permits and pace; start with the one that fits your month.</p></div></header>
+{% for r in regions %}
+<section class="sec--tight" style="--tint: {{ r.tint }}; --deep: {{ r.deep }}; border-top: 1px solid var(--line)">
+  <div class="wrap phead__grid" style="align-items: center">
+    <a href="{{ r.url }}" style="text-decoration: none">{% photo r|first_img alt=r.name cls="arch ratio-wide rv-arch" sizes="(max-width: 900px) 100vw, 55vw" %}</a>
+    <div class="block">
+      <span class="lbadge lbadge--lg" data-land="{{ r.slug }}">{% icon r.slug %}</span>
+      <h2 class="h-xl"><a href="{{ r.url }}" style="text-decoration: none">{{ r.name }}</a></h2>
+      <p class="lede">{{ r.summary }}</p>
+      <div class="ledger">
+        <div class="ledger__row"><span>Best months</span><span class="ledger__dots"></span><b>{{ r.best_label }}</b></div>
+        <div class="ledger__row"><span>Colours</span><span class="ledger__dots"></span><b>{{ r.palette }}</b></div>
+        <div class="ledger__row"><span>Start with</span><span class="ledger__dots"></span><b>{% for p in r.top_places|slice:":3" %}{{ p.name }}{% if not forloop.last %}, {% endif %}{% endfor %}</b></div>
+      </div>
+      {% include "hills/partials/mbar.html" with bar=r.bar label=r.best_label %}
+      <div class="btns"><a class="btn btn--dark" href="{{ r.url }}">Open the tale</a></div>
+    </div>
+  </div>
+</section>
+{% endfor %}
+{% endblock %}

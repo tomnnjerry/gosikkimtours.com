@@ -1,0 +1,22 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}Private experiences in Nepal and India · Go Sikkim Tours{% endblock %}
+{% block description %}Private experiences: safaris, dawn boats, palace dinners, monastery mornings, cooking and craft visits across seven lands.{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Experiences</p><h1 class="h-hero">Hours <span class="accent">to plan around</span></h1>
+  <p class="lede">The moments a journey is remembered by. Every one is private and can be added to any route in its region.</p></div></header>
+<section class="wrap" style="padding-bottom: 96px">
+  <div class="chip-row" style="margin-bottom: 28px">{% for k, n in kind_links %}<a class="chip chip--line" style="font-size: 12px; padding: 12px 18px" href="{% url 'experience_kind' k %}">{{ n }}</a>{% endfor %}</div>
+  <div class="filters" data-filter-group="#ex-list" role="group" aria-label="Filter experiences">
+    <button type="button" data-key="region" data-value="" aria-pressed="true">All lands</button>
+    {% for r in regions %}<button type="button" data-key="region" data-value="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endfor %}
+    <label>Kind <select data-key="kind"><option value="">Any</option>{% for k in kinds %}<option value="{{ k }}">{{ k|capfirst }}</option>{% endfor %}</select></label>
+  </div>
+  
+  <div id="ex-list">{% for r in regions %}<section class="block" data-section style="margin-bottom: 64px">
+    <h2 class="h-l"><span class="lbadge" data-land="{{ r.slug }}">{% icon r.slug %}</span> <a href="{{ r.url }}" style="text-decoration: none">{{ r.name }}</a></h2>
+    {% for p in r.places %}<div class="block" data-section style="margin-bottom: 24px"><h3 class="h-s"><a href="{{ p.url }}" style="text-decoration: none">{{ p.name }}</a></h3>
+      <div class="grid grid--4" data-fill>{% for e in p.experiences %}{% include "hills/partials/card_exp.html" %}{% endfor %}{% include "hills/partials/fill.html" %}</div></div>{% endfor %}
+  </section>{% endfor %}</div>
+</section>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "hills/base.html" %}
+{% block title %}{{ pol.title }} · Go Sikkim Tours{% endblock %}
+{% block description %}{{ pol.summary|truncatechars:158 }}{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Policies</p><h1 class="h-xl">{{ pol.title }}</h1>
+  <div class="answer" style="--answer-label: 'In plain English'">{{ pol.summary }}</div>
+  <p class="small muted">Draft for legal review. Values in [brackets] are confirmed before launch. Last updated {{ updated }}.</p></div></header>
+<section class="sec--tight"><div class="wrap split">
+  <div class="split__main">{% for s in sections %}<section class="block"><h2 class="h-m">{{ s.heading }}</h2><div class="prose prose--plain">
+    {% for b in s.blocks %}{% if b.p %}<p>{{ b.p }}</p>{% else %}<ul>{% for x in b.list %}<li>{{ x }}</li>{% endfor %}</ul>{% endif %}{% endfor %}</div></section>{% endfor %}</div>
+  <aside class="split__aside"><nav class="panel panel--line" aria-label="Other policies"><p class="eyebrow" style="margin-bottom: 12px">Other policies</p>
+    <div class="toc-side">{% for k, n in others %}<a href="{% url 'policy' k %}">{{ n }}</a>{% endfor %}</div></nav>
+    <div class="panel panel--dark"><h2 class="h-s">Questions about this?</h2><p class="small" style="color: var(--mist-2)">Ask before you book. We would rather explain a term now than surprise you later.</p><a class="btn btn--brass" href="{% url 'contact' %}">Contact us</a></div></aside>
+</div></section>
+{% endblock %}

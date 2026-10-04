@@ -1,0 +1,1 @@
+<nav class="crumbs wrap{% if dark_crumbs %} crumbs--dark{% endif %}" aria-label="Breadcrumb"><ol>{% for name, url in crumbs %}<li>{% if forloop.last %}<span aria-current="page">{{ name }}</span>{% else %}<a href="{{ url }}">{{ name }}</a>{% endif %}</li>{% endfor %}</ol></nav>

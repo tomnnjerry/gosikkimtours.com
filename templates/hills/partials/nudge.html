@@ -1,0 +1,6 @@
+<aside class="nudge" data-nudge hidden aria-label="Planning help">
+  <button type="button" class="nudge__x" data-nudge-close aria-label="Close">×</button>
+  <p class="nudge__eyebrow">Reading up on {{ nudge_land|default:"a journey" }}?</p>
+  <p class="nudge__title">A planner can turn this into a route for your dates</p>
+  <a class="btn btn--brass" href="{% url 'plan' %}?from={{ request.path|urlencode }}{% if nudge_slug %}&land={{ nudge_slug }}{% endif %}" data-cta="nudge-plan">Get a first route</a>
+</aside>

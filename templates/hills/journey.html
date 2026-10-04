@@ -1,0 +1,71 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ j.title }}: {{ j.nights }} nights · Go Sikkim Tours{% endblock %}
+{% block description %}{{ j.meta_description }}{% endblock %}
+{% block og_image %}{% with img=j|first_img %}{% if img %}<meta property="og:image" content="{{ img|src:1280 }}">{% endif %}{% endwith %}{% endblock %}
+{% block mast_class %}mast--dark{% endblock %}
+{% block body_attrs %} data-land="{{ r.slug }}"{% endblock %}
+{% block crumbs %}{% endblock %}
+{% block fab_label %}Ask about this journey{% endblock %}
+{% block content %}
+<section class="dark">
+  {% include "hills/partials/crumbs.html" with dark_crumbs=True %}
+  <div class="wrap phead">
+    <div class="phead__grid">
+      <div class="phead__text">
+        <div class="chip-row"><a class="chip" href="{{ r.url }}">{{ r.name }}</a><span class="chip" style="background: var(--malachite-2); color: var(--mist)">{{ j.nights }} nights · {{ j.days_count }} days</span><span class="chip" style="background: var(--malachite-2); color: var(--mist)">{{ j.pace }}</span></div>
+        <h1 class="h-xl">{{ j.title }}</h1>
+        <p class="lede">{{ j.summary }}</p>
+        <div class="ribbon" aria-label="Route">{% for s in j.stop_objs %}<a class="ribbon__stop" href="{{ s.obj.url }}"><span class="ribbon__dot"></span><b>{{ s.obj.name }}</b><small>{{ s.nights }} night{{ s.nights|pluralize }}</small></a>{% endfor %}</div>
+      </div>
+      {% photo j|first_img alt=j.title cls="arch ratio-hero" eager=True sizes="(max-width: 900px) 100vw, 40vw" %}
+    </div>
+  </div>
+</section>
+
+<section class="sec--tight">
+  <div class="wrap split">
+    <div class="split__main">
+      <div class="block prose">{% for para in j.intro %}<p>{{ para }}</p>{% endfor %}</div>
+      <div class="block"><p class="eyebrow">Highlights</p><h2 class="h-l">Why this route works</h2><ol class="tips">{% for h in j.highlights %}<li>{{ h }}</li>{% endfor %}</ol></div>
+      <div class="block" id="days"><p class="eyebrow">Day by day</p><h2 class="h-l">The journey</h2>
+        <div class="days">{% for d in j.days %}<article class="day rv">
+          <div class="day__n"><small>Day</small>{{ d.day|pad2 }}</div>
+          <div><h3>{{ d.title }}</h3>
+            <div class="day__meta">{% if d.overnight %}<span>Overnight: {{ d.overnight }}</span>{% endif %}{% if d.drive %}<span>{{ d.drive }}</span>{% endif %}{% if d.meals %}<span>Meals: {{ d.meals }}</span>{% endif %}</div>
+            <p>{{ d.text }}</p></div>
+        </article>{% endfor %}</div></div>
+      {% atlas map_points r.slug route=True %}
+      <div class="inc"><div class="block yes"><p class="eyebrow">Included</p><ul>{% for x in j.includes %}<li>{{ x }}</li>{% endfor %}</ul></div>
+        <div class="block no"><p class="eyebrow">Not included</p><ul>{% for x in j.excludes %}<li>{{ x }}</li>{% endfor %}</ul></div></div>
+      {% if j.stay_objs %}<div class="block"><p class="eyebrow">Where you sleep</p><h2 class="h-l">The stays</h2><div class="grid grid--2" data-fill>{% for s in j.stay_objs %}{% include "hills/partials/card_stay.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div></div>{% endif %}
+      {% if j.good_to_know %}<div class="block"><p class="eyebrow">Good to know</p><ol class="tips">{% for x in j.good_to_know %}<li>{{ x }}</li>{% endfor %}</ol></div>{% endif %}
+      {% include "hills/partials/faq.html" with faqs=j.faqs %}
+    </div>
+    <aside class="split__aside">
+      <div class="panel panel--dark">
+        <h2 class="h-s">The ledger</h2>
+        <div class="ledger">
+          <div class="ledger__row"><span>From</span><span class="ledger__dots"></span><b>{{ j.price_from_inr|inr }}</b></div>
+          <div class="ledger__row"><span>Length</span><span class="ledger__dots"></span><b>{{ j.nights }} nights</b></div>
+          <div class="ledger__row"><span>Starts</span><span class="ledger__dots"></span><b>{{ j.start }}</b></div>
+          <div class="ledger__row"><span>Ends</span><span class="ledger__dots"></span><b>{{ j.end }}</b></div>
+          <div class="ledger__row"><span>Pace</span><span class="ledger__dots"></span><b>{{ j.pace }}</b></div>
+          {% if j.max_altitude_m %}<div class="ledger__row"><span>Highest point</span><span class="ledger__dots"></span><b>{{ j.max_altitude_m }} m</b></div>{% endif %}
+        </div>
+        <p class="small" style="color: var(--mist-3); margin: 14px 0 18px">Indicative, per person, twin sharing, at the hotels named. Your quote depends on dates and rooms.</p>
+        {% include "hills/partials/mbar.html" with bar=j.bar label=j.best_label %}
+      </div>
+      {% include "hills/partials/quick_form.html" with qf_id="journey-aside" qf_title="Ask about this journey" qf_sub="Dates, rooms and a written quote within one working day." qf_land=r.slug qf_message="Journey: "|add:j.title %}
+      {% if j.themes %}<div class="chip-row">{% for t in j.themes %}<a class="chip chip--line" href="{{ t|theme_url }}">{{ t|theme_name }}</a>{% endfor %}</div>{% endif %}
+    </aside>
+  </div>
+</section>
+<div class="buybar" data-buybar hidden>
+  <div class="wrap buybar__in">
+    <span class="buybar__t"><b>{{ j.title }}</b><small>{{ j.nights }} nights · from {{ j.price_from_inr|inr }} per person</small></span>
+    <a class="btn btn--brass" href="{% url 'plan' %}?land={{ r.slug }}&journey={{ j.title|urlencode }}&from={{ request.path|urlencode }}" data-cta="buybar">Check dates and price</a>
+  </div>
+</div>
+{% if related %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">More in {{ r.name }}</p><h2 class="h-l">Other routes</h2></div></div>
+  <div class="grid grid--3" data-fill>{% for j in related %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div></div></section>{% endif %}
+{% endblock %}

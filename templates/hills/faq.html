@@ -1,0 +1,10 @@
+{% extends "hills/base.html" %}
+{% block title %}Questions about travelling with Go Sikkim Tours{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">FAQ</p><h1 class="h-hero">Asked <span class="accent">and answered</span></h1></div></header>
+<section class="wrap narrow" style="padding-bottom: 96px; display: flex; flex-direction: column; gap: 64px">
+  {% for g in groups %}<div class="block"><h2 class="h-l">{% if g.url %}<a href="{{ g.url }}" style="text-decoration: none">{{ g.name }}</a>{% else %}{{ g.name }}{% endif %}</h2>
+    <div class="faq">{% for f in g.faqs %}<details><summary>{{ f.q }}</summary><div><p>{{ f.a }}</p></div></details>{% endfor %}</div></div>{% endfor %}
+</section>
+{% endblock %}

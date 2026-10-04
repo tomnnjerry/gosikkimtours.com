@@ -1,0 +1,25 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{% if category %}{{ category.name }} · {% endif %}Journal: luxury travel in Nepal and India · Go Sikkim Tours{% endblock %}
+{% block description %}Answer-first articles from our planners: where to go, when, what it costs and how to plan private journeys across Nepal, Rajasthan, Ladakh, the North East, Kerala, Goa and UP &amp; Bihar.{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">The Journal{% if category %} · {{ category.name }}{% endif %}</p>
+  <h1 class="h-hero">{% if category %}{{ category.name }}{% else %}Read, <span class="accent">then go</span>{% endif %}</h1>
+  <p class="lede">Straight answers to the questions travellers ask before they choose: which land, which month, which hotel, and what it costs.</p></div></header>
+<section class="wrap" style="padding-bottom: 40px">
+  <nav class="chip-row" aria-label="Topics"><a class="chip{% if not category %} chip--on{% else %} chip--line{% endif %}" href="{% url 'journal' %}">All</a>{% for c in cats %}<a class="chip{% if category.slug == c.slug %} chip--on{% else %} chip--line{% endif %}" href="{% url 'journal_cat' c.slug %}">{{ c.name }}</a>{% endfor %}</nav>
+</section>
+{% with lead=posts.0 %}{% if lead and not category %}
+<section class="wrap" style="padding-bottom: 56px"><a class="jlead" href="{{ lead.url }}"{% if lead.land %} data-land="{{ lead.land }}"{% endif %}>
+  {% photo lead|first_img alt=lead.title cls="arch" eager=True sizes="(max-width: 900px) 100vw, 50vw" credit=False %}
+  <span class="jlead__text"><span class="chip">{{ lead.category }} · {{ lead.read_min }} min read</span><span class="h-l">{{ lead.title }}</span><span class="lede">{{ lead.summary }}</span><span class="link-arrow">Read the article →</span></span></a></section>
+{% endif %}{% endwith %}
+<section class="wrap" style="padding-bottom: 96px"><div class="grid grid--3" data-fill>
+  {% for d in posts %}{% if category or not forloop.first %}<a class="card card--wide rv" href="{{ d.url }}"{% if d.land %} data-land="{{ d.land }}"{% endif %}>
+    {% photo d|first_img alt=d.title sizes="(max-width: 760px) 100vw, 33vw" credit=False %}
+    <span class="chip">{{ d.category }} · {{ d.read_min }} min</span>
+    <span class="card__title card__title--s">{{ d.title }}</span>
+    <p>{{ d.summary|truncatewords:24 }}</p>
+    <span class="card__meta">{{ d.date_obj|date:"j F Y" }}</span></a>{% endif %}{% endfor %}{% include "hills/partials/fill.html" with fill_title="Turn an article into a journey" %}
+</div></section>
+{% endblock %}

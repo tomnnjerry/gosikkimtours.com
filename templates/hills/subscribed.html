@@ -1,0 +1,11 @@
+{% extends "hills/base.html" %}
+{% block title %}{% if ok %}Subscribed{% else %}Please check your email{% endif %} · Go Sikkim Tours{% endblock %}
+{% block content %}
+<section class="sec wrap narrow"><div class="phead__text">
+  {% if ok %}<p class="eyebrow">Subscribed</p><h1 class="h-xl">The Folio letter <span class="accent">is on its way</span></h1>
+  <p class="lede">One email a month. Unsubscribe from any letter with one click.</p>
+  <script>window.dataLayer=window.dataLayer||[];dataLayer.push({event:"sign_up",method:"newsletter"});</script>
+  {% else %}<p class="eyebrow">Not quite</p><h1 class="h-xl">That email did not look right</h1><p class="lede">Please go back and check the address.</p>{% endif %}
+  <div class="btns"><a class="btn btn--dark" href="{% url 'journal' %}">Read the Journal</a><a class="btn btn--ghost" href="{% url 'plan' %}">Plan a journey</a></div>
+</div></section>
+{% endblock %}

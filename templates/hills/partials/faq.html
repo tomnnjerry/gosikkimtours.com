@@ -1,0 +1,5 @@
+{% if faqs %}<section class="block" aria-labelledby="faq-h">
+  <p class="eyebrow">Questions travellers ask</p>
+  <h2 class="h-l" id="faq-h">{{ faq_title|default:"Good to know" }}</h2>
+  <div class="faq">{% for f in faqs %}<details{% if forloop.first %} open{% endif %}><summary>{{ f.q }}</summary><div><p>{{ f.a }}</p></div></details>{% endfor %}</div>
+</section>{% endif %}

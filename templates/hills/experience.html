@@ -1,0 +1,43 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ e.title }} · {{ p.name }}, {{ r.name }} · Go Sikkim Tours{% endblock %}
+{% block description %}{{ e.summary|truncatechars:158 }}{% endblock %}
+{% block og_image %}{% with img=e|first_img %}{% if img %}<meta property="og:image" content="{{ img|src:1280 }}">{% endif %}{% endwith %}{% endblock %}
+{% block body_attrs %} data-land="{{ r.slug }}"{% endblock %}
+{% block content %}
+<header class="phead wrap">
+  <div class="phead__grid">
+    <div class="phead__text">
+      <div class="chip-row"><a class="chip" href="{{ p.url }}">{{ p.name }}</a><span class="chip chip--line">{{ e.kind }}</span></div>
+      <h1 class="h-xl">{{ e.title }}</h1>
+      <div class="answer">{{ e.summary }}</div>
+    </div>
+    {% photo e|first_img alt=e.title cls="arch ratio-hero" eager=True sizes="(max-width: 900px) 100vw, 40vw" %}
+  </div>
+</header>
+<section class="sec--tight">
+  <div class="wrap split">
+    <div class="split__main">
+      <div class="block prose">{% for para in e.body %}<p>{{ para }}</p>{% endfor %}</div>
+      {% include "hills/partials/faq.html" with faqs=e.faqs %}
+    </div>
+    <aside class="split__aside">
+      <div class="panel panel--dark">
+        <h2 class="h-s">At a glance</h2>
+        <div class="ledger">
+          <div class="ledger__row"><span>Duration</span><span class="ledger__dots"></span><b>{{ e.duration }}</b></div>
+          <div class="ledger__row"><span>Where</span><span class="ledger__dots"></span><b>{{ p.name }}</b></div>
+          <div class="ledger__row"><span>Kind</span><span class="ledger__dots"></span><b>{{ e.kind|capfirst }}</b></div>
+        </div>
+        <p class="small" style="margin: 18px 0 0; color: var(--mist-2)"><b style="color: var(--brass)">Best time.</b> {{ e.best_time }}</p>
+        {% if e.good_for %}<div class="chip-row" style="margin-top: 16px">{% for g in e.good_for %}<span class="chip" style="background: var(--malachite-2); color: var(--mist)">{{ g }}</span>{% endfor %}</div>{% endif %}
+      </div>
+      <a class="btn btn--dark" href="{% url 'plan' %}?land={{ r.slug }}&from={{ request.path|urlencode }}">Add this to a journey</a>
+      <a class="link-arrow" href="{{ p.url }}">Everything about {{ p.name }} →</a>
+    </aside>
+  </div>
+</section>
+{% if siblings %}<section class="sec paper"><div class="wrap">
+  <div class="sec-head"><div><p class="eyebrow">Also in {{ p.name }}</p><h2 class="h-l">More hours to plan around</h2></div></div>
+  <div class="grid grid--3" data-fill>{% for e in siblings %}{% include "hills/partials/card_exp.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
+</div></section>{% endif %}
+{% endblock %}

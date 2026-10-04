@@ -1,0 +1,4 @@
+{% load hills %}<figure class="photo {{ cls }}">
+  <div class="photo__frame">{% if img %}<img src="{{ img|src:960 }}" srcset="{{ img|srcset }}" sizes="{{ sizes }}" alt="{{ alt }}" {% if eager %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async" width="{{ img.width }}" height="{{ img.height }}">{% else %}<div class="noimg">{{ alt|default:"Photograph to come" }}</div>{% endif %}</div>
+  {% if img and credit %}<figcaption>Photo: <a href="{{ img.source }}" rel="noopener" target="_blank">{{ img|short_credit }}</a>, Wikimedia Commons</figcaption>{% endif %}
+</figure>

@@ -1,0 +1,7 @@
+{% load hills %}<a class="card rv" href="{{ p.url }}" data-item data-region="{{ p.region }}" data-kind="{{ p.kind|slugify }}" style="--tint: {{ p.region_obj.tint }}; --deep: {{ p.region_obj.deep }}">
+  {% photo p|first_img alt=p.name cls="arch" sizes="(max-width: 760px) 100vw, 25vw" credit=False %}
+  <span class="chip">{{ p.kind|default:p.region_obj.name }}</span>
+  <span class="card__title card__title--s">{{ p.name }}</span>
+  <p>{{ p.tagline }}</p>
+  <span class="card__meta">Best {{ p.best_label }}{% if p.nights %} · {{ p.nights }} nights{% endif %}</span>
+</a>

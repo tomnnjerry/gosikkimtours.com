@@ -1,0 +1,20 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ t.name }} in Nepal and India · Go Sikkim Tours{% endblock %}
+{% block description %}{{ t.summary|truncatechars:158 }}{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Travel style</p><h1 class="h-hero">{{ t.name }}</h1>
+  <p class="lede" style="font-family: var(--display); font-style: italic; color: var(--ink)">{{ t.tagline }}</p>
+  <div class="answer">{{ t.summary }}</div></div></header>
+<section class="sec--tight"><div class="wrap split">
+  <div class="split__main"><div class="block prose">{% for para in t.intro %}<p>{{ para }}</p>{% endfor %}</div></div>
+  {% if region_pages %}<aside class="split__aside"><div class="panel panel--line"><p class="eyebrow" style="margin-bottom: 12px">{{ t.name }} by land</p>
+    <div class="ledger">{% for r in region_pages %}<a class="ledger__row" href="{% url 'region_theme' r.slug t.slug %}" style="text-decoration: none"><span>{{ r.name }}</span><span class="ledger__dots"></span><b>Open</b></a>{% endfor %}</div></div></aside>{% endif %}
+</div></section>
+{% if journeys %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Journeys</p><h2 class="h-l">Routes in this style</h2></div></div>
+  <div class="grid grid--3" data-fill>{% for j in journeys %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" %}</div></div></section>{% endif %}
+{% if places %}<section class="sec"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Places</p><h2 class="h-l">Where it fits best</h2></div></div>
+  <div class="grid grid--4" data-fill>{% for p in places %}{% include "hills/partials/card_place.html" %}{% endfor %}{% include "hills/partials/fill.html" %}</div></div></section>{% endif %}
+{% if stays %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Stays</p><h2 class="h-l">Rooms that suit it</h2></div></div>
+  <div class="grid grid--3" data-fill>{% for s in stays|slice:":9" %}{% include "hills/partials/card_stay.html" %}{% endfor %}{% include "hills/partials/fill.html" %}</div></div></section>{% endif %}
+{% endblock %}

@@ -1,0 +1,127 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ r.name }} luxury journeys and private tours · Go Sikkim Tours{% endblock %}
+{% block description %}{{ r.meta_description }}{% endblock %}
+{% block og_image %}{% with img=r|first_img %}{% if img %}<meta property="og:image" content="{{ img|src:1280 }}">{% endif %}{% endwith %}{% endblock %}
+{% block body_attrs %} data-land="{{ r.slug }}"{% endblock %}
+{% block fab_label %}Plan {{ r.name }}{% endblock %}
+{% block content %}
+<header class="phead wrap spine">
+  <span class="spine__icon" aria-hidden="true">{% icon r.slug %}</span>
+  <div class="phead__grid">
+    <div class="phead__text">
+      <p class="eyebrow eyebrow--icon">{% icon r.slug %} {{ r.palette }} · {{ r.country }}</p>
+      <h1 class="h-hero">{{ r.name }}</h1>
+      <p class="lede">{{ r.summary }}</p>
+      <div class="btns"><a class="btn btn--dark" href="{% url 'plan' %}?land={{ r.slug }}&from={{ request.path|urlencode }}">Plan {{ r.name }}</a><a class="btn btn--ghost" href="#journeys">See journeys</a></div>
+      {% include "hills/partials/trust.html" %}
+    </div>
+    <div class="panel panel--dark">
+      <h2 class="h-s">{{ r.name }}, in brief</h2>
+      <div class="ledger">{% for k, v in r.facts %}<div class="ledger__row"><span>{{ k }}</span><span class="ledger__dots"></span><b>{{ v }}</b></div>{% endfor %}</div>
+      <div style="margin-top: 22px">{% include "hills/partials/mbar.html" with bar=r.bar label=r.best_label %}</div>
+    </div>
+  </div>
+</header>
+
+{% if r.images %}<section class="wrap"><div class="gallery">{% for img in r.images|slice:":5" %}{% photo img alt=r.name cls="rv" eager=forloop.first %}{% endfor %}</div></section>{% endif %}
+
+<section class="sec">
+  <div class="wrap split">
+    <div class="split__main">
+      <div class="block prose">{% for para in r.intro %}<p>{{ para }}</p>{% endfor %}</div>
+      <div class="block"><p class="eyebrow">Why go</p><h2 class="h-l">Reasons to go, plainly</h2>
+        <div class="hl-list">{% for h in r.highlights %}<div class="hl rv"><b>{{ h.title }}</b><p>{{ h.text }}</p></div>{% endfor %}</div></div>
+    </div>
+    <aside class="split__aside">
+      <nav class="panel panel--line" aria-label="On this page">
+        <p class="eyebrow" style="margin-bottom: 12px">In this tale</p>
+        <div class="toc-side">
+          <a href="#places">Places and map</a><a href="#journeys">Journeys</a>
+          <a href="#experiences">Experiences</a><a href="#stays">Stays</a>
+          <a href="#seasons">Month by month</a>{% if r.festivals %}<a href="#festivals">Festivals</a>{% endif %}
+          <a href="#getting-there">Getting there</a><a href="#guides">Guides</a><a href="#faq-h">Questions</a>
+        </div>
+      </nav>
+    </aside>
+  </div>
+</section>
+
+<section class="sec paper" id="places" aria-labelledby="pl-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">The map</p><h2 class="h-l" id="pl-h">Where to go in {{ r.name }}</h2></div></div>
+    {% atlas map_points r.slug %}
+    <div class="grid grid--4" data-fill style="margin-top: 40px">{% for p in r.places %}{% include "hills/partials/card_place.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
+  </div>
+</section>
+
+{% if r.journeys %}
+<section class="sec" id="journeys" aria-labelledby="jr-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Journeys</p><h2 class="h-l" id="jr-h">Routes through {{ r.name }}</h2><p class="muted">Indicative prices per person, twin sharing, at the hotels named. Every route can be changed.</p></div></div>
+    <div class="grid grid--3" data-fill>{% for j in r.journeys %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
+  </div>
+</section>
+{% endif %}
+
+<section class="sec dark" id="experiences" aria-labelledby="ex-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Experiences</p><h2 class="h-l" id="ex-h">Hours worth planning around</h2></div><a class="link-arrow" href="{% url 'experiences' %}">All experiences →</a></div>
+    <div class="grid grid--4" data-fill>{% for e in experiences %}{% include "hills/partials/card_exp.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
+    {% if kinds %}<div class="chip-row" style="margin-top: 36px">{% for k, n in kinds %}<a class="chip" style="background: var(--malachite-2); color: var(--mist); font-size: 12px; padding: 12px 18px" href="{% url 'region_kind' r.slug k %}">{{ n }} in {{ r.name }}</a>{% endfor %}</div>{% endif %}
+  </div>
+</section>
+
+{% if r.stays %}
+<section class="sec" id="stays" aria-labelledby="sy-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Where we book</p><h2 class="h-l" id="sy-h">Stays in {{ r.name }}</h2></div><a class="link-arrow" href="{% url 'stays' %}">All stays →</a></div>
+    <div class="grid grid--3" data-fill>{% for s in r.stays %}{% include "hills/partials/card_stay.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
+  </div>
+</section>
+{% endif %}
+
+<section class="sec paper" id="seasons" aria-labelledby="se-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Month by month</p><h2 class="h-l" id="se-h">{{ r.name }} through the year</h2></div><div class="mkey"><span><i class="v2"></i>Best</span><span><i class="v1"></i>Good</span><span><i></i>Avoid</span></div></div>
+    <div class="grid grid--4">{% for m in months %}<a class="panel panel--line card" href="{% url 'region_month' r.slug m.slug %}" style="gap: 6px">
+      <span class="eyebrow">{% if m.rating == 2 %}Best{% elif m.rating == 1 %}Good{% else %}Off season{% endif %}</span>
+      <span class="card__title card__title--s">{{ m.name }}</span><span class="card__meta">{{ m.weather }}</span></a>{% endfor %}</div>
+  </div>
+</section>
+
+{% if styles %}
+<section class="sec--tight wrap" aria-labelledby="sty-h"><p class="eyebrow" id="sty-h" style="margin-bottom: 14px">{{ r.name }} by travel style</p>
+  <div class="chip-row">{% for t in styles %}<a class="chip" style="font-size: 12px; padding: 12px 18px" href="{% url 'region_theme' r.slug t.slug %}">{{ t.name }}</a>{% endfor %}</div></section>
+{% endif %}
+
+{% if r.festivals %}
+<section class="sec" id="festivals" aria-labelledby="fe-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">The calendar</p><h2 class="h-l" id="fe-h">Festivals worth the dates</h2></div></div>
+    <div class="grid grid--3" data-fill>{% for f in r.festivals %}<a class="card card--wide rv" href="{{ f.url }}">{% photo f|first_img alt=f.name credit=False sizes="(max-width: 760px) 100vw, 33vw" %}<span class="chip">{{ f.when|truncatewords:5 }}</span><span class="card__title card__title--s">{{ f.name }}</span><p>{{ f.summary|truncatewords:22 }}</p></a>{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
+  </div>
+</section>
+{% endif %}
+
+<section class="sec paper" id="getting-there" aria-labelledby="gt-h">
+  <div class="wrap split">
+    <div class="split__main">
+      <div class="block"><p class="eyebrow">Getting there</p><h2 class="h-l" id="gt-h">Arriving in {{ r.name }}</h2><div class="prose prose--plain"><p>{{ r.getting_there }}</p></div></div>
+      {% if r.permits %}<div class="block"><p class="eyebrow">Permits</p><h2 class="h-m">Paperwork to know</h2><div class="prose prose--plain"><p>{{ r.permits }}</p></div><a class="link-arrow" href="{% url 'tool_permits' %}">Permit checker →</a></div>{% endif %}
+    </div>
+    {% if r.routes %}<aside class="split__aside"><div class="panel panel--line"><h2 class="h-s" style="margin-bottom: 14px">Drive times</h2>
+      <div class="ledger">{% for rt in r.routes %}<a class="ledger__row" href="{{ rt.url }}" style="text-decoration: none"><span>{{ rt.from_obj.name }} → {{ rt.to_obj.name }}</span><span class="ledger__dots"></span><b>{{ rt.distance_km }} km</b></a>{% endfor %}</div></div></aside>{% endif %}
+  </div>
+</section>
+
+{% if r.guides %}
+<section class="sec" id="guides" aria-labelledby="gd-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Guides</p><h2 class="h-l" id="gd-h">Read before {{ r.name }}</h2></div></div>
+    <div class="grid grid--3" data-fill>{% for g in r.guides %}{% include "hills/partials/card_guide.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
+  </div>
+</section>
+{% endif %}
+
+<section class="sec paper"><div class="wrap narrow">{% include "hills/partials/faq.html" with faqs=r.faqs faq_title="Questions about "|add:r.name %}</div></section>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ rt.from_obj.name }} to {{ rt.to_obj.name }}: distance, drive time, flights and trains · Go Sikkim Tours{% endblock %}
+{% block description %}{{ rt.summary|truncatechars:158 }}{% endblock %}
+{% block body_attrs %} data-land="{{ rt.region_obj.slug }}"{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain">
+  <div class="phead__text" style="margin-top: 32px">
+    <div class="chip-row"><a class="chip" href="{{ rt.region_obj.url }}">{{ rt.region_obj.name }}</a><span class="chip chip--line">≈ {{ rt.distance_km }} km</span></div>
+    <h1 class="h-xl">{{ rt.from_obj.name }} <span class="accent">to</span> {{ rt.to_obj.name }}</h1>
+    <div class="answer">{{ rt.summary }}</div>
+  </div>
+</header>
+<section class="sec--tight"><div class="wrap split">
+  <div class="split__main">
+    <div class="block"><p class="eyebrow">Your options</p><h2 class="h-l">Ways to make the journey</h2>
+      <div class="reach">{% for o in rt.options %}<div class="reach__row" style="grid-template-columns: 160px 1fr"><b>{{ o.mode }}<br><span style="font-family: var(--display); font-style: italic; letter-spacing: 0; text-transform: none; font-size: 22px; color: var(--ink)">{{ o.time }}</span></b><p>{{ o.text }}</p></div>{% endfor %}</div></div>
+    {% if rt.stops_on_way %}<div class="block"><p class="eyebrow">Worth a stop</p><ol class="tips">{% for s in rt.stops_on_way %}<li>{{ s }}</li>{% endfor %}</ol></div>{% endif %}
+    {% if rt.tip %}<div class="answer" style="font-size: 17px">{{ rt.tip }}</div>{% endif %}
+    {% include "hills/partials/faq.html" with faqs=rt.faqs %}
+  </div>
+  <aside class="split__aside">
+    {% atlas map_points rt.region route=True %}
+    <div class="grid" style="grid-template-columns: 1fr 1fr">
+      {% with p=rt.from_obj %}{% include "hills/partials/card_place.html" %}{% endwith %}
+      {% with p=rt.to_obj %}{% include "hills/partials/card_place.html" %}{% endwith %}</div>
+    <a class="btn btn--dark" href="{% url 'plan' %}?land={{ rt.region }}&from={{ request.path|urlencode }}">Arrange a private car</a>
+  </aside>
+</div></section>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}Photo credits · Go Sikkim Tours{% endblock %}
+{% block description %}Every photograph on Go Sikkim Tours comes from Wikimedia Commons under a free licence. Authors, licences and source links for every photo.{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Photo credits</p><h1 class="h-xl">Every photograph, <span class="accent">credited</span></h1>
+  <p class="lede">Every photograph on this site comes from Wikimedia Commons under a free licence (CC0, public domain, CC BY or CC BY-SA). We thank each photographer. If you are an author and want a photo credited differently or removed, write to <a href="mailto:{{ SITE.email }}">{{ SITE.email }}</a>.</p></div></header>
+<section class="wrap" style="padding-bottom: 96px"><div class="tbl-wrap"><table class="tbl">
+  <thead><tr><th scope="col">Photo</th><th scope="col">File</th><th scope="col">Author</th><th scope="col">Licence</th><th scope="col">Used for</th></tr></thead>
+  <tbody>{% for img in images %}<tr>
+    <td><img src="{{ img|src:500 }}" alt="" loading="lazy" style="width: 88px; height: 60px; object-fit: cover; border-radius: 4px"></td>
+    <td><a href="{{ img.source }}" rel="noopener" target="_blank">{{ img.file|slice:"5:" }}</a></td>
+    <td>{{ img.author }}</td>
+    <td>{% if img.license_url %}<a href="{{ img.license_url }}" rel="noopener license" target="_blank">{{ img.license }}</a>{% else %}{{ img.license }}{% endif %}</td>
+    <td class="small">{{ img.used_for }}</td></tr>{% endfor %}</tbody></table></div></section>
+{% endblock %}

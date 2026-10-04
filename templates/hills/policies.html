@@ -1,0 +1,11 @@
+{% extends "hills/base.html" %}
+{% block title %}Policies · Go Sikkim Tours{% endblock %}
+{% block description %}Our booking terms, refund and cancellation policy, payments, privacy, cookies, disclaimer and accessibility statement, in plain English.{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Policies</p><h1 class="h-hero">Plain <span class="accent">terms</span></h1>
+  <p class="lede">What you can expect from us, and what we ask of you, before you pay anything. Each page opens with a short summary.</p></div></header>
+<section class="wrap" style="padding-bottom: 96px"><div class="toc">
+  {% for p in policies %}<a class="toc__row" href="{% url 'policy' p.slug %}"><span class="num">{{ forloop.counter|stringformat:"02d" }}</span><span class="toc__name"><b>{{ p.title }}</b><span>{{ p.summary|truncatewords:22 }}</span></span><span class="toc__when"></span><span class="toc__arrow" aria-hidden="true">→</span></a>{% endfor %}
+</div></section>
+{% endblock %}

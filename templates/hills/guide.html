@@ -1,0 +1,38 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}{{ g.title }} · Go Sikkim Tours{% endblock %}
+{% block description %}{{ g.meta_description }}{% endblock %}
+{% block og_image %}{% with img=g|first_img %}{% if img %}<meta property="og:image" content="{{ img|src:1280 }}">{% endif %}{% endwith %}{% endblock %}
+{% block body_attrs %} data-land="{{ r.slug }}"{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain">
+  <div class="phead__text" style="margin-top: 32px">
+    <div class="chip-row"><a class="chip" href="{{ r.url }}">{{ r.name }}</a><span class="chip chip--line">{{ g.category }}</span><span class="chip chip--line">{{ g.read_min }} min read</span></div>
+    <h1 class="h-xl">{{ g.title }}</h1>
+    <p class="small muted">By {{ SITE.byline }}</p>
+    <div class="answer">{{ g.summary }}</div>
+  </div>
+</header>
+{% if g.images %}<div class="wrap">{% photo g|first_img alt=g.title cls="ratio-pano" eager=True sizes="100vw" %}</div>{% endif %}
+<section class="sec--tight"><div class="wrap split">
+  <article class="split__main">
+    {% for s in g.sections %}<section class="block" id="{{ s.anchor }}">
+      <h2 class="h-m">{{ s.heading }}</h2>
+      <div class="prose{% if not forloop.first %} prose--plain{% endif %}">{% for para in s.paras %}<p>{{ para }}</p>{% endfor %}
+        {% if s.list %}<ul>{% for x in s.list %}<li>{{ x }}</li>{% endfor %}</ul>{% endif %}</div>
+      {% if s.table %}<div class="tbl-wrap"><table class="tbl"><thead><tr>{% for h in s.table.head %}<th scope="col">{{ h }}</th>{% endfor %}</tr></thead>
+        <tbody>{% for row in s.table.rows %}<tr>{% for c in row %}<td>{{ c }}</td>{% endfor %}</tr>{% endfor %}</tbody></table></div>{% endif %}
+    </section>{% endfor %}
+    {% include "hills/partials/faq.html" with faqs=g.faqs %}
+  </article>
+  <aside class="split__aside">
+    <nav class="panel panel--line" aria-label="Contents"><p class="eyebrow" style="margin-bottom: 12px">Contents</p>
+      <div class="toc-side">{% for s in g.sections %}<a href="#{{ s.anchor }}">{{ s.heading }}</a>{% endfor %}<a href="#faq-h">Questions</a></div></nav>
+    {% if g.related_objs %}<div class="panel panel--paper"><p class="eyebrow" style="margin-bottom: 12px">Places in this guide</p>
+      <div class="ledger">{% for p in g.related_objs %}<a class="ledger__row" href="{{ p.url }}" style="text-decoration: none"><span>{{ p.name }}</span><span class="ledger__dots"></span><b>{{ p.best_label }}</b></a>{% endfor %}</div></div>{% endif %}
+    <a class="btn btn--dark" href="{% url 'plan' %}?land={{ r.slug }}&from={{ request.path|urlencode }}">Plan {{ r.name }} with us</a>
+  </aside>
+</div></section>
+{% if more %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Keep reading</p><h2 class="h-l">More on {{ r.name }}</h2></div></div>
+  <div class="grid grid--3" data-fill>{% for g in more %}{% include "hills/partials/card_guide.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div></div></section>{% endif %}
+{% include "hills/partials/nudge.html" with nudge_land=r.name nudge_slug=r.slug %}
+{% endblock %}

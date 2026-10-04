@@ -1,0 +1,38 @@
+{% extends "hills/base.html" %}
+{% block title %}Season finder: where to go in Nepal and India each month · Go Sikkim Tours{% endblock %}
+{% block description %}Choose a month and see which places in Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa and UP &amp; Bihar are at their best.{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Trip tool 01</p><h1 class="h-xl">Season <span class="accent">finder</span></h1>
+  <p class="lede">Choose a month. Places rated best for that month come first, then good ones.</p></div></header>
+<section class="wrap" style="padding-bottom: 96px">
+  <div class="filters" role="group" aria-label="Month">{% for m in months %}<button type="button" class="js-month" data-m="{{ forloop.counter0 }}" aria-pressed="{% if forloop.counter0 == now %}true{% else %}false{% endif %}">{{ m|slice:":3" }}</button>{% endfor %}</div>
+  <div class="filters" role="group" aria-label="Land"><button type="button" class="js-land" data-r="" aria-pressed="true">All lands</button>{% for r in regions %}<button type="button" class="js-land" data-r="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endfor %}</div>
+  <p class="tool-out" style="color: var(--brass-ink)" aria-live="polite" id="sf-head"></p>
+  <div class="grid grid--2" id="sf-out"></div>
+  <noscript><p>The season finder needs JavaScript. The <a href="{% url 'seasons' %}">season almanac</a> shows the same information without it.</p></noscript>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+(function () {
+  var data = {{ data|safe }};
+  var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var m = {{ now }}, r = "";
+  var out = document.getElementById("sf-out"), head = document.getElementById("sf-head");
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]; }); }
+  function draw() {
+    var rows = data.filter(function (p) { return p.b[m] > 0 && (!r || p.rs === r); }).sort(function (a, b) { return b.b[m] - a.b[m]; });
+    head.textContent = "At their best in " + months[m];
+    out.innerHTML = rows.map(function (p) {
+      return '<a class="result" href="' + esc(p.u) + '">' + (p.i ? '<img src="' + esc(p.i.split("?")[0]) + '" alt="" loading="lazy">' : '<span></span>') +
+        '<span><b>' + esc(p.n) + '</b><br><span class="small muted">' + esc(p.r) + ' · ' + esc(p.k) + '</span></span>' +
+        '<span class="chip">' + (p.b[m] === 2 ? "Best" : "Good") + '</span></a>';
+    }).join("") || '<p class="muted">Nothing rated well for this combination. Try another month.</p>';
+  }
+  document.querySelectorAll(".js-month").forEach(function (b) { b.addEventListener("click", function () { m = +b.dataset.m; document.querySelectorAll(".js-month").forEach(function (o) { o.setAttribute("aria-pressed", String(o === b)); }); draw(); }); });
+  document.querySelectorAll(".js-land").forEach(function (b) { b.addEventListener("click", function () { r = b.dataset.r; document.querySelectorAll(".js-land").forEach(function (o) { o.setAttribute("aria-pressed", String(o === b)); }); draw(); }); });
+  draw();
+})();
+</script>
+{% endblock %}

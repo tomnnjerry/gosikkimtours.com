@@ -1,0 +1,126 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block mast_class %}mast--dark{% endblock %}
+{% block content %}
+<section class="dark hero">
+  <div class="wrap">
+    <div class="hero__top">
+      <div class="hero__title">
+        <p class="eyebrow">Private journeys · Nepal &amp; India</p>
+        <h1 class="h-hero">Seven lands, <span class="accent">told slowly</span></h1>
+      </div>
+      <div class="hero__side">
+        <p class="lede">Palaces in Rajasthan, monasteries above 3,500 m in Ladakh, rice-boat nights in Kerala. We plan each journey by hand, with one planner from first call to last transfer.</p>
+        <div class="btns">
+          <a class="btn btn--brass" href="{% url 'plan' %}?from=/">Plan my journey</a>
+          <a class="btn btn--ghost" href="{% url 'lands' %}">Read the seven hills</a>
+        </div>
+        <form class="finder" action="{% url 'plan' %}" method="get" data-cta-form="hero-finder">
+          <label><span>Where</span><select name="land"><option value="">Any of the seven lands</option>{% for r in regions %}<option value="{{ r.slug }}">{{ r.name }}</option>{% endfor %}</select></label>
+          <label><span>When</span><select name="month"><option value="">Flexible</option>{% for m in months_full %}<option>{{ m }}</option>{% endfor %}</select></label>
+          <input type="hidden" name="from" value="/">
+          <button class="btn btn--brass" type="submit">Start planning</button>
+        </form>
+      </div>
+    </div>
+    <div class="fan" aria-label="The seven lands">
+      {% for r in regions %}{% with img=r|first_img %}
+      <a class="fan__item{% if forloop.counter == 2 %} is-active{% endif %}" href="{{ r.url }}" data-land="{{ r.slug }}">
+        {% if img %}<img src="{{ img|src:960 }}" srcset="{{ img|srcset }}" sizes="(max-width: 760px) 50vw, 45vw" alt="{{ r.name }}" {% if forloop.counter < 3 %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>{% endif %}
+        <span class="fan__cap">
+          <span class="lbadge" data-land="{{ r.slug }}">{% icon r.slug %}</span>
+          <b>{{ r.name }}</b>
+          <span class="fan__more">
+            <p>{{ r.tagline }}. Best {{ r.best_label }}.</p>
+            <span class="fan__go">Open the tale</span>
+            {% if img %}<small>Photo: {{ img|short_credit }}, Wikimedia Commons</small>{% endif %}
+          </span>
+        </span>
+      </a>{% endwith %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="trustband"><div class="wrap">{% include "hills/partials/trust.html" %}</div></section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee__track">{% for i in "12" %}{% for r in regions %}<span>{{ r.name }}</span>{% endfor %}{% endfor %}</div></div>
+
+<section class="sec" aria-labelledby="idx-h">
+  <div class="wrap split">
+    <div class="split__aside" style="top: 120px">
+      <p class="eyebrow">The index</p>
+      <h2 class="h-xl" id="idx-h">Choose a <span class="accent">tale</span></h2>
+      <p class="lede">Each land opens on its own map, its own seasons and the rooms we would book for you there.</p>
+      <svg class="seal" viewBox="0 0 132 132" aria-hidden="true"><defs><path id="c" d="M66 66m-50 0a50 50 0 1 1 100 0a50 50 0 1 1-100 0"/></defs><text><textPath href="#c">Seven lands · told slowly · by hand ·</textPath></text></svg>
+    </div>
+    <div class="split__main" style="gap: 0">
+      <div class="toc">
+        {% for r in regions %}<a class="toc__row" data-land="{{ r.slug }}" href="{{ r.url }}"{% with img=r|nth_img:1 %}{% if img %} data-img="{{ img|src:500 }}"{% endif %}{% endwith %}>
+          <span class="lbadge" data-land="{{ r.slug }}">{% icon r.slug %}</span>
+          <span class="toc__name"><b>{{ r.name }}</b><span>{% for p in r.top_places|slice:":5" %}{{ p.name }}{% if not forloop.last %}, {% endif %}{% endfor %}</span></span>
+          <span class="toc__when">Best {{ r.best_label }}</span>
+          <span class="toc__arrow" aria-hidden="true">→</span>
+        </a>{% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="toc__peek" aria-hidden="true"><img alt=""></div>
+</section>
+
+{% if featured %}
+<section class="sec paper" aria-labelledby="jr-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Signature journeys</p><h2 class="h-l" id="jr-h">Routes we know by heart</h2></div><a class="link-arrow" href="{% url 'journeys' %}">Every journey →</a></div>
+    <div class="grid grid--4" data-fill>{% for j in featured %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" %}</div>
+  </div>
+</section>
+{% endif %}
+
+<section class="sec dark" aria-labelledby="alm-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">The season almanac</p><h2 class="h-l" id="alm-h">When each land <span class="accent">is at its best</span></h2></div>
+      <div class="mkey"><span><i class="v2"></i>Best</span><span><i class="v1"></i>Good</span><span><i></i>Off season</span></div></div>
+    <div class="almanac"><div class="almanac__grid">
+      <span></span>{% for m in months_short %}<span class="hd">{{ m }}</span>{% endfor %}
+      {% for r in regions %}<a class="almanac__name" href="{{ r.url }}">{{ r.name }}</a>{% for c in r.bar %}<a class="almanac__cell v{{ c.v }}{% if forloop.counter0 == month_i %} is-now{% endif %}" href="{{ r.url }}seasons/{{ c.full|lower }}/" aria-label="{{ r.name }} in {{ c.full }}"></a>{% endfor %}{% endfor %}
+    </div></div>
+    <p class="small" style="color: var(--mist-3); margin-top: 20px">A planning guide, not a promise. Passes, parks and permits change each year: check current status before you travel. The ringed column is this month. <a href="{% url 'seasons' %}">Open the full almanac</a></p>
+  </div>
+</section>
+
+{% if in_season %}
+<section class="sec" aria-labelledby="now-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Right now</p><h2 class="h-l" id="now-h">At their best in {{ month }}</h2></div><a class="link-arrow" href="{% url 'tool_season' %}">Season finder →</a></div>
+    <div class="grid grid--4" data-fill>{% for p in in_season %}{% include "hills/partials/card_place.html" %}{% endfor %}{% include "hills/partials/fill.html" %}</div>
+  </div>
+</section>
+{% endif %}
+
+<section class="sec paper" aria-labelledby="why-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">How we work</p><h2 class="h-l" id="why-h">Three promises we keep</h2></div></div>
+    <div class="hl-list">
+      <div class="hl rv"><span class="lbadge lbadge--lg">{% icon "chat" %}</span><b>One planner, start to finish</b><p>One person shapes the route, books every stay and answers on WhatsApp while you travel.</p></div>
+      <div class="hl rv"><span class="lbadge lbadge--lg">{% icon "compass" %}</span><b>Only lands we know</b><p>We stay inside the regions we know, so the driver, the guide and the room are ones we have tested.</p></div>
+      <div class="hl rv"><span class="lbadge lbadge--lg">{% icon "shield" %}</span><b>Never a group coach</b><p>Private car, private guide, your hours. Every journey is for your party alone.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="st-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Travel styles</p><h2 class="h-l" id="st-h">Start from a feeling</h2></div><a class="link-arrow" href="{% url 'themes' %}">All styles →</a></div>
+    <div class="chip-row">{% for t in themes %}<a class="chip chip--line" style="font-size: 12px; padding: 12px 18px" href="{{ t.url }}">{{ t.name }}</a>{% endfor %}</div>
+  </div>
+</section>
+
+{% if festivals or guides %}
+<section class="sec paper" aria-labelledby="jn-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">From the desk</p><h2 class="h-l" id="jn-h">Read before you go</h2></div><a class="link-arrow" href="{% url 'journal' %}">The Journal →</a></div>
+    <div class="grid grid--3" data-fill>{% for d in posts %}<a class="card card--wide rv" href="{{ d.url }}"{% if d.land %} data-land="{{ d.land }}"{% endif %}>{% photo d|first_img alt=d.title credit=False sizes="(max-width: 760px) 100vw, 33vw" %}<span class="chip">{{ d.category }} · {{ d.read_min }} min</span><span class="card__title card__title--s">{{ d.title }}</span><p>{{ d.summary|truncatewords:22 }}</p></a>{% endfor %}{% include "hills/partials/fill.html" %}</div>
+    {% if festivals %}<div style="margin-top: 56px" class="block"><p class="eyebrow">Coming up</p><div class="chip-row">{% for f in festivals %}<a class="chip" style="--tint: {{ f.region_obj.tint }}; --deep: {{ f.region_obj.deep }}; font-size: 12px; padding: 12px 18px" href="{{ f.url }}">{{ f.name }} · {{ f.when|truncatewords:4 }}</a>{% endfor %}</div></div>{% endif %}
+  </div>
+</section>
+{% endif %}
+{% endblock %}
