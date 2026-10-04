@@ -12,53 +12,286 @@
     "For the slower traveller there is Dzongu, a Lepcha reserve on the west bank of the Teesta below Mangan. It sits much lower, at roughly 700–2,000 m, with cardamom groves, waterfalls and village homestays. It needs its own permit but has none of the altitude risk, and it pairs well with a night or two in the high valleys."
   ],
   "highlights": [
-    {"title": "Yumthang valley in spring", "text": "From mid-April to May the valley floor at 3,564 m turns pink and red with rhododendrons inside the Shingba sanctuary."},
-    {"title": "Gurudongmar Lake", "text": "A sacred glacial lake at about 5,430 m, open to Indian travellers only, reached at dawn from Lachen."},
-    {"title": "Snow at Zero Point", "text": "Yumesamdong, about 23 km above Yumthang, usually has snow from November to April and is the end of the road for tourists."},
-    {"title": "Lachung and Lachen villages", "text": "Two wooden Bhutia villages run by their own traditional councils, the Dzumsa, with monasteries above the rooftops."},
-    {"title": "Lepcha homestays in Dzongu", "text": "A protected Lepcha reserve where you stay in family homes, walk to waterfalls and eat local food."},
-    {"title": "The drive up the Teesta", "text": "Waterfalls, gorges and suspension bridges between Mangan, Chungthang and the high valleys make the long road part of the trip."}
+    {
+      "title": "Yumthang valley in spring",
+      "text": "From mid-April to May the valley floor at 3,564 m turns pink and red with rhododendrons inside the Shingba sanctuary."
+    },
+    {
+      "title": "Gurudongmar Lake",
+      "text": "A sacred glacial lake at about 5,430 m, open to Indian travellers only, reached at dawn from Lachen."
+    },
+    {
+      "title": "Snow at Zero Point",
+      "text": "Yumesamdong, about 23 km above Yumthang, usually has snow from November to April and is the end of the road for tourists."
+    },
+    {
+      "title": "Lachung and Lachen villages",
+      "text": "Two wooden Bhutia villages run by their own traditional councils, the Dzumsa, with monasteries above the rooftops."
+    },
+    {
+      "title": "Lepcha homestays in Dzongu",
+      "text": "A protected Lepcha reserve where you stay in family homes, walk to waterfalls and eat local food."
+    },
+    {
+      "title": "The drive up the Teesta",
+      "text": "Waterfalls, gorges and suspension bridges between Mangan, Chungthang and the high valleys make the long road part of the trip."
+    }
   ],
   "facts": [
-    ["Main town", "Mangan, about 950 m"],
-    ["Nearest airport", "Bagdogra (IXB), about 125 km to Gangtok, then 5–7 hours north"],
-    ["Nearest railway", "New Jalpaiguri (NJP), Siliguri"],
-    ["Languages", "Nepali, Sikkimese (Bhutia), Lepcha, Lachungpa and Lachenpa dialects, Hindi"],
-    ["Permits", "Permit via registered operator for Indians; PAP for foreigners, Yumthang limit"],
-    ["Days to allow", "2–3 nights from Gangtok; 5–7 with Dzongu"]
+    [
+      "Main town",
+      "Mangan, about 950 m"
+    ],
+    [
+      "Nearest airport",
+      "Bagdogra (IXB), about 125 km to Gangtok, then 5–7 hours north"
+    ],
+    [
+      "Nearest railway",
+      "New Jalpaiguri (NJP), Siliguri"
+    ],
+    [
+      "Languages",
+      "Nepali, Sikkimese (Bhutia), Lepcha, Lachungpa and Lachenpa dialects, Hindi"
+    ],
+    [
+      "Permits",
+      "Permit via registered operator for Indians; PAP for foreigners, Yumthang limit"
+    ],
+    [
+      "Days to allow",
+      "2–3 nights from Gangtok; 5–7 with Dzongu"
+    ]
   ],
   "people": "The high valleys are home to the Lachungpa and Lachenpa, Bhutia communities who speak their own Tibetic dialects, follow Tibetan Buddhism and have long herded yaks and traded across the passes. Each village is governed by its own Dzumsa, a council headed by an elected Pipon, which the state recognises in place of a panchayat. Lower down, Dzongu is a reserve for the Lepcha, the oldest known inhabitants of Sikkim, who call themselves Rongkup and keep both Buddhist and older Bongthing and Mun traditions. Nepali-speaking families live along the Teesta road at Mangan and Chungthang. Ask before photographing people or prayer rooms, and follow village rules on noise and plastic.",
   "budget_day": [
-    {"tier": "Budget", "inr": "₹2,500–3,500", "covers": "per person per day: a seat on a shared group tour from Gangtok, a homestay or simple lodge room shared by two, all meals, and the permit fee"},
-    {"tier": "Value", "inr": "₹4,500–6,500", "covers": "per person per day: a reserved car shared by two, a good hotel in Lachung or Lachen with meals, permits and the driver's costs"},
-    {"tier": "Comfort", "inr": "₹8,000–12,000", "covers": "per person per day: a newer SUV for two, the best rooms on the route with heating, all meals, permits and the Zero Point add-on"}
+    {
+      "tier": "Budget",
+      "inr": "₹2,500–3,500",
+      "covers": "per person per day: a seat on a shared group tour from Gangtok, a homestay or simple lodge room shared by two, all meals, and the permit fee"
+    },
+    {
+      "tier": "Value",
+      "inr": "₹4,500–6,500",
+      "covers": "per person per day: a reserved car shared by two, a good hotel in Lachung or Lachen with meals, permits and the driver's costs"
+    },
+    {
+      "tier": "Comfort",
+      "inr": "₹8,000–12,000",
+      "covers": "per person per day: a newer SUV for two, the best rooms on the route with heating, all meals, permits and the Zero Point add-on"
+    }
   ],
-  "best_months": [1, 1, 2, 2, 2, 0, 0, 0, 1, 2, 2, 1],
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    1
+  ],
   "months": [
-    {"month": "January", "weather": "Very cold, -5 to 8°C in Lachung, snow likely", "summary": "Lachung is open in most years and Yumthang lies under snow. The Gurudongmar road often closes after heavy snowfall, so treat it as a bonus rather than a promise.", "tip": "Bring proper thermals and gloves; most rooms have only electric blankets or a small heater.", "go": ["lachung", "yumthang-valley", "dzongu"], "events": ["namsoong-lepcha-new-year-dzongu"]},
-    {"month": "February", "weather": "Cold and mostly clear, snow on the passes", "summary": "Snow is reliable at Zero Point and often reaches Yumthang. Losar falls in February or early March and villages celebrate quietly at home and in the monasteries.", "tip": "Keep a spare day in case the road above Lachung shuts after fresh snow.", "go": ["lachung", "yumthang-valley", "dzongu"], "events": ["losar-lachung-lachen"]},
-    {"month": "March", "weather": "Cold mornings, 0–14°C in Lachung", "summary": "Snow melts slowly from Yumthang while Zero Point stays white. Roads reopen to Gurudongmar as the month goes on, depending on the season.", "tip": "Ask your operator whether the Gurudongmar road is open before choosing Lachen.", "go": ["lachung", "yumthang-valley", "lachen", "dzongu"], "events": ["losar-lachung-lachen"]},
-    {"month": "April", "weather": "Cool and fresher, showers in the afternoon", "summary": "The rhododendrons begin flowering at Yumthang from mid-April. This is one of the two best months, and also one of the busiest.", "tip": "Book Lachung rooms early for Easter and the Bengali New Year holidays.", "go": ["yumthang-valley", "lachung", "lachen", "gurudongmar-lake"], "events": []},
-    {"month": "May", "weather": "Mild days, 5–18°C in Lachung", "summary": "Peak rhododendron season and peak crowds, with school holidays filling the valleys. Gurudongmar is usually open and the lake begins to thaw.", "tip": "Leave Lachung for Yumthang by 6 am to beat the line of jeeps.", "go": ["yumthang-valley", "gurudongmar-lake", "lachen", "lachung"], "events": ["saga-dawa-lachen-monastery"]},
-    {"month": "June", "weather": "Monsoon arrives, landslides likely", "summary": "Rain sets in and landslides can close the road for days, sometimes trapping visitors. Permits are often suspended during heavy rain.", "tip": "If you must go, buy travel insurance and keep two spare days at the end.", "go": ["dzongu"], "events": ["saga-dawa-lachen-monastery"]},
-    {"month": "July", "weather": "Heavy rain, cloud on the valleys", "summary": "The wettest month. Tourist permits for the high valleys are often suspended, and views are rare even when the road is open.", "tip": "Plan West Sikkim or Darjeeling instead and come back in October.", "go": ["dzongu"], "events": []},
-    {"month": "August", "weather": "Wet, warm in the gorge, cold above 3,000 m", "summary": "Still monsoon, with frequent closures. Alpine flowers bloom above Yumthang when the cloud lifts, but the road risk is high.", "tip": "Watch the Sikkim government and police notices for road updates.", "go": ["dzongu"], "events": []},
-    {"month": "September", "weather": "Rain easing late in the month", "summary": "The monsoon weakens and permits usually resume, though landslide repairs can slow the drive. Late September can be green and quiet.", "tip": "Allow for one-way convoy timings at repaired stretches.", "go": ["lachung", "yumthang-valley", "dzongu"], "events": []},
-    {"month": "October", "weather": "Clear and crisp, 3–16°C in Lachung", "summary": "Autumn brings the clearest skies and steady roads. It is busy during the Puja holidays, so book well ahead.", "tip": "Gurudongmar is at its bluest now; dress for a hard wind at the lake.", "go": ["lachung", "yumthang-valley", "lachen", "gurudongmar-lake", "dzongu"], "events": []},
-    {"month": "November", "weather": "Cold, dry and clear", "summary": "Very good visibility, thinner crowds and first snow at Zero Point. Nights in Lachen drop below freezing.", "tip": "This is the best month for good-value rooms with clear views.", "go": ["lachung", "yumthang-valley", "lachen", "gurudongmar-lake", "dzongu"], "events": []},
-    {"month": "December", "weather": "Cold, snow possible from mid-month", "summary": "Lachung and Yumthang may get snow, and Christmas brings a holiday rush from Kolkata. Gurudongmar access depends on snowfall.", "tip": "Ask for a room with a heater and confirm whether it costs extra.", "go": ["lachung", "yumthang-valley", "dzongu"], "events": ["namsoong-lepcha-new-year-dzongu"]}
+    {
+      "month": "January",
+      "weather": "Very cold, -5 to 8°C in Lachung, snow likely",
+      "summary": "Lachung is open in most years and Yumthang lies under snow. The Gurudongmar road often closes after heavy snowfall, so treat it as a bonus rather than a promise.",
+      "tip": "Bring proper thermals and gloves; most rooms have only electric blankets or a small heater.",
+      "go": [
+        "lachung",
+        "yumthang-valley",
+        "dzongu"
+      ],
+      "events": [
+        "namsoong-lepcha-new-year-dzongu"
+      ]
+    },
+    {
+      "month": "February",
+      "weather": "Cold and mostly clear, snow on the passes",
+      "summary": "Snow is reliable at Zero Point and often reaches Yumthang. Losar falls in February or early March and villages celebrate quietly at home and in the monasteries.",
+      "tip": "Keep a spare day in case the road above Lachung shuts after fresh snow.",
+      "go": [
+        "lachung",
+        "yumthang-valley",
+        "dzongu"
+      ],
+      "events": [
+        "losar-lachung-lachen"
+      ]
+    },
+    {
+      "month": "March",
+      "weather": "Cold mornings, 0–14°C in Lachung",
+      "summary": "Snow melts slowly from Yumthang while Zero Point stays white. Roads reopen to Gurudongmar as the month goes on, depending on the season.",
+      "tip": "Ask your operator whether the Gurudongmar road is open before choosing Lachen.",
+      "go": [
+        "lachung",
+        "yumthang-valley",
+        "lachen",
+        "dzongu"
+      ],
+      "events": [
+        "losar-lachung-lachen"
+      ]
+    },
+    {
+      "month": "April",
+      "weather": "Cool and fresher, showers in the afternoon",
+      "summary": "The rhododendrons begin flowering at Yumthang from mid-April. This is one of the two best months, and also one of the busiest.",
+      "tip": "Book Lachung rooms early for Easter and the Bengali New Year holidays.",
+      "go": [
+        "yumthang-valley",
+        "lachung",
+        "lachen",
+        "gurudongmar-lake"
+      ],
+      "events": []
+    },
+    {
+      "month": "May",
+      "weather": "Mild days, 5–18°C in Lachung",
+      "summary": "Peak rhododendron season and peak crowds, with school holidays filling the valleys. Gurudongmar is usually open and the lake begins to thaw.",
+      "tip": "Leave Lachung for Yumthang by 6 am to beat the line of jeeps.",
+      "go": [
+        "yumthang-valley",
+        "gurudongmar-lake",
+        "lachen",
+        "lachung"
+      ],
+      "events": [
+        "saga-dawa-lachen-monastery"
+      ]
+    },
+    {
+      "month": "June",
+      "weather": "Monsoon arrives, landslides likely",
+      "summary": "Rain sets in and landslides can close the road for days, sometimes trapping visitors. Permits are often suspended during heavy rain.",
+      "tip": "If you must go, buy travel insurance and keep two spare days at the end.",
+      "go": [
+        "dzongu"
+      ],
+      "events": [
+        "saga-dawa-lachen-monastery"
+      ]
+    },
+    {
+      "month": "July",
+      "weather": "Heavy rain, cloud on the valleys",
+      "summary": "The wettest month. Tourist permits for the high valleys are often suspended, and views are rare even when the road is open.",
+      "tip": "Plan West Sikkim or Darjeeling instead and come back in October.",
+      "go": [
+        "dzongu"
+      ],
+      "events": []
+    },
+    {
+      "month": "August",
+      "weather": "Wet, warm in the gorge, cold above 3,000 m",
+      "summary": "Still monsoon, with frequent closures. Alpine flowers bloom above Yumthang when the cloud lifts, but the road risk is high.",
+      "tip": "Watch the Sikkim government and police notices for road updates.",
+      "go": [
+        "dzongu"
+      ],
+      "events": []
+    },
+    {
+      "month": "September",
+      "weather": "Rain easing late in the month",
+      "summary": "The monsoon weakens and permits usually resume, though landslide repairs can slow the drive. Late September can be green and quiet.",
+      "tip": "Allow for one-way convoy timings at repaired stretches.",
+      "go": [
+        "lachung",
+        "yumthang-valley",
+        "dzongu"
+      ],
+      "events": []
+    },
+    {
+      "month": "October",
+      "weather": "Clear and crisp, 3–16°C in Lachung",
+      "summary": "Autumn brings the clearest skies and steady roads. It is busy during the Puja holidays, so book well ahead.",
+      "tip": "Gurudongmar is at its bluest now; dress for a hard wind at the lake.",
+      "go": [
+        "lachung",
+        "yumthang-valley",
+        "lachen",
+        "gurudongmar-lake",
+        "dzongu"
+      ],
+      "events": []
+    },
+    {
+      "month": "November",
+      "weather": "Cold, dry and clear",
+      "summary": "Very good visibility, thinner crowds and first snow at Zero Point. Nights in Lachen drop below freezing.",
+      "tip": "This is the best month for good-value rooms with clear views.",
+      "go": [
+        "lachung",
+        "yumthang-valley",
+        "lachen",
+        "gurudongmar-lake",
+        "dzongu"
+      ],
+      "events": []
+    },
+    {
+      "month": "December",
+      "weather": "Cold, snow possible from mid-month",
+      "summary": "Lachung and Yumthang may get snow, and Christmas brings a holiday rush from Kolkata. Gurudongmar access depends on snowfall.",
+      "tip": "Ask for a room with a heater and confirm whether it costs extra.",
+      "go": [
+        "lachung",
+        "yumthang-valley",
+        "dzongu"
+      ],
+      "events": [
+        "namsoong-lepcha-new-year-dzongu"
+      ]
+    }
   ],
   "getting_there": "Fly to Bagdogra or take a train to New Jalpaiguri (NJP), then drive 114–125 km to Gangtok in 4–5 hours. North Sikkim trips start from Gangtok, where operators arrange permits and vehicles. From Gangtok the road runs north through Kabi, Phodong and Mangan (67 km, about 3 hours) to Chungthang, where it splits: Lachung is about 120 km and Lachen about 125 km from Gangtok, each 6–8 hours depending on road repairs. Shared jeeps run from Gangtok to Mangan for Dzongu. Since the October 2023 flood, some stretches run on temporary roads or one-way timings. Check current status before you travel.",
   "permits": "Indian citizens need a permit for Lachung, Yumthang, Zero Point, Lachen and Gurudongmar, applied for by a registered Sikkim tour operator with your photo ID and photographs; you travel in a registered vehicle with that operator. Foreign nationals need the Sikkim Inner Line Permit to enter the state plus a Protected Area Permit for North Sikkim, in a group of two or more through a registered agent, and may go only as far as Lachung, Yumthang and Lachen. Gurudongmar and Zero Point are closed to foreigners. Dzongu needs a separate permit, usually arranged through your homestay. Check current status before you travel.",
   "faqs": [
-    {"q": "How many days do I need for North Sikkim?", "a": "Two nights from Gangtok covers Lachung, Yumthang and, if open, Zero Point. Three nights lets you add Lachen and Gurudongmar Lake. Add two nights in Dzongu if you want a calm, low-altitude village stay. Count one more day for Gangtok on each side, as you arrive from Siliguri and need a night there while the operator arranges permits."},
-    {"q": "Can I travel to North Sikkim on my own?", "a": "Not fully. Permits for Lachung, Lachen and the lakes are issued only through registered tour operators, and you must travel in a registered vehicle. You can choose a shared group tour, which is the cheapest, or a reserved car for your group. Dzongu is easier: you can reach Mangan by shared jeep and your homestay can help with the permit."},
-    {"q": "Can foreigners visit Gurudongmar Lake?", "a": "No. Foreign nationals are not permitted at Gurudongmar Lake or Zero Point, and OCI card holders should confirm their own status with the operator. With a Protected Area Permit arranged by a registered agent, foreigners can visit Lachung, Yumthang and Lachen in a group of at least two. Rules have shifted before, so check current status before you travel."},
-    {"q": "What is the best time to visit North Sikkim?", "a": "April and May for rhododendrons in Yumthang and a thawing Gurudongmar, and October to November for clear skies and dry roads. December to March brings snow at Zero Point but closures are common on the Gurudongmar road. June to early September is monsoon: landslides are frequent and permits are often suspended."},
-    {"q": "Is altitude sickness a real risk here?", "a": "Yes. Lachung and Lachen are about 2,700 m, Yumthang 3,564 m, Zero Point about 4,700 m and Gurudongmar about 5,430 m. Spend a night at Lachen or Lachung before going higher, drink water, avoid alcohol, and come down at once if you get a bad headache, vomiting or confusion. People with heart or lung conditions should consult a doctor before going above 4,000 m."},
-    {"q": "Are the roads open after the 2023 Teesta flood?", "a": "The flood of October 2023 damaged bridges and long sections of road around Chungthang, and North Sikkim was closed to tourists for long periods afterwards. Access has since reopened in stages, but landslides keep causing closures, especially in the monsoon. Ask your operator on the day of booking and again the day before you leave. Check current status before you travel."},
-    {"q": "How much does a North Sikkim trip cost?", "a": "Indicatively, a two-night shared group tour from Gangtok to Lachung costs about ₹5,000–7,500 per person with basic rooms and meals. A reserved car for two nights runs about ₹14,000–19,000 per vehicle, plus hotels. Zero Point is an extra ₹3,000–4,500 per vehicle. Prices rise in April, May and October."},
-    {"q": "Is there mobile signal and ATM access?", "a": "Signal is patchy. BSNL and Jio usually work in parts of Lachung and Lachen, while Airtel is weaker; expect no signal at Yumthang, Zero Point or Gurudongmar. Mangan has ATMs, but carry enough cash from Gangtok for tips, snow gear hire, tea stalls and extras, as cards are rarely accepted in the high villages."},
-    {"q": "Is North Sikkim suitable for children and older travellers?", "a": "Lachung and Yumthang suit most healthy families. Gurudongmar is a different matter: at 5,430 m, operators and doctors generally advise against taking small children, and older travellers with heart, lung or blood pressure problems should take medical advice first. The long drives on rough roads are also tiring, so build in rest."}
+    {
+      "q": "How many days do I need for North Sikkim?",
+      "a": "Two nights from Gangtok covers Lachung, Yumthang and, if open, Zero Point. Three nights lets you add Lachen and Gurudongmar Lake. Add two nights in Dzongu if you want a calm, low-altitude village stay. Count one more day for Gangtok on each side, as you arrive from Siliguri and need a night there while the operator arranges permits."
+    },
+    {
+      "q": "Can I travel to North Sikkim on my own?",
+      "a": "Not fully. Permits for Lachung, Lachen and the lakes are issued only through registered tour operators, and you must travel in a registered vehicle. You can choose a shared group tour, which is the cheapest, or a reserved car for your group. Dzongu is easier: you can reach Mangan by shared jeep and your homestay can help with the permit."
+    },
+    {
+      "q": "Can foreigners visit Gurudongmar Lake?",
+      "a": "No. Foreign nationals are not permitted at Gurudongmar Lake or Zero Point, and OCI card holders should confirm their own status with the operator. With a Protected Area Permit arranged by a registered agent, foreigners can visit Lachung, Yumthang and Lachen in a group of at least two. Rules have shifted before, so check current status before you travel."
+    },
+    {
+      "q": "What is the best time to visit North Sikkim?",
+      "a": "April and May for rhododendrons in Yumthang and a thawing Gurudongmar, and October to November for clear skies and dry roads. December to March brings snow at Zero Point but closures are common on the Gurudongmar road. June to early September is monsoon: landslides are frequent and permits are often suspended."
+    },
+    {
+      "q": "Is altitude sickness a real risk here?",
+      "a": "Yes. Lachung and Lachen are about 2,700 m, Yumthang 3,564 m, Zero Point about 4,700 m and Gurudongmar about 5,430 m. Spend a night at Lachen or Lachung before going higher, drink water, avoid alcohol, and come down at once if you get a bad headache, vomiting or confusion. People with heart or lung conditions should consult a doctor before going above 4,000 m."
+    },
+    {
+      "q": "Are the roads open after the 2023 Teesta flood?",
+      "a": "The flood of October 2023 damaged bridges and long sections of road around Chungthang, and North Sikkim was closed to tourists for long periods afterwards. Access has since reopened in stages, but landslides keep causing closures, especially in the monsoon. Ask your operator on the day of booking and again the day before you leave. Check current status before you travel."
+    },
+    {
+      "q": "How much does a North Sikkim trip cost?",
+      "a": "Indicatively, a two-night shared group tour from Gangtok to Lachung costs about ₹5,000–7,500 per person with basic rooms and meals. A reserved car for two nights runs about ₹14,000–19,000 per vehicle, plus hotels. Zero Point is an extra ₹3,000–4,500 per vehicle. Prices rise in April, May and October."
+    },
+    {
+      "q": "Is there mobile signal and ATM access?",
+      "a": "Signal is patchy. BSNL and Jio usually work in parts of Lachung and Lachen, while Airtel is weaker; expect no signal at Yumthang, Zero Point or Gurudongmar. Mangan has ATMs, but carry enough cash from Gangtok for tips, snow gear hire, tea stalls and extras, as cards are rarely accepted in the high villages."
+    },
+    {
+      "q": "Is North Sikkim suitable for children and older travellers?",
+      "a": "Lachung and Yumthang suit most healthy families. Gurudongmar is a different matter: at 5,430 m, operators and doctors generally advise against taking small children, and older travellers with heart, lung or blood pressure problems should take medical advice first. The long drives on rough roads are also tiring, so build in rest."
+    }
   ]
 }

@@ -8,9 +8,35 @@
   "end": "Gangtok",
   "pace": "Active",
   "max_altitude_m": 5430,
-  "best_months": [0, 0, 1, 2, 2, 0, 0, 0, 1, 2, 2, 0],
-  "themes": ["snow-and-passes", "photography", "monasteries"],
-  "stops": [{"place": "lachen", "nights": 1}, {"place": "lachung", "nights": 2}],
+  "best_months": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    0
+  ],
+  "themes": [
+    "snow-and-passes",
+    "photography",
+    "monasteries"
+  ],
+  "stops": [
+    {
+      "place": "lachen",
+      "nights": 1
+    },
+    {
+      "place": "lachung",
+      "nights": 2
+    }
+  ],
   "intro": [
     "This is the trip for travellers who want both valleys of North Sikkim. You drive from Gangtok to Lachen, sleep, and leave before dawn for Gurudongmar Lake. After returning to Lachen you cross through Chungthang to Lachung for two nights, with Yumthang and Zero Point in between.",
     "It is demanding. There are long drives on four days running, a 4 am start, and two climbs above 4,500 m. It is meant for healthy adults and older children. Gurudongmar and Zero Point are open only to Indian citizens. The route depends on the Chungthang link between the two valleys, which was badly hit by the October 2023 flood, so confirm before booking."
@@ -23,12 +49,49 @@
     "Both Lachen and Lachung, two Bhutia villages with their own councils."
   ],
   "days": [
-    {"day": 1, "title": "Gangtok to Lachen", "place": "lachen", "overnight": "Lachen", "drive": "About 125 km, 6–8 hours", "meals": "Dinner", "text": "Leave Gangtok around 10–11 am once the permits are ready. The road runs north through Kabi, Phodong and Mangan to Chungthang, then turns left up the Lachen river. Checkposts verify your permit on the way. Reach Lachen at about 2,750 m in the evening. Eat lightly, drink water, skip alcohol and pack your day bag for the next morning before you sleep."},
-    {"day": 2, "title": "Gurudongmar Lake, then on to Lachung", "place": "gurudongmar-lake", "overnight": "Lachung", "drive": "134 km return to the lake, then about 50 km to Lachung; 10–12 hours in all", "meals": "Breakfast, lunch, dinner", "text": "Leave Lachen around 4 am. Stop for tea at Thangu, then cross the plateau to Gurudongmar Lake, reaching it at about 7–8 am. Spend 30–45 minutes, walking slowly. Return to Lachen for a late breakfast, then drive down to Chungthang and up the Lachung valley, reaching Lachung by evening. This is the longest day; anyone unwell should skip the lake and rest."},
-    {"day": 3, "title": "Yumthang valley and Zero Point", "place": "yumthang-valley", "overnight": "Lachung", "drive": "About 94 km return with Zero Point, 6–7 hours", "meals": "Breakfast, lunch, dinner", "text": "Leave Lachung at about 6 am for Yumthang, 24 km north. Walk the valley floor and, if you feel well, continue to Zero Point for snow at an extra vehicle charge. Keep the stay short. Stop at the hot spring on the way back. Spend the afternoon resting or walking up to Lachung Monastery."},
-    {"day": 4, "title": "Lachung to Gangtok", "place": "gangtok", "overnight": "", "drive": "About 120 km, 6–8 hours", "meals": "Breakfast", "text": "Drive back down the Lachung and Teesta valleys, stopping at Bhim Nala and Naga falls. Reach Gangtok by late afternoon. Stay the night in Gangtok if you are flying or catching a train the next day, as delays on this road are common."}
+    {
+      "day": 1,
+      "title": "Gangtok to Lachen",
+      "place": "lachen",
+      "overnight": "Lachen",
+      "drive": "About 125 km, 6–8 hours",
+      "meals": "Dinner",
+      "text": "Leave Gangtok around 10–11 am once the permits are ready. The road runs north through Kabi, Phodong and Mangan to Chungthang, then turns left up the Lachen river. Checkposts verify your permit on the way. Reach Lachen at about 2,750 m in the evening. Eat lightly, drink water, skip alcohol and pack your day bag for the next morning before you sleep."
+    },
+    {
+      "day": 2,
+      "title": "Gurudongmar Lake, then on to Lachung",
+      "place": "gurudongmar-lake",
+      "overnight": "Lachung",
+      "drive": "134 km return to the lake, then about 50 km to Lachung; 10–12 hours in all",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Leave Lachen around 4 am. Stop for tea at Thangu, then cross the plateau to Gurudongmar Lake, reaching it at about 7–8 am. Spend 30–45 minutes, walking slowly. Return to Lachen for a late breakfast, then drive down to Chungthang and up the Lachung valley, reaching Lachung by evening. This is the longest day; anyone unwell should skip the lake and rest."
+    },
+    {
+      "day": 3,
+      "title": "Yumthang valley and Zero Point",
+      "place": "yumthang-valley",
+      "overnight": "Lachung",
+      "drive": "About 94 km return with Zero Point, 6–7 hours",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Leave Lachung at about 6 am for Yumthang, 24 km north. Walk the valley floor and, if you feel well, continue to Zero Point for snow at an extra vehicle charge. Keep the stay short. Stop at the hot spring on the way back. Spend the afternoon resting or walking up to Lachung Monastery."
+    },
+    {
+      "day": 4,
+      "title": "Lachung to Gangtok",
+      "place": "gangtok",
+      "overnight": "",
+      "drive": "About 120 km, 6–8 hours",
+      "meals": "Breakfast",
+      "text": "Drive back down the Lachung and Teesta valleys, stopping at Bhim Nala and Naga falls. Reach Gangtok by late afternoon. Stay the night in Gangtok if you are flying or catching a train the next day, as delays on this road are common."
+    }
   ],
-  "stays": ["lachen-village-lodges-and-homestays", "lachung-village-homestays", "le-coxy-resort-lachung", "yarlam-resort-lachung"],
+  "stays": [
+    "lachen-village-lodges-and-homestays",
+    "lachung-village-homestays",
+    "le-coxy-resort-lachung",
+    "yarlam-resort-lachung"
+  ],
   "includes": [
     "Permits for Lachen, Gurudongmar, Lachung and Yumthang via a registered operator",
     "Registered vehicle and driver for four days",
@@ -50,9 +113,27 @@
     "Some operators run this circuit in the other direction, Lachung first; either way, two high trips in two days is tiring."
   ],
   "tiers": [
-    {"name": "Budget", "price_inr": 9500, "stays": "Lodges and homestays in Lachen and Lachung", "transport": "Shared group tour jeep", "note": "Lowest cost, fixed schedule with other travellers"},
-    {"name": "Value", "price_inr": 17500, "stays": "Better Lachen hotel and Le Coxy Resort or similar", "transport": "Reserved SUV for two", "note": "Your own car and schedule, warmer rooms"},
-    {"name": "Comfort", "price_inr": 28500, "stays": "Best available in Lachen, Yarlam Resort or similar in Lachung", "transport": "Newer reserved SUV for two, Zero Point included", "note": "The most comfortable rooms on the route"}
+    {
+      "name": "Budget",
+      "price_inr": 9500,
+      "stays": "Lodges and homestays in Lachen and Lachung",
+      "transport": "Shared group tour jeep",
+      "note": "Lowest cost, fixed schedule with other travellers"
+    },
+    {
+      "name": "Value",
+      "price_inr": 17500,
+      "stays": "Better Lachen hotel and Le Coxy Resort or similar",
+      "transport": "Reserved SUV for two",
+      "note": "Your own car and schedule, warmer rooms"
+    },
+    {
+      "name": "Comfort",
+      "price_inr": 28500,
+      "stays": "Best available in Lachen, Yarlam Resort or similar in Lachung",
+      "transport": "Newer reserved SUV for two, Zero Point included",
+      "note": "The most comfortable rooms on the route"
+    }
   ],
   "price_from_inr": 9500,
   "save_tips": [
@@ -63,14 +144,41 @@
     "Skip Zero Point if you have seen snow at Gurudongmar."
   ],
   "faqs": [
-    {"q": "Is three nights enough for Lachen and Lachung?", "a": "Yes, it is the standard circuit and covers Gurudongmar, Yumthang and Zero Point. It is a full schedule with long drives and early starts. If you can, add a second night in Lachen before Gurudongmar, which makes the altitude easier and gives you time for the village."},
-    {"q": "Is it safe to go to Gurudongmar after one night in Lachen?", "a": "Most healthy adults manage it, because you only stay at the lake briefly and sleep lower afterwards. The risk rises if you are unfit, unwell or have a heart or lung condition. Watch for headache, nausea and dizziness, and turn back if they get worse."},
-    {"q": "What happens if the road to Lachen is closed?", "a": "Operators usually switch to a Lachung and Yumthang trip, or wait for the road to reopen. Discuss refunds and changes before you pay. Closures have been frequent since the 2023 flood and in every monsoon. Check current status before you travel."},
-    {"q": "Can foreigners do this circuit?", "a": "Not in full. Foreigners can visit Lachen and the Lachung side up to Yumthang with a Protected Area Permit, but not Gurudongmar Lake or Zero Point. Most foreign travellers choose the two-night Lachung and Yumthang trip, and may add Dzongu."},
-    {"q": "What is the best time for this trip?", "a": "April to early June and October to November. In April and May you get rhododendrons at Yumthang and a thawing lake. October and November bring the clearest skies. In winter the Gurudongmar road often closes after snow, and the monsoon brings landslides."},
-    {"q": "How much does the three-night circuit cost?", "a": "Indicatively, about ₹9,500 per person on a shared group tour, ₹17,500 per person for two in a reserved car with better rooms, and ₹28,500 with the best rooms and Zero Point included. Prices are per person, twin sharing, and rise in peak weeks."},
-    {"q": "Can older travellers do this trip?", "a": "Many do, but it is tiring and very high. Anyone over 60 or with health conditions should see a doctor first. Consider skipping Gurudongmar or Zero Point and doing a gentler Lachung and Yumthang trip instead, with two nights in Lachung."},
-    {"q": "Which order is better, Lachen first or Lachung first?", "a": "Either works. Lachen first means you face the highest point early, before tiredness builds up. Lachung first gives you one more night to adjust before Gurudongmar. Operators often decide based on road status and room availability."},
-    {"q": "What should I carry for Gurudongmar?", "a": "Thermals, a down or heavy jacket, windproof layer, woollen cap, gloves, sunglasses, sunscreen, water, light snacks, your original ID and any medicines. An oxygen can is useful as short relief. Keep everything in one small bag for the 4 am start."}
+    {
+      "q": "Is three nights enough for Lachen and Lachung?",
+      "a": "Yes, it is the standard circuit and covers Gurudongmar, Yumthang and Zero Point. It is a full schedule with long drives and early starts. If you can, add a second night in Lachen before Gurudongmar, which makes the altitude easier and gives you time for the village."
+    },
+    {
+      "q": "Is it safe to go to Gurudongmar after one night in Lachen?",
+      "a": "Most healthy adults manage it, because you only stay at the lake briefly and sleep lower afterwards. The risk rises if you are unfit, unwell or have a heart or lung condition. Watch for headache, nausea and dizziness, and turn back if they get worse."
+    },
+    {
+      "q": "What happens if the road to Lachen is closed?",
+      "a": "Operators usually switch to a Lachung and Yumthang trip, or wait for the road to reopen. Discuss refunds and changes before you pay. Closures have been frequent since the 2023 flood and in every monsoon. Check current status before you travel."
+    },
+    {
+      "q": "Can foreigners do this circuit?",
+      "a": "Not in full. Foreigners can visit Lachen and the Lachung side up to Yumthang with a Protected Area Permit, but not Gurudongmar Lake or Zero Point. Most foreign travellers choose the two-night Lachung and Yumthang trip, and may add Dzongu."
+    },
+    {
+      "q": "What is the best time for this trip?",
+      "a": "April to early June and October to November. In April and May you get rhododendrons at Yumthang and a thawing lake. October and November bring the clearest skies. In winter the Gurudongmar road often closes after snow, and the monsoon brings landslides."
+    },
+    {
+      "q": "How much does the three-night circuit cost?",
+      "a": "Indicatively, about ₹9,500 per person on a shared group tour, ₹17,500 per person for two in a reserved car with better rooms, and ₹28,500 with the best rooms and Zero Point included. Prices are per person, twin sharing, and rise in peak weeks."
+    },
+    {
+      "q": "Can older travellers do this trip?",
+      "a": "Many do, but it is tiring and very high. Anyone over 60 or with health conditions should see a doctor first. Consider skipping Gurudongmar or Zero Point and doing a gentler Lachung and Yumthang trip instead, with two nights in Lachung."
+    },
+    {
+      "q": "Which order is better, Lachen first or Lachung first?",
+      "a": "Either works. Lachen first means you face the highest point early, before tiredness builds up. Lachung first gives you one more night to adjust before Gurudongmar. Operators often decide based on road status and room availability. Both orders cover the same sights."
+    },
+    {
+      "q": "What should I carry for Gurudongmar?",
+      "a": "Thermals, a down or heavy jacket, windproof layer, woollen cap, gloves, sunglasses, sunscreen, water, light snacks, your original ID and any medicines. An oxygen can is useful as short relief. Keep everything in one small bag for the 4 am start."
+    }
   ]
 }

@@ -4,7 +4,14 @@
   "category": "Permits",
   "summary": "Indian travellers need a permit for Lachung, Lachen, Yumthang, Zero Point and Gurudongmar, applied for by a registered tour operator; you cannot apply alone. Foreigners need an Inner Line Permit plus a Protected Area Permit and cannot go to Gurudongmar or Zero Point. Sleep at 2,700 m before going higher, keep high visits short, and descend if symptoms worsen.",
   "meta_description": "North Sikkim permits for Indians and foreigners, Dzongu permits, documents, costs, and sensible altitude advice for Yumthang, Zero Point and Gurudongmar.",
-  "related_places": ["lachung", "yumthang-valley", "lachen", "gurudongmar-lake", "dzongu", "gangtok"],
+  "related_places": [
+    "lachung",
+    "yumthang-valley",
+    "lachen",
+    "gurudongmar-lake",
+    "dzongu",
+    "gangtok"
+  ],
   "sections": [
     {
       "heading": "Why North Sikkim needs a permit",
@@ -50,16 +57,61 @@
         "The rule that matters most is to sleep low and visit high. You never sleep above about 2,750 m on a normal trip, which keeps the risk low. The danger comes from climbing 2,000–2,700 m in a single morning to Zero Point or Gurudongmar. Short stays at the top and a quick return lower are what keep most visitors safe."
       ],
       "table": {
-        "head": ["Place", "Altitude (approx.)", "Overnight?", "Who can go"],
+        "head": [
+          "Place",
+          "Altitude (approx.)",
+          "Overnight?",
+          "Who can go"
+        ],
         "rows": [
-          ["Dzongu villages", "700–2,000 m", "Yes", "Indians and foreigners, with Dzongu permit"],
-          ["Mangan", "950 m", "Yes", "Everyone"],
-          ["Lachung", "2,700 m", "Yes", "Indians; foreigners with PAP"],
-          ["Lachen", "2,750 m", "Yes", "Indians; foreigners with PAP"],
-          ["Thangu", "3,900 m", "Not usually", "Indians"],
-          ["Yumthang Valley", "3,564 m", "No", "Indians; foreigners with PAP"],
-          ["Zero Point (Yumesamdong)", "About 4,700 m", "No", "Indians only"],
-          ["Gurudongmar Lake", "About 5,430 m", "No", "Indians only"]
+          [
+            "Dzongu villages",
+            "700–2,000 m",
+            "Yes",
+            "Indians and foreigners, with Dzongu permit"
+          ],
+          [
+            "Mangan",
+            "950 m",
+            "Yes",
+            "Everyone"
+          ],
+          [
+            "Lachung",
+            "2,700 m",
+            "Yes",
+            "Indians; foreigners with PAP"
+          ],
+          [
+            "Lachen",
+            "2,750 m",
+            "Yes",
+            "Indians; foreigners with PAP"
+          ],
+          [
+            "Thangu",
+            "3,900 m",
+            "Not usually",
+            "Indians"
+          ],
+          [
+            "Yumthang Valley",
+            "3,564 m",
+            "No",
+            "Indians; foreigners with PAP"
+          ],
+          [
+            "Zero Point (Yumesamdong)",
+            "About 4,700 m",
+            "No",
+            "Indians only"
+          ],
+          [
+            "Gurudongmar Lake",
+            "About 5,430 m",
+            "No",
+            "Indians only"
+          ]
         ]
       }
     },
@@ -87,14 +139,41 @@
     }
   ],
   "faqs": [
-    {"q": "Can I get a North Sikkim permit myself?", "a": "No, not for Lachung, Lachen and the lakes. Permits are issued only through tour operators registered with Sikkim Tourism, who also provide the registered vehicle and driver. You can, however, approach a Dzongu homestay directly for help with the separate Dzongu permit."},
-    {"q": "What documents do Indians need?", "a": "An original government photo ID such as Aadhaar, passport, voter ID or driving licence, two to four passport photos and photocopies of the ID. Children need ID as well. Give these to your operator at least a day before departure. Check current status before you travel."},
-    {"q": "How long does the permit take?", "a": "For Indians, permits are usually processed the same day or the day before departure, if documents arrive early. For foreigners, the Protected Area Permit can take a working day or more, and Sundays and public holidays may delay it. Plan an extra day in Gangtok."},
-    {"q": "Why can't foreigners visit Gurudongmar?", "a": "Gurudongmar and Zero Point lie very close to the border with Tibet and are inside military-controlled areas where the government does not permit foreign tourists. Foreigners can still visit Lachung, Yumthang and Lachen with a Protected Area Permit. Check current status before you travel."},
-    {"q": "Is a North Sikkim permit valid for Dzongu?", "a": "No. Dzongu has its own entry permit as a protected Lepcha reserve, arranged through your homestay or a registered operator. If you plan both, tell your operator so both sets of papers match your dates."},
-    {"q": "What is the highest point tourists can reach?", "a": "Gurudongmar Lake, at about 5,430 m, is the highest point for Indian tourists. Zero Point is about 4,700 m. Foreign tourists reach Yumthang at 3,564 m and Lachen at about 2,750 m. Overnight stays are at about 2,700–2,750 m at most."},
-    {"q": "Should I take altitude medicine?", "a": "Only if a doctor prescribes it. Acetazolamide is commonly used to help prevent altitude sickness, but it is not suitable for everyone and has side effects. Discuss it before your trip, along with any existing conditions and medicines."},
-    {"q": "Are permits suspended in the monsoon?", "a": "Often, for days or weeks at a time, when heavy rain and landslides make roads unsafe. This happens most from June to September. Your operator will know the latest. Keep flexible dates and a backup plan elsewhere in Sikkim."},
-    {"q": "What happens at the checkposts?", "a": "Police or army staff compare your permit with your ID and the vehicle. Your driver handles the paperwork; you may be asked to show your ID or step out briefly. Photography at checkposts and army installations is not allowed."}
+    {
+      "q": "Can I get a North Sikkim permit myself?",
+      "a": "No, not for Lachung, Lachen and the lakes. Permits are issued only through tour operators registered with Sikkim Tourism, who also provide the registered vehicle and driver. You can, however, approach a Dzongu homestay directly for help with the separate Dzongu permit."
+    },
+    {
+      "q": "What documents do Indians need?",
+      "a": "An original government photo ID such as Aadhaar, passport, voter ID or driving licence, two to four passport photos and photocopies of the ID. Children need ID as well. Give these to your operator at least a day before departure. Check current status before you travel."
+    },
+    {
+      "q": "How long does the permit take?",
+      "a": "For Indians, permits are usually processed the same day or the day before departure, if documents arrive early. For foreigners, the Protected Area Permit can take a working day or more, and Sundays and public holidays may delay it. Plan an extra day in Gangtok."
+    },
+    {
+      "q": "Why can't foreigners visit Gurudongmar?",
+      "a": "Gurudongmar and Zero Point lie very close to the border with Tibet and are inside military-controlled areas where the government does not permit foreign tourists. Foreigners can still visit Lachung, Yumthang and Lachen with a Protected Area Permit. Check current status before you travel."
+    },
+    {
+      "q": "Is a North Sikkim permit valid for Dzongu?",
+      "a": "No. Dzongu has its own entry permit as a protected Lepcha reserve, arranged through your homestay or a registered operator. If you plan both, tell your operator so both sets of papers match your dates. Allow time for both applications, especially for foreigners."
+    },
+    {
+      "q": "What is the highest point tourists can reach?",
+      "a": "Gurudongmar Lake, at about 5,430 m, is the highest point for Indian tourists. Zero Point is about 4,700 m. Foreign tourists reach Yumthang at 3,564 m and Lachen at about 2,750 m. Overnight stays are at about 2,700–2,750 m at most."
+    },
+    {
+      "q": "Should I take altitude medicine?",
+      "a": "Only if a doctor prescribes it. Acetazolamide is commonly used to help prevent altitude sickness, but it is not suitable for everyone and has side effects. Discuss it before your trip, along with any existing conditions and medicines. Never use medicine to push higher when you feel unwell."
+    },
+    {
+      "q": "Are permits suspended in the monsoon?",
+      "a": "Often, for days or weeks at a time, when heavy rain and landslides make roads unsafe. This happens most from June to September. Your operator will know the latest. Keep flexible dates and a backup plan elsewhere in Sikkim. Check current status before you travel."
+    },
+    {
+      "q": "What happens at the checkposts?",
+      "a": "Police or army staff compare your permit with your ID and the vehicle. Your driver handles the paperwork; you may be asked to show your ID or step out briefly. Photography at checkposts and army installations is not allowed. Keep your ID within easy reach."
+    }
   ]
 }

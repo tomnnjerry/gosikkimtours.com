@@ -4,7 +4,10 @@
     "name": "Losar in Lachung and Lachen",
     "place": "lachung",
     "when": "February or early March (first days of the first Tibetan month)",
-    "month_nums": [2, 3],
+    "month_nums": [
+      2,
+      3
+    ],
     "summary": "Losar, the Tibetan New Year, is the main winter festival in the Bhutia villages of Lachung and Lachen. It is mainly a family and monastery occasion, with prayers, new prayer flags and visits between households.",
     "body": [
       "Losar falls on the first day of the Tibetan lunar calendar, usually in February and sometimes in early March. In Lachung and Lachen families clean their houses, hang new prayer flags, prepare special food and visit the monastery. Celebrations continue for several days with visits between relatives and friends.",
@@ -20,10 +23,22 @@
     "wiki": "Losar",
     "image_query": "Losar Sikkim",
     "faqs": [
-      {"q": "When is Losar celebrated in North Sikkim?", "a": "Losar follows the Tibetan lunar calendar and usually falls in February, occasionally early March. Exact dates change each year. Check the date for your year with your operator or the Sikkim tourism calendar before you plan around it."},
-      {"q": "Can tourists join Losar celebrations?", "a": "Visitors can watch prayers at the monasteries and may be invited into homes, especially if staying in a homestay. It is a family festival, so behave as a guest, ask before photographing and do not expect performances."},
-      {"q": "Are roads to Lachung open at Losar?", "a": "Usually the road to Lachung is open, but snow can close it for a day or more, and the road above to Zero Point often closes after snowfall. Keep a spare day. Check current status before you travel."},
-      {"q": "Is Losar the same as Losoong?", "a": "No. Losoong is the Sikkimese harvest New Year, celebrated in December with masked dances at monasteries such as Rumtek. Losar is the Tibetan New Year in February or March. Both are important in Sikkim and are often confused."}
+      {
+        "q": "When is Losar celebrated in North Sikkim?",
+        "a": "Losar follows the Tibetan lunar calendar and usually falls in February, occasionally early March. Exact dates change each year. Check the date for your year with your operator or the Sikkim tourism calendar before you plan around it. Celebrations usually run for several days after the first day of the new year."
+      },
+      {
+        "q": "Can tourists join Losar celebrations?",
+        "a": "Visitors can watch prayers at the monasteries and may be invited into homes, especially if staying in a homestay. It is a family festival, so behave as a guest, ask before photographing and do not expect performances. A homestay is the best way to see how local families mark the new year."
+      },
+      {
+        "q": "Are roads to Lachung open at Losar?",
+        "a": "Usually the road to Lachung is open, but snow can close it for a day or more, and the road above to Zero Point often closes after snowfall. Keep a spare day. Check current status before you travel. Some hotels also close for the holiday, so confirm your booking."
+      },
+      {
+        "q": "Is Losar the same as Losoong?",
+        "a": "No. Losoong is the Sikkimese harvest New Year, celebrated in December with masked dances at monasteries such as Rumtek. Losar is the Tibetan New Year in February or March. Both are important in Sikkim and are often confused. Lachung and Lachen mark Losar mainly at home and in their monasteries."
+      }
     ]
   },
   {
@@ -31,7 +46,10 @@
     "name": "Saga Dawa at Lachen Monastery",
     "place": "lachen",
     "when": "May or June (full moon of the fourth Tibetan month)",
-    "month_nums": [5, 6],
+    "month_nums": [
+      5,
+      6
+    ],
     "summary": "Saga Dawa marks the birth, enlightenment and death of the Buddha and is observed across Sikkim, including at the monasteries of Lachen and Lachung. Villagers gather for prayers, butter lamps and processions with scriptures.",
     "body": [
       "Saga Dawa falls on the full moon of the fourth Tibetan month, usually in late May or June. Buddhists in Sikkim treat the whole month as a time for merit: many avoid meat, give alms and visit monasteries. On the main day, monks and villagers carry holy texts around the village in procession.",
@@ -47,10 +65,22 @@
     "wiki": "",
     "image_query": "Saga Dawa Sikkim procession",
     "faqs": [
-      {"q": "What is Saga Dawa?", "a": "Saga Dawa is the holiest Buddhist observance in Sikkim, marking the birth, enlightenment and passing of the Buddha. It falls on the full moon of the fourth Tibetan month, usually late May or June. It is a state holiday in Sikkim, with prayers and processions in monasteries."},
-      {"q": "Where is the biggest Saga Dawa celebration?", "a": "The largest public procession is in Gangtok. In North Sikkim, villages such as Lachen and Lachung mark the day at their own monasteries with prayers, lamps and smaller processions. These are local events rather than tourist shows."},
-      {"q": "Is it a good time to travel to North Sikkim?", "a": "It can be, if roads are open. Late May is still good weather, but by June the monsoon may cause landslides and permit suspensions. Keep spare days and a backup plan in lower Sikkim. Check current status before you travel."},
-      {"q": "Can I take photos during Saga Dawa?", "a": "Photography of processions outdoors is usually accepted from a respectful distance. Inside monastery halls, ask first and do not use flash. Never stand in front of monks or block the procession to take pictures."}
+      {
+        "q": "What is Saga Dawa?",
+        "a": "Saga Dawa is the holiest Buddhist observance in Sikkim, marking the birth, enlightenment and passing of the Buddha. It falls on the full moon of the fourth Tibetan month, usually late May or June. It is a state holiday in Sikkim, with prayers and processions in monasteries."
+      },
+      {
+        "q": "Where is the biggest Saga Dawa celebration?",
+        "a": "The largest public procession is in Gangtok. In North Sikkim, villages such as Lachen and Lachung mark the day at their own monasteries with prayers, lamps and smaller processions. These are local events rather than tourist shows. If you are in Gangtok on the day, the procession through town is well worth seeing."
+      },
+      {
+        "q": "Is it a good time to travel to North Sikkim?",
+        "a": "It can be, if roads are open. Late May is still good weather, but by June the monsoon may cause landslides and permit suspensions. Keep spare days and a backup plan in lower Sikkim. Check current status before you travel."
+      },
+      {
+        "q": "Can I take photos during Saga Dawa?",
+        "a": "Photography of processions outdoors is usually accepted from a respectful distance. Inside monastery halls, ask first and do not use flash. Never stand in front of monks or block the procession to take pictures. Ask people before taking close portraits, and put the camera away during prayers if asked."
+      }
     ]
   },
   {
@@ -58,7 +88,10 @@
     "name": "Namsoong, the Lepcha New Year",
     "place": "dzongu",
     "when": "December, around the start of the Lepcha month of Kurnyit",
-    "month_nums": [12, 1],
+    "month_nums": [
+      12,
+      1
+    ],
     "summary": "Namsoong is the Lepcha New Year, celebrated by Lepcha families in Dzongu and across Sikkim and Kalimpong in December. It mixes household rites, traditional food, songs and dances, with bigger public events in Gangtok.",
     "body": [
       "Namsoong marks the Lepcha New Year and the end of the harvest. Lepcha tradition links it to the defeat of a demon, Laso Mung, and the return of light. Families clean their homes, prepare food and chi, the millet beer, and gather for rituals and celebrations.",
@@ -74,10 +107,22 @@
     "wiki": "",
     "image_query": "Lepcha festival Sikkim",
     "faqs": [
-      {"q": "When is Namsoong celebrated?", "a": "Namsoong falls in December, at the start of the Lepcha month of Kurnyit, and celebrations can run for several days, sometimes into early January in public events. The exact dates follow the Lepcha calendar. Ask your Dzongu host or check Gangtok event listings."},
-      {"q": "Where can I see Namsoong?", "a": "The largest public celebrations are usually in Gangtok and Kalimpong, with dances, songs and food stalls. In Dzongu it is mostly a family and village event. Staying with a Lepcha homestay is the best way to see how families celebrate."},
-      {"q": "What is the story behind Namsoong?", "a": "Lepcha tradition tells of a demon king, Laso Mung, who brought darkness and suffering until he was defeated, and Namsoong celebrates that victory and the new year. Your hosts may tell the story in their own version."},
-      {"q": "Is December a good time to visit Dzongu?", "a": "Yes. Dzongu sits low enough to stay pleasant in December, with cool, clear days and cold nights. It is dry, leech-free and good for walking. You can pair it with a snowy night or two in Lachung."}
+      {
+        "q": "When is Namsoong celebrated?",
+        "a": "Namsoong falls in December, at the start of the Lepcha month of Kurnyit, and celebrations can run for several days, sometimes into early January in public events. The exact dates follow the Lepcha calendar. Ask your Dzongu host or check Gangtok event listings."
+      },
+      {
+        "q": "Where can I see Namsoong?",
+        "a": "The largest public celebrations are usually in Gangtok and Kalimpong, with dances, songs and food stalls. In Dzongu it is mostly a family and village event. Staying with a Lepcha homestay is the best way to see how families celebrate."
+      },
+      {
+        "q": "What is the story behind Namsoong?",
+        "a": "Lepcha tradition tells of a demon king, Laso Mung, who brought darkness and suffering until he was defeated, and Namsoong celebrates that victory and the new year. Your hosts may tell the story in their own version. The festival also marks the end of the harvest and a time for families to gather."
+      },
+      {
+        "q": "Is December a good time to visit Dzongu?",
+        "a": "Yes. Dzongu sits low enough to stay pleasant in December, with cool, clear days and cold nights. It is dry, leech-free and good for walking. You can pair it with a snowy night or two in Lachung. Pack warm layers for the evenings, as homestays are rarely heated."
+      }
     ]
   }
 ]

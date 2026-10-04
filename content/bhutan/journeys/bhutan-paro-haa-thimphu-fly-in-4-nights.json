@@ -1,0 +1,82 @@
+{
+  "slug": "bhutan-paro-haa-thimphu-fly-in-4-nights",
+  "title": "Paro, Haa and Thimphu by air in four nights",
+  "summary": "A short fly-in trip to western Bhutan: two nights in Paro with the Tiger's Nest walk, a night in the quiet Haa valley over Chele La, and a night in Thimphu before flying out of Paro. It suits travellers short on time, from about ₹29,500 per person plus flights.",
+  "meta_description": "Four-night Bhutan trip by air: Paro, Tiger's Nest, Chele La, Haa Valley and Thimphu. Day plan, SDF, guide and permit rules, and Budget to Comfort prices.",
+  "nights": 4,
+  "start": "Paro airport (flights from Bagdogra, Delhi or Kolkata)",
+  "end": "Paro airport",
+  "pace": "Active",
+  "max_altitude_m": 3988,
+  "best_months": [1, 1, 2, 2, 2, 1, 0, 0, 1, 2, 2, 1],
+  "themes": ["weekend-breaks", "snow-and-passes", "monasteries", "honeymoons"],
+  "stops": [
+    {"place": "paro", "nights": 2},
+    {"place": "haa", "nights": 1},
+    {"place": "thimphu", "nights": 1}
+  ],
+  "intro": [
+    "Flying into Paro saves two long road days and puts you straight into the valley of Taktsang. This trip makes the most of four nights: a day for Paro's dzong and temples, a full day for the Tiger's Nest walk, a drive over Chele La to the farming valley of Haa, and a night in Thimphu before flying out.",
+    "Haa adds something most short trips miss. It opened to tourists only in 2002 and still sees few of them, and a farmhouse night there, after crossing a 3,988 m pass with views of Jomolhari, is a good counterweight to the busier sights.",
+    "Haa is outside Thimphu and Paro, so a route permit and a licensed guide are required. Prices include four nights of SDF at ₹1,200 per person per night but exclude flights. Prices and rules are indicative. Check current status before you travel."
+  ],
+  "highlights": [
+    "The Tiger's Nest walk to Paro Taktsang.",
+    "Chele La at 3,988 m with views of Jomolhari on clear mornings.",
+    "A farmhouse night and the White and Black Temples in Haa.",
+    "Tashichho Dzong and the Buddha Dordenma in Thimphu.",
+    "No long road transfers from the plains."
+  ],
+  "days": [
+    {"day": 1, "title": "Fly into Paro, dzong and Kyichu Lhakhang", "place": "paro", "overnight": "Paro", "drive": "Local, 20 km", "meals": "Dinner", "text": "Fly into Paro, ideally on a morning flight from Bagdogra, Delhi or Kolkata, and complete the entry permit on arrival if you have not applied online. Meet your guide and rest for an hour to adjust to 2,200 m. Visit the National Museum, walk down through Rinpung Dzong to the Nyamai Zam bridge, and end at Kyichu Lhakhang."},
+    {"day": 2, "title": "The Tiger's Nest walk", "place": "paro", "overnight": "Paro", "drive": "20 km return to trailhead", "meals": "Breakfast, dinner", "text": "Start by 7.30 am for Paro Taktsang, climbing through pine forest to the cafeteria and the viewpoint, then down and up the steps to the temples at 3,120 m. Allow 5–6 hours. Evening at a farmhouse for dinner and an optional hot stone bath."},
+    {"day": 3, "title": "Paro to Haa over Chele La", "place": "haa", "overnight": "Haa", "drive": "65 km, 2.5 hours", "meals": "Breakfast, dinner", "text": "Leave early to reach Chele La at 3,988 m while the view of Jomolhari is clear. Walk down to Kila Nunnery if you are fit, then descend into Haa. Visit Lhakhang Karpo and Lhakhang Nagpo, walk in the fields and spend the night in a certified farmhouse, with hoentey for dinner if ordered ahead."},
+    {"day": 4, "title": "Haa to Thimphu", "place": "thimphu", "overnight": "Thimphu", "drive": "115 km, 3.5–4 hours", "meals": "Breakfast, dinner", "text": "Follow the Haa Chhu down through forest to Chuzom and turn north to Thimphu. In the afternoon visit the Buddha Dordenma and the Folk Heritage Museum, then Tashichho Dzong after office hours. Evening walk on Norzin Lam."},
+    {"day": 5, "title": "Thimphu to Paro airport", "place": "paro", "overnight": "", "drive": "50 km, 1 hour", "meals": "Breakfast", "text": "Join the morning kora at the Memorial Chorten, then drive to Paro airport for your flight, leaving Thimphu at least 2.5–3 hours before departure. If your flight is in the afternoon, stop at Tachogang Lhakhang's iron bridge near Chuzom on the way."}
+  ],
+  "stays": ["hotel-olathang-paro", "paro-farmhouse-homestays", "hotel-druk-thimphu", "le-meridien-thimphu"],
+  "includes": [
+    "Sustainable Development Fee of ₹1,200 per person per night for four nights (adults)",
+    "Four nights in certified hotels and a Haa farmhouse, twin sharing, with breakfast and dinner",
+    "Private Bhutan-registered car and licensed guide for five days",
+    "Route permit for Haa",
+    "Airport transfers in Paro"
+  ],
+  "excludes": [
+    "Flights to and from Paro",
+    "Lunches, drinks and tips",
+    "Monument entry fees, including Taktsang",
+    "Horse rides and hot stone baths",
+    "Travel insurance"
+  ],
+  "good_to_know": [
+    "Paro flights depend on weather; keep a buffer day before onward connections.",
+    "Chele La can be blocked by snow for a day or two between December and February.",
+    "The Tiger's Nest walk comes early, so take it slowly if you have flown in from the plains.",
+    "Indians can enter by air with a passport or original voter ID.",
+    "Fees and permit rules are indicative. Check current status before you travel."
+  ],
+  "tiers": [
+    {"name": "Budget", "price_inr": 29500, "stays": "Simple certified hotels and farmhouse homestays in Paro and Haa", "transport": "Shared car and licensed guide; public bus option between Thimphu and Paro", "note": "Flights extra; cheapest when four travellers share the car"},
+    {"name": "Value", "price_inr": 42000, "stays": "Hotel Olathang in Paro, a Haa farmhouse and Hotel Druk in Thimphu", "transport": "Private car with driver and licensed guide", "note": "Flights extra; the most balanced option"},
+    {"name": "Comfort", "price_inr": 78000, "stays": "The best rooms in Paro, the best Haa farmhouse and Le Méridien Thimphu", "transport": "Private SUV with senior guide", "note": "Flights extra; all entry fees included"}
+  ],
+  "price_from_inr": 29500,
+  "save_tips": [
+    "Book Bagdogra to Paro flights early; fares rise sharply close to the date.",
+    "Fly in and travel out by road through Phuentsholing to save one airfare.",
+    "Choose a farmhouse in Paro instead of a hotel; dinner and breakfast are included.",
+    "Travel in late November or February, when rates fall and skies are still clear."
+  ],
+  "faqs": [
+    {"q": "How much does a four-night Paro, Haa and Thimphu trip cost?", "a": "From about ₹29,500 per person, twin sharing, in the Budget tier, including four nights of SDF, a car and licensed guide, and certified stays. Value costs about ₹42,000 and Comfort about ₹78,000. Flights to Paro are extra, often ₹7,000–15,000 each way from Bagdogra or Kolkata. Prices are indicative."},
+    {"q": "Can Indians fly to Paro with a voter ID?", "a": "Indian nationals can enter Bhutan with a valid passport or an original voter ID card, including at Paro airport. Airlines may have their own requirements at check-in, so carry your passport if you have one. Children need a passport or birth certificate. Check current status before you travel."},
+    {"q": "Is it safe to do the Tiger's Nest walk on day two?", "a": "For most healthy people, yes. Paro is at about 2,200 m and Taktsang at 3,120 m. Walk slowly, drink water and use a horse for the first half if needed. If you feel unwell on arrival, swap days two and three so you see Haa first, though Chele La is higher."},
+    {"q": "Why do I need a guide for this trip?", "a": "Haa is outside Thimphu and Paro, so a licensed guide and route permit are required. Since you need a car and guide for Haa, we include them for the whole trip, which also makes Taktsang and the dzongs easier. Guide rules may change, so check current status before you travel."},
+    {"q": "What happens if my Paro flight is delayed?", "a": "Paro flights are sometimes delayed or cancelled by cloud or wind, especially in the afternoon and during the monsoon. If the arrival is delayed, we shorten day one. For departures, leave a buffer before international or onward connections. Morning flights are generally more reliable."},
+    {"q": "Is Chele La open in winter?", "a": "Usually, but heavy snow between December and February can close it for a day or two. If it is closed, we reach Haa by the longer, lower road via Chuzom, about 4 hours from Paro. Your guide will check the road status the evening before. Check current status before you travel."},
+    {"q": "Is this trip good for a honeymoon?", "a": "Yes. It is short and varied, with Paro's valley hotels, the shared challenge of Taktsang, a quiet farmhouse night in Haa and a comfortable last night in Thimphu. Choose the Comfort tier for the best rooms. Spring and autumn are the most pleasant seasons."},
+    {"q": "Can I extend this trip to Punakha?", "a": "Yes. Add two nights after Thimphu for Punakha, crossing Dochula, then return to Paro for your flight. That needs a route permit for Punakha and two more nights of SDF and car and guide. It turns this into a well-rounded six-night trip."},
+    {"q": "What should I pack for Chele La and Haa?", "a": "A warm jacket, cap and gloves for the pass, which is close to 4,000 m and windy. Layers for Haa, where nights can be near freezing outside summer. Good walking shoes for Taktsang, sunscreen, a water bottle and modest clothes with long sleeves for temples."}
+  ]
+}

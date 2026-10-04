@@ -17,14 +17,27 @@
       "Quieter than the hotel strip on the highway",
       "Hosts can explain the Dzumsa, the monastery and village life"
     ],
-    "best_for": ["Budget travellers", "Solo travellers", "Couples"],
+    "best_for": [
+      "Budget travellers",
+      "Solo travellers",
+      "Couples"
+    ],
     "website": "",
     "wiki": "",
     "image_query": "Lachung village houses",
     "faqs": [
-      {"q": "Can I book a Lachung homestay without a tour operator?", "a": "You can contact a homestay directly, but you still need a registered operator for the permit and vehicle. Most people ask their operator to book the homestay as part of the package. Tell them early, as homestays have few rooms."},
-      {"q": "Are Lachung homestays warm enough in winter?", "a": "Rooms are cold from November to March. Thick quilts are standard, and some homes have electric blankets or a heater for an extra charge. Bring thermals and confirm what heating is available before you book."},
-      {"q": "Do homestays serve vegetarian food?", "a": "Yes. Simple vegetarian meals of rice, dal and seasonal vegetables are always possible. Jain or vegan food needs advance notice. Meat dishes such as chicken or pork are cooked on request."}
+      {
+        "q": "Can I book a Lachung homestay without a tour operator?",
+        "a": "You can contact a homestay directly, but you still need a registered operator for the permit and vehicle. Most people ask their operator to book the homestay as part of the package. Tell them early, as homestays have few rooms."
+      },
+      {
+        "q": "Are Lachung homestays warm enough in winter?",
+        "a": "Rooms are cold from November to March. Thick quilts are standard, and some homes have electric blankets or a heater for an extra charge. Bring thermals and confirm what heating is available before you book. A hot water bottle and woollen socks make nights much easier."
+      },
+      {
+        "q": "Do homestays serve vegetarian food?",
+        "a": "Yes. Simple vegetarian meals of rice, dal and seasonal vegetables are always possible. Jain or vegan food needs advance notice. Meat dishes such as chicken or pork are cooked on request. Tell your operator about diet needs when booking so the host can buy supplies, as shops in Lachung are small."
+      }
     ]
   },
   {
@@ -45,14 +58,27 @@
       "Reliable meals for early Yumthang starts",
       "Used regularly by Gangtok operators, so easy to book on a package"
     ],
-    "best_for": ["Couples", "Families", "First-timers"],
+    "best_for": [
+      "Couples",
+      "Families",
+      "First-timers"
+    ],
     "website": "",
     "wiki": "",
     "image_query": "Lachung resort",
     "faqs": [
-      {"q": "Does Le Coxy Resort have heating?", "a": "Room heaters are usually available, sometimes for an extra charge in winter. Confirm when booking, especially from November to March when nights go below freezing in Lachung."},
-      {"q": "Is breakfast early enough for Yumthang?", "a": "The kitchen is used to dawn departures and can serve an early breakfast or pack one. Tell reception the night before what time your driver is leaving."},
-      {"q": "How do I book it?", "a": "Most guests book through a Gangtok tour operator as part of a permit package, which often gets a better rate. Direct bookings are possible, but you still need the operator for permit and vehicle."}
+      {
+        "q": "Does Le Coxy Resort have heating?",
+        "a": "Room heaters are usually available, sometimes for an extra charge in winter. Confirm when booking, especially from November to March when nights go below freezing in Lachung. Hot water comes from geysers, which can be affected by power cuts. Carry thermals in any case, as corridors and dining areas are cold."
+      },
+      {
+        "q": "Is breakfast early enough for Yumthang?",
+        "a": "The kitchen is used to dawn departures and can serve an early breakfast or pack one. Tell reception the night before what time your driver is leaving. If you leave very early, ask for tea and a packed breakfast, and eat at the stalls in Yumthang if you are hungry."
+      },
+      {
+        "q": "How do I book it?",
+        "a": "Most guests book through a Gangtok tour operator as part of a permit package, which often gets a better rate. Direct bookings are possible, but you still need the operator for permit and vehicle. Ask your operator to confirm the room category in writing, and book early for April, May and October."
+      }
     ]
   },
   {
@@ -73,14 +99,27 @@
       "Views over the valley",
       "Calmer than the hotels on the main road"
     ],
-    "best_for": ["Honeymooners", "Older travellers", "Families"],
+    "best_for": [
+      "Honeymooners",
+      "Older travellers",
+      "Families"
+    ],
     "website": "",
     "wiki": "",
     "image_query": "Lachung valley resort",
     "faqs": [
-      {"q": "Is Yarlam Resort worth the higher price?", "a": "If warmth and comfort matter to you, yes. Lachung nights are cold, and better heating and hot water make a real difference after a dawn trip to Zero Point. Budget travellers will be fine in a homestay."},
-      {"q": "Is it suitable for a honeymoon?", "a": "Yes. It is one of the better options for couples in Lachung, with larger rooms and views. Ask for a valley-facing room and check whether any special arrangements cost extra."},
-      {"q": "Do I still need a tour operator?", "a": "Yes. Permits and registered vehicles for Lachung come through registered operators. Ask your operator to add Yarlam as the hotel on your package."}
+      {
+        "q": "Is Yarlam Resort worth the higher price?",
+        "a": "If warmth and comfort matter to you, yes. Lachung nights are cold, and better heating and hot water make a real difference after a dawn trip to Zero Point. Budget travellers will be fine in a homestay. Prices rise in peak months, so compare rates early."
+      },
+      {
+        "q": "Is it suitable for a honeymoon?",
+        "a": "Yes. It is one of the better options for couples in Lachung, with larger rooms and views. Ask for a valley-facing room and check whether any special arrangements cost extra. Book well ahead for April, May, October and December, when the best rooms fill first."
+      },
+      {
+        "q": "Do I still need a tour operator?",
+        "a": "Yes. Permits and registered vehicles for Lachung come through registered operators. Ask your operator to add Yarlam as the hotel on your package. Private cars from outside cannot go beyond the checkposts. Book the resort through the operator, or tell them if you have booked it yourself."
+      }
     ]
   },
   {
@@ -101,14 +140,27 @@
       "Low prices with meals included",
       "Quiet village setting"
     ],
-    "best_for": ["Budget travellers", "Pilgrims", "Groups"],
+    "best_for": [
+      "Budget travellers",
+      "Pilgrims",
+      "Groups"
+    ],
     "website": "",
     "wiki": "",
     "image_query": "Lachen village Sikkim",
     "faqs": [
-      {"q": "Are there better hotels in Lachen?", "a": "A handful of better-built hotels charge about ₹3,500–7,000 a room with meals. Standards are still simpler than Lachung. Ask your operator for the best available if comfort matters, and book early in peak months."},
-      {"q": "Will I get hot water in Lachen?", "a": "Usually, by geyser or bucket, though power cuts can interrupt it. Many travellers skip a bath before the 4 am Gurudongmar start and wash on return. Carry wet wipes."},
-      {"q": "Can I stay two nights in Lachen?", "a": "Yes, and it is a good idea for acclimatisation. Tell your operator when booking, as most packages assume one night. Expect to pay for an extra night of room and vehicle."}
+      {
+        "q": "Are there better hotels in Lachen?",
+        "a": "A handful of better-built hotels charge about ₹3,500–7,000 a room with meals. Standards are still simpler than Lachung. Ask your operator for the best available if comfort matters, and book early in peak months. Even the better places may have power cuts and limited heating."
+      },
+      {
+        "q": "Will I get hot water in Lachen?",
+        "a": "Usually, by geyser or bucket, though power cuts can interrupt it. Many travellers skip a bath before the 4 am Gurudongmar start and wash on return. Carry wet wipes. In winter, ask for a bucket of hot water at a set time rather than relying on the geyser."
+      },
+      {
+        "q": "Can I stay two nights in Lachen?",
+        "a": "Yes, and it is a good idea for acclimatisation. Tell your operator when booking, as most packages assume one night. Expect to pay for an extra night of room and vehicle. The extra night is also a chance to visit the monastery and walk the village."
+      }
     ]
   },
   {
@@ -129,14 +181,27 @@
       "Home-cooked Lepcha food",
       "Low altitude and quiet, a good pause between high valleys"
     ],
-    "best_for": ["Families", "Solo travellers", "Walkers"],
+    "best_for": [
+      "Families",
+      "Solo travellers",
+      "Walkers"
+    ],
     "website": "",
     "wiki": "",
     "image_query": "Dzongu Lepcha village",
     "faqs": [
-      {"q": "How do I book a Dzongu homestay?", "a": "Contact a homestay by phone or message, or ask a Gangtok operator who works with Dzongu hosts. Share ID copies so the host can arrange the permit. Confirm pickup from Mangan and the total price including meals."},
-      {"q": "Are Dzongu homestays comfortable?", "a": "They are simple but clean, with good bedding and usually attached bathrooms. Do not expect hotel features. Some have geysers, others bucket hot water. Power cuts happen, so carry a torch."},
-      {"q": "Is the price per room or per person?", "a": "Most Dzongu homestays quote per person per night, including all meals. Children usually pay less. Guides and vehicles are extra. Ask for the full price in writing before you travel."}
+      {
+        "q": "How do I book a Dzongu homestay?",
+        "a": "Contact a homestay by phone or message, or ask a Gangtok operator who works with Dzongu hosts. Share ID copies so the host can arrange the permit. Confirm pickup from Mangan and the total price including meals. Book a few weeks ahead for October to December."
+      },
+      {
+        "q": "Are Dzongu homestays comfortable?",
+        "a": "They are simple but clean, with good bedding and usually attached bathrooms. Do not expect hotel features. Some have geysers, others bucket hot water. Power cuts happen, so carry a torch. Most hosts keep rooms very clean and serve generous meals."
+      },
+      {
+        "q": "Is the price per room or per person?",
+        "a": "Most Dzongu homestays quote per person per night, including all meals. Children usually pay less. Guides and vehicles are extra. Ask for the full price in writing before you travel. Prices may also rise slightly in the October to December peak."
+      }
     ]
   }
 ]

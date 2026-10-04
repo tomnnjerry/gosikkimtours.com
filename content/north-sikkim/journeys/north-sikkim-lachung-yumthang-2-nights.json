@@ -8,9 +8,32 @@
   "end": "Gangtok",
   "pace": "Moderate",
   "max_altitude_m": 4700,
-  "best_months": [1, 1, 2, 2, 2, 0, 0, 0, 1, 2, 2, 1],
-  "themes": ["snow-and-passes", "family-trips", "weekend-breaks", "photography"],
-  "stops": [{"place": "lachung", "nights": 2}],
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    1
+  ],
+  "themes": [
+    "snow-and-passes",
+    "family-trips",
+    "weekend-breaks",
+    "photography"
+  ],
+  "stops": [
+    {
+      "place": "lachung",
+      "nights": 2
+    }
+  ],
   "intro": [
     "This is the trip most people mean when they say North Sikkim. You leave Gangtok in the late morning, drive about 120 km up the Teesta valley to Lachung, and the next morning set out at dawn for Yumthang at 3,564 m. Indian travellers can carry on to Zero Point at about 4,700 m for snow.",
     "It suits families, couples and first-timers who have two spare days in Gangtok. The drives are long, so it is not a relaxing break, but the altitude is manageable for most healthy people because you sleep at about 2,700 m. Foreign nationals can do the same trip with a Protected Area Permit, stopping at Yumthang."
@@ -23,11 +46,39 @@
     "A short trip that fits easily into a Gangtok holiday."
   ],
   "days": [
-    {"day": 1, "title": "Gangtok to Lachung", "place": "lachung", "overnight": "Lachung", "drive": "About 120 km, 6–8 hours", "meals": "Dinner", "text": "Your operator collects your permit in the morning and picks you up around 10–11 am. The road heads north past Seven Sisters waterfall, Kabi and Phodong to Mangan, then along the Teesta to Chungthang, where the Lachung river comes in. After Chungthang the valley narrows and waterfalls such as Bhim Nala appear. Expect checkposts where your permit and ID are checked. You reach Lachung around dusk. Eat a light dinner, drink water and sleep early."},
-    {"day": 2, "title": "Yumthang valley and Zero Point", "place": "yumthang-valley", "overnight": "Lachung", "drive": "About 94 km return with Zero Point, 6–7 hours", "meals": "Breakfast, lunch, dinner", "text": "Leave at about 6 am for Yumthang, 24 km north, through the Shingba Rhododendron Sanctuary. Spend an hour on the valley floor. Indian travellers can continue 23 km to Zero Point for snow, for an extra vehicle charge; stay no more than 30–45 minutes there. Stop at the hot spring on the way back and return to Lachung for a late lunch. In the afternoon walk to Lachung Monastery or rest."},
-    {"day": 3, "title": "Lachung to Gangtok", "place": "gangtok", "overnight": "", "drive": "About 120 km, 6–8 hours", "meals": "Breakfast", "text": "After breakfast, start back down the valley by about 8 am. Stop for tea at Chungthang or Mangan and for photos at the waterfalls. You reach Gangtok in the late afternoon. If you have a train or flight the next day, stay the night in Gangtok rather than driving straight on to Siliguri."}
+    {
+      "day": 1,
+      "title": "Gangtok to Lachung",
+      "place": "lachung",
+      "overnight": "Lachung",
+      "drive": "About 120 km, 6–8 hours",
+      "meals": "Dinner",
+      "text": "Your operator collects your permit in the morning and picks you up around 10–11 am. The road heads north past Seven Sisters waterfall, Kabi and Phodong to Mangan, then along the Teesta to Chungthang, where the Lachung river comes in. After Chungthang the valley narrows and waterfalls such as Bhim Nala appear. Expect checkposts where your permit and ID are checked. You reach Lachung around dusk. Eat a light dinner, drink water and sleep early."
+    },
+    {
+      "day": 2,
+      "title": "Yumthang valley and Zero Point",
+      "place": "yumthang-valley",
+      "overnight": "Lachung",
+      "drive": "About 94 km return with Zero Point, 6–7 hours",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Leave at about 6 am for Yumthang, 24 km north, through the Shingba Rhododendron Sanctuary. Spend an hour on the valley floor. Indian travellers can continue 23 km to Zero Point for snow, for an extra vehicle charge; stay no more than 30–45 minutes there. Stop at the hot spring on the way back and return to Lachung for a late lunch. In the afternoon walk to Lachung Monastery or rest."
+    },
+    {
+      "day": 3,
+      "title": "Lachung to Gangtok",
+      "place": "gangtok",
+      "overnight": "",
+      "drive": "About 120 km, 6–8 hours",
+      "meals": "Breakfast",
+      "text": "After breakfast, start back down the valley by about 8 am. Stop for tea at Chungthang or Mangan and for photos at the waterfalls. You reach Gangtok in the late afternoon. If you have a train or flight the next day, stay the night in Gangtok rather than driving straight on to Siliguri."
+    }
   ],
-  "stays": ["lachung-village-homestays", "le-coxy-resort-lachung", "yarlam-resort-lachung"],
+  "stays": [
+    "lachung-village-homestays",
+    "le-coxy-resort-lachung",
+    "yarlam-resort-lachung"
+  ],
   "includes": [
     "Permit arranged by a registered operator",
     "Registered vehicle and driver from Gangtok and back",
@@ -48,9 +99,27 @@
     "From June to September permits are often suspended after heavy rain."
   ],
   "tiers": [
-    {"name": "Budget", "price_inr": 6500, "stays": "Lachung homestay or simple hotel", "transport": "Shared group tour jeep", "note": "Cheapest way, fixed schedule shared with other travellers"},
-    {"name": "Value", "price_inr": 12500, "stays": "Le Coxy Resort or similar", "transport": "Reserved SUV for two", "note": "Your own car and timing, a warmer room"},
-    {"name": "Comfort", "price_inr": 21000, "stays": "Yarlam Resort or similar", "transport": "Newer reserved SUV for two, Zero Point included", "note": "The best rooms in Lachung and no extra charges on the day"}
+    {
+      "name": "Budget",
+      "price_inr": 6500,
+      "stays": "Lachung homestay or simple hotel",
+      "transport": "Shared group tour jeep",
+      "note": "Cheapest way, fixed schedule shared with other travellers"
+    },
+    {
+      "name": "Value",
+      "price_inr": 12500,
+      "stays": "Le Coxy Resort or similar",
+      "transport": "Reserved SUV for two",
+      "note": "Your own car and timing, a warmer room"
+    },
+    {
+      "name": "Comfort",
+      "price_inr": 21000,
+      "stays": "Yarlam Resort or similar",
+      "transport": "Newer reserved SUV for two, Zero Point included",
+      "note": "The best rooms in Lachung and no extra charges on the day"
+    }
   ],
   "price_from_inr": 6500,
   "save_tips": [
@@ -61,14 +130,41 @@
     "Bring your own warm gear rather than hiring it in Lachung."
   ],
   "faqs": [
-    {"q": "Is two nights enough for Lachung and Yumthang?", "a": "Yes, for the main sights. Day one is the drive, day two covers Yumthang and Zero Point, and day three is the drive back. It is a tiring trip because of the long roads. Add a third night if you want a slower day in the village or are visiting in rhododendron season."},
-    {"q": "How much does this trip cost?", "a": "Indicatively, about ₹6,500 per person on a shared group tour with simple rooms, about ₹12,500 per person for two in a reserved car with a good hotel, and about ₹21,000 per person with the best rooms and Zero Point included. Prices are for two sharing and rise in peak season."},
-    {"q": "Can children do this trip?", "a": "Healthy children usually manage Lachung and Yumthang well. Zero Point at about 4,700 m is more demanding; keep the stay short and skip it for babies or any child who is unwell. Bring warm clothes and snacks for the long drives."},
-    {"q": "What is the best season for this trip?", "a": "April and May for rhododendrons, October and November for clear skies, and December to March for snow, when road closures are more likely. Avoid June to September, when landslides often close the road and permits may be suspended. Check current status before you travel."},
-    {"q": "Can foreigners join this trip?", "a": "Yes, with a Sikkim Inner Line Permit and a Protected Area Permit arranged by a registered agent, in a group of at least two. Foreign travellers go to Lachung and Yumthang, but not to Zero Point. Allow an extra day in Gangtok for the paperwork."},
-    {"q": "When should I book?", "a": "For April, May, October and the Christmas period, book two to four weeks ahead. In other months a few days is often enough, but give your operator at least a day for the permit. Shared group tours fill quickly in school holidays."},
-    {"q": "What should I pack?", "a": "Original photo ID and photos, thermals, a warm jacket, cap, gloves, sunglasses, sunscreen, a water bottle, motion sickness tablets if needed, and personal medicines. Snow boots can be hired in Lachung. Cash for extras is essential."},
-    {"q": "Will I get altitude sickness?", "a": "Most healthy people feel fine in Lachung at 2,700 m and Yumthang at 3,564 m. Some get a headache or breathlessness at Zero Point. Walk slowly, drink water, avoid alcohol and keep the Zero Point stay short. Descend if symptoms grow worse."},
-    {"q": "Is Zero Point worth the extra cost?", "a": "If you want snow and are Indian, usually yes, especially from November to April. In late spring the snow may be patchy. If anyone in your group is unwell, unfit or very young, Yumthang alone is a full and satisfying morning."}
+    {
+      "q": "Is two nights enough for Lachung and Yumthang?",
+      "a": "Yes, for the main sights. Day one is the drive, day two covers Yumthang and Zero Point, and day three is the drive back. It is a tiring trip because of the long roads. Add a third night if you want a slower day in the village or are visiting in rhododendron season."
+    },
+    {
+      "q": "How much does this trip cost?",
+      "a": "Indicatively, about ₹6,500 per person on a shared group tour with simple rooms, about ₹12,500 per person for two in a reserved car with a good hotel, and about ₹21,000 per person with the best rooms and Zero Point included. Prices are for two sharing and rise in peak season."
+    },
+    {
+      "q": "Can children do this trip?",
+      "a": "Healthy children usually manage Lachung and Yumthang well. Zero Point at about 4,700 m is more demanding; keep the stay short and skip it for babies or any child who is unwell. Bring warm clothes and snacks for the long drives."
+    },
+    {
+      "q": "What is the best season for this trip?",
+      "a": "April and May for rhododendrons, October and November for clear skies, and December to March for snow, when road closures are more likely. Avoid June to September, when landslides often close the road and permits may be suspended. Check current status before you travel."
+    },
+    {
+      "q": "Can foreigners join this trip?",
+      "a": "Yes, with a Sikkim Inner Line Permit and a Protected Area Permit arranged by a registered agent, in a group of at least two. Foreign travellers go to Lachung and Yumthang, but not to Zero Point. Allow an extra day in Gangtok for the paperwork."
+    },
+    {
+      "q": "When should I book?",
+      "a": "For April, May, October and the Christmas period, book two to four weeks ahead. In other months a few days is often enough, but give your operator at least a day for the permit. Shared group tours fill quickly in school holidays."
+    },
+    {
+      "q": "What should I pack?",
+      "a": "Original photo ID and photos, thermals, a warm jacket, cap, gloves, sunglasses, sunscreen, a water bottle, motion sickness tablets if needed, and personal medicines. Snow boots can be hired in Lachung. Cash for extras is essential. A torch and a power bank help during power cuts."
+    },
+    {
+      "q": "Will I get altitude sickness?",
+      "a": "Most healthy people feel fine in Lachung at 2,700 m and Yumthang at 3,564 m. Some get a headache or breathlessness at Zero Point. Walk slowly, drink water, avoid alcohol and keep the Zero Point stay short. Descend if symptoms grow worse."
+    },
+    {
+      "q": "Is Zero Point worth the extra cost?",
+      "a": "If you want snow and are Indian, usually yes, especially from November to April. In late spring the snow may be patchy. If anyone in your group is unwell, unfit or very young, Yumthang alone is a full and satisfying morning."
+    }
   ]
 }
