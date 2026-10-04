@@ -1,0 +1,220 @@
+{
+ "east-sikkim": {
+  "places": [
+   "aritar",
+   "gangtok",
+   "nathu-la",
+   "rumtek",
+   "tsomgo-lake",
+   "zuluk"
+  ],
+  "journeys": [
+   "east-sikkim-gangtok-silk-route-kalimpong-8-nights",
+   "east-sikkim-silk-route-aritar-zuluk-gangtok-5-nights",
+   "gangtok-tsomgo-nathu-la-rumtek-4-nights"
+  ],
+  "guides": [
+   "east-sikkim-permits-tsomgo-nathu-la-zuluk-guide",
+   "gangtok-east-sikkim-budget-travel-guide"
+  ],
+  "stays": [
+   "mintokling-guest-house-gangtok",
+   "hotel-sonam-delek-gangtok",
+   "elgin-nor-khill-gangtok",
+   "mayfair-spa-resort-gangtok",
+   "zuluk-silk-route-homestays",
+   "aritar-village-homestays"
+  ],
+  "festivals": [
+   "pang-lhabsol-gangtok",
+   "losoong-kagyed-chaam-gangtok",
+   "losar-rumtek-monastery"
+  ]
+ },
+ "north-sikkim": {
+  "places": [
+   "dzongu",
+   "gurudongmar-lake",
+   "lachen",
+   "lachung",
+   "yumthang-valley"
+  ],
+  "journeys": [
+   "north-sikkim-dzongu-lachen-lachung-7-nights",
+   "north-sikkim-lachen-gurudongmar-lachung-3-nights",
+   "north-sikkim-lachung-yumthang-2-nights"
+  ],
+  "guides": [
+   "north-sikkim-lachung-vs-lachen-guide",
+   "north-sikkim-permits-and-altitude-guide"
+  ],
+  "stays": [
+   "lachung-village-homestays",
+   "le-coxy-resort-lachung",
+   "yarlam-resort-lachung",
+   "lachen-village-lodges-and-homestays",
+   "dzongu-lepcha-homestays"
+  ],
+  "festivals": [
+   "losar-lachung-lachen",
+   "saga-dawa-lachen-monastery",
+   "namsoong-lepcha-new-year-dzongu"
+  ]
+ },
+ "west-sikkim": {
+  "places": [
+   "namchi",
+   "pelling",
+   "ravangla",
+   "rinchenpong",
+   "yuksom"
+  ],
+  "journeys": [
+   "gangtok-ravangla-pelling-darjeeling-7-nights",
+   "south-west-sikkim-namchi-ravangla-pelling-rinchenpong-5-nights",
+   "west-sikkim-pelling-yuksom-3-nights"
+  ],
+  "guides": [
+   "west-sikkim-monastery-circuit-guide",
+   "yuksom-goecha-la-dzongri-trek-guide"
+  ],
+  "stays": [
+   "elgin-mount-pandim-pelling",
+   "norbu-ghang-resort-pelling",
+   "upper-pelling-family-guesthouses",
+   "yuksom-village-homestays",
+   "yangsum-heritage-farm-rinchenpong",
+   "mount-narsing-village-resort-ravangla"
+  ],
+  "festivals": [
+   "bumchu-tashiding",
+   "pang-lhabsol-ravangla",
+   "tendong-lho-rum-faat-namchi"
+  ]
+ },
+ "darjeeling": {
+  "places": [
+   "darjeeling-town",
+   "kurseong",
+   "mirik",
+   "sandakphu",
+   "siliguri",
+   "tiger-hill"
+  ],
+  "journeys": [
+   "darjeeling-kalimpong-gangtok-5-nights",
+   "darjeeling-toy-train-and-tea-3-nights",
+   "sandakphu-singalila-ridge-trek-6-nights"
+  ],
+  "guides": [
+   "darjeeling-toy-train-booking-guide"
+  ],
+  "stays": [
+   "darjeeling-town-budget-guesthouses",
+   "singalila-ridge-trekkers-lodges",
+   "sinclairs-siliguri",
+   "cochrane-place-kurseong",
+   "windamere-hotel-darjeeling",
+   "glenburn-tea-estate-darjeeling"
+  ],
+  "festivals": [
+   "darjeeling-ghoom-losar",
+   "darjeeling-dashain-tihar",
+   "siliguri-durga-puja"
+  ]
+ },
+ "kalimpong": {
+  "places": [
+   "kalimpong-town",
+   "lava",
+   "lolegaon",
+   "rishop",
+   "sillery-gaon"
+  ],
+  "journeys": [
+   "kalimpong-lava-rishop-neora-5-nights",
+   "kalimpong-sillery-gaon-3-nights",
+   "kalimpong-villages-to-gangtok-7-nights"
+  ],
+  "guides": [
+   "kalimpong-offbeat-villages-compared",
+   "neora-valley-national-park-lava-guide"
+  ],
+  "stays": [
+   "mayfair-himalayan-spa-resort-kalimpong",
+   "morgan-house-wbtdc-kalimpong",
+   "wbfdc-lava-nature-resort",
+   "rishop-village-homestays",
+   "lolegaon-village-homestays",
+   "sillery-gaon-village-homestays"
+  ],
+  "festivals": [
+   "losar-zang-dhok-palri-kalimpong",
+   "dashain-tihar-kalimpong",
+   "gaeboo-achyuk-day-damsang-pedong"
+  ]
+ },
+ "dooars": {
+  "places": [
+   "buxa",
+   "chilapata",
+   "gorumara",
+   "jaldapara",
+   "samsing"
+  ],
+  "journeys": [
+   "dooars-gorumara-jaldapara-rhino-trail-4-nights",
+   "dooars-samsing-gorumara-weekend-2-nights",
+   "dooars-samsing-to-buxa-forest-loop-6-nights"
+  ],
+  "guides": [
+   "dooars-itinerary-planner",
+   "dooars-safari-booking-guide"
+  ],
+  "stays": [
+   "jaldapara-tourist-lodge-madarihat",
+   "murti-banani-eco-tourism-centre-wbfdc",
+   "sinclairs-retreat-dooars-chalsa",
+   "mendabari-jungle-lodge-chilapata",
+   "suntalekhola-eco-tourism-centre-samsing",
+   "buxa-santalabari-lepchakha-homestays"
+  ],
+  "festivals": [
+   "jalpesh-shivaratri-mela-mainaguri",
+   "jalpesh-shravani-mela-mainaguri",
+   "karam-puja-dooars-tea-gardens"
+  ]
+ },
+ "bhutan": {
+  "places": [
+   "haa",
+   "paro",
+   "phobjikha",
+   "phuentsholing",
+   "punakha",
+   "thimphu"
+  ],
+  "journeys": [
+   "bhutan-paro-haa-thimphu-fly-in-4-nights",
+   "bhutan-punakha-phobjikha-jaldapara-8-nights",
+   "bhutan-thimphu-paro-overland-6-nights"
+  ],
+  "guides": [
+   "bhutan-indian-travellers-permits-sdf-guide",
+   "bhutan-on-a-budget-from-siliguri"
+  ],
+  "stays": [
+   "paro-farmhouse-homestays",
+   "hotel-druk-phuentsholing",
+   "hotel-druk-thimphu",
+   "hotel-olathang-paro",
+   "dewachen-hotel-phobjikha",
+   "le-meridien-thimphu"
+  ],
+  "festivals": [
+   "bhutan-paro-tshechu",
+   "bhutan-thimphu-tshechu",
+   "bhutan-gangtey-black-necked-crane-festival"
+  ]
+ }
+}
