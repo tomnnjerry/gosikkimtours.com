@@ -3,7 +3,9 @@
   "title": "Dooars safari planning: Jaldapara or Gorumara",
   "category": "Wildlife",
   "date": "2026-09-03",
-  "regions": ["dooars"],
+  "regions": [
+    "dooars"
+  ],
   "meta_description": "Jaldapara or Gorumara for a Dooars safari: how the parks differ, jeep and watchtower safaris, indicative costs, booking, season dates and who each suits.",
   "summary": "Choose Jaldapara for the best chance of one-horned rhinos on open grassland jeep safaris, and Gorumara for watchtower safaris close to Siliguri and an easy weekend. Both parks close from 16 June to 15 September, and the best sightings come from December to April. With four nights, do both.",
   "key_takeaways": [
@@ -21,8 +23,14 @@
         "Park rules, fees and safari quotas change from season to season. Check current status before you travel."
       ],
       "links": [
-        {"type": "place", "slug": "jaldapara"},
-        {"type": "place", "slug": "gorumara"}
+        {
+          "type": "place",
+          "slug": "jaldapara"
+        },
+        {
+          "type": "place",
+          "slug": "gorumara"
+        }
       ]
     },
     {
@@ -31,17 +39,57 @@
         "The table compares the essentials. Safari costs are indicative per jeep for up to six people, including the vehicle, driver, forest guide and entry fees; foreign nationals pay higher entry fees."
       ],
       "table": {
-        "head": ["", "Jaldapara", "Gorumara"],
+        "head": [
+          "",
+          "Jaldapara",
+          "Gorumara"
+        ],
         "rows": [
-          ["Base", "Madarihat", "Lataguri"],
-          ["From Siliguri", "125 km, 3–3.5 hours", "80 km, 2–2.5 hours"],
-          ["Area", "About 216 km²", "About 80 km²"],
-          ["Landscape", "Grassland and riverine forest on the Torsa", "Forest and grassland on the Murti and Jaldhaka"],
-          ["Safari style", "Jeep drive on set grassland routes", "Jeep to a watchtower, then wait"],
-          ["Jeep safari cost", "₹3,000–4,500", "₹2,500–3,500; Medla ₹2,800–3,800"],
-          ["Best for", "One-horned rhino, elephants, birds", "Rhino, gaur, elephants, hornbills"],
-          ["Season", "16 September to 15 June", "16 September to 15 June"],
-          ["Nights", "2", "1–2"]
+          [
+            "Base",
+            "Madarihat",
+            "Lataguri"
+          ],
+          [
+            "From Siliguri",
+            "125 km, 3–3.5 hours",
+            "80 km, 2–2.5 hours"
+          ],
+          [
+            "Area",
+            "About 216 km²",
+            "About 80 km²"
+          ],
+          [
+            "Landscape",
+            "Grassland and riverine forest on the Torsa",
+            "Sal forest and grassland by the Murti river"
+          ],
+          [
+            "Safari style",
+            "Jeep drive on set grassland routes",
+            "Jeep to a watchtower, then wait"
+          ],
+          [
+            "Jeep safari cost",
+            "₹3,000–4,500",
+            "₹2,500–3,500; Medla ₹2,800–3,800"
+          ],
+          [
+            "Best for",
+            "One-horned rhino, elephants, birds",
+            "Rhino, gaur, elephants, hornbills"
+          ],
+          [
+            "Season",
+            "16 September to 15 June",
+            "16 September to 15 June"
+          ],
+          [
+            "Nights",
+            "2",
+            "1–2"
+          ]
         ]
       }
     },
@@ -53,9 +101,18 @@
         "Stay two nights in Madarihat for two or three safaris. Totopara, home of the Toto community, is about 22 km north, and Chilapata forest is close by for a quieter drive to the ruins of Nal Raja Garh."
       ],
       "links": [
-        {"type": "stay", "slug": "jaldapara-tourist-lodge-madarihat"},
-        {"type": "place", "slug": "chilapata"},
-        {"type": "stay", "slug": "mendabari-jungle-lodge-chilapata"}
+        {
+          "type": "stay",
+          "slug": "jaldapara-tourist-lodge-madarihat"
+        },
+        {
+          "type": "place",
+          "slug": "chilapata"
+        },
+        {
+          "type": "stay",
+          "slug": "mendabari-jungle-lodge-chilapata"
+        }
       ]
     },
     {
@@ -65,9 +122,18 @@
         "Gorumara suits families and anyone who prefers sitting still to driving around. Sightings depend on patience and luck, and the Murti riverbed at dusk is a pleasant walk after the afternoon slot. Lataguri has rooms for every budget, from simple lodges at ₹1,200–2,500 a night to resorts at ₹3,000–7,000, and the WBFDC lodge at Murti is a short drive away."
       ],
       "links": [
-        {"type": "stay", "slug": "murti-banani-eco-tourism-centre-wbfdc"},
-        {"type": "journey", "slug": "dooars-samsing-gorumara-weekend-2-nights"},
-        {"type": "place", "slug": "samsing"}
+        {
+          "type": "stay",
+          "slug": "murti-banani-eco-tourism-centre-wbfdc"
+        },
+        {
+          "type": "journey",
+          "slug": "dooars-samsing-gorumara-weekend-2-nights"
+        },
+        {
+          "type": "place",
+          "slug": "samsing"
+        }
       ]
     },
     {
@@ -84,14 +150,18 @@
         "Tip the guide and driver if they did well; ₹100–200 each per safari is usual."
       ],
       "links": [
-        {"type": "guide", "slug": "dooars-safari-booking-guide"}
+        {
+          "type": "guide",
+          "slug": "dooars-safari-booking-guide"
+        }
       ]
     },
     {
       "heading": "When to go",
       "paras": [
         "Every national park and wildlife sanctuary in North Bengal closes for the monsoon from 16 June to 15 September, for the breeding season and because rain washes out forest tracks. Tea-garden villages such as Samsing stay open, but there are no safaris. The parks reopen on 16 September, though some routes open later if tracks need repair.",
-        "October brings the Durga Puja holidays, when slots sell out quickly and the grass is still tall enough to hide rhinos. From December to April the grass is shorter, the forest drier and sightings better. Dawn in an open jeep from November to February is cold, around 8–12°C, so wear layers, a hat and gloves. Parks can also close for a day or two for animal counts, elections or after a forest fire. Check current status before you travel."
+        "October brings the Durga Puja holidays, when slots sell out quickly and the grass is still tall enough to hide rhinos. From December to April the grass is shorter, the forest drier and sightings better. Dawn in an open jeep from November to February is cold, around 8–12°C, so wear layers, a hat and gloves. Parks can also close for a day or two for animal counts, elections or after a forest fire. Check current status before you travel.",
+        "For birdwatchers, winter is best of all. Migrant ducks and storks gather along the Torsa and Murti, and hornbills feed in the fruiting trees at the forest edge. Spring brings hotter afternoons by April, so plan safaris for early morning and rest in the middle of the day."
       ]
     },
     {
@@ -102,9 +172,18 @@
         "Dress in dull greens, browns or greys, keep voices low and never ask the driver to chase animals. Binoculars make a big difference, as rhinos and elephants are often seen at a distance."
       ],
       "links": [
-        {"type": "journey", "slug": "dooars-gorumara-jaldapara-rhino-trail-4-nights"},
-        {"type": "journey", "slug": "dooars-samsing-to-buxa-forest-loop-6-nights"},
-        {"type": "place", "slug": "buxa"}
+        {
+          "type": "journey",
+          "slug": "dooars-gorumara-jaldapara-rhino-trail-4-nights"
+        },
+        {
+          "type": "journey",
+          "slug": "dooars-samsing-to-buxa-forest-loop-6-nights"
+        },
+        {
+          "type": "place",
+          "slug": "buxa"
+        }
       ]
     }
   ],
@@ -113,15 +192,39 @@
     "dooars-samsing-gorumara-weekend-2-nights",
     "dooars-samsing-to-buxa-forest-loop-6-nights"
   ],
-  "related_places": ["jaldapara", "gorumara", "chilapata", "samsing", "buxa"],
-  "faqs": [
-    {"q": "Which is better for rhinos, Jaldapara or Gorumara?", "a": "Jaldapara. It has the largest population of one-horned rhinoceros in West Bengal, and its jeep safaris cross open grassland where rhinos are often seen. Gorumara also has rhinos, usually seen from watchtowers such as Jatraprasad, but sightings depend more on luck. For the best chance, take two or three safaris at Jaldapara between December and April."},
-    {"q": "When are Jaldapara and Gorumara closed?", "a": "Both parks, like every national park and wildlife sanctuary in North Bengal, close from 16 June to 15 September every year for the monsoon and the breeding season. They reopen on 16 September, though some routes open later if tracks need repair. Parks can also close for a day or two at short notice. Check current status before you travel."},
-    {"q": "How much does a jeep safari cost in the Dooars?", "a": "Safaris are priced per jeep for up to six people, including the vehicle, driver, forest guide and entry fees. Indicative costs are about ₹3,000–4,500 at Jaldapara, ₹2,500–3,500 for a Gorumara watchtower trip and ₹2,800–3,800 for Medla with the bullock cart. Foreigners pay higher entry fees, and some parks charge a camera fee."},
-    {"q": "Can I book a Dooars safari on arrival?", "a": "Often, yes, outside peak weeks. Slots not sold online are usually sold at the forest department counters in Lataguri and Madarihat, often from the afternoon before. Queues start early in peak season, and Puja, Christmas and New Year weeks sell out. Guests in WBFDC lodges can sometimes book at reception. Book online ahead for those busy weeks."},
-    {"q": "How many nights do I need for a Dooars safari trip?", "a": "Two nights at one park gives you two or three safaris, which is enough for a good chance of rhinos and elephants. Four nights lets you do both Gorumara and Jaldapara, with Totopara and a tea estate. A weekend of two nights works well from Siliguri if you combine Samsing with one Gorumara safari."}
+  "related_places": [
+    "jaldapara",
+    "gorumara",
+    "chilapata",
+    "samsing",
+    "buxa"
   ],
-  "cta": {"title": "Plan your Dooars safari", "text": "Tell us your dates and we will suggest lodges, safari slots and the right mix of Gorumara and Jaldapara."},
+  "faqs": [
+    {
+      "q": "Which is better for rhinos, Jaldapara or Gorumara?",
+      "a": "Jaldapara. It has the largest population of one-horned rhinoceros in West Bengal, and its jeep safaris cross open grassland where rhinos are often seen. Gorumara also has rhinos, usually seen from watchtowers such as Jatraprasad, but sightings depend more on luck. For the best chance, take two or three safaris at Jaldapara between December and April."
+    },
+    {
+      "q": "When are Jaldapara and Gorumara closed?",
+      "a": "Both parks, like every national park and wildlife sanctuary in North Bengal, close from 16 June to 15 September every year for the monsoon and the breeding season. They reopen on 16 September, though some routes open later if tracks need repair. Parks can also close for a day or two at short notice. Check current status before you travel."
+    },
+    {
+      "q": "How much does a jeep safari cost in the Dooars?",
+      "a": "Safaris are priced per jeep for up to six people, including the vehicle, driver, forest guide and entry fees. Indicative costs are about ₹3,000–4,500 at Jaldapara, ₹2,500–3,500 for a Gorumara watchtower trip and ₹2,800–3,800 for Medla with the bullock cart. Foreigners pay higher entry fees, and some parks charge a camera fee."
+    },
+    {
+      "q": "Can I book a Dooars safari on arrival?",
+      "a": "Often, yes, outside peak weeks. Slots not sold online are usually sold at the forest department counters in Lataguri and Madarihat, often from the afternoon before. Queues start early in peak season, and Puja, Christmas and New Year weeks sell out. Guests in WBFDC lodges can sometimes book at reception. Book online ahead for those busy weeks."
+    },
+    {
+      "q": "How many nights do I need for a Dooars safari trip?",
+      "a": "Two nights at one park gives you two or three safaris, which is enough for a good chance of rhinos and elephants. Four nights lets you do both Gorumara and Jaldapara, with Totopara and a tea estate. A weekend of two nights works well from Siliguri if you combine Samsing with one Gorumara safari."
+    }
+  ],
+  "cta": {
+    "title": "Plan your Dooars safari",
+    "text": "Tell us your dates and we will suggest lodges, safari slots and the right mix of Gorumara and Jaldapara."
+  },
   "wiki": "Jaldapara National Park",
   "image_query": "Jaldapara rhinoceros"
 }

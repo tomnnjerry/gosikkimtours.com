@@ -69,9 +69,9 @@ CONTENT_DIR = BASE_DIR / "content"
 SITE = {
     "name": "Go Sikkim Tours",
     "url": "https://gosikkimtours.com",
-    "email": os.environ.get("GST_EMAIL", "[YOUR EMAIL]"),
-    "phone": os.environ.get("GST_PHONE", "[YOUR PHONE]"),
-    "whatsapp": os.environ.get("GST_WHATSAPP", ""),  # digits with country code, e.g. 919800000000
+    "email": os.environ.get("GST_EMAIL", "hello@gosikkimtours.com"),
+    "phone": os.environ.get("GST_PHONE", "+91 99546 34102"),
+    "whatsapp": os.environ.get("GST_WHATSAPP", "919954634102"),  # digits with country code, e.g. 919800000000
     "address": "[YOUR OFFICE ADDRESS]",
     "byline": "Go Sikkim Tours Desk",
 }
