@@ -1,0 +1,170 @@
+{
+  "slug": "mirik",
+  "name": "Mirik",
+  "kind": "Lake town",
+  "tagline": "A quiet lake town among tea gardens and orange orchards",
+  "summary": "Mirik is a small town at about 1,495 m, 52 km from Siliguri and 49 km from Darjeeling, built around Sumendu Lake. It is calm, green and family-friendly, with tea gardens, orange orchards and Bokar Monastery; one night is enough.",
+  "meta_description": "Mirik travel guide: Sumendu Lake, Bokar Monastery, Thurbo tea and orange orchards, Pashupati border market, costs, stays and how to reach from Siliguri.",
+  "wiki": "Mirik",
+  "image_query": "Mirik Lake Sumendu",
+  "lat": 26.887,
+  "lng": 88.187,
+  "altitude_m": 1495,
+  "nights": 1,
+  "best_months": [1, 2, 2, 2, 1, 0, 0, 0, 1, 2, 2, 2],
+  "themes": ["tea-country", "family-trips", "weekend-breaks", "monasteries"],
+  "intro": [
+    "Mirik lies on a ridge west of Darjeeling, close to the Nepal border, at about 1,495 m around its lake. The name comes from the Lepcha Mir-Yok, a place burnt by fire. Until the late 1960s the lake bed was a marsh; the West Bengal government then created the lake and a small tourist centre, opened in 1979.",
+    "Today Mirik is a quiet market town with Sumendu Lake at its heart. A 3.5 km road circles the water, an arched footbridge crosses it and pine trees line one shore. Above town, Bokar Monastery looks over the valley, and the slopes around are covered in tea gardens such as Thurbo, Soureni and Gopaldhara, and in orange orchards.",
+    "Mirik has no big sights and no crowds, which is the point. Families come for the lake and pony rides, couples for slow walks, and tea lovers for the gardens. Use it as a first night from Siliguri or a break between Darjeeling and the plains on a loop."
+  ],
+  "highlights": [
+    {"title": "Sumendu Lake", "text": "A 1.25 km lake with an arched footbridge and a 3.5 km walking road around it."},
+    {"title": "Bokar Monastery", "text": "A Kagyu monastery and meditation centre at the top of town, about 1,770 m."},
+    {"title": "Tea gardens", "text": "Thurbo, Soureni, Gopaldhara and other estates surround the town."},
+    {"title": "Mirik oranges", "text": "Orchards around Mirik are known for sweet mandarin oranges, ripe from November to January."},
+    {"title": "Pashupati border market", "text": "A busy market just over the Nepal border at Pashupatinagar, about 13 km away."}
+  ],
+  "facts": [
+    ["Altitude", "About 1,495 m at the lake"],
+    ["From Siliguri", "52 km, 2–2.5 hours"],
+    ["From Darjeeling", "49 km, 2 hours"],
+    ["Best for", "A quiet night, families, tea and oranges"],
+    ["Nights", "1"],
+    ["Permits", "None; ID needed to cross to Pashupatinagar in Nepal"]
+  ],
+  "how_to_reach": [
+    {"mode": "Shared jeep", "text": "Shared jeeps run from Siliguri's Hill Cart Road stands near the Tenzing Norgay Central Bus Terminus in 2–2.5 hours for ₹150–200 a seat, and a few from Darjeeling in about 2–2.5 hours. They stop at Mirik Bazar and Krishnanagar by the lake."},
+    {"mode": "Private car", "text": "A reserved car from NJP or Bagdogra costs about ₹2,200–3,000 and takes 2 hours via Dudhia. From Darjeeling, a car via Sukhiapokhri takes 2 hours and costs about ₹2,500–3,500."},
+    {"mode": "Bus", "text": "A few buses run between Siliguri and Mirik, cheaper but slower and less frequent. Ask at the Tenzing Norgay Central Bus Terminus."}
+  ],
+  "where_to_stay": "Most hotels are in Krishnanagar, on the far side of the lake, with rooms from ₹1,500–3,500 in simple hotels and ₹3,500–6,000 in the better ones. The government tourist lodge by the lake and a GTA motel near the helipad are dependable mid-range options. Mirik Bazar, up the hill, has cheaper lodges but is noisier. Ask for a lake-facing room.",
+  "stays": [],
+  "nearby": ["siliguri", "darjeeling-town", "kurseong", "tiger-hill"],
+  "tips": [
+    "Walk the 3.5 km lake road early in the morning, before the boats and ponies start",
+    "Visit from November to January for oranges sold fresh along the roads",
+    "Carry photo ID if you plan to visit Pashupatinagar across the Nepal border",
+    "Shared jeeps back to Siliguri and Darjeeling leave early in the morning; book your seat the evening before",
+    "Mirik is quiet after dark; eat dinner early as most restaurants in Krishnanagar close by 9 pm"
+  ],
+  "costs": [
+    {"item": "Shared jeep, Siliguri to Mirik", "inr": "₹150–200 a seat"},
+    {"item": "Reserved car, NJP to Mirik", "inr": "₹2,200–3,000"},
+    {"item": "Rowing boat on Sumendu Lake, 30 minutes", "inr": "₹100–300 (indicative)"},
+    {"item": "Pony ride around part of the lake", "inr": "₹200–500"},
+    {"item": "Simple lakeside hotel room", "inr": "₹1,500–3,500 a night"},
+    {"item": "Local taxi to Bokar Monastery and tea gardens", "inr": "₹800–1,500"}
+  ],
+  "local_word": {"word": "Mir-Yok", "language": "Lepcha", "meaning": "Place burnt by fire; the origin of the name Mirik"},
+  "story": {
+    "title": "The marsh that became a lake",
+    "paras": [
+      "Fifty years ago there was no lake at Mirik. The hollow below the town was a marsh, thick with sweet flag, a reed locals called bojho. Cattle grazed at its edges and the tea gardens of Thurbo rose on the slopes around it.",
+      "In 1969 the West Bengal tourism department began acquiring 335 acres of land from the neighbouring Thurbo tea estate to build a hill resort. The marsh was turned into Sumendu Lake, a footbridge was thrown across it and gardens were laid out on its banks.",
+      "The finished tourist centre, with the lake and a day centre, was opened by Jyoti Basu, then chief minister of West Bengal, in April 1979. A small settlement called Krishnanagar grew on the far shore, and today it holds most of Mirik's hotels and restaurants.",
+      "The garden beside the lake and the arched footbridge, the Indreni Pul, are named after Savitri Thapa and Indreni Thapa, remembered locally as soldiers of the Indian National Army. Their names are a quiet reminder of the region's ties to the freedom struggle."
+    ],
+    "sources": [
+      {"title": "Mirik (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Mirik"},
+      {"title": "Mirik Lake (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Mirik_Lake"}
+    ]
+  },
+  "faqs": [
+    {"q": "Is Mirik worth visiting?", "a": "Yes, for a quiet night. Mirik has Sumendu Lake, Bokar Monastery, tea gardens and orange orchards, and almost no crowds. It does not have Darjeeling's mountain views, heritage or food scene, so one night is plenty. It suits families, couples wanting calm, and travellers looping between Siliguri and Darjeeling who want a different road in each direction."},
+    {"q": "How far is Mirik from Siliguri and Darjeeling?", "a": "Mirik is about 52 km from Siliguri, 2–2.5 hours by road via Dudhia, and about 49 km from Darjeeling, 2 hours via Sukhiapokhri and Ghum. Bagdogra airport is roughly 55 km away. Shared jeeps run on both routes, mostly in the morning, at about ₹150–200 a seat. Reserved cars cost ₹2,200–3,500 depending on the route."},
+    {"q": "Can I boat on Mirik Lake?", "a": "Yes. Rowing boats can be hired at the lake for short rides of about 30 minutes, for around ₹100–300, indicative. Life jackets should be worn; ask for one if it is not offered. Boating is calmest in the morning. Pony rides around part of the lake and the 3.5 km walking road are the other ways to enjoy it."},
+    {"q": "What is the best time to visit Mirik?", "a": "October to April is best, with clear skies and mild days of about 12–20°C. November to January adds fresh oranges in the orchards. March and April bring spring flowers and first-flush tea. The monsoon, June to September, is wet and misty, with occasional landslides on the Mirik roads. Check current status before you travel in the monsoon."},
+    {"q": "Can I see Kangchenjunga from Mirik?", "a": "On clear days, yes, from the lake road, Bokar Monastery and the higher viewpoints around town. The mountain is far on the horizon, so it looks smaller than from Darjeeling or Tiger Hill. The best chances are early mornings from October to February. In the monsoon and spring haze, the view is often hidden."},
+    {"q": "What is Bokar Monastery?", "a": "Bokar Monastery is a Tibetan Buddhist monastery and meditation centre of the Karma Kagyu and Shangpa Kagyu traditions at the top of Mirik, at about 1,770 m. It was founded by Bokar Tulku Rinpoche, a close disciple of Kalu Rinpoche. Visitors may see the prayer hall and walk the grounds, which have wide valley views."},
+    {"q": "Can Indians cross into Nepal at Pashupatinagar?", "a": "Yes. Indian citizens can cross the border at Pashupati Phatak, about 13 km from Mirik, to visit the market at Pashupatinagar, carrying photo ID such as a passport or voter ID. Foreigners need a valid Nepal visa and must use an authorised crossing. Rules can change, and vehicles need permits. Check current status before you travel."},
+    {"q": "Is Mirik good for families with children?", "a": "Yes. The lake, boats, ponies, gentle walking road and garden suit children, and the town is safe and quiet. The drive from Siliguri is only about two hours. There is little nightlife and limited dining, so families wanting more activity often combine Mirik with Darjeeling. Bring warm layers for evenings from November to February."},
+    {"q": "Are there tea gardens near Mirik?", "a": "Many. Thurbo, Soureni, Gopaldhara, Singbulli, Okayti and Phuguri are all in and around Mirik. Roadside stops let you walk among the bushes and photograph the slopes. Formal factory visits are fewer than around Darjeeling and Kurseong, so ask your driver which gardens allow visitors that day. Buy tea from estate outlets rather than roadside stalls."}
+  ],
+  "experiences": [
+    {
+      "slug": "mirik-sumendu-lake-walk",
+      "title": "Morning walk around Sumendu Lake",
+      "kind": "nature",
+      "duration": "1.5 hours",
+      "summary": "Walk the 3.5 km road around Sumendu Lake at first light, cross the arched Indreni footbridge and watch mist lift off the water before the boats and ponies come out.",
+      "body": [
+        "Sumendu Lake is about 1.25 km long, with the Savitri Pushpaudyan garden on one side and pine woods on the other, linked by the arched Indreni Pul footbridge. The road around the lake is flat and easy, with benches along the way and a Debisthan temple on a small hill nearby.",
+        "In the early morning, mist hangs over the water and the town is quiet. On clear days Kangchenjunga shows on the horizon. Later you can hire a rowing boat or a pony. The lake is a calm, simple pleasure, and the walk is suitable for all ages."
+      ],
+      "best_time": "6 to 8 am from October to April.",
+      "good_for": ["Families", "Couples", "Elderly travellers"],
+      "cost": "₹0 for the walk; ₹100–300 for a boat (indicative)",
+      "wiki": "Mirik Lake",
+      "image_query": "Mirik Lake footbridge",
+      "faqs": [
+        {"q": "How long is the walk around Mirik Lake?", "a": "The road around Sumendu Lake is about 3.5 km and mostly flat. At an easy pace it takes 45 minutes to an hour, or longer with photo stops and a coffee. It is suitable for children and older travellers. Start at the footbridge near Krishnanagar and walk either way. Benches are spread around the loop."},
+        {"q": "Can I swim in Mirik Lake?", "a": "No, swimming is not allowed. The lake is managed for boating and walking only, and the water is deep in places. Stay on the paths and keep children away from unfenced edges. If you want to be on the water, hire a rowing boat with life jackets, which is safe and inexpensive."},
+        {"q": "Is Mirik Lake crowded?", "a": "Usually not, except on weekends and holidays in October, around Christmas and in May, when day-trippers from Siliguri arrive. Early mornings are always quiet. Even on busy days Mirik is far less crowded than Darjeeling. Midweek visits from November to March are the calmest, with clear skies and fewer visitors."}
+      ]
+    },
+    {
+      "slug": "mirik-bokar-monastery",
+      "title": "Bokar Monastery above Mirik",
+      "kind": "spiritual",
+      "duration": "1 hour",
+      "summary": "Visit the Kagyu monastery and meditation centre founded by Bokar Tulku Rinpoche at the top of Mirik, at about 1,770 m, for prayers, painted halls and valley views.",
+      "body": [
+        "Bokar Monastery, also called Bokar Ngedon Chokhor Ling, stands at the highest point of Mirik on the road to Rameetay Dara. It was founded by Bokar Tulku Rinpoche (1940–2004), a heart disciple of Kalu Rinpoche and a holder of the Karma Kagyu and Shangpa Kagyu lineages. It is a working centre for monks and long meditation retreats.",
+        "The prayer hall is painted with deities and lined with images, and the grounds look out over tea gardens and the valley. Visit quietly, walk clockwise, and ask before photographing monks. Morning and late-afternoon prayers are the best times to hear chanting."
+      ],
+      "best_time": "Morning or late afternoon prayers, any season.",
+      "good_for": ["Culture lovers", "Families", "Photographers"],
+      "cost": "₹0; donations welcome",
+      "wiki": "",
+      "image_query": "Bokar Monastery Mirik",
+      "faqs": [
+        {"q": "How far is Bokar Monastery from Mirik Lake?", "a": "About 2–3 km uphill from the lake, 10 minutes by taxi or a 30–40 minute walk. Local taxis cost about ₹200–400 one way. The road is steep but quiet and passes houses and small fields. Many visitors take a taxi up and walk back down to the lake, enjoying the views on the way."},
+        {"q": "Can visitors attend prayers at Bokar Monastery?", "a": "Visitors may usually sit quietly at the back of the prayer hall during morning or afternoon prayers. Remove shoes, keep phones silent and do not walk in front of monks. Some halls used for retreat are closed to visitors. Ask a monk or the office if you are unsure, and respect any closed doors."},
+        {"q": "What is the Kagyu tradition?", "a": "Kagyu is one of the four main schools of Tibetan Buddhism, known for its emphasis on meditation and the teachings of Milarepa and Gampopa. Karma Kagyu is headed by the Karmapa. Shangpa Kagyu is a related lineage revived in recent times by Kalu Rinpoche, the teacher of Bokar Rinpoche, who founded this monastery."}
+      ]
+    },
+    {
+      "slug": "mirik-thurbo-tea-and-orange-orchards",
+      "title": "Tea gardens and orange orchards around Mirik",
+      "kind": "tea",
+      "duration": "Half day",
+      "summary": "Drive and walk through the tea estates around Mirik, such as Thurbo and Gopaldhara, and the orange orchards that ripen from November to January.",
+      "body": [
+        "Thurbo is the large estate right beside Mirik; much of the lake land was once part of it. Around town lie Soureni, Gopaldhara, Singbulli, Okayti and Phuguri, all producing Darjeeling tea on steep slopes. Roadside stops let you walk a little way into the gardens and watch plucking in season.",
+        "In winter the orange orchards turn gold, and families sell sweet mandarin oranges along the roads and in Mirik Bazar. A half-day loop by taxi takes in gardens, orchards and viewpoints. Ask your driver which estates allow visitors that day, and buy tea from estate outlets."
+      ],
+      "best_time": "March to May for tea; November to January for oranges.",
+      "good_for": ["Tea lovers", "Families", "Photographers"],
+      "cost": "₹800–1,500 for a half-day local taxi; tastings ₹100–300 where offered",
+      "wiki": "Thurbo Tea Estate",
+      "image_query": "Mirik tea garden orange",
+      "faqs": [
+        {"q": "When are Mirik oranges in season?", "a": "Mirik's mandarin oranges ripen from about November to January, with December usually the peak. You will see them sold along the roads, in Mirik Bazar and in Siliguri markets. They are small, sweet and easy to peel. Crops vary from year to year with weather and tree disease, so ask locally how the season is going."},
+        {"q": "Can I visit a tea factory near Mirik?", "a": "Some estates near Mirik allow visits, but it is less organised than at Happy Valley or Makaibari. Factories work mainly from March to November. Ask your hotel or driver which estates welcome visitors and call ahead where possible. Even without a factory tour, walking the garden paths and watching plucking is worthwhile."},
+        {"q": "What is special about Mirik tea?", "a": "Mirik's estates are part of the Darjeeling tea area and produce teas under the protected Darjeeling name. Gardens such as Thurbo, Gopaldhara and Okayti are well known in the trade, with Gopaldhara among the higher estates. The best teas are first and second flush. Buy sealed, labelled tea from estate outlets to be sure of what you get."}
+      ]
+    },
+    {
+      "slug": "mirik-pashupati-border-market",
+      "title": "Pashupati market on the Nepal border",
+      "kind": "village",
+      "duration": "Half day",
+      "summary": "Drive about 13 km from Mirik to Pashupati Phatak on the India–Nepal border and walk across to the busy market at Pashupatinagar for clothes, household goods and Nepali snacks.",
+      "body": [
+        "Pashupatinagar is a Nepali border market town on the other side of a simple gate from Pashupati Phatak in India. Indian citizens can walk across with photo ID. The market sells clothes, shoes, blankets, electronics and household goods, often cheaper than in the hills, and small cafés serve momos and tea.",
+        "The drive from Mirik passes tea gardens and villages on the ridge. It is a lively half-day trip, more about daily life than sights. Carry Indian rupees in small notes, which are widely accepted, and keep your ID handy at both checkpoints."
+      ],
+      "best_time": "Weekday mornings from October to April.",
+      "good_for": ["Shoppers", "Curious travellers", "Families"],
+      "cost": "₹800–1,500 for a reserved car from Mirik (indicative)",
+      "wiki": "",
+      "image_query": "Pashupatinagar Nepal border market",
+      "faqs": [
+        {"q": "Do I need a passport to visit Pashupatinagar?", "a": "Indian citizens do not need a passport but should carry photo ID such as a passport, voter ID or Aadhaar; rules on which IDs are accepted can change. Foreign nationals need a valid Nepal visa and may not be allowed to use this crossing. Indian-registered vehicles need a permit to enter Nepal. Check current status before you travel."},
+        {"q": "Can I pay in Indian rupees in Pashupatinagar?", "a": "Yes, Indian rupees are widely accepted in border markets. Use smaller notes. Nepal has at times restricted Indian ₹500 and ₹2,000 notes, so carry ₹100 and ₹200 notes to be safe. Prices are often quoted in Indian rupees. Card payments are limited, and UPI may not work across the border."},
+        {"q": "Is Pashupatinagar worth the trip from Mirik?", "a": "For curious travellers and shoppers, yes, as a half-day outing. It shows the everyday life of a border town and the drive is pretty. It is not a scenic or historic site, so skip it if you are short of time. Families often combine it with tea garden stops on the same road."}
+      ]
+    }
+  ]
+}

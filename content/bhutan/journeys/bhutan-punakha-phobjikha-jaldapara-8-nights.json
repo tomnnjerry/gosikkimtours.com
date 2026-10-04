@@ -1,0 +1,90 @@
+{
+  "slug": "bhutan-punakha-phobjikha-jaldapara-8-nights",
+  "title": "Western Bhutan and Jaldapara in eight nights",
+  "summary": "An eight-night overland loop from Siliguri through Thimphu, the crane valley of Phobjikha, Punakha and Paro, ending with a safari night in Jaldapara on the way home. It covers the best of western Bhutan with a licensed guide, from about ₹42,000 per person.",
+  "meta_description": "Eight-night Bhutan road trip from Siliguri: Thimphu, Phobjikha cranes, Punakha Dzong, Tiger's Nest and a Jaldapara safari. Day plan, permits and prices.",
+  "nights": 8,
+  "start": "Siliguri, NJP or Bagdogra",
+  "end": "Siliguri, NJP or Bagdogra",
+  "pace": "Moderate",
+  "max_altitude_m": 3360,
+  "best_months": [1, 1, 2, 2, 1, 0, 0, 0, 1, 2, 2, 1],
+  "themes": ["monasteries", "wildlife-and-birds", "photography", "treks-and-walks"],
+  "stops": [
+    {"place": "phuentsholing", "nights": 1},
+    {"place": "thimphu", "nights": 2},
+    {"place": "phobjikha", "nights": 1},
+    {"place": "punakha", "nights": 1},
+    {"place": "paro", "nights": 2},
+    {"place": "jaldapara", "nights": 1}
+  ],
+  "intro": [
+    "This is the fuller western Bhutan trip for travellers with nine days. After Thimphu it crosses Dochula and Lawa La to Phobjikha, the glacial valley where black-necked cranes winter, then drops to warm Punakha and its great dzong before ending in Paro with the Tiger's Nest walk.",
+    "On the way home, instead of a second night in Phuentsholing, it stops in Jaldapara National Park in the Dooars, about 35 km from the border, for a morning safari to look for one-horned rhinos. That last night is in India, so no SDF is charged for it.",
+    "Punakha and Phobjikha lie outside Thimphu and Paro, so a route permit and a licensed guide are required for all tiers. Prices include seven nights of SDF at ₹1,200 per person per night. Prices and rules are indicative. Check current status before you travel."
+  ],
+  "highlights": [
+    "Black-necked cranes in Phobjikha from late October to February.",
+    "Punakha Dzong at the meeting of the Pho Chhu and Mo Chhu.",
+    "Dochula's 108 chortens and, on clear days, the high Himalaya.",
+    "The Tiger's Nest walk in Paro.",
+    "A jeep safari in Jaldapara for one-horned rhinos on the way home."
+  ],
+  "days": [
+    {"day": 1, "title": "Siliguri to Phuentsholing", "place": "phuentsholing", "overnight": "Phuentsholing", "drive": "160 km, 4–5 hours", "meals": "Dinner", "text": "Drive from Siliguri through Sevoke and the Dooars tea gardens to Jaigaon. Cross the Bhutan Gate and complete your entry permit at the Phuentsholing immigration office. Meet your licensed guide, who will carry your papers for the route permit. Evening visit to Zangtho Pelri Lhakhang."},
+    {"day": 2, "title": "Phuentsholing to Thimphu", "place": "thimphu", "overnight": "Thimphu", "drive": "160 km, 5–6 hours", "meals": "Breakfast, dinner", "text": "Climb from the plains past Kharbandi Goemba, Gedu and Chukha to Chuzom, then up the Wang Chhu valley to Thimphu at about 2,320 m. Your guide submits the route permit application for Wangdue Phodrang and Punakha. Evening walk on Norzin Lam."},
+    {"day": 3, "title": "Thimphu sights", "place": "thimphu", "overnight": "Thimphu", "drive": "City, 25 km", "meals": "Breakfast, dinner", "text": "Morning kora at the Memorial Chorten, then the Buddha Dordenma, the Motithang Takin Preserve and the Folk Heritage Museum. If it is a weekend, visit the Centenary Farmers Market. Collect the route permit and end the day at Tashichho Dzong after office hours."},
+    {"day": 4, "title": "Thimphu to Phobjikha over two passes", "place": "phobjikha", "overnight": "Phobjikha", "drive": "135 km, 5 hours", "meals": "Breakfast, dinner", "text": "Leave early for Dochula at about 3,100 m and its 108 chortens. Descend towards Wangdue, then climb east along the highway over Lawa La at about 3,360 m and turn into Phobjikha. In season, watch the cranes fly in to roost at dusk. Night in a farmhouse or hotel with a wood stove."},
+    {"day": 5, "title": "Gangtey Goenpa and on to Punakha", "place": "punakha", "overnight": "Punakha", "drive": "78 km, 3 hours", "meals": "Breakfast, dinner", "text": "Visit Gangtey Goenpa and the crane information centre in the morning, then walk the Gangtey nature trail down to Khewang Lhakhang. After lunch, drive down to Punakha at about 1,250 m. Visit Punakha Dzong in the late afternoon light and walk to the suspension bridge."},
+    {"day": 6, "title": "Chimi Lhakhang and the drive to Paro", "place": "paro", "overnight": "Paro", "drive": "125 km, 4.5 hours", "meals": "Breakfast, dinner", "text": "Walk through rice fields to Chimi Lhakhang, the temple of the Divine Madman. Drive back over Dochula to Thimphu and on to Paro, stopping at Chuzom and Tachogang Lhakhang. Evening in Paro town."},
+    {"day": 7, "title": "The Tiger's Nest walk", "place": "paro", "overnight": "Paro", "drive": "20 km return to trailhead", "meals": "Breakfast, dinner", "text": "Start the walk to Paro Taktsang by 7.30 am, climbing about 900 m to the cliff temples at 3,120 m. Allow 5–6 hours. In the late afternoon visit Kyichu Lhakhang, and if you have energy, the National Museum and Rinpung Dzong."},
+    {"day": 8, "title": "Paro to Jaldapara", "place": "jaldapara", "overnight": "Jaldapara", "drive": "180 km, 6–7 hours", "meals": "Breakfast, dinner", "text": "Leave Paro early and drive down to Phuentsholing. Complete exit formalities, cross back into India at Jaigaon and continue about 35 km to Madarihat at the edge of Jaldapara National Park. Evening at a lodge near the park gate."},
+    {"day": 9, "title": "Jaldapara safari and Siliguri", "place": "siliguri", "overnight": "", "drive": "125 km, 3.5–4 hours", "meals": "Breakfast", "text": "Take an early morning jeep safari in Jaldapara to look for one-horned rhinos, gaur, deer and birds. After breakfast, drive west through the Dooars to Siliguri, NJP or Bagdogra, arriving in the afternoon. Safari bookings and seasons depend on the forest department; the park closes in the monsoon."}
+  ],
+  "stays": ["hotel-druk-phuentsholing", "hotel-druk-thimphu", "dewachen-hotel-phobjikha", "hotel-olathang-paro", "paro-farmhouse-homestays", "le-meridien-thimphu"],
+  "includes": [
+    "Sustainable Development Fee of ₹1,200 per person per night for seven nights in Bhutan (adults)",
+    "Eight nights in certified hotels, homestays and a Jaldapara lodge, twin sharing, with breakfast and dinner",
+    "Private Bhutan-registered car and licensed guide from Phuentsholing to Phuentsholing",
+    "Route permit for Wangdue Phodrang and Punakha",
+    "Transfers Siliguri to the border and Jaigaon to Jaldapara and Siliguri"
+  ],
+  "excludes": [
+    "Lunches, drinks and tips",
+    "Monument entry fees in Bhutan",
+    "Jaldapara safari fees",
+    "Horse rides, hot stone baths and rafting",
+    "Travel to Siliguri"
+  ],
+  "good_to_know": [
+    "A licensed guide is compulsory for Phobjikha and Punakha, for all tiers.",
+    "Cranes are in Phobjikha only from late October to February.",
+    "Phobjikha nights fall below freezing in winter; pack thermal layers.",
+    "Jaldapara closes for the monsoon, usually mid-June to mid-September.",
+    "Fees, permits and park rules are indicative. Check current status before you travel."
+  ],
+  "tiers": [
+    {"name": "Budget", "price_inr": 42000, "stays": "Simple certified hotels, farmhouse homestays in Phobjikha and Paro, a basic Jaldapara lodge", "transport": "Bus to the border; shared car and guide from Phuentsholing", "note": "Car and guide costs are the biggest item; travelling as four brings it down"},
+    {"name": "Value", "price_inr": 62000, "stays": "Hotel Druk, Hotel Olathang and good three-star hotels in Punakha and Phobjikha", "transport": "Reserved car to the border; private car with driver and licensed guide in Bhutan", "note": "The comfortable middle, with heated rooms throughout"},
+    {"name": "Comfort", "price_inr": 110000, "stays": "Le Méridien Thimphu, Dewachen in Phobjikha and the best rooms on the route", "transport": "Private SUV with senior guide throughout", "note": "All entry fees and one hot stone bath included"}
+  ],
+  "price_from_inr": 42000,
+  "save_tips": [
+    "Travel as a group of four to share the car and guide, which can cut the per-person cost by a quarter.",
+    "Use the Jaldapara night in India instead of a second Phuentsholing night to save one night of SDF.",
+    "Choose farmhouse homestays in Phobjikha and Paro, which include dinner and breakfast.",
+    "Avoid the Durga Puja week and Tshechu dates, when hotel rates rise.",
+    "Carry small rupee notes; they are accepted at par and save on card fees."
+  ],
+  "faqs": [
+    {"q": "How much does this eight-night Bhutan and Jaldapara trip cost?", "a": "From about ₹42,000 per person, twin sharing, in the Budget tier, including seven nights of SDF, a licensed guide and car in Bhutan, and simple certified stays. Value costs about ₹62,000 and Comfort about ₹1,10,000. Prices are indicative and exclude lunches, entry fees and safari charges."},
+    {"q": "Why does this trip need a guide?", "a": "Punakha and Phobjikha are outside Thimphu and Paro, and Bhutan requires all tourists, including Indians, to travel with a licensed guide there. The guide also arranges the route permit. A guide costs about ₹2,500–3,500 a day for the group, which is why sharing with others helps. Check current status before you travel."},
+    {"q": "When can I see the cranes on this trip?", "a": "From late October to February, with the best chances from November to January. Outside that window Phobjikha is still a lovely, quiet valley for walking, but there are no cranes. Time your trip for 11 November to catch the Black-necked Crane Festival at Gangtey Goenpa."},
+    {"q": "Is the Paro to Jaldapara day too long?", "a": "It is a long day of about 6–7 hours, including the border crossing. Leave Paro by 7 am to reach Jaldapara before dark. If you prefer, swap it for a night in Phuentsholing and drive to Siliguri the next day, though that adds one night of SDF."},
+    {"q": "Can I do this trip in reverse?", "a": "Yes. Start with Jaldapara, then cross into Bhutan and go to Paro first, ending at Thimphu and Phuentsholing. The route permit is still issued in Thimphu or online, so plan the order with your operator. Doing Taktsang after a few days in the hills helps with acclimatisation."},
+    {"q": "How cold is it in Phobjikha on this trip?", "a": "From November to February, nights in Phobjikha fall to around -5°C, and mornings are frosty. Days are often sunny at 8–12°C. Carry thermals, a down jacket, a cap and gloves. Rooms have stoves or heaters, but corridors and bathrooms can be cold."},
+    {"q": "Is Jaldapara open all year?", "a": "No. Jaldapara National Park usually closes for the monsoon from mid-June to mid-September. Safari slots and fees are set by the West Bengal Forest Department and can sell out in peak season. We book in advance where possible. Check current status before you travel."},
+    {"q": "Is this trip suitable for older travellers?", "a": "Yes, at a gentle pace. Drives are long but on decent roads, and the highest point is Lawa La at about 3,360 m, crossed by car. Taktsang is optional; horses carry riders to the halfway cafeteria. Choose the Value or Comfort tier for heated rooms and a private car."},
+    {"q": "Can I add Haa to this trip?", "a": "Yes. Add one night in Haa between Paro and the drive home, crossing Chele La at 3,988 m. It needs a route permit for Haa and adds one night of SDF and a day of car and guide. Alternatively, visit Haa as a long day trip from Paro."}
+  ]
+}
