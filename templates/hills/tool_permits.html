@@ -1,9 +1,9 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}Permits for Ladakh, the North East and Nepal · Go Sikkim Tours{% endblock %}
-{% block description %}Which permits you need for each of our seven lands, for Indian and foreign travellers: Inner Line Permits, protected-area permits, park and trekking fees.{% endblock %}
+{% block title %}Permits for Sikkim, Darjeeling, the Dooars and Bhutan · Go Sikkim Tours{% endblock %}
+{% block description %}Which permits you need in Sikkim, Darjeeling, the Dooars and Bhutan, for Indian and foreign travellers: Inner Line Permits, protected-area permits, Bhutan entry permits and park fees.{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
-  <p class="eyebrow">Trip tool 03</p><h1 class="h-xl">Permits, <span class="accent">land by land</span></h1>
+  <p class="eyebrow">Trip tool 03</p><h1 class="h-xl">Permits, <span class="accent">place by place</span></h1>
   <p class="lede">Rules change, sometimes mid-season. We apply for the permits a registered agent can arrange and confirm the rest when we quote. Check current status before you travel.</p></div></header>
 <section class="wrap" style="padding-bottom: 96px">
   <div class="faq">{% for r in regions %}<details{% if r.permits %} open{% endif %}><summary><span><span class="lbadge" data-land="{{ r.slug }}">{% icon r.slug %}</span> {{ r.name }}{% if not r.permits %} · no special permits{% endif %}</span></summary>

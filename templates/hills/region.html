@@ -1,5 +1,5 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}{{ r.name }} luxury journeys and private tours · Go Sikkim Tours{% endblock %}
+{% block title %}{{ r.name }} tour packages, places, costs and permits · Go Sikkim Tours{% endblock %}
 {% block description %}{{ r.meta_description }}{% endblock %}
 {% block og_image %}{% with img=r|first_img %}{% if img %}<meta property="og:image" content="{{ img|src:1280 }}">{% endif %}{% endwith %}{% endblock %}
 {% block body_attrs %} data-land="{{ r.slug }}"{% endblock %}
@@ -12,7 +12,7 @@
       <p class="eyebrow eyebrow--icon">{% icon r.slug %} {{ r.palette }} · {{ r.country }}</p>
       <h1 class="h-hero">{{ r.name }}</h1>
       <p class="lede">{{ r.summary }}</p>
-      <div class="btns"><a class="btn btn--dark" href="{% url 'plan' %}?land={{ r.slug }}&from={{ request.path|urlencode }}">Plan {{ r.name }}</a><a class="btn btn--ghost" href="#journeys">See journeys</a></div>
+      <div class="btns"><a class="btn btn--dark" href="{% url 'plan' %}?land={{ r.slug }}&from={{ request.path|urlencode }}">Plan {{ r.name }}</a><a class="btn btn--ghost" href="#journeys">See packages</a></div>
       {% include "hills/partials/trust.html" %}
     </div>
     <div class="panel panel--dark">
@@ -34,9 +34,9 @@
     </div>
     <aside class="split__aside">
       <nav class="panel panel--line" aria-label="On this page">
-        <p class="eyebrow" style="margin-bottom: 12px">In this tale</p>
+        <p class="eyebrow" style="margin-bottom: 12px">On this page</p>
         <div class="toc-side">
-          <a href="#places">Places and map</a><a href="#journeys">Journeys</a>
+          <a href="#places">Places and map</a><a href="#journeys">Packages</a><a href="#budget">Daily budget</a>
           <a href="#experiences">Experiences</a><a href="#stays">Stays</a>
           <a href="#seasons">Month by month</a>{% if r.festivals %}<a href="#festivals">Festivals</a>{% endif %}
           <a href="#getting-there">Getting there</a><a href="#guides">Guides</a><a href="#faq-h">Questions</a>
@@ -57,7 +57,7 @@
 {% if r.journeys %}
 <section class="sec" id="journeys" aria-labelledby="jr-h">
   <div class="wrap">
-    <div class="sec-head"><div><p class="eyebrow">Journeys</p><h2 class="h-l" id="jr-h">Routes through {{ r.name }}</h2><p class="muted">Indicative prices per person, twin sharing, at the hotels named. Every route can be changed.</p></div></div>
+    <div class="sec-head"><div><p class="eyebrow">Packages</p><h2 class="h-l" id="jr-h">Routes through {{ r.name }}</h2><p class="muted">Budget tier prices per person, twin sharing. Every package also comes in Value and Comfort tiers, and every route can be changed.</p></div></div>
     <div class="grid grid--3" data-fill>{% for j in r.journeys %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
   </div>
 </section>
@@ -76,6 +76,19 @@
   <div class="wrap">
     <div class="sec-head"><div><p class="eyebrow">Where we book</p><h2 class="h-l" id="sy-h">Stays in {{ r.name }}</h2></div><a class="link-arrow" href="{% url 'stays' %}">All stays →</a></div>
     <div class="grid grid--3" data-fill>{% for s in r.stays %}{% include "hills/partials/card_stay.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
+  </div>
+</section>
+{% endif %}
+
+{% if r.budget_day or r.people %}
+<section class="sec" id="budget" aria-labelledby="bd-h">
+  <div class="wrap split">
+    <div class="split__main">
+      {% if r.budget_day %}<div class="block"><p class="eyebrow">{% icon "rupee" %} Daily budget</p><h2 class="h-l" id="bd-h">What a day in {{ r.name }} costs</h2>
+        <div class="tiers">{% for b in r.budget_day %}<div class="tier{% if forloop.counter == 2 %} tier--mid{% endif %}"><p class="tier__name">{{ b.tier }}</p><p class="tier__price">{{ b.inr }}</p><p class="tier__note">{{ b.covers }}</p></div>{% endfor %}</div>
+        <p class="small muted" style="margin-top: 14px">Per person per day, twin sharing, for planning. <a href="{% url 'tool_budget' %}">Budget builder →</a></p></div>{% endif %}
+    </div>
+    {% if r.people %}<aside class="split__aside"><div class="panel panel--paper"><p class="eyebrow">The people</p><div class="prose prose--plain"><p>{{ r.people }}</p></div></div></aside>{% endif %}
   </div>
 </section>
 {% endif %}

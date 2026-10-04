@@ -5,14 +5,14 @@
 {% block content %}
 <section class="sec wrap"><div class="phead__grid" style="align-items: start">
   <div class="phead__text">
-    <p class="eyebrow">Received</p><h1 class="h-xl">Your tale <span class="accent">has begun</span></h1>
-    <p class="lede">Thank you. A planner will reply within one working day with a first route and an indicative price.{% if wa_base %} If your dates are close, WhatsApp us and we will move you up the queue.{% endif %}</p>
-    <div class="btns">{% if wa_base %}<a class="btn btn--brass" href="{{ wa_base }}?text={{ wa_text }}" data-cta="thanks-whatsapp">WhatsApp a planner</a>{% endif %}<a class="btn btn--dark" href="{% url 'journal' %}">Read the Journal</a><a class="btn btn--ghost" href="{% url 'seasons' %}">Season almanac</a></div>
+    <p class="eyebrow">Received</p><h1 class="h-xl">Your trip <span class="accent">is with a planner</span></h1>
+    <p class="lede">Thank you. A planner will reply within one working day with a first route and a price in each tier.{% if wa_base %} If your dates are close, WhatsApp us and we will move you up the queue.{% endif %}</p>
+    <div class="btns">{% if wa_base %}<a class="btn btn--brass" href="{{ wa_base }}?text={{ wa_text }}" data-cta="thanks-whatsapp">WhatsApp a planner</a>{% endif %}<a class="btn btn--dark" href="{% url 'journal' %}">Read the blog</a><a class="btn btn--ghost" href="{% url 'seasons' %}">Season almanac</a></div>
   </div>
   <div class="panel panel--dark"><h2 class="h-s">While you wait</h2><ol class="tips" style="color: var(--mist-2)">
-    <li>Check passport validity: six months beyond your return is the safe rule.</li>
+    <li>Keep photo ID ready for permits: Aadhaar, voter ID or passport for Indians; passport and visa for others. Bhutan needs a passport or voter ID for Indians.</li>
     <li>Note any dates that cannot move: they shape the route first.</li>
-    <li>Think about pace: how many hotel changes feel right to you.</li>
+    <li>Keep two passport-size photos per person for Sikkim protected-area permits.</li>
     <li>Look at <a href="{% url 'how_we_work' %}" style="color: var(--brass)">how we work</a> and our <a href="{% url 'policy' 'refund-and-cancellation' %}" style="color: var(--brass)">refund policy</a>.</li></ol></div>
 </div></section>
 <script>window.dataLayer=window.dataLayer||[];dataLayer.push({event:"generate_lead"});</script>

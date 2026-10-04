@@ -1,0 +1,195 @@
+{
+  "slug": "dooars-gorumara-jaldapara-rhino-trail-4-nights",
+  "title": "Gorumara and Jaldapara rhino trail in four nights",
+  "summary": "Two nights each at Gorumara and Jaldapara, the two best rhino parks in West Bengal, with three or four safaris, Totopara and a tea estate. The classic first Dooars trip from Siliguri.",
+  "meta_description": "Four-night Dooars rhino trip from Siliguri: Gorumara watchtowers, Jaldapara jeep safaris, Totopara and tea estates, with Budget, Value and Comfort prices.",
+  "nights": 4,
+  "start": "Siliguri, NJP or Bagdogra",
+  "end": "Siliguri, NJP or Bagdogra",
+  "pace": "Easy",
+  "max_altitude_m": 250,
+  "best_months": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2
+  ],
+  "themes": [
+    "wildlife-and-birds",
+    "family-trips",
+    "photography",
+    "tea-country"
+  ],
+  "stops": [
+    {
+      "place": "gorumara",
+      "nights": 2
+    },
+    {
+      "place": "jaldapara",
+      "nights": 2
+    }
+  ],
+  "intro": [
+    "This loop gives you the best odds of seeing the one-horned rhinoceros in West Bengal, with two nights in each of the two main parks. Gorumara is small and good for watchtower waits; Jaldapara is bigger, with open grassland where jeeps cover more ground. Between them you should see rhino, gaur, elephants, deer, peafowl and hornbills.",
+    "Drives are short: 80 km to Lataguri, 75 km on to Madarihat and 125 km back to Siliguri. That leaves time for a dawn and an afternoon safari in each park, a visit to the Toto village of Totopara, and walks in the tea gardens."
+  ],
+  "highlights": [
+    "Three or four safaris across two parks, timed for dawn and late afternoon.",
+    "Watch the salt lick from the Jatraprasad watchtower at Gorumara.",
+    "Cross Jaldapara's Torsa grasslands, the best rhino habitat in West Bengal.",
+    "Visit Totopara, the only home of the Toto community, with a local guide.",
+    "Walk through working Dooars tea estates on the road between the parks."
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Siliguri to Lataguri and an afternoon safari",
+      "place": "gorumara",
+      "overnight": "Lataguri, Murti or Chalsa",
+      "drive": "80 km, 2–2.5 hours",
+      "meals": "Dinner",
+      "text": "Leave Siliguri or Bagdogra by 9 am and drive via Sevoke and Malbazar to Lataguri. Check in, have lunch and take the afternoon watchtower safari, ideally to Jatraprasad, where rhino, gaur and elephants come to a salt lick. Return before dusk; elephants cross the roads around Lataguri and Murti after dark."
+    },
+    {
+      "day": 2,
+      "title": "Dawn watchtower and the Murti river",
+      "place": "gorumara",
+      "overnight": "Lataguri, Murti or Chalsa",
+      "drive": "Local, 30–50 km",
+      "meals": "Breakfast, dinner",
+      "text": "Take the first safari of the day to a second tower, such as Chandrachur or Medla with its bullock-cart ride. After breakfast rest, or drive 25 km to the Jalpesh temple near Mainaguri. In the late afternoon walk on the stony bed of the Murti river and watch birds as the light goes."
+    },
+    {
+      "day": 3,
+      "title": "Tea country to Jaldapara",
+      "place": "jaldapara",
+      "overnight": "Madarihat",
+      "drive": "75 km, 2 hours",
+      "meals": "Breakfast, dinner",
+      "text": "Drive east through the tea gardens of Chalsa, Nagrakata, Banarhat and Birpara, stopping for a short walk on a garden road. Reach Madarihat by lunch and check in. In the afternoon take a jeep safari across the Torsa grasslands of Jaldapara National Park, the best place in West Bengal to see one-horned rhinos."
+    },
+    {
+      "day": 4,
+      "title": "Jaldapara at dawn and Totopara",
+      "place": "jaldapara",
+      "overnight": "Madarihat",
+      "drive": "Local, about 50 km",
+      "meals": "Breakfast, dinner",
+      "text": "Take the dawn jeep safari, or the elephant safari from the Hollong area if it is running that season. After breakfast drive about 22 km north to Totopara, home of the Toto community, near the Bhutan border. Walk quietly with your guide, buy tea or fruit in the village, and ask before photographing anyone. Return to Madarihat for a quiet evening."
+    },
+    {
+      "day": 5,
+      "title": "Madarihat to Siliguri",
+      "place": "siliguri",
+      "overnight": "",
+      "drive": "125 km, 3–3.5 hours",
+      "meals": "Breakfast",
+      "text": "After breakfast drive back along the Dooars road to Siliguri, reaching NJP or Bagdogra by early afternoon. If your train or flight is late, stop for lunch at Malbazar or the Coronation Bridge viewpoint at Sevoke on the way."
+    }
+  ],
+  "stays": [
+    "murti-banani-eco-tourism-centre-wbfdc",
+    "sinclairs-retreat-dooars-chalsa",
+    "jaldapara-tourist-lodge-madarihat"
+  ],
+  "includes": [
+    "Four nights' accommodation, twin sharing",
+    "Breakfast and dinner",
+    "Transport as per tier",
+    "Two safaris at Gorumara and two at Jaldapara (shared jeeps in Budget tier)",
+    "Car to Totopara and back",
+    "Driver's allowance, tolls and parking"
+  ],
+  "excludes": [
+    "Lunches and drinks",
+    "Elephant safari",
+    "Camera fees",
+    "Tips",
+    "Anything not listed under includes"
+  ],
+  "good_to_know": [
+    "Both parks close from 16 June to 15 September. Check current status before you travel.",
+    "Safari slots are limited and sold by the forest department; book as early as possible.",
+    "We do not sell elephant rides; if they are running, you can book them yourself on the official pages.",
+    "Dawn safaris in December and January are cold and often foggy; wear layers.",
+    "Totopara is a living village, not a sight; we visit with a local guide and keep groups small."
+  ],
+  "tiers": [
+    {
+      "name": "Budget",
+      "price_inr": 12000,
+      "stays": "Simple lodges in Lataguri and Madarihat",
+      "transport": "Buses between towns, autos locally; shared safari jeeps",
+      "note": "Same safaris for less, with more waiting for buses."
+    },
+    {
+      "name": "Value",
+      "price_inr": 22000,
+      "stays": "WBFDC Murti Banani and the WBTDC Jaldapara Tourist Lodge",
+      "transport": "Private car with driver for five days",
+      "note": "Government lodges close to the gates, with help booking safaris."
+    },
+    {
+      "name": "Comfort",
+      "price_inr": 38000,
+      "stays": "Sinclairs Retreat Dooars at Chalsa and the best resort in Madarihat",
+      "transport": "Private SUV with driver; private safari jeeps",
+      "note": "Private jeeps and comfortable rooms between safaris."
+    }
+  ],
+  "price_from_inr": 12000,
+  "save_tips": [
+    "Share safari jeeps with other guests; the fee is per vehicle, not per person.",
+    "Travel between November and February on weekdays, when lodges have rooms and safaris are easier to book.",
+    "Take the train on the Dooars line between New Mal Junction and Madarihat if timings suit.",
+    "Eat thalis in local restaurants rather than in resorts.",
+    "Book WBFDC and WBTDC lodges directly on the official sites."
+  ],
+  "faqs": [
+    {
+      "q": "Will I see a rhino on this trip?",
+      "a": "Your chances are good, though nothing is guaranteed. With two safaris at Jaldapara, which has the largest rhino population in West Bengal, and two at Gorumara, most travellers between December and April see at least one rhino. In October and November tall grass can hide them."
+    },
+    {
+      "q": "Which park should I visit first?",
+      "a": "Gorumara first, as it is closer to Siliguri and you can reach it in time for an afternoon safari on day one. Jaldapara then sits on the way to the Bhutan border if you want to continue to Phuentsholing, and is a straight 3–3.5 hour drive back to Siliguri."
+    },
+    {
+      "q": "Can I include an elephant safari?",
+      "a": "Elephant safaris at Jaldapara run only in some seasons, with very few seats sold online by the forest department. They were announced again for 2025–26. We do not sell them, but if they are running you can book one yourself and swap it for the dawn jeep safari. Check current status before you travel."
+    },
+    {
+      "q": "Is this trip good for children?",
+      "a": "Yes. Drives are short, safaris last about two hours and children usually love the animals. Very young children may struggle with dawn starts. Resorts in Lataguri and Chalsa have gardens, and Sinclairs has a pool. Keep children seated and quiet in the jeep."
+    },
+    {
+      "q": "Can I extend this trip to Bhutan?",
+      "a": "Yes. From Madarihat, Jaigaon and the Bhutan border town of Phuentsholing are about 35 km away. Indians need a passport or voter ID for a Bhutan entry permit and pay Bhutan's Sustainable Development Fee; foreigners need a Bhutan visa arranged in advance. Check current status before you travel."
+    },
+    {
+      "q": "What wildlife might I see besides rhinos?",
+      "a": "Asian elephants, gaur, sambar, barking deer, hog deer, wild boar, peafowl, and many birds including great and oriental pied hornbills. Leopards live in both parks but are seldom seen. There are no resident tigers in Gorumara or Jaldapara."
+    },
+    {
+      "q": "How do safari bookings work on this trip?",
+      "a": "We book safaris through the forest department's official online booking when it opens and use the counters at Lataguri and Madarihat as a back-up. Slots are named to each traveller, so we need ID details for everyone when you book. Check current status before you travel."
+    },
+    {
+      "q": "Can I do this trip in October?",
+      "a": "Yes, from 16 September onwards, but October has the Durga Puja holidays, when lodges and safaris are fully booked weeks ahead. The grass is also tall after the monsoon, so animals are harder to see. November to April is better."
+    },
+    {
+      "q": "Are prices per person?",
+      "a": "Yes, per person for two sharing a room, and indicative for the 2025–26 season. Peak dates cost more. Single travellers pay a supplement for a single room and a private car. Safari fees can change at the forest department's discretion."
+    }
+  ]
+}

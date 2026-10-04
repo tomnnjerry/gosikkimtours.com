@@ -1,0 +1,87 @@
+{
+ "slug": "east-sikkim-gangtok-silk-route-kalimpong-8-nights",
+ "title": "Gangtok, the Silk Route and Kalimpong in eight nights",
+ "summary": "An eight-night loop from Siliguri: three nights in Gangtok with Tsomgo and Nathu La, a night at Aritar, two at Zuluk, and two in Kalimpong on the way back down. It covers the whole of East Sikkim and finishes in an old trading town that the Silk Route once served.",
+ "meta_description": "8-night East Sikkim loop: Gangtok, Tsomgo, Nathu La, Aritar, Zuluk and Kalimpong from NJP or Bagdogra. Day-by-day plan, permits and tier prices.",
+ "nights": 8,
+ "start": "NJP or Bagdogra",
+ "end": "NJP or Bagdogra",
+ "pace": "Moderate",
+ "max_altitude_m": 4310,
+ "best_months": [1, 1, 1, 2, 2, 1, 0, 0, 1, 2, 2, 1],
+ "themes": ["snow-and-passes", "monasteries", "homestays", "photography", "family-trips"],
+ "stops": [
+  {"place": "gangtok", "nights": 3},
+  {"place": "aritar", "nights": 1},
+  {"place": "zuluk", "nights": 2},
+  {"place": "kalimpong-town", "nights": 2}
+ ],
+ "intro": [
+  "This loop follows the old trade in reverse. You start in Gangtok, the capital, and go up to Nathu La, the pass the caravans crossed. Then you drop to Aritar and climb the mule road to Zuluk, and finish in Kalimpong, the market town where Tibetan wool once came to be sold.",
+  "Starting in Gangtok means you are used to the hills before the higher nights at Zuluk, and the Nathu La permit is easy to arrange there. The night at Aritar breaks the journey and gives you a rest day by a lake between two high stretches. Kalimpong, at about 1,250 m, is a gentle place to end, with nurseries, monasteries and old colonial buildings."
+ ],
+ "highlights": [
+  "Nathu La at 4,310 m and Tsomgo Lake from a Gangtok base.",
+  "Rumtek and the monasteries of Gangtok without rushing.",
+  "Two mornings at Zuluk for sunrise from Thambi viewpoint.",
+  "The farm village of Aritar and its long forest lake.",
+  "Kalimpong's market, monasteries and flower nurseries to finish."
+ ],
+ "days": [
+  {"day": 1, "title": "NJP or Bagdogra to Gangtok", "place": "gangtok", "overnight": "Gangtok", "drive": "120 km, 4–5 hours", "meals": "Dinner", "text": "Drive up NH10 beside the Teesta through Sevoke and Rangpo to Gangtok. Check in, rest, and walk to MG Marg in the evening. Give your ID and photos to the agent for the Tsomgo and Nathu La permit, and send scans to your Zuluk host for the Silk Route permit if you have not already."},
+  {"day": 2, "title": "Gangtok monasteries and Rumtek", "place": "rumtek", "overnight": "Gangtok", "drive": "About 70 km, full day with visits", "meals": "Breakfast, dinner", "text": "Morning at Rumtek Monastery, with ID for the gate check, and a walk down to the old monastery. Return via Lingdum or go straight to Do Drul Chorten and the Namgyal Institute of Tibetology in the afternoon. Finish with tea on MG Marg. This easy day helps your body adjust before tomorrow's climb to 4,310 m."},
+  {"day": 3, "title": "Nathu La, Baba Mandir and Tsomgo Lake", "place": "nathu-la", "overnight": "Gangtok", "drive": "About 112 km return, 6–7 hours driving", "meals": "Breakfast, dinner", "text": "Leave Gangtok at 7 am in a registered vehicle. Visit Nathu La first, climbing slowly to the border viewing area, then Baba Harbhajan Singh Mandir and Tsomgo Lake on the way back. Return by mid-afternoon. Nathu La is usually closed on Mondays and Tuesdays; plan this day for Wednesday to Sunday, or do Tsomgo and Baba Mandir only."},
+  {"day": 4, "title": "Gangtok to Aritar", "place": "aritar", "overnight": "Aritar", "drive": "About 70 km, 3 hours", "meals": "Breakfast, dinner", "text": "A short drive down to Ranipool and Rorathang and up through Rhenock to Aritar at about 1,400 m. Spend the afternoon walking around Lampokhari, take a boat out if you like, and climb to Mankhim viewpoint before sunset. Dinner is with your homestay family."},
+  {"day": 5, "title": "Aritar to Zuluk via Rongli", "place": "zuluk", "overnight": "Zuluk", "drive": "About 50 km, 2.5–3 hours", "meals": "Breakfast, dinner", "text": "Visit Aritar Gumpa in the morning, then drive to Rongli for the permit check and climb through Lingtam and Padamchen to Zuluk at about 3,000 m. Arrive by lunch and rest in the afternoon. The three nights in Gangtok mean most people adjust well, but still drink water and avoid alcohol tonight."},
+  {"day": 6, "title": "Thambi sunrise, Nathang and Kupup", "place": "zuluk", "overnight": "Zuluk", "drive": "About 70 km return, 5–6 hours", "meals": "Breakfast, dinner", "text": "Leave before dawn for sunrise at Thambi viewpoint, with the zigzag road below and Kangchenjunga across the horizon. Continue across Nathang valley to Kupup and Elephant Lake at about 4,000 m, stop at Old Baba Mandir, and return to Zuluk for a late lunch. The afternoon is free."},
+  {"day": 7, "title": "Zuluk to Kalimpong via Rhenock and Pedong", "place": "kalimpong-town", "overnight": "Kalimpong", "drive": "About 100 km, 4.5–5.5 hours", "meals": "Breakfast, dinner", "text": "Drive down through Rongli and Rhenock and leave Sikkim at the Rishi Khola bridge, crossing into West Bengal towards Pedong and Algarah. This was the old trade road to Kalimpong. Arrive in the afternoon, check in, and walk through the town centre. In the monsoon this road can be affected by landslides, and the driver may use NH10 via Rangpo instead."},
+  {"day": 8, "title": "Kalimpong at leisure", "place": "kalimpong-town", "overnight": "Kalimpong", "drive": "About 30 km in town, half day", "meals": "Breakfast, dinner", "text": "Visit Zang Dhok Palri Phodang monastery on Durpin hill, a flower nursery, and the Haat Bazaar if it is a market day. Kalimpong was the main wool market for the Tibet trade, and old trading houses still stand near the bazaar. Try the local cheese and lollipops for which the town is known, and rest before the drive down."},
+  {"day": 9, "title": "Kalimpong to NJP or Bagdogra", "place": "siliguri", "overnight": "", "drive": "About 70–80 km, 2.5–3.5 hours", "meals": "Breakfast", "text": "Drive down through Teesta Bazaar and along the river to Sevoke and Siliguri. Kalimpong is closer to the plains than Gangtok, so a departure from about 1 pm is usually possible. Allow more time in the monsoon, when landslides can slow NH10 between Teesta Bazaar and Sevoke."}
+ ],
+ "stays": ["hotel-sonam-delek-gangtok", "mintokling-guest-house-gangtok", "elgin-nor-khill-gangtok", "aritar-village-homestays", "zuluk-silk-route-homestays"],
+ "includes": [
+  "Eight nights' accommodation, twin sharing",
+  "Breakfast and dinner throughout (Value and Comfort); breakfast and homestay dinners on Budget",
+  "Private car with driver for the whole loop (Value and Comfort)",
+  "Permit processing for Tsomgo, Nathu La and the Silk Route",
+  "Transfers from and to NJP or Bagdogra"
+ ],
+ "excludes": [
+  "Train and air fares",
+  "Lunches, drinks and snacks",
+  "Entry fees, yak rides, boating and ropeway tickets",
+  "Tips for drivers, guides and hosts",
+  "Costs from extra nights caused by weather or road closures"
+ ],
+ "good_to_know": [
+  "Nathu La and the Silk Route are open to Indian nationals only. Foreign travellers can do Gangtok, Tsomgo, Rumtek, Aritar and Kalimpong instead. Check current status before you travel.",
+  "Bring a government photo ID and at least six passport photos for the various permits.",
+  "Zuluk homestays are basic in every tier; comfort comes back in Gangtok and Kalimpong.",
+  "There are no ATMs in Zuluk or Aritar village; draw cash in Gangtok.",
+  "Snow can close the road above Zuluk from December to March; the plan then uses the spare afternoon."
+ ],
+ "tiers": [
+  {"name": "Budget", "price_inr": 23500, "stays": "Guesthouses in Gangtok and Kalimpong; homestays in Aritar and Zuluk", "transport": "Shared jeeps where possible; pooled vehicle for Nathu La; shared car for the Silk Route days", "note": "Best value with four people sharing the Silk Route car"},
+  {"name": "Value", "price_inr": 39000, "stays": "Hotel Sonam Delek or Mintokling in Gangtok, good homestays, a well-run mid-range hotel in Kalimpong", "transport": "Private car with driver for two, throughout", "note": "Breakfast and dinner included"},
+  {"name": "Comfort", "price_inr": 62000, "stays": "The Elgin Nor-Khill in Gangtok, best homestay rooms on the Silk Route, a heritage hotel in Kalimpong", "transport": "Private SUV with an experienced driver throughout", "note": "Guide for Gangtok and Rumtek monasteries included"}
+ ],
+ "price_from_inr": 23500,
+ "save_tips": [
+  "Share the car: on the Silk Route days the vehicle is more than half the cost.",
+  "Travel in late September, early December or March, outside the peak holiday weeks.",
+  "Use shared jeeps for Siliguri to Gangtok and Kalimpong to Siliguri on the Budget tier.",
+  "Eat in local restaurants in Gangtok and Kalimpong rather than hotel dining rooms.",
+  "Skip the Tsomgo ropeway and yak ride if you are watching costs; the lake walk is free."
+ ],
+ "faqs": [
+  {"q": "Why does this trip start in Gangtok rather than the Silk Route?", "a": "Three nights in Gangtok at about 1,650 m help your body adjust before the higher nights at Zuluk, and the Tsomgo and Nathu La permits are easiest to arrange there. Going in this direction also ends the trip in Kalimpong, which is closer to the plains and makes the final drive shorter."},
+  {"q": "Can foreigners do a version of this trip?", "a": "Yes, without Nathu La and the Silk Route above Rongli. Foreign travellers can do Gangtok, Rumtek, Tsomgo with a Protected Area Permit, Aritar and Kalimpong, with an extra night in Gangtok or Kalimpong instead of Zuluk. They need the Sikkim Inner Line Permit to enter Sikkim. Check current status before you travel."},
+  {"q": "How much driving does this trip involve?", "a": "Expect three to six hours of driving on most days, on winding mountain roads. The longest days are the transfer from NJP to Gangtok and from Zuluk to Kalimpong. Day 8 in Kalimpong and day 2 in Gangtok are lighter. Motion-sickness tablets help on the hairpins above Zuluk."},
+  {"q": "Is eight nights the right length for East Sikkim and Kalimpong?", "a": "It is a comfortable length. You could cut a night in Kalimpong or Gangtok, but the spare time is what absorbs weather delays, which are common in the hills. For a slower pace, add a second night at Aritar or an extra night in Kalimpong."},
+  {"q": "What is the highest point on this trip?", "a": "Nathu La, at 4,310 m, on day 3. Nathang and Kupup on day 6 reach about 4,000 m. You never sleep higher than Zuluk at about 3,000 m. If you feel unwell at altitude, tell your driver and descend; the itinerary can drop Nathu La and stay at Tsomgo instead."},
+  {"q": "Do I cross a state border on this trip?", "a": "Yes. Kalimpong is in West Bengal, and the road from Rhenock to Pedong crosses back from Sikkim. There is no permit needed for Indian nationals to leave Sikkim. Foreigners may need to show their Sikkim permit at checkposts and should keep it until they leave the state."},
+  {"q": "Is this trip suitable for older travellers?", "a": "Many older travellers enjoy it, but it is moderately demanding: long drives, cold mornings, basic rooms at Zuluk and a few hours at 4,000 m or more. Travellers with heart or lung conditions should take medical advice. A Gangtok and Kalimpong version without the Silk Route is gentler."},
+  {"q": "What is there to do in Kalimpong?", "a": "Kalimpong has Zang Dhok Palri Phodang monastery, Dr Graham's Homes, flower and cactus nurseries, the Haat Bazaar and walks on Deolo and Durpin hills. It is quieter than Darjeeling and Gangtok. Local cheese, noodles and the town's well-known lollipops are worth trying."},
+  {"q": "When should I avoid this trip?", "a": "Avoid July and August, when the monsoon brings landslides on NH10 and the Silk Route, cancelled permit trips and little view. Midwinter can be beautiful but the roads above Zuluk and to Nathu La close often. Peak holiday weeks in October and late December are expensive and crowded."}
+ ]
+}

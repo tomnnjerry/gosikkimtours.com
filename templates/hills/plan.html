@@ -1,12 +1,12 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}Plan a private journey · Go Sikkim Tours{% endblock %}
-{% block description %}Tell us your dates, who is travelling and which lands interest you. A planner replies within one working day with a first route and indicative price. No payment to start.{% endblock %}
+{% block title %}Plan a trip · Go Sikkim Tours{% endblock %}
+{% block description %}Tell us your dates, who is travelling and where you want to go. A planner replies within one working day with a first route and a price in each tier. No payment to start.{% endblock %}
 {% block cta %}{% endblock %}
 {% block fab %}{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
-  <p class="eyebrow">Begin a journey</p><h1 class="h-hero">Tell us <span class="accent">the tale</span></h1>
-  <p class="lede">Three short steps, about two minutes. A planner replies within one working day with a first route and an indicative price. No payment to start.</p></div></header>
+  <p class="eyebrow">Plan a trip</p><h1 class="h-hero">Tell us <span class="accent">the trip</span></h1>
+  <p class="lede">Three short steps, about two minutes. A planner replies within one working day with a first route and a price in each tier. No payment to start.</p></div></header>
 <section class="wrap split" style="padding-bottom: 96px">
   <form class="split__main wizard" method="post" novalidate data-wizard data-cta-form="plan">
     {% csrf_token %}
@@ -17,7 +17,7 @@
 
     <fieldset class="wizard__step form" data-step="1">
       <legend class="h-m full">Where and when</legend>
-      <div class="field full"><span class="label">Which lands? <small>(choose any, or none if unsure)</small></span>
+      <div class="field full"><span class="label">Where? <small>(choose any, or none if unsure)</small></span>
         <div class="checks checks--lands">{% for c in form.lands %}<label data-land="{{ c.data.value }}">{{ c.tag }} <span class="lbadge lbadge--sm" data-land="{{ c.data.value }}">{% icon c.data.value %}</span>{{ c.choice_label }}</label>{% endfor %}</div></div>
       <div class="field"><label for="{{ form.month.id_for_label }}">Month you hope to travel</label>{{ form.month }}</div>
       <div class="field"><label for="{{ form.nights.id_for_label }}">{{ form.nights.label }}</label>{{ form.nights }}</div>
@@ -27,9 +27,9 @@
     <fieldset class="wizard__step form" data-step="2">
       <legend class="h-m full">Who and how</legend>
       <div class="field"><label for="{{ form.travellers.id_for_label }}">Travellers</label>{{ form.travellers }}</div>
-      <div class="field"><label for="{{ form.budget.id_for_label }}">Budget per person <small>(optional)</small></label>{{ form.budget }}</div>
+      <div class="field"><label for="{{ form.budget.id_for_label }}">Tier <small>(optional)</small></label>{{ form.budget }}</div>
       <div class="field full"><label for="{{ form.message.id_for_label }}">{{ form.message.label }} <small>(optional)</small></label>{{ form.message }}
-        <p class="small muted" style="margin: 0">Occasions, interests, pace, diets, mobility, the one thing you must not miss.</p></div>
+        <p class="small muted" style="margin: 0">Snow, toy train, wildlife, homestays, a rough budget per person, anyone older or very young, the one thing you must not miss.</p></div>
       <div class="full wizard__nav"><button class="btn btn--ghost" type="button" data-prev>Back</button><button class="btn btn--dark" type="button" data-next>Next: your details</button></div>
     </fieldset>
 
@@ -40,12 +40,12 @@
       <div class="field"><label for="{{ form.phone.id_for_label }}">{{ form.phone.label }} <small>(optional)</small></label>{{ form.phone }}</div>
       <fieldset class="field"><legend>Best way to reach you</legend><div class="checks">{% for c in form.contact_pref %}<label>{{ c.tag }} {{ c.choice_label }}</label>{% endfor %}</div></fieldset>
       <div class="full wizard__nav"><button class="btn btn--ghost" type="button" data-prev>Back</button><button class="btn btn--brass" type="submit">Send to a planner</button></div>
-      <p class="full small muted">We use your details only to plan your journey. See our <a href="{% url 'policy' 'privacy' %}">privacy policy</a>.</p>
+      <p class="full small muted">We use your details only to plan your trip. See our <a href="{% url 'policy' 'privacy' %}">privacy policy</a>.</p>
     </fieldset>
   </form>
   <aside class="split__aside">
     <div class="panel panel--dark"><h2 class="h-s">What happens next</h2><ol class="tips" style="color: var(--mist-2)">
-      <li>A planner reads your note and replies within one working day.</li><li>We send a first route with hotels and an indicative price.</li>
+      <li>A planner reads your note and replies within one working day.</li><li>We send a first route with a Budget, Value and Comfort price.</li>
       <li>We refine it with you until it is right.</li><li>You pay a deposit only when you are ready to book.</li></ol></div>
     {% include "hills/partials/trust.html" %}
     <div class="panel panel--line"><p class="eyebrow" style="margin-bottom: 10px">Prefer to talk?</p><p style="margin: 0">{% if wa_base %}<a href="{{ wa_base }}?text={{ wa_text }}" data-cta="plan-whatsapp">WhatsApp a planner</a><br>{% endif %}<a href="mailto:{{ SITE.email }}">{{ SITE.email }}</a><br>{{ SITE.phone }}</p></div>

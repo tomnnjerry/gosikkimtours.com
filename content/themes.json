@@ -1,0 +1,142 @@
+[
+ {
+  "slug": "shoestring",
+  "name": "Shoestring trips",
+  "tagline": "The hills on shared jeeps and homestays",
+  "summary": "Trips built around shared jeeps, homestays and local food, with a private car only where a permit or a bad road demands one. The cheapest honest way to see the hills.",
+  "intro": [
+   "Most of the Eastern Himalaya can be travelled the way hill people travel: shared jeeps from the Siliguri and Gangtok stands, homestays with home food, and momo shops instead of hotel buffets.",
+   "We price these trips at the Budget tier and tell you exactly where a reserved car or a registered tourist vehicle is required, for example inside the protected areas of North and East Sikkim."
+  ]
+ },
+ {
+  "slug": "homestays",
+  "name": "Homestays",
+  "tagline": "Nights with families in hill villages",
+  "summary": "Village homestays where the family cooks, the porch looks at the mountains and the money stays in the village.",
+  "intro": [
+   "A homestay in Sikkim, Kalimpong or the Dooars is a room in a family home, usually with an attached bathroom, home-cooked meals and hosts who know every path in the village.",
+   "We pick homestays registered with the state tourism departments and tell you plainly what to expect: hot water by bucket in some places, early dinners and quiet nights."
+  ]
+ },
+ {
+  "slug": "honeymoons",
+  "name": "Honeymoons",
+  "tagline": "Quiet rooms with a view of Kanchenjunga",
+  "summary": "Unhurried routes for couples, with fewer early starts and one or two rooms worth the money.",
+  "intro": [
+   "Couples come to the hills for snow, views and quiet. We build honeymoon routes with fewer hotel changes, late breakfasts and one good room on the route, often in Pelling, Darjeeling or Lachung.",
+   "We mix tiers so the budget goes where you will notice it: a view room on the night that matters and simple, clean rooms elsewhere."
+  ]
+ },
+ {
+  "slug": "family-trips",
+  "name": "Family trips",
+  "tagline": "Short drives, safe roads and easy days",
+  "summary": "Routes for families with children or older parents: short drive days, low altitude nights and simple food.",
+  "intro": [
+   "Hill roads are long and winding, so family routes keep drive days short and avoid sleeping above 3,000 m on the first nights.",
+   "We choose rooms with heaters in winter, families who cook mild food for children and stops where everyone can stretch their legs."
+  ]
+ },
+ {
+  "slug": "snow-and-passes",
+  "name": "Snow and high passes",
+  "tagline": "Nathu La, Zero Point and Chele La",
+  "summary": "High passes and snow days, planned with permits, warm layers and time to adjust to the height.",
+  "intro": [
+   "Snow is the reason many travellers come: Nathu La and Tsomgo in East Sikkim, Zero Point and Gurudongmar in the north, Chele La in Bhutan.",
+   "Every snow day needs a permit or a registered vehicle, and the roads close after heavy snowfall or landslides. We plan a spare day and tell you the rules for your nationality."
+  ]
+ },
+ {
+  "slug": "monasteries",
+  "name": "Monasteries",
+  "tagline": "Gompas, dzongs and morning prayers",
+  "summary": "Monasteries and dzongs visited at their own hours, with dress and photo rules explained.",
+  "intro": [
+   "Buddhism shaped Sikkim, Bhutan and the Darjeeling hills. Rumtek, Pemayangtse, Tashiding, Ghoom, Zang Dhok Palri and the dzongs of Bhutan are working places of worship.",
+   "We time visits for morning prayers or festival days and explain what to wear, where photos are allowed and how to walk around a chorten."
+  ]
+ },
+ {
+  "slug": "tea-country",
+  "name": "Tea country",
+  "tagline": "Darjeeling, Temi and the Dooars gardens",
+  "summary": "Tea gardens to walk through, factories to visit and the flush calendar explained.",
+  "intro": [
+   "Darjeeling tea grows on steep slopes between about 600 m and 2,000 m. Sikkim has one estate, Temi, and the Dooars plains grow the strong CTC tea most Indians drink.",
+   "We plan garden walks and factory visits in the plucking season, March to November, and tell you which flush you will taste."
+  ]
+ },
+ {
+  "slug": "toy-train",
+  "name": "Toy train",
+  "tagline": "The Darjeeling Himalayan Railway",
+  "summary": "The UNESCO-listed toy train: joy rides, the full run and how to get seats.",
+  "intro": [
+   "The Darjeeling Himalayan Railway climbs from New Jalpaiguri to Darjeeling on a two-foot gauge line opened in 1881. It is a UNESCO World Heritage Site.",
+   "Most visitors take the short joy ride from Darjeeling to Ghoom and back, behind a steam or diesel engine. We book seats when the IRCTC window opens and plan a back-up if the line is closed."
+  ]
+ },
+ {
+  "slug": "treks-and-walks",
+  "name": "Treks and walks",
+  "tagline": "Sandakphu, Goecha La and village trails",
+  "summary": "Walks graded by hours, height and terrain, with registered guides and honest costs.",
+  "intro": [
+   "The region has some of India's best short treks: the Singalila ridge to Sandakphu, the Dzongri trail from Yuksom and day walks between villages in Kalimpong and Bhutan.",
+   "We grade every walk by hours on foot, height gained and the highest point, and use registered local guides as the rules require."
+  ]
+ },
+ {
+  "slug": "wildlife-and-birds",
+  "name": "Wildlife and birds",
+  "tagline": "Rhino, elephant, red panda and hornbills",
+  "summary": "Jeep safaris in the Dooars and forest walks in the hills, timed to the season and the park rules.",
+  "intro": [
+   "The Dooars parks, Jaldapara and Gorumara, hold one-horned rhino, Asian elephants and gaur. Higher up, Singalila and Neora Valley shelter the red panda.",
+   "Parks close from mid-June to mid-September. We book safari slots ahead in the busy months and pick lodges at the forest edge."
+  ]
+ },
+ {
+  "slug": "festivals",
+  "name": "Festivals",
+  "tagline": "Losar, Pang Lhabsol and the tshechus",
+  "summary": "Journeys built around masked dances, harvest festivals and Durga Puja in the hills.",
+  "intro": [
+   "Monastery festivals with masked cham dances, Losar at new year, Saga Dawa and Pang Lhabsol in Sikkim and the tshechus of Bhutan follow the Tibetan lunar calendar.",
+   "Dates move each year, so we confirm them when you enquire and book rooms early for the busy festival weeks."
+  ]
+ },
+ {
+  "slug": "food-trails",
+  "name": "Food trails",
+  "tagline": "Momos, thukpa, gundruk and ema datshi",
+  "summary": "Market mornings, home kitchens and the dishes each hill town argues about.",
+  "intro": [
+   "Hill food is simple and warming: momos and thukpa in every town, gundruk and sel roti in Nepali homes, Lepcha dishes in Dzongu and chilli and cheese in Bhutan.",
+   "We add market walks, a cooking session in a homestay and the tea rooms and momo shops our planners actually eat at."
+  ]
+ },
+ {
+  "slug": "photography",
+  "name": "Photography",
+  "tagline": "Kanchenjunga at dawn and prayer flags at dusk",
+  "summary": "Routes timed for light: sunrise viewpoints, clear months and the places worth carrying a tripod to.",
+  "intro": [
+   "The clearest views of Kanchenjunga come between October and December and again in March and April. Tiger Hill, Pelling, Sandakphu and Zuluk are the classic dawn points.",
+   "We plan photography routes around light, not checklists, with early starts, unhurried mornings and drivers who will stop when you ask."
+  ]
+ },
+ {
+  "slug": "weekend-breaks",
+  "name": "Weekend breaks",
+  "tagline": "Two to four nights from Siliguri",
+  "summary": "Short trips from NJP and Bagdogra for travellers with a long weekend.",
+  "intro": [
+   "Many travellers have three or four days. From Siliguri you can reach Darjeeling, Kalimpong, Mirik or the Dooars forests in three hours or less.",
+   "We keep weekend routes to one or two bases so you spend your days there, not on the road."
+  ]
+ }
+]

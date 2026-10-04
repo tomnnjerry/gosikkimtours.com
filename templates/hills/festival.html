@@ -27,6 +27,6 @@
     <a class="link-arrow" href="{% url 'festivals' %}">Festival calendar →</a>
   </aside>
 </div></section>
-{% if journeys %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Festival journeys</p><h2 class="h-l">Routes built around the calendar</h2></div></div>
+{% if journeys %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Festival packages</p><h2 class="h-l">Routes built around the calendar</h2></div></div>
   <div class="grid grid--3" data-fill>{% for j in journeys %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=f.region_obj.slug %}</div></div></section>{% endif %}
 {% endblock %}

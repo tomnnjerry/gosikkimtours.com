@@ -1,0 +1,71 @@
+{
+  "slug": "south-west-sikkim-namchi-ravangla-pelling-rinchenpong-5-nights",
+  "title": "Namchi, Ravangla, Pelling and Rinchenpong in five nights",
+  "summary": "A five-night loop from Siliguri through South and West Sikkim: the great statues of Namchi, Buddha Park and Temi tea at Ravangla, two nights in Pelling and a quiet farm night in Rinchenpong. Drives are short and the pace is easy.",
+  "meta_description": "5-night South and West Sikkim loop from NJP: Namchi, Ravangla Buddha Park, Temi tea, Pelling, Rinchenpong. Day-by-day plan and Budget to Comfort prices.",
+  "nights": 5,
+  "start": "NJP or Bagdogra",
+  "end": "NJP or Bagdogra",
+  "pace": "Easy",
+  "max_altitude_m": 2150,
+  "best_months": [1, 2, 2, 2, 1, 0, 0, 0, 1, 2, 2, 2],
+  "themes": ["family-trips", "monasteries", "tea-country", "homestays"],
+  "stops": [
+    {"place": "namchi", "nights": 1},
+    {"place": "ravangla", "nights": 1},
+    {"place": "pelling", "nights": 2},
+    {"place": "rinchenpong", "nights": 1}
+  ],
+  "intro": [
+    "This loop avoids Gangtok entirely and shows the gentler south and west of Sikkim. No drive is longer than about 3 hours except the first and last, and each night is in a different kind of place: a district town, a cool monastery town, Sikkim's best-known view, and a farming village on a ridge.",
+    "It suits families, older travellers and anyone who wants mountains and monasteries without passes, permits or long days in a car. Indians need no permits at all. Foreign travellers need only the Sikkim ILP."
+  ],
+  "highlights": [
+    "The 45 m statue of Guru Rinpoche at Samdruptse and Char Dham on Solophok hill.",
+    "Buddha Park at Ravangla at opening time, before the cloud.",
+    "A walk through Temi Tea Garden, Sikkim's only tea estate.",
+    "Two mornings facing Kangchenjunga in Pelling, with Pemayangtse and Rabdentse.",
+    "A quiet farm night in Rinchenpong with home-grown food."
+  ],
+  "days": [
+    {"day": 1, "title": "Siliguri to Namchi", "place": "namchi", "overnight": "Namchi", "drive": "100 km, 3.5–4 hours", "meals": "Dinner", "text": "Pick-up at NJP or Bagdogra in the morning. Drive along the Teesta via Sevoke to Melli, then climb to Namchi at about 1,315 m. After lunch, drive up to Samdruptse to see the statue of Guru Padmasambhava, stopping at the Rock Garden on the way down. Late afternoon at Char Dham on Solophok hill. Evening walk around the central plaza."},
+    {"day": 2, "title": "Temi Tea Garden and Ravangla", "place": "ravangla", "overnight": "Ravangla", "drive": "50 km, 2.5 hours with stops", "meals": "Breakfast, dinner", "text": "Drive via Damthang to Temi Tea Garden and walk among the tea bushes, then buy tea at the factory counter. Continue to Ravangla at about 2,100 m. In the afternoon visit Ralang Monastery and the old gompa below town. Ravangla is cool and often misty; ask for a heater."},
+    {"day": 3, "title": "Buddha Park and on to Pelling", "place": "pelling", "overnight": "Pelling", "drive": "50 km, 2–2.5 hours", "meals": "Breakfast, dinner", "text": "Be at Buddha Park when it opens for the quietest visit and the best chance of a clear sky. Drive down to Legship on the Rangeet and up through Gyalshing to Pelling. Afternoon at leisure, or walk to the helipad ground in Upper Pelling for evening views of the range."},
+    {"day": 4, "title": "Pelling: Pemayangtse, Rabdentse and Khecheopalri", "place": "pelling", "overnight": "Pelling", "drive": "70 km, local", "meals": "Breakfast, dinner", "text": "Sunrise on Kangchenjunga. Visit Pemayangtse Monastery and walk to the Rabdentse ruins. After lunch, drive to Khecheopalri Lake and back via Rimbi waterfall, or, if you prefer a lighter day, visit the skywalk and Sangachoeling and rest."},
+    {"day": 5, "title": "Pelling to Rinchenpong", "place": "rinchenpong", "overnight": "Rinchenpong", "drive": "40 km, 1.5–2 hours", "meals": "Breakfast, lunch, dinner", "text": "A last sunrise in Pelling, then a short drive south to Rinchenpong at about 1,700 m. After lunch at your farmstay or homestay, walk to Rinchenpong Monastery and its rare statue of the Adi Buddha, then down through the village to the old poison lake. Sunset over the range from the ridge."},
+    {"day": 6, "title": "Rinchenpong to Siliguri", "place": "siliguri", "overnight": "", "drive": "130 km, 5 hours", "meals": "Breakfast", "text": "Sunrise from the ridge, then breakfast and the drive down to Jorethang and Melli and out to the plains. Reach NJP or Bagdogra by early afternoon. Book onward trains or flights for after 4 pm, and later in the monsoon."}
+  ],
+  "stays": ["mount-narsing-village-resort-ravangla", "norbu-ghang-resort-pelling", "upper-pelling-family-guesthouses", "elgin-mount-pandim-pelling", "yangsum-heritage-farm-rinchenpong"],
+  "includes": ["Accommodation for 5 nights, twin sharing", "Breakfast and dinner daily; all meals in Rinchenpong", "Transport as per the tier", "Driver allowances, fuel, tolls and parking"],
+  "excludes": ["Lunches except in Rinchenpong", "Entry fees at Samdruptse, Char Dham, Buddha Park and monuments", "Sikkim ILP fees for foreign nationals", "Guides", "Personal expenses and tips"],
+  "good_to_know": [
+    "No permits are needed for Indians; foreigners need the Sikkim ILP. Check current status before you travel.",
+    "The highest night is Pelling at 2,150 m, so altitude is not a concern for most people.",
+    "Rinchenpong has no reliable ATM; carry cash from Pelling or Jorethang.",
+    "Ravangla is cold and foggy on many days, even in spring and autumn."
+  ],
+  "tiers": [
+    {"name": "Budget", "price_inr": 14500, "stays": "Simple hotels in Namchi and Ravangla, family guesthouses in Pelling, a homestay in Rinchenpong", "transport": "Shared jeeps between towns; reserved cars for sightseeing days", "note": "Needs early starts and some changes at Jorethang and Gyalshing."},
+    {"name": "Value", "price_inr": 26000, "stays": "Good hotels in Namchi, Mt Narsing Village Resort, Norbu Ghang Resort, Yangsum Heritage Farm", "transport": "Private small car throughout", "note": "The easiest balance of comfort and cost for families."},
+    {"name": "Comfort", "price_inr": 42000, "stays": "Best available hotels in Namchi and Ravangla, Elgin Mount Pandim, Yangsum Heritage Farm", "transport": "Private SUV throughout", "note": "Quiet heritage rooms and an SUV with the same driver all week."}
+  ],
+  "price_from_inr": 14500,
+  "save_tips": [
+    "Travel as four in one car; the car is a fixed cost whatever the group size.",
+    "Skip the reserved car between Namchi and Ravangla and take a morning shared jeep.",
+    "Choose homestays with meals included in Ravangla and Rinchenpong.",
+    "Travel in February, March or late November for lower rates and clear skies.",
+    "Buy Temi tea at the estate counter rather than in tourist shops."
+  ],
+  "faqs": [
+    {"q": "Who is this five-night trip best for", "a": "It suits families with children, older travellers and anyone who prefers short drives and calm towns over high passes. There is no permit-heavy day, no altitude above about 2,150 m and no drive longer than 5 hours. Keen trekkers or snow seekers should look at Yuksom treks or North Sikkim instead."},
+    {"q": "How much does the five-night trip cost", "a": "Indicative per-person prices on twin sharing are about ₹14,500 in the Budget tier, ₹26,000 in Value and ₹42,000 in Comfort, including rooms, breakfasts, dinners and transport. Rinchenpong meals are all included. Prices rise in October, the Puja holidays and New Year week, and fall in the monsoon."},
+    {"q": "Can I add Gangtok to this loop", "a": "Yes. Add two nights in Gangtok before Namchi or after Ravangla: Gangtok to Ravangla is about 65 km and 2.5–3 hours. That makes a seven-night trip. Gangtok adds city life, Rumtek and Tsomgo Lake, but also busier roads. Ask us for a combined plan."},
+    {"q": "Can I add Yuksom to this trip", "a": "Yes. Add a night in Yuksom between Pelling and Rinchenpong. The Pelling–Yuksom drive is about 1.5–2 hours, and Yuksom to Rinchenpong is about 2.5–3 hours via Gyalshing or Tashiding. You gain Sikkim's first capital, Dubdi Monastery and Tashiding, at the cost of one more day."},
+    {"q": "What is the best time for this loop", "a": "October to early December and February to April are best, with clear mornings and dry roads. March and April bring flowers and the first flush at Temi. January is cold but bright. June to September is the monsoon: views are rare and landslides can disrupt the drives, so it is the least suitable time."},
+    {"q": "Is this trip suitable for elderly travellers", "a": "Yes. Most sights can be reached by car with short walks. Buddha Park and Char Dham have paved paths with some steps. The Rabdentse walk is about 1 km each way on a forest path, which can be skipped. Choose the Value or Comfort tier for warmer rooms and a private car."},
+    {"q": "Do I need a guide for this trip", "a": "No. Drivers in Sikkim know the sights and will drop you at each one. A local guide can add depth at Pemayangtse, Rabdentse or Rinchenpong, for about ₹800–1,500 per group, and your hotel can arrange one. For monastery visits, a guide helps explain paintings and rituals."},
+    {"q": "Will I see Kangchenjunga on this trip", "a": "You have several chances: from Namchi and Samdruptse, Ravangla, two mornings in Pelling and one or two in Rinchenpong. Between October and April, most travellers see the range at least once, usually at sunrise. In the monsoon, views are rare, so plan the trip outside June to September if the mountains matter most."},
+    {"q": "What happens if a road is closed", "a": "Landslides can close roads for hours, mainly in the monsoon. Our drivers will take an alternative route where possible, such as via Ravangla instead of Jorethang. A delay may shorten a sightseeing day, and in rare cases a night may need to change. Check current status before you travel and keep your last day flexible."}
+  ]
+}

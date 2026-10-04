@@ -1,0 +1,173 @@
+{
+  "slug": "namchi",
+  "name": "Namchi",
+  "kind": "Hill town",
+  "tagline": "Guru Rinpoche on the hilltop and Shiva on the next ridge",
+  "summary": "Namchi is the headquarters of Namchi district (the old South Sikkim) at about 1,315 m, a clean, easy-going town 100 km from Siliguri. Go for the giant Guru Padmasambhava statue at Samdruptse, Char Dham on Solophok hill and the walk up Tendong Hill. One night is enough; it also works as a day stop between Siliguri and Ravangla.",
+  "meta_description": "Namchi guide: Samdruptse statue, Char Dham, Tendong Hill walk, food, costs, where to stay and how to reach Namchi from Siliguri and Gangtok.",
+  "wiki": "Namchi",
+  "image_query": "Samdruptse Namchi",
+  "lat": 27.17,
+  "lng": 88.36,
+  "altitude_m": 1315,
+  "nights": 1,
+  "best_months": [1, 2, 2, 2, 1, 0, 0, 0, 1, 2, 2, 2],
+  "themes": ["monasteries", "family-trips", "weekend-breaks", "festivals"],
+  "intro": [
+    "Namchi means 'sky high' in Sikkimese, a name that makes more sense when you stand at Samdruptse, 7 km above town, beside a statue of Guru Padmasambhava about 45 m tall. Below it, the town spreads over a broad ridge with a tidy central plaza, a fountain, a sports stadium and a long market street. It is warmer and lower than Ravangla or Pelling.",
+    "Since the 2000s the state has built two large pilgrim sites here: the Samdruptse statue, completed in 2004, and Char Dham at Solophok, opened in 2011, which brings Hindu pilgrims from across India. To the north rises Tendong Hill, sacred to the Lepcha people, whose legend of the great flood centres on it.",
+    "Namchi is an easy first stop out of Siliguri, about 3.5–4 hours by road, and a good base for Temi Tea Garden and Ravangla. Most visitors spend one night and keep moving to Pelling or Gangtok."
+  ],
+  "highlights": [
+    {"title": "Samdruptse statue", "text": "A 45 m statue of Guru Padmasambhava on a hilltop at about 2,100 m, facing the Kangchenjunga range."},
+    {"title": "Char Dham at Solophok", "text": "A hill complex with replicas of India's four main pilgrim shrines and a 33 m statue of Shiva."},
+    {"title": "Tendong Hill", "text": "A forested hill sacred to the Lepchas, with a walking trail to a viewpoint at about 2,600 m."},
+    {"title": "Namchi Rock Garden", "text": "A terraced garden of flowers, ponds and paths on the road up to Samdruptse."},
+    {"title": "Ngadak Monastery", "text": "An old monastery in Namchi town, with a newer hall beside the eighteenth-century building."},
+    {"title": "An easy first night", "text": "Only 3.5–4 hours from Siliguri, with good roads and hotels for all budgets."}
+  ],
+  "facts": [
+    ["Altitude", "About 1,315 m"],
+    ["From Siliguri", "About 100 km, 3.5–4 hours"],
+    ["From Gangtok", "About 78 km, 3 hours"],
+    ["Best for", "Pilgrim sites, families, a short break"],
+    ["Nights", "1"],
+    ["Permits", "None for Indians; ILP for foreigners"]
+  ],
+  "how_to_reach": [
+    {"mode": "Shared jeep", "text": "Shared jeeps leave Siliguri for Namchi through the morning and early afternoon, about ₹250–350 a seat and 3.5–4 hours via Melli. From Gangtok, morning jeeps cost about ₹200–300. Jorethang, 20 km below Namchi, has frequent jeeps too."},
+    {"mode": "Private car", "text": "A reserved car from NJP or Bagdogra costs about ₹3,800–4,800 and takes 3.5–4 hours via Sevoke, the Teesta valley and Melli. From Gangtok it is about ₹3,500–4,500 and 3 hours."},
+    {"mode": "Air", "text": "Bagdogra (IXB) is about 110 km and 4 hours away. Pakyong airport near Gangtok has had irregular flights; check current status before you travel."},
+    {"mode": "Rail", "text": "New Jalpaiguri (NJP) is the nearest major railway station, about 105 km away."}
+  ],
+  "where_to_stay": "Namchi has the widest range of hotels in South Sikkim. Mid-range hotels near the central plaza and on the road to Samdruptse cost ₹2,500–5,000 a room, with simpler hotels at ₹1,200–2,500. A few larger hotels have Kangchenjunga views from upper floors. Avoid booking rooms close to the stadium during football tournaments if you want quiet.",
+  "stays": [],
+  "nearby": ["ravangla", "rinchenpong", "pelling", "darjeeling-town"],
+  "tips": [
+    "Visit Samdruptse in the morning and Char Dham in the afternoon; both are about 5–7 km from town in different directions.",
+    "Char Dham has a strict dress code and shoe rules inside the shrines; carry socks for cold floors.",
+    "For Tendong Hill, start from Damthang early and carry water; there are no shops on the trail.",
+    "Namchi is warmer than Ravangla; it is a good winter stop when higher towns are icy.",
+    "Expect large crowds at Char Dham on Mondays in the Hindu month of Shravan and during Maha Shivaratri."
+  ],
+  "costs": [
+    {"item": "Shared jeep Siliguri to Namchi", "inr": "₹250–350 a seat"},
+    {"item": "Reserved car NJP to Namchi", "inr": "₹3,800–4,800 per car"},
+    {"item": "Local car for Samdruptse and Char Dham, half day", "inr": "₹1,500–2,200 per car"},
+    {"item": "Samdruptse entry", "inr": "Around ₹30–50 per person"},
+    {"item": "Char Dham entry", "inr": "Around ₹50–100 per person"},
+    {"item": "Mid-range hotel room", "inr": "₹2,500–5,000 a night"},
+    {"item": "Plate of momos or thali", "inr": "₹100–250"}
+  ],
+  "local_word": {"word": "Namchi", "language": "Sikkimese (Bhutia)", "meaning": "Sky high, the meaning usually given for the town's name"},
+  "story": {
+    "title": "Tendong Hill and the great flood",
+    "paras": [
+      "The Lepchas, the oldest known inhabitants of Sikkim, tell of a time when the rivers Rangeet and Teesta rose and flooded the whole land. People and animals fled uphill as the water climbed, and many were lost.",
+      "A group of Lepchas climbed Tendong, the hill that rises north of Namchi. They prayed to the hill, and Tendong grew upwards, staying always above the water, until the flood went down. The name is usually explained as the 'upraised horn' of the hill. The survivors repopulated the land below.",
+      "Every year on 8 August, Lepcha communities across Sikkim and Darjeeling hold Tendong Lho Rum Faat, a festival of thanks to the hill, with prayers led by Lepcha priests, songs and offerings. Some gather on Tendong itself, others in towns such as Namchi and Kalimpong. The day is a public holiday in Sikkim.",
+      "Tendong is now a protected forest with a trail from Damthang to a viewpoint near the top. Walking it, you pass through the same oak and rhododendron forest that the story describes as the last dry ground in Sikkim."
+    ],
+    "sources": [
+      {"title": "Tendong Lho Rumfaat (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Tendong_Lho_Rumfaat"},
+      {"title": "Lepcha people (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Lepcha_people"}
+    ]
+  },
+  "faqs": [
+    {"q": "How many days do I need in Namchi", "a": "One night is enough for most people. You can see Samdruptse, Char Dham and the Rock Garden in a half day by car, and add Temi Tea Garden or Ravangla the next morning on your way north. Add a second night if you want to walk up Tendong Hill, which takes a long half day from Damthang."},
+    {"q": "How far is Namchi from Siliguri", "a": "Namchi is about 100 km from Siliguri, 3.5–4 hours by road via Sevoke, the Teesta valley, Melli and Jorethang or the Melli–Namchi road. A shared jeep costs about ₹250–350 a seat and a reserved car from NJP about ₹3,800–4,800. It is one of the quickest Sikkim towns to reach from the plains."},
+    {"q": "What is Char Dham in Namchi", "a": "Char Dham, also called Siddhesvara Dham, is a pilgrim complex on Solophok hill about 5 km from Namchi, opened by the Sikkim government in 2011. It has a 33 m (108 ft) statue of Shiva, replicas of the four main dhams of India (Badrinath, Jagannath, Rameswaram and Dwarka) and of the twelve jyotirlingas. Entry is about ₹50–100."},
+    {"q": "Who does the Samdruptse statue show", "a": "It shows Guru Padmasambhava, also called Guru Rinpoche, who brought Buddhism to the Himalaya and is the patron saint of Sikkim. The statue is about 45 m (135 ft) tall and stands on Samdruptse hill above Namchi. The Dalai Lama laid its foundation stone in 1997, and it was completed in 2004."},
+    {"q": "Can foreigners visit Namchi", "a": "Yes. Foreign nationals need the Sikkim Inner Line Permit, available at the Melli and Rangpo checkposts or online, and should carry it with their passport. No extra permit is needed for Namchi, Samdruptse, Char Dham or Tendong. Permit rules can change, so check current status before you travel."},
+    {"q": "Is Namchi good for a family trip", "a": "Yes. Drives are short, roads are good, sights are easy to reach by car with little walking, and there are hotels for every budget. Children usually enjoy the Rock Garden and the size of the statues. Namchi is milder than Ravangla or Pelling, which helps with young children in winter."},
+    {"q": "Can you see Kangchenjunga from Namchi", "a": "Yes, on clear days, especially from Samdruptse hill and the upper floors of some hotels, mainly from October to March in the morning. Namchi is lower and farther from the range than Pelling, so the view is smaller. Haze from the plains can hide it in spring. Treat it as a bonus rather than the main reason to come."},
+    {"q": "What is the weather like in Namchi", "a": "Namchi is mild for Sikkim: about 5–15°C in winter, 15–25°C in spring and autumn, and warm and wet in the monsoon. Fog is common in the monsoon and in some winter mornings. October to April is the best time. June to September brings heavy rain and occasional landslides on the roads."},
+    {"q": "How do I go from Namchi to Pelling", "a": "Namchi to Pelling is about 70–80 km, 3–3.5 hours via Jorethang and Legship, or via Ravangla. A reserved car costs about ₹3,500–4,500. Shared jeeps run from Namchi to Jorethang and from Jorethang to Gyalshing, with a change. Many travellers break the trip at Ravangla to see Buddha Park."}
+  ],
+  "experiences": [
+    {
+      "slug": "namchi-samdruptse-guru-padmasambhava-statue",
+      "title": "Samdruptse and the statue of Guru Rinpoche",
+      "kind": "spiritual",
+      "duration": "1.5–2 hours",
+      "summary": "A statue of Guru Padmasambhava about 45 m tall stands on Samdruptse hill above Namchi. The hilltop has gardens, prayer wheels and, on clear days, a long view of the snow peaks.",
+      "body": [
+        "The statue, painted copper and gold, shows Guru Rinpoche seated, facing the Kangchenjunga range. A ropeway and roads lead up the hill; most visitors drive the 7 km from town. The base holds a small shrine. Paths circle the statue past prayer wheels and benches.",
+        "Samdruptse means 'wish-fulfilling hill', and local belief holds it is a dormant volcano where offerings keep the fire asleep. Stop at the Rock Garden on the way down for flowers, ponds and tea."
+      ],
+      "best_time": "Morning, from October to March, for the clearest air and the best light on the statue.",
+      "good_for": ["Families", "Photographers", "Pilgrims"],
+      "cost": "Around ₹30–50 entry per person",
+      "wiki": "",
+      "image_query": "Samdruptse statue Namchi",
+      "faqs": [
+        {"q": "How do I reach Samdruptse from Namchi", "a": "Samdruptse is about 7 km from Namchi town, 20 minutes by car up a winding road. A local car for Samdruptse, the Rock Garden and Char Dham costs about ₹1,500–2,200. A ropeway from town has run in some years; check current status before you travel. Walking up the road takes about 2 hours."},
+        {"q": "How tall is the Samdruptse statue", "a": "The statue of Guru Padmasambhava is about 45 m, or 135 ft, tall, making it one of the largest statues of him in the world. It was built by the Sikkim government; the Dalai Lama laid the foundation stone in 1997 and the statue was completed in 2004. It is visible from much of South Sikkim."},
+        {"q": "Is Samdruptse busy", "a": "On weekends, holidays and in the Puja season it gets crowded with families and tour groups from late morning. On weekday mornings it is calm. Go early for quiet and clear views, and pair it with Char Dham in the afternoon, which is busiest on Mondays and Hindu festival days."}
+      ]
+    },
+    {
+      "slug": "namchi-char-dham-solophok",
+      "title": "Char Dham pilgrimage on Solophok hill",
+      "kind": "spiritual",
+      "duration": "2 hours",
+      "summary": "Char Dham, or Siddhesvara Dham, on Solophok hill 5 km from Namchi, brings together replicas of India's four main dhams and twelve jyotirlingas around a 33 m statue of Shiva.",
+      "body": [
+        "Opened in 2011, the complex is laid out on terraces around the seated Shiva, with temples modelled on Badrinath, Jagannath Puri, Rameswaram and Dwarka, and a ring of shrines for the jyotirlingas. There is also a statue of Kirateshwar, the form of Shiva worshipped by Sikkim's Hindu communities.",
+        "It is an active pilgrim site, not a museum: priests perform puja, and families come for blessings. Shoes are left at the counters, and phones and cameras may be restricted inside some shrines. The upper terraces look across to Samdruptse and the hills of West Sikkim."
+      ],
+      "best_time": "Weekday afternoons for fewer crowds; Maha Shivaratri and Mondays of Shravan for the festival atmosphere.",
+      "good_for": ["Pilgrims", "Families", "Older travellers"],
+      "cost": "Around ₹50–100 entry per person",
+      "wiki": "",
+      "image_query": "Char Dham Namchi",
+      "faqs": [
+        {"q": "What are the timings for Char Dham in Namchi", "a": "Char Dham is generally open from morning until early evening, roughly 7 am to 7 pm, with puja times through the day. Hours can change on festival days, when it opens earlier and stays open later. Check current status before you travel. Allow about 2 hours to walk all the terraces at an easy pace."},
+        {"q": "Is there a dress code at Char Dham", "a": "Modest clothing is expected, covering shoulders and knees. Shoes must be left at the counters, and some shrines ask you to leave phones and bags too. Floors can be very cold in winter, so carry socks. Leather items may not be welcome inside the shrines. Follow the signs and the priests' instructions."},
+        {"q": "Is Char Dham easy for elderly visitors", "a": "Fairly. Cars can drive close to the main gate, and paths are paved, but the complex is on terraces linked by stairs and ramps. Elderly visitors can see the main statue and several shrines without much climbing, then rest at the benches. Wheelchair access to all shrines is limited."}
+      ]
+    },
+    {
+      "slug": "namchi-tendong-hill-walk",
+      "title": "Walk up Tendong Hill from Damthang",
+      "kind": "nature",
+      "duration": "5–6 hours return",
+      "summary": "A forest trail climbs from Damthang to the top of Tendong Hill, at about 2,600 m, a hill sacred to the Lepchas, with a viewpoint looking over much of Sikkim and Darjeeling.",
+      "body": [
+        "The walk starts at Damthang, on the road between Namchi and Ravangla, and climbs about 5–6 km on a well-made path through oak, magnolia and rhododendron forest. It gains roughly 500–600 m. At the top a clearing and watchtower give views of Kangchenjunga to the north-west and the Darjeeling ridges to the south.",
+        "Tendong is the hill of the Lepcha flood legend, and its forest is protected. Carry everything you need, take your rubbish back, and walk quietly; birds are plentiful in spring."
+      ],
+      "best_time": "October to December and March to May; start by 8 am.",
+      "good_for": ["Walkers", "Birdwatchers", "Families with older children"],
+      "cost": "₹0, or a small forest fee; car to Damthang from Namchi ₹1,200–1,800",
+      "wiki": "",
+      "image_query": "Tendong Hill Sikkim",
+      "faqs": [
+        {"q": "How difficult is the Tendong Hill walk", "a": "It is a moderate walk: about 5–6 km each way on a forest path, with a steady climb of roughly 500–600 m. Most people take 2.5–3 hours up and 2 hours down. Wear shoes with grip, carry water and a snack, and avoid it in heavy rain when the path is slippery and leeches are out."},
+        {"q": "Where does the Tendong trail start", "a": "The usual start is at Damthang, on the road between Namchi and Ravangla, about 30–40 minutes by car from Namchi. Ask your driver to drop you at the trail head and pick you up later, or arrange a return car. A local guide is useful but not essential, as the trail is clear."},
+        {"q": "Why is Tendong Hill sacred", "a": "In Lepcha tradition, Tendong rose up to save the people during a great flood when the Teesta and Rangeet overflowed. Lepchas give thanks to the hill at Tendong Lho Rum Faat each year on 8 August, a state holiday in Sikkim. Treat the hill and any shrines on it with respect."}
+      ]
+    },
+    {
+      "slug": "namchi-bazaar-local-food-trail",
+      "title": "Namchi bazaar food trail",
+      "kind": "food",
+      "duration": "2 hours",
+      "summary": "Namchi's central plaza and market street are a good place to try everyday Sikkimese and Nepali food: sel roti, momos, thukpa, aloo dum and the fermented foods of the hills.",
+      "body": [
+        "Start in the morning with sel roti, a ring-shaped rice bread fried in oil, with aloo dum or a cup of milk tea from the stalls near the plaza. Later, look for steamed or fried momos, thukpa and shapale, a fried bread stuffed with meat. Market stalls sell churpi, a hard cheese made from yak or cow milk, and gundruk, fermented dried greens.",
+        "On market days farmers bring in local produce such as squash, beans, ferns and chillies, including the round, fiery dalle khursani. Ask before photographing vendors, and eat where locals queue."
+      ],
+      "best_time": "Morning for sel roti and the market; early evening for momos and thukpa.",
+      "good_for": ["Food lovers", "Budget travellers", "Solo travellers"],
+      "cost": "₹200–500 per person",
+      "wiki": "",
+      "image_query": "Sel roti Sikkim",
+      "faqs": [
+        {"q": "What is sel roti", "a": "Sel roti is a ring-shaped bread made from a batter of rice flour, sugar and milk or water, deep-fried until crisp outside and soft inside. It is eaten in Sikkim, Darjeeling and Nepal, especially at festivals such as Dashain and Tihar, but stalls sell it for breakfast all year. It goes well with aloo dum or milk tea."},
+        {"q": "Is street food in Namchi safe to eat", "a": "Generally yes, if you choose busy stalls where food is cooked fresh in front of you and eaten hot. Avoid raw salads and cut fruit that has been sitting out, and drink bottled or filtered water. If you have a sensitive stomach, start with steamed momos and thukpa before trying fermented foods."},
+        {"q": "Can I buy local produce to take home", "a": "Yes. Look for dried churpi, Temi tea, large cardamom, dalle khursani pickle and local ginger in the market. Pickles travel well in sealed jars. Check airline rules for liquids and pickles if you are flying. Prices are lower in Namchi market than in tourist shops in Gangtok or Pelling."}
+      ]
+    }
+  ]
+}

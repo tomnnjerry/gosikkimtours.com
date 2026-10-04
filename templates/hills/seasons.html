@@ -1,14 +1,14 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}Season almanac: the best month for each of the seven lands · Go Sikkim Tours{% endblock %}
-{% block description %}When to visit Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa and UP &amp; Bihar, month by month, with weather and where to go.{% endblock %}
+{% block title %}Season almanac: the best month for Sikkim, Darjeeling, the Dooars and Bhutan · Go Sikkim Tours{% endblock %}
+{% block description %}When to visit Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan, month by month, with weather and where to go.{% endblock %}
 {% block mast_class %}mast--dark{% endblock %}
 {% block crumbs %}{% endblock %}
 {% block content %}
 <section class="dark sec" style="padding-top: 0">
   {% include "hills/partials/crumbs.html" with dark_crumbs=True %}
   <div class="wrap">
-    <div class="phead__text" style="margin: 40px 0 56px"><p class="eyebrow">The season almanac</p><h1 class="h-hero">Every land, <span class="accent">every month</span></h1>
-      <p class="lede">Choose a cell to read that land in that month: weather, where to go, festivals and the journeys that work.</p>
+    <div class="phead__text" style="margin: 40px 0 56px"><p class="eyebrow">The season almanac</p><h1 class="h-hero">Every valley, <span class="accent">every month</span></h1>
+      <p class="lede">Choose a cell to read that destination in that month: weather, where to go, festivals and the journeys that work.</p>
       <div class="mkey"><span><i class="v2"></i>Best</span><span><i class="v1"></i>Good</span><span><i></i>Off season</span></div></div>
     <div class="almanac"><div class="almanac__grid">
       <span></span>{% for m in months_short %}<span class="hd">{{ m }}</span>{% endfor %}

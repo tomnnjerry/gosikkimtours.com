@@ -1,5 +1,5 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}{{ t.name }} in Nepal and India · Go Sikkim Tours{% endblock %}
+{% block title %}{{ t.name }} in Sikkim, Darjeeling and Bhutan · Go Sikkim Tours{% endblock %}
 {% block description %}{{ t.summary|truncatechars:158 }}{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
@@ -8,7 +8,7 @@
   <div class="answer">{{ t.summary }}</div></div></header>
 <section class="sec--tight"><div class="wrap split">
   <div class="split__main"><div class="block prose">{% for para in t.intro %}<p>{{ para }}</p>{% endfor %}</div></div>
-  {% if region_pages %}<aside class="split__aside"><div class="panel panel--line"><p class="eyebrow" style="margin-bottom: 12px">{{ t.name }} by land</p>
+  {% if region_pages %}<aside class="split__aside"><div class="panel panel--line"><p class="eyebrow" style="margin-bottom: 12px">{{ t.name }} by destination</p>
     <div class="ledger">{% for r in region_pages %}<a class="ledger__row" href="{% url 'region_theme' r.slug t.slug %}" style="text-decoration: none"><span>{{ r.name }}</span><span class="ledger__dots"></span><b>Open</b></a>{% endfor %}</div></div></aside>{% endif %}
 </div></section>
 {% if journeys %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Journeys</p><h2 class="h-l">Routes in this style</h2></div></div>

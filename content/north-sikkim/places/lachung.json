@@ -1,0 +1,346 @@
+{
+  "slug": "lachung",
+  "name": "Lachung",
+  "kind": "Village",
+  "tagline": "A wooden mountain village at the gate to Yumthang and Zero Point",
+  "summary": "Lachung is a Bhutia village at about 2,700 m on the Lachung river, the overnight base for Yumthang valley and Zero Point. Most people stay two nights on a package from Gangtok, which is 6–8 hours' drive away. It is open to Indians and, with a Protected Area Permit, to foreigners.",
+  "meta_description": "Lachung, North Sikkim: how to reach from Gangtok, permits, homestays, costs, Lachung Monastery, and day trips to Yumthang and Zero Point.",
+  "wiki": "Lachung",
+  "image_query": "Lachung Sikkim village",
+  "lat": 27.689,
+  "lng": 88.744,
+  "altitude_m": 2700,
+  "nights": 2,
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    1
+  ],
+  "themes": [
+    "snow-and-passes",
+    "homestays",
+    "monasteries",
+    "family-trips",
+    "photography"
+  ],
+  "intro": [
+    "Lachung sits where the valley of the Lachung river widens below steep, forested walls and waterfalls. The name is usually translated as small pass. The old village has wooden houses with shingle and tin roofs, apple and peach trees, and prayer flags strung across the river. Newer concrete hotels line the road, and in April, May and October the village fills with tour jeeps every evening.",
+    "Almost every visitor comes for the day trips north. Yumthang valley is 24 km up the road, and Zero Point, also called Yumesamdong, is about 23 km beyond that. The usual plan is to arrive from Gangtok in the late afternoon, leave for Yumthang at dawn the next day, come back for lunch, and then either rest or walk up to Lachung Monastery.",
+    "Lachung runs its own affairs through the Dzumsa, a traditional council led by an elected headman called the Pipon. The council sets rules on community land, festivals and even some tourism matters, and it is worth respecting them. Keep the village quiet at night, take your plastic back to Gangtok and ask before photographing people or the inside of the monastery."
+  ],
+  "highlights": [
+    {
+      "title": "Base for Yumthang and Zero Point",
+      "text": "The only sensible overnight stop for the Lachung valley, with an early start possible to the rhododendrons and the snow."
+    },
+    {
+      "title": "Lachung Monastery",
+      "text": "A Nyingma gompa above the village, founded in the 1880s, with a quiet courtyard and valley views."
+    },
+    {
+      "title": "Bhim Nala and roadside falls",
+      "text": "Large waterfalls on the drive from Chungthang, best after the rains in September and October."
+    },
+    {
+      "title": "Apple orchards and village lanes",
+      "text": "Walk the old lanes across the river among orchards, stacked firewood and yak-hair weaving."
+    },
+    {
+      "title": "Snow in winter",
+      "text": "From December to February the village itself often gets snow, and the valley above is usually white."
+    }
+  ],
+  "facts": [
+    [
+      "Altitude",
+      "About 2,700 m"
+    ],
+    [
+      "From Gangtok",
+      "About 120 km, 6–8 hours via Mangan and Chungthang"
+    ],
+    [
+      "Best for",
+      "Yumthang, Zero Point, snow, spring flowers"
+    ],
+    [
+      "Nights",
+      "2"
+    ],
+    [
+      "Permits",
+      "Permit via registered operator for Indians; PAP for foreigners"
+    ]
+  ],
+  "how_to_reach": [
+    {
+      "mode": "Shared jeep",
+      "text": "Gangtok tour operators sell seats on shared group tours that include permit, transport, room and meals. These leave from Gangtok around 10–11 am and return on the third day. Ordinary public shared jeeps carry locals; tourists need the operator's permit."
+    },
+    {
+      "mode": "Reserved car",
+      "text": "A reserved SUV from Gangtok with a registered driver costs about ₹14,000–19,000 for a two-night trip, including Yumthang. Your operator applies for the permit with ID and photographs the day before."
+    },
+    {
+      "mode": "Air",
+      "text": "Fly to Bagdogra, then drive 4–5 hours to Gangtok and stay overnight. Pakyong airport near Gangtok has had irregular flights; check before relying on it."
+    }
+  ],
+  "where_to_stay": "Lachung has two kinds of stay. The old village across the river has simple family homestays at about ₹1,500–2,500 a room with meals. Along the main road and on the slopes are hotels and resorts from ₹3,000 to ₹9,000 a room, usually sold with dinner and breakfast. Very few rooms have central heating, so ask about heaters and hot water before you pay.",
+  "stays": [
+    "lachung-village-homestays",
+    "le-coxy-resort-lachung",
+    "yarlam-resort-lachung"
+  ],
+  "nearby": [
+    "yumthang-valley",
+    "lachen",
+    "gangtok",
+    "dzongu"
+  ],
+  "tips": [
+    "Carry your original photo ID and four passport photos; checkposts at Mangan and Chungthang may ask for them.",
+    "Leave for Yumthang by 6 am. By 9 am a long line of jeeps reaches the valley.",
+    "Hire snow boots and a jacket only if you are going to Zero Point in winter; ₹100–200 each is normal.",
+    "Draw cash in Gangtok. There is no reliable ATM in Lachung.",
+    "Drink plenty of water and skip alcohol on the first night to help your body adjust to the height."
+  ],
+  "costs": [
+    {
+      "item": "Shared group tour from Gangtok, 2 nights with stay and meals",
+      "inr": "₹5,000–7,500 per person"
+    },
+    {
+      "item": "Reserved SUV from Gangtok, 2 nights",
+      "inr": "₹14,000–19,000 per vehicle"
+    },
+    {
+      "item": "Homestay room with meals",
+      "inr": "₹1,500–2,500 per night"
+    },
+    {
+      "item": "Hotel room with dinner and breakfast",
+      "inr": "₹3,000–6,000 per night"
+    },
+    {
+      "item": "Zero Point add-on from Yumthang",
+      "inr": "₹3,000–4,500 per vehicle"
+    },
+    {
+      "item": "Snow boots and jacket hire",
+      "inr": "₹100–200 per item"
+    }
+  ],
+  "local_word": {
+    "word": "Pipon",
+    "language": "Lachungpa (Sikkimese Bhutia dialect)",
+    "meaning": "The elected headman of the Dzumsa, the village council of Lachung"
+  },
+  "story": {
+    "title": "The Dzumsa, the council that still runs Lachung",
+    "paras": [
+      "Long before Sikkim joined India in 1975, the villages of the Lachung and Lachen valleys governed themselves through a council called the Dzumsa. Every household sends a member. The council chooses a headman, the Pipon, usually for a year, and he settles disputes, organises shared work and represents the village to outsiders.",
+      "The Dzumsa decides how pasture and forest are used, when herds move to higher grazing grounds and how festivals are run. Fines are set by the council, and it can rule on matters that elsewhere would go to a court or panchayat. Sikkim's panchayat law recognises the Dzumsa in Lachung and Lachen in place of an elected panchayat.",
+      "Travellers see the system mostly in small ways. Village rules on plastic, noise, the use of common land and the hiring of local vehicles come from the council. Some years the Dzumsa has asked visitors to respect bans on littering in Yumthang or limits during religious events. When a hotel owner tells you something is a Dzumsa rule, it is worth taking seriously."
+    ],
+    "sources": [
+      {
+        "title": "Dzumsa (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Dzumsa"
+      },
+      {
+        "title": "Lachung (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Lachung"
+      },
+      {
+        "title": "Told locally in Lachung",
+        "url": ""
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "How far is Lachung from Gangtok?",
+      "a": "Lachung is about 120 km from Gangtok by road, through Kabi, Phodong, Mangan and Chungthang. The drive usually takes 6–8 hours, and longer when landslide repairs force one-way traffic. Operators leave Gangtok in the late morning after permits are collected, so you reach Lachung around dusk. Check current status before you travel."
+    },
+    {
+      "q": "Do I need a permit for Lachung?",
+      "a": "Yes. Indian citizens need a permit arranged by a registered Sikkim tour operator, using an original photo ID and passport photos. Foreigners need the Sikkim Inner Line Permit and a Protected Area Permit, in a group of two or more through a registered agent. You cannot apply yourself at a checkpost. Check current status before you travel."
+    },
+    {
+      "q": "How many nights should I stay in Lachung?",
+      "a": "Two nights is the standard. Night one after the long drive from Gangtok, the next morning for Yumthang and Zero Point, and night two to rest before driving back. One night makes the trip a rush, and many people feel tired after the long drive. A third night is worth it in spring for a slower look at the valley."
+    },
+    {
+      "q": "Is Lachung cold?",
+      "a": "Yes, especially at night. In October and November nights fall near freezing; from December to February they go well below zero and snow is common. Even in May, mornings are around 5°C. Pack thermals, a warm jacket, a woollen cap and gloves, and ask whether your room has a heater, which may cost extra."
+    },
+    {
+      "q": "Can foreigners stay in Lachung?",
+      "a": "Yes. Foreign nationals can visit Lachung and Yumthang with a Protected Area Permit arranged by a registered agent in Gangtok, travelling in a group of at least two. They cannot go on to Zero Point. Hotels and homestays in Lachung accept foreign guests with the right permit. Check current status before you travel."
+    },
+    {
+      "q": "What is there to do in Lachung itself?",
+      "a": "Walk up to Lachung Monastery, cross the river to the old village, visit apple orchards and look at the waterfalls around the valley. In the evening there is little to do but rest, which suits most people after the drive. The real outing is the dawn trip to Yumthang and Zero Point."
+    },
+    {
+      "q": "Is there mobile network and Wi-Fi in Lachung?",
+      "a": "BSNL and Jio usually work in parts of the village, with weaker Airtel. Some hotels offer Wi-Fi, but it often drops when the power or link fails. Expect no signal at Yumthang or Zero Point. Tell family before you leave Gangtok that you may be offline for two days."
+    },
+    {
+      "q": "Can I see snow in Lachung?",
+      "a": "Snow falls in Lachung village in most winters, usually between late December and February. Snow is more reliable higher up: Zero Point usually has snow from November to April, and Yumthang often does from December to March. In April and May you may see snow only at Zero Point."
+    },
+    {
+      "q": "What food is available in Lachung?",
+      "a": "Package stays serve simple set meals of rice, dal, vegetables and chicken or egg, with Tibetan dishes like thukpa and momo on request. A few tea stalls sell noodles and snacks. Vegetarian and Jain meals are possible if you ask ahead. Drinking water is boiled at most hotels; carry a bottle to refill."
+    }
+  ],
+  "experiences": [
+    {
+      "slug": "lachung-monastery-morning-walk",
+      "title": "Morning walk to Lachung Monastery",
+      "kind": "spiritual",
+      "duration": "1.5 hours",
+      "summary": "A short climb from the village to a Nyingma monastery founded in the 1880s, with prayer wheels, butter lamps and a wide view of the valley.",
+      "body": [
+        "Lachung Monastery stands on a slope on the east side of the river, a walk of 20–30 minutes from the main road. It belongs to the Nyingma school of Tibetan Buddhism and serves the village for prayers and festivals. Inside are statues of Guru Rinpoche and painted walls, though the main hall is not always open.",
+        "Go after your Yumthang trip or on the morning you leave. Walk clockwise around the building, keep voices low and ask before taking photos inside. A small donation in the box is customary. On the way back, cross the river to the older part of the village with its wooden houses."
+      ],
+      "best_time": "Early morning or late afternoon, when the light is soft and the monks may be at prayer.",
+      "good_for": [
+        "Couples",
+        "Photographers",
+        "Slow travellers"
+      ],
+      "cost": "₹0; a donation of ₹50–100 is welcome",
+      "wiki": "Lachung Monastery",
+      "image_query": "Lachung Monastery",
+      "faqs": [
+        {
+          "q": "Is Lachung Monastery open to visitors?",
+          "a": "Yes, the courtyard is open during daylight and visitors are welcome. The main prayer hall may be locked if no caretaker is around; ask in the village or wait for a monk. Dress modestly, remove your shoes before entering the hall and do not touch the altar or offerings."
+        },
+        {
+          "q": "How do I get to Lachung Monastery?",
+          "a": "From the main road in Lachung, follow the lane uphill on the east side of the river. It is a 20–30 minute walk, steady but not steep, though the altitude makes it feel harder. Drivers can also drop you closer for a small fee if walking is difficult."
+        },
+        {
+          "q": "Can I photograph inside the monastery?",
+          "a": "Usually not inside the main hall. Photography in the courtyard and of the exterior is generally fine. Always ask the monk or caretaker first, and never use flash near the statues or paintings. Avoid photographing people at prayer without their clear consent."
+        }
+      ]
+    },
+    {
+      "slug": "lachung-old-village-orchard-walk",
+      "title": "Old village and orchard walk in Lachung",
+      "kind": "village",
+      "duration": "2 hours",
+      "summary": "An easy walk across the river through the wooden houses, apple orchards and yak-hair weaving of old Lachung.",
+      "body": [
+        "Most hotels sit along the highway, but the older village lies across the Lachung river on the far bank. Here are wooden houses with carved windows, stacks of firewood, prayer flags, small vegetable plots and apple and peach trees that flower in April and bear fruit in autumn.",
+        "Walk slowly, stay on the paths and greet people with a nod. Some families weave carpets and blankets from yak and sheep wool and may sell a piece if you ask. Do not pick fruit from the trees. If you are invited in for butter tea, a short visit and a thank you are the right response."
+      ],
+      "best_time": "Afternoon after you return from Yumthang, or April for blossom and September to October for apples.",
+      "good_for": [
+        "Families",
+        "Photographers",
+        "Homestay guests"
+      ],
+      "cost": "₹0",
+      "wiki": "",
+      "image_query": "Lachung village houses",
+      "faqs": [
+        {
+          "q": "Do I need a guide for the Lachung village walk?",
+          "a": "No. The village is small and easy to explore on foot. Your homestay or hotel can point you to the bridge across the river. A local guide can still add stories and introductions to weaving families, and costs very little if your host arranges it."
+        },
+        {
+          "q": "When do the apple trees flower and fruit?",
+          "a": "Apple and peach blossom usually comes in April. Fruit ripens from late August to October, depending on height and season. Lachung apples are small and sold locally; you may find them at roadside stalls in autumn. Do not pick fruit without permission."
+        },
+        {
+          "q": "Can I buy handicrafts in Lachung?",
+          "a": "A few families weave carpets, blankets and small bags from yak and sheep wool, and some hotels sell local pieces. Choice is limited and prices vary. Ask your host who weaves in the village. Pay in cash, as card machines are rare."
+        }
+      ]
+    },
+    {
+      "slug": "lachung-bhim-nala-falls-stop",
+      "title": "Bhim Nala and the waterfall drive to Lachung",
+      "kind": "nature",
+      "duration": "30 minutes at the falls",
+      "summary": "The road from Chungthang to Lachung passes big roadside waterfalls, the best known being Bhim Nala, where drivers stop for photos and tea.",
+      "body": [
+        "Between Chungthang and Lachung the road climbs through a narrow, forested valley with falls dropping from the cliffs. Bhim Nala is the largest and most visited, a tall fall near the road where tea stalls cluster in season. Further down the North Sikkim highway, Naga falls near Mangan and the Seven Sisters falls near Gangtok are other common stops.",
+        "The falls are fullest after the monsoon, in September and October. In winter they shrink and sometimes freeze at the edges. Keep away from the slippery rocks at the base and do not climb above the road, where loose stones fall."
+      ],
+      "best_time": "September to November, when the water is high and the roads are steady.",
+      "good_for": [
+        "Families",
+        "Photographers",
+        "First-timers"
+      ],
+      "cost": "₹0; tea and snacks ₹30–80",
+      "wiki": "",
+      "image_query": "Bhim Nala Falls Lachung",
+      "faqs": [
+        {
+          "q": "Where is Bhim Nala falls?",
+          "a": "Bhim Nala is on the road between Chungthang and Lachung, roughly an hour before Lachung depending on road condition. Drivers on all package trips know it and stop there. It is right beside the road, so there is no walk needed."
+        },
+        {
+          "q": "Is the waterfall stop safe?",
+          "a": "The viewpoint by the road is safe if you stay on level ground. The rocks near the base are wet and slippery, and the slope above can drop stones, especially in rain. Keep children close and do not stand under the overhang."
+        },
+        {
+          "q": "Can I stop at other waterfalls on the way?",
+          "a": "Yes. Most drivers stop at Seven Sisters falls after leaving Gangtok and Naga falls near Mangan, as well as Bhim Nala. Ask your driver early in the day so you do not arrive in Lachung after dark. Most stops take only 10–15 minutes."
+        }
+      ]
+    },
+    {
+      "slug": "lachung-winter-snow-stay",
+      "title": "A winter snow stay in Lachung",
+      "kind": "snow",
+      "duration": "2 nights",
+      "summary": "From late December to February Lachung often gets snow in the village itself, with frozen streams and white slopes all the way to Zero Point.",
+      "body": [
+        "Winter is the quietest time in Lachung outside the Christmas and New Year rush. Snow can fall on the village roofs, and Yumthang and Zero Point lie under deep snow. Mornings are clear and very cold, often below -5°C. The road above Lachung can close after heavy snowfall, so the trip is weather dependent.",
+        "Book a room with a heater, carry proper thermals, waterproof boots and gloves, and keep one spare day. Snow chains and four-wheel-drive vehicles are common in winter. Take the cold seriously: children and older travellers should stay warm and hydrated, and avoid long periods outside at Zero Point."
+      ],
+      "best_time": "Late December to February for village snow; November to April for snow at Zero Point.",
+      "good_for": [
+        "Couples",
+        "Families with older children",
+        "Snow seekers"
+      ],
+      "cost": "₹3,000–6,000 a room with meals; vehicle as per package",
+      "wiki": "",
+      "image_query": "Lachung snow winter",
+      "faqs": [
+        {
+          "q": "Is it guaranteed to snow in Lachung in winter?",
+          "a": "No. Snow in the village depends on the year; some winters bring several falls, others only frost. Snow is far more reliable at Zero Point from November to April and often at Yumthang from December to March. Keep plans flexible."
+        },
+        {
+          "q": "Are roads open to Lachung in winter?",
+          "a": "Usually, yes, though heavy snow can close the road above Lachung for a day or more, and occasionally below it. Operators then wait or change the plan. Keep a spare day before your onward flight or train. Check current status before you travel."
+        },
+        {
+          "q": "How cold is Lachung in January?",
+          "a": "Daytime temperatures are around 5–8°C, and nights fall to about -5°C or lower. Wind at Yumthang and Zero Point makes it feel colder. Rooms are often unheated, so electric blankets and heaters matter. Carry thermals, a down jacket and woollen socks."
+        }
+      ]
+    }
+  ]
+}

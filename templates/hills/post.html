@@ -1,5 +1,5 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}{{ d.title }} · Go Sikkim Tours Journal{% endblock %}
+{% block title %}{{ d.title }} · Go Sikkim Tours blog{% endblock %}
 {% block description %}{{ d.meta_description }}{% endblock %}
 {% block og_image %}{% with img=d|first_img %}{% if img %}<meta property="og:image" content="{{ img|src:1280 }}">{% endif %}{% endwith %}{% endblock %}
 {% block body_attrs %}{% if d.land %} data-land="{{ d.land }}"{% endif %}{% endblock %}
@@ -23,7 +23,7 @@
       {% if s.link_objs %}<div class="inlinks">{% for l in s.link_objs %}<a class="inlink" href="{{ l.url }}">{% if l.img %}<img src="{{ l.img|src:500 }}" alt="" loading="lazy">{% endif %}<span><small>{{ l.type|capfirst }}</small><b>{{ l.title }}</b></span></a>{% endfor %}</div>{% endif %}
       {% if forloop.counter == 3 %}<div class="midcta"><div><b>{{ d.cta.title }}</b><p>{{ d.cta.text }}</p></div><a class="btn btn--brass" href="{% url 'plan' %}?from={{ request.path|urlencode }}{% if d.land %}&land={{ d.land }}{% endif %}" data-cta="post-mid">Ask a planner</a></div>{% endif %}
     </section>{% endfor %}
-    {% if d.journey_objs %}<div class="block"><p class="eyebrow">Journeys from this article</p><h2 class="h-l">Start from a route</h2><div class="grid grid--3" data-fill>{% for j in d.journey_objs %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=d.land %}</div></div>{% endif %}
+    {% if d.journey_objs %}<div class="block"><p class="eyebrow">Packages from this article</p><h2 class="h-l">Start from a route</h2><div class="grid grid--3" data-fill>{% for j in d.journey_objs %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=d.land %}</div></div>{% endif %}
     {% include "hills/partials/faq.html" with faqs=d.faqs %}
   </article>
   <aside class="split__aside">
@@ -34,7 +34,7 @@
 </div></section>
 {% if d.place_objs %}<section class="sec paper"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Places in this article</p><h2 class="h-l">Go deeper</h2></div></div>
   <div class="grid grid--4" data-fill>{% for p in d.place_objs %}{% include "hills/partials/card_place.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=d.land %}</div></div></section>{% endif %}
-{% if more %}<section class="sec"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Keep reading</p><h2 class="h-l">From the Journal</h2></div><a class="link-arrow" href="{% url 'journal' %}">All articles →</a></div>
+{% if more %}<section class="sec"><div class="wrap"><div class="sec-head"><div><p class="eyebrow">Keep reading</p><h2 class="h-l">From the blog</h2></div><a class="link-arrow" href="{% url 'journal' %}">All articles →</a></div>
   <div class="grid grid--3" data-fill>{% for x in more %}<a class="card card--wide" href="{{ x.url }}">{% photo x|first_img alt=x.title credit=False sizes="33vw" %}<span class="chip">{{ x.category }}</span><span class="card__title card__title--s">{{ x.title }}</span></a>{% endfor %}{% include "hills/partials/fill.html" with fill_land=d.land %}</div></div></section>{% endif %}
 {% include "hills/partials/nudge.html" with nudge_land=d.region_objs.0.name nudge_slug=d.land %}
 {% endblock %}

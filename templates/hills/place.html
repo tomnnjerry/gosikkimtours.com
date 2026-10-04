@@ -1,5 +1,5 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}{{ p.name }}, {{ r.name }}: luxury travel guide · Go Sikkim Tours{% endblock %}
+{% block title %}{{ p.name }}, {{ r.name }}: travel guide, costs and how to reach · Go Sikkim Tours{% endblock %}
 {% block description %}{{ p.meta_description }}{% endblock %}
 {% block og_image %}{% with img=p|first_img %}{% if img %}<meta property="og:image" content="{{ img|src:1280 }}">{% endif %}{% endwith %}{% endblock %}
 {% block body_attrs %} data-land="{{ r.slug }}"{% endblock %}
@@ -37,6 +37,9 @@
 
       <div class="block"><p class="eyebrow">From our planners</p><h2 class="h-l">Five things to know</h2><ol class="tips">{% for t in p.tips %}<li>{{ t }}</li>{% endfor %}</ol></div>
 
+      {% if p.story.title %}<div class="block"><p class="eyebrow">{% icon "story" %} The local story</p><h2 class="h-l">{{ p.story.title }}</h2>
+        <div class="prose prose--plain"><p>{{ p.story.paras.0 }}</p></div><a class="link-arrow" href="{{ p.story.url }}">Read the whole story →</a></div>{% endif %}
+
       {% include "hills/partials/faq.html" with faqs=p.faqs faq_title="Questions about "|add:p.name %}
     </div>
 
@@ -46,6 +49,10 @@
         <div class="ledger">{% for k, v in p.facts %}<div class="ledger__row"><span>{{ k }}</span><span class="ledger__dots"></span><b>{{ v }}</b></div>{% endfor %}</div>
         <div style="margin-top: 22px">{% include "hills/partials/mbar.html" with bar=p.bar label=p.best_label %}</div>
       </div>
+      {% if p.costs %}<div class="panel panel--line"><h2 class="h-s" style="margin-bottom: 12px">What it costs</h2>
+        <div class="ledger">{% for c in p.costs %}<div class="ledger__row"><span>{{ c.item }}</span><span class="ledger__dots"></span><b>{{ c.inr }}</b></div>{% endfor %}</div>
+        <p class="small muted" style="margin: 12px 0 0">Indicative, for planning. <a href="{% url 'fares' %}">Fare board →</a></p></div>{% endif %}
+      {% if p.local_word %}<div class="localword"><p class="localword__lang">Say it in {{ p.name }}{% if p.local_word.language %} · {{ p.local_word.language }}{% endif %}</p><p class="localword__word">{{ p.local_word.word }}</p><p>{{ p.local_word.meaning }}</p></div>{% endif %}
       {% atlas map_points r.slug %}
       {% include "hills/partials/quick_form.html" with qf_id="place-aside" qf_title="Plan a journey with "|add:p.name qf_land=r.slug qf_message="Interested in "|add:p.name %}
       {% if p.themes %}<div class="chip-row">{% for t in p.themes %}<a class="chip chip--line" href="{{ t|theme_url }}">{{ t|theme_name }}</a>{% endfor %}</div>{% endif %}
@@ -55,7 +62,7 @@
 
 {% if p.journey_objs %}
 <section class="sec paper"><div class="wrap">
-  <div class="sec-head"><div><p class="eyebrow">Journeys</p><h2 class="h-l">Routes that stop in {{ p.name }}</h2></div></div>
+  <div class="sec-head"><div><p class="eyebrow">Packages</p><h2 class="h-l">Routes that stop in {{ p.name }}</h2></div></div>
   <div class="grid grid--3" data-fill>{% for j in p.journey_objs|slice:":6" %}{% include "hills/partials/card_journey.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
 </div></section>
 {% endif %}

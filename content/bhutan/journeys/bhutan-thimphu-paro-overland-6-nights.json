@@ -1,0 +1,85 @@
+{
+  "slug": "bhutan-thimphu-paro-overland-6-nights",
+  "title": "Thimphu and Paro overland from Siliguri in six nights",
+  "summary": "A six-night road trip from Siliguri into western Bhutan through Phuentsholing, with two nights each in Thimphu and Paro and a full day for the Tiger's Nest walk. It stays within the guide-free zone, so it is the cheapest honest way to see Bhutan, from about ₹21,500 per person.",
+  "meta_description": "Six-night Bhutan trip from Siliguri: Phuentsholing, Thimphu, Paro and Tiger's Nest by road. Day plan, SDF, permits and Budget, Value, Comfort prices.",
+  "nights": 6,
+  "start": "Siliguri, NJP or Bagdogra",
+  "end": "Siliguri, NJP or Bagdogra",
+  "pace": "Moderate",
+  "max_altitude_m": 3120,
+  "best_months": [1, 1, 2, 2, 2, 1, 0, 0, 1, 2, 2, 1],
+  "themes": ["shoestring", "monasteries", "treks-and-walks", "family-trips"],
+  "stops": [
+    {"place": "phuentsholing", "nights": 1},
+    {"place": "thimphu", "nights": 2},
+    {"place": "paro", "nights": 2},
+    {"place": "phuentsholing", "nights": 1}
+  ],
+  "intro": [
+    "This is the trip we suggest to most first-time Indian visitors. It goes in and out by road from Siliguri, avoiding airfares, and keeps to Thimphu and Paro, where tourists may move without a licensed guide. That means the Budget tier can use public buses and simple certified hotels and still see the main sights.",
+    "You get a full day in Thimphu for the Buddha Dordenma, Tashichho Dzong and the Memorial Chorten, a day for Paro's dzong and museum, and a full day for Taktsang. The long road days at the start and end are part of the journey: tea gardens, the Bhutan Gate and a climb from 300 m to over 2,300 m.",
+    "Prices include the Sustainable Development Fee of ₹1,200 per person per night for six nights in Bhutan. Prices, fees and rules are indicative. Check current status before you travel."
+  ],
+  "highlights": [
+    "A full day for the Tiger's Nest walk to Paro Taktsang at 3,120 m.",
+    "Tashichho Dzong at dusk and the Memorial Chorten at dawn in Thimphu.",
+    "Rinpung Dzong, the National Museum and Kyichu Lhakhang in Paro.",
+    "Crossing the Bhutan Gate on foot from Jaigaon to Phuentsholing.",
+    "No flights and no compulsory guide, which keeps costs low."
+  ],
+  "days": [
+    {"day": 1, "title": "Siliguri to Phuentsholing", "place": "phuentsholing", "overnight": "Phuentsholing", "drive": "160 km, 4–5 hours", "meals": "Dinner", "text": "Leave Siliguri by 7.30 am and drive east through Sevoke, the Dooars tea gardens and Hasimara to Jaigaon. Walk through the Bhutan Gate and complete the entry permit at the Phuentsholing immigration office with your passport or voter ID, photos and hotel bookings. In the evening visit Zangtho Pelri Lhakhang and try ema datshi in the market. Set your watch 30 minutes ahead."},
+    {"day": 2, "title": "Phuentsholing to Thimphu", "place": "thimphu", "overnight": "Thimphu", "drive": "160 km, 5–6 hours", "meals": "Breakfast, dinner", "text": "Climb out of the plains past Kharbandi Goemba and through forest, fog and waterfalls to Gedu and Chukha. At Chuzom, where the Paro Chhu meets the Wang Chhu, turn north up the valley to Thimphu, arriving mid-afternoon. Walk Norzin Lam in the evening and watch the traffic policeman at the main junction."},
+    {"day": 3, "title": "Thimphu sights and Tashichho Dzong", "place": "thimphu", "overnight": "Thimphu", "drive": "City, 25 km", "meals": "Breakfast, dinner", "text": "Start with the morning kora at the Memorial Chorten. Visit the Buddha Dordenma on Kuensel Phodrang ridge, the Motithang Takin Preserve and the Folk Heritage Museum. On a weekend, walk through the Centenary Farmers Market. Finish at Tashichho Dzong after office hours, when tourists are admitted and monks gather in the courtyard."},
+    {"day": 4, "title": "Thimphu to Paro, dzong and museum", "place": "paro", "overnight": "Paro", "drive": "55 km, 1.5 hours", "meals": "Breakfast, dinner", "text": "Drive down to Chuzom and stop at Tachogang Lhakhang's iron bridge. In Paro, visit the National Museum above Rinpung Dzong, then walk down through the dzong and across the covered Nyamai Zam bridge into town. Rest in the afternoon to prepare for tomorrow's walk, or visit Kyichu Lhakhang near sunset."},
+    {"day": 5, "title": "The Tiger's Nest walk", "place": "paro", "overnight": "Paro", "drive": "20 km return to trailhead", "meals": "Breakfast, dinner", "text": "Start at the trailhead by 7.30 am and climb through pine forest to the cafeteria and the viewpoint, then down and up the steps to Paro Taktsang at 3,120 m. Allow 5–6 hours in all. In the evening, rest your legs in a farmhouse hot stone bath, available at extra cost."},
+    {"day": 6, "title": "Paro to Phuentsholing", "place": "phuentsholing", "overnight": "Phuentsholing", "drive": "145 km, 5 hours", "meals": "Breakfast, dinner", "text": "Leave Paro after breakfast and drive back down the valley to Chuzom and south to Phuentsholing. Stop at the Kharbandi Goemba viewpoint over the plains if you did not on the way in. Spend the evening shopping for red rice, chilli powder or textiles in the market."},
+    {"day": 7, "title": "Phuentsholing to Siliguri", "place": "siliguri", "overnight": "", "drive": "160 km, 4–5 hours", "meals": "Breakfast", "text": "Complete exit formalities, cross back through the gate and drive to Siliguri, NJP or Bagdogra, arriving by early afternoon for onward trains and flights. If you have time, break the drive at a tea garden in the Dooars or add a night in Jaldapara."}
+  ],
+  "stays": ["hotel-druk-phuentsholing", "hotel-druk-thimphu", "hotel-olathang-paro", "paro-farmhouse-homestays", "le-meridien-thimphu"],
+  "includes": [
+    "Sustainable Development Fee of ₹1,200 per person per night for six nights (adults)",
+    "Six nights in certified hotels or homestays, twin sharing, with breakfast and dinner",
+    "Transport as per tier, Siliguri to Siliguri",
+    "Permit help at Phuentsholing"
+  ],
+  "excludes": [
+    "Lunches, drinks and tips",
+    "Monument entry fees, including Taktsang",
+    "Licensed guide in Budget tier (optional within Thimphu and Paro)",
+    "Horse rides, hot stone baths and personal shopping",
+    "Travel to Siliguri"
+  ],
+  "good_to_know": [
+    "Indians need a passport or original voter ID; Aadhaar is not accepted.",
+    "Arrive at Phuentsholing on a weekday; immigration closes on Sundays and public holidays.",
+    "Taktsang involves a climb of about 900 m; walk slowly and use a horse uphill if needed.",
+    "Bhutan Time is 30 minutes ahead of IST.",
+    "Fees and permit rules are indicative. Check current status before you travel."
+  ],
+  "tiers": [
+    {"name": "Budget", "price_inr": 21500, "stays": "Simple certified hotels and a Paro farmhouse homestay", "transport": "Buses Siliguri to Jaigaon and Phuentsholing to Thimphu and Paro; local taxis", "note": "No guide included; works because the trip stays within Thimphu and Paro"},
+    {"name": "Value", "price_inr": 39000, "stays": "Hotel Druk in Phuentsholing and Thimphu, Hotel Olathang in Paro", "transport": "Reserved car to the border, then a private Bhutanese car with driver and licensed guide", "note": "Our most booked tier, with a guide for dzongs and Taktsang"},
+    {"name": "Comfort", "price_inr": 72000, "stays": "Le Méridien Thimphu and the best rooms on the route", "transport": "Private SUV with driver and senior licensed guide throughout", "note": "All entry fees included and flexible timings"}
+  ],
+  "price_from_inr": 21500,
+  "save_tips": [
+    "Sleep in Jaigaon on the first night instead of Phuentsholing to save ₹1,200 per person in SDF.",
+    "Take the public bus between Phuentsholing, Thimphu and Paro; it costs a fraction of a private car.",
+    "Travel in late November, December or February for lower hotel rates outside festival weeks.",
+    "Eat lunch in local canteens, where ema datshi and rice cost ₹200–350.",
+    "Share a car and guide with another couple or family if you choose the Value tier."
+  ],
+  "faqs": [
+    {"q": "Can I do this Bhutan trip without a guide?", "a": "Yes, in the Budget tier, because it stays in Phuentsholing, Thimphu and Paro, where tourists have been allowed to move without a guide. Monuments may still ask for one, and many travellers hire a guide for a day in Paro for Taktsang. Guide rules have changed since 2022. Check current status before you travel."},
+    {"q": "How much does a six-night Bhutan trip cost from Siliguri?", "a": "From about ₹21,500 per person on a twin-share basis in the Budget tier, including six nights of SDF, simple certified hotels and buses. The Value tier with a private car and guide is about ₹39,000, and Comfort about ₹72,000. Prices are indicative and exclude lunches and entry fees."},
+    {"q": "Is six nights enough for Thimphu and Paro?", "a": "Yes. It gives a full day in Thimphu, a day for Paro's dzong and museum, and a full day for Taktsang, with a night at Phuentsholing at each end to break the long drives. If you want Punakha, add two nights and a guide; see our longer itineraries."},
+    {"q": "What documents do Indians need for this trip?", "a": "A valid passport or original voter ID card, passport photos and photocopies. Children without these need a birth certificate. Carry confirmed bookings for your certified hotels. The permit is issued at Phuentsholing or applied for online. Check current status before you travel."},
+    {"q": "Is the drive from Phuentsholing to Thimphu tiring?", "a": "It is 5–6 hours of winding road, climbing about 2,000 m. Most people find it manageable with breaks. Take motion-sickness tablets if needed and travel in the morning, when fog and rain are less likely. The return to Phuentsholing from Paro is a similar length."},
+    {"q": "Can I end this trip by flying out of Paro?", "a": "Yes. Skip the last two days and fly from Paro to Bagdogra, Delhi or Kolkata on Drukair or Bhutan Airlines. This saves one night of SDF and a long drive but adds an airfare of roughly ₹7,000–15,000. Weather can delay Paro flights, so do not plan a tight connection."},
+    {"q": "Is this itinerary suitable for children and older travellers?", "a": "Mostly. The drives are long but on good roads, and Thimphu and Paro are at moderate altitude. Taktsang is the only demanding day; horses can carry riders to the halfway cafeteria, and turning back there is fine. Children under six do not pay SDF; ages 6–12 pay half."},
+    {"q": "When is the best time for this trip?", "a": "March to May and October to November. April brings rhododendrons and often the Paro Tshechu; October has the clearest skies and sometimes the Thimphu Tshechu. December to February is cold but dry and cheaper. Avoid July and August, when monsoon landslides can block the southern road."},
+    {"q": "Do I need to book hotels before reaching Phuentsholing?", "a": "Yes. All tourists must stay in certified accommodation, and your bookings are usually asked for when the permit is issued. We book every night before you travel. Arriving without bookings can delay your permit, especially in festival weeks and Indian holidays."}
+  ]
+}

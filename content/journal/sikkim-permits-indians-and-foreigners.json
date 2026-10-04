@@ -1,0 +1,139 @@
+{
+  "slug": "sikkim-permits-indians-and-foreigners",
+  "title": "Sikkim permits explained for Indians and foreigners",
+  "category": "Permits",
+  "date": "2026-06-18",
+  "regions": ["east-sikkim", "north-sikkim", "west-sikkim"],
+  "meta_description": "Which Sikkim places need a permit, who can go where, and how Indians and foreign nationals get the ILP, Tsomgo, Nathu La and North Sikkim permits.",
+  "summary": "Indians need no permit for Gangtok, Pelling, Ravangla or Namchi, but do need one for Tsomgo Lake, Nathu La, the Zuluk Silk Route and North Sikkim, always arranged through a registered agent. Foreign nationals need the free Sikkim Inner Line Permit to enter the state, plus a Protected Area Permit for Tsomgo and North Sikkim, and cannot visit Nathu La, Zuluk, Gurudongmar or Zero Point.",
+  "key_takeaways": [
+    "Indian travellers need no permit for the main towns of Sikkim, only for the border areas of East and North Sikkim.",
+    "Foreign nationals must get the free Sikkim Inner Line Permit before entering the state, at Rangpo, Melli, Bagdogra, Siliguri or online.",
+    "Permits for Tsomgo, Nathu La and North Sikkim are applied for by a registered agent, so hand over your ID and photos a day ahead.",
+    "Nathu La is usually closed to tourists on Mondays and Tuesdays, and Gurudongmar and Zero Point are closed to foreigners."
+  ],
+  "sections": [
+    {
+      "heading": "Why Sikkim has permits at all",
+      "paras": [
+        "Sikkim shares borders with Tibet, Nepal and Bhutan, and much of the north and east lies close to the line of actual control with China. Large parts of the state are therefore restricted or protected areas, where the army and the state government control who goes in. For tourists this means a permit system, which sounds daunting but is well practised. Thousands of people go through it every week in season.",
+        "The system has two layers. The first applies only to foreign nationals and covers entry into Sikkim at all. The second applies to everyone and covers specific border areas: Tsomgo Lake, Nathu La, the Silk Route through Zuluk, and the high valleys of North Sikkim. Almost all of the second layer is handled by registered travel agents in Gangtok, so most travellers never visit a government office.",
+        "Everything in this post reflects the usual arrangements in recent seasons. Rules, fees and age limits change, sometimes at short notice. Check current status before you travel."
+      ]
+    },
+    {
+      "heading": "Who can go where",
+      "paras": [
+        "The table is the quickest way to see the rules. Neighbouring Darjeeling and Kalimpong districts, in West Bengal, need no permit for anyone, which is one reason many first-time foreign visitors start there."
+      ],
+      "table": {
+        "head": ["Place", "Indian nationals", "Foreign nationals"],
+        "rows": [
+          ["Gangtok, Rumtek, Aritar", "No permit", "Sikkim Inner Line Permit"],
+          ["Pelling, Yuksom, Ravangla, Namchi, Rinchenpong", "No permit; carry photo ID", "Sikkim Inner Line Permit"],
+          ["Tsomgo Lake and Baba Mandir", "Permit via registered agent", "Day trip with Protected Area Permit, usually two or more people"],
+          ["Nathu La", "Permit via registered agent; usually closed Monday and Tuesday", "Not allowed"],
+          ["Zuluk, Nathang, Kupup (Silk Route)", "Protected Area Permit, checked at Rongli", "Not allowed"],
+          ["Lachung, Yumthang, Lachen", "Permit via registered operator", "Protected Area Permit, group of two or more"],
+          ["Zero Point and Gurudongmar Lake", "Permit via registered operator", "Not allowed"],
+          ["Dzongu", "Separate permit, usually via your homestay", "Separate permit, usually via your homestay"],
+          ["Khangchendzonga National Park treks from Yuksom", "Park permit and registered guide", "Park permit, registered agency and guide, usually two or more"],
+          ["Darjeeling and Kalimpong districts", "No permit", "No permit"]
+        ]
+      },
+      "links": [
+        {"type": "place", "slug": "tsomgo-lake"},
+        {"type": "place", "slug": "nathu-la"},
+        {"type": "place", "slug": "zuluk"}
+      ]
+    },
+    {
+      "heading": "The Inner Line Permit for foreign nationals",
+      "paras": [
+        "Every foreign national entering Sikkim needs the Sikkim Inner Line Permit, which the government formally calls a Restricted Area Permit. It is free. You need your passport, a valid Indian visa and passport-size photographs. Overseas Citizens of India are treated as foreign nationals for these rules.",
+        "The most common places to get it are the Rangpo checkpost on NH10, where the road from Siliguri enters Sikkim, the Melli checkpost on the road to South and West Sikkim, the counter at Bagdogra airport, the Sikkim Tourism office in Siliguri and Sikkim House in New Delhi. An online application has also been available through the state's permit portal. At Rangpo, ask your driver to stop at the foreigners' registration office before the barrier; it usually takes 15–30 minutes.",
+        "The permit has usually been issued for 30 days, with an extension possible in Gangtok. Keep it with your passport, because hotels and checkposts ask for it, and you need it again for any Protected Area Permit."
+      ],
+      "list": [
+        "Carry several photocopies of your passport photo page and visa.",
+        "Bring four to six passport photographs for this and later permits.",
+        "Note your first hotel address, as the form asks for it.",
+        "Do not cross Rangpo or Melli without the permit; you may be sent back."
+      ]
+    },
+    {
+      "heading": "Tsomgo Lake, Nathu La and the Silk Route",
+      "paras": [
+        "Tsomgo Lake, Baba Mandir and Nathu La lie on the same road east of Gangtok. You cannot drive up in your own car or a hired Siliguri taxi. Tourists travel in a vehicle registered for the route, booked through a travel agent registered with the Sikkim tourism department. The agent applies for the permit and gives it to the driver.",
+        "Indian travellers need a copy of a government photo ID, such as Aadhaar, a passport, a driving licence or a voter ID, and two passport photos each. Hand them over by early afternoon the day before. The Nathu La deadline is strict. Nathu La is usually open to tourists from Wednesday to Sunday and closed on Mondays and Tuesdays, and it can close at short notice for snow or official reasons.",
+        "The Silk Route through Zuluk, Nathang and Kupup needs a Protected Area Permit, checked at Rongli. In practice your Zuluk homestay host or Silk Route agent arranges it from scans of your ID sent a few days ahead. Foreign nationals cannot visit Nathu La or the Silk Route, but can visit Tsomgo on a day trip with a Protected Area Permit, usually in a group of two or more. Check current status before you travel."
+      ],
+      "links": [
+        {"type": "guide", "slug": "east-sikkim-permits-tsomgo-nathu-la-zuluk-guide"},
+        {"type": "journey", "slug": "east-sikkim-silk-route-aritar-zuluk-gangtok-5-nights"},
+        {"type": "stay", "slug": "zuluk-silk-route-homestays"}
+      ]
+    },
+    {
+      "heading": "North Sikkim permits",
+      "paras": [
+        "Every trip to Lachung, Yumthang, Zero Point, Lachen and Gurudongmar starts in Gangtok, where a registered tour operator applies for the permit with your photo ID and photographs. You then travel in that operator's registered vehicle, either a seat in a shared group tour or a reserved car. You cannot organise North Sikkim independently.",
+        "Foreign nationals need a Protected Area Permit for North Sikkim on top of the Inner Line Permit, in a group of two or more through a registered agent. They may go as far as Lachung, Yumthang and Lachen, but Gurudongmar Lake and Zero Point are closed to them. Dzongu, the Lepcha reserve near Mangan, needs its own permit for everyone, usually arranged by the homestay.",
+        "Since the October 2023 flood in the Teesta valley, some stretches of the North Sikkim road run on temporary alignments, and permits are sometimes suspended during heavy rain. Keep a spare day and check current status before you travel."
+      ],
+      "links": [
+        {"type": "guide", "slug": "north-sikkim-permits-and-altitude-guide"},
+        {"type": "place", "slug": "dzongu"}
+      ]
+    },
+    {
+      "heading": "West and South Sikkim, and trekking permits",
+      "paras": [
+        "Indians need no permit for Pelling, Yuksom, Ravangla, Namchi or Rinchenpong. Carry photo ID for hotels. Foreign nationals need only the Inner Line Permit, which they can collect at Melli on the way in from Siliguri.",
+        "Treks into Khangchendzonga National Park, such as Dzongri and Goecha La from Yuksom, are different. Everyone needs park entry permits and a registered guide, and foreigners must book through a registered Sikkim agency, usually in a group of two or more. Your trekking agency handles the paperwork in Yuksom."
+      ],
+      "links": [
+        {"type": "guide", "slug": "yuksom-goecha-la-dzongri-trek-guide"},
+        {"type": "place", "slug": "yuksom"}
+      ]
+    },
+    {
+      "heading": "What permits cost and how long they take",
+      "paras": [
+        "Permit fees themselves are small. The Inner Line Permit for foreigners is free, and the fees for Tsomgo, Nathu La, the Silk Route and North Sikkim are typically a few hundred rupees per person including processing. Agents and operators build them into the price of the vehicle or package, so most travellers never pay them as a separate item.",
+        "What you really pay for is the registered vehicle. A pooled seat to Tsomgo and Baba Mandir costs about ₹700–1,200, a reserved car ₹3,500–5,000, or ₹5,500–7,500 with Nathu La. A shared group tour to Lachung costs ₹5,000–7,500 per person for two nights with rooms and meals.",
+        "Time is the other cost. Tsomgo and Nathu La permits are processed a day ahead, and North Sikkim permits need your documents the day before departure. Build these into the plan: arrive in Gangtok, hand over documents that afternoon, and travel the next morning."
+      ]
+    },
+    {
+      "heading": "Practical tips that save a day",
+      "paras": [
+        "Most permit problems come from late paperwork or weather, not from the rules themselves. A few habits avoid nearly all of them."
+      ],
+      "list": [
+        "Carry original photo ID on every permit day, plus two or three photocopies and spare photographs.",
+        "Hand documents to your agent by early afternoon the day before a Tsomgo, Nathu La or North Sikkim trip.",
+        "Plan Nathu La for a Wednesday to Sunday and keep a spare day in Gangtok.",
+        "Ask your agent about age limits if you are travelling with a baby or anyone over about 70.",
+        "Choose an agent registered with the Sikkim tourism department, and be wary of anyone promising foreigners a trip to Nathu La or Gurudongmar.",
+        "Do not photograph army installations, and follow instructions at checkposts."
+      ]
+    }
+  ],
+  "related_journeys": [
+    "gangtok-tsomgo-nathu-la-rumtek-4-nights",
+    "north-sikkim-lachung-yumthang-2-nights",
+    "east-sikkim-silk-route-aritar-zuluk-gangtok-5-nights"
+  ],
+  "related_places": ["gangtok", "tsomgo-lake", "nathu-la", "lachung", "gurudongmar-lake"],
+  "faqs": [
+    {"q": "Do Indians need a permit to visit Gangtok?", "a": "No. Indian nationals can visit Gangtok, Rumtek, Aritar, Pelling, Ravangla, Namchi and the rest of the lower valleys without any permit, though hotels will ask for photo ID. You need a permit only for Tsomgo Lake, Nathu La, the Zuluk Silk Route, North Sikkim and Dzongu, and a registered agent or homestay arranges it for you."},
+    {"q": "How do foreigners get the Sikkim Inner Line Permit?", "a": "Apply online through the Sikkim government's permit portal or in person at the Rangpo or Melli checkposts, Bagdogra airport, the Sikkim Tourism office in Siliguri or Sikkim House in Delhi. Bring your passport, Indian visa and photographs. The permit is free, has usually been valid for 30 days and takes 15–30 minutes at Rangpo. Check current status before you travel."},
+    {"q": "Can foreigners visit Nathu La or Gurudongmar Lake?", "a": "No. Nathu La, the Zuluk Silk Route, Gurudongmar Lake and Zero Point are closed to foreign nationals. Foreigners can visit Tsomgo Lake on a day trip, and Lachung, Yumthang and Lachen in North Sikkim, with a Protected Area Permit arranged by a registered agent, usually in a group of two or more. Be wary of anyone who says otherwise."},
+    {"q": "Which days is Nathu La open to tourists?", "a": "Nathu La is usually open to tourists from Wednesday to Sunday and closed on Mondays and Tuesdays. It can also close at short notice for snow, security reasons or official visits, in which case vehicles go only to Tsomgo Lake and Baba Mandir and the fare is adjusted. Hand your documents to the agent by early afternoon the day before."},
+    {"q": "What documents do Indians need for Sikkim permits?", "a": "A copy of a government photo ID for each traveller, such as Aadhaar, a passport, a driving licence or a voter ID card, and two passport-size photographs. Children without photo ID may need a birth certificate or school ID. Carry the original on the day, as checkposts may ask to see it. Your agent will tell you if anything else is needed."}
+  ],
+  "cta": {"title": "Let us handle the paperwork", "text": "Book a Sikkim journey with us and our registered partners in Gangtok arrange every permit your route needs."},
+  "wiki": "Inner Line Permit",
+  "image_query": "Nathu La pass Sikkim"
+}

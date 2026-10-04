@@ -27,11 +27,12 @@
           <div class="ledger__row"><span>Duration</span><span class="ledger__dots"></span><b>{{ e.duration }}</b></div>
           <div class="ledger__row"><span>Where</span><span class="ledger__dots"></span><b>{{ p.name }}</b></div>
           <div class="ledger__row"><span>Kind</span><span class="ledger__dots"></span><b>{{ e.kind|capfirst }}</b></div>
+          {% if e.cost %}<div class="ledger__row"><span>Cost</span><span class="ledger__dots"></span><b>{{ e.cost }}</b></div>{% endif %}
         </div>
         <p class="small" style="margin: 18px 0 0; color: var(--mist-2)"><b style="color: var(--brass)">Best time.</b> {{ e.best_time }}</p>
         {% if e.good_for %}<div class="chip-row" style="margin-top: 16px">{% for g in e.good_for %}<span class="chip" style="background: var(--malachite-2); color: var(--mist)">{{ g }}</span>{% endfor %}</div>{% endif %}
       </div>
-      <a class="btn btn--dark" href="{% url 'plan' %}?land={{ r.slug }}&from={{ request.path|urlencode }}">Add this to a journey</a>
+      <a class="btn btn--dark" href="{% url 'plan' %}?land={{ r.slug }}&from={{ request.path|urlencode }}">Add this to a trip</a>
       <a class="link-arrow" href="{{ p.url }}">Everything about {{ p.name }} →</a>
     </aside>
   </div>

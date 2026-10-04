@@ -1,0 +1,342 @@
+{
+  "slug": "chilapata",
+  "name": "Chilapata",
+  "kind": "Forest",
+  "tagline": "Elephant corridor and a lost fort in the sal",
+  "summary": "Chilapata is a dense forest near Hasimara that links Jaldapara and Buxa for elephants. A jeep safari here leads to the brick ruins of Nal Raja Garh. One night, or a half day from Jaldapara, is enough.",
+  "meta_description": "Chilapata forest guide: jeep safari to the Nal Raja Garh ruins, Kodalbasti Rabha village, Mendabari lodge, costs and seasons near Jaldapara and Hasimara.",
+  "wiki": "Chilapata Forests",
+  "image_query": "Chilapata forest",
+  "lat": 26.55,
+  "lng": 89.38,
+  "altitude_m": 70,
+  "nights": 1,
+  "best_months": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2
+  ],
+  "themes": [
+    "wildlife-and-birds",
+    "photography",
+    "homestays"
+  ],
+  "intro": [
+    "Chilapata is a stretch of thick sal and mixed forest in Alipurduar district, a few minutes from Hasimara and about 40 km from Alipurduar town. It forms an elephant corridor between Jaldapara National Park to the west and Buxa Tiger Reserve to the east, and herds move through it through the year. Leopards are fairly common, and the forest is rich in birds.",
+    "Compared with Jaldapara, Chilapata is darker and closer. There is little open grassland, so animals are harder to see, but the forest feels wilder and there are far fewer vehicles. The main safari route leads to Nal Raja Garh, the ruins of an old brick fort deep in the trees.",
+    "The forest edge villages of Kodalbasti and Mendabari are home to Rabha and other communities, and eco-tourism here was set up partly to bring them an income. Stay in the forest corporation lodge at Mendabari, in a village eco-cottage at Kodalbasti, or visit on a half day from Madarihat or Hasimara."
+  ],
+  "highlights": [
+    {
+      "title": "Nal Raja Garh",
+      "text": "Brick walls and gateways of an old fort, overgrown by forest, reached by jeep safari."
+    },
+    {
+      "title": "Elephant corridor",
+      "text": "One of the main routes for elephant herds moving between Jaldapara and Buxa."
+    },
+    {
+      "title": "Kodalbasti",
+      "text": "A Rabha forest village with simple eco-tourism cottages and guides."
+    },
+    {
+      "title": "Mendabari forest lodge",
+      "text": "A quiet forest corporation lodge with only a few rooms."
+    }
+  ],
+  "facts": [
+    [
+      "Altitude",
+      "About 70 m"
+    ],
+    [
+      "From Siliguri",
+      "About 150 km, 4 hours via Hasimara"
+    ],
+    [
+      "From Madarihat",
+      "About 30 km, 1 hour"
+    ],
+    [
+      "Best for",
+      "Dense forest, elephants, Nal Raja Garh ruins"
+    ],
+    [
+      "Nights",
+      "1"
+    ],
+    [
+      "Season",
+      "Safaris closed 16 June to 15 September"
+    ],
+    [
+      "Permits",
+      "None; safari tickets and entry fees apply"
+    ]
+  ],
+  "how_to_reach": [
+    {
+      "mode": "Shared bus",
+      "text": "Take a bus from Siliguri to Hasimara (about ₹180–260, 4.5 hours), then a local car or auto to Kodalbasti or Mendabari."
+    },
+    {
+      "mode": "Private car",
+      "text": "Chilapata is about 30 km and one hour from Madarihat via Hasimara, and about 150 km and 4 hours from Siliguri."
+    },
+    {
+      "mode": "Train",
+      "text": "Hasimara station on the Dooars line is the nearest railhead, about 10 km away."
+    }
+  ],
+  "where_to_stay": "Chilapata has very few rooms. The West Bengal Forest Development Corporation's Mendabari Jungle Lodge, at about ₹2,500 a room, and the nearby Malangi Lodge near Hasimara are the main government options. Kodalbasti has simple village eco-cottages run with the local community, from about ₹1,500–2,500 a room with meals. Hasimara and Madarihat have more hotels.",
+  "stays": [
+    "mendabari-jungle-lodge-chilapata",
+    "jaldapara-tourist-lodge-madarihat"
+  ],
+  "nearby": [
+    "jaldapara",
+    "buxa",
+    "phuentsholing"
+  ],
+  "tips": [
+    "Combine Chilapata with Jaldapara; it is only an hour from Madarihat.",
+    "Take a morning safari for birds and better light under the trees.",
+    "Wear long sleeves and use repellent; the forest is humid and has insects.",
+    "Do not drive the forest road after dark; elephant herds cross it.",
+    "Safaris stop from 16 June to 15 September. Check current status before you travel."
+  ],
+  "costs": [
+    {
+      "item": "Chilapata jeep safari to Nal Raja Garh, per vehicle",
+      "inr": "₹2,000–3,000"
+    },
+    {
+      "item": "Car Madarihat to Chilapata and back",
+      "inr": "₹1,500–2,200"
+    },
+    {
+      "item": "Bus Siliguri to Hasimara",
+      "inr": "₹180–260 a seat"
+    },
+    {
+      "item": "WBFDC Mendabari Jungle Lodge, double room",
+      "inr": "₹2,500–3,500 a night"
+    },
+    {
+      "item": "Kodalbasti eco-cottage, per person with meals",
+      "inr": "₹1,200–2,000"
+    },
+    {
+      "item": "Village walk with a local guide",
+      "inr": "₹300–600"
+    }
+  ],
+  "local_word": {
+    "word": "Garh",
+    "language": "Bengali and Hindi",
+    "meaning": "Fort or stronghold, as in Nal Raja Garh, the fort of King Nal."
+  },
+  "story": {
+    "title": "Whose fort is Nal Raja Garh",
+    "paras": [
+      "Deep in Chilapata forest, a jeep track ends at walls of narrow old bricks, half buried in roots and leaf litter. There are the remains of gateways, a long rampart and mounds that may hide more buildings. Local people call it Nal Raja Garh, the fort of King Nal.",
+      "Guides and many tourist leaflets say that the fort was built by a king called Nal in about the fifth century, the time of the Gupta empire, and that it guarded a trade route between the plains and the hills. You will hear this story at the gate.",
+      "The written record is thinner. Wikipedia's article on Chilapata says the fort was built by the Kingdom of Bhutan, which controlled the Dooars until the British took them in 1865, and that the site is poorly maintained but of considerable archaeological interest. We have not found a published excavation report that settles its date.",
+      "So the honest answer is that nobody we can cite knows for sure. What is certain is that this low forest was once a frontier between Bhutan, the Koch kingdom of Cooch Behar and the plains, and that someone thought it worth defending. Walk the walls quietly and leave every brick where it lies."
+    ],
+    "sources": [
+      {
+        "title": "Chilapata Forests (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Chilapata_Forests"
+      },
+      {
+        "title": "Told locally in Kodalbasti and Hasimara",
+        "url": ""
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What is Nal Raja Garh?",
+      "a": "Nal Raja Garh is a ruined brick fort inside Chilapata forest. Local tradition links it to a king called Nal and an early date, while Wikipedia says it was built by the Kingdom of Bhutan. No excavation we know of has settled the question. You see walls, gateways and mounds in thick forest, reached on the Chilapata jeep safari."
+    },
+    {
+      "q": "How is Chilapata different from Jaldapara?",
+      "a": "Jaldapara is mostly open grassland, so rhinos and gaur are easy to see. Chilapata is dense forest, with fewer open views and fewer vehicles. Animal sightings are harder, but the forest feels wilder, and the Nal Raja Garh ruins add history. Most people do Jaldapara for wildlife and Chilapata for atmosphere."
+    },
+    {
+      "q": "How do I book the Chilapata safari?",
+      "a": "Chilapata safaris are run under the forest department, with jeeps and guides arranged from the Kodalbasti side of the forest. Your lodge in Mendabari, Madarihat or Hasimara can usually arrange one. In peak season book a day ahead. Rules and fees change; check current status before you travel."
+    },
+    {
+      "q": "Can I see elephants in Chilapata?",
+      "a": "Often, though not on every trip. Chilapata is a key corridor for herds moving between Jaldapara and Buxa, and you may see fresh dung and broken branches on the track. Your guide will keep a safe distance. Leopards, gaur, deer and many birds also live here."
+    },
+    {
+      "q": "How far is Chilapata from Madarihat?",
+      "a": "About 30 km, roughly an hour by car via Hasimara. A half-day trip from a Madarihat base is easy: take the dawn Jaldapara safari, drive to Chilapata for a late-morning or afternoon safari, and return by dusk."
+    },
+    {
+      "q": "Where can I stay in Chilapata?",
+      "a": "The West Bengal Forest Development Corporation runs Mendabari Jungle Lodge in the forest, and there are simple village eco-cottages at Kodalbasti run with the local Rabha community. Hasimara and Madarihat, 10–30 km away, have more hotels. Rooms in the forest are few, so book early."
+    },
+    {
+      "q": "Is Chilapata safe?",
+      "a": "Yes, with sensible care. Do not walk in the forest without a guide, do not drive the forest road after dark and keep children close in villages near the forest. Elephants are the main risk. Lodges and guides are used to visitors and will tell you what to avoid."
+    },
+    {
+      "q": "When is the best time to visit Chilapata?",
+      "a": "November to April, when tracks are dry and the forest is open enough for sightings. Mornings in December and January are foggy and cold. Safaris stop from 16 June to 15 September. October is green but still wet in places."
+    },
+    {
+      "q": "Who lives around Chilapata?",
+      "a": "Rabha families live in forest villages such as Kodalbasti, along with Mech, Rajbanshi, Adivasi and Nepali-speaking neighbours. Many work with the forest department or in eco-tourism. When you visit a village, go with a local guide, ask before taking photos and buy from village shops or cooperatives."
+    }
+  ],
+  "experiences": [
+    {
+      "slug": "chilapata-nal-raja-garh-jeep-safari",
+      "title": "Jeep safari to Nal Raja Garh",
+      "kind": "wildlife",
+      "duration": "2–2.5 hours",
+      "summary": "A jeep safari through dense Chilapata forest to the ruins of Nal Raja Garh, with chances of elephants, gaur and forest birds on the way.",
+      "body": [
+        "The safari starts from the Kodalbasti side and follows narrow forest tracks under tall sal trees. Your guide watches for elephant signs, gaur and deer, and stops for hornbills, woodpeckers and drongos. The light is low and the forest is thick, so sightings are fleeting.",
+        "The track ends near Nal Raja Garh, where you can get down and walk a short way along the old brick walls with the guide. Do not climb on the ruins or take bricks. The return drive is often the time for an elephant sighting, as herds come out in the late afternoon."
+      ],
+      "best_time": "Early morning or mid-afternoon from November to March.",
+      "good_for": [
+        "History lovers",
+        "Wildlife lovers",
+        "Photographers"
+      ],
+      "cost": "₹2,000–3,000 per jeep for up to 6, including guide (indicative)",
+      "wiki": "",
+      "image_query": "Nal Raja Garh Chilapata",
+      "faqs": [
+        {
+          "q": "Can I walk at Nal Raja Garh?",
+          "a": "Yes, a short walk near the ruins with your guide is part of the safari. Stay with the group, as this is forest with elephants and leopards. Do not climb on walls or remove anything. Wear closed shoes, as the ground is uneven and leafy."
+        },
+        {
+          "q": "How long is the Chilapata safari?",
+          "a": "About 2–2.5 hours, including the stop at Nal Raja Garh. Morning and afternoon slots are available in season. Report at the starting point 15–30 minutes early with photo ID. Times change with season and forest department rules."
+        },
+        {
+          "q": "Will I see animals at Chilapata?",
+          "a": "Sightings are less certain than at Jaldapara because the forest is dense. Elephants, gaur, deer, wild boar and many birds are possible. Leopards live here but are rarely seen. Go for the forest and the ruins, and count animals as a bonus."
+        }
+      ]
+    },
+    {
+      "slug": "chilapata-kodalbasti-rabha-village-walk",
+      "title": "Village walk in Kodalbasti",
+      "kind": "village",
+      "duration": "1.5–2 hours",
+      "summary": "A guided walk through Kodalbasti, a Rabha forest village on the edge of Chilapata, to see farms, homes and how life works beside an elephant corridor.",
+      "body": [
+        "The Rabha are one of the older communities of the Dooars and Assam, with their own language and traditions. Kodalbasti, on the edge of Chilapata, has been involved in eco-tourism for some years, and young people from the village work as guides.",
+        "A walk takes you along village paths past paddy fields, betel-nut and bamboo groves, a school and houses. Your guide will explain how families live with elephants that raid crops, and how they have worked with the forest department. Ask before entering any compound or taking photos, and pay the guide directly."
+      ],
+      "best_time": "Late afternoon in the dry season, from November to March.",
+      "good_for": [
+        "Culture lovers",
+        "Couples",
+        "Students"
+      ],
+      "cost": "₹300–600 for a village guide (indicative)",
+      "wiki": "Rabha people",
+      "image_query": "Rabha village",
+      "faqs": [
+        {
+          "q": "Who are the Rabha?",
+          "a": "The Rabha are a Tibeto-Burman community living in parts of Assam, Meghalaya and North Bengal, including forest villages of the Dooars. Many keep their own language and traditional faith alongside Hinduism or Christianity. In the Dooars many families live on the forest edge and work in farming, forestry and tourism."
+        },
+        {
+          "q": "How do I arrange a Kodalbasti walk?",
+          "a": "Ask your lodge or the eco-tourism guides at Kodalbasti, who can arrange a village guide. Agree the fee first and pay the guide directly, so the money stays in the village. There is no fixed timetable, so go with the season and the light."
+        },
+        {
+          "q": "What should I bring on the village walk?",
+          "a": "Comfortable shoes, water, a hat, insect repellent and some cash for snacks or crafts. Leave sweets and gifts for children at home; if you want to help, ask the guide whether the school or a village group accepts contributions."
+        }
+      ]
+    },
+    {
+      "slug": "chilapata-mendabari-forest-night",
+      "title": "A night at the Mendabari forest lodge",
+      "kind": "nature",
+      "duration": "Overnight",
+      "summary": "A night in the forest corporation lodge at Mendabari, listening to the forest after dark and waking to birdsong at dawn.",
+      "body": [
+        "Mendabari Jungle Lodge is a small, plain lodge of the West Bengal Forest Development Corporation in the forest between Jaldapara and Chilapata. Once the day visitors leave, the only sounds are insects, owls, barking deer and sometimes elephants breaking branches nearby.",
+        "There is little to do after dinner except sit on the verandah, so bring a torch, a book and warm clothes in winter. At first light, hornbills, barbets and woodpeckers are loud around the lodge. It is one of the best ways to feel the Dooars forest rather than just pass through it."
+      ],
+      "best_time": "November to March, when nights are cool and dry.",
+      "good_for": [
+        "Couples",
+        "Birdwatchers",
+        "Wildlife lovers"
+      ],
+      "cost": "₹2,500–3,500 a room per night (indicative)",
+      "wiki": "",
+      "image_query": "Mendabari forest",
+      "faqs": [
+        {
+          "q": "Is there electricity at Mendabari?",
+          "a": "Usually yes, but power cuts happen and backup may be limited. Charge devices when you can and carry a power bank and torch. Mobile signal is weak inside the forest. Tell family or friends you may be out of contact for the night."
+        },
+        {
+          "q": "Can I walk in the forest from Mendabari?",
+          "a": "No. Do not leave the lodge compound on foot without forest staff. Elephants, gaur and leopards move close to the lodge, especially at dawn and dusk. Enjoy the forest from the verandah and on guided safaris."
+        },
+        {
+          "q": "What food is served at Mendabari?",
+          "a": "Simple fixed meals of rice, dal, vegetables, and chicken or egg curry, cooked by the lodge staff. Tell them about dietary needs when you book or arrive. There are no shops nearby, so carry snacks and water from Hasimara or Madarihat."
+        }
+      ]
+    },
+    {
+      "slug": "chilapata-morning-forest-birding",
+      "title": "Morning birding on the Chilapata edge",
+      "kind": "wildlife",
+      "duration": "2–3 hours",
+      "summary": "An early birding session on roads and clearings along the edge of Chilapata forest with a local guide, looking for hornbills, woodpeckers and forest birds.",
+      "body": [
+        "The mix of sal forest, river channels, villages and tea gardens around Chilapata draws a long list of birds. In the first hours after sunrise, the canopy fills with oriental pied and great hornbills, barbets, woodpeckers, drongos, minivets and orioles, and raptors circle over the clearings.",
+        "Birding happens along public roads and the forest edge with a local guide, not inside the core forest. Walk slowly, stop often and let the guide lead. Bring binoculars and wear dull colours. The fog of December and January lifts by about 8 am."
+      ],
+      "best_time": "From sunrise until about 9 am, between November and April.",
+      "good_for": [
+        "Birdwatchers",
+        "Photographers"
+      ],
+      "cost": "₹800–1,500 for a local birding guide (indicative)",
+      "wiki": "",
+      "image_query": "Oriental pied hornbill Dooars",
+      "faqs": [
+        {
+          "q": "What birds can I see at Chilapata?",
+          "a": "Common sightings include oriental pied hornbills, lineated and blue-throated barbets, greater racket-tailed drongos, scarlet minivets, woodpeckers and many raptors. Great hornbills are seen sometimes. Winter brings migrant flycatchers and warblers. A guide improves your list a lot."
+        },
+        {
+          "q": "Do I need a permit for birding at Chilapata?",
+          "a": "No permit is needed for walking public roads on the forest edge, but you may not enter the forest on foot without permission. Go with a local guide who knows which areas are allowed. Check current status before you travel."
+        },
+        {
+          "q": "Is birding safe on foot near Chilapata?",
+          "a": "Along roads and village edges in daylight, with a local guide, yes. Elephants are the main hazard, especially in the early morning. Listen to the guide, keep an exit route in mind and never approach animals."
+        }
+      ]
+    }
+  ]
+}

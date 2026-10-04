@@ -1,0 +1,170 @@
+{
+ "slug": "rumtek",
+ "name": "Rumtek",
+ "kind": "Monastery town",
+ "tagline": "The Karma Kagyu seat across the valley from Gangtok",
+ "summary": "Rumtek is a village about 24 km from Gangtok, home to the Dharma Chakra Centre, the largest monastery in Sikkim and the main seat of the Karma Kagyu school outside Tibet. Most people visit on a half-day trip from Gangtok, but a night in a village homestay is quieter.",
+ "meta_description": "Rumtek Monastery guide: history of the Karmapa's seat, the Golden Stupa, the old monastery, entry rules, getting there from Gangtok and village homestays.",
+ "wiki": "Rumtek Monastery",
+ "image_query": "Rumtek Monastery Sikkim",
+ "lat": 27.2886,
+ "lng": 88.5614,
+ "altitude_m": 1550,
+ "nights": 0,
+ "best_months": [1, 2, 2, 2, 2, 1, 0, 1, 1, 2, 2, 2],
+ "themes": ["monasteries", "weekend-breaks", "homestays", "photography"],
+ "intro": [
+  "Rumtek sits on a ridge facing Gangtok across the Ranipool valley, at about 1,550 m. The village is small, a scatter of houses, shops and monks' quarters among terraced fields, but its monastery is one of the most important in the Tibetan Buddhist world. The Dharma Chakra Centre was built in the 1960s by the 16th Karmapa after he left Tibet.",
+  "The monastery follows the traditional plan of the Karmapa's old seat at Tsurphu in Tibet. A large courtyard leads to the main prayer hall, painted inside with murals and lined with long rows of seats for monks. Behind it is the Golden Stupa holding the relics of the 16th Karmapa, and above stands a college for higher Buddhist studies.",
+  "Below the main complex is the old Rumtek monastery, a much smaller and older temple that is often missed. Combine the two with a walk through the village and a stop at a tea shop, and you have a quiet morning away from Gangtok's traffic. Security is tighter than at other monasteries, so carry photo ID."
+ ],
+ "highlights": [
+  {"title": "The main prayer hall", "text": "A tall hall with painted pillars, murals and statues, where you may hear monks chanting in the morning or afternoon."},
+  {"title": "The Golden Stupa", "text": "A gilded reliquary holding the remains of the 16th Karmapa, in a shrine behind the main hall."},
+  {"title": "Old Rumtek monastery", "text": "A small, older temple below the main complex, quieter and much less visited."},
+  {"title": "Views back to Gangtok", "text": "From the monastery approach you look straight across the valley to the capital spread along its ridge."},
+  {"title": "Village homestays", "text": "A handful of families host guests, which lets you see the monastery at dawn and dusk without crowds."}
+ ],
+ "facts": [
+  ["Altitude", "About 1,550 m"],
+  ["From Gangtok", "24 km, 1 hour"],
+  ["From Siliguri", "About 115 km via Ranipool, 4–5 hours"],
+  ["Best for", "Tibetan Buddhist culture, a quiet morning"],
+  ["Nights", "0–1 (usually a half-day trip)"],
+  ["Permits", "None for Indians; Sikkim Inner Line Permit for foreigners; photo ID at the monastery gate"]
+ ],
+ "how_to_reach": [
+  {"mode": "Shared jeep", "text": "Shared jeeps to Rumtek leave from the Gangtok taxi stands a few times a day, mostly in the morning and early afternoon, for about ₹60–100 a seat. Return seats are fewer after 3 pm."},
+  {"mode": "Private car", "text": "A reserved taxi from Gangtok for Rumtek with waiting time costs about ₹1,500–2,200 and takes an hour each way via Ranipool. Many drivers add Lingdum (Ranka) monastery for a little more."},
+  {"mode": "Air", "text": "Bagdogra is the nearest major airport, about 120 km away. Pakyong airport is closer, but flights have been irregular. Check current status before you travel."}
+ ],
+ "where_to_stay": "Most visitors stay in Gangtok and come to Rumtek for half a day. If you want a night here, there are a few simple village homestays and small guesthouses near the monastery for about ₹1,200–2,500 per person with meals. They are quiet, cheap and handy for morning prayers, but choice is limited, so book ahead in spring and autumn.",
+ "stays": [],
+ "nearby": ["gangtok", "tsomgo-lake", "ravangla", "aritar"],
+ "tips": [
+  "Carry a passport or Indian photo ID; it is checked at the monastery gate.",
+  "Visit in the morning, when monks are at prayer and the light is good for photographs.",
+  "Walk downhill to the old Rumtek monastery, which most tour groups skip.",
+  "Dress modestly, remove hats and shoes in shrine rooms, and walk clockwise.",
+  "Do not photograph inside the main hall unless a monk says it is allowed."
+ ],
+ "costs": [
+  {"item": "Shared jeep Gangtok to Rumtek", "inr": "₹60–100 a seat"},
+  {"item": "Reserved taxi Gangtok to Rumtek and back", "inr": "₹1,500–2,200 per car"},
+  {"item": "Monastery entry", "inr": "Free or a small fee; donations welcome"},
+  {"item": "Village homestay with meals", "inr": "₹1,200–2,500 per person a night"},
+  {"item": "Tea and momos at a village café", "inr": "₹100–200 a person"}
+ ],
+ "local_word": {"word": "Lhakhang", "language": "Sikkimese (Bhutia) and Tibetan", "meaning": "A temple or shrine hall, literally a house of the gods"},
+ "story": {
+  "title": "The Karmapa who rebuilt his seat in Sikkim",
+  "paras": [
+   "The first monastery at Rumtek was built in the mid-18th century under the 12th Karmapa, Changchub Dorje, one of several Karma Kagyu temples in Sikkim. By the 1950s it had fallen into disrepair. Its revival came from an unexpected direction: the Chinese takeover of Tibet.",
+   "In 1959 the 16th Karmapa, Rangjung Rigpe Dorje, left his seat at Tsurphu near Lhasa with a party of monks and many sacred objects. The Chogyal of Sikkim, Tashi Namgyal, offered him land, and the Karmapa chose Rumtek. Construction of the new monastery, with support from the Sikkim royal family and the Government of India, was completed in 1966.",
+   "Rumtek became the Karmapa's seat in exile and a centre for teaching the Karma Kagyu tradition to students from around the world. The 16th Karmapa died in 1981 in the United States, and his relics were enshrined in the Golden Stupa behind the main hall.",
+   "His succession later became disputed, with two candidates recognised by different groups. The quarrel affected Rumtek directly, which is why the monastery has a security post and police presence today. For visitors, it means a short ID check at the gate before the calm of the courtyard."
+  ],
+  "sources": [
+   {"title": "Rumtek Monastery (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Rumtek_Monastery"},
+   {"title": "16th Karmapa, Rangjung Rigpe Dorje (Wikipedia)", "url": "https://en.wikipedia.org/wiki/16th_Karmapa,_Rangjung_Rigpe_Dorje"},
+   {"title": "Karmapa controversy (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Karmapa_controversy"}
+  ]
+ },
+ "faqs": [
+  {"q": "How far is Rumtek from Gangtok?", "a": "Rumtek is about 24 km from Gangtok, roughly an hour by road via Ranipool. Although it looks close across the valley, the road drops to the river and climbs again. A reserved taxi with waiting time costs about ₹1,500–2,200, and shared jeeps run a few times a day for about ₹60–100 a seat."},
+  {"q": "What are Rumtek Monastery's opening hours?", "a": "The monastery is usually open to visitors from early morning until about 5 or 6 pm, with the main hall sometimes closed during rituals or at lunchtime. Morning visits are best for chanting and light. Timings are set by the monastery and can change, so check locally on the day."},
+  {"q": "Do I need ID to enter Rumtek Monastery?", "a": "Yes. There is a security checkpoint at the gate where police record visitors' details. Indian nationals should carry a government photo ID such as Aadhaar or a passport, and foreigners need their passport and Sikkim Inner Line Permit. Bags may be checked. The process is quick outside peak hours."},
+  {"q": "Is it worth staying a night in Rumtek?", "a": "For most travellers a half-day trip is enough. A night is worth it if you want to hear early-morning prayers, walk the village after day-trippers leave, or simply rest somewhere quieter than Gangtok. Homestays are basic but warm, and the monastery is a short walk away."},
+  {"q": "What is the Golden Stupa at Rumtek?", "a": "The Golden Stupa is a gilded reliquary that holds the remains of the 16th Karmapa, Rangjung Rigpe Dorje, who founded the present monastery and died in 1981. It stands in a shrine behind the main prayer hall. Access is sometimes restricted, so ask a monk whether it is open on the day."},
+  {"q": "Can I combine Rumtek with other sights?", "a": "Yes. Most drivers combine Rumtek with Lingdum, also called Ranka, a newer monastery about 20 km from Gangtok, and sometimes with Banjhakri Falls park on the return. That makes a comfortable half-day trip. Avoid combining Rumtek with Tsomgo on the same day, as they are in different directions."},
+  {"q": "Is Rumtek suitable for elderly travellers?", "a": "Mostly yes. Cars stop a short walk below the gate, and the walk up to the courtyard is a gentle slope of a few hundred metres. Inside, there are steps to the main hall and more steps to the upper buildings. Go slowly and take water. The old monastery below involves more steep steps."},
+  {"q": "What should I wear at Rumtek?", "a": "Wear clothes that cover shoulders and knees, and bring an extra layer, as halls can be cold even in summer. Remove shoes and hats before entering shrine rooms. Rumtek is a working monastery with hundreds of monks, so behave as you would in any place of worship and keep voices low."},
+  {"q": "When are the masked dances at Rumtek?", "a": "Rumtek holds masked dances at certain points in the Tibetan calendar, notably in the days before Losar in February or March and on some summer dates linked to Guru Rinpoche. Dates follow the lunar calendar and change every year, so ask the monastery office or a Gangtok travel agent for the current schedule."}
+ ],
+ "experiences": [
+  {
+   "slug": "rumtek-morning-prayers-dharma-chakra-centre",
+   "title": "Morning prayers at the Dharma Chakra Centre",
+   "kind": "spiritual",
+   "duration": "2 hours",
+   "summary": "Arrive early to sit quietly at the back of the main hall while monks chant. It is the best way to understand Rumtek as a working monastery rather than a sight.",
+   "body": [
+    "The main hall at Rumtek is tall and dim, lit by butter lamps and windows high up, with rows of low seats for the monks. In the morning the community gathers for prayers, with chanting, drums, cymbals and long horns. Visitors may usually sit quietly at the back or stand by the door.",
+    "Come by 7.30 or 8 am from Gangtok, which means leaving around 6.30 am. Afterwards walk around the courtyard and outer prayer wheels, and ask whether the Golden Stupa shrine is open. Timings of prayers vary, so treat any chanting you hear as a bonus rather than a promise."
+   ],
+   "best_time": "Early morning, before tour groups arrive from Gangtok.",
+   "good_for": ["Culture lovers", "Solo travellers", "Photographers"],
+   "cost": "₹0, plus transport; donations welcome",
+   "wiki": "",
+   "image_query": "Rumtek Monastery prayer hall",
+   "faqs": [
+    {"q": "Can visitors attend prayers at Rumtek?", "a": "Visitors are usually allowed to sit or stand quietly at the back of the main hall during prayers. Do not walk between monks, do not use flash, and keep phones silent. If a monk asks you to leave or wait outside during a particular ritual, do so without argument."},
+    {"q": "What time do morning prayers start at Rumtek?", "a": "Prayer times vary with the season and the monastery's ritual calendar. Morning sessions often begin soon after dawn and may continue for an hour or more. Arriving between 7.30 and 8 am gives you a fair chance of hearing chanting. Ask the security staff or monks about the day's schedule."},
+    {"q": "Is photography allowed during prayers?", "a": "Generally no. Photographing inside the main hall during prayers is not appropriate, and signs often say so. You can take photographs in the courtyard and of the building's exterior. If you want a picture of a monk, ask first; many will agree, and some will say no."}
+   ]
+  },
+  {
+   "slug": "rumtek-old-monastery-walk",
+   "title": "Walk down to the old Rumtek monastery",
+   "kind": "culture",
+   "duration": "1–1.5 hours",
+   "summary": "A short, steep walk from the main complex leads to the original 18th-century monastery, a small temple in a quiet courtyard that most visitors never see.",
+   "body": [
+    "The old monastery was the first Karma Kagyu temple at Rumtek, built in the time of the 12th Karmapa in the mid-1700s and later rebuilt. It is much smaller than the 1960s complex above it, with a simple courtyard, a painted prayer hall and a few resident monks or caretakers.",
+    "Ask at the main gate or in the village for the path, which drops through houses and fields for about 15–20 minutes. Walk clockwise around the temple and spend a few minutes inside if it is open. Coming back up is steep, so take water and go slowly."
+   ],
+   "best_time": "Mid-morning, after visiting the main monastery.",
+   "good_for": ["Walkers", "Culture lovers", "Photographers"],
+   "cost": "₹0; donations welcome",
+   "wiki": "",
+   "image_query": "Old Rumtek monastery",
+   "faqs": [
+    {"q": "Is the old Rumtek monastery always open?", "a": "Not always. It is looked after by a small number of monks or caretakers, and the prayer hall may be locked at times. Even when it is closed, the courtyard and exterior are worth seeing. Asking a villager or the monastery staff before you walk down can save a wasted climb back."},
+    {"q": "How difficult is the walk to the old monastery?", "a": "It is short but steep, about 15–20 minutes down and 25–30 minutes back up on village paths and steps. It is fine for most reasonably fit adults. Paths can be slippery after rain, so wear shoes with grip. Your driver can sometimes meet you on the road below instead."},
+    {"q": "Why visit the old monastery if the new one is bigger?", "a": "It is older, quieter and more intimate, and it shows what a village monastery in Sikkim looked like before the large 20th-century complexes. You will often have it to yourself. It also explains why the Karmapa chose Rumtek: there was already a Karma Kagyu presence here."}
+   ]
+  },
+  {
+   "slug": "rumtek-village-homestay-night",
+   "title": "A night in a Rumtek village homestay",
+   "kind": "village",
+   "duration": "Overnight",
+   "summary": "Staying overnight in Rumtek village lets you see the monastery at dawn and dusk, eat home-cooked food and see how life runs around a great monastery.",
+   "body": [
+    "Rumtek village has a few families and small guesthouses that host travellers. Rooms are simple, with thick quilts and hot water, and meals are home-style: rice, dal, local greens, eggs and sometimes pork or chicken. Many hosts are Bhutia or Nepali families who have lived alongside the monastery for generations.",
+    "After the day-trippers leave, the village is quiet. Walk to the monastery for evening prayers if they are being held, watch the lights of Gangtok come on across the valley, and be back at the gate early next morning. The hosts can also arrange a taxi onward to Gangtok or Tsomgo."
+   ],
+   "best_time": "October to May, when evenings are clear and the Gangtok lights show well.",
+   "good_for": ["Couples", "Solo travellers", "Slow travellers"],
+   "cost": "₹1,200–2,500 per person with dinner and breakfast",
+   "wiki": "",
+   "image_query": "Rumtek village Sikkim",
+   "faqs": [
+    {"q": "How do I book a homestay in Rumtek?", "a": "Most Rumtek homestays are small and list on booking websites or take bookings by phone. A Gangtok travel agent can also arrange one. Choice is limited, so book ahead in April, May and October. Confirm whether meals are included and how far the house is from the monastery gate."},
+    {"q": "Is Rumtek quieter than Gangtok at night?", "a": "Much quieter. Once the day-trip taxis leave in the late afternoon, the village has little traffic and few shops open. That suits travellers who want rest, but there is little to do in the evening besides walking, reading and eating with your hosts."},
+    {"q": "Can I use Rumtek as a base for Tsomgo Lake?", "a": "You can, but it adds about an hour each way compared with staying in Gangtok, and your permit is still arranged through a Gangtok agent. It works best as a single night between Gangtok stays rather than a base for several days of excursions."}
+   ]
+  },
+  {
+   "slug": "rumtek-and-lingdum-monastery-half-day",
+   "title": "Rumtek and Lingdum monasteries in a half day",
+   "kind": "spiritual",
+   "duration": "4–5 hours",
+   "summary": "Combine Rumtek with Lingdum, also called Ranka monastery, for a half-day trip from Gangtok that shows an old Karma Kagyu seat and a large modern monastery.",
+   "body": [
+    "Lingdum lies about 20 km from Gangtok on a forested slope above Ranka. It was completed around 1999 and belongs to the Zurmang Kagyu lineage. Its large courtyard and main hall are bright and well kept, and young monks are often studying or playing in the grounds.",
+    "A taxi from Gangtok can visit Lingdum first and Rumtek second, or the other way round, in four to five hours. Leave by 8 or 9 am, carry ID for Rumtek, and stop for tea in Ranipool on the way back. The two monasteries make a good contrast and avoid the busiest viewpoints."
+   ],
+   "best_time": "Morning, starting by 8 or 9 am.",
+   "good_for": ["Families", "First-timers", "Culture lovers"],
+   "cost": "₹2,000–2,800 for a reserved taxi with waiting time",
+   "wiki": "",
+   "image_query": "Lingdum Monastery Sikkim",
+   "faqs": [
+    {"q": "How far apart are Rumtek and Lingdum?", "a": "They are on different spurs of the same hillside, roughly an hour apart by road with the Gangtok approach. A reserved taxi doing both with waiting time takes four to five hours from Gangtok. Shared jeeps do not link the two, so a reserved car is the practical choice."},
+    {"q": "Is Lingdum monastery old?", "a": "No. Lingdum, also called Ranka monastery, was completed around 1999, which makes it one of the newer large monasteries near Gangtok. Its paintings and woodwork are fresh and bright. It belongs to the Zurmang Kagyu lineage, linked to the Karma Kagyu school followed at Rumtek."},
+    {"q": "Is there an entry fee at Lingdum?", "a": "Lingdum usually charges a small entry fee for visitors, often around ₹10–50, which goes to the monastery's upkeep. Rumtek is usually free or charges a small fee. Fees change, so carry small notes. Donations at either monastery are welcome but never required."}
+   ]
+  }
+ ]
+}

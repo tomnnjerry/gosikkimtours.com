@@ -1,0 +1,171 @@
+{
+  "slug": "rinchenpong",
+  "name": "Rinchenpong",
+  "kind": "Village",
+  "tagline": "A ridge-top village with a rare Buddha and a lake that was poisoned",
+  "summary": "Rinchenpong is a small village at about 1,700 m in West Sikkim (now in Soreng district) with a wide view of the Kangchenjunga range, an eighteenth-century monastery and farmstays among orange and cardamom groves. It is the quiet alternative to Pelling. Two nights suit a slow stay.",
+  "meta_description": "Rinchenpong guide: Kangchenjunga views, Rinchenpong Monastery, Resum hike, poison lake story, farmstays, costs and how to reach from Pelling or Siliguri.",
+  "wiki": "Rinchenpong",
+  "image_query": "Rinchenpong Sikkim",
+  "lat": 27.24,
+  "lng": 88.27,
+  "altitude_m": 1700,
+  "nights": 2,
+  "best_months": [1, 1, 2, 2, 1, 0, 0, 0, 1, 2, 2, 2],
+  "themes": ["homestays", "monasteries", "photography", "honeymoons"],
+  "intro": [
+    "Rinchenpong sits on a ridge in the south-west of Sikkim, about 40 km from Pelling and 130 km from Siliguri, with neighbouring Kaluk just below it. Since 2021 it has been part of the new Soreng district, carved out of West Sikkim. Its view is the reason most people come: from the ridge the whole Kangchenjunga range spreads across the northern sky, often clearer than from Pelling because there is less haze and fewer buildings.",
+    "The village is spread thin along the road and the slopes, with orange orchards, cardamom groves under shade trees and terraced fields. Rinchenpong Monastery, dating from about 1730, holds an unusual statue of the Adi Buddha in union with his consort, rare in Sikkim. Resum Monastery is a walk away along the ridge.",
+    "There is little to do here and that is the point. Walk, sit, eat home food and watch the light on the range."
+  ],
+  "highlights": [
+    {"title": "Kangchenjunga from the ridge", "text": "An open view of the range from the village, especially at sunrise from October to April."},
+    {"title": "Rinchenpong Monastery", "text": "An eighteenth-century monastery known for its statue of the Adi Buddha in yab-yum form."},
+    {"title": "Resum Monastery walk", "text": "A forest walk along the ridge to a small, quiet monastery with views both ways."},
+    {"title": "The poisoned lake", "text": "A small pond tied to a nineteenth-century story of local resistance to a British force."},
+    {"title": "Farmstays and orchards", "text": "Family farms growing oranges, cardamom, ginger and vegetables, several of which take guests."},
+    {"title": "Few crowds", "text": "Far fewer visitors than Pelling, with dark skies and quiet evenings."}
+  ],
+  "facts": [
+    ["Altitude", "About 1,700 m"],
+    ["From Siliguri", "About 130 km, 5 hours"],
+    ["From Pelling", "About 40 km, 1.5–2 hours"],
+    ["Best for", "Mountain views, farmstays, slow travel"],
+    ["Nights", "2"],
+    ["Permits", "None for Indians; ILP for foreigners"]
+  ],
+  "how_to_reach": [
+    {"mode": "Shared jeep", "text": "Shared jeeps run from Jorethang to Rinchenpong and Kaluk, mostly in the morning and early afternoon, about ₹120–180 a seat and 2 hours. Siliguri to Jorethang by shared jeep is about ₹250–300. There are occasional direct morning jeeps from Siliguri."},
+    {"mode": "Private car", "text": "A reserved car from NJP or Bagdogra takes about 5 hours via Melli and Jorethang and costs about ₹5,000–6,000. From Pelling a reserved car costs about ₹2,000–2,800 and takes 1.5–2 hours."},
+    {"mode": "Air", "text": "Bagdogra (IXB) is the nearest working airport, about 140 km and 5 hours by road."}
+  ],
+  "where_to_stay": "Rinchenpong and Kaluk have family homestays at ₹1,500–3,000 per person with meals, a few small hotels at ₹2,000–4,000 a room, and well-known farmstays at ₹4,000–6,500 a room with meals. Choose a stay on the ridge or with a north-facing room for the view. There are almost no restaurants, so meals at your stay matter.",
+  "stays": ["yangsum-heritage-farm-rinchenpong"],
+  "nearby": ["pelling", "yuksom", "namchi", "darjeeling-town"],
+  "tips": [
+    "Pick a room with a north-facing window; the range is the main event here.",
+    "Book meals with your stay, as Rinchenpong has very few places to eat.",
+    "Carry cash; the nearest reliable ATMs are in Jorethang and Gyalshing.",
+    "Walk to Resum Monastery early, before the cloud rises.",
+    "Ask before photographing people working in fields or orchards."
+  ],
+  "costs": [
+    {"item": "Shared jeep Jorethang to Rinchenpong", "inr": "₹120–180 a seat"},
+    {"item": "Reserved car NJP to Rinchenpong", "inr": "₹5,000–6,000 per car"},
+    {"item": "Reserved car Pelling to Rinchenpong", "inr": "₹2,000–2,800 per car"},
+    {"item": "Homestay with meals", "inr": "₹1,500–3,000 per person a night"},
+    {"item": "Local guide for village and Resum walk", "inr": "₹800–1,500 per group"},
+    {"item": "Monastery donation", "inr": "₹20–100, at your discretion"}
+  ],
+  "local_word": {"word": "Bikh pokhari", "language": "Nepali", "meaning": "Poison lake; the local name for the pond at Rinchenpong tied to the story of the British force"},
+  "story": {
+    "title": "The poison lake of Rinchenpong",
+    "paras": [
+      "In 1860, relations between Sikkim and British India broke down over the kidnapping of British subjects and the flight of runaway slaves and debtors across the border. A small British force was sent into Sikkim and advanced to Rinchenpong, where it camped on the ridge.",
+      "The story told in Rinchenpong is that local people, Lepchas and Nepali villagers, put a mixture of poisonous herbs into the small lake that was the camp's only water source. Soldiers who drank from it fell ill and many died, and the force had to withdraw. A larger British expedition the next year led to the Treaty of Tumlong in 1861.",
+      "How many men died is not recorded clearly, and the details vary with the teller. What is not in doubt is that the British did retreat from Rinchenpong in 1860, and the pond is still known locally as bikh pokhari, the poison lake.",
+      "Today the lake is a small, quiet pond near the village. Villagers say nobody uses its water. It is a reminder that this calm ridge was once on a frontier."
+    ],
+    "sources": [
+      {"title": "Rinchenpong (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Rinchenpong"},
+      {"title": "Told locally in Rinchenpong", "url": ""}
+    ]
+  },
+  "faqs": [
+    {"q": "Is Rinchenpong better than Pelling", "a": "It is different. Rinchenpong is quieter, with fewer hotels, little traffic and a wide view of the range, so it suits slow travellers and couples. Pelling has more sights, restaurants and transport. Many people spend two nights in Pelling for the sights and one or two in Rinchenpong for the calm. If you only have two nights, choose Pelling."},
+    {"q": "How do I reach Rinchenpong from Siliguri", "a": "Rinchenpong is about 130 km from Siliguri, around 5 hours by road via Melli and Jorethang. A reserved car from NJP or Bagdogra costs about ₹5,000–6,000. By shared jeep, go Siliguri to Jorethang for about ₹250–300, then Jorethang to Rinchenpong for about ₹120–180. Fares are indicative."},
+    {"q": "What is special about Rinchenpong Monastery", "a": "Rinchenpong Monastery, built around 1730, holds a statue of the Adi Buddha (Samantabhadra) in yab-yum, the union of male and female, which is rare in Sikkim. The monastery is small and calm, with wall paintings and prayer wheels, and a view of the range from its grounds. Dress modestly and ask before taking photos inside."},
+    {"q": "Can you see Kangchenjunga from Rinchenpong", "a": "Yes, and the view is one of the widest in Sikkim, taking in Kangchenjunga, Kabru, Rathong and other peaks. It is clearest from October to April, usually in the early morning. In the monsoon, from June to September, cloud hides the range most days. Plan two mornings to give yourself a good chance."},
+    {"q": "Is Rinchenpong good for families", "a": "For families who enjoy walking, farms and quiet, yes. Children can see orchards, cows and cardamom drying, and walks are short. There is no nightlife, few shops and no play areas, and some homestays have steep steps. Bring snacks, books and warm clothes, and choose a stay that serves food children will eat."},
+    {"q": "Are there ATMs in Rinchenpong", "a": "Rinchenpong has no reliable ATM. Draw cash in Jorethang, Gyalshing or Pelling before you arrive and carry enough for your stay, transport and donations. Some homestays accept UPI, but mobile data can be slow. Tell your host in advance if you need to pay by bank transfer."},
+    {"q": "What is the weather like in Rinchenpong", "a": "Rinchenpong is mild for its height: about 3–14°C in winter, 12–22°C in spring and autumn, and warm and very wet in the monsoon. Nights are cold from November to February, so bring warm layers. Fog is common in the monsoon and some winter mornings. October to April is the best time."},
+    {"q": "Can I combine Rinchenpong with Pelling and Yuksom", "a": "Yes. A common plan is two nights in Pelling, one in Yuksom and one or two in Rinchenpong, linked by reserved cars of 1.5–2 hours each. From Rinchenpong you can drive to Darjeeling in about 4 hours via Jorethang, or back to Siliguri in about 5 hours, which makes a neat loop."},
+    {"q": "Do foreigners need a special permit for Rinchenpong", "a": "Foreign nationals need only the standard Sikkim Inner Line Permit, available at the Melli and Rangpo checkposts or online, and must show it at hotels. No extra permit is needed for Rinchenpong, Kaluk or Resum. Permit rules can change, so check current status before you travel."}
+  ],
+  "experiences": [
+    {
+      "slug": "rinchenpong-monastery-adi-buddha",
+      "title": "Rinchenpong Monastery and the Adi Buddha",
+      "kind": "spiritual",
+      "duration": "1 hour",
+      "summary": "Rinchenpong Monastery, founded around 1730, holds a statue of the Adi Buddha in yab-yum, rare in Sikkim. It sits a short walk above the village with a view of the range.",
+      "body": [
+        "The monastery is a three-storey building with a painted interior, on a quiet slope above the village. The main statue shows the Adi Buddha, the primordial Buddha, seated in union with his consort, a form linked with the Nyingma tradition and seldom seen in Sikkim's monasteries.",
+        "The monastery was damaged in the 2011 Sikkim earthquake and has been repaired. A caretaker monk usually opens the hall for visitors. Walk around it clockwise and look out from the courtyard to the snow peaks."
+      ],
+      "best_time": "Early morning, when the range is clear and the monastery is quiet.",
+      "good_for": ["Culture lovers", "Photographers", "Couples"],
+      "cost": "₹0; donation welcome",
+      "wiki": "Rinchenpong Monastery",
+      "image_query": "Rinchenpong Monastery",
+      "faqs": [
+        {"q": "How do I get to Rinchenpong Monastery", "a": "It is a short walk or drive above the village, about 15–20 minutes on foot up a paved road and path. Your homestay can point you the right way. Cars can drive close to the gate. Combine it with the walk on to Resum Monastery for a half-day outing along the ridge."},
+        {"q": "What does yab-yum mean", "a": "Yab-yum, Tibetan for 'father-mother', is an image of a male Buddha or deity in union with a female consort. It stands for the union of compassion and wisdom, not for anything worldly. At Rinchenpong the statue shows the Adi Buddha, or Samantabhadra, in this form. View it as you would any sacred image."},
+        {"q": "Is the monastery open every day", "a": "It is generally open during daylight hours, but the main hall may be locked when no monk or caretaker is around. Ask at the monastery or in the village and someone will usually open it. Be patient and respectful, and avoid visiting during private ceremonies unless invited."}
+      ]
+    },
+    {
+      "slug": "rinchenpong-resum-monastery-ridge-walk",
+      "title": "Ridge walk to Resum Monastery",
+      "kind": "nature",
+      "duration": "2–3 hours return",
+      "summary": "A forest path runs along the ridge from Rinchenpong to Resum Monastery, a small, quiet gompa with views over the valleys and of the Kangchenjunga range.",
+      "body": [
+        "The walk starts from a road head above the village and follows a path through mixed forest and bamboo, with some steep pitches, for about 3 km. Resum is a small monastery with a few prayer flags and an open courtyard. Few visitors go, so you are likely to have it to yourselves.",
+        "Birdlife is good in the mornings. Carry water and a snack, and ask your host or a local guide to show you the start, as paths fork."
+      ],
+      "best_time": "Early morning from October to May; avoid heavy rain.",
+      "good_for": ["Walkers", "Birdwatchers", "Couples"],
+      "cost": "₹0; local guide ₹800–1,500 per group",
+      "wiki": "",
+      "image_query": "Resum Monastery Rinchenpong",
+      "faqs": [
+        {"q": "How long is the walk to Resum Monastery", "a": "It is about 3 km each way from the road head above Rinchenpong, taking 1–1.5 hours each way at an easy pace, with a few steep sections. Allow 2–3 hours in total with time at the monastery. The path is mostly through forest, so it stays cool even on sunny days."},
+        {"q": "Do I need a guide for the Resum walk", "a": "Not strictly, but it helps. The path is not marked and forks in places. Ask your homestay to show you the start or send someone along; local guides cost about ₹800–1,500 per group. Go in daylight, carry a phone and tell your host when you expect to return."},
+        {"q": "Is the Resum walk suitable for children", "a": "Children over about seven who are used to walking usually manage it. Some sections are steep and rough, so hold small children's hands on those parts. Carry snacks and water, and turn back if it starts to rain. It is not suitable for prams or people with limited mobility."}
+      ]
+    },
+    {
+      "slug": "rinchenpong-poison-lake-village-walk",
+      "title": "Village walk to the poison lake",
+      "kind": "village",
+      "duration": "1.5 hours",
+      "summary": "An easy walk through Rinchenpong village leads to bikh pokhari, the small pond tied to the story of a British force poisoned in 1860, past farms, orchards and cardamom groves.",
+      "body": [
+        "The walk is more about the village than the lake. Lanes wind past houses with flower-filled porches, orange trees, cowsheds and terraced fields. In autumn you may see large cardamom being harvested and dried over smoky fires. The pond itself is small and still, edged by trees.",
+        "Go with your host or a villager who can tell the story of 1860 in their own words, and point out the crops, shrines and old houses on the way."
+      ],
+      "best_time": "Late afternoon in October to December, when oranges ripen and the light is warm.",
+      "good_for": ["Families", "History buffs", "Slow travellers"],
+      "cost": "₹0; tip your guide",
+      "wiki": "",
+      "image_query": "Rinchenpong village Sikkim",
+      "faqs": [
+        {"q": "Is the poison lake still poisonous", "a": "Local people say they do not use its water, and it is best treated as off limits. There is no scientific record to confirm whether anything harmful remains after more than 160 years. Do not drink from it, swim in it or let pets drink. Enjoy it as a historic spot."},
+        {"q": "Is the 1860 poisoning story true", "a": "A British force did enter Sikkim in 1860 and withdrew from Rinchenpong, and a larger expedition followed in 1861, ending in the Treaty of Tumlong. The poisoning of the camp's water is told strongly in local memory and in some accounts, but numbers and details vary. Treat it as local history passed down by villagers."},
+        {"q": "When do oranges ripen around Rinchenpong", "a": "Sikkim mandarins ripen from about November to January. The orchards around Rinchenpong, Kaluk and the Rangeet valley turn orange in late autumn, and you can buy fruit straight from farmers. Ask before picking anything. Yields have fallen in some years because of disease, so supply varies."}
+      ]
+    },
+    {
+      "slug": "rinchenpong-kaluk-farmstay-day",
+      "title": "A day on a Kaluk and Rinchenpong farm",
+      "kind": "village",
+      "duration": "Half day",
+      "summary": "Spend half a day with a farming family around Kaluk and Rinchenpong: walk the cardamom groves, help in the kitchen garden and cook a simple Sikkimese meal.",
+      "body": [
+        "Several homestays and farmstays here invite guests to join daily work. Depending on the season, that might mean picking vegetables, feeding cows, seeing how large cardamom is dried, or plucking oranges. Then you cook with the family: rice, dal, a seasonal green, and perhaps gundruk soup or a chicken curry.",
+        "This is not a staged show. Hosts fit you into their day. Ask what is possible when you book, and offer a fair payment for the time and food."
+      ],
+      "best_time": "October to December for harvests; March to May for planting and flowers.",
+      "good_for": ["Families", "Food lovers", "Slow travellers"],
+      "cost": "Often included in farmstay rates; otherwise ₹500–1,000 per person",
+      "wiki": "",
+      "image_query": "Large cardamom Sikkim",
+      "faqs": [
+        {"q": "What crops grow around Rinchenpong", "a": "Large cardamom, grown under shade trees in damp gullies, is the main cash crop. Farmers also grow mandarin oranges, ginger, maize, millet, rice on lower terraces, potatoes and seasonal vegetables. Sikkim farming is officially organic, as the state banned chemical fertilisers and pesticides and was declared fully organic in 2016."},
+        {"q": "Can vegetarians join a farm cooking session", "a": "Yes. Most everyday Sikkimese and Nepali home cooking is built on rice, dal, vegetables and greens, with meat as an extra. Tell your host in advance and they will cook vegetarian. Vegans should mention ghee and butter, which are often used. Hosts are usually happy to adjust."},
+        {"q": "How do I book a farm day in Rinchenpong", "a": "Ask your homestay or farmstay when you book your room; most will arrange it themselves or with a neighbour. If you are staying elsewhere, a local guide can introduce you to a family. Give a day's notice so they can plan, and agree a price for the time and meal beforehand."}
+      ]
+    }
+  ]
+}

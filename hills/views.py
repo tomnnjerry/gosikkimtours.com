@@ -1,4 +1,5 @@
 import json
+import re
 from datetime import date
 
 from django.conf import settings
@@ -450,9 +451,22 @@ def tool_season(request):
                                                       "regions": list(cat.regions.values()), "now": _month_now()})
 
 
+def _inr_range(text):
+    """'₹1,800–2,500' -> [1800, 2500]; a single figure gives [n, n]."""
+    nums = [int(n.replace(",", "")) for n in re.findall(r"\d[\d,]*", text or "")]
+    return [nums[0], nums[-1]] if nums else None
+
+
 def tool_budget(request):
     items, bc = crumbs(("Trip tools", reverse("tools")), ("Budget builder", reverse("tool_budget")))
-    return render(request, "hills/tool_budget.html", {"crumbs": items, "ld": ld(bc), "regions": list(catalogue().regions.values())})
+    regions = list(catalogue().regions.values())
+    ranges = {}
+    for r in regions:
+        rows = [_inr_range(b.get("inr")) for b in r.get("budget_day", [])]
+        if len(rows) == 3 and all(rows):
+            ranges[r["slug"]] = rows
+    return render(request, "hills/tool_budget.html", {"crumbs": items, "ld": ld(bc), "ranges": json.dumps(ranges),
+                                                      "regions": [r for r in regions if r["slug"] in ranges]})
 
 
 def tool_permits(request):

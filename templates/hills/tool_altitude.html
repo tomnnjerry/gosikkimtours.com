@@ -1,0 +1,20 @@
+{% extends "hills/base.html" %}{% load hills %}
+{% block title %}Altitude ladder: how high is Gangtok, Lachung, Gurudongmar and Paro · Go Sikkim Tours{% endblock %}
+{% block description %}Every place we cover, sorted by height, from the Dooars plains to Gurudongmar Lake, with advice on sleeping high safely.{% endblock %}
+{% block content %}
+<header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
+  <p class="eyebrow">Trip tool</p><h1 class="h-xl">The altitude <span class="accent">ladder</span></h1>
+  <p class="lede">From the tea plains near sea level to lakes above 5,000 m. Mountain sickness can start above about 2,500 m, so plan to climb in steps.</p>
+  <div class="answer">Sleep no more than about 500 m higher each night once you are above 3,000 m, and spend a night at a middle height (Gangtok, Lachung or Lachen) before a day trip to Nathu La, Zero Point or Gurudongmar. Drink water, skip alcohol on the first high nights and come down if a headache gets worse. This is general advice, not medical advice: ask a doctor before you travel if you have heart or lung conditions.</div></div></header>
+<section class="wrap" style="padding-bottom: 96px">
+  <div class="filters" data-filter-group="#lad-list" role="group" aria-label="Filter by destination">
+    <button type="button" data-key="region" data-value="" aria-pressed="true">Everywhere</button>
+    {% for r in regions %}<button type="button" data-key="region" data-value="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endfor %}
+  </div>
+  <div class="ladder" id="lad-list">{% for p in ladder|dictsortreversed:"altitude_m" %}<a class="ladder__row" href="{{ p.url }}" data-item data-region="{{ p.region }}" data-land="{{ p.region }}">
+    <span class="ladder__name"><b>{{ p.name }}</b><small>{{ p.region_obj.name }}</small></span>
+    <span class="ladder__bar" aria-hidden="true"><i style="width: {% widthratio p.altitude_m 5500 100 %}%"></i></span>
+    <span class="ladder__m">{{ p.altitude_m }} m</span></a>{% endfor %}</div>
+  <p class="small muted" style="margin-top: 24px">Heights are approximate, for the town centre, lake or viewpoint named. Check current status before you travel.</p>
+</section>
+{% endblock %}

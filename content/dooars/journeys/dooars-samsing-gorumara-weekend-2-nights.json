@@ -1,0 +1,174 @@
+{
+  "slug": "dooars-samsing-gorumara-weekend-2-nights",
+  "title": "Samsing and Gorumara weekend in two nights",
+  "summary": "A short Dooars break from Siliguri: one night in the tea hills at Samsing and one at Lataguri for a Gorumara watchtower safari. Little driving, low cost and easy to fit into a weekend.",
+  "meta_description": "Two-night Dooars weekend from Siliguri: Samsing tea gardens, Rocky Island and a Gorumara watchtower safari at Lataguri, with three price tiers.",
+  "nights": 2,
+  "start": "Siliguri, NJP or Bagdogra",
+  "end": "Siliguri, NJP or Bagdogra",
+  "pace": "Easy",
+  "max_altitude_m": 900,
+  "best_months": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2
+  ],
+  "themes": [
+    "weekend-breaks",
+    "tea-country",
+    "wildlife-and-birds",
+    "shoestring"
+  ],
+  "stops": [
+    {
+      "place": "samsing",
+      "nights": 1
+    },
+    {
+      "place": "gorumara",
+      "nights": 1
+    }
+  ],
+  "intro": [
+    "This is the shortest trip that still gives you both sides of the Dooars: a cool night in the tea gardens on the hill edge, and a night by the forest with a dawn watchtower safari. Total driving is about 200 km over three days, never more than three hours at a stretch.",
+    "It works best between October and May. The Gorumara safari is not possible from 16 June to 15 September, when the park is closed; in those months you could spend both nights at Samsing instead."
+  ],
+  "highlights": [
+    "Walk through Samsing's tea gardens at dawn with the plains below.",
+    "Cross the hanging bridge at Suntalekhola and picnic at Rocky Island on the Murti.",
+    "Watch for rhino and gaur from a Gorumara watchtower.",
+    "Spend an evening on the stony bed of the Murti river.",
+    "Back in Siliguri by early afternoon on day three."
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Siliguri to Samsing",
+      "place": "samsing",
+      "overnight": "Samsing",
+      "drive": "85 km, 2.5–3 hours",
+      "meals": "Dinner",
+      "text": "Leave Siliguri by 9 am and drive over the Coronation Bridge at Sevoke, through the tea gardens of Odlabari and Malbazar, and up from Chalsa to Samsing. Check in by lunch. In the afternoon walk to the hanging bridge at Suntalekhola and on to Rocky Island, where the Murti runs between giant boulders. Watch the sunset from the Lali Guras viewpoint and have an early dinner; it is cool here at night."
+    },
+    {
+      "day": 2,
+      "title": "Samsing tea walk, then Lataguri and a safari",
+      "place": "gorumara",
+      "overnight": "Lataguri or Murti",
+      "drive": "35 km, 1–1.25 hours",
+      "meals": "Breakfast, dinner",
+      "text": "Walk the tea garden roads at first light while the mist lifts, then breakfast and drive down to Lataguri. After lunch, take the afternoon watchtower safari, ideally to Jatraprasad, where rhino, gaur and elephants come to a salt lick, or to Medla with its bullock-cart ride. If you stay at Murti, spend the last of the light on the riverbed. Dinner at the lodge."
+    },
+    {
+      "day": 3,
+      "title": "Dawn safari and back to Siliguri",
+      "place": "siliguri",
+      "overnight": "",
+      "drive": "80 km, 2–2.5 hours",
+      "meals": "Breakfast",
+      "text": "If you have a second safari slot, take the dawn trip to another watchtower; otherwise sleep in and walk by the Murti. After breakfast drive back through Malbazar and Sevoke to Siliguri, reaching NJP or Bagdogra by early afternoon. Allow time for traffic around Sevoke and Siliguri town."
+    }
+  ],
+  "stays": [
+    "suntalekhola-eco-tourism-centre-samsing",
+    "murti-banani-eco-tourism-centre-wbfdc",
+    "sinclairs-retreat-dooars-chalsa"
+  ],
+  "includes": [
+    "Two nights' accommodation, twin sharing",
+    "Breakfast and dinner",
+    "Transport as per tier",
+    "One Gorumara watchtower safari per person (shared jeep in Budget tier)",
+    "Driver's allowance, tolls and parking"
+  ],
+  "excludes": [
+    "Lunches and drinks",
+    "Second safari",
+    "Camera fees",
+    "Tips",
+    "Anything not listed under includes"
+  ],
+  "good_to_know": [
+    "Gorumara is closed from 16 June to 15 September. Check current status before you travel.",
+    "Safari slots are limited; we book as soon as online booking opens, and fall back on the Lataguri counter.",
+    "Samsing is about 900 m and cool at night from November to February; carry a fleece.",
+    "Elephants cross the roads around Chalsa, Murti and Lataguri at dusk; we do not drive after dark."
+  ],
+  "tiers": [
+    {
+      "name": "Budget",
+      "price_inr": 6500,
+      "stays": "Forest corporation tents or homestay in Samsing; simple lodge in Lataguri",
+      "transport": "Bus to Malbazar or Chalsa, shared jeeps and autos; shared safari jeep",
+      "note": "Cheapest way to do both, with more time on buses."
+    },
+    {
+      "name": "Value",
+      "price_inr": 12500,
+      "stays": "Suntalekhola cottages and the WBFDC Murti Banani lodge",
+      "transport": "Private car with driver for three days",
+      "note": "The best balance of cost, comfort and location."
+    },
+    {
+      "name": "Comfort",
+      "price_inr": 22000,
+      "stays": "Best available room in Samsing, then Sinclairs Retreat Dooars at Chalsa",
+      "transport": "Private SUV with driver",
+      "note": "Pool, good food and an easy pace."
+    }
+  ],
+  "price_from_inr": 6500,
+  "save_tips": [
+    "Travel on weekdays, when lodges discount and safaris are easier to book.",
+    "Share the safari jeep with other guests to split the per-vehicle fee.",
+    "Use the bus to Malbazar and a shared jeep to Samsing instead of a car.",
+    "Stay at the forest corporation cottages rather than private resorts."
+  ],
+  "faqs": [
+    {
+      "q": "Can I do this trip by public transport?",
+      "a": "Yes, at the Budget tier. Take a bus from Siliguri to Chalsa or Malbazar and a shared jeep to Samsing; next day take a shared jeep down and an auto to Lataguri; then a bus from Malbazar back to Siliguri. It is cheap, but jeeps are irregular, so start early each day and keep plans flexible."
+    },
+    {
+      "q": "What if the Gorumara safari is sold out?",
+      "a": "We try to book as soon as online slots open. If the watchtower you want is full, we look for another tower or slot at the Lataguri counter. If nothing is available, you can still walk on the Murti riverbed, visit the Jalpesh temple or take a Chapramari watchtower trip if open. Check current status before you travel."
+    },
+    {
+      "q": "Is this trip suitable for families?",
+      "a": "Yes. Drives are short, the walks are easy and the Medla watchtower trip with its bullock cart is popular with children. Keep children close on the riverbed and at Rocky Island, where water can be fast. Families often choose the Comfort tier for the pool at Chalsa."
+    },
+    {
+      "q": "Can I start from Bagdogra airport?",
+      "a": "Yes. Bagdogra is about 15 km from Siliguri, and the drive to Samsing takes about 3 hours. Choose a flight landing before 11 am so you reach Samsing in daylight. On the last day aim for a flight after 3 pm."
+    },
+    {
+      "q": "Can I do this trip in the monsoon?",
+      "a": "Not as written. Gorumara is closed from 16 June to 15 September. You could spend two nights at Samsing and Suntalekhola instead, for tea gardens and rain, but expect leeches, slippery paths and the odd blocked road. Check current status before you travel."
+    },
+    {
+      "q": "How much walking is involved?",
+      "a": "Light walking only: an hour or two in the tea gardens, a short walk to the bridge at Suntalekhola, some scrambling at Rocky Island if you wish and a few flights of stairs at the watchtower. Comfortable shoes are enough."
+    },
+    {
+      "q": "What should I pack?",
+      "a": "A warm layer for the evening in Samsing and the dawn safari, dull-coloured clothes for the watchtower, comfortable shoes, binoculars, a torch, insect repellent and some cash. ATMs are available in Malbazar and Chalsa but not in Samsing."
+    },
+    {
+      "q": "Is the price per person?",
+      "a": "Yes, prices are per person for two people sharing a room, and are indicative for the 2025–26 season. Peak dates such as the Durga Puja holidays, Christmas and New Year cost more. Single travellers pay a supplement for a single room and an unshared car."
+    },
+    {
+      "q": "Can I add Jaldapara to this trip?",
+      "a": "Yes. Add one or two nights at Madarihat after Lataguri, which is about 75 km and 2 hours further east, for a Jaldapara jeep safari. That turns it into our four-night rhino trail. Return to Siliguri takes 3–3.5 hours from Madarihat."
+    }
+  ]
+}

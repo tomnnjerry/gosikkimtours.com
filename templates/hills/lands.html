@@ -1,9 +1,9 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}The seven lands: Nepal, Rajasthan, Ladakh, North East, Kerala, Goa, UP &amp; Bihar · Go Sikkim Tours{% endblock %}
+{% block title %}Destinations: East, North and West Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan · Go Sikkim Tours{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
-  <p class="eyebrow">The seven lands</p><h1 class="h-hero">Seven <span class="accent">hills</span></h1>
-  <p class="lede">We work in seven regions and nowhere else. Each one has its own seasons, permits and pace; start with the one that fits your month.</p></div></header>
+  <p class="eyebrow">Destinations</p><h1 class="h-hero">Seven <span class="accent">valleys</span></h1>
+  <p class="lede">We work in seven parts of the Eastern Himalaya and nowhere else. Each has its own seasons, permits and roads; start with the one that fits your month.</p></div></header>
 {% for r in regions %}
 <section class="sec--tight" style="--tint: {{ r.tint }}; --deep: {{ r.deep }}; border-top: 1px solid var(--line)">
   <div class="wrap phead__grid" style="align-items: center">
@@ -18,7 +18,7 @@
         <div class="ledger__row"><span>Start with</span><span class="ledger__dots"></span><b>{% for p in r.top_places|slice:":3" %}{{ p.name }}{% if not forloop.last %}, {% endif %}{% endfor %}</b></div>
       </div>
       {% include "hills/partials/mbar.html" with bar=r.bar label=r.best_label %}
-      <div class="btns"><a class="btn btn--dark" href="{{ r.url }}">Open the tale</a></div>
+      <div class="btns"><a class="btn btn--dark" href="{{ r.url }}">Explore {{ r.name }}</a></div>
     </div>
   </div>
 </section>

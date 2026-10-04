@@ -1,13 +1,13 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}Travel guides to Nepal and India's seven lands · Go Sikkim Tours{% endblock %}
-{% block description %}Planning guides for Nepal, Rajasthan, Ladakh, North East India, Kerala, Goa and UP &amp; Bihar: seasons, permits, hotels, food, wildlife and culture.{% endblock %}
+{% block title %}Travel guides to Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan · Go Sikkim Tours{% endblock %}
+{% block description %}Planning guides for Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan: seasons, permits, hotels, food, wildlife and culture.{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
   <p class="eyebrow">Guides</p><h1 class="h-hero">Read <span class="accent">before you go</span></h1>
   <p class="lede">Answer-first guides from our planners: when to go, what permits you need, which hotels and which zones, with the numbers.</p></div></header>
 <section class="wrap" style="padding-bottom: 96px">
   <div class="filters" data-filter-group="#gd-list" role="group" aria-label="Filter guides">
-    <button type="button" data-key="region" data-value="" aria-pressed="true">All lands</button>
+    <button type="button" data-key="region" data-value="" aria-pressed="true">Everywhere</button>
     {% for r in regions %}<button type="button" data-key="region" data-value="{{ r.slug }}" aria-pressed="false">{{ r.name }}</button>{% endfor %}
   </div>
   <div id="gd-list">{% for r in regions %}{% if r.guides %}<section class="block" data-section style="margin-bottom: 64px">

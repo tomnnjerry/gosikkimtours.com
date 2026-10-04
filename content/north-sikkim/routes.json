@@ -1,0 +1,190 @@
+[
+  {
+    "slug": "gangtok-to-lachung-road",
+    "from": "gangtok",
+    "to": "lachung",
+    "distance_km": 120,
+    "summary": "Gangtok to Lachung is about 120 km and 6–8 hours via Mangan and Chungthang. Tourists must travel with a registered operator on a permit, either in a shared group tour jeep or a reserved car.",
+    "options": [
+      {
+        "mode": "Shared jeep (group tour)",
+        "time": "6–8 hours",
+        "fare": "₹5,000–7,500 per person for 2 nights with stay and meals",
+        "text": "Gangtok operators sell seats on shared group tours that include permit, transport, rooms and meals. Jeeps usually leave Gangtok around 10–11 am after permits are collected, and return on day three."
+      },
+      {
+        "mode": "Reserved car",
+        "time": "6–7 hours",
+        "fare": "₹14,000–19,000 per vehicle for 2 nights",
+        "text": "A private SUV such as a Scorpio, Bolero or Innova with a registered driver, booked through an operator. The fare covers the Yumthang trip; Zero Point is extra."
+      },
+      {
+        "mode": "Shared jeep to Mangan",
+        "time": "3 hours",
+        "fare": "₹200–300 a seat",
+        "text": "Public shared jeeps run from Gangtok to Mangan, but tourists cannot continue to Lachung without an operator's permit and registered vehicle."
+      }
+    ],
+    "stops_on_way": [
+      "Seven Sisters waterfall",
+      "Kabi Lungchok",
+      "Naga falls near Mangan",
+      "Bhim Nala falls before Lachung"
+    ],
+    "tip": "Keep your original photo ID and spare photos in your day bag; checkposts at Mangan and Chungthang may ask for them. Check current status before you travel.",
+    "faqs": [
+      {
+        "q": "How long is the drive from Gangtok to Lachung?",
+        "a": "Usually 6–8 hours for about 120 km. Repairs after the October 2023 flood and monsoon landslides can add hours, with one-way traffic or waits at damaged sections near Chungthang. Leave by late morning to arrive before dark. Check current status before you travel."
+      },
+      {
+        "q": "Can I drive my own car to Lachung?",
+        "a": "No. Tourists must travel in a vehicle registered for North Sikkim tourism, with a local driver, and with a permit arranged by a registered operator. Private cars from outside Sikkim are not allowed past the permit checkposts. Self-drive visitors usually park in Gangtok and take an operator's package from there."
+      },
+      {
+        "q": "Is a shared group tour a good idea?",
+        "a": "For budget travellers, yes. It is the cheapest option and includes permit, transport, rooms and meals. You share the jeep with strangers and follow a fixed schedule. Families or groups of four or more often find a reserved car better value."
+      },
+      {
+        "q": "Where do North Sikkim tours leave from in Gangtok?",
+        "a": "Operators pick you up from your hotel or meet at a central point in Gangtok. Public shared jeeps for Mangan leave from the north-bound taxi stand. Ask your operator for the exact pickup time and place the evening before. Keep your ID and day bag ready, as departures depend on permit collection."
+      }
+    ]
+  },
+  {
+    "slug": "gangtok-to-lachen-road",
+    "from": "gangtok",
+    "to": "lachen",
+    "distance_km": 125,
+    "summary": "Gangtok to Lachen is about 125 km and 6–8 hours via Mangan and Chungthang. It is the approach to Gurudongmar Lake and needs a permit and registered vehicle through an operator.",
+    "options": [
+      {
+        "mode": "Shared jeep (group tour)",
+        "time": "6–8 hours",
+        "fare": "₹6,500–9,000 per person with Gurudongmar, stay and meals",
+        "text": "Shared group tours from Gangtok cover Lachen and Gurudongmar on two nights, or combine Lachen and Lachung on three. Permits, rooms and meals are included."
+      },
+      {
+        "mode": "Reserved car",
+        "time": "6–7 hours",
+        "fare": "₹16,000–22,000 per vehicle for 2 nights",
+        "text": "A private SUV with a registered driver. The fare includes the Gurudongmar run. A 3-night Lachen and Lachung circuit costs about ₹22,000–28,000 per vehicle."
+      }
+    ],
+    "stops_on_way": [
+      "Phodong Monastery",
+      "Mangan",
+      "Chungthang",
+      "Lachen river gorge"
+    ],
+    "tip": "Ask before booking whether the Lachen road and the Chungthang link to Lachung are open; since 2023 they have had long closures.",
+    "faqs": [
+      {
+        "q": "Is the road to Lachen open?",
+        "a": "It has reopened in stages since the October 2023 Teesta flood, which badly damaged the route near Chungthang, but closures after landslides remain common, especially in the monsoon. Ask your operator a week before and again the day before. Check current status before you travel."
+      },
+      {
+        "q": "Can I go to Lachen and Lachung on one trip?",
+        "a": "Usually yes, on a 3-night circuit: Lachen and Gurudongmar first, then Lachung and Yumthang, linked through Chungthang. If that link is damaged, the operator may run the two valleys as separate trips from Gangtok, which takes longer. Confirm the plan in writing, including what happens if the link closes during your trip."
+      },
+      {
+        "q": "How much does a Lachen trip cost?",
+        "a": "Indicatively, a shared group tour with Gurudongmar costs about ₹6,500–9,000 per person, and a reserved SUV about ₹16,000–22,000 per vehicle for two nights, before hotel upgrades. Prices rise in April, May and October. A 3-night circuit adding Lachung costs more. Ask what is included, especially meals and heaters."
+      },
+      {
+        "q": "Can foreigners travel to Lachen?",
+        "a": "Yes, with a Protected Area Permit through a registered agent, in a group of two or more. They may stay in Lachen but cannot go on to Gurudongmar Lake. Check current status before you travel. Most foreign travellers find the Lachung and Yumthang trip more rewarding for that reason."
+      }
+    ]
+  },
+  {
+    "slug": "lachen-to-gurudongmar-lake-road",
+    "from": "lachen",
+    "to": "gurudongmar-lake",
+    "distance_km": 67,
+    "summary": "Lachen to Gurudongmar Lake is about 67 km and 3–3.5 hours each way through Thangu. It is done only as a dawn return trip in your registered package vehicle, for Indian citizens.",
+    "options": [
+      {
+        "mode": "Reserved car",
+        "time": "3–3.5 hours each way",
+        "fare": "Included in a Lachen package; about ₹4,000–6,000 per vehicle if added separately",
+        "text": "Your package SUV leaves Lachen around 4 am, stops at Thangu for tea, passes army checkposts and reaches the lake by about 7–8 am."
+      },
+      {
+        "mode": "Shared jeep (group tour)",
+        "time": "3–3.5 hours each way",
+        "fare": "Included in the shared tour price",
+        "text": "On a group tour the same jeep takes everyone together. If one person is unwell, the group may need to decide whether to continue."
+      }
+    ],
+    "stops_on_way": [
+      "Thangu",
+      "Chopta valley turn-off",
+      "Army checkposts on the plateau"
+    ],
+    "tip": "Pack warm clothes, water and snacks the night before, and do not go if you already feel unwell in Lachen.",
+    "faqs": [
+      {
+        "q": "Why does the Gurudongmar trip start at 4 am?",
+        "a": "The wind at the lake rises through the morning and clouds often build by midday. Army rules also limit tourist hours on the road. An early start gets you to the lake in calm, clear conditions and back to Lachen by late morning."
+      },
+      {
+        "q": "Can I visit Gurudongmar from Lachung directly?",
+        "a": "No. You need to sleep in Lachen first, as the drive from Lachung would take too long and skip the night that helps with altitude. On a 3-night circuit, operators send you to Lachen first, then on to Lachung. Plan your circuit so the Lachen night comes right before the lake."
+      },
+      {
+        "q": "Is the road to Gurudongmar dangerous?",
+        "a": "It is rough in parts but driven daily by experienced local drivers. The bigger risk is altitude, not the road. Snow and ice close it in winter, and landslides in the monsoon. Your driver and the army decide whether to go each day."
+      },
+      {
+        "q": "What does the Gurudongmar trip cost?",
+        "a": "It is normally included in Lachen packages. If added separately, expect about ₹4,000–6,000 per vehicle, indicative. There is no fee at the lake itself for Indian visitors with a valid permit. Operators rarely sell it on its own, so book it as part of a Lachen package from Gangtok."
+      }
+    ]
+  },
+  {
+    "slug": "gangtok-to-dzongu-road",
+    "from": "gangtok",
+    "to": "dzongu",
+    "distance_km": 80,
+    "summary": "Gangtok to Dzongu is about 70–90 km and 3.5–4.5 hours, via Mangan and a crossing of the Teesta. Shared jeeps run to Mangan, from where a local car takes you into the reserve.",
+    "options": [
+      {
+        "mode": "Shared jeep",
+        "time": "3 hours to Mangan, then 30–60 minutes",
+        "fare": "₹200–300 a seat to Mangan; ₹600–1,200 for a local car onward",
+        "text": "Shared jeeps for Mangan leave from Gangtok's north-bound taxi stand through the morning. Your homestay can arrange a car from Mangan, or you can find a local shared jeep into Dzongu."
+      },
+      {
+        "mode": "Reserved car",
+        "time": "3.5–4.5 hours",
+        "fare": "₹4,500–6,500 per car one way",
+        "text": "A reserved car from Gangtok takes you direct to your homestay. Ask your host to confirm the permit and the route across the Teesta before you leave."
+      }
+    ],
+    "stops_on_way": [
+      "Kabi Lungchok",
+      "Phodong Monastery",
+      "Mangan bazaar"
+    ],
+    "tip": "Send your ID copies to your homestay at least a week ahead so the Dzongu permit is ready when you arrive.",
+    "faqs": [
+      {
+        "q": "Do I need a tour operator for Dzongu?",
+        "a": "Not necessarily. Unlike Lachung and Lachen, you can reach Dzongu by public shared jeep and local car. You still need a Dzongu permit, which homestays usually arrange. Foreigners need a registered agent for their Protected Area Permit. Your homestay host is usually the simplest contact for the Dzongu paperwork."
+      },
+      {
+        "q": "Which bridge do I use to enter Dzongu?",
+        "a": "Entry is across the Teesta near Mangan. The October 2023 flood damaged crossings in this area, and some routes changed while repairs went on. Ask your host which crossing is currently in use. Check current status before you travel. Your driver or host will know the current route."
+      },
+      {
+        "q": "Can I combine Dzongu with Lachung or Lachen?",
+        "a": "Yes. Dzongu is close to Mangan on the main North Sikkim road. You can spend two nights in Dzongu and then join a Lachung or Lachen trip, though the permit and vehicle for the high valleys must still come through a registered operator in Gangtok."
+      },
+      {
+        "q": "Is the Gangtok to Mangan road good?",
+        "a": "It is a paved mountain road for most of the way, with landslide-prone stretches in the monsoon. Shared jeeps run all year except during major closures. The drive takes about 3 hours to Mangan. Expect slow sections where road widening or landslide repairs are under way."
+      }
+    ]
+  }
+]

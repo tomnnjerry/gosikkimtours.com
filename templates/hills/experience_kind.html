@@ -1,23 +1,23 @@
 {% extends "hills/base.html" %}{% load hills %}
-{% block title %}{{ name }} experiences{% if r %} in {{ r.name }}{% else %} in Nepal and India{% endif %} · Go Sikkim Tours{% endblock %}
-{% block description %}Private {{ name|lower }} experiences{% if r %} in {{ r.name }}{% endif %}: {{ tagline|lower }}. {{ intro }}{% endblock %}
+{% block title %}{{ name }} experiences{% if r %} in {{ r.name }}{% else %} in Sikkim, Darjeeling and Bhutan{% endif %} · Go Sikkim Tours{% endblock %}
+{% block description %}{{ name }}{% if r %} in {{ r.name }}{% endif %}: {{ tagline|lower }}. {{ intro }}{% endblock %}
 {% block body_attrs %}{% if r %} data-land="{{ r.slug }}"{% endif %}{% endblock %}
 {% block content %}
 <header class="phead wrap phead--plain"><div class="phead__text" style="margin-top: 32px">
   {% if r %}<div class="chip-row"><a class="chip chip--land" href="{{ r.url }}">{% icon r.slug %} {{ r.name }}</a></div>{% else %}<p class="eyebrow">Experiences</p>{% endif %}
   <h1 class="h-xl h-icon">{% icon kind %} {{ name }}{% if r %} in <span class="accent">{{ r.name }}</span>{% endif %}</h1>
   <p class="lede" style="font-family: var(--display); font-style: italic; color: var(--ink)">{{ tagline }}</p>
-  <div class="answer">Private {{ name|lower }} experiences{% if r %} across {{ r.name }}{% else %} across our seven lands{% endif %}. {{ intro }}</div></div></header>
+  <div class="answer">{{ name }}{% if r %} across {{ r.name }}{% else %} across Sikkim, Darjeeling, Kalimpong, the Dooars and Bhutan{% endif %}. {{ intro }}</div></div></header>
 <section class="wrap" style="padding-bottom: 72px">
   {% if not r and lands %}<div class="filters" data-filter-group="#k-list" role="group" aria-label="Filter by land">
-    <button type="button" data-key="region" data-value="" aria-pressed="true">All lands</button>
+    <button type="button" data-key="region" data-value="" aria-pressed="true">Everywhere</button>
     {% for l in lands %}<button type="button" data-key="region" data-value="{{ l.slug }}" aria-pressed="false">{{ l.name }}</button>{% endfor %}</div>{% endif %}
   <div class="grid grid--4" data-fill id="k-list">{% for e in exps %}{% include "hills/partials/card_exp.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div>
 </section>
 <section class="sec--tight wrap" style="padding-bottom: 96px">
   {% if r %}<p class="eyebrow" style="margin-bottom: 14px">More in {{ r.name }}</p>
-    <div class="chip-row">{% for k, n in others %}<a class="chip" style="font-size: 12px; padding: 12px 18px" href="{% url 'region_kind' r.slug k %}">{{ n }}</a>{% endfor %}<a class="chip chip--line" style="font-size: 12px; padding: 12px 18px" href="{% url 'experience_kind' kind %}">{{ name }} in every land</a></div>
-  {% else %}<p class="eyebrow" style="margin-bottom: 14px">{{ name }} by land</p>
+    <div class="chip-row">{% for k, n in others %}<a class="chip" style="font-size: 12px; padding: 12px 18px" href="{% url 'region_kind' r.slug k %}">{{ n }}</a>{% endfor %}<a class="chip chip--line" style="font-size: 12px; padding: 12px 18px" href="{% url 'experience_kind' kind %}">{{ name }} everywhere</a></div>
+  {% else %}<p class="eyebrow" style="margin-bottom: 14px">{{ name }} by destination</p>
     <div class="chip-row">{% for l in lands %}<a class="chip" style="--tint: {{ l.tint }}; --deep: {{ l.deep }}; font-size: 12px; padding: 12px 18px" href="{% url 'region_kind' l.slug kind %}">{{ name }} in {{ l.name }}</a>{% endfor %}</div>
     <p class="eyebrow" style="margin: 28px 0 14px">Other kinds</p>
     <div class="chip-row">{% for k, n in others %}<a class="chip chip--line" style="font-size: 12px; padding: 12px 18px" href="{% url 'experience_kind' k %}">{{ n }}</a>{% endfor %}</div>{% endif %}

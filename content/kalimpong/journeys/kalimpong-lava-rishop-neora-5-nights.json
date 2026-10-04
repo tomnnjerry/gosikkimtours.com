@@ -1,0 +1,206 @@
+{
+  "slug": "kalimpong-lava-rishop-neora-5-nights",
+  "title": "Kalimpong, Lava and Rishop with Neora Valley in five nights",
+  "summary": "Two nights in Kalimpong, two in Lava with a day walk into Neora Valley National Park, and a final night in Rishop for the Kanchenjunga sunrise. You return to the plains through Gorubathan, a forest road that also works when NH10 is blocked.",
+  "meta_description": "5-night Kalimpong, Lava, Neora Valley and Rishop trip from NJP: monasteries, red panda forest, Tiffin Dara sunrise. Budget, Value and Comfort prices.",
+  "nights": 5,
+  "start": "NJP or Bagdogra",
+  "end": "NJP or Bagdogra",
+  "pace": "Moderate",
+  "max_altitude_m": 2700,
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    1
+  ],
+  "themes": [
+    "wildlife-and-birds",
+    "monasteries",
+    "homestays",
+    "treks-and-walks"
+  ],
+  "stops": [
+    {
+      "place": "kalimpong-town",
+      "nights": 2
+    },
+    {
+      "place": "lava",
+      "nights": 2
+    },
+    {
+      "place": "rishop",
+      "nights": 1
+    }
+  ],
+  "intro": [
+    "This trip climbs steadily: from Kalimpong at about 1,250 m to Lava at about 2,195 m, then to Rishop at about 2,590 m. Each stop is cooler and quieter than the last. The centre is a full day in Neora Valley National Park, one of the least disturbed forests in the Eastern Himalaya.",
+    "Neora Valley is closed from about mid-June to mid-September, so we run this route from late September to early June. The best months are October and November for clear views, and April and May for birds and rhododendrons."
+  ],
+  "highlights": [
+    "A full day walking in Neora Valley National Park with a local guide.",
+    "Morning prayers at Lava's Kagyu Thekchen Ling Monastery.",
+    "The forest trail between Lava and Rishop.",
+    "Sunrise over the Kanchenjunga range from Tiffin Dara.",
+    "Kalimpong's monastery, nurseries and haat at the start."
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Siliguri to Kalimpong",
+      "place": "kalimpong-town",
+      "overnight": "Kalimpong",
+      "drive": "70 km, 2.5–3 hours",
+      "meals": "Dinner",
+      "text": "Pick-up at NJP or Bagdogra and drive via Sevoke and NH10 along the Teesta. After a tea stop by the river, climb to Kalimpong and check in by early afternoon. Spend the rest of the day around the bazaar: momos, a look at the shops selling Tibetan goods, and Kalimpong cheese. Dinner at the hotel and an early night before the sightseeing day."
+    },
+    {
+      "day": 2,
+      "title": "Kalimpong monasteries and nurseries",
+      "place": "kalimpong-town",
+      "overnight": "Kalimpong",
+      "drive": "About 25 km of local sightseeing",
+      "meals": "Breakfast, dinner",
+      "text": "Begin at Zang Dhok Palri on Durpin Hill during morning prayers, then pass Morgan House on the way down. Drive to Deolo for views over the Teesta and stop at Dr Graham's Homes if visits are allowed. After lunch, visit a cactus nursery and the Lepcha Museum, or the haat if it is Wednesday or Saturday. Buy cash and anything you need for the villages, where shops are few."
+    },
+    {
+      "day": 3,
+      "title": "Kalimpong to Lava",
+      "place": "lava",
+      "overnight": "Lava",
+      "drive": "33 km, 1.5 hours",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Leave mid-morning via Algarah, climbing through farms and then pine and cryptomeria forest. Reach Lava by lunch, before the afternoon mist. Visit the Kagyu Thekchen Ling Monastery beside the Neora reservoir, then walk the quiet forest roads around the village. In the evening your guide calls at the forest office to confirm the next day's Neora Valley permit, and you get an early dinner."
+    },
+    {
+      "day": 4,
+      "title": "A day in Neora Valley National Park",
+      "place": "lava",
+      "overnight": "Lava",
+      "drive": "About 20–30 km to and from the park entry",
+      "meals": "Breakfast, packed lunch, dinner",
+      "text": "Start soon after dawn with your permit and registered guide. A car takes you to the park entry point, and you walk forest trails through tall oaks, bamboo and moss, stopping often for birds. Red pandas are rarely seen, but laughingthrushes, barwings and sunbirds are common. Return by mid-afternoon. If the park is closed or full, we switch to Changey Falls and Kolakham. Check current status before you travel."
+    },
+    {
+      "day": 5,
+      "title": "Lava to Rishop on foot or by car",
+      "place": "rishop",
+      "overnight": "Rishop",
+      "drive": "11 km, 40 minutes, or a 4 km walk",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Morning prayers at the Lava monastery, then send your bags ahead by car and walk the forest trail of about 4 km up to Rishop with a local guide, about 2 hours uphill. Those who prefer can drive. Settle into a homestay facing the mountains. Late afternoon is free for a short walk along the ridge. Dinner with the family and an early night for sunrise."
+    },
+    {
+      "day": 6,
+      "title": "Tiffin Dara sunrise, then to Siliguri",
+      "place": "siliguri",
+      "overnight": "",
+      "drive": "115–120 km, 4–4.5 hours",
+      "meals": "Breakfast",
+      "text": "Climb to Tiffin Dara before dawn to watch first light on the Kanchenjunga range. Return for breakfast and drive down through Lava and the forest road to Gorubathan and the Dooars, reaching NJP or Bagdogra by mid-afternoon. If roads allow, the route via Kalimpong and NH10 is similar in time. Plan flights after 3pm."
+    }
+  ],
+  "stays": [
+    "morgan-house-wbtdc-kalimpong",
+    "mayfair-himalayan-spa-resort-kalimpong",
+    "wbfdc-lava-nature-resort",
+    "rishop-village-homestays"
+  ],
+  "includes": [
+    "Five nights' accommodation in the tier you choose",
+    "Meals as listed: breakfast and dinner in Kalimpong, all meals in Lava and Rishop",
+    "Transport from NJP or Bagdogra and back, with transfers between stops",
+    "Neora Valley car to the park entry point",
+    "Help arranging the Neora Valley permit and guide"
+  ],
+  "excludes": [
+    "Neora Valley permit fees and guide fees, paid locally",
+    "Lunches in Kalimpong",
+    "Entry tickets and donations",
+    "Flights and trains to and from Siliguri",
+    "Tips and personal expenses"
+  ],
+  "good_to_know": [
+    "Neora Valley closes from about 16 June to 15 September and can close at short notice. Check current status before you travel.",
+    "Lava and Rishop are cold at night from November to March; pack thermals.",
+    "Carry enough cash from Kalimpong; ATMs in Lava are few and Rishop has none.",
+    "The Lava–Rishop walk is optional; a car is always available."
+  ],
+  "tiers": [
+    {
+      "name": "Budget",
+      "price_inr": 15500,
+      "stays": "Simple hotel in Kalimpong, homestays in Lava and Rishop",
+      "transport": "Shared jeeps between towns; local cars for Neora Valley and Rishop",
+      "note": "Good value for walkers and birders"
+    },
+    {
+      "name": "Value",
+      "price_inr": 28000,
+      "stays": "Morgan House or a mid-range hotel, WBFDC Lava resort, best-view Rishop homestay",
+      "transport": "Private car throughout",
+      "note": "The balance most travellers choose"
+    },
+    {
+      "name": "Comfort",
+      "price_inr": 46000,
+      "stays": "Mayfair Himalayan Spa Resort, best rooms in Lava and Rishop",
+      "transport": "Private SUV throughout, specialist birding guide in Neora Valley",
+      "note": "Comfort in town, the best available in the villages"
+    }
+  ],
+  "price_from_inr": 15500,
+  "save_tips": [
+    "Take shared jeeps from Siliguri to Kalimpong and from Kalimpong to Lava.",
+    "Walk from Lava to Rishop with a guide instead of hiring a car.",
+    "Share a Neora Valley car and guide with other travellers at your lodge.",
+    "Travel in March or early December, when village rates are lower and skies often clear."
+  ],
+  "faqs": [
+    {
+      "q": "When is the best time for this Lava and Neora Valley trip?",
+      "a": "October and November give the clearest mountain views; April and May bring birds and rhododendrons. December to February is clear and cold, with occasional snow in Lava and Rishop. We do not run it from mid-June to mid-September, when Neora Valley National Park is closed and roads are at their worst."
+    },
+    {
+      "q": "How hard is the Neora Valley day?",
+      "a": "Moderate. You walk 5–10 km on uneven forest trails at over 2,000 m, with steep and muddy stretches. The pace is slow because of birding stops. Anyone who can walk for several hours with breaks should manage. Wear proper walking shoes and carry rain gear and water."
+    },
+    {
+      "q": "Will I see a red panda?",
+      "a": "Probably not. Red pandas live in Neora Valley but are shy and mostly in higher, remote forest. Day visitors rarely see one. The day is about the forest itself and the birds, and that is worth the trip. Treat any red panda sighting as a rare bonus."
+    },
+    {
+      "q": "What happens if Neora Valley is closed on my date?",
+      "a": "The park can close at short notice for weather, fire risk or official reasons. If that happens, we replace the park walk with Changey Falls and Kolakham, or a guided birding walk on the forest roads around Lava. Permit and guide fees are paid locally, so you pay nothing for a closed park."
+    },
+    {
+      "q": "Can I skip the walk from Lava to Rishop?",
+      "a": "Yes. The walk is optional. A car can take you the 11 km by road in about 40 minutes. The walk is about 4 km and 2 hours uphill through forest, with a local guide. If it is raining hard, we always take the car."
+    },
+    {
+      "q": "Is this trip suitable for children?",
+      "a": "Yes, for children who enjoy walking and can cope with cold nights. The Neora Valley day may be long for under-eights; we can shorten it. Rooms in Lava and Rishop are simple. Carry warm clothes, snacks and basic medicines, since shops are few beyond Kalimpong."
+    },
+    {
+      "q": "Do I need permits?",
+      "a": "No permit is needed for Kalimpong, Lava or Rishop. Neora Valley National Park needs an entry permit and a registered guide, which we help arrange at the Lava forest office. Fees are paid locally and change from time to time. Check current status before you travel."
+    },
+    {
+      "q": "Why do we return via Gorubathan?",
+      "a": "The forest road from Lava down to Gorubathan and the Dooars is scenic and avoids doubling back through Kalimpong. It also stays open more often when landslides close NH10 along the Teesta in the wet months. If NH10 is clear and you prefer, we can return via Kalimpong instead."
+    },
+    {
+      "q": "Can I add Lolegaon to this trip?",
+      "a": "Yes. Lolegaon is about 24 km from Lava. Add a night there between Kalimpong and Lava for the canopy walk and Jhandi Dara sunrise, making a six-night trip. Or see our seven-night route that includes Lolegaon, Lava, Sillery Gaon and Gangtok."
+    }
+  ]
+}

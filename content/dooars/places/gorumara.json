@@ -1,0 +1,357 @@
+{
+  "slug": "gorumara",
+  "name": "Gorumara and Lataguri",
+  "kind": "National park",
+  "tagline": "Watchtower safaris on the edge of the Murti and Jaldhaka",
+  "summary": "Gorumara is a small national park near Lataguri, about 80 km from Siliguri, known for rhinos, gaur and elephants seen from watchtowers such as Jatraprasad and Medla. One or two nights is enough. It is closed from 16 June to 15 September.",
+  "meta_description": "Gorumara and Lataguri guide: Jatraprasad, Medla and Chandrachur watchtower safaris, the Murti river, booking, stays and costs. Closed 16 June to 15 Sept.",
+  "wiki": "Gorumara National Park",
+  "image_query": "Gorumara National Park",
+  "lat": 26.71,
+  "lng": 88.78,
+  "altitude_m": 100,
+  "nights": 2,
+  "best_months": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2
+  ],
+  "themes": [
+    "wildlife-and-birds",
+    "family-trips",
+    "weekend-breaks",
+    "tea-country",
+    "shoestring"
+  ],
+  "intro": [
+    "Gorumara National Park covers about 80 km² of sal forest, riverine woodland and grassland between the Murti and Jaldhaka rivers in Jalpaiguri district. It was declared a national park in 1992. Small as it is, it holds Indian rhinoceros, Asian elephants, gaur, sambar, barking deer, wild boar and nearly 200 species of birds, including great and wreathed hornbills.",
+    "Most visitors stay at Lataguri, a small town on the highway between Malbazar and Mainaguri, about 8 km from the park entrance. Lataguri has the main safari counter and a row of resorts and lodges. Others stay on the Murti river, at Chalsa on the hill above, or in forest corporation camps around Ramsai and Kalipur.",
+    "Safaris here are mostly watchtower trips. A jeep takes you through the forest to a tower overlooking a salt lick or water hole, and you wait quietly for animals to come. Each tower has a fixed route and slot. The Jatraprasad watchtower is the most popular; Medla includes a bullock-cart ride and a short Adivasi dance at the end."
+  ],
+  "highlights": [
+    {
+      "title": "Jatraprasad watchtower",
+      "text": "Named after a forest department elephant, it overlooks a grassland and salt lick where rhinos and gaur often come."
+    },
+    {
+      "title": "Medla by bullock cart",
+      "text": "A jeep, then a slow bullock-cart ride to the Medla tower on the Murti, ending with Adivasi dancers at the camp."
+    },
+    {
+      "title": "Chandrachur and Chukchuki",
+      "text": "Quieter towers and a birding point for hornbills and forest birds."
+    },
+    {
+      "title": "The Murti river",
+      "text": "A wide stony river on the park edge, good for evening walks and birdwatching."
+    },
+    {
+      "title": "Jalpesh temple",
+      "text": "A major Shiva temple near Mainaguri, about 25 km away, with large fairs at Shivaratri and in Shravan."
+    }
+  ],
+  "facts": [
+    [
+      "Altitude",
+      "About 100 m at Lataguri"
+    ],
+    [
+      "From Siliguri",
+      "80 km, 2–2.5 hours"
+    ],
+    [
+      "Area",
+      "About 80 km²"
+    ],
+    [
+      "Best for",
+      "Rhino, gaur, elephants, hornbills"
+    ],
+    [
+      "Nights",
+      "2"
+    ],
+    [
+      "Season",
+      "Open 16 September to 15 June"
+    ],
+    [
+      "Permits",
+      "None; safari tickets and entry fees apply"
+    ]
+  ],
+  "how_to_reach": [
+    {
+      "mode": "Shared bus",
+      "text": "Take a bus from the Tenzing Norgay bus terminus in Siliguri to Malbazar (₹100–180, about 3 hours), then an auto or toto 10 km to Lataguri."
+    },
+    {
+      "mode": "Private car",
+      "text": "A reserved car from Siliguri, NJP or Bagdogra takes 2–2.5 hours (80 km) via Sevoke and Malbazar and costs about ₹2,800–3,800."
+    },
+    {
+      "mode": "Train",
+      "text": "New Mal Junction on the Dooars line is about 10 km from Lataguri; services are few, so check timings."
+    },
+    {
+      "mode": "Air",
+      "text": "Bagdogra airport is about 95 km and 2.5–3 hours away."
+    }
+  ],
+  "where_to_stay": "Lataguri has the most choice, from simple lodges at ₹1,200–2,000 a room to resorts at ₹3,000–7,000, all on or near the highway and close to the safari counter. The WBFDC Murti Banani lodge sits on the Murti river about 15 km away, and the forest corporation also runs small camps at Ramsai, Kalipur and Dhupjhora. For comfort, Sinclairs Retreat Dooars is on the Chalsa hilltop, 15 km from Lataguri.",
+  "stays": [
+    "murti-banani-eco-tourism-centre-wbfdc",
+    "sinclairs-retreat-dooars-chalsa"
+  ],
+  "nearby": [
+    "samsing",
+    "jaldapara",
+    "siliguri",
+    "lava"
+  ],
+  "tips": [
+    "Book watchtower slots online when booking opens, or at the Lataguri counter the evening before.",
+    "Choose Jatraprasad for rhinos and Medla for the bullock-cart ride and dance.",
+    "Do not drive between Lataguri, Chalsa and Murti after dark; elephants cross often.",
+    "Stay in a WBFDC lodge if you want reception to book safaris for you.",
+    "The park closes from 16 June to 15 September. Check current status before you travel."
+  ],
+  "costs": [
+    {
+      "item": "Watchtower jeep safari, per vehicle for up to 6, with fees",
+      "inr": "₹2,500–3,500"
+    },
+    {
+      "item": "Medla trip with bullock cart and dance, per vehicle",
+      "inr": "₹2,800–3,800"
+    },
+    {
+      "item": "Bus Siliguri to Malbazar",
+      "inr": "₹100–180 a seat"
+    },
+    {
+      "item": "Reserved car Siliguri to Lataguri",
+      "inr": "₹2,800–3,800 per car"
+    },
+    {
+      "item": "Lataguri lodge, double room",
+      "inr": "₹1,200–2,500 a night"
+    },
+    {
+      "item": "Lataguri resort, double room",
+      "inr": "₹3,000–7,000 a night"
+    },
+    {
+      "item": "Fish thali in Lataguri",
+      "inr": "₹180–350"
+    }
+  ],
+  "local_word": {
+    "word": "Gorur gari",
+    "language": "Bengali",
+    "meaning": "Bullock cart. The Medla watchtower trip ends with a ride in one."
+  },
+  "story": {
+    "title": "Jatraprasad, the elephant with a watchtower",
+    "paras": [
+      "Most watchtowers in Indian parks are named after places. Gorumara's best-known tower is named after an animal. Jatraprasad was an elephant of the forest department, and the tower that bears his name looks out over a grassland and salt lick where rhinos, gaur and elephants come to feed.",
+      "Guides at Lataguri tell visitors that Jatraprasad worked in Gorumara for many years, carrying forest staff on patrols through the tall grass, tracking rhinos and helping when wild animals strayed into villages. They describe him as calm and steady, an elephant the staff trusted in difficult places.",
+      "We have not found a published record of his dates or of particular events, so treat the details as local memory rather than documented history. Wikipedia notes only that the watchtower is named after a legendary elephant.",
+      "The story says something about Gorumara itself. This is a small park surrounded by tea gardens, villages and a busy highway, and keeping rhinos safe here has depended on people and working elephants on the ground. When you climb the Jatraprasad tower and wait for a rhino to step out of the grass, you are standing on ground he once patrolled."
+    ],
+    "sources": [
+      {
+        "title": "Gorumara National Park (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Gorumara_National_Park"
+      },
+      {
+        "title": "Told locally in Lataguri",
+        "url": ""
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "How do I book a Gorumara safari?",
+      "a": "Gorumara safaris are sold by the West Bengal forest department. When online booking is open, book watchtower slots on the official forest department or WBFDC booking pages. Remaining slots are sold at the counter in Lataguri, usually from the afternoon before, with queues in peak season. Guests in WBFDC lodges such as Murti Banani can often book at reception. Check current status before you travel."
+    },
+    {
+      "q": "Which Gorumara watchtower is best?",
+      "a": "Jatraprasad is the most popular and the best bet for rhinos and gaur at the salt lick. Medla is the most fun for families, with a bullock-cart ride and a short Adivasi dance. Chandrachur is quieter. Chukchuki is a birding point. If you have time for two trips, do Jatraprasad at dawn and Medla in the afternoon."
+    },
+    {
+      "q": "How far is Gorumara from Siliguri?",
+      "a": "Lataguri, the gateway town, is about 80 km from Siliguri, a drive of 2–2.5 hours via Sevoke, Odlabari and Malbazar. It is the closest of the Dooars parks to Siliguri, which makes it a good weekend trip from NJP or Bagdogra."
+    },
+    {
+      "q": "When is Gorumara closed?",
+      "a": "Gorumara closes every year for the monsoon from 16 June to 15 September, along with the other protected forests of North Bengal. It may also close for a day for official counts. Some routes reopen later than 16 September if tracks are damaged. Check current status before you travel."
+    },
+    {
+      "q": "Can I see rhinos at Gorumara?",
+      "a": "Yes, rhinos live in Gorumara and are often seen from the Jatraprasad watchtower and the rhino observation point, though not on every trip. The population is much smaller than at Jaldapara, so if rhinos are your main aim, add a night at Jaldapara. Gaur and elephants are seen more often at Gorumara."
+    },
+    {
+      "q": "Is Lataguri a good place to stay?",
+      "a": "Yes, for convenience. Lataguri has the safari counter, plenty of lodges and resorts at all prices, and simple restaurants along the highway. It can feel busy at weekends. For a quieter stay choose a riverside lodge at Murti or a forest corporation camp; for comfort choose Chalsa."
+    },
+    {
+      "q": "What is the Medla watchtower trip?",
+      "a": "It is a watchtower trip in which a jeep takes you to the Medla camp near the Murti river, from where you ride a bullock cart to the watchtower overlooking the river and grassland. Trips usually end with a short performance by Adivasi dancers from nearby villages. It suits families and first-time visitors."
+    },
+    {
+      "q": "How many days do I need at Gorumara?",
+      "a": "One night allows one afternoon and one dawn watchtower trip. Two nights lets you try two or three towers, walk by the Murti and visit Samsing or the Jalpesh temple. Many travellers spend two nights at Gorumara and two at Jaldapara on a four-night Dooars loop."
+    },
+    {
+      "q": "Are there wild elephants on the roads near Lataguri?",
+      "a": "Yes. Elephant herds cross the highway and tea gardens around Lataguri, Chalsa and Murti, especially at dusk and night. Drive in daylight, never stop to take photos, and follow forest department instructions if traffic is held. Your driver will know the usual crossing points."
+    }
+  ],
+  "experiences": [
+    {
+      "slug": "gorumara-jatraprasad-watchtower-safari",
+      "title": "Jatraprasad watchtower safari",
+      "kind": "wildlife",
+      "duration": "About 2 hours",
+      "summary": "A jeep trip into Gorumara to the Jatraprasad watchtower, which overlooks grassland and a salt lick where rhinos, gaur and elephants come.",
+      "body": [
+        "The jeep leaves from Lataguri with a forest guide, drives a short way through sal forest and stops at the tower. You climb up and wait. Below is an open grassland with a salt lick and a water body, and the Murti river and forest beyond. Gaur and peafowl come often, rhinos and elephants regularly but not every day.",
+        "This is a slow, quiet trip. Talk in whispers, switch phones to silent and bring binoculars. The dawn slot is cooler and usually better for animals; the late afternoon slot has warm light for photographs."
+      ],
+      "best_time": "The first slot of the morning between December and April.",
+      "good_for": [
+        "Families",
+        "Photographers",
+        "First-time safari goers"
+      ],
+      "cost": "₹2,500–3,500 per jeep for up to 6, with entry and guide (indicative)",
+      "wiki": "",
+      "image_query": "Jatraprasad watchtower Gorumara",
+      "faqs": [
+        {
+          "q": "What will I see from Jatraprasad watchtower?",
+          "a": "Gaur, sambar, barking deer and peafowl are seen on most trips. Indian rhinos and wild elephants visit the salt lick regularly but not on every slot. Hornbills, kingfishers and other birds are common in the trees around the tower. Bring binoculars, as animals may stay at the far edge of the grassland."
+        },
+        {
+          "q": "How do I book Jatraprasad?",
+          "a": "Book through the forest department's official online booking when it is open, or at the Lataguri counter for remaining slots. Jatraprasad is the most popular tower and fills first in peak season, so book it before the others. Guests at WBFDC lodges may be able to book at reception."
+        },
+        {
+          "q": "Is Jatraprasad suitable for elderly visitors?",
+          "a": "Mostly. The jeep ride is short and the tower has stairs of a couple of storeys. People with knee problems can manage slowly. There are no toilets on the tower, so use facilities at Lataguri before you leave. Carry water and a light jacket for dawn slots."
+        }
+      ]
+    },
+    {
+      "slug": "gorumara-medla-watchtower-bullock-cart",
+      "title": "Medla watchtower by bullock cart",
+      "kind": "wildlife",
+      "duration": "2–2.5 hours",
+      "summary": "A watchtower trip that ends with a bullock-cart ride to the Medla tower above the Murti, and a short dance by Adivasi performers at the camp.",
+      "body": [
+        "The Medla trip starts by jeep from the Lataguri side and runs to the Medla camp, near the Murti river. From there you ride a bullock cart along a forest track to the Medla watchtower, which looks over the river, grassland and forest edge. Elephants, gaur and rhinos sometimes come down to the river, and birds are plentiful.",
+        "Most trips end back at the camp with a short performance of dance and song by Adivasi villagers from nearby. It is a simple, local programme. Watch respectfully, and if you want to give something, use the collection or contribution the organisers suggest."
+      ],
+      "best_time": "Afternoon slots between November and March, when the light on the river is soft.",
+      "good_for": [
+        "Families with children",
+        "First-time visitors"
+      ],
+      "cost": "₹2,800–3,800 per jeep for up to 6, including cart and dance (indicative)",
+      "wiki": "",
+      "image_query": "Medla watchtower Gorumara",
+      "faqs": [
+        {
+          "q": "Is the Medla bullock-cart ride comfortable?",
+          "a": "It is short and bumpy rather than comfortable. You sit on a wooden cart pulled by two bullocks along a forest track for a few minutes. Children usually enjoy it. People with back problems can walk alongside instead; ask the guide."
+        },
+        {
+          "q": "What animals can I see from Medla?",
+          "a": "Medla looks over the Murti river and its grassland. Gaur, deer, peafowl and many birds are common; elephants and rhinos sometimes come to the water. Sightings are less predictable than at Jatraprasad, but the river setting is very pretty."
+        },
+        {
+          "q": "Is the Adivasi dance at Medla a tourist show?",
+          "a": "It is a short programme organised for visitors with performers from nearby Adivasi villages, so it earns them an income. It is not a religious ceremony. Watch quietly, ask before close-up photographs, and thank the performers. Festival dances in villages are different and should only be watched by invitation."
+        }
+      ]
+    },
+    {
+      "slug": "gorumara-murti-riverbed-evening-walk",
+      "title": "Evening on the Murti riverbed",
+      "kind": "nature",
+      "duration": "1–1.5 hours",
+      "summary": "A walk on the wide stony bed of the Murti river at the park edge, watching birds and the forest across the water as the sun goes down.",
+      "body": [
+        "The Murti comes down from the hills near Samsing and runs along the edge of Gorumara. Near the Murti bridge and the lodges at Murti village, its stony bed is wide and shallow for most of the year. In the late afternoon locals come down to bathe and fish, and the far bank is forest.",
+        "Look for river lapwings, wagtails, plovers, kingfishers and, in winter, ruddy shelducks. Peafowl call from the forest, and deer sometimes come to the water. Leave before dark and do not cross to the far bank, which is forest where elephants and gaur move."
+      ],
+      "best_time": "From 4 pm until sunset, between November and April.",
+      "good_for": [
+        "Couples",
+        "Birdwatchers",
+        "Families"
+      ],
+      "cost": "₹0",
+      "wiki": "",
+      "image_query": "Murti river Dooars",
+      "faqs": [
+        {
+          "q": "Where is the best place to walk on the Murti?",
+          "a": "The riverbed near Murti village and the Murti bridge, about 15 km from Lataguri, is the easiest, close to the lodges including the WBFDC Murti Banani lodge. Walk on the near bank only. Ask your lodge which stretches are safe that week."
+        },
+        {
+          "q": "Can I swim in the Murti river?",
+          "a": "It is not a good idea. The water is shallow for much of the year, but currents can be strong in channels, the stones are slippery and the river rises suddenly after rain in the hills. Paddling at the edge with others nearby is fine in the dry season."
+        },
+        {
+          "q": "Is the Murti walk safe?",
+          "a": "In daylight and close to Murti village, yes. Return before sunset, stay on the near side of the river and do not walk into the forest. Elephants and gaur use the river at dusk. If you see a group of locals leaving the riverbed quickly, follow them."
+        }
+      ]
+    },
+    {
+      "slug": "gorumara-jalpesh-temple-half-day",
+      "title": "Half day at the Jalpesh temple near Mainaguri",
+      "kind": "spiritual",
+      "duration": "3–4 hours",
+      "summary": "A short trip from Lataguri to Jalpesh, an old Shiva temple on the Jarda river near Mainaguri, founded by the Koch kings in the sixteenth century.",
+      "body": [
+        "Jalpesh lies about 25 km from Lataguri, 7–8 km from Mainaguri. The temple, with its large white dome, was founded by the Koch ruler Bishwa Singha in 1524 and rebuilt by King Pran Narayan of Cooch Behar in 1663. Inside, Shiva is worshipped as Jalpesh in the form of a lingam.",
+        "On ordinary days the temple is calm, with village families making offerings and stalls selling flowers and sweets. At Maha Shivaratri and through the month of Shravan it draws huge crowds and a large fair. Remove shoes, dress modestly and follow the queue. Photography inside the sanctum is usually not allowed."
+      ],
+      "best_time": "A weekday morning outside festival dates for a quiet visit.",
+      "good_for": [
+        "Pilgrims",
+        "History lovers",
+        "Families"
+      ],
+      "cost": "₹1,500–2,000 for a car from Lataguri and back (indicative); entry free",
+      "wiki": "Jalpesh Temple",
+      "image_query": "Jalpesh temple Jalpaiguri",
+      "faqs": [
+        {
+          "q": "How far is Jalpesh from Lataguri?",
+          "a": "About 25 km, roughly 45 minutes by car via Mainaguri. On festival days the last few kilometres can be slow because of crowds and parking. You can also take a bus or auto to Mainaguri and a toto to the temple."
+        },
+        {
+          "q": "When is the best time to visit Jalpesh?",
+          "a": "For a quiet visit, any weekday morning outside Shivaratri and Shravan. For the festival atmosphere, go on Maha Shivaratri in February or March, or on a Monday in Shravan in July or August, when the crowds are very large."
+        },
+        {
+          "q": "Is there a dress code at Jalpesh?",
+          "a": "There is no strict written code, but dress modestly with shoulders and knees covered. Remove shoes before entering the compound and leave them at the shoe stands. Leather items may be frowned upon inside the sanctum. Follow the priests' instructions."
+        }
+      ]
+    }
+  ]
+}

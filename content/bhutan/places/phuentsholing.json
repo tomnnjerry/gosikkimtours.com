@@ -1,0 +1,171 @@
+{
+  "slug": "phuentsholing",
+  "name": "Phuentsholing",
+  "kind": "Border town",
+  "tagline": "Bhutan's front door on the Dooars plains",
+  "summary": "Phuentsholing is the Bhutanese border town opposite Jaigaon, about 160 km from Siliguri, where Indian travellers collect their entry permit and start the climb to Thimphu. Give it one night or half a day: the Zangtho Pelri temple, the crocodile centre and the view from Kharbandi Goemba fill an afternoon.",
+  "meta_description": "Phuentsholing guide: Bhutan border permits for Indians, Zangtho Pelri, Kharbandi Goemba, costs, buses from Siliguri and where to stay before Thimphu.",
+  "wiki": "Phuntsholing",
+  "image_query": "Phuentsholing Bhutan gate",
+  "lat": 26.8516,
+  "lng": 89.3884,
+  "altitude_m": 300,
+  "nights": 1,
+  "best_months": [2, 2, 2, 1, 1, 0, 0, 0, 1, 2, 2, 2],
+  "themes": ["shoestring", "monasteries", "food-trails"],
+  "intro": [
+    "Phuentsholing sits where the last foothills drop to the plains, at about 300 m, on the bank of the Amo Chhu, the river India calls the Torsa. A painted gate separates it from Jaigaon in West Bengal. On one side are crowded Indian market lanes; on the other, traffic that stops for pedestrians, buildings with carved wooden windows, and clocks set 30 minutes ahead of IST.",
+    "For overland travellers this is where Bhutan formally begins. The regional immigration office near the gate issues entry permits for Indians, and buses, taxis and tour vehicles leave from here for Thimphu and Paro. It is also Bhutan's main commercial town, so expect trucks, wholesale shops and a working feel rather than postcard views.",
+    "The town is worth a few hours. The Zangtho Pelri Lhakhang in the centre, Kharbandi Goemba on the hill above, and the crocodile breeding centre by the river are all within a few kilometres. In summer it is hot and humid, often above 32°C, so walk in the morning or evening."
+  ],
+  "highlights": [
+    {"title": "The Bhutan Gate", "text": "The ornate gate between Jaigaon and Phuentsholing is the classic first photograph of an overland trip. Pedestrians walk through; vehicles use a separate lane."},
+    {"title": "Zangtho Pelri Lhakhang", "text": "A temple in the town centre representing Guru Rinpoche's celestial palace, with a small garden and prayer wheels where locals walk in the evening."},
+    {"title": "Kharbandi Goemba", "text": "A monastery about 5 km up the Thimphu road, with views over the Dooars plains and the Torsa river."},
+    {"title": "Amo Chhu Crocodile Breeding Centre", "text": "A small centre by the river breeding gharials and mugger crocodiles, ten minutes from the gate."},
+    {"title": "First taste of ema datshi", "text": "Town restaurants serve chillies in cheese, red rice and momos at lower prices than Thimphu."}
+  ],
+  "facts": [
+    ["Altitude", "About 300 m"],
+    ["From Siliguri", "About 160 km, 4–5 hours"],
+    ["To Thimphu", "About 160 km, 5–6 hours"],
+    ["Best for", "Permits, a first night in Bhutan, short temple visits"],
+    ["Nights", "1"],
+    ["Permits", "Entry permit issued here for Paro and Thimphu; SDF ₹1,200 per night for Indians. Check current status before you travel."]
+  ],
+  "how_to_reach": [
+    {"mode": "Shared bus", "text": "Government and private buses run from Siliguri's Tenzing Norgay bus terminus area to Jaigaon and Phuentsholing through the day, taking 4–5 hours for about ₹150–250. Bhutan Post also runs a coach between Siliguri and Phuentsholing."},
+    {"mode": "Reserved car", "text": "A reserved car from Siliguri, NJP or Bagdogra costs about ₹3,500–5,000 and takes 4 hours via Birpara and Hasimara. Indian taxis usually drop you at the gate in Jaigaon."},
+    {"mode": "Train", "text": "Hasimara station on the Alipurduar line is about 17 km from the border; a shared auto or taxi covers the last stretch in 30 minutes."},
+    {"mode": "Air", "text": "Bagdogra airport is about 165 km away, 4–5 hours by road. There is no commercial airport in Phuentsholing."}
+  ],
+  "where_to_stay": "Hotels in Phuentsholing cluster within a few hundred metres of the gate and the main market. Certified budget hotels cost about ₹2,500–3,500 a room, mid-range places such as Hotel Druk about ₹5,000–8,000. Staying in Jaigaon on the Indian side is cheaper and avoids one night of SDF, but Jaigaon is noisy and crowded.",
+  "stays": ["hotel-druk-phuentsholing"],
+  "nearby": ["jaldapara", "chilapata", "thimphu", "paro"],
+  "tips": [
+    "Reach the immigration office early on a weekday; it closes on Saturday afternoons, Sundays and Bhutanese public holidays.",
+    "Carry your original voter ID or passport, two photos, photocopies and a hotel booking for your first night in Bhutan.",
+    "Set your watch 30 minutes ahead when you cross; bus departure times are in Bhutan Time.",
+    "Change some money into small notes; ₹100 and ₹200 notes are accepted everywhere in town.",
+    "Walk across the gate only with your permit if you plan to go beyond town; day visitors to the town itself have usually not needed one, but rules change. Check current status before you travel."
+  ],
+  "costs": [
+    {"item": "Bus Siliguri to Jaigaon or Phuentsholing", "inr": "₹150–250 a seat"},
+    {"item": "Reserved car Siliguri to Jaigaon", "inr": "₹3,500–5,000 per car"},
+    {"item": "Sustainable Development Fee (Indians)", "inr": "₹1,200 per person per night"},
+    {"item": "Certified budget hotel", "inr": "₹2,500–3,500 a room a night"},
+    {"item": "Local lunch with ema datshi and rice", "inr": "₹200–350"},
+    {"item": "Taxi to Kharbandi Goemba and back", "inr": "₹500–700"},
+    {"item": "Bus Phuentsholing to Thimphu", "inr": "About Nu 300 (₹300)"}
+  ],
+  "local_word": {"word": "Kuzuzangpo la", "language": "Dzongkha", "meaning": "Hello; the polite greeting, with \"la\" added as a mark of respect"},
+  "story": {
+    "title": "The road that opened Bhutan to the plains",
+    "paras": [
+      "Until the early 1960s there was no motor road into Bhutan. Traders and officials going from the Dooars plains to Paro or Thimphu walked or rode mules for several days, climbing through forest and over ridges on old mule tracks.",
+      "In 1961 India's Border Roads Organisation set up Project Dantak in Bhutan, at the request of the Bhutanese government. One of its first jobs was a road from the border at Phuentsholing up to Thimphu and Paro. The new road turned a journey of days into one of hours.",
+      "The road changed Phuentsholing too. A small trading post grew into Bhutan's main commercial gateway, where most of the country's goods from India still arrive by truck. Dantak continues to maintain roads in Bhutan, and its milestones and painted slogans are still seen along the highway north of town."
+    ],
+    "sources": [
+      {"title": "Project Dantak (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Project_Dantak"},
+      {"title": "Phuntsholing (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Phuntsholing"}
+    ]
+  },
+  "faqs": [
+    {"q": "Where do Indians get the Bhutan permit at Phuentsholing?", "a": "At the regional immigration office close to the Bhutan Gate. Indians can also apply online in advance through the Department of Immigration portal and collect or show the permit here. Bring your original passport or voter ID, photos, photocopies and a confirmed booking in a certified hotel. The office is closed on Sundays and public holidays. Check current status before you travel."},
+    {"q": "Can I visit Phuentsholing for a day without paying SDF?", "a": "Day visitors who stay within Phuentsholing town and return to Jaigaon the same day have generally been exempt from the SDF in recent years. Overnight stays and any travel beyond town require a permit and the full ₹1,200 per night fee. The border-town rules have been revised more than once, so check current status before you travel."},
+    {"q": "How far is Phuentsholing from Siliguri?", "a": "About 160 km. A reserved car takes about 4 hours via Sevoke, Birpara and Hasimara, and buses take 4–5 hours with stops. The road crosses the Teesta at Coronation Bridge and runs past tea gardens and the edge of Jaldapara. Leave early so you reach the immigration office before it closes."},
+    {"q": "Is it better to stay in Jaigaon or Phuentsholing?", "a": "Phuentsholing is cleaner, quieter and safer at night, but each night there costs ₹1,200 per person in SDF on top of the room. Jaigaon has cheaper hotels from about ₹1,000 and no SDF, but the streets are crowded and noisy. Budget travellers often sleep in Jaigaon, cross in the morning and leave for Thimphu after the permit is issued."},
+    {"q": "What is the time difference at the Bhutan border?", "a": "Bhutan Time is 30 minutes ahead of Indian Standard Time. When it is 9 am in Jaigaon it is 9.30 am in Phuentsholing. Office hours, bus departures and hotel check-out times in Bhutan all follow Bhutan Time, so adjust your watch as soon as you cross the gate."},
+    {"q": "Is Phuentsholing worth a night?", "a": "It is worth one night if you arrive late or want an easy afternoon. The Zangtho Pelri Lhakhang, Kharbandi Goemba and the crocodile centre fill three or four hours. If you get your permit by late morning you can go straight on to Thimphu and arrive by evening, which saves a night of SDF."},
+    {"q": "What is the weather like in Phuentsholing?", "a": "Hot and humid for much of the year. Summer days often reach 32–35°C, and the monsoon from June to September brings very heavy rain. November to February is pleasant at 12–25°C. Dress for heat even if you are carrying warm clothes for Thimphu and Paro, which are 2,000 m higher."},
+    {"q": "Can I take an Indian taxi from Phuentsholing to Thimphu?", "a": "Indian-registered vehicles need a separate vehicle permit and fee to enter Bhutan, and most Siliguri taxis do not go beyond the border. Travellers usually switch to a Bhutan-registered car with a driver, often booked with their guide, or take a public bus. Check current status before you travel."},
+    {"q": "Where can I eat in Phuentsholing?", "a": "Restaurants around the main market and near the gate serve Bhutanese, Indian and Tibetan food. Try ema datshi, kewa datshi with potatoes, and red rice for about ₹200–350 a plate. Momos and thukpa cost ₹100–200. Indian thalis are easy to find on both sides of the gate for those who prefer milder food."}
+  ],
+  "experiences": [
+    {
+      "slug": "phuentsholing-zangtho-pelri-lhakhang-visit",
+      "title": "Evening at Zangtho Pelri Lhakhang",
+      "kind": "spiritual",
+      "duration": "1 hour",
+      "summary": "A short visit to the temple in the centre of Phuentsholing that represents Guru Rinpoche's celestial palace. Locals come in the evening to turn the prayer wheels and walk around it.",
+      "body": [
+        "Zangtho Pelri Lhakhang stands in a small park a few minutes' walk from the Bhutan Gate. Its name refers to Zangdok Palri, the Copper-Coloured Mountain, the pure land of Guru Rinpoche. The three floors hold images connected with him and with other figures of the Nyingma and Drukpa traditions.",
+        "Go in the early evening when office workers and families walk clockwise around the temple and spin the large prayer wheels. Remove shoes and hats inside, do not photograph the altar rooms, and walk clockwise. It is a gentle first look at Bhutanese religious life before the big dzongs further north."
+      ],
+      "best_time": "Late afternoon or early evening, when the heat eases and locals come to pray.",
+      "good_for": ["First-timers", "Families", "Short stopovers"],
+      "cost": "₹0; small offerings welcome",
+      "wiki": "",
+      "image_query": "Zangtho Pelri Lhakhang Phuentsholing",
+      "faqs": [
+        {"q": "Is there an entry fee at Zangtho Pelri Lhakhang?", "a": "There has been no ticket for visitors in recent years, though you may leave a small offering at the altar. Some temples in Bhutan have introduced fees for tourists, and rules can change. Dress modestly with shoulders and knees covered and remove your shoes before entering the shrine rooms. Check current status before you travel."},
+        {"q": "Do I need a permit to visit Zangtho Pelri?", "a": "The temple is in Phuentsholing town, a few minutes from the gate, and visitors who stay within the town for the day have usually not needed a permit. If you are staying overnight you will already have your entry permit. Carry your ID in any case, as police may ask for it."},
+        {"q": "Can I take photographs inside the temple?", "a": "Photography is not allowed inside the shrine rooms of temples and dzongs in Bhutan. You can photograph the outside of the building, the garden and the prayer wheels. Ask before photographing people who are praying, and keep your voice low inside the compound."}
+      ]
+    },
+    {
+      "slug": "phuentsholing-kharbandi-goemba-viewpoint",
+      "title": "Kharbandi Goemba and the view over the plains",
+      "kind": "spiritual",
+      "duration": "2 hours",
+      "summary": "A short drive up the Thimphu road to a monastery with wide views over Phuentsholing, Jaigaon and the Dooars plains. It is the best viewpoint near the border.",
+      "body": [
+        "Kharbandi Goemba sits about 5 km above Phuentsholing, at roughly 400 m, on a bend of the old road towards Thimphu. It was founded in 1967 by Ashi Phuntsho Choden, the royal grandmother, who liked to spend winters in this warmer corner of the country. A garden of chortens surrounds the temple.",
+        "From the terrace you look down on the two towns pressed against each other, the braided channels of the Torsa and the flat green plains running south towards Hasimara and Jaldapara. On clear winter mornings the view stretches a long way. Many travellers stop on their way up to Thimphu rather than making a separate trip."
+      ],
+      "best_time": "Morning in the dry season, October to March, for the clearest view of the plains.",
+      "good_for": ["Photographers", "Couples", "First-timers"],
+      "cost": "₹500–700 by taxi from town and back",
+      "wiki": "",
+      "image_query": "Kharbandi Gompa Phuentsholing",
+      "faqs": [
+        {"q": "How far is Kharbandi Goemba from Phuentsholing?", "a": "About 5 km uphill from the town centre, 15–20 minutes by car. A taxi there and back with waiting time costs about ₹500–700. You can also stop on your way to Thimphu if your driver agrees, since it lies close to the road. Walking up in the heat is not much fun except in winter."},
+        {"q": "Who built Kharbandi Goemba?", "a": "It was founded in 1967 by Ashi Phuntsho Choden, grandmother of the Fourth King, who spent winters in the area. The monastery has paintings of the Buddha and Guru Rinpoche and a set of chortens in the garden. It remains an active place of worship, so visit quietly and follow the usual etiquette."},
+        {"q": "Is Kharbandi Goemba worth visiting?", "a": "It is worth an hour if you have time in Phuentsholing or want a stop on the climb to Thimphu. The view over the plains and the two border towns is the best around. It is not as grand as the dzongs further north, but it is calm and rarely crowded."}
+      ]
+    },
+    {
+      "slug": "phuentsholing-amo-chhu-crocodile-centre",
+      "title": "Amo Chhu Crocodile Breeding Centre",
+      "kind": "wildlife",
+      "duration": "1 hour",
+      "summary": "A small government breeding centre by the river where gharials and mugger crocodiles are raised. It is close to town and easy to fit into a stopover.",
+      "body": [
+        "The crocodile breeding centre lies near the Amo Chhu, a short walk or ride from the main market. It was set up to raise gharials and marsh muggers, both threatened in the rivers of the southern foothills, and holds a few dozen animals of different ages in pools and enclosures.",
+        "It is a modest place and takes under an hour, but children enjoy it and it adds variety to a day of permits and temples. Go in the morning when the animals are more active and the heat is bearable. Combine it with Zangtho Pelri in the evening for a simple half-day in town."
+      ],
+      "best_time": "Morning, before the midday heat, from October to April.",
+      "good_for": ["Families", "Children", "Short stopovers"],
+      "cost": "Small entry fee, about ₹50–100",
+      "wiki": "",
+      "image_query": "Crocodile breeding centre Phuentsholing",
+      "faqs": [
+        {"q": "What animals are at the Phuentsholing crocodile centre?", "a": "Gharials, the long-snouted fish-eating crocodiles, and mugger or marsh crocodiles. Both once lived in the rivers of the southern foothills and are threatened across their range. The centre breeds them in pools, and visitors watch from paths around the enclosures. Numbers vary with releases and new hatchlings."},
+        {"q": "How much time does the crocodile centre need?", "a": "Allow 45 minutes to an hour. It is a small site, and most people combine it with the Zangtho Pelri temple and a walk through the market. It is an easy outing for children while you wait for permits or for the afternoon heat to pass."},
+        {"q": "Is the crocodile centre open every day?", "a": "It is generally open daily during daytime hours, but timings and fees can change and it may close on some public holidays. Ask your hotel in Phuentsholing the evening before you plan to go. Check current status before you travel."}
+      ]
+    },
+    {
+      "slug": "phuentsholing-border-market-food-walk",
+      "title": "Food walk across the Phuentsholing border",
+      "kind": "food",
+      "duration": "2 hours",
+      "summary": "A walk through Phuentsholing's market lanes tasting ema datshi, momos and Bhutanese snacks, with a look at the contrast with Jaigaon next door.",
+      "body": [
+        "Start at the gate and walk into the market streets behind it. Small restaurants serve ema datshi, green or red chillies cooked in soft local cheese, along with kewa datshi with potatoes and shamu datshi with mushrooms. Red rice, slightly nutty and sticky, comes on the side. Plates cost about ₹200–350.",
+        "Look for suja, salted butter tea, and dried yak cheese called chugo, which is chewed slowly for hours. Grocery shops sell Bhutanese chilli powder, red rice and incense. Then step back through the gate to Jaigaon for Bengali sweets and tea, and notice how much changes in a hundred metres."
+      ],
+      "best_time": "Evening, from about 6 pm, when the heat drops and food stalls are busy.",
+      "good_for": ["Food lovers", "Budget travellers", "First-timers"],
+      "cost": "₹300–600 per person for tastings",
+      "wiki": "Ema datshi",
+      "image_query": "Ema datshi Bhutan",
+      "faqs": [
+        {"q": "How spicy is ema datshi?", "a": "Very spicy by most Indian standards. The chillies are the main ingredient, not a seasoning, and are cooked whole or sliced in cheese. Ask for kewa datshi, made with potatoes, or shamu datshi, made with mushrooms, for something milder. Eat it with plenty of red rice to balance the heat."},
+        {"q": "Is vegetarian food easy to find in Phuentsholing?", "a": "Yes. The datshi dishes are vegetarian, and red rice, dal and vegetable momos are on most menus. Many restaurants in Phuentsholing and Jaigaon also serve Indian vegetarian thalis. Bhutanese cooking uses butter and cheese, so vegans should ask before ordering."},
+        {"q": "Can I bring Bhutanese food items back to India?", "a": "Packaged red rice, chilli powder, tea and dried cheese are commonly carried across for personal use. Large quantities may attract questions from customs at the border. Alcohol and tobacco rules differ, and Bhutan restricts tobacco sales, so keep purchases modest and keep receipts."}
+      ]
+    }
+  ]
+}

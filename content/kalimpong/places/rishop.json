@@ -1,0 +1,339 @@
+{
+  "slug": "rishop",
+  "name": "Rishop",
+  "kind": "Village",
+  "tagline": "A high ridge village facing the whole Kanchenjunga range",
+  "summary": "Rishop, also spelt Rishyap, is a small village at about 2,590 m above Lava, known for one of the widest Kanchenjunga views in the Kalimpong hills. Go for sunrise at Tiffin Dara, forest walks and quiet homestays. One or two nights is right.",
+  "meta_description": "Rishop (Rishyap) guide: Tiffin Dara sunrise, the forest trail from Lava, homestays, how to reach from Kalimpong, costs and best months.",
+  "wiki": "Rishyap",
+  "image_query": "Rishyap Kalimpong Kanchenjunga",
+  "lat": 27.11,
+  "lng": 88.65,
+  "altitude_m": 2590,
+  "nights": 1,
+  "best_months": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    1,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2
+  ],
+  "themes": [
+    "homestays",
+    "photography",
+    "treks-and-walks",
+    "shoestring"
+  ],
+  "intro": [
+    "Rishop sits on a ridge at about 2,590 m, a short way above Lava and about 28–35 km from Kalimpong depending on the road. It is little more than a scatter of houses, cottages and homestays in the forest, with no bazaar to speak of. What it has is a view: on a clear morning the snow peaks stretch along the northern skyline, with Kanchenjunga at the centre.",
+    "The village was opened to tourists only in the late 1990s. Sherpa and Lepcha families who farmed here began building small cottages for guests, and that pattern still holds. There are no big hotels. You stay in a family house, eat what they cook and spend the evening by a heater or a stove.",
+    "Most people come for one night, often after a night in Lava, and climb to Tiffin Dara for sunrise. A second night lets you walk the forest trail down to Lava or simply sit and watch the light change on the peaks."
+  ],
+  "highlights": [
+    {
+      "title": "Tiffin Dara sunrise",
+      "text": "A short climb above the village to a viewpoint facing the Kanchenjunga range, best between October and February."
+    },
+    {
+      "title": "Forest trail to Lava",
+      "text": "A steep path of about 4 km through oak, rhododendron and fir links Rishop with Lava."
+    },
+    {
+      "title": "Mountain view from your room",
+      "text": "Many homestays face north-west, so you can watch the peaks from bed on clear mornings."
+    },
+    {
+      "title": "Quiet nights and stars",
+      "text": "With no town lights nearby, clear winter nights show a sky full of stars."
+    }
+  ],
+  "facts": [
+    [
+      "Altitude",
+      "About 2,590 m"
+    ],
+    [
+      "From Siliguri",
+      "About 115–120 km, 4–4.5 hours via Kalimpong and Lava"
+    ],
+    [
+      "From Lava",
+      "About 11 km by road, 40 minutes; 4 km on foot"
+    ],
+    [
+      "Best for",
+      "Sunrise views, photography, forest walks, homestays"
+    ],
+    [
+      "Nights",
+      "1–2"
+    ],
+    [
+      "Permits",
+      "None"
+    ]
+  ],
+  "how_to_reach": [
+    {
+      "mode": "Shared jeep",
+      "text": "There is no regular shared jeep to Rishop. Take a shared jeep from Kalimpong to Lava for about ₹100–150 a seat, then hire a local car to Rishop for about ₹800–1,200, or walk up the forest trail."
+    },
+    {
+      "mode": "Private car",
+      "text": "A reserved car from Kalimpong takes about 1.5–2 hours and costs about ₹2,500–3,200. From NJP or Bagdogra, allow 4–4.5 hours and about ₹4,500–5,500. The last stretch above Lava is narrow."
+    },
+    {
+      "mode": "On foot",
+      "text": "From Lava a forest trail of about 4 km climbs to Rishop in 1.5–2 hours. Send your bags up by car and walk with a local guide."
+    }
+  ],
+  "where_to_stay": "Rishop has only homestays and small cottage lodges, spread along the ridge. Expect about ₹1,500–2,200 a person a night with all meals, indicative. Rooms facing the mountains cost a little more and are worth it. Facilities are simple: attached bathrooms, geysers in better places, heaters on request. There are no restaurants, so all meals come from your host.",
+  "stays": [
+    "rishop-village-homestays"
+  ],
+  "nearby": [
+    "lava",
+    "lolegaon",
+    "kalimpong-town",
+    "sillery-gaon"
+  ],
+  "tips": [
+    "Ask your host which way your room faces; a mountain-facing room makes the stay.",
+    "Start for Tiffin Dara about 40 minutes before sunrise with a torch.",
+    "Bring thermals from November to March; nights can go below freezing.",
+    "Carry cash; there are no ATMs in Rishop and few in Lava.",
+    "If you walk the trail from Lava, send luggage by car and go with a guide."
+  ],
+  "costs": [
+    {
+      "item": "Homestay with all meals",
+      "inr": "₹1,500–2,200 a person a night"
+    },
+    {
+      "item": "Local car Lava to Rishop",
+      "inr": "₹800–1,200 per car"
+    },
+    {
+      "item": "Reserved car Kalimpong to Rishop",
+      "inr": "₹2,500–3,200 per car"
+    },
+    {
+      "item": "Guide for the Lava–Rishop forest trail",
+      "inr": "₹500–800"
+    },
+    {
+      "item": "Room heater, per night where available",
+      "inr": "₹200–400"
+    }
+  ],
+  "local_word": {
+    "word": "Dara",
+    "language": "Nepali",
+    "meaning": "A ridge or hilltop; used in viewpoint names such as Tiffin Dara, Ramitey Dara and Jhandi Dara"
+  },
+  "story": {
+    "title": "A ridge of old trees that became a village stay",
+    "paras": [
+      "Ask in Rishop where the name comes from and you will hear more than one answer. One common explanation splits it into two parts: ri, a mountain peak, and shop, which people in the village say means old trees. Put together, it describes what you see from the road: a high ridge covered in very old forest.",
+      "For most of its history Rishop was a farming settlement, home to Sherpa and Lepcha families who grew maize, potatoes and cardamom on the slopes below the forest. Visitors were rare. That changed in the late 1990s, when the village was developed as a tourist destination and families began putting up small cottages for guests.",
+      "What drew people was the view. From the ridge above the village, at a spot now called Tiffin Dara, the snow peaks of Sikkim line the horizon, with Kanchenjunga in the middle. Families built more rooms facing that view, and the homestay village grew from there.",
+      "Rishop still has no bazaar and no big hotels. Most of the money visitors spend goes to the families who run the homestays, cook the meals and guide people along the forest paths to Lava."
+    ],
+    "sources": [
+      {
+        "title": "Rishyap (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Rishyap"
+      },
+      {
+        "title": "Told locally in Rishop",
+        "url": ""
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Is it Rishop or Rishyap?",
+      "a": "Both spellings are used for the same village. Rishyap is the spelling on many official lists and on Wikipedia; Rishop is what most travellers, drivers and homestays say. You may also see Rishyop. Search under all three when booking or checking maps, since listings are spread across the different spellings."
+    },
+    {
+      "q": "How high is Rishop?",
+      "a": "Rishop sits at about 2,590 m, roughly 400 m higher than Lava. That makes it colder than Lava and much colder than Kalimpong town. Altitude sickness is not usually a problem at this height, but you may feel short of breath on the steep climb to Tiffin Dara or on the forest trail."
+    },
+    {
+      "q": "What is the best time to visit Rishop?",
+      "a": "October to February gives the clearest mountain views, with November and December often best. April and May are good for rhododendrons and mild weather, though haze can hide the peaks. Avoid June to September, when cloud, rain and landslides make the visit poor value."
+    },
+    {
+      "q": "Where exactly is Tiffin Dara?",
+      "a": "Tiffin Dara is a viewpoint on the ridge above Rishop, about a kilometre from most homestays. The path climbs steadily through forest and takes 20–40 minutes depending on where you start. Go with a torch before dawn, or ask your host to show you the way the evening before."
+    },
+    {
+      "q": "Can I see Kanchenjunga from Rishop?",
+      "a": "Yes, on clear days. The view from Tiffin Dara and many homestays covers a long stretch of the snow peaks, with Kanchenjunga at the centre. Clouds often build by mid-morning, so sunrise and the first hour after it are the best times. From June to September it is usually hidden."
+    },
+    {
+      "q": "Is Rishop good for families with children?",
+      "a": "Yes, for families happy with simple rooms and quiet days. There is space to walk and the sunrise climb is short. It gets cold at night, so pack warm clothes for children. There are no shops or medical facilities, so bring basic medicines and snacks from Kalimpong."
+    },
+    {
+      "q": "Can I do Rishop as a day trip from Kalimpong?",
+      "a": "You can reach it in about 1.5–2 hours, but a day trip misses the reason to go: the clear sunrise view. By the time you arrive from Kalimpong the mountains are often in cloud. Stay at least one night, ideally after a night in Lava, to give yourself a sunrise."
+    },
+    {
+      "q": "Is there electricity and mobile signal in Rishop?",
+      "a": "Yes, there is mains electricity, but power cuts are common in bad weather. Mobile signal works in parts of the village, mainly on Jio and Airtel, and drops inside some buildings. Carry a power bank and a torch, and download maps and bookings before you arrive."
+    },
+    {
+      "q": "How do I walk from Lava to Rishop?",
+      "a": "A forest trail of about 4 km climbs from near Lava to Rishop, gaining roughly 400 m. It takes 1.5–2 hours uphill. The path is steep, muddy after rain and splits in places, so take a local guide for about ₹500–800, indicative, and send your luggage up by car."
+    }
+  ],
+  "experiences": [
+    {
+      "slug": "rishop-tiffin-dara-sunrise-walk",
+      "title": "Sunrise walk to Tiffin Dara",
+      "kind": "nature",
+      "duration": "2 hours",
+      "summary": "Climb from Rishop to the Tiffin Dara viewpoint before dawn to watch the first light hit the Kanchenjunga range.",
+      "body": [
+        "Leave your homestay about 40 minutes before sunrise with a torch and warm layers. The path climbs gently through forest to an open ridge at Tiffin Dara. As the sky lightens, the snow peaks along the northern horizon turn pink, then gold, with Kanchenjunga in the centre.",
+        "On the clearest mornings, mainly from October to February, the view runs a long way east and west of Kanchenjunga. Below, the valleys are often filled with cloud. Stay for half an hour after sunrise, when the light softens and birds start calling in the forest behind you.",
+        "Ask your host to have tea ready when you return."
+      ],
+      "best_time": "October to February, at dawn.",
+      "good_for": [
+        "Photographers",
+        "Couples",
+        "Families"
+      ],
+      "cost": "₹0",
+      "wiki": "",
+      "image_query": "Rishyap Kanchenjunga sunrise",
+      "faqs": [
+        {
+          "q": "How long does the walk to Tiffin Dara take?",
+          "a": "From most homestays the walk takes 20–40 minutes uphill on a forest path, about a kilometre. Allow time to stop and catch your breath at 2,600 m. Start about 40 minutes before sunrise so you are at the top for the first light. The walk back down is quicker."
+        },
+        {
+          "q": "What should I carry for the sunrise walk?",
+          "a": "A torch or headlamp, warm layers including a hat and gloves, good shoes with grip and a flask of tea if your host can make one. Temperatures before dawn can be near freezing from November to February. A small camera tripod helps for low-light photos."
+        },
+        {
+          "q": "What if it is cloudy at sunrise?",
+          "a": "Clouds are common, especially from March to May. Ask your host the night before; locals can often tell from the evening sky. If it is cloudy, you can still walk up later in the morning on the chance of a gap, or stay another night and try again."
+        }
+      ]
+    },
+    {
+      "slug": "rishop-lava-forest-trail-hike",
+      "title": "Forest trail between Rishop and Lava",
+      "kind": "adventure",
+      "duration": "1.5–3 hours",
+      "summary": "Walk the old footpath of about 4 km through oak, rhododendron and fir between Rishop and Lava, with a local guide.",
+      "body": [
+        "Before the road came, villagers walked between Rishop and Lava on a forest path, and it is still used. It drops or climbs about 400 m in roughly 4 km, through moss-covered oak, rhododendron, fir and bamboo. Birds are common, and in April and May the rhododendrons flower red and pink.",
+        "Walking downhill from Rishop to Lava takes about 1.5 hours; uphill takes closer to 2. The path is steep in places and slippery after rain. A local guide keeps you on the right track where paths split.",
+        "Send luggage by car, carry water and avoid the walk in heavy rain or after dark."
+      ],
+      "best_time": "October to May, in the morning.",
+      "good_for": [
+        "Walkers",
+        "Birders",
+        "Couples"
+      ],
+      "cost": "₹500–800 for a local guide",
+      "wiki": "",
+      "image_query": "Lava Rishyap forest trail",
+      "faqs": [
+        {
+          "q": "Is the Rishop–Lava trail difficult?",
+          "a": "It is moderate. The distance is short, about 4 km, but the path is steep in places and can be muddy, with roots and loose stones. Walking down from Rishop is easier on the lungs but harder on the knees. Most reasonably fit walkers manage it with care."
+        },
+        {
+          "q": "Do I need a guide for the forest trail?",
+          "a": "It is strongly advised. Paths split in the forest, signs are few and cloud can close in quickly. A local guide costs about ₹500–800, indicative, and will also point out birds and plants. Your homestay can usually arrange one, often a family member or neighbour."
+        },
+        {
+          "q": "Can I walk the trail in the monsoon?",
+          "a": "It is not recommended. From June to September the path is very slippery, leeches are common and visibility can drop to a few metres in cloud. Landslips can also damage the trail. If you must, go with a guide, wear leech socks and turn back if the rain is heavy."
+        }
+      ]
+    },
+    {
+      "slug": "rishop-homestay-kitchen-evening",
+      "title": "Evening in a Rishop homestay kitchen",
+      "kind": "village",
+      "duration": "2 hours",
+      "summary": "Spend the evening by the stove with your host family, helping with momos or a simple dal-bhat dinner and hearing about village life.",
+      "body": [
+        "Evenings in Rishop are dark, cold and quiet, and the warmest place is usually the kitchen. Many host families welcome guests to sit by the stove while they cook. You might fold momos, watch greens being cooked with garlic and chilli, or learn how they make tea with milk and spices.",
+        "Conversation runs from farming and the weather to how the village changed when tourists began coming. It is the best way to understand Rishop beyond the view.",
+        "Ask first rather than walking in, and offer to help wash up afterwards."
+      ],
+      "best_time": "Any evening, especially in winter.",
+      "good_for": [
+        "Families",
+        "Slow travellers",
+        "Food lovers"
+      ],
+      "cost": "Included in most homestay rates",
+      "wiki": "",
+      "image_query": "Kalimpong village homestay kitchen",
+      "faqs": [
+        {
+          "q": "What food is served in Rishop homestays?",
+          "a": "Mostly home-style Nepali food: rice, dal, seasonal vegetables and greens, pickles, eggs and chicken, with roti or noodles for variety. Many hosts make momos or thukpa if asked a few hours ahead. Vegetarian meals are easy to arrange. Tell your host about allergies or diet needs when you book."
+        },
+        {
+          "q": "Is it polite to join the family in the kitchen?",
+          "a": "In most homestays, yes, if you ask first. The kitchen is often the warmest room and the heart of the house. Follow your host's lead, keep out of the way of the stove and avoid touching shrine items. Offering to help with simple tasks is welcome."
+        },
+        {
+          "q": "Can I request alcohol or special food?",
+          "a": "Some hosts can arrange local drinks or special dishes for a fee, but do not assume it, and respect a refusal. Alcohol is not part of every household. If you want something particular, such as non-spicy food for children, mention it when you book and again on arrival."
+        }
+      ]
+    },
+    {
+      "slug": "rishop-kanchenjunga-night-sky-photography",
+      "title": "Mountain and night-sky photography",
+      "kind": "nature",
+      "duration": "2–3 hours",
+      "summary": "Use Rishop's height and dark skies to photograph Kanchenjunga at dawn and dusk and the stars on clear winter nights.",
+      "body": [
+        "With few lights for many kilometres, Rishop has some of the darkest skies in the Kalimpong hills. On clear, moonless nights from October to February the Milky Way shows plainly, and the snow peaks catch faint starlight.",
+        "For mountain shots, the hour after sunrise and the last light of the evening give the best colour on the peaks. A telephoto lens lets you pick out Kanchenjunga and its neighbours, while a wide lens catches the ridges and cloud-filled valleys.",
+        "Bring a tripod, spare batteries, which drain fast in the cold, and warm gloves."
+      ],
+      "best_time": "Clear nights and mornings from October to February, around the new moon for stars.",
+      "good_for": [
+        "Photographers",
+        "Couples"
+      ],
+      "cost": "₹0",
+      "wiki": "",
+      "image_query": "Kanchenjunga from Rishyap",
+      "faqs": [
+        {
+          "q": "When is the best time for star photography in Rishop?",
+          "a": "Clear nights between October and February, close to the new moon, give the darkest skies. Late evening or the hours before dawn are best. Check the weather forecast and ask your host about cloud. Avoid the monsoon months, when the sky is rarely clear."
+        },
+        {
+          "q": "What camera gear should I bring?",
+          "a": "A tripod, a wide lens for stars and landscape, and a telephoto for picking out peaks. Bring spare batteries, since cold drains them quickly, and keep them warm in an inner pocket. A head torch with a red light helps you move around without spoiling your eyes for the dark."
+        },
+        {
+          "q": "Is it safe to be out at night in Rishop?",
+          "a": "Generally yes, but stay close to your homestay and on known paths. The ridge has steep drops, and wild animals live in the forest. Tell your host where you are going, carry a torch and go with a companion. Do not wander into the forest alone after dark."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "slug": "sandakphu-singalila-ridge-trek-6-nights",
+  "title": "Sandakphu trek on the Singalila ridge in six nights",
+  "summary": "A six-night trip from NJP to the top of West Bengal: one night in Darjeeling, four nights walking the Singalila ridge from Manebhanjan to Sandakphu and down to Srikhola, and a final night back in Darjeeling. Views of Everest, Kangchenjunga, Lhotse and Makalu on clear mornings.",
+  "meta_description": "Six-night Sandakphu trek from NJP: Manebhanjan, Tumling, Kalipokhri, Sandakphu at 3,636 m, Srikhola and Rimbik. Licensed guide, lodges, prices in three tiers.",
+  "nights": 6,
+  "start": "NJP or Bagdogra",
+  "end": "NJP or Bagdogra",
+  "pace": "Active",
+  "max_altitude_m": 3636,
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2
+  ],
+  "themes": [
+    "treks-and-walks",
+    "snow-and-passes",
+    "photography",
+    "homestays"
+  ],
+  "stops": [
+    {
+      "place": "darjeeling-town",
+      "nights": 1
+    },
+    {
+      "place": "sandakphu",
+      "nights": 4
+    },
+    {
+      "place": "darjeeling-town",
+      "nights": 1
+    }
+  ],
+  "intro": [
+    "The Sandakphu trek is the best short Himalayan trek in the region and one of the few places where you can see four of the world's five highest mountains from one spot. The route follows the Singalila ridge along the India–Nepal border, through Singalila National Park, sleeping in simple family lodges.",
+    "This plan walks up over three days to let your body adjust, spends a night at Sandakphu for sunset and sunrise, and descends through forest and villages to Srikhola, a different way from the climb. A licensed guide from Manebhanjan is required for trekkers and is included in every tier."
+  ],
+  "highlights": [
+    "Sunrise from Sandakphu at 3,636 m over Kangchenjunga, Everest, Lhotse and Makalu.",
+    "A ridge walk that weaves between India and Nepal, with lodges on both sides.",
+    "Rhododendron, oak and bamboo forest in Singalila National Park, home to the red panda.",
+    "The quiet descent through Gurdum to the river at Srikhola.",
+    "A night in Darjeeling at each end for rest, food and the toy train."
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "NJP or Bagdogra to Darjeeling",
+      "place": "darjeeling-town",
+      "overnight": "Darjeeling",
+      "drive": "65–70 km, 3–3.5 hours",
+      "meals": "Dinner",
+      "text": "Drive up from NJP or Bagdogra to Darjeeling. Meet your trek leader in the evening for a kit check: sleeping bag, warm layers, rain shell, boots, head torch and cash. Buy any missing gear in Darjeeling's shops. Eat a big dinner and sleep early; tomorrow begins at Manebhanjan. Kit hire shops close by about 7 pm, so arrive in good time."
+    },
+    {
+      "day": 2,
+      "title": "Manebhanjan to Tumling",
+      "place": "sandakphu",
+      "overnight": "Tumling",
+      "drive": "28 km, 1–1.5 hours to Manebhanjan; then 11 km on foot, 5–6 hours",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Drive to Manebhanjan at about 2,150 m, register at the Singalila National Park office, pay the entry fee and meet your licensed guide. Climb steeply to Chitrey monastery, then on through Lamaydhura and Meghma to Tumling at about 2,970 m, a small village of lodges just inside Nepal. On a clear evening Kangchenjunga glows to the north. Lodges here are simple but warm."
+    },
+    {
+      "day": 3,
+      "title": "Tumling to Kalipokhri",
+      "place": "sandakphu",
+      "overnight": "Kalipokhri",
+      "drive": "About 13 km on foot, 5–6 hours",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Walk through Jaubari and into the forests of Singalila National Park, then descend to Gairibas at about 2,620 m for lunch. Climb steadily through bamboo and rhododendron to Kalipokhri, a small dark lake at about 3,100 m with a few lodges. Walk quietly in the forest; this is red panda country, though sightings are rare. Dinner is early, around 7 pm."
+    },
+    {
+      "day": 4,
+      "title": "Kalipokhri to Sandakphu",
+      "place": "sandakphu",
+      "overnight": "Sandakphu",
+      "drive": "About 6 km on foot, 3 hours",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "A short but steep climb via Bikheybhanjang brings you to Sandakphu at 3,636 m, the highest point in West Bengal, before the clouds rise. Rest in the afternoon, then watch sunset on Kangchenjunga. The night is cold: below freezing for much of the season. Drink plenty of water and go to bed early. If clouds lift in the evening, the Kangchenjunga range glows pink at sunset."
+    },
+    {
+      "day": 5,
+      "title": "Sandakphu sunrise and down to Srikhola",
+      "place": "sandakphu",
+      "overnight": "Srikhola",
+      "drive": "About 16 km on foot, 6–7 hours, mostly downhill",
+      "meals": "Breakfast, lunch, dinner",
+      "text": "Be outside before dawn for the main event: Kangchenjunga to the north and Everest, Lhotse and Makalu to the west. After breakfast, descend steeply through Gurdum's forests and fields to Srikhola at about 1,900 m, where lodges sit beside a rushing river. The descent is hard on knees; use poles. Lunch is usually taken at a small village lodge in Gurdum."
+    },
+    {
+      "day": 6,
+      "title": "Srikhola to Rimbik and back to Darjeeling",
+      "place": "darjeeling-town",
+      "overnight": "Darjeeling",
+      "drive": "About 7 km on foot, 2–3 hours; then 4–5 hours by jeep",
+      "meals": "Breakfast, dinner",
+      "text": "Walk the last few kilometres to Rimbik, a roadhead village, and say goodbye to your guide. Drive back to Darjeeling, arriving in the afternoon. Enjoy a hot shower, a proper meal and an evening walk on the Mall. If you have energy, book a toy train joy ride for the next morning before you leave. Settle your guide's fees and tips before you part."
+    },
+    {
+      "day": 7,
+      "title": "Darjeeling to NJP or Bagdogra",
+      "place": "siliguri",
+      "overnight": "",
+      "drive": "65–70 km, 3–3.5 hours",
+      "meals": "Breakfast",
+      "text": "Drive down via Ghum and Kurseong to NJP or Bagdogra, arriving by early afternoon for onward trains and flights. With an early start, there is time for a short morning toy train joy ride or a stop at Batasia Loop on the way out of Darjeeling. Allow extra time in October and May, when traffic on Hill Cart Road is heavy."
+    }
+  ],
+  "stays": [
+    "singalila-ridge-trekkers-lodges",
+    "darjeeling-town-budget-guesthouses",
+    "windamere-hotel-darjeeling"
+  ],
+  "includes": [
+    "Two nights in Darjeeling and four nights in trekkers' lodges, twin or shared rooms",
+    "All meals on the trek, dinner and breakfast in Darjeeling",
+    "Licensed Singalila guide for days 2 to 6",
+    "Transfers NJP–Darjeeling–Manebhanjan and Rimbik–Darjeeling–NJP",
+    "Singalila National Park entry fee for Indian nationals"
+  ],
+  "excludes": [
+    "Flights and trains to NJP or Bagdogra",
+    "Porters (available at Manebhanjan for ₹1,000–1,500 a day, indicative)",
+    "Camera fees, foreigner park fee difference, snacks and drinks on the trek",
+    "Sleeping bag hire and personal gear",
+    "Tips for guide and porters"
+  ],
+  "good_to_know": [
+    "A licensed guide is compulsory for trekkers in Singalila National Park. Check current status before you travel.",
+    "The park traditionally closes to trekkers from mid-June to mid-September; heavy snow can block the trail in January and February.",
+    "Carry photo ID at all times: Aadhaar or passport for Indians, passport and visa for foreigners. The trail crosses into Nepal at Tumling and Jaubari.",
+    "There are no ATMs on the ridge; bring enough cash for snacks, hot water, charging and tips.",
+    "If anyone shows serious signs of altitude sickness, the guide will arrange a descent or a Land Rover down."
+  ],
+  "tiers": [
+    {
+      "name": "Budget",
+      "price_inr": 16500,
+      "stays": "Shared rooms in ridge lodges and a family guesthouse in Darjeeling",
+      "transport": "Shared jeeps to Manebhanjan and from Rimbik; group guide shared with other trekkers",
+      "note": "The honest minimum for a safe, guided trek"
+    },
+    {
+      "name": "Value",
+      "price_inr": 26000,
+      "stays": "Private rooms in the best lodges on each stage and a good mid-range hotel in Darjeeling",
+      "transport": "Private car NJP–Manebhanjan and Rimbik–NJP; private guide for your group",
+      "note": "Private rooms on the ridge make cold nights easier"
+    },
+    {
+      "name": "Comfort",
+      "price_inr": 42000,
+      "stays": "Best private lodge rooms, Windamere or a similar heritage hotel in Darjeeling",
+      "transport": "Private car throughout, private guide, one porter per two trekkers, Land Rover back-up on call",
+      "note": "Lighter packs, more comfort and a vehicle on standby"
+    }
+  ],
+  "price_from_inr": 16500,
+  "save_tips": [
+    "Join a group at Manebhanjan to share the guide's daily fee.",
+    "Bring your own sleeping bag instead of hiring one in Darjeeling.",
+    "Carry dry fruit, chocolate and water purification tablets; snacks and bottled water cost more the higher you go.",
+    "Travel in late November or early December, when lodges are quieter and prices may be lower than in October."
+  ],
+  "faqs": [
+    {
+      "q": "How fit do I need to be for the Sandakphu trek?",
+      "a": "You should be able to walk 5–7 hours a day on hilly paths with a light daypack. No technical skill is needed. Train for three or four weeks with uphill walks and stairs. The hardest parts are the first climb from Manebhanjan, the cold at Sandakphu and the long, steep descent to Srikhola. Porters can carry your main bag."
+    },
+    {
+      "q": "What is the total trekking distance?",
+      "a": "About 53 km over five days: roughly 11 km to Tumling, 13 km to Kalipokhri, 6 km to Sandakphu, 16 km down to Srikhola and 7 km to Rimbik. Daily walking varies from three to seven hours. Distances are approximate, as trails and jeep track mix and guides choose shortcuts depending on conditions."
+    },
+    {
+      "q": "Is a guide really required?",
+      "a": "Yes. Trekkers entering Singalila National Park must hire a licensed guide from the Manebhanjan guide association or through a registered operator. The guide is included in all three tiers. Guides also know the border paths, book lodges and help in emergencies. Rules can change, so check current status before you travel."
+    },
+    {
+      "q": "When is the best time for the Sandakphu trek?",
+      "a": "October to mid-December is best for clear views, with cold but stable weather. March to May brings rhododendrons in flower and milder nights, though views are hazier. January and February are very cold, with snow that can block the trail. The park traditionally closes to trekkers from mid-June to mid-September for the monsoon."
+    },
+    {
+      "q": "How cold does it get on the trek?",
+      "a": "At Sandakphu, nights are usually -5 to -10°C from November to February and around 0–5°C in October, March and April. Tumling and Kalipokhri are a few degrees warmer. Lodges are unheated. Bring a sleeping bag rated to about -10°C in winter, a down jacket, thermals, gloves and a warm hat."
+    },
+    {
+      "q": "Can foreigners do the Sandakphu trek?",
+      "a": "Yes. Foreign nationals can trek with a valid passport and Indian visa, pay a higher park entry fee and must have a licensed guide like everyone else. The trail crosses into Nepal at points, and border posts check documents. There is no separate permit for Sandakphu itself. Check current status before you travel."
+    },
+    {
+      "q": "What if the weather turns bad?",
+      "a": "Your guide decides whether to continue, wait or turn back. Spring brings afternoon storms and winter can bring heavy snow. We build in no rest day, so if you want a buffer, add one night at Sandakphu for about ₹2,000–3,500 per person. In an emergency, a Land Rover can come up the ridge track from Manebhanjan."
+    },
+    {
+      "q": "Why descend to Srikhola instead of going back the same way?",
+      "a": "The Srikhola descent shows a completely different side of the region: steep forest, farming villages and a river valley, and it avoids repeating the ridge. It is steep and hard on the knees, so poles help. If anyone is tired, we can instead return by Land Rover from Sandakphu to Manebhanjan for an extra cost."
+    },
+    {
+      "q": "Can I extend the trek to Phalut?",
+      "a": "Yes. Add two nights: walk 21 km from Sandakphu to Phalut at about 3,600 m, then descend via Gorkhey and Samanden or Rammam to Rimbik. Phalut is quieter and has an even closer view of Kangchenjunga. The extension adds about ₹5,000–8,000 per person in the Budget tier, depending on group size."
+    }
+  ]
+}
