@@ -256,8 +256,12 @@ class Catalogue:
             # the places most journeys stop at lead menus and supply the land's lead photos
             r["top_places"] = sorted(r["places"], key=lambda p: (-len(p["journey_objs"]), p["name"]))
             # road distance from Siliguri to the main town, painted on the milestone markers
-            km = self._road_km().get(r["top_places"][0]["slug"]) if r["top_places"] else None
-            r["milestone"] = {"name": r["top_places"][0]["name"].split(" and ")[0], "km": km} if km else None
+            # (the main town if a published route reaches it, else the nearest place that one does)
+            roads = self._road_km()
+            reach = [p for p in r["top_places"] if roads.get(p["slug"])]
+            stop = (reach[:1] if reach and reach[0] is r["top_places"][0] else sorted(reach, key=lambda p: roads[p["slug"]])[:1]) \
+                or r["top_places"][:1]
+            r["milestone"] = {"name": stop[0]["name"].split(" and ")[0], "km": roads.get(stop[0]["slug"])} if stop else None
             r["images"] = self._imgs(f"region:{r['slug']}") or [
                 i for p in r["top_places"][:6] for i in p["images"][:1]]
         for e in self.experiences.values():
@@ -372,7 +376,7 @@ class Catalogue:
                     o = stores.get(ln.get("type"), {}).get(ln.get("slug"))
                     if o:
                         objs.append({"type": ln["type"], "title": o.get("title") or o.get("name"), "url": o["url"],
-                                     "img": (o.get("images") or [None])[0]})
+                                     "img": (o.get("images") or [None])[0], "obj": o})
                 sec["link_objs"] = objs
         # no two cards lead with the same photo when the pool allows it
         used = set()

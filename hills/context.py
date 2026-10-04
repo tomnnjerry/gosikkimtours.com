@@ -38,6 +38,7 @@ def site(request):
         "tel": f"+{phone_digits}" if len(phone_digits) >= 10 else "",
         "wa_base": f"https://wa.me/{wa}" if len(wa) >= 10 else "",
         "wa_text": quote(f"Hello Go Sikkim Tours, I would like to plan a journey. (Page: {S['url']}{request.path})"),
+        "social": [(k, v) for k, v in S.get("social", {}).items() if v],
         "GA4": getattr(settings, "GA4_ID", ""),
         "V": _asset_version(),
     }

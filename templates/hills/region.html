@@ -23,7 +23,7 @@
   </div>
 </header>
 
-{% if r.images %}<section class="wrap"><div class="gallery">{% for img in r.images|slice:":5" %}{% photo img alt=r.name cls="rv" eager=forloop.first %}{% endfor %}</div></section>{% endif %}
+{% if r.images %}<section class="wrap"><div class="gallery">{% for img in r|fresh_imgs:5 %}{% photo img alt=r.name cls="rv" eager=forloop.first %}{% endfor %}</div></section>{% endif %}
 
 <section class="sec">
   <div class="wrap split">

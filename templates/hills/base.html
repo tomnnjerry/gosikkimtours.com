@@ -61,6 +61,7 @@
   <details class="acc"><summary>Packages</summary><div class="sheet__links"><a href="{% url 'journeys' %}">Every package</a>{% for t in nav_themes|slice:":7" %}<a href="{{ t.url }}">{{ t.name }}</a>{% endfor %}</div></details>
   <details class="acc"><summary>Experiences and stays</summary><div class="sheet__links">{% for k, n in nav_kinds %}<a href="{% url 'experience_kind' k %}">{{ n }}</a>{% endfor %}<a href="{% url 'stays' %}">Stays</a><a href="{% url 'festivals' %}">Festivals</a></div></details>
   <details class="acc"><summary>Plan</summary><div class="sheet__links"><a href="{% url 'journal' %}">Blog</a><a href="{% url 'guides' %}">Guides</a><a href="{% url 'fares' %}">Fare board</a><a href="{% url 'stories' %}">Local stories</a><a href="{% url 'seasons' %}">Seasons</a><a href="{% url 'tools' %}">Trip tools</a><a href="{% url 'how_we_work' %}">How we work</a><a href="{% url 'contact' %}">Contact</a><a href="{% url 'faq' %}">FAQ</a><a href="{% url 'policies' %}">Policies</a></div></details>
+  {% include "hills/partials/social.html" with social_cls="social--sheet" %}
   <div class="sheet__cta"><a class="btn btn--brass" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="sheet-plan">Plan my trip</a>{% if wa_base %}<a class="btn btn--ghost" href="{{ wa_base }}?text={{ wa_text }}" data-cta="sheet-whatsapp">WhatsApp</a>{% endif %}{% if tel %}<a class="btn btn--ghost" href="tel:{{ tel }}" data-cta="sheet-call">Call</a>{% endif %}</div>
 </div>
 
@@ -74,7 +75,7 @@
   </div>
 </div>
 
-<main id="main">
+<main id="main">{% fresh_page %}
 {% block crumbs %}{% if crumbs %}{% include "hills/partials/crumbs.html" %}{% endif %}{% endblock %}
 {% block content %}{% endblock %}
 </main>
@@ -96,19 +97,19 @@
       <p class="stones__label">Road distance from Siliguri</p>
       <ul>{% for r in nav_regions %}<li><a class="stone" href="{{ r.url }}" data-land="{{ r.slug }}">
         <span class="stone__cap">{% icon r.slug %}</span>
-        <span class="stone__town">{% if r.milestone %}{{ r.milestone.name }}{% else %}{{ r.name }}{% endif %}</span>
-        {% if r.milestone %}<span class="stone__km">{{ r.milestone.km }}<small>km</small></span>{% endif %}
-        <span class="stone__land">{{ r.name }}</span>
+        <span class="stone__town">{{ r.milestone.name|default:r.name }}</span>
+        {% if r.milestone.km %}<span class="stone__km">{{ r.milestone.km }}<small>km</small></span>{% else %}<span class="stone__km stone__km--go">Explore</span>{% endif %}
+        <span class="stone__land">{% if r.milestone.name and r.milestone.name|lower != r.name|lower %}{{ r.name }}{% else %}{{ r.short }}{% endif %}</span>
       </a></li>{% endfor %}</ul>
     </nav>
 
     <div class="foot__desk">
       <div class="foot__reach" aria-label="Talk to a planner">
         <p class="foot__h">Talk to a planner</p>
-        {% if wa_base %}<a class="reach reach--wa" href="{{ wa_base }}?text={{ wa_text }}" rel="noopener" data-cta="footer-whatsapp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/><path d="M9 9.5c.3 1.8 1.7 3.6 3.6 4.4l1.2-1.1 1.7.8"/></svg><span><small>WhatsApp, usually the fastest</small>{{ SITE.phone }}</span></a>{% endif %}
-        {% if tel %}<a class="reach" href="tel:{{ tel }}" data-cta="footer-call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span><small>Call us</small>{{ SITE.phone }}</span></a>{% endif %}
-        <a class="reach" href="mailto:{{ SITE.email }}" data-cta="footer-email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span><small>Email</small>{{ SITE.email }}</span></a>
-        <p class="foot__note">A planner replies within one working day. No payment to start.</p>
+        {% if wa_base %}<a class="reachbtn reachbtn--wa" href="{{ wa_base }}?text={{ wa_text }}" rel="noopener" data-cta="footer-whatsapp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/><path d="M9 9.5c.3 1.8 1.7 3.6 3.6 4.4l1.2-1.1 1.7.8"/></svg><span><small>WhatsApp, usually the fastest</small>{{ SITE.phone }}</span></a>{% endif %}
+        {% if tel %}<a class="reachbtn" href="tel:{{ tel }}" data-cta="footer-call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span><small>Call us</small>{{ SITE.phone }}</span></a>{% endif %}
+        <a class="reachbtn" href="mailto:{{ SITE.email }}" data-cta="footer-email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span><small>Email</small>{{ SITE.email }}</span></a>
+        <div class="foot__social"><p class="foot__note">A planner replies within one working day. No payment to start.</p>{% include "hills/partials/social.html" %}</div>
       </div>
 
       <form class="letter" method="post" action="{% url 'subscribe' %}">

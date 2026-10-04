@@ -2,6 +2,7 @@ import re
 
 from django import template
 
+from .. import photos
 from ..content import catalogue
 
 register = template.Library()
@@ -78,10 +79,53 @@ def get(d, key):
         return None
 
 
+def _pools(obj):
+    """The object's own photos first, then its place's and its region's, so a card can borrow without repeating."""
+    obj = obj or {}
+    yield obj.get("images") or []
+    for key in ("place_obj", "from_obj", "to_obj", "region_obj"):
+        rel = obj.get(key)
+        if isinstance(rel, dict):
+            yield rel.get("images") or []
+
+
 @register.filter
 def first_img(obj):
-    imgs = (obj or {}).get("images") or []
-    return imgs[0] if imgs else None
+    """Lead photo for obj: the first one not already shown on this page (see hills.photos)."""
+    used = photos.used()
+    own = (obj or {}).get("images") or []
+    if used is None:
+        return own[0] if own else None
+    first = None
+    for pool in _pools(obj):
+        for img in pool:
+            first = first or img
+            if img["file"] not in used:
+                used.add(img["file"])
+                return img
+    return first  # every candidate is already on the page: repeat one rather than show a blank
+
+
+@register.filter
+def fresh_imgs(obj, n=5):
+    """Up to n of obj's photos that this page has not shown yet, for galleries."""
+    used = photos.used()
+    out = []
+    for img in (obj or {}).get("images") or []:
+        if used is None or img["file"] not in used:
+            out.append(img)
+            if used is not None:
+                used.add(img["file"])
+        if len(out) >= int(n):
+            break
+    return out
+
+
+@register.simple_tag
+def fresh_page():
+    """Start the page body with a clean slate (the menu and meta tags above it do not count)."""
+    photos.reset()
+    return ""
 
 
 @register.filter

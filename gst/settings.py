@@ -28,6 +28,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "hills.photos.PagePhotosMiddleware",
 ]
 
 try:  # optional: serves /static/ efficiently in production
@@ -74,6 +75,14 @@ SITE = {
     "whatsapp": os.environ.get("GST_WHATSAPP", "919954634102"),  # digits with country code, e.g. 919800000000
     "address": "[YOUR OFFICE ADDRESS]",
     "byline": "Go Sikkim Tours Desk",
+    # Social profile URLs. An icon appears in the footer and menu for each one that is set.
+    "social": {
+        "instagram": os.environ.get("GST_INSTAGRAM", ""),
+        "facebook": os.environ.get("GST_FACEBOOK", ""),
+        "youtube": os.environ.get("GST_YOUTUBE", ""),
+        "x": os.environ.get("GST_X", ""),
+        "google": os.environ.get("GST_GOOGLE_MAPS", ""),  # Google Business Profile / Maps link
+    },
 }
 
 # Optional Google Analytics 4 measurement ID (e.g. G-XXXXXXX). Leave empty to load no analytics.

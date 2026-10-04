@@ -146,7 +146,12 @@
     var visible = $$(":scope > *", grid).filter(function (el) { return !el.hasAttribute("data-fill-card") && !el.hidden; }).length;
     if (!visible || cols < 2) return;
     var need = (cols - (visible % cols)) % cols;
-    for (var i = 0; i < need && i < fillers.length; i++) fillers[i].hidden = false;
+    if (!need) return;
+    /* one planner card stretched across the gap reads as intended; several identical cards read as padding */
+    var card = fillers[need > 1 ? 1 : 0] || fillers[0];
+    card.hidden = false;
+    card.style.gridColumn = "span " + need;
+    card.classList.toggle("card-fill--wide", need > 1);
   }
   var fillAll = function () { $$("[data-fill]").forEach(fillGrid); };
   fillAll();
