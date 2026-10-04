@@ -27,7 +27,7 @@
       {% if p.experiences %}<div class="block"><p class="eyebrow">Experiences</p><h2 class="h-l">Four hours to plan around</h2>
         <div class="grid grid--2" data-fill>{% for e in p.experiences %}{% include "hills/partials/card_exp.html" %}{% endfor %}{% include "hills/partials/fill.html" with fill_land=r.slug %}</div></div>{% endif %}
 
-      {% if p.images|length > 1 %}<div class="gallery">{% for img in p.images|slice:"1:6" %}{% photo img alt=p.name cls="rv" %}{% endfor %}</div>{% endif %}
+      {% with gal=p|fresh_imgs:5 %}{% if gal %}<div class="gallery">{% for img in gal %}{% photo img alt=p.name cls="rv" %}{% endfor %}</div>{% endif %}{% endwith %}
 
       <div class="block"><p class="eyebrow">Getting there</p><h2 class="h-l">How to reach {{ p.name }}</h2>
         <div class="reach">{% for h in p.how_to_reach %}<div class="reach__row"><b>{{ h.mode }}</b><p>{{ h.text }}</p></div>{% endfor %}</div></div>
