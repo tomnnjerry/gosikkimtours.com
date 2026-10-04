@@ -1,0 +1,230 @@
+{
+  "slug": "dooars-samsing-to-buxa-forest-loop-6-nights",
+  "title": "The whole Dooars from Samsing to Buxa in six nights",
+  "summary": "A six-night journey across the Dooars from west to east: tea hills at Samsing, safaris at Gorumara and Jaldapara, the dense forest of Chilapata and two nights walking to Buxa Fort. Ends at Alipurduar or back in Siliguri.",
+  "meta_description": "Six-night Dooars journey: Samsing, Gorumara, Jaldapara, Chilapata and the Buxa Fort walk, with safaris, village stays and three honest price tiers.",
+  "nights": 6,
+  "start": "Siliguri, NJP or Bagdogra",
+  "end": "Alipurduar Junction, or Siliguri/NJP/Bagdogra",
+  "pace": "Moderate",
+  "max_altitude_m": 900,
+  "best_months": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2
+  ],
+  "themes": [
+    "wildlife-and-birds",
+    "treks-and-walks",
+    "tea-country",
+    "homestays",
+    "photography"
+  ],
+  "stops": [
+    {
+      "place": "samsing",
+      "nights": 1
+    },
+    {
+      "place": "gorumara",
+      "nights": 1
+    },
+    {
+      "place": "jaldapara",
+      "nights": 1
+    },
+    {
+      "place": "chilapata",
+      "nights": 1
+    },
+    {
+      "place": "buxa",
+      "nights": 2
+    }
+  ],
+  "intro": [
+    "This journey follows the Dooars from the tea hills in the west to the Bhutan border in the east, about 350 km in all. Each day is a short drive, and each place gives you something different: tea and streams at Samsing, watchtowers at Gorumara, open grassland at Jaldapara, deep forest and ruins at Chilapata, and a walk up to the old Buxa Fort.",
+    "It suits travellers who like walking and simple stays as much as safaris. The last two nights are in or near Buxa Tiger Reserve, ideally in a village homestay above the fort. Finish at Alipurduar Junction for a train, or drive back to Siliguri in about 4.5–5 hours."
+  ],
+  "highlights": [
+    "See the Dooars change from tea hills to grassland to dense forest.",
+    "Safaris in three different forests: Gorumara, Jaldapara and Chilapata.",
+    "Walk to Buxa Fort, once Bhutanese, then a British prison, then a Tibetan refuge.",
+    "Sleep in a forest lodge at Mendabari and a village homestay at Buxa.",
+    "Short drives every day, never more than about 2.5 hours."
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Siliguri to Samsing",
+      "place": "samsing",
+      "overnight": "Samsing or Suntalekhola",
+      "drive": "85 km, 2.5–3 hours",
+      "meals": "Dinner",
+      "text": "Drive from Siliguri over the Coronation Bridge and through Malbazar and Chalsa up to Samsing at about 900 m. After lunch walk to the hanging bridge at Suntalekhola and on to the boulders of Rocky Island on the Murti. Sunset from the Lali Guras viewpoint, then dinner and a cool night."
+    },
+    {
+      "day": 2,
+      "title": "Tea walk, then Gorumara watchtower",
+      "place": "gorumara",
+      "overnight": "Lataguri or Murti",
+      "drive": "35 km, 1–1.25 hours",
+      "meals": "Breakfast, dinner",
+      "text": "Walk through Samsing's tea gardens at first light, then drive down to Lataguri. In the afternoon take a watchtower safari in Gorumara, to Jatraprasad for rhino and gaur or to Medla for the bullock-cart ride. If you stay at Murti, finish on the riverbed at dusk."
+    },
+    {
+      "day": 3,
+      "title": "Dawn safari and on to Jaldapara",
+      "place": "jaldapara",
+      "overnight": "Madarihat",
+      "drive": "75 km, 2 hours",
+      "meals": "Breakfast, dinner",
+      "text": "Take a dawn watchtower safari if you have a slot, then drive east through the tea estates of Nagrakata and Birpara to Madarihat. In the afternoon cross Jaldapara's Torsa grasslands by jeep, with the best chances in West Bengal of seeing one-horned rhinos. Overnight in Madarihat."
+    },
+    {
+      "day": 4,
+      "title": "Jaldapara at dawn, then Chilapata",
+      "place": "chilapata",
+      "overnight": "Mendabari or Kodalbasti",
+      "drive": "30 km, 1 hour",
+      "meals": "Breakfast, dinner",
+      "text": "Take the dawn jeep safari at Jaldapara. After breakfast drive via Hasimara to the Chilapata forest. Walk through the Rabha village of Kodalbasti with a local guide, then take an afternoon jeep safari through dense sal forest to the ruins of Nal Raja Garh. Spend the night in the forest at the Mendabari lodge or a village eco-cottage."
+    },
+    {
+      "day": 5,
+      "title": "Chilapata to Buxa and the fort walk",
+      "place": "buxa",
+      "overnight": "Buxa village homestay, or Rajabhatkhawa or Jayanti",
+      "drive": "55 km, 1.5–2 hours, plus a 4–5 km walk",
+      "meals": "Breakfast, dinner",
+      "text": "Drive via Kalchini to Rajabhatkhawa, pay the reserve entry fee and continue 15 km through the forest to Santalabari. Take a guide from the counter and walk about 4–5 km up through forest to Buxa Fort, with porters for your bags if you are staying above. Spend the evening in the village beside the fort, where homestays are allowed, or return to Rajabhatkhawa or Jayanti."
+    },
+    {
+      "day": 6,
+      "title": "Lepchakha and Jayanti",
+      "place": "buxa",
+      "overnight": "Jayanti or Rajabhatkhawa",
+      "drive": "Walk 10 km; drive 15–25 km",
+      "meals": "Breakfast, dinner",
+      "text": "Walk up to the Drukpa village of Lepchakha in the morning for wide views over the Dooars rivers, then walk back down to Santalabari. Drive to Jayanti and spend the late afternoon on the wide stony riverbed below the Bhutan hills. If you did not stay above the fort, do the Lepchakha walk as a day trip from Santalabari."
+    },
+    {
+      "day": 7,
+      "title": "Buxa to Alipurduar or Siliguri",
+      "place": "buxa",
+      "overnight": "",
+      "drive": "20–30 km to Alipurduar, or 175 km and 4.5–5 hours to Siliguri",
+      "meals": "Breakfast",
+      "text": "Take an optional dawn jungle drive from Rajabhatkhawa if it is running, then drive to Alipurduar Junction or New Alipurduar for a train, or back along the Dooars road to Siliguri, NJP or Bagdogra. If you are flying, choose an evening flight from Bagdogra."
+    }
+  ],
+  "stays": [
+    "suntalekhola-eco-tourism-centre-samsing",
+    "murti-banani-eco-tourism-centre-wbfdc",
+    "jaldapara-tourist-lodge-madarihat",
+    "mendabari-jungle-lodge-chilapata",
+    "buxa-santalabari-lepchakha-homestays"
+  ],
+  "includes": [
+    "Six nights' accommodation, twin sharing",
+    "Breakfast and dinner",
+    "Transport as per tier",
+    "One safari each at Gorumara, Jaldapara and Chilapata",
+    "Guide for the Buxa Fort and Lepchakha walks",
+    "Reserve entry fees at Rajabhatkhawa",
+    "Driver's allowance, tolls and parking"
+  ],
+  "excludes": [
+    "Lunches and drinks",
+    "Extra safaris",
+    "Porters at Buxa",
+    "Camera fees",
+    "Tips",
+    "Anything not listed under includes"
+  ],
+  "good_to_know": [
+    "All the parks and Buxa Tiger Reserve close for tourism from 16 June to 15 September. Check current status before you travel.",
+    "Homestay rules inside Buxa have changed several times; if village stays are not allowed, we use Rajabhatkhawa or Jayanti instead.",
+    "The Buxa Fort walk is moderate; you need to be able to walk uphill for about two hours.",
+    "Power and mobile signal are patchy at Mendabari and Buxa; carry a torch and power bank.",
+    "Carry enough cash from Malbazar, Birpara or Alipurduar; there are no ATMs in the forest villages."
+  ],
+  "tiers": [
+    {
+      "name": "Budget",
+      "price_inr": 17500,
+      "stays": "Homestays, forest corporation tents and simple lodges",
+      "transport": "Buses and shared jeeps between towns, local cars for forest legs; shared safari jeeps",
+      "note": "Slower but very cheap; best for travellers with flexible time."
+    },
+    {
+      "name": "Value",
+      "price_inr": 32000,
+      "stays": "WBFDC and WBTDC lodges, Mendabari Jungle Lodge and Buxa homestays",
+      "transport": "Private car with driver for seven days",
+      "note": "Our recommended way to do the whole Dooars."
+    },
+    {
+      "name": "Comfort",
+      "price_inr": 52000,
+      "stays": "Sinclairs Retreat Dooars at Chalsa, the best resorts in Madarihat and Alipurduar, forest lodges where nothing better exists",
+      "transport": "Private SUV with driver; private safari jeeps",
+      "note": "More comfort, though Chilapata and Buxa stay simple."
+    }
+  ],
+  "price_from_inr": 17500,
+  "save_tips": [
+    "Finish by train from Alipurduar Junction instead of paying for the car's return to Siliguri.",
+    "Share safari jeeps with other guests in each park.",
+    "Stay in homestays at Samsing and Buxa, where meals are included.",
+    "Skip the Chilapata night and do it as a half day from Madarihat.",
+    "Travel in February or March rather than over Christmas and New Year."
+  ],
+  "faqs": [
+    {
+      "q": "Is this trip too much driving?",
+      "a": "No. The longest drive is the first day, about 85 km and 2.5–3 hours from Siliguri to Samsing. The other days are 30–75 km, an hour or two each. If you end by driving back to Siliguri from Buxa, that last leg is longer, at 4.5–5 hours; ending at Alipurduar Junction by train avoids it."
+    },
+    {
+      "q": "How fit do I need to be?",
+      "a": "Fit enough to walk uphill for about two hours on the Buxa Fort path and a similar walk to Lepchakha. The rest is easy: short walks, safaris and village visits. If you prefer less walking, skip Lepchakha and do Jayanti and a jungle drive instead."
+    },
+    {
+      "q": "Can I stay overnight at Buxa Fort?",
+      "a": "If homestays in Buxa village are allowed to operate when you travel, yes, and it is a highlight. Rules inside the tiger reserve have changed after court and forest department orders, so we confirm close to your dates and use Jayanti or Rajabhatkhawa otherwise. Check current status before you travel."
+    },
+    {
+      "q": "Can I do this trip in reverse?",
+      "a": "Yes. Start from Alipurduar Junction or New Alipurduar by train, do Buxa first and finish at Samsing, which is about 2.5–3 hours from Siliguri and Bagdogra. The order makes little difference to the experience."
+    },
+    {
+      "q": "When is the best time for this journey?",
+      "a": "November to March is ideal, with dry tracks, clear days and good wildlife. April and May are hot on the plains but still workable, and Samsing is cool. The parks and Buxa are closed from 16 June to 15 September, so the trip cannot run then."
+    },
+    {
+      "q": "Is this trip suitable for children?",
+      "a": "For children who enjoy walking and nature, yes. The Buxa walk suits children of about eight and above. Mendabari and Buxa village are simple, with patchy power, so prepare them for that. Families with small children may prefer our four-night Gorumara and Jaldapara trip."
+    },
+    {
+      "q": "Can I add Bhutan to the end of this journey?",
+      "a": "Yes. From Chilapata or Buxa, the Bhutan border town of Phuentsholing is about 25–60 km away via Hasimara and Jaigaon. Indians need a passport or voter ID and pay Bhutan's Sustainable Development Fee; foreigners need a visa. Check current status before you travel."
+    },
+    {
+      "q": "What kind of food will I get?",
+      "a": "Mostly home-style Bengali and Nepali food: rice, dal, vegetables, fish or chicken curry, eggs and rotis. Samsing and Buxa homestays serve simple home cooking, and resorts offer wider menus. Tell us about dietary needs in advance so we can warn the lodges."
+    },
+    {
+      "q": "Are prices per person?",
+      "a": "Yes, per person for two sharing a room, indicative for the 2025–26 season. Peak dates cost more. Single travellers pay a supplement. Safari and entry fees are set by the forest department and can change, so we confirm totals when we book."
+    }
+  ]
+}
