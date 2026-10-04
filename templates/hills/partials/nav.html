@@ -20,12 +20,13 @@
             <span class="mcard__veil" aria-hidden="true"></span>
             <span class="lbadge lbadge--foil">{% icon r.slug %}</span>
             <a class="mcard__name" href="{{ r.url }}">{{ r.name }}</a>
-            <span class="mcard__palette">{{ r.palette }}</span>
+            <span class="mcard__palette">{{ r.short }}</span>{% if r.milestone %}<span class="mcard__km">{{ r.milestone.name }} · {{ r.milestone.km }} km from Siliguri</span>{% endif %}
             <ul class="mcard__places">{% for p in r.top_places|slice:":3" %}<li><a href="{{ p.url }}">{{ p.name }}</a></li>{% endfor %}</ul>
             <span class="mcard__go">Explore {% icon "arrow" %}</span>
           </div>{% endfor %}
         </div>
       </div>
+      <div class="wrap mega__foot"><span>Not sure where to start? A planner replies within one working day.</span>{% if wa_base %}<a href="{{ wa_base }}?text={{ wa_text }}" rel="noopener" data-cta="mega-whatsapp">WhatsApp {{ SITE.phone }}</a>{% endif %}{% if tel %}<a href="tel:{{ tel }}" data-cta="mega-call">Call</a>{% endif %}<a href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="mega-plan">Plan online →</a></div>
     </div>
   </div>
 
@@ -52,6 +53,7 @@
           {% for j in nav_popular|slice:":3" %}<a class="mfeat" href="{{ j.url }}" data-land="{{ j.region }}">{% with img=j|first_img %}{% if img %}<img src="{{ img|src:500 }}" alt="" loading="lazy">{% endif %}{% endwith %}<span><small>{% icon j.region %}{{ j.region_obj.name }}</small><b>{{ j.title }}</b></span></a>{% endfor %}
         </div>
       </div>
+      <div class="wrap mega__foot"><span>Not sure where to start? A planner replies within one working day.</span>{% if wa_base %}<a href="{{ wa_base }}?text={{ wa_text }}" rel="noopener" data-cta="mega-whatsapp">WhatsApp {{ SITE.phone }}</a>{% endif %}{% if tel %}<a href="tel:{{ tel }}" data-cta="mega-call">Call</a>{% endif %}<a href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="mega-plan">Plan online →</a></div>
     </div>
   </div>
 
@@ -70,6 +72,7 @@
           <ul class="mlist"><li><a href="{% url 'festivals' %}">{% icon "sparkle" %}Festival calendar</a></li><li><a href="{% url 'stories' %}">{% icon "story" %}Local stories</a></li><li><a href="{% url 'experiences' %}">{% icon "compass" %}Browse every experience</a></li></ul>
         </div>
       </div>
+      <div class="wrap mega__foot"><span>Not sure where to start? A planner replies within one working day.</span>{% if wa_base %}<a href="{{ wa_base }}?text={{ wa_text }}" rel="noopener" data-cta="mega-whatsapp">WhatsApp {{ SITE.phone }}</a>{% endif %}{% if tel %}<a href="tel:{{ tel }}" data-cta="mega-call">Call</a>{% endif %}<a href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="mega-plan">Plan online →</a></div>
     </div>
   </div>
 
@@ -82,6 +85,7 @@
         <div><p class="eyebrow">Booking with us</p><ul class="mlist"><li><a href="{% url 'how_we_work' %}">{% icon "sparkle" %}How we work</a></li><li><a href="{% url 'policy' 'refund-and-cancellation' %}">{% icon "shield" %}Refunds and cancellations</a></li><li><a href="{% url 'policy' 'payments' %}">{% icon "shield" %}Payments</a></li><li><a href="{% url 'contact' %}">{% icon "chat" %}Contact us</a></li></ul></div>
         <div class="mpromise"><p class="mega__title">No payment <span class="accent">to start</span></p><p class="mega__lede">Tell us your dates, group and budget. A planner replies within one working day with a first route and a written, itemised price.</p><a class="btn btn--brass" href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="mega-plan-plan">Plan my trip</a></div>
       </div>
+      <div class="wrap mega__foot"><span>Not sure where to start? A planner replies within one working day.</span>{% if wa_base %}<a href="{{ wa_base }}?text={{ wa_text }}" rel="noopener" data-cta="mega-whatsapp">WhatsApp {{ SITE.phone }}</a>{% endif %}{% if tel %}<a href="tel:{{ tel }}" data-cta="mega-call">Call</a>{% endif %}<a href="{% url 'plan' %}?from={{ request.path|urlencode }}" data-cta="mega-plan">Plan online →</a></div>
     </div>
   </div>
   <a class="nav__link" href="{% url 'fares' %}">Fares</a>

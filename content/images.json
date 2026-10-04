@@ -1589,7 +1589,34 @@
    "source": "https://commons.wikimedia.org/wiki/File:GURUDONGMAR,_NORTH_SIKKIM_pic_4.jpg"
   }
  ],
- "exp:gurudongmar-plateau-drive-from-thangu": [],
+ "exp:gurudongmar-plateau-drive-from-thangu": [
+  {
+   "file": "File:Black-lipped Pika or Plateau Pika from North Sikkim India 16.10.2019.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Black-lipped_Pika_or_Plateau_Pika_from_North_Sikkim_India_16.10.2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Black-lipped_Pika_or_Plateau_Pika_from_North_Sikkim_India_16.10.2019.jpg/1920px-Black-lipped_Pika_or_Plateau_Pika_from_North_Sikkim_India_16.10.2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 2121,
+   "height": 1414,
+   "landscape": true,
+   "description": "The species Black-lipped Pika or Plateau Pika had been photographed from the wildlife tour from North Sikkim, India on 16.10.2019.",
+   "author": "Dibyendu Ash",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Black-lipped_Pika_or_Plateau_Pika_from_North_Sikkim_India_16.10.2019.jpg"
+  },
+  {
+   "file": "File:Southern Tibetan Plateau ESA361951.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Southern_Tibetan_Plateau_ESA361951.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Southern_Tibetan_Plateau_ESA361951.jpg/1920px-Southern_Tibetan_Plateau_ESA361951.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 4236,
+   "height": 4199,
+   "landscape": true,
+   "description": "The southern-central edge of the Tibetan Plateau near the border with western Nepal and the Indian state of Sikkim is pictured in this Sentinel-2A image from 1 February 2016. The Tibetan Plateau was created by continenta",
+   "author": "European Space Agency",
+   "license": "CC BY-SA 3.0 igo",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:Southern_Tibetan_Plateau_ESA361951.jpg"
+  }
+ ],
  "exp:gurudongmar-altitude-safety-plan": [],
  "place:lachen": [
   {
@@ -1692,7 +1719,21 @@
    "source": "https://commons.wikimedia.org/wiki/File:Lachung_river,_lachung,_sikkim,_India.jpg"
   }
  ],
- "exp:lachung-monastery-morning-walk": [],
+ "exp:lachung-monastery-morning-walk": [
+  {
+   "file": "File:Lachung Monastery at Lachung Valley in North Sikkim, India 01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lachung_Monastery_at_Lachung_Valley_in_North_Sikkim%2C_India_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Lachung_Monastery_at_Lachung_Valley_in_North_Sikkim%2C_India_01.jpg/1920px-Lachung_Monastery_at_Lachung_Valley_in_North_Sikkim%2C_India_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 3700,
+   "height": 5656,
+   "landscape": false,
+   "description": "Lachung Monastery is a Nyingma Buddhist gompa in the Lachung Valley in Mangan district in Northeastern Indian state of Sikkim. It was established in 1880",
+   "author": "Amitabha Gupta",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Lachung_Monastery_at_Lachung_Valley_in_North_Sikkim,_India_01.jpg"
+  }
+ ],
  "exp:lachung-old-village-orchard-walk": [],
  "exp:lachung-bhim-nala-falls-stop": [],
  "exp:lachung-winter-snow-stay": [],
@@ -1949,7 +1990,21 @@
   }
  ],
  "fest:saga-dawa-lachen-monastery": [],
- "fest:namsoong-lepcha-new-year-dzongu": [],
+ "fest:namsoong-lepcha-new-year-dzongu": [
+  {
+   "file": "File:Tendong Hlo Rum Faat.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Tendong_Hlo_Rum_Faat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Tendong_Hlo_Rum_Faat.jpg/1920px-Tendong_Hlo_Rum_Faat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 4000,
+   "height": 3000,
+   "landscape": true,
+   "description": "Tendong Hlo Rum Faat is a Lepcha festival celebrated on the 8th of August in Sikkim. It is celebrated in honour of Mt Tendong located in Namchi, Sikkim who saved the Lepchas during the Great Deluge.",
+   "author": "PansanLepcha",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Tendong_Hlo_Rum_Faat.jpg"
+  }
+ ],
  "place:namchi": [
   {
    "file": "File:Panoramic view of large statue of Guru Padmasambhava (Guru Rinpoche)m Namchi.jpg",
@@ -3192,19 +3247,6 @@
    "source": "https://commons.wikimedia.org/wiki/File:Lava_Bazar,_at_Lava,_Kalimpong_district_16.jpg"
   },
   {
-   "file": "File:Lava Bazar, at Lava, Kalimpong district 10.jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_10.jpg/1920px-Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "width": 4080,
-   "height": 1836,
-   "landscape": true,
-   "description": "Lava Bazar, at Lava, Kalimpong district",
-   "author": "Pinakpani",
-   "license": "CC BY 4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Lava_Bazar,_at_Lava,_Kalimpong_district_10.jpg"
-  },
-  {
    "file": "File:Lava Bazar, at Lava, Kalimpong district 01.jpg",
    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_01.jpg/1920px-Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -3218,17 +3260,30 @@
    "source": "https://commons.wikimedia.org/wiki/File:Lava_Bazar,_at_Lava,_Kalimpong_district_01.jpg"
   },
   {
-   "file": "File:Lava Bazar, at Lava, Kalimpong district 08.jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_08.jpg/1920px-Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "width": 4080,
-   "height": 1836,
+   "file": "File:Lava Bazar, at Lava, Kalimpong district 03.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_03.jpg/1920px-Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 3264,
+   "height": 1468,
    "landscape": true,
    "description": "Lava Bazar, at Lava, Kalimpong district",
    "author": "Pinakpani",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Lava_Bazar,_at_Lava,_Kalimpong_district_08.jpg"
+   "source": "https://commons.wikimedia.org/wiki/File:Lava_Bazar,_at_Lava,_Kalimpong_district_03.jpg"
+  },
+  {
+   "file": "File:Lava Bazar, at Lava, Kalimpong district 13.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_13.jpg/1280px-Lava_Bazar%2C_at_Lava%2C_Kalimpong_district_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1836,
+   "height": 4080,
+   "landscape": false,
+   "description": "Lava Bazar, at Lava, Kalimpong district",
+   "author": "Pinakpani",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Lava_Bazar,_at_Lava,_Kalimpong_district_13.jpg"
   }
  ],
  "exp:lava-neora-valley-national-park-day-walk": [
@@ -3874,7 +3929,47 @@
   }
  ],
  "exp:buxa-lepchakha-ridge-walk": [],
- "exp:buxa-jayanti-river-and-mahakal-walk": [],
+ "exp:buxa-jayanti-river-and-mahakal-walk": [
+  {
+   "file": "File:Jayanti river at Buxa tiger reserve 03.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Jayanti_river_at_Buxa_tiger_reserve_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Jayanti_river_at_Buxa_tiger_reserve_03.jpg/1920px-Jayanti_river_at_Buxa_tiger_reserve_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 2992,
+   "height": 2992,
+   "landscape": true,
+   "description": "Jayanti river at Buxa tiger reserve",
+   "author": "Jprojit",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Jayanti_river_at_Buxa_tiger_reserve_03.jpg"
+  },
+  {
+   "file": "File:Jayanti river at Buxa tiger reserve 01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Jayanti_river_at_Buxa_tiger_reserve_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Jayanti_river_at_Buxa_tiger_reserve_01.jpg/1920px-Jayanti_river_at_Buxa_tiger_reserve_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 2992,
+   "height": 2992,
+   "landscape": true,
+   "description": "Jayanti river at Buxa tiger reserve",
+   "author": "Jprojit",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Jayanti_river_at_Buxa_tiger_reserve_01.jpg"
+  },
+  {
+   "file": "File:Jayanti river at Buxa tiger reserve 02.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Jayanti_river_at_Buxa_tiger_reserve_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Jayanti_river_at_Buxa_tiger_reserve_02.jpg/1920px-Jayanti_river_at_Buxa_tiger_reserve_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 2992,
+   "height": 2992,
+   "landscape": true,
+   "description": "Jayanti river at Buxa tiger reserve",
+   "author": "Jprojit",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Jayanti_river_at_Buxa_tiger_reserve_02.jpg"
+  }
+ ],
  "exp:buxa-rajabhatkhawa-jungle-drive": [],
  "place:chilapata": [
   {
@@ -5018,7 +5113,47 @@
    "source": "https://commons.wikimedia.org/wiki/File:Kyichu_Lhakhang_temple_in_he_Paro_Valley,_Bhutan_-_panoramio_(1).jpg"
   }
  ],
- "exp:paro-archery-and-farmhouse-dinner": [],
+ "exp:paro-archery-and-farmhouse-dinner": [
+  {
+   "file": "File:Archery Paro (2420969918).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Archery_Paro_%282420969918%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/26/Archery_Paro_%282420969918%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1280,
+   "height": 960,
+   "landscape": true,
+   "description": "Archery Paro",
+   "author": "amanderson2",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Archery_Paro_(2420969918).jpg"
+  },
+  {
+   "file": "File:'Archery Competition' on Paro Archery ground'.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%27Archery_Competition%27_on_Paro_Archery_ground%27.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%27Archery_Competition%27_on_Paro_Archery_ground%27.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1600,
+   "height": 1200,
+   "landscape": true,
+   "description": "Archery is the National sport of Bhutan.",
+   "author": "Rudolph.A.furtado",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:%27Archery_Competition%27_on_Paro_Archery_ground%27.JPG"
+  },
+  {
+   "file": "File:Paro Archery 7 (23711604812).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Paro_Archery_7_%2823711604812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Paro_Archery_7_%2823711604812%29.jpg/1920px-Paro_Archery_7_%2823711604812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 4000,
+   "height": 3000,
+   "landscape": true,
+   "description": "Paro Archery 7",
+   "author": "Chuck Moravec",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Paro_Archery_7_(23711604812).jpg"
+  }
+ ],
  "place:phobjikha": [
   {
    "file": "File:Phobjika Valley view, Bhutan.jpg",
@@ -6999,9 +7134,116 @@
    "source": "https://commons.wikimedia.org/wiki/File:Fungus_inside_a_hollow_tree_at_Mahananda_Wildlife_Sanctuary,_Darjeeling.jpg"
   }
  ],
- "exp:siliguri-salugara-monastery-stupa": [],
- "exp:siliguri-sevoke-coronation-bridge": [],
- "exp:siliguri-bengali-and-momo-food-evening": [],
+ "exp:siliguri-salugara-monastery-stupa": [
+  {
+   "file": "File:Ganden monastery.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ganden_monastery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ganden_monastery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1000,
+   "height": 750,
+   "landscape": true,
+   "description": "",
+   "author": "Unknown author",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Ganden_monastery.jpg"
+  },
+  {
+   "file": "File:Tashi Gomang stupa, Salugara 03.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Tashi_Gomang_stupa%2C_Salugara_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Tashi_Gomang_stupa%2C_Salugara_03.jpg/1920px-Tashi_Gomang_stupa%2C_Salugara_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 4912,
+   "height": 7360,
+   "landscape": false,
+   "description": "Great International Tashi Gomang Stupa monastery founded by Kalu Rinpoche at Salugara, WB, India",
+   "author": "Christopher J. Fynn",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Tashi_Gomang_stupa,_Salugara_03.jpg"
+  }
+ ],
+ "exp:siliguri-sevoke-coronation-bridge": [
+  {
+   "file": "File:Bridge at Teesta.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Bridge_at_Teesta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/21/Bridge_at_Teesta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1600,
+   "height": 1200,
+   "landscape": true,
+   "description": "Bridge over Teesta",
+   "author": "PP Yoonus",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Bridge_at_Teesta.jpg"
+  },
+  {
+   "file": "File:Coronation Bridge at Sevoke 16.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Coronation_Bridge_at_Sevoke_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Coronation_Bridge_at_Sevoke_16.jpg/1920px-Coronation_Bridge_at_Sevoke_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 4128,
+   "height": 2322,
+   "landscape": true,
+   "description": "Coronation Bridge, concrete arch bridge on Teesta river, Sevoke",
+   "author": "Pinakpani",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Coronation_Bridge_at_Sevoke_16.jpg"
+  },
+  {
+   "file": "File:Coronation Bridge at Sevoke 09.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Coronation_Bridge_at_Sevoke_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Coronation_Bridge_at_Sevoke_09.jpg/1920px-Coronation_Bridge_at_Sevoke_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 4128,
+   "height": 2322,
+   "landscape": true,
+   "description": "Coronation Bridge, concrete arch bridge on Teesta river, Sevoke",
+   "author": "Pinakpani",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Coronation_Bridge_at_Sevoke_09.jpg"
+  }
+ ],
+ "exp:siliguri-bengali-and-momo-food-evening": [
+  {
+   "file": "File:Bengali Manosha Puja Food.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bengali_Manosha_Puja_Food.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Bengali_Manosha_Puja_Food.jpg/1920px-Bengali_Manosha_Puja_Food.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 3264,
+   "height": 2448,
+   "landscape": true,
+   "description": "In West Bengal , Manosha Puja helds in August and bengali people gives this food to ma Manosha with respect.",
+   "author": "Itsbee",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Bengali_Manosha_Puja_Food.jpg"
+  },
+  {
+   "file": "File:Bengali Non-vegetarian thali.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Bengali_Non-vegetarian_thali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Bengali_Non-vegetarian_thali.jpg/1920px-Bengali_Non-vegetarian_thali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 3679,
+   "height": 3000,
+   "landscape": true,
+   "description": "Bengali Non-vegetarian thali is a Bengali-style meal made up of a selection of various vegetarian and non-vegetarian dishes which are served on a platter. The platter consists of Rice, dal(pulses), brinjal fry, pepe bata",
+   "author": "Marajozkee",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Bengali_Non-vegetarian_thali.jpg"
+  },
+  {
+   "file": "File:Fish And Rice.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Fish_And_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Fish_And_Rice.jpg/1920px-Fish_And_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 4097,
+   "height": 2404,
+   "landscape": true,
+   "description": "Bengali Signature Dish",
+   "author": "শক্তিশেল",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Fish_And_Rice.jpg"
+  }
+ ],
  "exp:tiger-hill-kangchenjunga-sunrise": [
   {
    "file": "File:Kangchenjunga from Tiger Hill.jpg",

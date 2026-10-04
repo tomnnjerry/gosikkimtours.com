@@ -130,6 +130,31 @@ def best_range(best):
     return " · ".join(labels)
 
 
+def _interleave(lists):
+    """First photo of each list, then the second of each, and so on (no repeats)."""
+    lists = [list(x) for x in lists]
+    out, seen = [], set()
+    for i in range(max((len(x) for x in lists), default=0)):
+        for x in lists:
+            if i < len(x) and x[i]["file"] not in seen:
+                seen.add(x[i]["file"])
+                out.append(x[i])
+    return out
+
+
+def _spread(objs, used):
+    """Rotate each object's photos so its lead photo is one no earlier card already leads with."""
+    for o in objs:
+        imgs = o.get("images") or []
+        for k, img in enumerate(imgs):
+            if img["file"] not in used:
+                if k:
+                    o["images"] = imgs[k:] + imgs[:k]
+                break
+        if o.get("images"):
+            used.add(o["images"][0]["file"])
+
+
 class Catalogue:
     def __init__(self, root):
         self.root = root
@@ -230,13 +255,16 @@ class Catalogue:
         for r in self.regions.values():
             # the places most journeys stop at lead menus and supply the land's lead photos
             r["top_places"] = sorted(r["places"], key=lambda p: (-len(p["journey_objs"]), p["name"]))
+            # road distance from Siliguri to the main town, painted on the milestone markers
+            km = self._road_km().get(r["top_places"][0]["slug"]) if r["top_places"] else None
+            r["milestone"] = {"name": r["top_places"][0]["name"].split(" and ")[0], "km": km} if km else None
             r["images"] = self._imgs(f"region:{r['slug']}") or [
                 i for p in r["top_places"][:6] for i in p["images"][:1]]
         for e in self.experiences.values():
             place = self.places[e["place"]]
             e["place_obj"] = place
             e["region_obj"] = place["region_obj"]
-            e["images"] = self._imgs(f"exp:{e['slug']}") or place["images"][1:] or place["images"]
+            e["images"] = self._imgs(f"exp:{e['slug']}") or place["images"]
             e["themes"] = place.get("themes", [])
         for s in self.stays.values():
             place = self.places.get(s.get("place"))
@@ -248,8 +276,7 @@ class Catalogue:
             j["region_obj"] = self.regions[j["region"]]
             stops = [dict(st, obj=self.places[st["place"]]) for st in j.get("stops", []) if st["place"] in self.places]
             j["stop_objs"] = stops
-            j["images"] = self._imgs(f"journey:{j['slug']}") or [
-                i for st in stops for i in st["obj"]["images"][:1]]
+            j["images"] = self._imgs(f"journey:{j['slug']}") or _interleave(st["obj"]["images"] for st in stops)
             j["stay_objs"] = [self.stays[s] for s in j.get("stays", []) if s in self.stays]
             j["best_label"] = best_range(j.get("best_months"))
             j["bar"] = month_bar(j.get("best_months"))
@@ -260,7 +287,7 @@ class Catalogue:
             g["region_obj"] = self.regions[g["region"]]
             rel = [self.places[s] for s in g.get("related_places", []) if s in self.places]
             g["related_objs"] = rel
-            g["images"] = self._imgs(f"guide:{g['slug']}") or [i for p in rel for i in p["images"][:1]] or g["region_obj"]["images"]
+            g["images"] = self._imgs(f"guide:{g['slug']}") or _interleave(p["images"] for p in rel) or g["region_obj"]["images"]
             words = sum(len(" ".join(s.get("paras", []) + s.get("list", [])).split()) for s in g.get("sections", []))
             g["read_min"] = max(3, round(words / 220))
             for s in g.get("sections", []):
@@ -286,7 +313,7 @@ class Catalogue:
                 st["slug"] = p["slug"]
                 st["region"] = p["region"]
                 st["url"] = reverse("story", args=[p["slug"]])
-                st["images"] = (p["images"][1:2] + p["images"][:1]) if len(p["images"]) > 1 else p["images"]
+                st["images"] = p["images"][1:] + p["images"][:1]
                 self.stories[p["slug"]] = st
         # every fare we quote, flattened for the fare board
         self.fares = []
@@ -299,13 +326,35 @@ class Catalogue:
             j["profile"] = altitude_profile([(s["obj"]["name"], s["obj"].get("altitude_m") or 0, s["obj"]["url"]) for s in j["stop_objs"]])
         self.ladder = sorted([p for p in self.places.values() if p.get("altitude_m") is not None], key=lambda p: p["altitude_m"])
 
+    def _road_km(self, start="siliguri"):
+        """Shortest road distance in km from `start` to every place, over the routes we publish."""
+        if getattr(self, "_km", None) is None:
+            import heapq
+            graph = {}
+            for rt in self.routes.values():
+                d = rt.get("distance_km") or 0
+                graph.setdefault(rt["from"], []).append((rt["to"], d))
+                graph.setdefault(rt["to"], []).append((rt["from"], d))
+            dist, queue = {start: 0}, [(0, start)]
+            while queue:
+                d, u = heapq.heappop(queue)
+                if d > dist[u]:
+                    continue
+                for v, w in graph.get(u, []):
+                    if d + w < dist.get(v, float("inf")):
+                        dist[v] = d + w
+                        heapq.heappush(queue, (d + w, v))
+            self._km = dist
+        return self._km
+
     def _link_posts(self):
         from datetime import date
         for d in self.posts.values():
             d["region_objs"] = [self.regions[r] for r in d.get("regions", []) if r in self.regions]
             d["journey_objs"] = [self.journeys[j] for j in d.get("related_journeys", []) if j in self.journeys]
             d["place_objs"] = [self.places[x] for x in d.get("related_places", []) if x in self.places]
-            d["images"] = (self._imgs(f"blog:{d['slug']}") or [i for x in d["place_objs"] for i in x["images"][:1]])
+            d["images"] = (self._imgs(f"blog:{d['slug']}") or _interleave(x["images"] for x in d["place_objs"])
+                           or _interleave(r["images"] for r in d["region_objs"]))
             words = sum(len(" ".join(s.get("paras", []) + s.get("list", [])).split()) for s in d.get("sections", []))
             d["read_min"] = max(3, round(words / 220))
             d["cat_slug"] = re.sub(r"[^a-z0-9]+", "-", d.get("category", "").lower()).strip("-")
@@ -325,6 +374,11 @@ class Catalogue:
                         objs.append({"type": ln["type"], "title": o.get("title") or o.get("name"), "url": o["url"],
                                      "img": (o.get("images") or [None])[0]})
                 sec["link_objs"] = objs
+        # no two cards lead with the same photo when the pool allows it
+        used = set()
+        for store in (self.places, self.regions, self.stories, self.experiences, self.stays, self.festivals,
+                      self.journeys, self.guides, self.posts):
+            _spread(store.values(), used)
         self.post_categories = OrderedDict()
         for d in self.posts.values():
             self.post_categories.setdefault(d["cat_slug"], {"slug": d["cat_slug"], "name": d.get("category"), "posts": []})["posts"].append(d)
