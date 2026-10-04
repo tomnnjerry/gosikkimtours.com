@@ -17,14 +17,27 @@
       "Hot stone baths after the Taktsang walk",
       "Quiet villages close to Taktsang and Kyichu Lhakhang"
     ],
-    "best_for": ["Budget travellers", "Families", "Slow travellers"],
+    "best_for": [
+      "Budget travellers",
+      "Families",
+      "Slow travellers"
+    ],
     "website": "",
     "wiki": "",
     "image_query": "Paro farmhouse Bhutan",
     "faqs": [
-      {"q": "Are Paro farmhouse homestays allowed for tourists?", "a": "Yes, if they are registered and certified by Bhutan's Department of Tourism. Tourists may stay only in certified accommodation, and your booking is checked during the permit process. We book only registered farmhouses. Do not arrange a stay with an uncertified family, as it can cause permit problems. Check current status before you travel."},
-      {"q": "What facilities do Paro farmhouses have?", "a": "Simple but clean rooms with quilts, usually an attached or private bathroom with hot water, and meals with the family. Wi-Fi may be weak and room heating limited, so winter nights are cold. Bring slippers, a torch and warm layers. Hosts can arrange a hot stone bath for an extra charge."},
-      {"q": "Is a farmhouse cheaper than a hotel in Paro?", "a": "Usually. A farmhouse with dinner and breakfast costs about ₹2,500–4,500 per person, while a three-star hotel room costs ₹6,000–9,000 before meals. The SDF of ₹1,200 per person per night applies either way. For families, a farmhouse often works out cheaper per head."}
+      {
+        "q": "Are Paro farmhouse homestays allowed for tourists?",
+        "a": "Yes, if they are registered and certified by Bhutan's Department of Tourism. Tourists may stay only in certified accommodation, and your booking is checked during the permit process. We book only registered farmhouses. Do not arrange a stay with an uncertified family, as it can cause permit problems. Check current status before you travel."
+      },
+      {
+        "q": "What facilities do Paro farmhouses have?",
+        "a": "Simple but clean rooms with quilts, usually an attached or private bathroom with hot water, and meals with the family. Wi-Fi may be weak and room heating limited, so winter nights are cold. Bring slippers, a torch and warm layers. Hosts can arrange a hot stone bath for an extra charge."
+      },
+      {
+        "q": "Is a farmhouse cheaper than a hotel in Paro?",
+        "a": "Usually. A farmhouse with dinner and breakfast costs about ₹2,500–4,500 per person, while a three-star hotel room costs ₹6,000–9,000 before meals. The SDF of ₹1,200 per person per night applies either way. For families, a farmhouse often works out cheaper per head."
+      }
     ]
   },
   {
@@ -45,14 +58,27 @@
       "Reliable restaurant with Indian and Bhutanese food",
       "Certified for tourists, so permits go through smoothly"
     ],
-    "best_for": ["Families", "First-timers", "Overland travellers"],
+    "best_for": [
+      "Families",
+      "First-timers",
+      "Overland travellers"
+    ],
     "website": "",
     "wiki": "",
     "image_query": "Hotel Druk Phuentsholing",
     "faqs": [
-      {"q": "How far is Hotel Druk from the Phuentsholing immigration office?", "a": "A few minutes' walk. The hotel is in the town centre near the Bhutan Gate, so guests can reach the immigration office as soon as it opens. This saves time on the morning you collect permits and leave for Thimphu or Paro. Taxis and buses are also close by."},
-      {"q": "Does Hotel Druk Phuentsholing have air conditioning?", "a": "Yes. Rooms are air-conditioned, which is important from March to October, when Phuentsholing is hot and humid with temperatures often above 30°C. In winter the climate is mild and fans are usually enough. Check current room types when booking."},
-      {"q": "Is it worth staying in Phuentsholing rather than Jaigaon?", "a": "If you value quiet, clean streets and an easy morning at immigration, yes. A night in Phuentsholing does add the SDF of ₹1,200 per person. Budget travellers often sleep in Jaigaon instead. Hotel Druk suits those who want a calm first night in Bhutan."}
+      {
+        "q": "How far is Hotel Druk from the Phuentsholing immigration office?",
+        "a": "A few minutes' walk. The hotel is in the town centre near the Bhutan Gate, so guests can reach the immigration office as soon as it opens. This saves time on the morning you collect permits and leave for Thimphu or Paro. Taxis and buses are also close by."
+      },
+      {
+        "q": "Does Hotel Druk Phuentsholing have air conditioning?",
+        "a": "Yes. Rooms are air-conditioned, which is important from March to October, when Phuentsholing is hot and humid with temperatures often above 30°C. In winter the climate is mild and fans are usually enough. Check current room types when booking. Ask for a room away from the street if you are a light sleeper."
+      },
+      {
+        "q": "Is it worth staying in Phuentsholing rather than Jaigaon?",
+        "a": "If you value quiet, clean streets and an easy morning at immigration, yes. A night in Phuentsholing does add the SDF of ₹1,200 per person. Budget travellers often sleep in Jaigaon instead. Hotel Druk suits those who want a calm first night in Bhutan."
+      }
     ]
   },
   {
@@ -73,14 +99,27 @@
       "Heated rooms for winter nights",
       "Experienced with Indian families and groups"
     ],
-    "best_for": ["Families", "First-timers", "Couples"],
+    "best_for": [
+      "Families",
+      "First-timers",
+      "Couples"
+    ],
     "website": "",
     "wiki": "",
     "image_query": "Clock Tower Square Thimphu",
     "faqs": [
-      {"q": "Where is Hotel Druk in Thimphu?", "a": "On Clock Tower Square in the city centre, a short walk from Norzin Lam, the main street. The Memorial Chorten is about 15 minutes away on foot, and the weekend market about 10 minutes. Tashichho Dzong and the Buddha Dordenma need a short taxi ride."},
-      {"q": "Are rooms at Hotel Druk Thimphu heated?", "a": "Rooms have heating for the cold months from November to March, when Thimphu nights fall below freezing. Confirm the heating type when booking if you are travelling in mid-winter. Summers are mild, and air conditioning is not usually needed in Thimphu."},
-      {"q": "Is Hotel Druk good for families?", "a": "Yes. Its central position, restaurant with Indian food, and staff used to families make it an easy base. Interconnecting or extra-bed options may be available on request. Ask for a room away from the square if you are a light sleeper, as the centre can be lively in the evening."}
+      {
+        "q": "Where is Hotel Druk in Thimphu?",
+        "a": "On Clock Tower Square in the city centre, a short walk from Norzin Lam, the main street. The Memorial Chorten is about 15 minutes away on foot, and the weekend market about 10 minutes. Tashichho Dzong and the Buddha Dordenma need a short taxi ride."
+      },
+      {
+        "q": "Are rooms at Hotel Druk Thimphu heated?",
+        "a": "Rooms have heating for the cold months from November to March, when Thimphu nights fall below freezing. Confirm the heating type when booking if you are travelling in mid-winter. Summers are mild, and air conditioning is not usually needed in Thimphu."
+      },
+      {
+        "q": "Is Hotel Druk good for families?",
+        "a": "Yes. Its central position, restaurant with Indian food, and staff used to families make it an easy base. Interconnecting or extra-bed options may be available on request. Ask for a room away from the square if you are a light sleeper, as the centre can be lively in the evening."
+      }
     ]
   },
   {
@@ -101,14 +140,27 @@
       "Mid-range price for spacious grounds",
       "Close to Rinpung Dzong and the National Museum"
     ],
-    "best_for": ["Couples", "Families", "Older travellers"],
+    "best_for": [
+      "Couples",
+      "Families",
+      "Older travellers"
+    ],
     "website": "",
     "wiki": "",
     "image_query": "Hotel Olathang Paro",
     "faqs": [
-      {"q": "How far is Hotel Olathang from Paro town?", "a": "About 3 km uphill, 10 minutes by car. Rinpung Dzong and the National Museum are close by, while the Taktsang trailhead is about 15 km away, roughly 30 minutes' drive. Walking into town is possible downhill, but most guests use their car or a taxi."},
-      {"q": "Is Hotel Olathang historic?", "a": "Yes. It is one of the oldest hotels in Bhutan, built in the 1970s to house foreign guests attending the coronation of the fourth king in 1974. It has kept its traditional design, with a main building and cottages set in pine forest above the valley."},
-      {"q": "Are Hotel Olathang's rooms modern?", "a": "Rooms are comfortable and heated but traditional rather than modern, with wooden furnishings. Some guests find the style charming; others prefer newer hotels. Ask for a cottage or valley-view room when booking, and check current room types and rates."}
+      {
+        "q": "How far is Hotel Olathang from Paro town?",
+        "a": "About 3 km uphill, 10 minutes by car. Rinpung Dzong and the National Museum are close by, while the Taktsang trailhead is about 15 km away, roughly 30 minutes' drive. Walking into town is possible downhill, but most guests use their car or a taxi."
+      },
+      {
+        "q": "Is Hotel Olathang historic?",
+        "a": "Yes. It is one of the oldest hotels in Bhutan, built in the 1970s to house foreign guests attending the coronation of the fourth king in 1974. It has kept its traditional design, with a main building and cottages set in pine forest above the valley."
+      },
+      {
+        "q": "Are Hotel Olathang's rooms modern?",
+        "a": "Rooms are comfortable and heated but traditional rather than modern, with wooden furnishings. Some guests find the style charming; others prefer newer hotels. Ask for a cottage or valley-view room when booking, and check current room types and rates. The grounds and views are the main reason to stay."
+      }
     ]
   },
   {
@@ -129,14 +181,27 @@
       "Close to Gangtey Goenpa and the nature trail",
       "Comfort without the cost of the luxury lodges"
     ],
-    "best_for": ["Couples", "Birdwatchers", "Families"],
+    "best_for": [
+      "Couples",
+      "Birdwatchers",
+      "Families"
+    ],
     "website": "",
     "wiki": "",
     "image_query": "Dewachen hotel Gangtey",
     "faqs": [
-      {"q": "Can I see cranes from Dewachen Hotel?", "a": "The hotel overlooks the valley, and in crane season you can often see and hear the birds in the marsh below, especially at dawn and dusk. For closer views use binoculars or visit the crane information centre a short drive away. The cranes are present from late October to February."},
-      {"q": "Is Dewachen warm in winter?", "a": "Rooms have wood-burning stoves or heaters, and staff light them in the evening. Phobjikha nights fall to about -5°C in mid-winter, so the stoves make a real difference. Bring warm layers for walking around the valley in the early morning."},
-      {"q": "How far ahead should I book Dewachen?", "a": "For late October to mid-November and the 11 November Crane Festival, book two to three months ahead. In other seasons a few weeks is usually enough. Your tour operator must include the booking with your route permit application. Check current rates before you travel."}
+      {
+        "q": "Can I see cranes from Dewachen Hotel?",
+        "a": "The hotel overlooks the valley, and in crane season you can often see and hear the birds in the marsh below, especially at dawn and dusk. For closer views use binoculars or visit the crane information centre a short drive away. The cranes are present from late October to February."
+      },
+      {
+        "q": "Is Dewachen warm in winter?",
+        "a": "Rooms have wood-burning stoves or heaters, and staff light them in the evening. Phobjikha nights fall to about -5°C in mid-winter, so the stoves make a real difference. Bring warm layers for walking around the valley in the early morning."
+      },
+      {
+        "q": "How far ahead should I book Dewachen?",
+        "a": "For late October to mid-November and the 11 November Crane Festival, book two to three months ahead. In other seasons a few weeks is usually enough. Your tour operator must include the booking with your route permit application. Check current rates before you travel."
+      }
     ]
   },
   {
@@ -157,14 +222,27 @@
       "Spa and good restaurants after long drives",
       "Dependable service for honeymoons and older travellers"
     ],
-    "best_for": ["Honeymooners", "Older travellers", "Families"],
+    "best_for": [
+      "Honeymooners",
+      "Older travellers",
+      "Families"
+    ],
     "website": "",
     "wiki": "",
     "image_query": "Le Meridien Thimphu",
     "faqs": [
-      {"q": "Where is Le Méridien in Thimphu?", "a": "In the city centre near the Wang Chhu, a short walk from Norzin Lam, the Clock Tower Square and the Centenary Farmers Market. The Memorial Chorten is a few minutes away by car. Tashichho Dzong and the Buddha Dordenma are 10–20 minutes' drive."},
-      {"q": "Is Le Méridien Thimphu worth the price?", "a": "For travellers who want international comfort, yes. Rooms are large and warm, and the spa and restaurants make long driving days easier. Budget travellers will find certified three-star hotels in central Thimphu at a third of the price. The SDF applies at every hotel."},
-      {"q": "Does Le Méridien Thimphu serve Indian food?", "a": "Yes. The restaurants serve Indian dishes along with Bhutanese, Asian and continental food, and vegetarian meals are easy to arrange. Breakfast includes Indian options. Ask the hotel for Jain or other special diets when booking."}
+      {
+        "q": "Where is Le Méridien in Thimphu?",
+        "a": "In the city centre near the Wang Chhu, a short walk from Norzin Lam, the Clock Tower Square and the Centenary Farmers Market. The Memorial Chorten is a few minutes away by car. Tashichho Dzong and the Buddha Dordenma are 10–20 minutes' drive."
+      },
+      {
+        "q": "Is Le Méridien Thimphu worth the price?",
+        "a": "For travellers who want international comfort, yes. Rooms are large and warm, and the spa and restaurants make long driving days easier. Budget travellers will find certified three-star hotels in central Thimphu at a third of the price. The SDF applies at every hotel."
+      },
+      {
+        "q": "Does Le Méridien Thimphu serve Indian food?",
+        "a": "Yes. The restaurants serve Indian dishes along with Bhutanese, Asian and continental food, and vegetarian meals are easy to arrange. Breakfast includes Indian options. Ask the hotel for Jain or other special diets when booking. Room service is available if you arrive late after a long drive from Phuentsholing or Punakha."
+      }
     ]
   }
 ]

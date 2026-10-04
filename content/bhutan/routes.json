@@ -6,17 +6,48 @@
     "distance_km": 160,
     "summary": "Siliguri to Phuentsholing is about 160 km and takes 4–5 hours through the Dooars via Sevoke, Birpara and Hasimara. A shared bus is the cheapest way at ₹150–250; a reserved car costs ₹3,500–5,000 and drops you at the Jaigaon border gate.",
     "options": [
-      {"mode": "Shared bus", "time": "4.5–5.5 hours", "fare": "₹150–250 a seat", "text": "Government and private buses leave from the Tenzing Norgay bus terminus area in Siliguri for Jaigaon through the morning. Bhutan Post also runs a coach to Phuentsholing. Buy tickets at the counter and leave by 8 am to reach immigration in good time."},
-      {"mode": "Reserved car", "time": "4 hours", "fare": "₹3,500–5,000 per car", "text": "Book a car from Siliguri, NJP or Bagdogra; the driver drops you at the Bhutan Gate in Jaigaon. Indian taxis rarely go further into Bhutan, so arrange your Bhutanese car and guide to meet you at the gate."},
-      {"mode": "Train and shared auto", "time": "4–5 hours", "fare": "₹100–600 by train plus ₹50–100 auto", "text": "Trains from NJP to Hasimara run on the Alipurduar line. From Hasimara station shared autos and taxis cover the last 17 km to Jaigaon in about 30 minutes."}
+      {
+        "mode": "Shared bus",
+        "time": "4.5–5.5 hours",
+        "fare": "₹150–250 a seat",
+        "text": "Government and private buses leave from the Tenzing Norgay bus terminus area in Siliguri for Jaigaon through the morning. Bhutan Post also runs a coach to Phuentsholing. Buy tickets at the counter and leave by 8 am to reach immigration in good time."
+      },
+      {
+        "mode": "Reserved car",
+        "time": "4 hours",
+        "fare": "₹3,500–5,000 per car",
+        "text": "Book a car from Siliguri, NJP or Bagdogra; the driver drops you at the Bhutan Gate in Jaigaon. Indian taxis rarely go further into Bhutan, so arrange your Bhutanese car and guide to meet you at the gate."
+      },
+      {
+        "mode": "Train and shared auto",
+        "time": "4–5 hours",
+        "fare": "₹100–600 by train plus ₹50–100 auto",
+        "text": "Trains from NJP to Hasimara run on the Alipurduar line. From Hasimara station shared autos and taxis cover the last 17 km to Jaigaon in about 30 minutes."
+      }
     ],
-    "stops_on_way": ["Coronation Bridge over the Teesta at Sevoke", "Tea gardens of the western Dooars around Malbazar and Birpara", "Hasimara, gateway to Jaldapara National Park"],
+    "stops_on_way": [
+      "Coronation Bridge over the Teesta at Sevoke",
+      "Tea gardens of the western Dooars around Malbazar and Birpara",
+      "Hasimara, gateway to Jaldapara National Park"
+    ],
     "tip": "Leave Siliguri early on a weekday so you reach the Phuentsholing immigration office well before it closes; it is shut on Sundays and Bhutanese public holidays.",
     "faqs": [
-      {"q": "How long does it take from Siliguri to Phuentsholing?", "a": "About 4 hours by reserved car and 4.5–5.5 hours by bus, covering roughly 160 km. The road runs east through Sevoke, the Dooars tea country and Birpara to Hasimara and Jaigaon. Traffic in Siliguri and Jaigaon can add time. Leave by 7 or 8 am to arrive before midday."},
-      {"q": "Is there a direct bus from Siliguri to Phuentsholing?", "a": "Yes. Bhutan Post runs a coach between Siliguri and Phuentsholing, and many government and private buses run to Jaigaon at the border, from where you walk across. Fares are about ₹150–250. Timings change, so confirm at the Siliguri bus terminus the day before. Check current status before you travel."},
-      {"q": "Can I combine Jaldapara with the Siliguri to Phuentsholing drive?", "a": "Yes. Jaldapara's Madarihat entrance is about 35 km from Jaigaon on the same road. Spend a night there for a morning jeep or elephant safari, then continue to the border. It is a good way to break the trip and adds Dooars wildlife to a Bhutan journey."},
-      {"q": "What documents should I carry from Siliguri to Bhutan?", "a": "Your original passport or voter ID, two or more passport photos, photocopies, hotel bookings for Bhutan and, if applied online, your permit printout. Children without a passport or voter ID need a birth certificate. Keep everything handy for the immigration office at Phuentsholing. Check current status before you travel."}
+      {
+        "q": "How long does it take from Siliguri to Phuentsholing?",
+        "a": "About 4 hours by reserved car and 4.5–5.5 hours by bus, covering roughly 160 km. The road runs east through Sevoke, the Dooars tea country and Birpara to Hasimara and Jaigaon. Traffic in Siliguri and Jaigaon can add time. Leave by 7 or 8 am to arrive before midday."
+      },
+      {
+        "q": "Is there a direct bus from Siliguri to Phuentsholing?",
+        "a": "Yes. Bhutan Post runs a coach between Siliguri and Phuentsholing, and many government and private buses run to Jaigaon at the border, from where you walk across. Fares are about ₹150–250. Timings change, so confirm at the Siliguri bus terminus the day before. Check current status before you travel."
+      },
+      {
+        "q": "Can I combine Jaldapara with the Siliguri to Phuentsholing drive?",
+        "a": "Yes. Jaldapara's Madarihat entrance is about 35 km from Jaigaon on the same road. Spend a night there for a morning jeep or elephant safari, then continue to the border. It is a good way to break the trip and adds Dooars wildlife to a Bhutan journey."
+      },
+      {
+        "q": "What documents should I carry from Siliguri to Bhutan?",
+        "a": "Your original passport or voter ID, two or more passport photos, photocopies, hotel bookings for Bhutan and, if applied online, your permit printout. Children without a passport or voter ID need a birth certificate. Keep everything handy for the immigration office at Phuentsholing. Check current status before you travel."
+      }
     ]
   },
   {
@@ -26,17 +57,49 @@
     "distance_km": 160,
     "summary": "Phuentsholing to Thimphu is about 160 km and 5–6 hours on a winding mountain road climbing from about 300 m to 2,320 m. The public bus costs about Nu 300; a private car with driver costs ₹6,000–8,000.",
     "options": [
-      {"mode": "Shared bus", "time": "5.5–6.5 hours", "fare": "About Nu 300 (₹300) a seat", "text": "Public buses leave the Phuentsholing bus station several times a day. Tickets can be bought a day ahead at the counter or through the national online ticketing system. You need your entry permit to board."},
-      {"mode": "Shared taxi", "time": "5 hours", "fare": "₹800–1,200 a seat", "text": "Shared taxis leave from near the bus station when full. They are quicker than buses but less regular, and seats in front cost more."},
-      {"mode": "Private car", "time": "5 hours", "fare": "₹6,000–8,000 per car", "text": "A Bhutan-registered car with driver, usually booked with your guide and tour. You can stop at Kharbandi Goemba, the waterfalls and Chuzom on the way."}
+      {
+        "mode": "Shared bus",
+        "time": "5.5–6.5 hours",
+        "fare": "About Nu 300 (₹300) a seat",
+        "text": "Public buses leave the Phuentsholing bus station several times a day. Tickets can be bought a day ahead at the counter or through the national online ticketing system. You need your entry permit to board."
+      },
+      {
+        "mode": "Shared taxi",
+        "time": "5 hours",
+        "fare": "₹800–1,200 a seat",
+        "text": "Shared taxis leave from near the bus station when full. They are quicker than buses but less regular, and seats in front cost more."
+      },
+      {
+        "mode": "Private car",
+        "time": "5 hours",
+        "fare": "₹6,000–8,000 per car",
+        "text": "A Bhutan-registered car with driver, usually booked with your guide and tour. You can stop at Kharbandi Goemba, the waterfalls and Chuzom on the way."
+      }
     ],
-    "stops_on_way": ["Kharbandi Goemba above Phuentsholing", "Gedu and the Chukha hydropower area", "Chuzom, the confluence of the Paro Chhu and Wang Chhu", "Tachogang Lhakhang iron bridge near Chuzom"],
+    "stops_on_way": [
+      "Kharbandi Goemba above Phuentsholing",
+      "Gedu and the Chukha hydropower area",
+      "Chuzom, the confluence of the Paro Chhu and Wang Chhu",
+      "Tachogang Lhakhang iron bridge near Chuzom"
+    ],
     "tip": "Travel in the morning, especially from June to September, when afternoon rain and fog slow the road and landslides are more likely.",
     "faqs": [
-      {"q": "How far is Thimphu from Phuentsholing?", "a": "About 160 km by road, taking 5–6 hours. The highway climbs from the plains through forest, past Gedu and Chukha, to Chuzom and then up the Wang Chhu valley to Thimphu. Road widening has improved the journey, but fog and monsoon landslides can still cause delays."},
-      {"q": "Do I need a guide to travel from Phuentsholing to Thimphu?", "a": "Thimphu and Paro are within the area where tourists may move without a guide, and many Indian travellers take the public bus between Phuentsholing and Thimphu on their own with a valid permit. A guide becomes mandatory beyond Thimphu and Paro. Rules have changed since 2022. Check current status before you travel."},
-      {"q": "Is the Phuentsholing to Thimphu road safe?", "a": "Yes, it is a well-maintained national highway driven daily by buses and trucks. It is winding, with steep drops in places, and fog is common around Gedu. In the monsoon, landslides can block it for hours. Travel in daylight and take motion-sickness tablets if needed."},
-      {"q": "Can I go straight from Phuentsholing to Paro?", "a": "Yes. The road to Paro branches off at Chuzom, and Paro is about 145 km and 5 hours from Phuentsholing. Buses also run to Paro. Many travellers go to Thimphu first and visit Paro last, closer to the Taktsang walk and an exit by air or road."}
+      {
+        "q": "How far is Thimphu from Phuentsholing?",
+        "a": "About 160 km by road, taking 5–6 hours. The highway climbs from the plains through forest, past Gedu and Chukha, to Chuzom and then up the Wang Chhu valley to Thimphu. Road widening has improved the journey, but fog and monsoon landslides can still cause delays."
+      },
+      {
+        "q": "Do I need a guide to travel from Phuentsholing to Thimphu?",
+        "a": "Thimphu and Paro are within the area where tourists may move without a guide, and many Indian travellers take the public bus between Phuentsholing and Thimphu on their own with a valid permit. A guide becomes mandatory beyond Thimphu and Paro. Rules have changed since 2022. Check current status before you travel."
+      },
+      {
+        "q": "Is the Phuentsholing to Thimphu road safe?",
+        "a": "Yes, it is a well-maintained national highway driven daily by buses and trucks. It is winding, with steep drops in places, and fog is common around Gedu. In the monsoon, landslides can block it for hours. Travel in daylight and take motion-sickness tablets if needed."
+      },
+      {
+        "q": "Can I go straight from Phuentsholing to Paro?",
+        "a": "Yes. The road to Paro branches off at Chuzom, and Paro is about 145 km and 5 hours from Phuentsholing. Buses also run to Paro. Many travellers go to Thimphu first and visit Paro last, closer to the Taktsang walk and an exit by air or road."
+      }
     ]
   },
   {
@@ -46,16 +109,43 @@
     "distance_km": 72,
     "summary": "Thimphu to Punakha is 72 km and 2.5–3 hours over the 3,100 m Dochula pass. Tourists need a route permit and a licensed guide, so most go by private car, about ₹3,500–4,500.",
     "options": [
-      {"mode": "Private car", "time": "2.5–3 hours", "fare": "₹3,500–4,500 per car", "text": "The usual way. Your guide and driver collect you in Thimphu, stop at Dochula and Chimi Lhakhang on the way, and continue to Punakha."},
-      {"mode": "Shared bus", "time": "3–3.5 hours", "fare": "About Nu 120–150 a seat", "text": "Public buses run from Thimphu to Khuruthang near Punakha. Locals use them; tourists still need a guide in Punakha district, so it suits few visitors."}
+      {
+        "mode": "Private car",
+        "time": "2.5–3 hours",
+        "fare": "₹3,500–4,500 per car",
+        "text": "The usual way. Your guide and driver collect you in Thimphu, stop at Dochula and Chimi Lhakhang on the way, and continue to Punakha."
+      },
+      {
+        "mode": "Shared bus",
+        "time": "3–3.5 hours",
+        "fare": "About Nu 120–150 a seat",
+        "text": "Public buses run from Thimphu to Khuruthang near Punakha. Locals use them; tourists still need a guide in Punakha district, so it suits few visitors."
+      }
     ],
-    "stops_on_way": ["Simtokha Dzong at the edge of Thimphu", "Dochula pass and the 108 chortens", "Lampelri botanical park below Dochula", "Chimi Lhakhang at Sopsokha"],
+    "stops_on_way": [
+      "Simtokha Dzong at the edge of Thimphu",
+      "Dochula pass and the 108 chortens",
+      "Lampelri botanical park below Dochula",
+      "Chimi Lhakhang at Sopsokha"
+    ],
     "tip": "Leave Thimphu by 7.30 am to reach Dochula while the mountain view is still clear.",
     "faqs": [
-      {"q": "How long is the drive from Thimphu to Punakha?", "a": "About 2.5–3 hours for 72 km, plus stops. The road climbs to Dochula at about 3,100 m and drops about 1,800 m to Punakha. With stops at Dochula and Chimi Lhakhang, allow 4–5 hours. Road works occasionally hold traffic for short periods."},
-      {"q": "Do I need a permit for Punakha?", "a": "Yes. Punakha is outside Thimphu and Paro, so you need a route permit issued in Thimphu or online, and a licensed guide. Your tour operator usually arranges both. Carry your entry permit and ID, as there are checkpoints on the road. Check current status before you travel."},
-      {"q": "Can I see snow on the way to Punakha?", "a": "Dochula sometimes gets snow between December and February, which can dust the chortens and, rarely, slow traffic. Punakha itself does not get snow; it is warm at about 1,250 m. Ask your guide about road conditions on winter mornings."},
-      {"q": "Should I stay in Punakha or return to Thimphu the same day?", "a": "Stay at least one night. A same-day return means 5–6 hours in the car and little time at the dzong. A night in Punakha lets you see the dzong in the afternoon light, visit Chimi Lhakhang and the suspension bridge, and continue to Phobjikha or back to Paro next day."}
+      {
+        "q": "How long is the drive from Thimphu to Punakha?",
+        "a": "About 2.5–3 hours for 72 km, plus stops. The road climbs to Dochula at about 3,100 m and drops about 1,800 m to Punakha. With stops at Dochula and Chimi Lhakhang, allow 4–5 hours. Road works occasionally hold traffic for short periods."
+      },
+      {
+        "q": "Do I need a permit for Punakha?",
+        "a": "Yes. Punakha is outside Thimphu and Paro, so you need a route permit issued in Thimphu or online, and a licensed guide. Your tour operator usually arranges both. Carry your entry permit and ID, as there are checkpoints on the road. Check current status before you travel."
+      },
+      {
+        "q": "Can I see snow on the way to Punakha?",
+        "a": "Dochula sometimes gets snow between December and February, which can dust the chortens and, rarely, slow traffic. Punakha itself does not get snow; it is warm at about 1,250 m. Ask your guide about road conditions on winter mornings. Carry a warm layer for the stop at the pass."
+      },
+      {
+        "q": "Should I stay in Punakha or return to Thimphu the same day?",
+        "a": "Stay at least one night. A same-day return means 5–6 hours in the car and little time at the dzong. A night in Punakha lets you see the dzong in the afternoon light, visit Chimi Lhakhang and the suspension bridge, and continue to Phobjikha or back to Paro next day."
+      }
     ]
   },
   {
@@ -65,17 +155,48 @@
     "distance_km": 55,
     "summary": "Thimphu to Paro is 55 km and about 1.5 hours along the Wang Chhu and Paro Chhu valleys via Chuzom. Public buses cost about Nu 70–100; a private car costs ₹2,500–3,500.",
     "options": [
-      {"mode": "Shared bus", "time": "1.5–2 hours", "fare": "About Nu 70–100 a seat", "text": "Public buses leave Thimphu's main bus station for Paro several times a day. No guide is needed between Thimphu and Paro."},
-      {"mode": "Shared taxi", "time": "1.5 hours", "fare": "₹200–300 a seat", "text": "Shared taxis run from the Thimphu taxi stand when full. Quicker and more frequent than the bus."},
-      {"mode": "Private car", "time": "1.5 hours", "fare": "₹2,500–3,500 per car", "text": "A Bhutan-registered car with driver, with time to stop at Tachogang Lhakhang and Chuzom on the way."}
+      {
+        "mode": "Shared bus",
+        "time": "1.5–2 hours",
+        "fare": "About Nu 70–100 a seat",
+        "text": "Public buses leave Thimphu's main bus station for Paro several times a day. No guide is needed between Thimphu and Paro."
+      },
+      {
+        "mode": "Shared taxi",
+        "time": "1.5 hours",
+        "fare": "₹200–300 a seat",
+        "text": "Shared taxis run from the Thimphu taxi stand when full. Quicker and more frequent than the bus."
+      },
+      {
+        "mode": "Private car",
+        "time": "1.5 hours",
+        "fare": "₹2,500–3,500 per car",
+        "text": "A Bhutan-registered car with driver, with time to stop at Tachogang Lhakhang and Chuzom on the way."
+      }
     ],
-    "stops_on_way": ["Chuzom, the river confluence with its three chortens", "Tachogang Lhakhang and its iron chain bridge", "Paro airport viewpoint above the runway"],
+    "stops_on_way": [
+      "Chuzom, the river confluence with its three chortens",
+      "Tachogang Lhakhang and its iron chain bridge",
+      "Paro airport viewpoint above the runway"
+    ],
     "tip": "Stop at the viewpoint above Paro airport if a flight is due; the landing between the ridges is worth watching.",
     "faqs": [
-      {"q": "How far is Paro from Thimphu?", "a": "About 55 km, roughly 1.5 hours by car. The road follows the Wang Chhu south to Chuzom, then turns west up the Paro Chhu valley past the airport. It is a good, wide road by Bhutanese standards. Buses and shared taxis run through the day."},
-      {"q": "Do I need a guide between Thimphu and Paro?", "a": "No. Both districts are within the area where tourists may move without a guide, so you can take a bus or taxi on your own with a valid entry permit. Many visitors still use their guide's car for convenience. Rules can change, so check current status before you travel."},
-      {"q": "What is there to see between Thimphu and Paro?", "a": "At Chuzom, the Paro Chhu and Wang Chhu meet, marked by three chortens in Bhutanese, Nepali and Tibetan styles. Nearby, Tachogang Lhakhang has an iron chain bridge linked to the 15th-century bridge-builder Thangtong Gyalpo. Above Paro, a viewpoint overlooks the airport."},
-      {"q": "Is Thimphu to Paro airport the same drive?", "a": "Almost. Paro airport lies about 6 km before Paro town, so the drive from Thimphu to the airport is about 50 km and 1 hour. For morning flights, leave Thimphu 2.5–3 hours before departure to allow for check-in and security."}
+      {
+        "q": "How far is Paro from Thimphu?",
+        "a": "About 55 km, roughly 1.5 hours by car. The road follows the Wang Chhu south to Chuzom, then turns west up the Paro Chhu valley past the airport. It is a good, wide road by Bhutanese standards. Buses and shared taxis run through the day."
+      },
+      {
+        "q": "Do I need a guide between Thimphu and Paro?",
+        "a": "No. Both districts are within the area where tourists may move without a guide, so you can take a bus or taxi on your own with a valid entry permit. Many visitors still use their guide's car for convenience. Rules can change, so check current status before you travel."
+      },
+      {
+        "q": "What is there to see between Thimphu and Paro?",
+        "a": "At Chuzom, the Paro Chhu and Wang Chhu meet, marked by three chortens in Bhutanese, Nepali and Tibetan styles. Nearby, Tachogang Lhakhang has an iron chain bridge linked to the 15th-century bridge-builder Thangtong Gyalpo. Above Paro, a viewpoint overlooks the airport."
+      },
+      {
+        "q": "Is Thimphu to Paro airport the same drive?",
+        "a": "Almost. Paro airport lies about 6 km before Paro town, so the drive from Thimphu to the airport is about 50 km and 1 hour. For morning flights, leave Thimphu 2.5–3 hours before departure to allow for check-in and security."
+      }
     ]
   }
 ]

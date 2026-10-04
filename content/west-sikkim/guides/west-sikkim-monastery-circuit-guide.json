@@ -22,10 +22,10 @@
       "table": {
         "head": ["Site", "Founded", "Tradition", "From Pelling", "Time needed"],
         "rows": [
-          ["Pemayangtse Monastery", "1705", "Nyingma", "2 km", "1.5 hours"],
+          ["Pemayangtse Monastery", "17th century; enlarged 1705", "Nyingma", "2 km", "1.5 hours"],
           ["Rabdentse ruins", "1670 (royal capital)", "Royal site", "3 km plus 1 km walk", "1 hour"],
           ["Sangachoeling Monastery", "Around 1697", "Nyingma", "3 km by road or a 1-hour climb", "1.5–2 hours"],
-          ["Khecheopalri Lake and monastery", "Sacred lake; small monastery", "Nyingma", "27 km", "1.5 hours"],
+          ["Khecheopalri Lake and monastery", "Sacred lake; small monastery", "Nyingma", "About 30 km", "1.5 hours"],
           ["Norbugang and Kathok Lake, Yuksom", "1642 (coronation)", "Royal and sacred site", "35 km", "1.5 hours"],
           ["Dubdi Monastery, Yuksom", "1701", "Nyingma", "35 km plus 1-hour climb", "2–2.5 hours"],
           ["Tashiding Monastery", "17th century", "Nyingma", "About 40 km", "2 hours"],
@@ -66,7 +66,7 @@
       "heading": "Festivals worth timing a trip for",
       "paras": [
         "The best time to see these monasteries alive is during their festivals. Bumchu at Tashiding, on the 14th and 15th days of the first Tibetan month in February or March, is the most important. Lamas open a sacred vase of water and read its level as a forecast for the year, and pilgrims come from across the Himalaya.",
-        "Pemayangtse holds masked cham dances around Losar, the Tibetan New Year, usually in February or March. Ralang's Kagyed dance is held in December, at the end of the Tibetan year. Pang Lhabsol, which honours Kangchenjunga, is marked at Ravangla and Ralang in late August or September. Dates follow the Tibetan lunar calendar and change every year, so check current status before you travel and book rooms early.",
+        "Pemayangtse holds masked cham dances around Losar, the Tibetan New Year, usually in February or March. Ralang's Kagyed dance is held in November or December, near the end of the Tibetan year. Pang Lhabsol, which honours Kangchenjunga, is marked at Ravangla and Ralang in late August or September. Dates follow the Tibetan lunar calendar and change every year, so check current status before you travel and book rooms early.",
         "Festival days are crowded, noisy and joyful. Arrive early for a spot, dress warmly for the long hours in the courtyard, and keep well clear of the dancers' ground."
       ]
     },
@@ -87,13 +87,13 @@
     }
   ],
   "faqs": [
-    {"q": "Which is the most important monastery in West Sikkim", "a": "Pemayangtse and Tashiding are usually counted as the most important. Pemayangtse, founded in 1705, was the premier monastery of the Nyingma order in Sikkim and closely linked to the royal family. Tashiding is regarded as the most sacred site, at the heart of the land blessed by Guru Rinpoche, and hosts Bumchu every spring."},
+    {"q": "Which is the most important monastery in West Sikkim", "a": "Pemayangtse and Tashiding are usually counted as the most important. Pemayangtse, begun in the seventeenth century and enlarged in 1705, is the premier monastery of the Nyingma order in Sikkim and closely linked to the royal family. Tashiding is regarded as the most sacred site, at the heart of the land blessed by Guru Rinpoche, and hosts Bumchu every spring."},
     {"q": "How many days do I need for the monastery circuit", "a": "Three days from a Pelling base covers the main sites at an easy pace: Pemayangtse, Rabdentse and Sangachoeling on day one; Khecheopalri Lake and Yuksom on day two; Tashiding on day three. Add a day for Rinchenpong or Ravangla and Ralang. Two days is possible with an early start and less walking."},
     {"q": "Is Dubdi the oldest monastery in Sikkim", "a": "Dubdi, founded in 1701, is often called the first monastery of the Namgyal kingdom. Sangachoeling, dated to around 1697, and Tashiding, founded in the seventeenth century, also have strong claims, and older shrines and caves existed before. Sources differ, so it is safest to call Dubdi one of the oldest."},
     {"q": "Can women visit all the monasteries", "a": "Yes. Women can visit all the monasteries on this circuit. Pemayangtse traditionally admitted only male monks of particular lineage, while Sangachoeling has traditionally admitted nuns as well. Some inner shrines, such as protector-deity rooms, may be closed to visitors of any gender. Follow posted signs and the monks' guidance."},
     {"q": "Can I take photos inside the monasteries", "a": "It depends on the monastery. Many prayer halls, including the top floor of Pemayangtse, do not allow photography. Courtyards and exteriors are usually fine. Always ask a monk first, never use flash near wall paintings, and avoid photographing people at prayer. Respect a refusal without argument."},
     {"q": "Do I need a guide for the monastery circuit", "a": "You do not need one to visit, but a local guide for a day, about ₹1,000–1,500, makes the visits far richer. Few paintings or statues are labelled, and a guide can explain the deities, the history of the Namgyal kings and the meaning of rituals. Ask your hotel in Pelling to arrange one."},
-    {"q": "What is the best time of year for the circuit", "a": "October to December and February to April have dry paths and clear views. February or March brings Bumchu at Tashiding and Losar dances at Pemayangtse, and December brings the Kagyed dance at Ralang. The monsoon months, June to September, make the walks to Dubdi and Tashiding slippery and leech-prone."},
+    {"q": "What is the best time of year for the circuit", "a": "October to December and February to April have dry paths and clear views. February or March brings Bumchu at Tashiding and Losar dances at Pemayangtse, and November or December brings the Kagyed dance at Ralang. The monsoon months, June to September, make the walks to Dubdi and Tashiding slippery and leech-prone."},
     {"q": "Are there entry fees at the monasteries", "a": "Fees are low. Pemayangtse charges around ₹20–50, Rabdentse has a small Archaeological Survey of India fee, and most other monasteries are free or ask for a donation. Fees can change, so check current status before you travel. Carry small notes for donation boxes and butter lamp offerings."},
     {"q": "Can I do the circuit by public transport", "a": "Partly. Shared jeeps run from Gyalshing to Yuksom, Tashiding and Legship, mostly in the morning, and you can walk to Pemayangtse and Sangachoeling from Pelling. Connections are thin after midday, so allow extra time and stay overnight in Yuksom or Tashiding. A reserved car is far easier for a short trip."}
   ]
