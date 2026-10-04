@@ -1,0 +1,348 @@
+{
+  "slug": "lava",
+  "name": "Lava",
+  "kind": "Forest village",
+  "tagline": "Mist, monks and the gate to Neora Valley",
+  "summary": "Lava is a small bazaar village at about 2,195 m, 33 km east of Kalimpong, ringed by forest and best known as the entry point to Neora Valley National Park. Go for the monastery, birding and red panda country. One or two nights is right, often paired with Rishop.",
+  "meta_description": "Lava, Kalimpong: Neora Valley entry, Kagyu Thekchen Ling monastery, Changey Falls, birding, where to stay, how to reach and season tips.",
+  "wiki": "Lava, West Bengal",
+  "image_query": "Lava Kalimpong monastery",
+  "lat": 27.086,
+  "lng": 88.661,
+  "altitude_m": 2195,
+  "nights": 1,
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    1,
+    2,
+    2,
+    1
+  ],
+  "themes": [
+    "wildlife-and-birds",
+    "monasteries",
+    "treks-and-walks",
+    "homestays"
+  ],
+  "intro": [
+    "Lava is a cluster of houses, shops and lodges on a forested ridge at about 2,195 m, roughly 33 km from Kalimpong by way of Algarah. Pine, fir and cryptomeria close in around the road, and on most afternoons mist pours up from the valleys. It is one of the few places in West Bengal that sees snow in some winters.",
+    "The village grew along the old route towards Jelep La and Tibet, and now sits on NH717A, which links the plains at Bagrakote with Gangtok through the forests and down via Gorubathan. Its fame comes from what lies just beyond it: Neora Valley National Park, one of the least disturbed forests in the Eastern Himalaya and home to the red panda.",
+    "Lava is small and quiet. There is one main bazaar, a large Kagyu monastery above the reservoir, a forest lodge and a scatter of homestays and hotels. Most people stay a night, visit Neora Valley or Changey Falls, then go on to Rishop for the sunrise view or to Lolegaon for its old forest."
+  ],
+  "highlights": [
+    {
+      "title": "Neora Valley National Park",
+      "text": "Permits and guides are arranged in Lava for walks into one of the richest forests in the Eastern Himalaya, open from mid-September to mid-June."
+    },
+    {
+      "title": "Kagyu Thekchen Ling Monastery",
+      "text": "A large Karma Kagyu monastery opened in 1990 beside the Neora reservoir, with over a hundred monks."
+    },
+    {
+      "title": "Changey Falls",
+      "text": "A tall waterfall in the forest near Kolakham, about 10 km from Lava, at its best after the monsoon."
+    },
+    {
+      "title": "Birding in the cloud forest",
+      "text": "Laughingthrushes, minivets, sunbirds and, with luck, the satyr tragopan live in the forest around the village."
+    },
+    {
+      "title": "A second road to the plains",
+      "text": "The forest road down through Gorubathan to the Dooars is the usual way in when landslides close NH10."
+    }
+  ],
+  "facts": [
+    [
+      "Altitude",
+      "About 2,195 m"
+    ],
+    [
+      "From Siliguri",
+      "About 105–110 km, 3.5–4 hours via Kalimpong or Gorubathan"
+    ],
+    [
+      "From Kalimpong",
+      "33 km, 1.5 hours via Algarah"
+    ],
+    [
+      "Best for",
+      "Neora Valley, birding, forest walks, the monastery"
+    ],
+    [
+      "Nights",
+      "1–2"
+    ],
+    [
+      "Permits",
+      "None for Lava; Neora Valley entry permit and guide from the Lava forest office"
+    ]
+  ],
+  "how_to_reach": [
+    {
+      "mode": "Shared jeep",
+      "text": "A few shared jeeps run from the Kalimpong motor stand to Lava, mostly in the morning and around midday, for about ₹100–150 a seat. From Siliguri, take a jeep to Kalimpong and change, or look for the occasional direct jeep via Gorubathan."
+    },
+    {
+      "mode": "Private car",
+      "text": "A reserved car from Kalimpong costs about ₹2,000–2,800 and takes 1.5 hours. From NJP or Bagdogra it costs about ₹4,000–5,000 and takes 3.5–4 hours, via Kalimpong or via Malbazar and Gorubathan."
+    },
+    {
+      "mode": "Rail",
+      "text": "Malbazar Junction is the nearest station, about 58 km away via Gorubathan. New Jalpaiguri (NJP) has far more trains and is about 105–110 km away."
+    }
+  ],
+  "where_to_stay": "Stays cluster around the bazaar and along the road towards the monastery. The WBFDC nature resort, in forest just above the bazaar, is the best base for Neora Valley at about ₹1,500–3,500 a room. Homestays and small hotels in and around the village cost about ₹1,200–2,000 a person with meals, or ₹1,800–3,500 a room. Many travellers sleep one night in Lava and one higher up in Rishop. Rates are indicative.",
+  "stays": [
+    "wbfdc-lava-nature-resort"
+  ],
+  "nearby": [
+    "rishop",
+    "lolegaon",
+    "kalimpong-town",
+    "samsing"
+  ],
+  "tips": [
+    "Get to the Lava forest office early in the morning to arrange your Neora Valley permit and guide.",
+    "Expect mist from early afternoon; do sightseeing and walks before lunch.",
+    "Pack warm layers year-round; even in May nights drop to around 8–10°C.",
+    "Carry cash; Lava has few ATMs, and they can run dry at weekends.",
+    "Neora Valley closes from about 16 June to 15 September. Check current status before you travel."
+  ],
+  "costs": [
+    {
+      "item": "Shared jeep Kalimpong to Lava",
+      "inr": "₹100–150 a seat"
+    },
+    {
+      "item": "Reserved car Kalimpong to Lava",
+      "inr": "₹2,000–2,800 per car"
+    },
+    {
+      "item": "Neora Valley entry permit",
+      "inr": "₹100–200 a person"
+    },
+    {
+      "item": "Compulsory Neora Valley guide",
+      "inr": "₹500–1,000 a group"
+    },
+    {
+      "item": "Car for Neora Valley gate or Changey Falls",
+      "inr": "₹1,500–2,500 per car"
+    },
+    {
+      "item": "Homestay with all meals",
+      "inr": "₹1,200–2,000 a person a night"
+    }
+  ],
+  "local_word": {
+    "word": "Gompa",
+    "language": "Tibetan",
+    "meaning": "A monastery; locals call the Kagyu Thekchen Ling Monastery simply the Lava gompa"
+  },
+  "story": {
+    "title": "How the village built its monastery",
+    "paras": [
+      "Lava's monastery is new by Himalayan standards, and it was the village that asked for it. In the 1980s the local Buddhist community offered four acres of land to Jamgon Kongtrul Rinpoche, the third holder of that title and a senior teacher of the Karma Kagyu school. They wanted a place that would keep their religious and cultural traditions alive.",
+      "The Rinpoche accepted the offer in 1987, and building began in April 1988. The monastery, named Kagyu Thekchen Ling, opened on 6 June 1990, on the day of Chökhor Düchen, which marks the Buddha's first teaching. Its builders followed Tibetan forms in brick and concrete, with prayer halls, lawns and a large Buddha image.",
+      "Jamgon Kongtrul Rinpoche died in 1992, only two years after the opening. The monastery carried on, and in 2001 the Dalai Lama opened a community temple, the Mane Lhakhang, beside it. Today more than a hundred monks study and pray at Lava.",
+      "Locals often call it the Lava gompa or by its other name, Ratnarishi Bihar. It sits beside the Neora reservoir, on the edge of the forest, and its morning prayers are one of the few sounds in the village before the jeeps start."
+    ],
+    "sources": [
+      {
+        "title": "Kagyu Thekchen Ling Monastery (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Kagyu_Thekchen_Ling_Monastery"
+      },
+      {
+        "title": "Lava, West Bengal (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Lava,_West_Bengal"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "How many days should I spend in Lava?",
+      "a": "One night is enough to see the monastery, take a forest walk and visit Changey Falls. Stay two nights if you want a proper walk inside Neora Valley National Park, which needs an early start and most of a day. Many travellers do one night in Lava and one in Rishop, about 11 km away, for the sunrise view."
+    },
+    {
+      "q": "Is Lava worth visiting?",
+      "a": "Yes, for quiet forest, birds, cool weather and the Neora Valley. It is not a sightseeing town with many attractions, and mist often hides the views by afternoon. If you want big mountain panoramas, add Rishop. If you want shops, cafes and nightlife, Lava will feel too small."
+    },
+    {
+      "q": "Does Lava get snow?",
+      "a": "Sometimes. At about 2,195 m, Lava gets light snow on a few days in some winters, usually between late December and February. Many winters have none. Nights from December to February often drop below freezing, so bring warm layers whether or not it snows."
+    },
+    {
+      "q": "How do I enter Neora Valley National Park from Lava?",
+      "a": "Go to the forest range office in Lava early in the morning with ID to get an entry permit and a registered guide, then drive to the park entry point by car. Walks inside the park follow set trails. The park is closed from about 16 June to 15 September. Fees and rules change. Check current status before you travel."
+    },
+    {
+      "q": "Can I see a red panda in Neora Valley?",
+      "a": "It is possible but rare. Red pandas live in the higher bamboo and oak forest, are shy and are mostly seen by researchers, forest staff or patient birders on longer treks. Day visitors seldom see one. Go for the forest and birds, and treat any red panda sighting as a bonus."
+    },
+    {
+      "q": "What is the weather like in Lava?",
+      "a": "Cool all year. Summer days reach about 15–20°C with misty afternoons. Winter days are 5–12°C, with frost and occasional snow at night. The monsoon from June to September brings heavy rain, leeches and frequent fog. October, November and April are usually the best months for clear mornings."
+    },
+    {
+      "q": "Is there an ATM and mobile signal in Lava?",
+      "a": "There is limited ATM access in the bazaar, and machines can run out of cash, so carry enough from Kalimpong or Siliguri. Jio and Airtel work in most of the village, with weaker signal in the forest and at some homestays. Power cuts happen in bad weather."
+    },
+    {
+      "q": "How do I go from Lava to Rishop?",
+      "a": "Rishop is about 11 km by road, about 40 minutes by car, for roughly ₹800–1,200 for the vehicle, indicative. Walkers can take a forest trail of about 4 km that climbs steeply from near Lava, taking 1.5–2 hours. Go with a local guide or ask your host for directions, since paths split in the forest."
+    },
+    {
+      "q": "Can I reach Lava when NH10 is closed?",
+      "a": "Yes. Lava has its own road down to the plains through Gorubathan and Damdim, roughly 100–110 km to Siliguri. When landslides close NH10 along the Teesta in the monsoon, this is the usual alternative into the Kalimpong hills. Check current status before you travel."
+    }
+  ],
+  "experiences": [
+    {
+      "slug": "lava-neora-valley-national-park-day-walk",
+      "title": "Day walk into Neora Valley National Park",
+      "kind": "wildlife",
+      "duration": "5–7 hours",
+      "summary": "With a permit and guide from Lava, walk into the old broadleaf forest of Neora Valley, home to the red panda and some of the richest birdlife in the Eastern Himalaya.",
+      "body": [
+        "Neora Valley National Park was set up in 1986 and runs from about 180 m to over 3,100 m, from subtropical forest to rhododendron and fir. Much of it remains roadless. Day visitors from Lava walk set trails in the upper forest, with tall oaks hung with moss, bamboo thickets and streams.",
+        "You need a permit and a registered guide, arranged at the Lava forest office in the morning. A car takes you to the park entry point, and the walk is usually slow, with stops for birds. Common sightings include laughingthrushes, barwings, fulvettas and sunbirds; mammals are rarely seen.",
+        "The park closes for the monsoon from about mid-June to mid-September. Fees, routes and rules change. Check current status before you travel."
+      ],
+      "best_time": "October to May, starting early in the morning.",
+      "good_for": [
+        "Birders",
+        "Nature lovers",
+        "Fit walkers"
+      ],
+      "cost": "₹100–200 permit a person, ₹500–1,000 guide, ₹1,500–2,500 car",
+      "wiki": "Neora Valley National Park",
+      "image_query": "Neora Valley National Park",
+      "faqs": [
+        {
+          "q": "Do I need a guide for Neora Valley?",
+          "a": "Yes. Visitors must enter with a registered local guide, arranged with the permit at the Lava forest office. Guides know the trails and the birds and keep groups safe in thick forest where paths split. Guide fees are roughly ₹500–1,000 a group per day, indicative. Tip if they have done a good job."
+        },
+        {
+          "q": "When is Neora Valley closed?",
+          "a": "The park closes for the monsoon, usually from about 16 June to 15 September, like other national parks in North Bengal. It may also close at short notice for weather, fire risk or official reasons. Check current status before you travel, especially in early June and late September."
+        },
+        {
+          "q": "How fit do I need to be for a Neora Valley walk?",
+          "a": "Moderately fit. Trails are uneven, often wet and muddy, and there are steep stretches at over 2,000 m. A typical day walk covers 5–10 km at a slow pace. Wear proper walking shoes, carry water and rain gear, and tell your guide about any health issues before you start."
+        }
+      ]
+    },
+    {
+      "slug": "lava-kagyu-thekchen-ling-monastery-morning",
+      "title": "Morning prayers at Lava monastery",
+      "kind": "spiritual",
+      "duration": "1 hour",
+      "summary": "Visit the Kagyu Thekchen Ling Monastery above the Neora reservoir, opened in 1990, when monks gather for morning prayers.",
+      "body": [
+        "The monastery stands on a rise just above Lava bazaar, a short walk from most stays. It belongs to the Karma Kagyu school and was built on land offered by the local Buddhist community to the third Jamgon Kongtrul Rinpoche. It opened in 1990 and now has over a hundred monks.",
+        "Come early to hear the long horns and chanting of morning prayers, then walk around the prayer wheels and the lawns. On clear days the hills of East Sikkim and Bhutan's border ridges show to the north and east. Next door is the Mane Lhakhang, a community temple opened by the Dalai Lama in 2001.",
+        "Dress modestly, remove shoes before the halls and walk clockwise."
+      ],
+      "best_time": "Early morning, any month.",
+      "good_for": [
+        "Families",
+        "Couples",
+        "First-timers"
+      ],
+      "cost": "₹0; donations welcome",
+      "wiki": "Kagyu Thekchen Ling Monastery",
+      "image_query": "Kagyu Thekchen Ling Monastery Lava",
+      "faqs": [
+        {
+          "q": "What time are prayers at Lava monastery?",
+          "a": "Morning prayers usually start soon after dawn, and there are often prayers again in the late afternoon. Times vary with the season and the monastery calendar. Ask at your homestay or at the monastery the evening before, and arrive quietly. You can sit at the back of the hall if invited."
+        },
+        {
+          "q": "Is Lava monastery the same as Ratnarishi Bihar?",
+          "a": "Yes. The Kagyu Thekchen Ling Monastery is also called Ratnarishi Bihar Buddhist Gumpa, and locals often just say the Lava monastery or Lava gompa. It is a Karma Kagyu monastery opened in 1990, standing beside the Neora reservoir above the bazaar."
+        },
+        {
+          "q": "Can I take photographs at the monastery?",
+          "a": "You can photograph the outside, the courtyard and the views. Inside the prayer hall, ask first and avoid flash; some days photography is not allowed. Do not photograph monks during prayers without permission, and do not step over cushions or sit on raised seats."
+        }
+      ]
+    },
+    {
+      "slug": "lava-changey-falls-and-kolakham",
+      "title": "Changey Falls and Kolakham",
+      "kind": "nature",
+      "duration": "3–4 hours",
+      "summary": "Drive to Kolakham, a small village on the edge of Neora Valley about 10 km from Lava, and walk down to Changey Falls, a tall waterfall in the forest.",
+      "body": [
+        "Kolakham is a cluster of homestays on a ridge facing the Kanchenjunga range, about 10 km beyond Lava on a narrow road. From near the village a path drops through forest to Changey Falls, where water falls in long white strands down a rock face. The steps down are steep and the climb back takes effort.",
+        "The falls are fullest from late September to November, after the rains. In winter the flow drops but the forest walk is still pleasant. Stop in Kolakham for tea and the view if the sky is clear.",
+        "The road to Kolakham is narrow and slippery when wet; go in a local jeep with an experienced driver."
+      ],
+      "best_time": "Late September to November, mornings.",
+      "good_for": [
+        "Families with older children",
+        "Photographers",
+        "Walkers"
+      ],
+      "cost": "₹1,500–2,500 per car from Lava; small local entry fee",
+      "wiki": "",
+      "image_query": "Changey Falls Kalimpong",
+      "faqs": [
+        {
+          "q": "How far is Changey Falls from Lava?",
+          "a": "Changey Falls is near Kolakham, about 10 km from Lava by road, roughly 40 minutes by car on a narrow route. From the road a steep path and steps lead down to the falls. Allow 3–4 hours for the round trip from Lava including the walk and a tea stop."
+        },
+        {
+          "q": "Is the walk to Changey Falls difficult?",
+          "a": "It is short but steep. The way down is easy enough, but climbing back up takes 20–40 minutes for most people. Steps can be wet and slippery, so wear good shoes. Older travellers and those with knee problems may prefer to view the forest from the top."
+        },
+        {
+          "q": "Can I stay in Kolakham?",
+          "a": "Yes, Kolakham has a few village homestays with views towards Kanchenjunga, costing about ₹1,300–2,000 a person with meals, indicative. It is quieter than Lava and right on the edge of Neora Valley. The road is narrow, so check access for your vehicle before booking."
+        }
+      ]
+    },
+    {
+      "slug": "lava-forest-road-birding-walk",
+      "title": "Early birding walk on the Lava forest roads",
+      "kind": "wildlife",
+      "duration": "2–3 hours",
+      "summary": "Walk the quiet forest roads around Lava at dawn with a local birder to find laughingthrushes, minivets, sunbirds and other cloud-forest birds.",
+      "body": [
+        "The forest around Lava, at about 2,000–2,400 m, is a known stop for birders working the Eastern Himalaya. You do not need to enter the national park to see a lot: the road towards Rishop and the forest edges around the village are productive in the first hours after dawn.",
+        "Expect mixed flocks of tits, warblers and fulvettas, along with laughingthrushes, minivets, sunbirds, barbets and woodpeckers. Winter brings altitudinal migrants down from higher forest. A local guide who knows the calls will find far more than you will alone.",
+        "Walk on the road edge, wear muted colours and carry binoculars."
+      ],
+      "best_time": "Dawn from November to May; April and May for breeding birds.",
+      "good_for": [
+        "Birders",
+        "Photographers",
+        "Couples"
+      ],
+      "cost": "₹800–1,500 for a local birding guide",
+      "wiki": "",
+      "image_query": "Lava Kalimpong forest birds",
+      "faqs": [
+        {
+          "q": "What birds can I see around Lava?",
+          "a": "Common sightings include laughingthrushes, minivets, sunbirds, barbets, woodpeckers, tits, warblers and fulvettas. Lucky birders see the satyr tragopan or rarer species in Neora Valley. Numbers depend on season and time of day. Dawn is best, and winter and spring bring the widest variety."
+        },
+        {
+          "q": "Do I need a permit for birding around Lava?",
+          "a": "Not for the roads and village edges. You need a permit and guide only to enter Neora Valley National Park itself. Stay on public roads, avoid private land without permission, and do not use playback of bird calls in breeding season, which disturbs nesting birds."
+        },
+        {
+          "q": "Can I hire a birding guide in Lava?",
+          "a": "Yes. Several local guides know the birds well and can be booked through your lodge or homestay. Expect roughly ₹800–1,500 for a morning walk, indicative. For serious birding trips into Neora Valley, book a specialist guide in advance and plan two or three nights."
+        }
+      ]
+    }
+  ]
+}

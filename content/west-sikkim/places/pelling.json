@@ -1,0 +1,175 @@
+{
+  "slug": "pelling",
+  "name": "Pelling",
+  "kind": "Hill town",
+  "tagline": "Kangchenjunga at breakfast, and the old capitals of Sikkim below",
+  "summary": "Pelling is a small hill town at 2,150 m in West Sikkim with one of the closest views of Kangchenjunga from any town in India. Go for the sunrise on the range, Pemayangtse Monastery and the ruins of Rabdentse, Sikkim's second capital. Two nights is right; three if you add Khecheopalri Lake and Yuksom.",
+  "meta_description": "Pelling travel guide: Kangchenjunga views, Pemayangtse, Rabdentse ruins, Khecheopalri Lake, costs, how to reach from Siliguri and where to stay.",
+  "wiki": "Pelling",
+  "image_query": "Pelling Kangchenjunga",
+  "lat": 27.30,
+  "lng": 88.24,
+  "altitude_m": 2150,
+  "nights": 2,
+  "best_months": [1, 1, 2, 2, 2, 0, 0, 0, 1, 2, 2, 2],
+  "themes": ["monasteries", "photography", "honeymoons", "family-trips"],
+  "intro": [
+    "Pelling sits on a ridge above Gyalshing (Geyzing), the headquarters of Gyalshing district, the old West Sikkim. It is split into Upper, Middle and Lower Pelling along one road, and almost every hotel in Upper Pelling faces north-west towards Kangchenjunga, 8,586 m, and its neighbours Kabru, Pandim and Kokthang. On a clear morning the range fills the skyline.",
+    "The town itself is young: most of it was built for visitors in the last thirty years. What lies around it is old. Pemayangtse Monastery, founded in 1705, stands 2 km away, and below it the ruins of Rabdentse mark the capital of the Namgyal kings from 1670 until it was sacked in the late eighteenth century. Sangachoeling, one of the oldest monasteries in Sikkim, sits on the ridge above town.",
+    "Most people spend a day on the local sightseeing loop and a second day driving to Khecheopalri Lake and the waterfalls on the Yuksom road. Pelling also works as a base for Yuksom and Rinchenpong. It is busy in October and late December and quiet, cheap and misty in the monsoon."
+  ],
+  "highlights": [
+    {"title": "Sunrise on Kangchenjunga", "text": "From the helipad ground in Upper Pelling the first light turns the range pink and then gold, usually between 5 and 6 am in spring and autumn."},
+    {"title": "Pemayangtse Monastery", "text": "A Nyingma monastery founded in 1705, known for the seven-tiered wooden model of Guru Rinpoche's heavenly palace on its top floor."},
+    {"title": "Rabdentse ruins", "text": "The stone walls and chortens of Sikkim's second capital, reached by a 20-minute forest walk from the road below Pemayangtse."},
+    {"title": "Khecheopalri Lake", "text": "A sacred lake 27 km away, ringed by forest and kept clear of leaves by birds, as pilgrims tell it."},
+    {"title": "Sangachoeling Monastery", "text": "One of Sikkim's oldest monasteries, a steep 40-minute walk up the ridge above Upper Pelling."},
+    {"title": "Chenrezig statue and skywalk", "text": "A large statue of Chenrezig (Avalokiteshvara) with a glass-floored walkway, opened in 2018 near Sangachoeling."}
+  ],
+  "facts": [
+    ["Altitude", "2,150 m"],
+    ["From Siliguri", "About 135 km, 5–6 hours"],
+    ["From Gangtok", "About 115–130 km, 5 hours via Ravangla"],
+    ["Best for", "Mountain views, monasteries, history"],
+    ["Nights", "2"],
+    ["Permits", "None for Indians; ILP for foreigners"]
+  ],
+  "how_to_reach": [
+    {"mode": "Shared jeep", "text": "Shared jeeps leave Siliguri (SNT terminus and the jeep stands near Siliguri Junction) for Gyalshing and Pelling in the morning, about ₹400–500 a seat and 5–6 hours. From Gyalshing, local jeeps cover the last 10 km to Pelling. From Gangtok, morning jeeps run to Gyalshing and Pelling."},
+    {"mode": "Private car", "text": "A reserved car from NJP or Bagdogra takes 5–6 hours via Melli, Jorethang and Legship and costs about ₹5,000–6,500 for a small car. From Gangtok the drive via Ravangla takes about 5 hours and costs about ₹5,000–6,000."},
+    {"mode": "Air", "text": "Bagdogra (IXB) is the practical airport, about 145 km and 5.5–6 hours away. Pakyong airport near Gangtok has had irregular flights; check current status before you travel."},
+    {"mode": "Rail", "text": "New Jalpaiguri (NJP) is the nearest major railway station, about 140 km away. Melli and Rangpo have no passenger trains yet."}
+  ],
+  "where_to_stay": "Stay in Upper Pelling for the views, restaurants and walk to the helipad viewpoint. Small family guesthouses cost ₹1,200–2,500 a room, mid-range hotels ₹3,000–6,000 and the better resorts ₹7,000–15,000. For quiet, look at the hotels near Pemayangtse, about 2 km below. Lower and Middle Pelling are cheaper but most rooms there lack a direct view.",
+  "stays": ["elgin-mount-pandim-pelling", "norbu-ghang-resort-pelling", "upper-pelling-family-guesthouses"],
+  "nearby": ["yuksom", "rinchenpong", "ravangla", "darjeeling-town"],
+  "tips": [
+    "Set an alarm for 5 am on your first clear morning; cloud often builds by 9 am and the range may not show again for days.",
+    "Ask for a room on the top floor facing north-west, and look at it before you pay; 'mountain view' can mean a corner of a window.",
+    "Book the Khecheopalri and waterfalls loop as a reserved car for the day rather than paying point to point.",
+    "Carry cash; Pelling has a few ATMs, but they run dry at weekends and in peak weeks.",
+    "Dress modestly at Pemayangtse and walk clockwise around chortens and prayer wheels."
+  ],
+  "costs": [
+    {"item": "Shared jeep Siliguri to Pelling or Gyalshing", "inr": "₹400–500 a seat"},
+    {"item": "Reserved car NJP to Pelling", "inr": "₹5,000–6,500 per car"},
+    {"item": "Local sightseeing car, half day", "inr": "₹2,000–2,800 per car"},
+    {"item": "Khecheopalri Lake and waterfalls, full day", "inr": "₹2,800–3,500 per car"},
+    {"item": "Pemayangtse Monastery entry", "inr": "Around ₹20–50 per person"},
+    {"item": "Skywalk and Chenrezig statue entry", "inr": "Around ₹50–100 per person"},
+    {"item": "Thali or plate of momos in Upper Pelling", "inr": "₹150–350"}
+  ],
+  "local_word": {"word": "Chorten", "language": "Sikkimese (Bhutia)", "meaning": "A Buddhist stupa holding relics or prayers; you walk around it clockwise"},
+  "story": {
+    "title": "How Rabdentse rose and fell",
+    "paras": [
+      "Sikkim's first king, Phuntsog Namgyal, was crowned at Yuksom in 1642. In 1670 his son, Tensung Namgyal, moved the capital to a ridge just below where Pelling now stands, and called it Rabdentse. For well over a century this was the seat of the Namgyal kings.",
+      "The site was chosen for defence. It sits on a spur with steep drops on three sides and a clear line of sight across the Rangeet valley. What you see today are the foundations of the palace, the walls of the royal enclosure and a row of three chortens, laid out on a terrace among old trees.",
+      "Rabdentse's end came from outside. In the late eighteenth century the Gorkha army of Nepal pushed into Sikkim and overran the western districts, and Rabdentse was sacked. The court later moved east to Tumlong in North Sikkim and then to Gangtok, which became the capital in 1894.",
+      "The ruins are now protected by the Archaeological Survey of India and listed as a monument of national importance. Many visitors walk past the ticket gate without knowing what they are looking at. Stand on the top terrace facing the range and it is easy to see why a king would want to rule from here."
+    ],
+    "sources": [
+      {"title": "Rabdentse (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Rabdentse"},
+      {"title": "Pemayangtse Monastery (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Pemayangtse_Monastery"}
+    ]
+  },
+  "faqs": [
+    {"q": "How many days do I need in Pelling", "a": "Two nights is enough for most people: one day for the local loop of Pemayangtse, Rabdentse, Sangachoeling and the skywalk, and one for Khecheopalri Lake and the waterfalls on the Yuksom road. Add a third night if you want to visit Yuksom and Dubdi Monastery, or simply to give yourself a second chance at a clear sunrise over Kangchenjunga."},
+    {"q": "When can you see Kangchenjunga from Pelling", "a": "The clearest months are October to mid-December, then February to April, usually in the first hours after sunrise. January can be very clear but cold. From June to September monsoon cloud hides the range most days, though breaks do happen. Even in good months, plan two mornings in Pelling, because a single cloudy day is common."},
+    {"q": "How do I get from Siliguri to Pelling", "a": "The cheapest way is a shared jeep from Siliguri to Gyalshing or Pelling, about ₹400–500 a seat and 5–6 hours; jeeps leave in the morning. A reserved small car from NJP or Bagdogra costs about ₹5,000–6,500 and takes 5–6 hours via Melli, Jorethang and Legship. Fares are indicative and rise in peak season."},
+    {"q": "Do Indians need a permit for Pelling", "a": "No. Indian citizens need no permit for Pelling, Yuksom, Ravangla, Namchi or Rinchenpong. Carry a photo ID, because hotels must record it. Foreign nationals need the Sikkim Inner Line Permit, issued at Rangpo, Melli and other entry points or online, and must show it at hotels. Permit rules can change. Check current status before you travel."},
+    {"q": "Does it snow in Pelling", "a": "Snow in Pelling town is uncommon. It may get a light fall on a few days in January or February in a cold year, but it rarely lies for long. If snow is your main aim, North Sikkim or the Tsomgo Lake road near Gangtok are surer bets. Pelling's winter draw is clear air and sharp views of the snow peaks."},
+    {"q": "Is Pelling good for a honeymoon", "a": "Yes, if you want quiet and views rather than shopping and nightlife. Book a room facing Kangchenjunga, keep the days light, and pair it with Gangtok or Darjeeling for variety. October, November, March and April have the best weather. Avoid the Puja holidays and New Year week if you want a calmer town and fair room rates."},
+    {"q": "What is the Pelling skywalk", "a": "It is a glass-floored walkway leading to a large statue of Chenrezig, the bodhisattva of compassion, on the ridge above Upper Pelling near Sangachoeling Monastery. It opened in 2018. Entry costs about ₹50–100. It can be closed in bad weather or for maintenance, so check current status before you travel and carry the ticket cash."},
+    {"q": "Are there ATMs and mobile signal in Pelling", "a": "Pelling has a few ATMs, and Gyalshing, 10 km away, has more banks. They do run out of cash in busy weeks, so arrive with enough for hotels and cars. Jio, Airtel and BSNL generally work in Pelling, but signal weakens near Khecheopalri Lake and along the Yuksom road. UPI is widely accepted in hotels and larger restaurants."},
+    {"q": "Can I visit Pelling in the monsoon", "a": "You can, from June to September, but expect rain most days, landslides on the roads from Siliguri and Gangtok, and little chance of mountain views. In return, hotels cut prices and the waterfalls are at their fullest. Allow a spare day for road closures and travel with a flexible plan. Check current status before you travel."}
+  ],
+  "experiences": [
+    {
+      "slug": "pelling-pemayangtse-monastery-morning-visit",
+      "title": "Morning at Pemayangtse Monastery",
+      "kind": "spiritual",
+      "duration": "1.5–2 hours",
+      "summary": "Pemayangtse is one of Sikkim's most important Nyingma monasteries, founded in 1705 on a ridge 2 km from Pelling. Go early to hear the prayers and see the carved wooden model of Zangdok Palri on the top floor.",
+      "body": [
+        "The monastery was founded by Lhatsun Chenpo's line of teachers in the early eighteenth century and traditionally admitted only monks of 'pure' Bhutia lineage. Its three-storey main hall is painted inside with wall paintings of deities and teachers, and the ground floor houses statues of Guru Padmasambhava and his forms.",
+        "The real treasure is on the top floor: a seven-tiered wooden model of Zangdok Palri, the copper-coloured heavenly palace of Guru Rinpoche, carved by a single lama over several years. Photography is usually not allowed inside, so take your time and look closely.",
+        "Pair the visit with the forest walk down to Rabdentse, which starts close by."
+      ],
+      "best_time": "Arrive around 7–8 am, when the light is soft, the courtyard is quiet and morning prayers may be under way.",
+      "good_for": ["Culture lovers", "Photographers", "First-timers"],
+      "cost": "Around ₹20–50 entry per person",
+      "wiki": "Pemayangtse Monastery",
+      "image_query": "Pemayangtse Monastery",
+      "faqs": [
+        {"q": "Can I take photos inside Pemayangtse", "a": "Photography is usually not allowed inside the prayer halls, and the rule is enforced on the top floor where the Zangdok Palri model stands. Photos of the courtyard, the exterior and the mountain view are fine. Ask a monk if you are unsure, put your phone away during prayers, and never use flash near the wall paintings."},
+        {"q": "How do I get to Pemayangtse from Pelling", "a": "It is about 2 km from Upper Pelling. You can walk down the road in 30–40 minutes and take a taxi back up, or include it in a half-day local sightseeing car for about ₹2,000–2,800. Many people walk on from the monastery down the forest path to Rabdentse ruins, then pick up the car on the main road."},
+        {"q": "What should I wear at Pemayangtse", "a": "Wear clothes that cover shoulders and knees, remove your hat and shoes where asked, and walk clockwise around the main hall and any chortens. It is cold inside the halls before 10 am for much of the year, so carry a jacket. Keep voices low and do not sit with your feet pointing towards the altar."}
+      ]
+    },
+    {
+      "slug": "pelling-rabdentse-ruins-forest-walk",
+      "title": "Forest walk to the Rabdentse ruins",
+      "kind": "culture",
+      "duration": "1.5 hours",
+      "summary": "A short walk through oak and rhododendron forest leads to the ruins of Rabdentse, Sikkim's capital from 1670 until the late eighteenth century. It is the best place to understand Sikkim's royal history on the ground.",
+      "body": [
+        "The path starts from a gate on the road below Pemayangtse and runs for about 1 km on a mostly level track through the forest, past a small pond. At the end, the ruins open out onto a terrace: the outlines of the royal palace, the walls of the courtyard and three large chortens where the royal family is thought to have worshipped.",
+        "The site is managed by the Archaeological Survey of India and is kept tidy, with information boards. On a clear day the top terrace looks across to Kangchenjunga and down into the Rangeet valley. Few visitors stay long, which makes it a peaceful place to sit."
+      ],
+      "best_time": "Mid-morning, after Pemayangtse, when the forest path is dry and the sun has cleared the valley.",
+      "good_for": ["History buffs", "Families", "Walkers"],
+      "cost": "Small ASI entry fee, around ₹25 for Indians; higher for foreigners",
+      "wiki": "Rabdentse",
+      "image_query": "Rabdentse ruins",
+      "faqs": [
+        {"q": "Is the walk to Rabdentse difficult", "a": "No. It is about 1 km each way on a fairly level forest path from the road below Pemayangtse, with a few steps and roots. Most people take 15–20 minutes each way. It can be slippery after rain, so wear shoes with grip. Children and older travellers usually manage it fine, but it is not suitable for wheelchairs."},
+        {"q": "What can you see at Rabdentse today", "a": "You see the stone foundations of the royal palace, courtyard walls, stairways and three chortens on the upper terrace, plus information boards from the Archaeological Survey of India. There is no museum. The site is about the setting and the story: a royal seat on a defended spur facing Kangchenjunga, used for more than a century."},
+        {"q": "When is Rabdentse open", "a": "It is generally open during daylight hours, roughly from morning until late afternoon, every day. Timings and fees are set by the Archaeological Survey of India and can change, so check current status before you travel. Go before 3 pm in winter, as the forest path gets dark early and the light on the range fades."}
+      ]
+    },
+    {
+      "slug": "pelling-khecheopalri-lake-day-trip",
+      "title": "Day trip to Khecheopalri Lake and the waterfalls",
+      "kind": "nature",
+      "duration": "Full day (6–7 hours)",
+      "summary": "Khecheopalri is a sacred lake at about 1,700 m, held holy by Buddhists and Hindus, 27 km from Pelling. A day loop adds Rimbi and Kanchenjunga Falls and can continue to Yuksom.",
+      "body": [
+        "The lake sits in a bowl of forest. From the car park a short paved path leads to a wooden jetty lined with prayer flags and prayer wheels. Pilgrims say birds pick up any leaf that falls on the water, which is why it stays clear. Swimming, boating and feeding fish are not allowed.",
+        "On the way the road passes Rimbi waterfall and the orange orchards of Darap, and a short detour leads to Kanchenjunga Falls, a high cascade that is at its fullest from July to October. Many drivers add Yuksom to the loop; ask for that in advance.",
+        "There are simple tea stalls and a few homestays near the lake if you want to stay overnight."
+      ],
+      "best_time": "October to May, starting by 8 am; in the monsoon the falls are full but the road is often hit by small slides.",
+      "good_for": ["Families", "Pilgrims", "Nature lovers"],
+      "cost": "Reserved car ₹2,800–3,500 for the day; small lake and falls entry fees",
+      "wiki": "Khecheopalri Lake",
+      "image_query": "Khecheopalri Lake",
+      "faqs": [
+        {"q": "Why is Khecheopalri Lake considered sacred", "a": "Buddhists see the lake as the footprint of Tara or as linked to Guru Padmasambhava, and Hindus link it to Shiva. Local belief says the birds of the forest keep the surface clear of leaves. It is part of a sacred landscape in West Sikkim that includes Yuksom, Tashiding and Pemayangtse. Behave as you would in a temple."},
+        {"q": "Can I combine Khecheopalri Lake with Yuksom in one day", "a": "Yes. Khecheopalri is about 27 km from Pelling and Yuksom about 35 km, and the two are linked by a road through Thingling. A full-day reserved car from Pelling covering the lake, Kanchenjunga Falls and Yuksom costs around ₹3,500–4,500. Start by 8 am. Staying a night in Yuksom is more relaxed."},
+        {"q": "Is there anywhere to eat at Khecheopalri Lake", "a": "There are a few tea stalls and small eateries near the car park serving noodles, momos, tea and biscuits, plus a couple of homestays that cook for guests. Do not carry food to the jetty or throw anything into the water. Bring water and a snack, and take any rubbish back with you."}
+      ]
+    },
+    {
+      "slug": "pelling-sangachoeling-ridge-hike",
+      "title": "Hike up to Sangachoeling Monastery",
+      "kind": "adventure",
+      "duration": "2–3 hours return",
+      "summary": "A steep footpath climbs about 300 m from Upper Pelling through forest to Sangachoeling, one of the oldest monasteries in Sikkim, founded in the late seventeenth century. The ridge gives open views of the range.",
+      "body": [
+        "Sangachoeling was founded by Lhatsun Chenpo, one of the three lamas who crowned Sikkim's first king, and dates to around 1697. It sits on the ridge above Pelling at about 2,400 m. A road now reaches the Chenrezig statue and skywalk nearby, but the old footpath from Upper Pelling is the better way to arrive.",
+        "The path is steep and stony, with old cremation grounds and prayer flags on the way. At the top the monastery buildings are modest, but the views across to Kangchenjunga and down over Pelling are wide. Nuns are traditionally admitted here, unlike at Pemayangtse."
+      ],
+      "best_time": "An early start, around 6.30 am, for clear views and a cool climb.",
+      "good_for": ["Walkers", "Photographers", "Solo travellers"],
+      "cost": "₹0; small donation welcome",
+      "wiki": "Sanga Choeling Monastery",
+      "image_query": "Sanga Choeling Monastery Pelling",
+      "faqs": [
+        {"q": "How hard is the walk to Sangachoeling", "a": "It is short but steep: about 40–60 minutes up from Upper Pelling on a stony path, gaining around 300 m. Anyone reasonably fit can do it at a slow pace. Wear proper shoes, carry water and avoid it in heavy rain, when the path is slippery. You can also drive up most of the way via the skywalk road."},
+        {"q": "Can I visit the skywalk on the same walk", "a": "Yes. The Chenrezig statue and skywalk are on the same ridge, a short walk from Sangachoeling. Many people walk up the footpath to the monastery, cross to the statue, and take the road back down to Upper Pelling. Allow half a day in total, including time at both sites and for tea."},
+        {"q": "Is it safe to hike alone to Sangachoeling", "a": "Generally yes in daylight. The path is well used by local people and monks, though quiet early in the morning. Tell your hotel where you are going, carry a charged phone, and come back before dusk. Stray dogs are common on Sikkim's ridges; they are usually harmless, but walk calmly and avoid feeding them."}
+      ]
+    }
+  ]
+}

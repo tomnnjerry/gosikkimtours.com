@@ -1,0 +1,79 @@
+{
+ "slug": "gangtok-tsomgo-nathu-la-rumtek-4-nights",
+ "title": "Gangtok, Tsomgo, Nathu La and Rumtek in four nights",
+ "summary": "Four nights in Gangtok with day trips to Tsomgo Lake, Nathu La and Rumtek, starting and ending at NJP or Bagdogra. It is the classic first trip to Sikkim, with one spare half day built in for weather.",
+ "meta_description": "4-night Gangtok trip with Tsomgo Lake, Nathu La, Baba Mandir and Rumtek from NJP or Bagdogra. Day-by-day plan, permits and Budget, Value, Comfort prices.",
+ "nights": 4,
+ "start": "NJP or Bagdogra",
+ "end": "NJP or Bagdogra",
+ "pace": "Easy",
+ "max_altitude_m": 4310,
+ "best_months": [1, 1, 2, 2, 2, 1, 0, 0, 1, 2, 2, 1],
+ "themes": ["snow-and-passes", "weekend-breaks", "family-trips", "monasteries"],
+ "stops": [{"place": "gangtok", "nights": 4}],
+ "intro": [
+  "This is the trip most people mean when they say they are going to Sikkim. You stay four nights in one hotel in Gangtok, so there is no daily packing, and make day trips up to the high lakes and the border pass and across the valley to Rumtek.",
+  "The plan puts a full day in Gangtok before the climb to 4,310 m, which gives your body time to adjust and gives the agent time to process the Nathu La permit. If snow or a landslide cancels the high trip, the town day and the Rumtek morning can be swapped round to make room for a second try."
+ ],
+ "highlights": [
+  "One hotel for four nights, with no packing between days.",
+  "Tsomgo Lake at 3,753 m and Nathu La at 4,310 m on a single day trip.",
+  "A quiet morning at Rumtek, the seat of the 16th Karmapa.",
+  "Evenings on traffic-free MG Marg with Sikkimese food.",
+  "A built-in buffer for snow or permit cancellations."
+ ],
+ "days": [
+  {"day": 1, "title": "NJP or Bagdogra to Gangtok", "place": "gangtok", "overnight": "Gangtok", "drive": "120 km, 4–5 hours", "meals": "Dinner", "text": "Meet your car or take a shared jeep from NJP, Bagdogra or Siliguri and drive up NH10 along the Teesta river, past Sevoke and Rangpo, where foreign travellers collect the Sikkim Inner Line Permit. Arrive in Gangtok in the afternoon and check in. Walk down to MG Marg in the early evening for a first look at the town and dinner. Hand your ID and photos to the travel agent tonight or tomorrow morning for the Nathu La permit."},
+  {"day": 2, "title": "Gangtok monasteries and viewpoints", "place": "gangtok", "overnight": "Gangtok", "drive": "About 25 km in town, half day", "meals": "Breakfast, dinner", "text": "If the night was clear, start with sunrise at Tashi viewpoint. After breakfast, take a half-day taxi round Enchey Monastery, Do Drul Chorten and the Namgyal Institute of Tibetology, then ride the ropeway from Deorali for a view over the town. Spend the afternoon in Lal Market and the lanes below MG Marg. Keep the day gentle; tomorrow goes high. Confirm your permit and pick-up time with the agent before dinner."},
+  {"day": 3, "title": "Nathu La, Baba Mandir and Tsomgo Lake", "place": "nathu-la", "overnight": "Gangtok", "drive": "About 112 km return, 6–7 hours driving", "meals": "Breakfast, dinner", "text": "Leave at 7 am in a registered vehicle. The road climbs past Kyongnosla to Tsomgo and on to Nathu La at 4,310 m, where you walk slowly up to the border viewing area. Come down to Baba Harbhajan Singh Mandir, then stop at Tsomgo Lake on the way back for a shore walk or a yak ride. Return to Gangtok by mid-afternoon. Nathu La is usually closed on Mondays and Tuesdays; on those days the trip goes to Tsomgo and Baba Mandir only."},
+  {"day": 4, "title": "Rumtek and Lingdum monasteries", "place": "rumtek", "overnight": "Gangtok", "drive": "About 60 km, 4–5 hours with visits", "meals": "Breakfast, dinner", "text": "A slower day. Drive across the valley to Rumtek, show your ID at the gate and spend an hour at the main prayer hall, the Golden Stupa and the old monastery below. Stop at Lingdum on the way back, a newer and very calm monastery. The afternoon is free for shopping or rest. If yesterday's high trip was cancelled by weather, use this day for it and move Rumtek to the morning of day 5."},
+  {"day": 5, "title": "Gangtok to NJP or Bagdogra", "place": "siliguri", "overnight": "", "drive": "120 km, 4–5 hours", "meals": "Breakfast", "text": "Leave Gangtok after breakfast, by 9 am if you have an afternoon flight from Bagdogra or train from NJP. The drive down NH10 can be slowed by traffic and roadworks near Rangpo and Sevoke, so do not book a departure earlier than about 3 pm. In the monsoon, leave even earlier and keep your onward ticket flexible if you can."}
+ ],
+ "stays": ["mintokling-guest-house-gangtok", "hotel-sonam-delek-gangtok", "elgin-nor-khill-gangtok", "mayfair-spa-resort-gangtok"],
+ "includes": [
+  "Four nights' accommodation in Gangtok, twin sharing",
+  "Breakfast and dinner as listed (Value and Comfort); breakfast only on Budget",
+  "Transfers from and to NJP or Bagdogra",
+  "Permit-day vehicle for Tsomgo, Baba Mandir and Nathu La",
+  "Half-day Gangtok sightseeing and Rumtek trip",
+  "Permit processing for Tsomgo and Nathu La"
+ ],
+ "excludes": [
+  "Flights and trains to NJP or Bagdogra",
+  "Lunches, drinks and snacks",
+  "Entry fees, ropeway tickets, yak rides and boot hire",
+  "Tips for drivers and guides",
+  "Extra nights or car days caused by road closures"
+ ],
+ "good_to_know": [
+  "Nathu La is open to Indian nationals only; foreign travellers visit Tsomgo instead. Check current status before you travel.",
+  "Nathu La is usually closed to tourists on Mondays and Tuesdays, so plan day 3 for Wednesday to Sunday.",
+  "Bring a government photo ID and four passport photos for permits.",
+  "Weather can close the high road at any time of year; day 4 is the buffer.",
+  "Children and people with heart or lung conditions should take advice before going above 4,000 m."
+ ],
+ "tiers": [
+  {"name": "Budget", "price_inr": 11500, "stays": "Clean guesthouses near MG Marg", "transport": "Shared jeeps to and from Gangtok; seat in a pooled vehicle for Tsomgo and Nathu La", "note": "Breakfast only; you eat in local restaurants in the evening"},
+  {"name": "Value", "price_inr": 19500, "stays": "Mintokling Guest House or Hotel Sonam Delek", "transport": "Private car for transfers, sightseeing and the permit day", "note": "Breakfast and dinner included; private car shared by two"},
+  {"name": "Comfort", "price_inr": 34000, "stays": "The Elgin Nor-Khill or Mayfair Spa Resort", "transport": "Private SUV with an experienced driver throughout", "note": "Breakfast and dinner in the hotel, with a local guide for the monasteries"}
+ ],
+ "price_from_inr": 11500,
+ "save_tips": [
+  "Travel between Wednesday and Sunday so Nathu La is open and you do not pay for a wasted day.",
+  "Share the permit-day vehicle with another couple to halve the biggest cost.",
+  "Avoid the Durga Puja and Christmas weeks, when room rates and car fares rise sharply.",
+  "Use shared jeeps for the Siliguri to Gangtok transfer if your luggage is light.",
+  "Eat in the restaurants around Lal Market rather than on MG Marg itself."
+ ],
+ "faqs": [
+  {"q": "Is four nights enough for Gangtok, Tsomgo and Nathu La?", "a": "Yes, for a first visit. Four nights give you a day in town, a full day for the high trip and a half day at Rumtek, plus a buffer. If you want to add North Sikkim or the Silk Route, add at least two or three more nights rather than squeezing them into this plan."},
+  {"q": "Can foreigners do this trip?", "a": "Yes, with one change. Foreign nationals need the Sikkim Inner Line Permit, collected at Rangpo or in advance, and can visit Tsomgo Lake with a Protected Area Permit, usually in a group of two or more. They cannot go to Nathu La, so day 3 becomes a Tsomgo-only trip. Check current status before you travel."},
+  {"q": "What happens if Nathu La is closed on my day?", "a": "If the pass is closed for snow or security, the trip usually goes only as far as Tsomgo and Baba Mandir, if those are open. We then try Nathu La again on day 4 and move Rumtek. If it stays closed, the agent refunds the difference in vehicle cost. Check current status before you travel."},
+  {"q": "Is this trip suitable for elderly travellers?", "a": "Mostly yes, because you sleep at about 1,650 m in Gangtok and only visit the high places for a few hours. The steps at Nathu La are tiring at 4,310 m, so some older travellers stay at the lower area. Anyone with heart or lung problems should consult a doctor before going above 3,500 m."},
+  {"q": "Can I add North Sikkim to this itinerary?", "a": "Yes. North Sikkim permits for Lachung or Lachen are arranged in Gangtok, and trips usually leave in the morning for two or three nights. Add those nights after day 3, then return to Gangtok before travelling down. That turns this into a seven or eight night trip."},
+  {"q": "Which month is best for snow on this trip?", "a": "For snow with a good chance of the road being open, choose March or April. December to February brings more snow but more closures. In May and October, snow is usually limited to the area around Nathu La. From June to September there is little snow and a lot of cloud."},
+  {"q": "How much walking does this trip involve?", "a": "Not much. Walking is mostly short: monastery courtyards, MG Marg, the shore at Tsomgo and the steps to the viewing area at Nathu La. Gangtok is steep, so the town walks feel harder than their length suggests. Comfortable shoes with grip are enough; you do not need trekking boots."},
+  {"q": "Is the price per person or per couple?", "a": "Prices are per person for two people sharing a room and, where relevant, a car. Single travellers pay more because rooms and cars are not shared. Groups of four or more pay less per person on the car and permit-day costs. All prices are indicative and depend on season and availability."},
+  {"q": "What should I pack for this trip?", "a": "Pack layers: light clothes for Gangtok days, a fleece and a windproof jacket, gloves, a warm hat and thermal underwear for Tsomgo and Nathu La. Add sunglasses, sunscreen, lip balm, a refillable bottle, basic medicines and a power bank. In winter, waterproof shoes or boots help in snow."}
+ ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "west-sikkim-pelling-yuksom-3-nights",
+  "title": "Pelling and Yuksom in three nights",
+  "summary": "A short trip from Siliguri to West Sikkim: two nights in Pelling for Kangchenjunga, Pemayangtse and Rabdentse, and one night in Yuksom, Sikkim's first capital. It suits a long weekend and needs no permits for Indians.",
+  "meta_description": "3-night Pelling and Yuksom trip from NJP: Kangchenjunga views, Pemayangtse, Rabdentse, Khecheopalri Lake, Yuksom. Budget, Value and Comfort prices.",
+  "nights": 3,
+  "start": "NJP or Bagdogra",
+  "end": "NJP or Bagdogra",
+  "pace": "Moderate",
+  "max_altitude_m": 2150,
+  "best_months": [1, 1, 2, 2, 2, 0, 0, 0, 1, 2, 2, 2],
+  "themes": ["weekend-breaks", "monasteries", "photography"],
+  "stops": [
+    {"place": "pelling", "nights": 2},
+    {"place": "yuksom", "nights": 1}
+  ],
+  "intro": [
+    "This is the shortest trip that does West Sikkim justice. You drive from the plains to Pelling on day one, spend a full day on the monasteries and the old capital at Rabdentse, then move up the valley to Yuksom by way of Khecheopalri Lake and the waterfalls. The last day is a long drive back to Siliguri.",
+    "Two mornings in Pelling give you two chances at a clear Kangchenjunga sunrise. A night in Yuksom adds Sikkim's founding story at Norbugang and the forest walk to Dubdi Monastery, with almost no crowds."
+  ],
+  "highlights": [
+    "Two sunrise chances on Kangchenjunga from Upper Pelling.",
+    "Pemayangtse Monastery and the forest walk to the Rabdentse ruins.",
+    "Khecheopalri Lake and Kanchenjunga Falls on the way to Yuksom.",
+    "The coronation throne at Norbugang, where Sikkim's first king was crowned in 1642.",
+    "A quiet night in a Yuksom homestay."
+  ],
+  "days": [
+    {"day": 1, "title": "Siliguri to Pelling", "place": "pelling", "overnight": "Pelling", "drive": "135 km, 5–6 hours", "meals": "Dinner", "text": "Pick-up at NJP or Bagdogra by 9 am. The road follows the Teesta past Sevoke to Melli, where foreign travellers get their Sikkim ILP, then crosses to Jorethang on the Rangeet and climbs through Legship and Gyalshing to Pelling at 2,150 m. Stop for lunch at Jorethang. Arrive mid-afternoon, check in, and walk to the helipad ground in Upper Pelling for the evening light on the hills. Early night: tomorrow starts at 5 am."},
+    {"day": 2, "title": "Pelling sunrise, Pemayangtse and Rabdentse", "place": "pelling", "overnight": "Pelling", "drive": "15 km, local", "meals": "Breakfast, dinner", "text": "Watch sunrise on Kangchenjunga from your roof or the helipad ground. After breakfast, drive 2 km to Pemayangtse Monastery and see the carved model of Guru Rinpoche's palace. Walk down the forest path to the ruins of Rabdentse, Sikkim's capital from 1670. In the afternoon, visit the Chenrezig statue and skywalk, or walk up to Sangachoeling Monastery for views over the town."},
+    {"day": 3, "title": "Khecheopalri Lake and on to Yuksom", "place": "yuksom", "overnight": "Yuksom", "drive": "50 km, 3 hours with stops", "meals": "Breakfast, dinner", "text": "A second chance at sunrise, then drive past Rimbi waterfall to Khecheopalri Lake, the sacred lake in the forest. Continue via Kanchenjunga Falls to Yuksom at 1,780 m. After lunch, walk to the Norbugang coronation throne and Kathok Lake. If you still have energy, climb the forest trail to Dubdi Monastery, founded in 1701. Dinner at your homestay."},
+    {"day": 4, "title": "Yuksom to Siliguri", "place": "siliguri", "overnight": "", "drive": "160 km, 6–7 hours", "meals": "Breakfast", "text": "Leave Yuksom by 7.30 am. The road drops through Tashiding or Gyalshing to Legship and Jorethang and out through Melli to the plains. Lunch at Jorethang or Melli. Reach NJP or Bagdogra by about 3 pm. Book onward trains or flights for after 5 pm to allow for traffic and slides, and longer in the monsoon."}
+  ],
+  "stays": ["norbu-ghang-resort-pelling", "upper-pelling-family-guesthouses", "elgin-mount-pandim-pelling", "yuksom-village-homestays"],
+  "includes": ["Accommodation for 3 nights, twin sharing", "Breakfast and dinner daily", "Transport as per the tier", "Driver allowances, fuel, tolls and parking"],
+  "excludes": ["Lunches", "Monument and monastery entry fees", "Sikkim ILP fees for foreign nationals", "Guides", "Personal expenses and tips"],
+  "good_to_know": [
+    "Indians need no permit for this trip; foreigners need the Sikkim ILP, issued at Melli or online. Check current status before you travel.",
+    "Kangchenjunga is clearest from October to early December and March to April, mostly in the early morning.",
+    "Yuksom has very limited ATMs; carry cash from Siliguri or Pelling.",
+    "Monsoon roads are slow; in July and August allow a spare day."
+  ],
+  "tiers": [
+    {"name": "Budget", "price_inr": 9500, "stays": "Family guesthouses in Upper Pelling and a Yuksom homestay", "transport": "Shared jeeps to and from Pelling; reserved car for the Khecheopalri and Yuksom day", "note": "Cheapest way to do it, with early starts for jeeps."},
+    {"name": "Value", "price_inr": 17500, "stays": "Norbu Ghang Resort or similar in Pelling; a good Yuksom homestay or hotel", "transport": "Private small car throughout", "note": "Our most booked tier for couples and families."},
+    {"name": "Comfort", "price_inr": 28000, "stays": "Elgin Mount Pandim in Pelling; the best available hotel in Yuksom", "transport": "Private SUV throughout", "note": "Quiet rooms near Pemayangtse and an SUV for the long days."}
+  ],
+  "price_from_inr": 9500,
+  "save_tips": [
+    "Travel in a group of four to split the car cost; it is the biggest single expense.",
+    "Take the morning shared jeep from Siliguri to Pelling instead of a reserved car.",
+    "Go in February, early March or late November for lower room rates with good views.",
+    "Eat thalis and momos in local cafés rather than hotel restaurants.",
+    "Stay in a Yuksom homestay with meals included."
+  ],
+  "faqs": [
+    {"q": "Is three nights enough for West Sikkim", "a": "Three nights is enough for Pelling's main sights and a taste of Yuksom, but it is tight. Days one and four are mostly driving. If you can add a night, spend it in Rinchenpong or a second night in Yuksom for Tashiding. With five or more nights, combine West Sikkim with Ravangla and Namchi or with Gangtok."},
+    {"q": "How much does this trip cost per person", "a": "Indicative prices per person on twin sharing are about ₹9,500 in the Budget tier, ₹17,500 in Value and ₹28,000 in Comfort, including stays, breakfasts, dinners and transport. Solo travellers pay more because car and room costs are not shared. Prices rise in October, the Puja holidays and New Year week."},
+    {"q": "Can I do this trip with young children", "a": "Yes. Drives are long on days one and four, so plan breaks and carry motion-sickness remedies. Walks to Rabdentse and Norbugang are easy. Skip the Dubdi climb with toddlers. Pelling and Yuksom are cold at night from November to March, so pack warm sleepwear and ask for heaters."},
+    {"q": "What is the best month for this trip", "a": "October and November give the clearest views and dry roads. March and April bring rhododendrons, mild weather and good views in the mornings. December to February is cold but often very clear. Avoid June to September if mountain views matter, as cloud and landslides are common."},
+    {"q": "Do I need a permit for Pelling and Yuksom", "a": "Indian citizens need no permit; carry photo ID for hotel check-in. Foreign nationals need the Sikkim Inner Line Permit, available at the Melli checkpost or online, and should carry copies. No other permit is needed unless you trek into Khangchendzonga National Park. Check current status before you travel."},
+    {"q": "Can I add the Goecha La trek to this trip", "a": "Not in three nights. The Goecha La trek takes 8–10 days from Yuksom, and even the shorter Dzongri trek needs 4–5 days. You can end this trip in Yuksom and start a trek from there with a registered agency, then return to Siliguri afterwards. Book the trek well in advance."},
+    {"q": "What altitude will I reach on this trip", "a": "The highest point is Pelling at about 2,150 m, with Sangachoeling ridge a little higher at about 2,400 m on the optional walk. That is too low for most people to get altitude sickness. You will notice cold air and some breathlessness on steep paths. Walk slowly and drink water."},
+    {"q": "Can I start this trip from Gangtok instead", "a": "Yes. Gangtok to Pelling is about 5 hours by road via Ravangla, similar to the drive from Siliguri. You can end in Yuksom and return to Siliguri, or loop back to Gangtok. Starting in Gangtok makes sense if you are already there; otherwise Siliguri is the more direct gateway."},
+    {"q": "What should I pack for Pelling and Yuksom", "a": "Bring warm layers in every season: a jacket, fleece, hat and gloves from November to March, and a light jacket even in May. Pack walking shoes, a rain jacket, a head torch, sunglasses, sunscreen, any medicines and cash. Modest clothes are needed for monasteries."}
+  ]
+}

@@ -1,0 +1,171 @@
+{
+ "slug": "zuluk",
+ "name": "Zuluk",
+ "kind": "Village",
+ "tagline": "Hairpin bends and homestays on the old Silk Route",
+ "summary": "Zuluk, also written Dzuluk, is a small village and army settlement at about 3,000 m on the old trade route from Tibet to Kalimpong. It is famous for the zigzag road above it and sunrise over Kangchenjunga from Thambi viewpoint, and it needs a permit that only Indian nationals can get.",
+ "meta_description": "Zuluk (Dzuluk) Silk Route guide: zigzag road, Thambi viewpoint, Nathang valley, Rongli permit (Indians only), homestays, costs and best months.",
+ "wiki": "Zuluk",
+ "image_query": "Zuluk zigzag road Sikkim",
+ "lat": 27.2524,
+ "lng": 88.7748,
+ "altitude_m": 3000,
+ "nights": 2,
+ "best_months": [1, 1, 1, 2, 2, 1, 0, 0, 1, 2, 2, 1],
+ "themes": ["snow-and-passes", "homestays", "photography", "shoestring"],
+ "intro": [
+  "Zuluk sits on a steep slope at about 3,000 m in the Pakyong district of Sikkim, formerly part of East Sikkim. It began as a halt on the mule track from Kalimpong over Jelep La to Lhasa, and today it is a cluster of homestays, small shops and an army camp. Above it, the road climbs in tight loops that look, from Thambi viewpoint, like a thread laid on the hillside.",
+  "The village is the overnight stop on what travel agents call the Silk Route, a circuit through Rongli, Zuluk, Nathang, Kupup and Tsomgo. The road was built by the army and is used by military trucks every day. Mornings bring clear views of the Kangchenjunga range to the northwest; afternoons often bring cloud.",
+  "Facilities are basic. There are no hotels, only homestays, and power, water and phone signal can be patchy. That is part of the appeal for many travellers. Spend two nights so you can see sunrise from Thambi on one morning and explore Nathang valley at leisure."
+ ],
+ "highlights": [
+  {"title": "The zigzag road", "text": "Dozens of hairpin bends climbing the slope above Zuluk, best seen from Thambi viewpoint."},
+  {"title": "Thambi viewpoint at sunrise", "text": "At about 3,400 m, with Kangchenjunga turning gold across the ranges."},
+  {"title": "Nathang valley", "text": "A high, open valley at about 4,000 m with grazing yaks, a small village and a British-era war cemetery."},
+  {"title": "Kupup and Elephant Lake", "text": "A small lake near Kupup said to be shaped like an elephant, on the high road towards Tsomgo."},
+  {"title": "Snow in winter", "text": "From December to February the village and road are often under snow, a draw for snow-seekers."}
+ ],
+ "facts": [
+  ["Altitude", "About 3,000 m (sources give 2,900–3,100 m)"],
+  ["From Siliguri", "About 140 km via Rangpo and Rongli, 6–7 hours"],
+  ["From Gangtok", "About 95 km via Rongli, 4–5 hours"],
+  ["Best for", "Mountain roads, sunrise views, snow, homestays"],
+  ["Nights", "2"],
+  ["Permits", "Protected Area Permit via Rongli for Indians only; foreigners not allowed"]
+ ],
+ "how_to_reach": [
+  {"mode": "Shared jeep", "text": "Shared jeeps run from Siliguri and Gangtok to Rongli, but not on to Zuluk. From Rongli, your homestay can send a local car for the 30 km climb, for about ₹2,000–3,000."},
+  {"mode": "Private car", "text": "Most visitors hire a car with driver from NJP, Siliguri or Gangtok for the whole circuit, at about ₹4,500–6,500 a day. The usual route is up via Rongli and out over Nathang, Kupup and Tsomgo to Gangtok."},
+  {"mode": "Air", "text": "Fly to Bagdogra and drive via Rangpo and Rongli, about 6–7 hours. Pakyong airport is closer but flights have been irregular. Check current status before you travel."}
+ ],
+ "where_to_stay": "Stay in one of the village homestays, which charge about ₹1,200–2,000 per person a night including dinner and breakfast. Rooms are simple, with thick quilts and sometimes electric heaters. There are no hotels in Zuluk. Some travellers stay at Gnathang (Nathang) instead, which is higher and colder, or at Padamchen or Lingtam lower down.",
+ "stays": ["zuluk-silk-route-homestays"],
+ "nearby": ["aritar", "tsomgo-lake", "nathu-la", "gangtok"],
+ "tips": [
+  "Send photo ID and photos to your homestay or agent a few days ahead so the permit is ready at Rongli.",
+  "Sleep a night at a lower place such as Aritar on the way up, especially if you continue to Nathang at about 4,000 m.",
+  "Carry cash; there are no ATMs in Zuluk and digital payments depend on patchy signal.",
+  "Hire a local driver who knows the road; do not self-drive in snow.",
+  "Do not photograph army camps or vehicles."
+ ],
+ "costs": [
+  {"item": "Reserved car NJP or Siliguri to Zuluk", "inr": "₹5,500–7,500 per car"},
+  {"item": "Car with driver on the Silk Route circuit", "inr": "₹4,500–6,500 a day"},
+  {"item": "Homestay with dinner and breakfast", "inr": "₹1,200–2,000 per person a night"},
+  {"item": "Protected Area Permit processing", "inr": "₹200–500 a person, often included by the host"},
+  {"item": "Local car Rongli to Zuluk", "inr": "₹2,000–3,000 per car"},
+  {"item": "Shared jeep Siliguri to Rongli", "inr": "₹250–350 a seat"}
+ ],
+ "local_word": {"word": "Lam", "language": "Sikkimese (Bhutia) and Tibetan", "meaning": "Road or path; the old trade route through Zuluk was the gyalam, the main road to Lhasa"},
+ "story": {
+  "title": "The war on the trade road in 1888",
+  "paras": [
+   "In 1886 Tibetan troops built a fort at Lingtu, on the trade road a little below Jelep La and above the place where Zuluk now stands. The British, who regarded Sikkim as under their influence, saw the fort as an intrusion and demanded its withdrawal. When talks failed, an expedition was sent from Darjeeling in 1888.",
+   "British and Indian troops under Brigadier-General Thomas Graham marched up the old mule track through Rhenock and Rongli and took the Lingtu fort in March 1888. Later that year the Tibetans attacked again around Gnathang, the high valley above Zuluk, and were pushed back over Jelep La after fighting in the snow.",
+   "The campaign ended Tibetan control in the area and led to the Anglo-Chinese convention of 1890, which set the boundary between Sikkim and Tibet along the watershed. It also tightened British control over Sikkim itself.",
+   "Travellers on the Silk Route today pass through the same ground. At Gnathang, small memorials and a war cemetery recall the soldiers who died at this height, and the hairpin road above Zuluk follows much the same line that mule trains and soldiers once climbed on foot."
+  ],
+  "sources": [
+   {"title": "Sikkim expedition (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Sikkim_expedition"},
+   {"title": "Jelep La (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jelep_La"},
+   {"title": "Zuluk (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Zuluk"}
+  ]
+ },
+ "faqs": [
+  {"q": "Can foreigners visit Zuluk?", "a": "No. The Silk Route through Zuluk, Nathang and Kupup is a restricted area close to the border, and Protected Area Permits for it are issued only to Indian nationals. Foreigners can visit Aritar, which is lower down in the same district, and Tsomgo Lake with a separate permit. Check current status before you travel."},
+  {"q": "How do I get a permit for Zuluk?", "a": "Your homestay host or a registered travel agent applies for the Protected Area Permit, usually at Rongli, using scans of a government photo ID and passport photos. Send these a few days ahead. The permit is checked at Rongli and at army checkposts on the way. Rules and fees are indicative. Check current status before you travel."},
+  {"q": "What is the best time to visit Zuluk?", "a": "April to May and October to November give the clearest views and safest roads. December to February brings snow, which makes the area beautiful but can close the road above Zuluk. June to September is wet, with cloud and landslides. For sunrise over Kangchenjunga, October and November are hard to beat."},
+  {"q": "How many nights should I spend in Zuluk?", "a": "Two nights is ideal. The first evening you arrive tired from the drive; the next morning you go to Thambi viewpoint for sunrise, then spend the day around Nathang and Kupup or rest. One night is possible but rushed, and leaves no margin if weather hides the view on your only morning."},
+  {"q": "Is Zuluk too high for altitude sickness?", "a": "At about 3,000 m, Zuluk itself rarely causes more than mild symptoms in healthy adults, but the road above climbs to about 4,000 m at Nathang and Kupup. Sleep a night lower down first, such as at Aritar, drink water, avoid alcohol and descend if headaches or nausea get worse."},
+  {"q": "Is there mobile signal and electricity in Zuluk?", "a": "Some networks, mainly BSNL and Jio, work in parts of Zuluk, but signal is weak and drops often. Electricity is available but cuts are common, especially in bad weather. Carry a power bank, download offline maps and tell people at home you may be out of contact for a day or two."},
+  {"q": "What is the Silk Route in Sikkim?", "a": "It is the travel-trade name for the old mule road that ran from Kalimpong through Rhenock, Rongli, Zuluk and Gnathang to Jelep La and on to Lhasa. It was one branch of the wider network of Tibetan trade routes. Today the circuit is driven as a two to four night trip from Siliguri or Gangtok."},
+  {"q": "Can I go from Zuluk to Gangtok over Nathang and Tsomgo?", "a": "Yes, if your permit covers it and the road is open. The high road climbs from Zuluk past Thambi viewpoint, Nathang, Kupup and Old Baba Mandir to join the Nathu La road near Tsomgo, then descends to Gangtok in 5–6 hours. It can close after snow, so have a backup plan via Rongli."},
+  {"q": "How much does a Zuluk trip cost?", "a": "A typical two-night Silk Route trip from Siliguri costs about ₹6,000–9,000 per person for two people sharing a car, including homestays with meals and the permit. Costs fall when four or five people share the vehicle. Prices are indicative and rise in snow season and peak holidays."}
+ ],
+ "experiences": [
+  {
+   "slug": "zuluk-thambi-viewpoint-sunrise",
+   "title": "Sunrise from Thambi viewpoint",
+   "kind": "nature",
+   "duration": "2–3 hours",
+   "summary": "Thambi viewpoint, about 14 km above Zuluk at roughly 3,400 m, looks over the zigzag road below and across to the Kangchenjunga range. Leave Zuluk before dawn to see the first light on the peaks.",
+   "body": [
+    "Your driver will want to leave Zuluk around 4.30 to 5 am, depending on the season. The road climbs through the hairpins in the dark, and you reach the viewpoint as the sky begins to lighten. On clear mornings the Kangchenjunga range lights up pink and then gold across the northwest horizon.",
+    "Turn round and you see the road you have just climbed, laid out in loops on the slope below. It is cold at this hour in every season, often below zero, so wear everything warm you have. Some homestays send a flask of tea; otherwise carry one."
+   ],
+   "best_time": "Sunrise from October to April, on a morning that starts clear.",
+   "good_for": ["Photographers", "Couples", "Early risers"],
+   "cost": "Usually included in the Silk Route car hire; otherwise ₹1,500–2,500 per car",
+   "wiki": "",
+   "image_query": "Thambi viewpoint Zuluk",
+   "faqs": [
+    {"q": "How far is Thambi viewpoint from Zuluk?", "a": "It is about 14 km above Zuluk by road, roughly 40–50 minutes' drive through the hairpin bends. Most drivers include it in the circuit on the way to Nathang. For sunrise you leave Zuluk in the dark, so agree the time with your driver the evening before."},
+    {"q": "Is Kangchenjunga visible from Thambi viewpoint?", "a": "Yes, on clear days, especially at sunrise between October and April. The range appears across the northwest horizon. Cloud often builds by mid-morning, and from June to September the peaks are hidden most days. The zigzag road below is visible in most weather except thick fog."},
+    {"q": "Can I walk to Thambi viewpoint?", "a": "Walking up is possible for fit, acclimatised walkers, but it is a long, steep climb on a road used by army trucks, and you would miss sunrise unless you started in the middle of the night. Most travellers drive up and walk down part of the way to enjoy the loops at their own pace."}
+   ]
+  },
+  {
+   "slug": "zuluk-zigzag-road-photography",
+   "title": "Photographing the Zuluk zigzag road",
+   "kind": "adventure",
+   "duration": "Half day",
+   "summary": "The road above Zuluk climbs in a long series of hairpin bends that photographers come specifically to capture. Walk and drive parts of it at different times of day for different light.",
+   "body": [
+    "The loops are best seen from above, at Thambi viewpoint and at a few bends just below it. Morning light from the east lights the slope; late afternoon brings long shadows that bring out the curves. In winter, snow outlines the road in white and makes the pattern even clearer.",
+    "Respect the road's purpose. It is a working military route, and army trucks have right of way. Stand well off the tarmac on the outside of bends, never block traffic for a photograph, and do not photograph army vehicles or camps. Drones are not allowed in this border area."
+   ],
+   "best_time": "Early morning or late afternoon, October to April.",
+   "good_for": ["Photographers", "Road-trip lovers", "Couples"],
+   "cost": "₹0 beyond car hire",
+   "wiki": "",
+   "image_query": "Zuluk loops road",
+   "faqs": [
+    {"q": "How many hairpin bends are there above Zuluk?", "a": "Counts vary depending on where you start and what you count as a bend, and figures quoted range from about 30 to more than 90 across the wider stretch. What matters is that the loops below Thambi viewpoint are tight and numerous enough to form the famous pattern seen in photographs."},
+    {"q": "Can I fly a drone at Zuluk?", "a": "No. Zuluk is in a sensitive border area with army installations, and drone flying is not permitted without special authorisation, which tourists do not get. Drones may be confiscated at checkposts. Stick to ground photography and use a telephoto lens from the viewpoints."},
+    {"q": "Which lens is best for the Zuluk loops?", "a": "A wide-angle lens captures the whole slope from Thambi viewpoint, while a short telephoto picks out sections of the road with vehicles for scale. A phone camera's standard lens works well in good light. Bring spare batteries, as cold drains them quickly at this altitude."}
+   ]
+  },
+  {
+   "slug": "zuluk-nathang-valley-and-kupup",
+   "title": "Nathang valley and Kupup on the high road",
+   "kind": "snow",
+   "duration": "Full day",
+   "summary": "Above Thambi the road crosses Nathang valley at about 4,000 m and continues to Kupup and Elephant Lake. It is the highest and wildest part of the Silk Route, often under snow from December to April.",
+   "body": [
+    "Nathang, also written Gnathang, is a broad valley with a small village of herders, an army presence and a British-era war cemetery from the 1888 campaign. Yaks graze on the slopes in summer. In winter the whole valley can be white, and nights there are bitterly cold.",
+    "Beyond Nathang the road passes Old Baba Mandir and reaches Kupup, near a small lake called Elephant Lake for its shape when seen from above. From here you can see towards Jelep La on clear days. Spend only a few hours at this height unless you have acclimatised, and carry water and snacks."
+   ],
+   "best_time": "April to May and October to November for open roads; December to March for snow.",
+   "good_for": ["Snow-seekers", "Photographers", "Adventurous travellers"],
+   "cost": "Included in Silk Route car hire; permits must cover the sector",
+   "wiki": "",
+   "image_query": "Nathang valley Sikkim",
+   "faqs": [
+    {"q": "Can I stay overnight in Nathang?", "a": "A few homestays operate in Nathang, but at about 4,000 m nights are very cold and altitude sickness is more likely. It suits travellers who are already acclimatised. Most people stay in Zuluk and visit Nathang by day. Check your permit covers an overnight stay there."},
+    {"q": "What is Elephant Lake near Kupup?", "a": "It is a small high-altitude lake near Kupup, so called because its outline looks like an elephant when seen from the road above. It is often frozen in winter. The lake sits close to the Jelep La area, so stop only where your driver says it is permitted."},
+    {"q": "Is the road over Nathang open in winter?", "a": "It is often open but can close for days after heavy snowfall until the Border Roads Organisation clears it. Drivers fit chains when needed. Ask your homestay host about the road the evening before, keep a backup plan to return via Rongli, and check current status before you travel."}
+   ]
+  },
+  {
+   "slug": "zuluk-homestay-evening",
+   "title": "An evening in a Zuluk homestay",
+   "kind": "village",
+   "duration": "Evening",
+   "summary": "Life in Zuluk revolves around the homestays. Spend the evening by the kitchen stove, eat home-cooked food and listen to your hosts talk about winters on the Silk Route.",
+   "body": [
+    "Most Zuluk homestays have a warm kitchen where guests gather after dark. Dinner is simple and filling: rice, dal, a vegetable curry, eggs or chicken, pickles, and sometimes a local dish made with churpi or gundruk. Hosts often grow vegetables in summer and stock up from Rongli for winter.",
+    "Ask your hosts about the village's history as a mule halt, about road closures in snow, and about how the army and villagers live side by side. Go to bed early; the sunrise trip to Thambi starts before dawn, and nights are cold."
+   ],
+   "best_time": "Any evening, best in October to April when skies are clear for stars.",
+   "good_for": ["Backpackers", "Couples", "Families"],
+   "cost": "Included in homestay rates of ₹1,200–2,000 per person",
+   "wiki": "",
+   "image_query": "Zuluk homestay",
+   "faqs": [
+    {"q": "Is alcohol available in Zuluk?", "a": "Some shops and homestays sell beer or local spirits, but supply is limited. More importantly, alcohol at this altitude makes acclimatisation harder and can mask symptoms of altitude sickness, especially before a trip up to Nathang at about 4,000 m. It is better to keep the first night dry."},
+    {"q": "Can I see stars from Zuluk?", "a": "Yes. With little light pollution and dry winter air, the night sky can be very clear from October to March. Step outside the homestay for ten minutes, let your eyes adjust and dress warmly, as temperatures often fall below freezing after dark."},
+    {"q": "Do Zuluk homestays cater for vegetarians?", "a": "Yes. Rice, dal, vegetables, eggs and roti are standard, and hosts easily prepare fully vegetarian meals. Tell them when you book, especially if you also avoid onion and garlic or eggs, because supplies come up from Rongli and they plan meals in advance."}
+   ]
+  }
+ ]
+}

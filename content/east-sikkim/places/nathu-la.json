@@ -1,0 +1,170 @@
+{
+ "slug": "nathu-la",
+ "name": "Nathu La",
+ "kind": "Mountain pass",
+ "tagline": "The border pass at 4,310 m on the old road to Lhasa",
+ "summary": "Nathu La is a mountain pass at 4,310 m on the India–China border, about 56 km from Gangtok. Indian nationals can visit on a day trip with a permit, usually combined with Tsomgo Lake and Baba Mandir; foreign nationals are not allowed.",
+ "meta_description": "Nathu La guide: 4,310 m border pass 56 km from Gangtok, permit rules (Indians only), open days, Baba Mandir, altitude advice, costs and best season.",
+ "wiki": "Nathu La",
+ "image_query": "Nathu La pass Sikkim",
+ "lat": 27.3866,
+ "lng": 88.8306,
+ "altitude_m": 4310,
+ "nights": 0,
+ "best_months": [0, 1, 1, 2, 2, 1, 0, 0, 1, 2, 2, 1],
+ "themes": ["snow-and-passes", "photography", "family-trips"],
+ "intro": [
+  "Nathu La crosses the Dongkya range at 4,310 m and links Sikkim with the Chumbi valley in Tibet. For centuries it was one of the main gateways of the trade route between Kalimpong and Lhasa, carrying wool, salt and musk one way and cloth, tea and manufactured goods the other. Today it is a guarded border between India and China.",
+  "Visitors drive up from Gangtok past Tsomgo Lake and the army settlement at Sherathang to a parking area below the pass. From there, steps lead up to a viewing area by the border fence, where Indian and Chinese posts stand a short distance apart. Soldiers on duty explain the rules, and photography is restricted at certain points.",
+  "The air at 4,310 m holds much less oxygen than at sea level, and the wind is usually cold. Keep the visit to about an hour, climb the steps slowly and come down if you feel unwell. Spend at least one night in Gangtok before going up."
+ ],
+ "highlights": [
+  {"title": "The border viewing area", "text": "A platform by the fence where you can look across to the Chinese side of the pass."},
+  {"title": "Baba Harbhajan Singh Mandir", "text": "A shrine to an Indian soldier said to still watch over the border, visited on the way back."},
+  {"title": "Nathu La war memorial", "text": "A memorial to Indian soldiers who died in the 1967 clashes at the pass."},
+  {"title": "Snow from winter to spring", "text": "Deep snow lies around the pass for much of the year, often into April."},
+  {"title": "The drive past Tsomgo", "text": "A climb from 1,650 m to 4,310 m in about three hours, through forest, alpine scrub and bare ridges."}
+ ],
+ "facts": [
+  ["Altitude", "4,310 m"],
+  ["From Gangtok", "56 km, 2.5–3 hours"],
+  ["From Siliguri", "About 170 km via Gangtok; overnight in Gangtok first"],
+  ["Best for", "Border history, snow, a high-altitude day trip"],
+  ["Nights", "0 (day trip from Gangtok)"],
+  ["Permits", "Indians only, via registered agent a day ahead; foreigners not allowed; usually closed to tourists Mondays and Tuesdays"]
+ ],
+ "how_to_reach": [
+  {"mode": "Shared jeep", "text": "Pooled vehicles sold by Gangtok agents cover Nathu La, Baba Mandir and Tsomgo for about ₹1,200–2,000 a seat with the permit. Documents must reach the agent the day before."},
+  {"mode": "Private car", "text": "A reserved car through a registered agent costs about ₹5,500–7,500 including Tsomgo and Baba Mandir. Only vehicles registered for the route are allowed beyond the checkpost."},
+  {"mode": "Air", "text": "Fly to Bagdogra and spend at least one night in Gangtok before going up. Do not try to reach Nathu La on the day you arrive. Check current status before you travel."}
+ ],
+ "where_to_stay": "Visitors cannot stay at or near Nathu La; the area is a military zone. Stay in Gangtok and go as a day trip. Pick a central hotel or guesthouse that serves early breakfast, as vehicles leave between 7 and 8 am. Guesthouses cost ₹1,200–2,500, mid-range hotels ₹3,000–6,000 and heritage or resort stays ₹9,000 and more.",
+ "stays": ["hotel-sonam-delek-gangtok", "elgin-nor-khill-gangtok"],
+ "nearby": ["tsomgo-lake", "gangtok", "zuluk"],
+ "tips": [
+  "Apply through a registered agent a day ahead with photo ID and two passport photos.",
+  "The pass is usually closed to tourists on Mondays and Tuesdays; plan around it.",
+  "Do not photograph soldiers, bunkers or anything you are told not to.",
+  "Climb the steps to the viewing area slowly and turn back if you feel dizzy.",
+  "Carry snacks and water; food options above Tsomgo are limited to a few army-run cafés."
+ ],
+ "costs": [
+  {"item": "Seat in a pooled vehicle for Nathu La, Baba Mandir and Tsomgo, with permit", "inr": "₹1,200–2,000 a person"},
+  {"item": "Reserved car for Nathu La, Baba Mandir and Tsomgo", "inr": "₹5,500–7,500 per car"},
+  {"item": "Nathu La permit and processing", "inr": "₹200–500 a person, usually built into the agent's price"},
+  {"item": "Hire of snow boots or coat", "inr": "₹100–200 each"},
+  {"item": "Tea and Maggi at an army café", "inr": "₹50–150"}
+ ],
+ "local_word": {"word": "La", "language": "Sikkimese (Bhutia) and Tibetan", "meaning": "A mountain pass, as in Nathu La, Jelep La and Cho La"},
+ "story": {
+  "title": "The soldier who never left the pass",
+  "paras": [
+   "In 1968 Harbhajan Singh, a young sepoy of the Punjab Regiment, died near Nathu La. The most common account is that he slipped into a fast stream while leading mules to a remote post, and his body was found some days later.",
+   "Soon after, soldiers posted in the area began to tell stories that he was still on duty. He was said to appear in dreams to warn of danger, and some told of him visiting colleagues to point out lapses at their posts. A small shrine was built in his memory, and he became known as Baba Harbhajan Singh, the saint of the soldiers.",
+   "The shrine grew into a memorial visited by thousands, and a newer Baba Mandir was built lower down the road for easier access. Soldiers still keep his room in order, and for many years a seat was booked for him on a train home on his annual leave.",
+   "Whether you take the stories as faith or as regimental tradition, they show how much the pass means to the men who guard it. Visitors leave bottles of water at the shrine to take home as blessed water, and many drivers stop to pray before the drive down."
+  ],
+  "sources": [
+   {"title": "Baba Harbhajan Singh (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Baba_Harbhajan_Singh"},
+   {"title": "Nathu La (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Nathu_La"},
+   {"title": "Told locally by soldiers and drivers on the Nathu La road", "url": ""}
+  ]
+ },
+ "faqs": [
+  {"q": "Can foreigners visit Nathu La?", "a": "No. Nathu La is open only to Indian nationals. Foreign nationals, including OCI card holders, are not issued Nathu La permits. Foreigners can visit Tsomgo Lake on a day trip with a Protected Area Permit arranged through an agent, but must turn back before the pass. Check current status before you travel."},
+  {"q": "Which days is Nathu La open to tourists?", "a": "Nathu La is usually open to tourists from Wednesday to Sunday and closed on Mondays and Tuesdays. It also closes after heavy snow, during security events and on some special days. The permit system is managed by the Sikkim government and the army. Check current status before you travel."},
+  {"q": "How do I get a Nathu La permit?", "a": "Book through a registered travel agent in Gangtok. Indian nationals submit a copy of a government photo ID and two passport photos, usually by early afternoon the day before. The agent applies online or through the tourism office and includes the permit in the vehicle price. You cannot apply in person as an individual tourist."},
+  {"q": "How high is Nathu La and is altitude sickness a risk?", "a": "Nathu La is at 4,310 m, high enough for headaches, breathlessness and nausea in some visitors. Spend at least one night in Gangtok first, avoid alcohol the night before, climb slowly and keep the visit short. If symptoms worsen, descend. People with heart or lung conditions should consult a doctor."},
+  {"q": "Can children visit Nathu La?", "a": "Children have visited, but the altitude and cold are harder on small children, who may not tell you they feel unwell. Many families take young children only as far as Tsomgo. Age limits for permits have varied over the years. Ask your agent about the current rule and check current status before you travel."},
+  {"q": "What is the best time to visit Nathu La?", "a": "April to June and October to November usually give open roads and clearer skies. December to March brings deep snow and frequent closures. July to September brings cloud and landslides. For snow with a good chance of the road being open, March and April are often a reasonable compromise."},
+  {"q": "Can I take photographs at Nathu La?", "a": "You can photograph the scenery and yourselves in the visitor area, but soldiers may stop photography of border installations, people in uniform or the Chinese side at certain points. Follow their instructions at once. Drones are not allowed. Phones usually have little or no signal at the pass."},
+  {"q": "What is there to see at Nathu La?", "a": "You see the border fence and the posts of both countries, the Nathu La war memorial, snowfields, and on clear days long views over the ridges. Most trips also stop at Baba Harbhajan Singh Mandir and at Tsomgo Lake on the way back. Allow a full day from Gangtok."},
+  {"q": "Is the Nathu La trade route still in use?", "a": "Border trade through Nathu La reopened in 2006 after a gap of more than 40 years, through a trade mart at Sherathang, with local traders exchanging a limited list of goods in summer. Trade has been suspended at times since 2020. It is not a crossing point for tourists in either direction."}
+ ],
+ "experiences": [
+  {
+   "slug": "nathu-la-border-viewing-area",
+   "title": "At the border fence on Nathu La",
+   "kind": "culture",
+   "duration": "1 hour at the pass",
+   "summary": "Climb the steps from the parking area to the viewing area at the fence, where Indian and Chinese posts face each other across the pass. Soldiers explain the history and the rules.",
+   "body": [
+    "From the parking area, a flight of steps leads up to the viewing area. At 4,310 m this climb is harder than it looks, so stop often. At the top, the fence marks the border, with Chinese buildings visible a short distance away. Soldiers on duty sometimes talk to visitors about the pass and its history.",
+    "There are strict limits on where you can stand and what you can photograph, and they change from time to time. Follow instructions immediately. Most visitors spend about an hour at the pass before the cold and altitude make them ready to head down to Baba Mandir and Tsomgo."
+   ],
+   "best_time": "Late morning on a clear day, between April and June or in October and November.",
+   "good_for": ["History buffs", "Families with older children", "Photographers"],
+   "cost": "Included in the Nathu La permit trip, ₹1,200–2,000 a seat or ₹5,500–7,500 per car",
+   "wiki": "",
+   "image_query": "Nathu La border",
+   "faqs": [
+    {"q": "How many steps are there to the Nathu La viewing area?", "a": "The climb from the parking area involves a few hundred steps and takes 10–20 minutes at an easy pace. That sounds simple, but at 4,310 m it can be exhausting. Rest every few flights and do not race. Those who cannot manage the steps can wait at the lower area."},
+    {"q": "Can I talk to soldiers at Nathu La?", "a": "Soldiers often greet visitors and may answer questions about the pass, but they are on duty. Be polite, keep it brief, and do not photograph them without permission. Do not ask about troop numbers or positions. Many visitors thank them for their service, which is usually well received."},
+    {"q": "Is there mobile signal at Nathu La?", "a": "Signal at the pass is weak or absent on most networks, and you should not rely on your phone for navigation or calls. Let people know you will be out of contact for most of the day. Signal usually returns near Tsomgo and is good again closer to Gangtok."}
+   ]
+  },
+  {
+   "slug": "nathu-la-baba-harbhajan-singh-mandir",
+   "title": "Baba Harbhajan Singh Mandir",
+   "kind": "spiritual",
+   "duration": "30–45 minutes",
+   "summary": "A shrine to Harbhajan Singh, a soldier who died near Nathu La in 1968 and is believed by many to still guard the border. It is a standard stop on the Nathu La and Tsomgo day trip.",
+   "body": [
+    "The memorial most visitors see is the newer Baba Mandir, built on the road below the pass for easier access. It has a shrine with Harbhajan Singh's portrait, a room said to hold his belongings and a stream beside it where visitors fill bottles of water to take home as blessed water.",
+    "The original shrine, often called Old Baba Mandir, is higher and further away on the road towards Kupup and is visited mainly on Silk Route trips. Both are run by the army, which also serves tea and snacks at a nearby café. Shoes come off before entering the shrine."
+   ],
+   "best_time": "After Nathu La, around midday.",
+   "good_for": ["Families", "Pilgrims", "First-timers"],
+   "cost": "₹0; included in the Tsomgo and Nathu La trip",
+   "wiki": "Baba Harbhajan Singh",
+   "image_query": "Baba Harbhajan Singh Mandir",
+   "faqs": [
+    {"q": "Can foreigners visit Baba Mandir?", "a": "Baba Mandir lies beyond Tsomgo Lake on the road towards Nathu La, and foreign nationals are generally not permitted that far. Indian nationals visit it on the Tsomgo permit with Baba Mandir or on the Nathu La permit. Rules are indicative. Check current status before you travel."},
+    {"q": "What is the difference between old and new Baba Mandir?", "a": "The old shrine marks the place linked to Harbhajan Singh's posting and stands higher on the road towards Kupup and the Silk Route. The newer Baba Mandir was built lower down, on the Nathu La road, so more visitors could reach it. Most Gangtok day trips visit the newer one."},
+    {"q": "Why do visitors leave water bottles at Baba Mandir?", "a": "Many visitors fill bottles from the stream near the shrine or leave them there for a while, believing the water becomes blessed and can cure illness. It is a widely followed custom among Indian visitors and soldiers. Take back what you bring; do not leave plastic behind."}
+   ]
+  },
+  {
+   "slug": "nathu-la-1967-war-memorial",
+   "title": "The 1967 Nathu La war memorial",
+   "kind": "culture",
+   "duration": "30 minutes",
+   "summary": "A memorial near the pass honours Indian soldiers killed in the 1967 clashes at Nathu La and nearby Cho La. Reading its panels gives the pass a weight that the scenery alone does not.",
+   "body": [
+    "In September 1967 a dispute over fencing at the pass turned into heavy firing between Indian and Chinese troops, and fighting spread to Cho La a few weeks later. Both sides suffered casualties. The clashes are remembered in India as a time when the border line in Sikkim was firmly held.",
+    "The memorial near the pass lists names and tells the story through plaques and photographs. Visit it after the viewing area, while your vehicle waits. Speak quietly, follow any instructions from soldiers, and remove hats if asked. It is a short stop but one that many visitors remember."
+   ],
+   "best_time": "During the Nathu La visit, before heading down to Baba Mandir.",
+   "good_for": ["History buffs", "Families with older children", "Veterans"],
+   "cost": "₹0; included in the Nathu La trip",
+   "wiki": "Nathu La and Cho La clashes",
+   "image_query": "Nathu La war memorial",
+   "faqs": [
+    {"q": "What happened at Nathu La in 1967?", "a": "In September 1967, tension over a fence being laid at the pass led to an exchange of fire between Indian and Chinese troops, followed by days of shelling. In October there was a further clash at Cho La. Both sides lost soldiers. The events are known as the Nathu La and Cho La clashes."},
+    {"q": "Is the war memorial always open to visitors?", "a": "It is usually accessible as part of the Nathu La visit when the pass is open to tourists. Access depends on the army's arrangements on the day, and some areas may be closed. Your driver will know the current pattern. Check current status before you travel."},
+    {"q": "Is there a museum about the Nathu La clashes?", "a": "There is no large museum at the pass, but the memorial has plaques, photographs and lists of names. For more depth, books and articles on the 1967 clashes and the Indian Army's histories of the Sikkim frontier cover the events in detail. Wikipedia's article is a reasonable starting point."}
+   ]
+  },
+  {
+   "slug": "nathu-la-spring-snow-drive",
+   "title": "Snow on the Nathu La road in spring",
+   "kind": "snow",
+   "duration": "Full day from Gangtok",
+   "summary": "From March to May the road above Tsomgo is often lined with walls of snow and the pass is still white, but the road is open more often than in deep winter. It is the best season for a snow day at the border.",
+   "body": [
+    "Snow lingers around Nathu La well into spring. In March and April the road is often cut through banks of snow taller than the cars, and the slopes around the pass are good for a snowball fight or photographs. Clear mornings are common before cloud builds after midday.",
+    "Because weather is still unsettled, keep a spare day in Gangtok and leave early. Hire boots on the way if you do not have waterproof footwear. In May the snow line retreats and the slopes begin to turn green, though the pass itself often keeps some snow into June."
+   ],
+   "best_time": "March to May, leaving Gangtok by 7 am.",
+   "good_for": ["Snow-seekers", "Families", "Honeymooners"],
+   "cost": "₹1,200–2,000 a seat or ₹5,500–7,500 per car, plus boot hire",
+   "wiki": "",
+   "image_query": "Nathu La snow road",
+   "faqs": [
+    {"q": "Is there snow at Nathu La in May?", "a": "Often yes, though less than in March and April. In most years snow lies around the pass and on the higher slopes in May, while the road itself is clear. Fresh snowfall is possible in any month at 4,310 m. For deep snow with a good chance of an open road, aim for March or April."},
+    {"q": "What happens if Nathu La is closed on my permit day?", "a": "If the pass is closed because of snow or for security reasons, vehicles usually go only as far as Tsomgo and Baba Mandir if those are open. Agents may refund part of the difference. This is why we suggest a spare day in Gangtok. Check current status before you travel."},
+    {"q": "Do cars need snow chains for Nathu La?", "a": "In heavy snow, drivers fit chains, and the authorities may allow only vehicles with chains or four-wheel drive. Local drivers handle this; you do not need to arrange it. Fares may be higher on snow days to cover the extra wear and the slower drive."}
+   ]
+  }
+ ]
+}

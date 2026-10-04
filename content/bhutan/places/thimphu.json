@@ -1,0 +1,171 @@
+{
+  "slug": "thimphu",
+  "name": "Thimphu",
+  "kind": "Capital city",
+  "tagline": "A small capital of dzongs, prayer wheels and no traffic lights",
+  "summary": "Thimphu is Bhutan's capital, a compact city of about 115,000 people at around 2,320 m in the Wang Chhu valley. Give it two nights for the Buddha Dordenma, Tashichho Dzong, the Memorial Chorten and the weekend market, and to collect route permits for Punakha, Phobjikha or Haa.",
+  "meta_description": "Thimphu guide: Buddha Dordenma, Tashichho Dzong, Memorial Chorten, weekend market, route permits, costs and stays for Indian travellers to Bhutan.",
+  "wiki": "Thimphu",
+  "image_query": "Thimphu Bhutan",
+  "lat": 27.4728,
+  "lng": 89.639,
+  "altitude_m": 2320,
+  "nights": 2,
+  "best_months": [1, 1, 2, 2, 2, 1, 0, 0, 2, 2, 2, 1],
+  "themes": ["monasteries", "food-trails", "festivals", "family-trips"],
+  "intro": [
+    "Thimphu climbs the western slope of the Wang Chhu valley at about 2,320 m. It became the capital in the 1950s and 60s, and is still small enough to walk across. The main street, Norzin Lam, is famous for a white-gloved policeman directing traffic at a junction where a traffic light was once tried and removed. Buildings must follow traditional design, with sloping roofs and painted window frames.",
+    "The sights are spread around the valley rather than packed in the centre. The giant Buddha Dordenma watches from a ridge to the south. Tashichho Dzong, seat of the government and the central monk body, sits by the river to the north. In between are the Memorial Chorten, the Changangkha temple, the takin preserve at Motithang and the Centenary Farmers Market.",
+    "Thimphu is also the administrative stop of most trips. The immigration office here issues route permits for districts beyond Thimphu and Paro, so travellers going on to Punakha, Phobjikha or Haa often spend the first morning on paperwork. The city has the best range of hotels, cafés and shops in the country."
+  ],
+  "highlights": [
+    {"title": "Buddha Dordenma", "text": "A gilded bronze Buddha about 51 m tall on Kuensel Phodrang ridge, with views over the whole valley."},
+    {"title": "Tashichho Dzong", "text": "The seat of Bhutan's government and the central monk body, open to visitors after office hours on weekdays."},
+    {"title": "National Memorial Chorten", "text": "A white stupa in the city centre where elderly residents walk clockwise and spin prayer wheels from dawn to dusk."},
+    {"title": "Centenary Farmers Market", "text": "A two-storey weekend market by the river selling chillies, red rice, cheese, betel and handicrafts."},
+    {"title": "Motithang Takin Preserve", "text": "A fenced forest reserve where you can see the takin, Bhutan's odd-looking national animal."},
+    {"title": "Gateway to the east", "text": "Route permits for Punakha, Phobjikha and Haa are issued here, and the Dochula road leaves from the city's edge."}
+  ],
+  "facts": [
+    ["Altitude", "About 2,320 m"],
+    ["From Phuentsholing", "About 160 km, 5–6 hours"],
+    ["From Paro airport", "About 50 km, 1 hour"],
+    ["Best for", "Dzongs, markets, permits, food"],
+    ["Nights", "2"],
+    ["Permits", "Covered by the entry permit; route permits for other districts issued here. Check current status before you travel."]
+  ],
+  "how_to_reach": [
+    {"mode": "Shared bus", "text": "Public buses leave Phuentsholing several times a day for Thimphu, taking 5–6 hours for about Nu 300. Book a seat at the Phuentsholing bus station the day before in busy months."},
+    {"mode": "Private car", "text": "A Bhutan-registered car with driver costs about ₹6,000–8,000 from Phuentsholing and ₹2,500–3,500 from Paro airport. Tour vehicles usually come with your guide."},
+    {"mode": "Air", "text": "The nearest airport is Paro, about 50 km and an hour away. Taxis wait outside arrivals; agree the fare before you leave."}
+  ],
+  "where_to_stay": "Stay in the city centre around Norzin Lam and the Clock Tower Square to walk to cafés and the Memorial Chorten. Certified budget hotels cost about ₹2,500–4,000 a room, central three-star hotels such as Hotel Druk about ₹7,000–10,000, and Le Méridien and the luxury lodges in the hills from about ₹18,000 upwards.",
+  "stays": ["hotel-druk-thimphu", "le-meridien-thimphu"],
+  "nearby": ["paro", "punakha", "haa", "phuentsholing"],
+  "tips": [
+    "Apply for route permits for Punakha, Phobjikha or Haa online in advance or on your first weekday morning; the office closes on weekends and public holidays.",
+    "Visit Tashichho Dzong after about 5 pm on weekdays, or during the day on weekends and holidays, when offices are closed.",
+    "Go to the Centenary Farmers Market on Friday, Saturday or Sunday; it is quiet on other days.",
+    "Tuesday is a dry day in Bhutan, when bars and alcohol shops are closed.",
+    "Buy a local SIM from B-Mobile or TashiCell with your permit and ID if you want data without roaming charges."
+  ],
+  "costs": [
+    {"item": "Bus Phuentsholing to Thimphu", "inr": "About Nu 300 (₹300)"},
+    {"item": "Certified budget hotel", "inr": "₹2,500–4,000 a room a night"},
+    {"item": "Taxi within Thimphu, short hop", "inr": "₹100–250"},
+    {"item": "Car with driver for a city day", "inr": "₹3,000–4,500 per car"},
+    {"item": "Café lunch with ema datshi and rice", "inr": "₹250–450"},
+    {"item": "Monument entry fees for tourists", "inr": "About ₹100–500 each; check current"},
+    {"item": "Local SIM with data", "inr": "₹200–500"}
+  ],
+  "local_word": {"word": "Dzong", "language": "Dzongkha", "meaning": "A fortress monastery that houses both a monk body and the district government"},
+  "story": {
+    "title": "How a quiet valley became the capital",
+    "paras": [
+      "For three centuries Bhutan had no fixed capital in the modern sense. Government moved with the seasons between dzongs, wintering in warm Punakha and spending summers in higher valleys. The first two kings ruled mainly from their family seats in central Bhutan.",
+      "In the 1950s the third king, Jigme Dorji Wangchuck, decided the country needed a permanent capital. He chose Thimphu, a valley of farms below an old dzong, and in the 1960s Tashichho Dzong was rebuilt and greatly enlarged to house the government, the throne room and the central monk body. Thimphu became the official capital in 1961.",
+      "The new road from Phuentsholing, built in the early 1960s, linked the capital to India and helped it grow. The city still keeps the king's offices and the monks under one roof in Tashichho Dzong, a reminder of the dual system that has run Bhutan since the 17th century."
+    ],
+    "sources": [
+      {"title": "Thimphu (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Thimphu"},
+      {"title": "Tashichho Dzong (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Tashichho_Dzong"}
+    ]
+  },
+  "faqs": [
+    {"q": "How many days do I need in Thimphu?", "a": "Two nights is enough for the Buddha Dordenma, Tashichho Dzong, the Memorial Chorten, the weekend market and a museum or two. If you need a route permit for Punakha or Haa, arrive on a weekday so the office is open. A third night suits travellers who want slower café days or a hike to Cheri or Tango monastery."},
+    {"q": "Where do I get the route permit in Thimphu?", "a": "From the Department of Immigration office in Thimphu, or online through the immigration portal, usually arranged by your guide or tour operator. You need your entry permit, ID and hotel bookings for the districts you plan to visit. Processing usually takes a few hours on a working day. Check current status before you travel."},
+    {"q": "When can tourists visit Tashichho Dzong?", "a": "On weekdays the dzong is a working government office, so visitors are usually allowed in after about 5 pm until dusk. On weekends and public holidays it may open earlier. During the Thimphu Tshechu the courtyard is open for the dances. Wear long sleeves and trousers and follow your guide's instructions."},
+    {"q": "Is Thimphu safe for solo travellers?", "a": "Yes. Thimphu is one of the safest capitals in Asia, with very low street crime. Normal care with belongings is enough. Streets are quiet after 10 pm. Stray dogs bark at night in some areas, so earplugs help light sleepers. Women travelling alone generally report no problems."},
+    {"q": "What is the weather like in Thimphu?", "a": "Mild summers and cold, dry winters. Days reach 20–25°C from May to September, with monsoon rain from June to August. Winter nights fall below freezing from December to February, though days are sunny at 10–14°C. Spring and autumn are the most comfortable seasons for walking around the city."},
+    {"q": "Is there a traffic light in Thimphu?", "a": "No. A traffic light was installed on Norzin Lam at one point and soon removed because residents preferred the traffic policeman. Uniformed police still direct vehicles with precise hand signals from a decorated booth at the main junction. It is one of the city's small landmarks."},
+    {"q": "What is the best food to try in Thimphu?", "a": "Ema datshi with red rice, kewa datshi with potatoes, shakam paa (dried beef with chillies), and momos. Suja, salted butter tea, comes with snacks. Thimphu also has the best range of cafés and restaurants in Bhutan, from Indian thalis to bakeries. A café lunch costs about ₹250–450."},
+    {"q": "Can I get Indian food and cash easily in Thimphu?", "a": "Yes. Several restaurants serve Indian vegetarian and non-vegetarian meals, and Indian rupees are accepted at par. ATMs of Bhutanese banks accept some Indian debit cards, and UPI payments work at many shops. Carry small notes, since ₹500 notes are sometimes refused by smaller shops."},
+    {"q": "How do I get from Thimphu to Punakha?", "a": "By car over Dochula, about 72 km and 2.5–3 hours. Since Punakha is outside the guide-free zone, most tourists travel with their guide and car. Public buses also run but tourists still need a guide to visit Punakha. You need a route permit for Punakha district before you leave Thimphu."}
+  ],
+  "experiences": [
+    {
+      "slug": "thimphu-buddha-dordenma-kuensel-phodrang",
+      "title": "Buddha Dordenma on Kuensel Phodrang ridge",
+      "kind": "spiritual",
+      "duration": "1.5 hours",
+      "summary": "A visit to the giant gilded Buddha on the ridge above southern Thimphu, with wide views over the city and the Wang Chhu valley.",
+      "body": [
+        "The Buddha Dordenma is a seated Shakyamuni Buddha in gilded bronze, about 51 m tall, completed in 2015 on Kuensel Phodrang ridge about 6 km by road from the city centre. Inside, a meditation hall holds many thousands of smaller Buddha images. The statue was built to mark the centenary of the monarchy and is seen from much of the valley.",
+        "Visit late in the afternoon when the sun lights the gold and the city spreads below. The paved terrace is wide and easy for older visitors. Walking trails through the surrounding Kuensel Phodrang nature park lead back towards town if you want a gentle hour on foot."
+      ],
+      "best_time": "Late afternoon in clear weather, from September to May.",
+      "good_for": ["Families", "Older travellers", "Photographers"],
+      "cost": "Taxi ₹300–500 return; entry free or a small fee for tourists; check current",
+      "wiki": "",
+      "image_query": "Buddha Dordenma Thimphu",
+      "faqs": [
+        {"q": "How tall is the Buddha Dordenma?", "a": "About 51.5 m, making it one of the largest seated Buddha statues in the world. It is made of bronze and gilded, and stands on a large three-storey base that houses a meditation hall. Inside are many thousands of smaller gilded Buddha figures. It was completed in 2015."},
+        {"q": "How do I get to the Buddha Dordenma from Thimphu?", "a": "It is about 6 km by road from the city centre, 15–20 minutes by car. A taxi there and back with waiting time costs about ₹300–500. Fit walkers can also follow forest trails up from the southern edge of town in about an hour. There is parking at the top."},
+        {"q": "Can I go inside the Buddha Dordenma?", "a": "Yes, the meditation hall in the base is open to visitors at set hours. Shoes are removed and photography is not allowed inside. Wear modest clothes covering shoulders and knees. The hall may close for prayers or ceremonies, so ask your hotel before you go."}
+      ]
+    },
+    {
+      "slug": "thimphu-tashichho-dzong-evening",
+      "title": "Tashichho Dzong after office hours",
+      "kind": "culture",
+      "duration": "1.5 hours",
+      "summary": "An evening visit to the vast dzong that houses Bhutan's government offices, the throne room and the summer quarters of the central monk body.",
+      "body": [
+        "Tashichho Dzong stands beside the Wang Chhu at the northern edge of the city. The present building was largely rebuilt in the 1960s by the third king, using traditional methods with no nails or written plans, when Thimphu became the capital. It holds the throne room, the offices of the king and several ministries, and the summer residence of the Je Khenpo, the chief abbot.",
+        "Tourists are usually admitted after office hours on weekdays. Walk through the outer courtyard to the central tower and the temple courtyard, where monks gather at dusk. The evening flag-lowering ceremony is held by guards in the forecourt. Long sleeves and trousers are required."
+      ],
+      "best_time": "Weekdays from about 5 pm; weekends and holidays during the day.",
+      "good_for": ["First-timers", "History lovers", "Photographers"],
+      "cost": "Entry fee for tourists about ₹300–500; check current",
+      "wiki": "Tashichho Dzong",
+      "image_query": "Tashichho Dzong Thimphu",
+      "faqs": [
+        {"q": "What time does Tashichho Dzong open for tourists?", "a": "On working days visitors are normally allowed in from about 5 pm until dusk, after the government offices close. On weekends and public holidays it may open earlier. Hours change around ceremonies and the Thimphu Tshechu. Ask your guide or hotel on the day and check current status before you travel."},
+        {"q": "What is inside Tashichho Dzong?", "a": "The dzong houses the throne room and offices of the king, several government ministries, and the summer quarters of the central monk body led by the Je Khenpo. Visitors see the courtyards, the central tower from outside and some temples. Many rooms are working offices and closed to tourists."},
+        {"q": "Is there a dress code for Tashichho Dzong?", "a": "Yes. Long sleeves, long trousers or a long skirt, and closed shoes are expected; no shorts, caps or sleeveless tops. Bhutanese wear national dress with a ceremonial scarf. Do not photograph inside the temples, and follow guards' instructions, especially near the royal offices."}
+      ]
+    },
+    {
+      "slug": "thimphu-memorial-chorten-kora",
+      "title": "Morning kora at the Memorial Chorten",
+      "kind": "spiritual",
+      "duration": "1 hour",
+      "summary": "Join elderly Thimphu residents walking clockwise around the white Memorial Chorten, spinning prayer wheels and telling beads in the morning light.",
+      "body": [
+        "The National Memorial Chorten was built in 1974 in memory of the third king, Jigme Dorji Wangchuck, who had wished to build a chorten for world peace. It stands in the city centre with a golden spire and painted shrines inside, and is one of the busiest places of worship in Thimphu.",
+        "From early morning, older residents walk around it clockwise, many for hours, turning the large prayer wheels on the corners and chatting on the benches between rounds. Walk a few circuits with them, keeping to the left, and then sit and watch. It is the easiest place in Bhutan to see daily devotion at close range."
+      ],
+      "best_time": "6.30 am to 9 am, or late afternoon.",
+      "good_for": ["Older travellers", "Photographers", "Solo travellers"],
+      "cost": "Small entry fee for tourists, about ₹100–300; check current",
+      "wiki": "",
+      "image_query": "Memorial Chorten Thimphu",
+      "faqs": [
+        {"q": "Why was the Memorial Chorten built?", "a": "It was built in 1974 to honour the third king, Jigme Dorji Wangchuck, who died in 1972. He had wanted to build a chorten dedicated to world peace, and his mother had it built in his memory. It does not hold his remains. It has become the city's main place for daily prayer."},
+        {"q": "Can tourists walk around the Memorial Chorten?", "a": "Yes. Walk clockwise like everyone else, keep a steady pace and do not cut across people who are praying. Photograph the stupa and the general scene freely, but ask before close-up photos of individuals. Remove hats and shoes before entering the shrine rooms."},
+        {"q": "Is the Memorial Chorten close to the city centre?", "a": "Yes. It is on Doebum Lam, a short walk or a two-minute taxi ride from Norzin Lam and the Clock Tower Square. Many hotels in central Thimphu are within 15 minutes' walk, which makes it an easy first outing in the morning."}
+      ]
+    },
+    {
+      "slug": "thimphu-centenary-farmers-market-food-trail",
+      "title": "Weekend market and ema datshi trail in Thimphu",
+      "kind": "food",
+      "duration": "2–3 hours",
+      "summary": "Walk through the Centenary Farmers Market to see Bhutan's chillies, cheese and red rice, then eat ema datshi and momos in a local restaurant.",
+      "body": [
+        "The Centenary Farmers Market sits beside the Wang Chhu below the city centre, in a two-storey building that fills from Friday to Sunday. Farmers from around the valley sell heaps of green and red chillies, rounds of soft cheese, dried yak cheese on strings, red rice, fern shoots, mushrooms in season and doma, betel nut wrapped in leaf.",
+        "Cross the traditional cantilever footbridge behind the market to the handicraft stalls on the far bank, then walk back into town for lunch. Order ema datshi, kewa datshi, red rice and a plate of momos, with suja, salted butter tea, to finish. A lunch for two costs about ₹600–900."
+      ],
+      "best_time": "Saturday or Sunday morning, from about 8 am.",
+      "good_for": ["Food lovers", "Families", "Budget travellers"],
+      "cost": "₹0 to browse; lunch ₹250–450 per person",
+      "wiki": "",
+      "image_query": "Centenary Farmers Market Thimphu",
+      "faqs": [
+        {"q": "When is the Thimphu weekend market open?", "a": "The Centenary Farmers Market is busiest from Friday to Sunday, from early morning until evening. Some stalls open on other days, but it is quiet. Go on Saturday or Sunday morning to see the most produce and the most activity. Some handicraft stalls across the river stay open through the week."},
+        {"q": "What can I buy at the Thimphu market?", "a": "Dried chillies, chilli powder, red rice, buckwheat flour, dried yak cheese and incense pack well. On the handicraft side there are prayer flags, wooden bowls, textiles and masks; check whether textiles are Bhutanese handwoven or imported. Bargaining is limited and polite, unlike many Indian markets."},
+        {"q": "Is Bhutanese food suitable for vegetarians?", "a": "Largely, yes. Ema datshi, kewa datshi and shamu datshi are vegetarian, as are red rice, dal, buckwheat dishes and vegetable momos. Meat dishes use dried beef or pork. Cheese and butter are common, so vegans should ask. Thimphu also has many Indian vegetarian restaurants."}
+      ]
+    }
+  ]
+}

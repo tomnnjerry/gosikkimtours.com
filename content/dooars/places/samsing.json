@@ -1,0 +1,344 @@
+{
+  "slug": "samsing",
+  "name": "Samsing and Suntalekhola",
+  "kind": "Tea village",
+  "tagline": "Tea slopes and forest streams where the Dooars meets the hills",
+  "summary": "Samsing is a tea-garden village at about 900 m on the hill edge above Chalsa, with forest streams at Suntalekhola and the boulders of Rocky Island on the Murti. It is cooler and quieter than the plains. One or two nights is ideal.",
+  "meta_description": "Samsing and Suntalekhola guide: tea gardens, Rocky Island on the Murti, the hanging bridge at Suntalekhola, where to stay, costs and how to reach from Siliguri.",
+  "wiki": "Samsing",
+  "image_query": "Samsing tea garden",
+  "lat": 26.99,
+  "lng": 88.81,
+  "altitude_m": 900,
+  "nights": 1,
+  "best_months": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2
+  ],
+  "themes": [
+    "tea-country",
+    "weekend-breaks",
+    "treks-and-walks",
+    "shoestring",
+    "honeymoons"
+  ],
+  "intro": [
+    "Samsing is a hill village at about 900 m where the Dooars plains meet the first ridges of the Kalimpong hills, about 20 km above Chalsa. Tea bushes cover the slopes around the village, with forest above and the Murti river below. On clear days you can see the plains stretching south and, in winter, snow peaks to the north-east.",
+    "Samsing Tea Estate is the main employer, and the village is home mainly to Nepali-speaking families, with Lepcha families among them. A few kilometres further up, the Suntalekhola stream comes down through forest to meet the Murti, and the forest corporation runs cottages reached by a hanging bridge. Rocky Island, a cluster of big boulders in the Murti, is a popular picnic and camping spot.",
+    "Samsing makes an easy add-on to Gorumara, about an hour away, and a cool break from the heat of the plains. The road continues towards the edge of Neora Valley National Park. Life here is quiet: walks through the tea, birds in the forest and early nights."
+  ],
+  "highlights": [
+    {
+      "title": "Samsing tea slopes",
+      "text": "Rolling tea gardens on the hill edge, with views down over the Dooars plains."
+    },
+    {
+      "title": "Suntalekhola",
+      "text": "A forest stream crossed by a small hanging bridge to the forest corporation cottages."
+    },
+    {
+      "title": "Rocky Island",
+      "text": "Huge boulders in the Murti river, good for a picnic and a riverside walk."
+    },
+    {
+      "title": "Lali Guras viewpoint",
+      "text": "A viewpoint above the village named after the rhododendron, with wide views at sunset."
+    },
+    {
+      "title": "Cool weather",
+      "text": "Several degrees cooler than Lataguri, pleasant even in April."
+    }
+  ],
+  "facts": [
+    [
+      "Altitude",
+      "About 900 m"
+    ],
+    [
+      "From Siliguri",
+      "About 85 km, 2.5–3 hours"
+    ],
+    [
+      "From Lataguri",
+      "About 35 km, 1–1.25 hours"
+    ],
+    [
+      "Best for",
+      "Tea gardens, walks, a quiet night"
+    ],
+    [
+      "Nights",
+      "1–2"
+    ],
+    [
+      "Permits",
+      "None"
+    ]
+  ],
+  "how_to_reach": [
+    {
+      "mode": "Shared jeep",
+      "text": "Take a bus from Siliguri to Malbazar or Chalsa, then a shared jeep to Samsing via Matelli (₹60–100 a seat); jeeps are few after early afternoon."
+    },
+    {
+      "mode": "Private car",
+      "text": "A reserved car from Siliguri takes 2.5–3 hours (about 85 km) via Malbazar and Chalsa and costs about ₹3,000–4,000; from Lataguri it is about an hour."
+    },
+    {
+      "mode": "Train",
+      "text": "Chalsa station on the Dooars line is about 20 km away; take a local car from there."
+    }
+  ],
+  "where_to_stay": "The forest corporation runs cottages and tents at Suntalekhola and an eco-tourism centre at Samsing, both from about ₹1,500–3,000 a room. Samsing also has several family homestays and small resorts at ₹1,500–4,000 a room with meals. Rocky Island has simple riverside camps and cottages. For more comfort, stay at Chalsa, 20 km below.",
+  "stays": [
+    "suntalekhola-eco-tourism-centre-samsing",
+    "sinclairs-retreat-dooars-chalsa"
+  ],
+  "nearby": [
+    "gorumara",
+    "lava",
+    "kalimpong-town"
+  ],
+  "tips": [
+    "Arrive by afternoon; shared jeeps up from Chalsa thin out after 2 pm.",
+    "Carry a fleece; nights are cool, around 10–15°C in winter.",
+    "Leeches are common in the monsoon and early autumn; wear socks and carry salt.",
+    "Walk on the tea garden roads, not between the bushes, and ask before photographing pluckers.",
+    "Rocky Island and the Murti rise quickly after rain; stay off the rocks when the water is high."
+  ],
+  "costs": [
+    {
+      "item": "Reserved car Siliguri to Samsing",
+      "inr": "₹3,000–4,000 per car"
+    },
+    {
+      "item": "Shared jeep Chalsa to Samsing",
+      "inr": "₹60–100 a seat"
+    },
+    {
+      "item": "WBFDC Suntalekhola tent or room",
+      "inr": "₹1,500–3,000 a night"
+    },
+    {
+      "item": "Homestay with meals, per person",
+      "inr": "₹1,200–2,000 a night"
+    },
+    {
+      "item": "Car for Rocky Island and Suntalekhola, half day",
+      "inr": "₹1,200–1,800"
+    },
+    {
+      "item": "Momo and tea at a village stall",
+      "inr": "₹60–150"
+    }
+  ],
+  "local_word": {
+    "word": "Khola",
+    "language": "Nepali",
+    "meaning": "A stream or small river. Suntalekhola means the orange stream."
+  },
+  "story": {
+    "title": "The orange stream and the tea garden",
+    "paras": [
+      "Suntalekhola is a Nepali name: suntala means orange and khola means stream. People in Samsing say that orange trees once grew along this stream, as they still do in many hill villages of Kalimpong and Sikkim, and that the name stuck long after most of the trees had gone. It is a local explanation; we have not found a written record of the orchards.",
+      "The bigger story of Samsing is tea. Samsing Tea Estate covers about 1,200 hectares, with about 900 hectares under tea, and for generations most families in the village have worked in the garden, plucking leaf, pruning bushes and working in the factory.",
+      "Gardens in the Dooars have gone through hard times. In 2005 work at Samsing was suspended, affecting about 1,360 workers, part of a wider crisis that closed or stalled many Dooars gardens in those years. Families depended on relief, loans and work elsewhere. The garden later reopened, and plucking goes on today.",
+      "Tourism has since added a second income. Homestays, guides, drivers and tea stalls now earn from visitors who come for the slopes, the streams and the cool air. When you buy tea in the village or stay with a family, the money goes to people whose lives are still shaped by the garden."
+    ],
+    "sources": [
+      {
+        "title": "Samsing (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Samsing"
+      },
+      {
+        "title": "Told locally in Samsing",
+        "url": ""
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Where is Samsing?",
+      "a": "Samsing is a tea-garden village at about 900 m on the border of the Dooars and the Kalimpong hills, about 20 km north of Chalsa and 85 km from Siliguri. Parts of the area fall in Jalpaiguri district and parts under the Kalimpong hills administration. It is about an hour from Lataguri and Gorumara."
+    },
+    {
+      "q": "What is Rocky Island?",
+      "a": "Rocky Island is a stretch of the Murti river a few kilometres from Samsing where huge boulders sit in and beside the water. It is a popular spot for picnics, photographs and simple riverside camping. In the monsoon the river rises fast, so stay off the rocks when the water is high."
+    },
+    {
+      "q": "What is Suntalekhola?",
+      "a": "Suntalekhola, the orange stream in Nepali, is a forest stream above Samsing that runs down to the Murti. The forest corporation has cottages and tents here, reached by a small hanging bridge. It is a quiet place for a night among trees, with walks along the stream."
+    },
+    {
+      "q": "How many days do I need at Samsing?",
+      "a": "One night is enough to walk the tea gardens, see Suntalekhola and Rocky Island and watch the sunset. Two nights suit people who want a real rest or a longer walk towards Neora Valley. Many travellers add a night at Samsing to a Gorumara trip."
+    },
+    {
+      "q": "Is Samsing good in summer?",
+      "a": "Yes. At about 900 m it is several degrees cooler than Lataguri and the plains, so April and May are pleasant, if humid, with afternoon showers. In the monsoon from June to September rain is heavy, leeches are common and the road can be blocked by small landslides."
+    },
+    {
+      "q": "Do I need a permit for Samsing?",
+      "a": "No permit is needed for Indian or foreign travellers to visit Samsing, Suntalekhola or Rocky Island. Entering Neora Valley National Park itself requires forest department permission and fees, and the park closes in the monsoon. Check current status before you travel."
+    },
+    {
+      "q": "How do I get from Siliguri to Samsing by public transport?",
+      "a": "Take a bus from the Tenzing Norgay bus terminus to Malbazar or Chalsa (about 2.5–3 hours), then a shared jeep up to Samsing via Matelli. Jeeps are few, especially after early afternoon, so start early. A reserved car from Chalsa costs about ₹800–1,200."
+    },
+    {
+      "q": "Can I visit a tea factory in Samsing?",
+      "a": "Samsing is a working estate, and factory visits depend on the management's permission. Ask your homestay or lodge whether a visit is possible. You can always walk the garden roads, watch plucking from March to November and buy local tea in the village shops."
+    },
+    {
+      "q": "Is Samsing good for couples?",
+      "a": "Yes. It is quiet, cool and cheap, with forest cottages at Suntalekhola, homestays in the village and walks through the tea. There is little nightlife, which is the point. For more comfort, combine one night here with a night at a resort in Chalsa or Lataguri."
+    }
+  ],
+  "experiences": [
+    {
+      "slug": "samsing-tea-garden-morning-walk",
+      "title": "Morning walk through Samsing tea gardens",
+      "kind": "tea",
+      "duration": "2 hours",
+      "summary": "An easy walk on the roads and paths through Samsing's tea slopes, with views down to the plains and pluckers at work in season.",
+      "body": [
+        "Samsing's gardens cover the hillsides around the village, with shade trees standing over neat rows of tea. Early in the morning mist lies in the valley, and the plains below appear as it clears. In the plucking season, from March to November, women work along the rows with baskets on their backs.",
+        "Follow the garden roads rather than cutting between bushes, and greet people as you pass. Ask before photographing pluckers. Your homestay can suggest a loop that ends at a tea stall or the village market."
+      ],
+      "best_time": "Early morning from October to May, best in March–April and October–November.",
+      "good_for": [
+        "Couples",
+        "Walkers",
+        "Photographers"
+      ],
+      "cost": "₹0; ₹300–600 for a local guide if wanted",
+      "wiki": "",
+      "image_query": "Samsing tea garden",
+      "faqs": [
+        {
+          "q": "When is tea plucked at Samsing?",
+          "a": "Plucking runs from about March to November, with the first flush in spring and heavy plucking in the monsoon months. In winter the bushes are pruned and rest. Mornings are the best time to see pluckers at work."
+        },
+        {
+          "q": "Can I walk anywhere in the tea garden?",
+          "a": "Stick to the garden roads and paths. The bushes, factory and workers' housing lines are private property. Ask before entering any building or taking photos of people. If staff ask you to leave an area, do so politely."
+        },
+        {
+          "q": "Is the Samsing tea walk hard?",
+          "a": "No. Most routes follow gently graded roads with some climbs. Wear comfortable shoes and carry water. Allow about two hours for an easy loop, longer if you stop to watch birds or talk to people."
+        }
+      ]
+    },
+    {
+      "slug": "samsing-suntalekhola-hanging-bridge-walk",
+      "title": "Walk to the hanging bridge at Suntalekhola",
+      "kind": "nature",
+      "duration": "1–2 hours",
+      "summary": "A short walk to the Suntalekhola stream, crossed by a small suspension bridge, with forest, birds and cool water.",
+      "body": [
+        "Suntalekhola lies a few kilometres above Samsing, where a clear stream runs through forest towards the Murti. The forest corporation cottages are on the far side of a narrow hanging footbridge, and the walk across with the water below is a highlight for children.",
+        "Spend an hour by the stream watching for forktails, redstarts and kingfishers, and walk a little way along the road through the trees. Do not climb on wet rocks, which are slippery, and keep out of the water after rain."
+      ],
+      "best_time": "Morning or late afternoon from October to May.",
+      "good_for": [
+        "Families",
+        "Couples",
+        "Birdwatchers"
+      ],
+      "cost": "₹0; a car from Samsing costs ₹500–800 if you do not walk (indicative)",
+      "wiki": "",
+      "image_query": "Suntalekhola",
+      "faqs": [
+        {
+          "q": "How far is Suntalekhola from Samsing?",
+          "a": "A few kilometres up the road from Samsing village, about 15 minutes by car or under an hour on foot. Ask your homestay for the walking route and how long it takes from your door. The road is narrow, so keep to the side."
+        },
+        {
+          "q": "Is the hanging bridge safe?",
+          "a": "It is a small, maintained footbridge that sways a little. Walk across one or two at a time, hold the side ropes or rails and keep children close. Do not cross if the bridge is closed for repairs."
+        },
+        {
+          "q": "Can day visitors go to Suntalekhola?",
+          "a": "Yes, day visitors can walk to the stream and the bridge. The cottages themselves are for staying guests. Respect the lodge's rules, and carry your litter back with you."
+        }
+      ]
+    },
+    {
+      "slug": "samsing-rocky-island-murti-picnic",
+      "title": "Picnic at Rocky Island on the Murti",
+      "kind": "nature",
+      "duration": "2–3 hours",
+      "summary": "A riverside afternoon among the huge boulders of Rocky Island, where the Murti runs fast and clear below Samsing.",
+      "body": [
+        "Rocky Island is a stretch of the Murti a few kilometres from Samsing, where the river cuts between and around great grey boulders. In the dry season you can scramble on the rocks, sit by the water and watch dippers and wagtails. There are a few simple camps and cottages nearby.",
+        "It is a favourite picnic spot for local families on Sundays and holidays, so come on a weekday for quiet. Take all litter away with you. The river rises fast after rain in the hills; if the water looks high or brown, stay on the bank."
+      ],
+      "best_time": "Weekday afternoons from October to April.",
+      "good_for": [
+        "Families",
+        "Groups of friends",
+        "Photographers"
+      ],
+      "cost": "₹0; car from Samsing ₹600–1,000 return (indicative)",
+      "wiki": "",
+      "image_query": "Rocky Island Samsing Murti",
+      "faqs": [
+        {
+          "q": "How far is Rocky Island from Samsing?",
+          "a": "It is a few kilometres away, about 15–20 minutes by car on a narrow road down towards the Murti. You can also walk with directions from your homestay, allowing about an hour each way. The road is steep in places."
+        },
+        {
+          "q": "Can I swim at Rocky Island?",
+          "a": "We advise against it. The Murti is cold, fast and full of rocks here, and it rises suddenly after rain in the hills. Paddle at the edge in the dry season with others nearby, and keep children well away from fast water."
+        },
+        {
+          "q": "Can I camp at Rocky Island?",
+          "a": "A few operators run simple tented camps and cottages near Rocky Island. Book through your driver or homestay, and check that camps are licensed and away from the riverbed. Do not camp on the riverbed itself."
+        }
+      ]
+    },
+    {
+      "slug": "samsing-lali-guras-sunset-viewpoint",
+      "title": "Sunset at the Lali Guras viewpoint",
+      "kind": "nature",
+      "duration": "1–1.5 hours",
+      "summary": "An evening at Lali Guras, a viewpoint above Samsing named after the rhododendron, looking over tea slopes and forest to the plains.",
+      "body": [
+        "Lali guras is the Nepali name for the red rhododendron, the national flower of Nepal. The viewpoint of that name stands above Samsing with open views over the tea gardens, the Murti valley and, on clear evenings, the Dooars plains fading into haze.",
+        "Come an hour before sunset with a flask of tea and a warm layer. On clear winter mornings or evenings the snow peaks of the eastern Himalaya can sometimes be seen to the north-east. Walk down before dark or arrange for your car to wait."
+      ],
+      "best_time": "Clear evenings from October to March.",
+      "good_for": [
+        "Couples",
+        "Photographers"
+      ],
+      "cost": "₹0; car from the village ₹300–500 (indicative)",
+      "wiki": "",
+      "image_query": "Samsing viewpoint",
+      "faqs": [
+        {
+          "q": "What does Lali Guras mean?",
+          "a": "In Nepali, lali guras means red rhododendron, the tree that flowers on many hills of the eastern Himalaya in spring. The viewpoint takes its name from it. Most Samsing families speak Nepali, so you will hear the word often."
+        },
+        {
+          "q": "Can I see snow peaks from Samsing?",
+          "a": "On very clear days in winter, after rain has cleaned the air, distant snow peaks can sometimes be seen to the north and north-east. Most days the view is of tea, forest and the plains. Do not plan a trip only for mountain views."
+        },
+        {
+          "q": "Is it safe to walk back from Lali Guras after dark?",
+          "a": "The road is quiet and narrow with steep edges, and wild animals sometimes cross it. Carry a torch, walk in a group, or arrange for your car or host to collect you. Better still, leave as the light fades."
+        }
+      ]
+    }
+  ]
+}

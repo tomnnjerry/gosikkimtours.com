@@ -1,0 +1,352 @@
+{
+  "slug": "lolegaon",
+  "name": "Lolegaon",
+  "kind": "Village",
+  "tagline": "A Lepcha ridge village with an old forest and a canopy walk",
+  "summary": "Lolegaon, also spelt Loleygaon, is a Lepcha village at about 1,675 m, 55 km from Kalimpong and 24 km from Lava. Go for the canopy walk in the heritage forest, sunrise at Jhandi Dara and very quiet nights. One night is enough, two if you want to rest.",
+  "meta_description": "Lolegaon (Loleygaon) guide: heritage forest canopy walk, Jhandi Dara sunrise, Kafer view, homestays, how to reach from Kalimpong and Lava, costs.",
+  "wiki": "Loleygaon",
+  "image_query": "Loleygaon",
+  "lat": 27.021,
+  "lng": 88.565,
+  "altitude_m": 1675,
+  "nights": 1,
+  "best_months": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    1,
+    2,
+    2,
+    1
+  ],
+  "themes": [
+    "homestays",
+    "treks-and-walks",
+    "family-trips",
+    "shoestring"
+  ],
+  "intro": [
+    "Lolegaon sits at the end of a ridge at about 1,675 m, among old oak, cypress and cryptomeria. It is a Lepcha village by origin, though Nepali-speaking families also live here now. The nearest town is Kalimpong, about 55 km away by the usual road, and Lava is about 24 km by a forest road.",
+    "The village is best known for its heritage forest, where a hanging canopy walk lets you walk among the upper branches of tall, moss-covered trees. Early in the morning visitors drive or walk up to Jhandi Dara, a ridge covered in prayer flags, for sunrise over the Kanchenjunga range. Kafer, a short distance away, also has a mountain view.",
+    "Lolegaon is very quiet. There is no bazaar to speak of, and evenings are spent in homestays. Most travellers come for one night on a circuit with Lava and Rishop, or with Kalimpong, but it also suits families who want two slow days in the forest."
+  ],
+  "highlights": [
+    {
+      "title": "Heritage forest canopy walk",
+      "text": "A suspended walkway through the upper branches of old oak and cypress, a short walk from the village."
+    },
+    {
+      "title": "Jhandi Dara sunrise",
+      "text": "A ridge covered in prayer flags about 4–5 km away, with a sunrise view of the Kanchenjunga range."
+    },
+    {
+      "title": "Kafer viewpoint",
+      "text": "An open spot near the village with a wide view of the snow peaks on clear days."
+    },
+    {
+      "title": "Lepcha village life",
+      "text": "Small farms, cardamom plots and family homestays, with almost no traffic."
+    }
+  ],
+  "facts": [
+    [
+      "Altitude",
+      "About 1,675 m"
+    ],
+    [
+      "From Siliguri",
+      "About 120–125 km, 4–4.5 hours via Kalimpong"
+    ],
+    [
+      "From Kalimpong",
+      "About 55 km, 2–2.5 hours"
+    ],
+    [
+      "From Lava",
+      "About 24 km, 1 hour"
+    ],
+    [
+      "Best for",
+      "Forest, canopy walk, sunrise, quiet"
+    ],
+    [
+      "Nights",
+      "1–2"
+    ],
+    [
+      "Permits",
+      "None"
+    ]
+  ],
+  "how_to_reach": [
+    {
+      "mode": "Shared jeep",
+      "text": "One or two shared jeeps a day run between the Kalimpong motor stand and Lolegaon for about ₹120–180 a seat, usually leaving Kalimpong in the afternoon. Times change, so check a day ahead."
+    },
+    {
+      "mode": "Private car",
+      "text": "A reserved car from Kalimpong costs about ₹2,500–3,200 and takes 2–2.5 hours. From Lava it costs about ₹1,500–2,200 for the 24 km. From NJP or Bagdogra, expect about ₹4,500–5,500 and 4–4.5 hours."
+    },
+    {
+      "mode": "Rail",
+      "text": "New Jalpaiguri (NJP) is the most useful station, about 120 km away. Malbazar is closer on the map but has fewer trains and a longer last stretch by road."
+    }
+  ],
+  "where_to_stay": "Lolegaon has family homestays and a few small lodges, mostly along the main village road and close to the forest. Homestays cost about ₹1,400–2,000 a person a night with meals, indicative. A government forest lodge has operated here in the past; check its current status if you want it. All meals are eaten at your stay, since there are no restaurants.",
+  "stays": [
+    "lolegaon-village-homestays"
+  ],
+  "nearby": [
+    "lava",
+    "rishop",
+    "kalimpong-town",
+    "sillery-gaon"
+  ],
+  "tips": [
+    "Book a car for Jhandi Dara the evening before and leave about 45 minutes before sunrise.",
+    "Visit the canopy walk in the morning, when the forest is quiet and dry.",
+    "Carry cash for the whole stay; there is no ATM in the village.",
+    "Do Lolegaon before Lava and Rishop, so the trip climbs and ends with the highest view.",
+    "Ask about the canopy walk's condition, since it is closed from time to time for repairs."
+  ],
+  "costs": [
+    {
+      "item": "Homestay with all meals",
+      "inr": "₹1,400–2,000 a person a night"
+    },
+    {
+      "item": "Shared jeep Kalimpong to Lolegaon",
+      "inr": "₹120–180 a seat"
+    },
+    {
+      "item": "Reserved car Kalimpong to Lolegaon",
+      "inr": "₹2,500–3,200 per car"
+    },
+    {
+      "item": "Canopy walk entry",
+      "inr": "₹30–100 a person"
+    },
+    {
+      "item": "Car to Jhandi Dara at sunrise",
+      "inr": "₹600–1,000 per car"
+    },
+    {
+      "item": "Village walk with a local guide",
+      "inr": "₹400–700"
+    }
+  ],
+  "local_word": {
+    "word": "Rongkup",
+    "language": "Lepcha",
+    "meaning": "A name the Lepchas use for themselves, short for Mutanci Rongkup Rumkup, beloved children of the Rong and of God"
+  },
+  "story": {
+    "title": "The Lepchas and their forest",
+    "paras": [
+      "The Lepchas are counted as the oldest inhabitants of the Kalimpong hills and of Sikkim. They call themselves Rongkup, from a longer name meaning the beloved children of the Rong and of God, and the Lepchas of Kalimpong are known as the Damsangmu, after the old kingdom of Damsang. Their language and script are their own.",
+      "Lepcha belief grew up close to the forest. Each clan reveres its own sacred lake and mountain peak, and the old faith, called Mun, has its own priests and rituals for the harvest and for protection. Many Lepchas today are Buddhist or Christian, but older customs survive in festivals and in respect for the land.",
+      "Lolegaon is one of the villages where that link still shows. It sits at the end of a ridge among tall oaks and cypresses, part of which is now protected as heritage forest. The canopy walk was built so visitors could see the forest from the treetops without clearing it.",
+      "Ask your homestay host about the Lepcha names of the hills, rivers and plants around the village. Many families still use them, and they often say more about the place than any signboard."
+    ],
+    "sources": [
+      {
+        "title": "Lepcha people (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Lepcha_people"
+      },
+      {
+        "title": "Loleygaon (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Loleygaon"
+      },
+      {
+        "title": "Told locally in Lolegaon",
+        "url": ""
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Is it Lolegaon or Loleygaon?",
+      "a": "Both refer to the same Lepcha village in Kalimpong district. Loleygaon is the spelling on Wikipedia and some official lists; Lolegaon and Lolaygaon are also common on signboards and booking sites. Search all versions when looking for homestays or maps, and give your driver the local pronunciation, roughly lo-lay-gaon."
+    },
+    {
+      "q": "How far is Lolegaon from Kalimpong?",
+      "a": "About 55 km by the usual road via Algarah, taking 2–2.5 hours by car. A shorter road via Relli exists but is narrower and rougher. From Lava, Lolegaon is about 24 km, roughly an hour's drive through forest. From Siliguri the whole journey is about 120–125 km and 4–4.5 hours."
+    },
+    {
+      "q": "Is the Lolegaon canopy walk safe?",
+      "a": "It is a suspended walkway of wood, rope and steel among tall trees, maintained by local authorities. It sways a little underfoot, which can unsettle people who dislike heights. Go slowly, hold the side ropes, follow any limit on the number of people at once, and avoid it in strong wind or heavy rain."
+    },
+    {
+      "q": "How do I get to Jhandi Dara for sunrise?",
+      "a": "Jhandi Dara is about 4–5 km from the village. Most people hire a local car for about ₹600–1,000, indicative, leaving about 45 minutes before sunrise. Fit walkers can walk up in about an hour with a torch. Your homestay host can arrange the car the evening before."
+    },
+    {
+      "q": "Can I see Kanchenjunga from Lolegaon?",
+      "a": "Yes, on clear days, especially from Jhandi Dara at sunrise and from Kafer, a short distance from the village. October to February gives the clearest views. From March to May haze often builds by mid-morning, and from June to September the peaks are usually hidden in cloud."
+    },
+    {
+      "q": "Is one night in Lolegaon enough?",
+      "a": "For most travellers, yes. One night covers the canopy walk, a village stroll and a sunrise at Jhandi Dara. Stay two nights if you want a slow day in the forest, if you are travelling with small children or if you want a second chance at a clear sunrise."
+    },
+    {
+      "q": "Is Lolegaon good for families?",
+      "a": "Yes. The canopy walk, short forest walks and open spaces suit children, and the village is very safe and quiet. Rooms are simple and nights are cool, so pack warm layers. There are no shops for snacks or medicines, so bring what you need from Kalimpong or Siliguri."
+    },
+    {
+      "q": "What is the best time to visit Lolegaon?",
+      "a": "October to May is best. October and November give clear views after the rains; December to February is cold but often clear; March to May brings flowers and birds with some haze. The monsoon months from June to September bring heavy rain, leeches and slippery roads."
+    },
+    {
+      "q": "Is there mobile signal and electricity in Lolegaon?",
+      "a": "There is mains electricity with occasional cuts in bad weather. Mobile signal is patchy: Jio and Airtel often work outdoors but can drop indoors. Some homestays have Wi-Fi that works when the power does. Carry a torch, a power bank and offline maps."
+    }
+  ],
+  "experiences": [
+    {
+      "slug": "lolegaon-heritage-forest-canopy-walk",
+      "title": "Canopy walk in the Lolegaon heritage forest",
+      "kind": "adventure",
+      "duration": "1 hour",
+      "summary": "Walk a suspended walkway among the branches of old oak and cypress in the heritage forest near the village.",
+      "body": [
+        "The canopy walk is a hanging walkway strung between tall trees in the heritage forest, a short walk from the village road. It takes you up into the middle and upper branches, where moss, ferns and orchids grow on old trunks. Below, the forest floor is dark and still.",
+        "The walk is short but feels high. It sways a little underfoot. Morning is the best time, when birds are active and the light filters through the leaves. Afterwards, walk the forest paths around it.",
+        "The walkway is closed for repairs from time to time; ask locally before you go."
+      ],
+      "best_time": "Morning, October to May.",
+      "good_for": [
+        "Families",
+        "Couples",
+        "Nature lovers"
+      ],
+      "cost": "₹30–100 a person",
+      "wiki": "",
+      "image_query": "Lolegaon canopy walk",
+      "faqs": [
+        {
+          "q": "Can children do the Lolegaon canopy walk?",
+          "a": "Yes, most children enjoy it, but keep small children close and hold their hands. The walkway sways and has gaps between planks, so it is not suitable for toddlers on their own. Older children usually love it. Follow any rules on the number of people allowed at once."
+        },
+        {
+          "q": "How long is the canopy walk?",
+          "a": "It is a short walk, and most visitors spend 15–30 minutes on the walkway itself, longer if they stop for photos or birds. Add time to explore the heritage forest paths around it. Allow about an hour in total from the village."
+        },
+        {
+          "q": "Is the canopy walk open all year?",
+          "a": "It is usually open in the main season, but it closes from time to time for repairs or in bad weather, especially in the monsoon. Ask your homestay or check locally on the day. Rules and fees can change. Check current status before you travel."
+        }
+      ]
+    },
+    {
+      "slug": "lolegaon-jhandi-dara-sunrise",
+      "title": "Sunrise at Jhandi Dara",
+      "kind": "nature",
+      "duration": "2–3 hours",
+      "summary": "Drive or walk up to Jhandi Dara, a ridge covered in prayer flags, to watch dawn break over the Kanchenjunga range.",
+      "body": [
+        "Jhandi Dara takes its name from the prayer flags, jhandi in Nepali, that cover the ridge. It lies about 4–5 km from the village, and the usual plan is a local car before dawn. From the top, the snow peaks line the northern horizon and the valleys below fill with mist.",
+        "On clear mornings, mostly from October to February, the first light turns the peaks pink, then gold. Stay a while after sunrise; the colours change quickly and the flags make good foregrounds for photos.",
+        "Carry warm clothes and a torch. Tea is usually waiting back at your homestay."
+      ],
+      "best_time": "October to February, at dawn.",
+      "good_for": [
+        "Photographers",
+        "Couples",
+        "Families"
+      ],
+      "cost": "₹600–1,000 per car",
+      "wiki": "",
+      "image_query": "Jhandi Dara Lolegaon",
+      "faqs": [
+        {
+          "q": "What does Jhandi Dara mean?",
+          "a": "In Nepali, jhandi means flags and dara means ridge or hilltop, so the name means flag ridge. The ridge is covered in Buddhist prayer flags strung between poles. Please do not remove or damage the flags, and avoid stepping on any that have fallen."
+        },
+        {
+          "q": "Can I walk to Jhandi Dara?",
+          "a": "Yes. It is about 4–5 km from the village with a steady climb, taking about an hour on foot. Start early with a torch and a companion, or walk back after sunrise and take a car up. Ask your host for the route, since there are several paths."
+        },
+        {
+          "q": "Is the Jhandi Dara sunrise better than Rishop's?",
+          "a": "Both are good on clear mornings. Rishop is higher, at about 2,590 m, and gives a wider view of the range. Jhandi Dara is lower and more intimate, with prayer flags in the foreground. If you are doing both villages, enjoy both; the weather matters more than the spot."
+        }
+      ]
+    },
+    {
+      "slug": "lolegaon-kafer-viewpoint-evening",
+      "title": "Evening at the Kafer viewpoint",
+      "kind": "nature",
+      "duration": "1–1.5 hours",
+      "summary": "Walk or drive the short way to Kafer for a wide view of the snow peaks and the valleys at the end of the day.",
+      "body": [
+        "Kafer is a small settlement a short distance from Lolegaon with an open view to the north. In the late afternoon, when the day's haze clears, the mountains sometimes show with soft light on their faces.",
+        "It is a pleasant place to sit after the canopy walk, with a few tea stalls and benches. On weekends local families come out too.",
+        "Weather changes fast; carry a jacket even on warm days."
+      ],
+      "best_time": "Late afternoon from October to February.",
+      "good_for": [
+        "Families",
+        "Couples",
+        "Slow travellers"
+      ],
+      "cost": "₹0; car about ₹300–500 if needed",
+      "wiki": "",
+      "image_query": "Kafer Lolegaon view",
+      "faqs": [
+        {
+          "q": "How far is Kafer from Lolegaon?",
+          "a": "Kafer is only a short distance from Lolegaon, about a kilometre by most accounts. Many visitors walk; others stop on the way into or out of the village. It has a mountain view on clear days and a few small stalls for tea and snacks."
+        },
+        {
+          "q": "Is Kafer better at sunrise or sunset?",
+          "a": "Sunrise usually gives clearer air, but most visitors go to Jhandi Dara for dawn. Kafer is a good late-afternoon stop when the light softens. From October to February the evening view can be clear; in spring haze often hides the mountains."
+        },
+        {
+          "q": "Can I stay in Kafer instead of Lolegaon?",
+          "a": "There are a few stays around Kafer, and it makes little difference since the two are so close. Choose by the room, the view and the reviews. Staying close to the forest makes the canopy walk easier, while some Kafer rooms have more open views."
+        }
+      ]
+    },
+    {
+      "slug": "lolegaon-lepcha-village-walk",
+      "title": "Village walk with a Lolegaon host",
+      "kind": "village",
+      "duration": "2 hours",
+      "summary": "Walk through Lolegaon's farms, cardamom plots and houses with a local host to learn about Lepcha life and the forest.",
+      "body": [
+        "A short walk with a local host shows a side of Lolegaon that most visitors miss. You pass small fields of maize, ginger and vegetables, cardamom growing in the shade of trees, and houses with flower gardens and stacked firewood.",
+        "Your host can explain Lepcha names for plants and places, how the forest is used and protected, and how village life has changed with tourism. If you are lucky you may see a traditional loom or bamboo work.",
+        "Ask before photographing people or homes, and keep to paths across fields."
+      ],
+      "best_time": "Morning or late afternoon, October to May.",
+      "good_for": [
+        "Families",
+        "Slow travellers",
+        "Culture lovers"
+      ],
+      "cost": "₹400–700 for a local guide",
+      "wiki": "Lepcha people",
+      "image_query": "Lepcha village Kalimpong",
+      "faqs": [
+        {
+          "q": "Do people in Lolegaon still speak Lepcha?",
+          "a": "Some families do, especially older people, though Nepali is the everyday language in most of the village, as across Kalimpong. Lepcha associations run classes and cultural events to keep the language alive. Your host can teach you a few words and tell you whose families still use it at home."
+        },
+        {
+          "q": "What crops grow around Lolegaon?",
+          "a": "Maize, potatoes, ginger, vegetables and large cardamom are common, along with oranges at lower levels. Cardamom grows in the shade under trees on the slopes. Farming is small-scale, and many families mix it with homestay income. Ask before walking through fields or picking anything."
+        },
+        {
+          "q": "Can I buy local products in Lolegaon?",
+          "a": "Sometimes. Families may sell cardamom, ginger, pickles or honey, and occasionally handwoven items. There is no market, so ask your host. Prices are fair and money goes straight to the family. Carry cash in small notes, since digital payments may not work when signal drops."
+        }
+      ]
+    }
+  ]
+}

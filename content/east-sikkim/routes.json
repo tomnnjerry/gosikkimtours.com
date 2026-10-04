@@ -1,0 +1,79 @@
+[
+ {
+  "slug": "siliguri-to-gangtok-nh10",
+  "from": "siliguri",
+  "to": "gangtok",
+  "distance_km": 114,
+  "summary": "Siliguri to Gangtok is about 114 km along NH10 beside the Teesta river, usually 4–5 hours by road. A shared jeep is the cheapest way; a reserved car is quicker and lets you stop on the way.",
+  "options": [
+   {"mode": "Shared jeep", "time": "4.5–5.5 hours", "fare": "₹350–450 a seat", "text": "Shared jeeps and Sumo-type vehicles leave through the day from the Sikkim jeep stand near the Tenzing Norgay Central Bus Terminus in Siliguri, and less often from NJP station. They go when full, ten passengers to a vehicle. Book the front seats for more room. They drop at the main taxi stand on the edge of Gangtok, from where local taxis go up to MG Marg."},
+   {"mode": "Shared bus", "time": "5–6 hours", "fare": "₹250–350 a seat", "text": "Sikkim Nationalised Transport (SNT) runs buses from its own stand in Siliguri to Gangtok several times a day. They are cheaper and slower than jeeps, with more space for luggage. Seats can be booked a day ahead at the SNT counter."},
+   {"mode": "Reserved car", "time": "4–4.5 hours", "fare": "₹3,500–5,000 per car", "text": "A reserved car (a small hatchback or an SUV) can be hired at Bagdogra airport, NJP station or Siliguri. Prices rise for larger vehicles and late-night arrivals. Only Sikkim-registered taxis may usually carry tourists inside Sikkim for sightseeing, so book through an agent who uses one."}
+  ],
+  "stops_on_way": ["Coronation Bridge at Sevoke", "Teesta Bazaar viewpoint over the river", "Rangpo checkpost (ILP for foreigners)", "Singtam market for a tea break"],
+  "tip": "If NH10 is shut by a landslide, drivers switch to the longer road via Kalimpong and Pedong or Algarah, adding 1–3 hours, so leave early in the monsoon.",
+  "faqs": [
+   {"q": "How long does Siliguri to Gangtok take?", "a": "About 4–5 hours by reserved car and 4.5–5.5 hours by shared jeep, covering roughly 114 km on NH10. Traffic at Sevoke, roadworks, and landslides in the monsoon can add several hours. Leave Siliguri by midday so you reach Gangtok before dark, especially between June and September."},
+   {"q": "Where do shared jeeps to Gangtok leave from in Siliguri?", "a": "The main stand is next to the Tenzing Norgay Central Bus Terminus on Hill Cart Road, where Sikkim-bound jeeps and SNT buses gather. Some jeeps also wait at NJP railway station. Vehicles leave when full, so mornings are best. Fares are indicative, around ₹350–450 a seat."},
+   {"q": "Do foreigners need a permit to travel from Siliguri to Gangtok?", "a": "Yes. Foreign nationals need the Sikkim Inner Line Permit, formally a Restricted Area Permit, which can be obtained at Rangpo checkpost on the way with a passport, visa and photos, or in advance at Sikkim House or the Siliguri Sikkim Tourism office. Check current status before you travel."},
+   {"q": "Is there a train to Gangtok?", "a": "Not yet. The Sevoke to Rangpo railway is under construction, and Gangtok has no rail link. The nearest major station is New Jalpaiguri (NJP), about 120 km from Gangtok. From NJP you continue by shared jeep, bus or reserved car along NH10."}
+  ]
+ },
+ {
+  "slug": "gangtok-to-tsomgo-lake-and-nathu-la-road",
+  "from": "gangtok",
+  "to": "tsomgo-lake",
+  "distance_km": 38,
+  "summary": "Gangtok to Tsomgo Lake is about 38 km on the Jawaharlal Nehru Road, 1.5–2 hours uphill to 3,753 m. Tourists must travel in a registered vehicle with a permit arranged by a travel agent; Nathu La is a further 18 km.",
+  "options": [
+   {"mode": "Shared jeep (pooled tour)", "time": "1.5–2 hours each way", "fare": "₹700–1,200 a seat with permit for Tsomgo and Baba Mandir", "text": "Travel agents around MG Marg sell seats in pooled vehicles going to Tsomgo and Baba Mandir. You hand over photo ID and photos the day before, and the agent arranges the permit. Vehicles leave between 7 and 8 am. Nathu La seats cost more and need a day's notice."},
+   {"mode": "Reserved car", "time": "1.5–2 hours each way", "fare": "₹3,500–5,000 per car for Tsomgo and Baba Mandir; ₹5,500–7,500 with Nathu La", "text": "A reserved car through a registered agent covers the permit, driver and return. Fares rise in snow season and when chains are needed. Nathu La permits are only for Indian nationals and the pass is usually closed to tourists on Mondays and Tuesdays. Check current status before you travel."}
+  ],
+  "stops_on_way": ["Kyongnosla checkpost and the alpine sanctuary", "Army cafés at 15th Mile", "Tsomgo Lake shore", "Baba Harbhajan Singh Mandir"],
+  "tip": "Hand your documents to the agent by early afternoon the day before, and start by 7 am, as the road above the lake is often closed by early afternoon in winter.",
+  "faqs": [
+   {"q": "Can I drive my own car to Tsomgo Lake?", "a": "Generally no. Tourist visits to Tsomgo and Nathu La are allowed only in vehicles registered for the route, with a permit arranged by a registered travel agent. Private cars from outside Sikkim are usually stopped. Rules are indicative and enforced at the Kyongnosla checkpost. Check current status before you travel."},
+   {"q": "How far is Nathu La from Tsomgo Lake?", "a": "Nathu La is about 18 km beyond Tsomgo Lake, roughly 56 km from Gangtok, and the drive from the lake takes about an hour. Most day trips visit the pass first, then Baba Mandir, then the lake on the way back. Only Indian nationals with a Nathu La permit can go beyond the lake towards the pass."},
+   {"q": "Can foreigners go to Tsomgo Lake?", "a": "Yes, foreign nationals can visit Tsomgo Lake on a day trip with a Protected Area Permit arranged through a registered agent, usually in a group of at least two. They cannot go to Nathu La. Carry your passport and Sikkim Inner Line Permit. Check current status before you travel."},
+   {"q": "How early should I leave Gangtok for Tsomgo?", "a": "Leave by 7–8 am. The road is quieter, the light on the lake is better, and weather at 3,700–4,300 m usually turns cloudy after midday. In winter, snow and ice make afternoon driving risky and the authorities can close the road early. Aim to be back in Gangtok by 3–4 pm."}
+  ]
+ },
+ {
+  "slug": "gangtok-to-zuluk-via-rongli",
+  "from": "gangtok",
+  "to": "zuluk",
+  "distance_km": 95,
+  "summary": "Gangtok to Zuluk is about 95 km via Ranipool, Rorathang and Rongli, usually 4–5 hours by reserved car. You need a Protected Area Permit, checked at Rongli, and only Indian nationals may go.",
+  "options": [
+   {"mode": "Reserved car", "time": "4–5 hours", "fare": "₹5,000–7,000 per car one way", "text": "Most travellers hire an SUV with a driver who knows the Silk Route. The car climbs from Rongli through Lingtam and Padamchen to Zuluk. Many itineraries return to Gangtok over the top via Thambi, Nathang, Kupup and Tsomgo, which needs a permit for that sector too."},
+   {"mode": "Shared jeep", "time": "5–6 hours with a change", "fare": "₹150–250 a seat to Rongli, then a local car", "text": "Shared jeeps run from Gangtok to Rongli on some days, but there is no regular shared service on to Zuluk. From Rongli you need a local car arranged by your homestay. This is cheaper for one or two people but slower and harder to organise with the permit."}
+  ],
+  "stops_on_way": ["Rorathang on the Rangpo river", "Rongli permit check", "Lingtam village", "Padamchen"],
+  "tip": "Send ID and photos to your Zuluk homestay or agent a few days ahead so the permit is ready at Rongli, and carry printed copies.",
+  "faqs": [
+   {"q": "Do I need a permit for Zuluk?", "a": "Yes. Indian nationals need a Protected Area Permit for Zuluk and the Silk Route, issued at Rongli through a registered agent or homestay host, with photo ID and passport photos. Foreign nationals are not allowed. Rules and fees are indicative. Check current status before you travel."},
+   {"q": "Is the road from Gangtok to Zuluk safe?", "a": "The road is narrow and steep with many hairpin bends, but it is maintained by the Border Roads Organisation and used by army trucks daily. It is safe with an experienced local driver in good weather. In snow or heavy monsoon rain, wait for local advice rather than driving yourself."},
+   {"q": "Can I return from Zuluk to Gangtok by a different road?", "a": "Yes. Many trips go up via Rongli and return over the high road through Thambi viewpoint, Nathang, Kupup, Baba Mandir and Tsomgo Lake, reaching Gangtok in about 5–6 hours. This crosses roughly 4,000 m, needs the right permits, and can close after snow."},
+   {"q": "How cold is Zuluk?", "a": "Zuluk sits at about 3,000 m. From November to March nights fall below freezing and snow is common from December to February. Even in April and October, mornings are near zero. Pack thermals, a down jacket, gloves and a warm hat for any season."}
+  ]
+ },
+ {
+  "slug": "siliguri-to-aritar-via-rhenock",
+  "from": "siliguri",
+  "to": "aritar",
+  "distance_km": 105,
+  "summary": "Siliguri to Aritar is about 105 km via Sevoke, Rangpo, Rorathang and Rhenock, roughly 3.5–4.5 hours. A reserved car is simplest; shared jeeps go to Rhenock, from where Aritar is a short taxi ride.",
+  "options": [
+   {"mode": "Shared jeep", "time": "4–5 hours plus a local taxi", "fare": "₹250–350 a seat to Rhenock, then ₹300–500 for a local car", "text": "Shared jeeps to Rhenock leave from the Sikkim stand near the Tenzing Norgay Central Bus Terminus in Siliguri, mostly in the morning. From Rhenock, a local taxi covers the last few kilometres up to Aritar and Lampokhari lake."},
+   {"mode": "Reserved car", "time": "3.5–4.5 hours", "fare": "₹3,500–5,000 per car", "text": "A reserved car from NJP or Bagdogra is the usual choice for families, and it can continue to Zuluk the next day. When NH10 is closed, cars use the route via Kalimpong and Pedong, which reaches Rhenock without going through Rangpo."}
+  ],
+  "stops_on_way": ["Coronation Bridge at Sevoke", "Rangpo checkpost", "Rorathang", "Rhenock bazaar"],
+  "tip": "Foreign travellers must collect the Sikkim Inner Line Permit at Rangpo on this route, so carry passport copies and photos.",
+  "faqs": [
+   {"q": "How far is Aritar from Siliguri?", "a": "Aritar is about 105 km from Siliguri, around 3.5–4.5 hours by car via NH10 to Rangpo, then up through Rorathang and Rhenock. Bagdogra airport and NJP station are slightly further. In the monsoon, landslides on NH10 can add time, so start in the morning."},
+   {"q": "Is there public transport to Aritar?", "a": "There is no direct shared jeep to Aritar from Siliguri. Take a shared jeep to Rhenock, which runs mainly in the morning, and then hire a local taxi for the final climb to Aritar. It is cheap but slow, and best for travellers with light luggage and flexible time."},
+   {"q": "Do Indians need a permit for Aritar?", "a": "No. Aritar is open to Indian nationals without a special permit. Foreign nationals need the Sikkim Inner Line Permit, available at Rangpo. A Protected Area Permit is needed only if you continue up the Silk Route to Zuluk, and that is for Indians only. Check current status before you travel."},
+   {"q": "Can I go from Aritar to Zuluk the same day?", "a": "Yes. Aritar to Zuluk via Rongli is about 50 km and takes 2.5–3 hours, so an early start from Aritar gets you to Zuluk by lunch. Your permit must be ready at Rongli. Spending a night in Aritar first helps with acclimatisation before Zuluk at about 3,000 m."}
+  ]
+ }
+]

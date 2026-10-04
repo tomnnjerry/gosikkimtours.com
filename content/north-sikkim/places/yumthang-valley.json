@@ -1,0 +1,167 @@
+{
+  "slug": "yumthang-valley",
+  "name": "Yumthang Valley",
+  "kind": "Valley",
+  "tagline": "Rhododendron meadows at 3,564 m, with Zero Point above",
+  "summary": "Yumthang is a high grazing valley at about 3,564 m, 24 km north of Lachung, inside the Shingba Rhododendron Sanctuary. It is a half-day trip from Lachung, best in April and May for flowers and from November to March for snow. Indians can continue to Zero Point; foreigners must stop at Yumthang.",
+  "meta_description": "Yumthang Valley guide: rhododendron season, Zero Point (Yumesamdong) snow, hot spring, permits, costs and the best time for a day trip from Lachung.",
+  "wiki": "Yumthang Valley of Flowers",
+  "image_query": "Yumthang Valley Sikkim",
+  "lat": 27.826,
+  "lng": 88.696,
+  "altitude_m": 3564,
+  "nights": 0,
+  "best_months": [1, 1, 1, 2, 2, 0, 0, 0, 1, 2, 2, 1],
+  "themes": ["snow-and-passes", "photography", "family-trips", "treks-and-walks"],
+  "intro": [
+    "Yumthang is a broad, flat valley floor where the Lachung river runs between grassy meadows and fir forest, with snow peaks on both sides. Yak herders bring their animals up in summer. From mid-April to late May the slopes and the road from Lachung turn red, pink, white and yellow with rhododendrons, and primulas and other alpine flowers follow on the meadows.",
+    "The valley lies within the Shingba Rhododendron Sanctuary, set up to protect the many species of rhododendron that grow here. There is no village and no overnight stay for tourists. Everyone comes on a day trip from Lachung, leaving at dawn, spending an hour or two on the meadows and returning for lunch.",
+    "Beyond Yumthang the road climbs another 23 km to Yumesamdong, known to everyone as Zero Point, where the tourist road ends at about 4,700 m. Indian travellers can go there for an extra vehicle charge. Foreign nationals with a Protected Area Permit may visit Yumthang but not Zero Point."
+  ],
+  "highlights": [
+    {"title": "Rhododendron season", "text": "From mid-April to late May the Shingba sanctuary flowers in shades of red, pink, white and yellow."},
+    {"title": "Zero Point snow", "text": "Yumesamdong at about 4,700 m has snow for much of the year and is the furthest point tourists may reach."},
+    {"title": "Hot spring near the river", "text": "A sulphur spring by the Lachung river, with a simple bathing shed used by locals and visitors."},
+    {"title": "Yaks on the meadows", "text": "In summer and autumn herders graze yaks on the valley floor, a common sight from the road."}
+  ],
+  "facts": [
+    ["Altitude", "About 3,564 m; Zero Point about 4,700 m"],
+    ["From Lachung", "24 km, 1–1.5 hours"],
+    ["Best for", "Rhododendrons, snow, meadows"],
+    ["Nights", "0, visit from Lachung"],
+    ["Permits", "Included in Lachung permit; Zero Point Indians only"]
+  ],
+  "how_to_reach": [
+    {"mode": "Reserved car", "text": "Every visit is by the registered vehicle that brought you to Lachung. The Yumthang trip is part of all Lachung packages; Zero Point is an extra ₹3,000–4,500 per vehicle."},
+    {"mode": "Shared jeep", "text": "On a shared group tour, the Yumthang drive is included and the jeep is shared with other guests. If some want Zero Point and others do not, the group splits the extra charge or the operator arranges a switch."},
+    {"mode": "Air", "text": "The nearest airport is Bagdogra, about 10–12 hours away by road via Gangtok and Lachung, so allow at least two days to get here."}
+  ],
+  "where_to_stay": "There are no tourist stays at Yumthang. Sleep in Lachung, 24 km south, where homestays cost about ₹1,500–2,500 a room with meals and hotels ₹3,000–9,000. Staying in Lachung also helps your body adjust before the climb to 3,564 m and higher.",
+  "stays": ["lachung-village-homestays", "le-coxy-resort-lachung", "yarlam-resort-lachung"],
+  "nearby": ["lachung", "lachen", "gangtok"],
+  "tips": [
+    "Leave Lachung by 6 am; the valley is clearest and calmest early.",
+    "Do not pick flowers or step on the rhododendrons; this is a protected sanctuary.",
+    "At Zero Point stay 30–45 minutes at most and walk slowly; the air is thin.",
+    "Carry dry socks and gloves; snow soaks through ordinary shoes in minutes.",
+    "Use the toilets in Lachung or at Yumthang's stalls before going higher; there is little at Zero Point."
+  ],
+  "costs": [
+    {"item": "Yumthang trip from Lachung", "inr": "Included in packages"},
+    {"item": "Zero Point extension", "inr": "₹3,000–4,500 per vehicle"},
+    {"item": "Snow boots or jacket hire in Lachung", "inr": "₹100–200 per item"},
+    {"item": "Tea and noodles at the valley stalls", "inr": "₹50–150"},
+    {"item": "Hot spring use", "inr": "Usually free; small donation in season"},
+    {"item": "Sanctuary or eco fee, if charged at the gate", "inr": "₹50–100 per person, indicative"}
+  ],
+  "local_word": {"word": "Gurans", "language": "Nepali", "meaning": "Rhododendron, the flower that colours Yumthang in spring"},
+  "story": {
+    "title": "When Hooker came for the rhododendrons",
+    "paras": [
+      "In 1849 the British botanist Joseph Dalton Hooker travelled up the Lachen and Lachung valleys collecting plants. He was working for Kew Gardens, and rhododendrons were his main interest. Many of the species he found in these valleys were new to Western science.",
+      "Hooker sent seeds back to Britain, and his illustrated book on the rhododendrons of the Sikkim Himalaya helped start a fashion for the plants in British gardens. He also described the journey, the cold and the people of these valleys in his Himalayan Journals, published in 1854.",
+      "The trip ended badly. Hooker and his companion Archibald Campbell were detained by Sikkimese officials later that year, a quarrel that led the British to annex land in the south of Sikkim. Today the valleys he crossed are protected, and the Shingba Rhododendron Sanctuary around Yumthang keeps alive the forests that first drew him here."
+    ],
+    "sources": [
+      {"title": "Joseph Dalton Hooker, Himalayan Journals (1854)", "url": ""},
+      {"title": "Shingba Rhododendron Sanctuary (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Shingba_Rhododendron_Sanctuary"}
+    ]
+  },
+  "faqs": [
+    {"q": "What is the best month to visit Yumthang Valley?", "a": "Mid-April to late May for rhododendrons and alpine flowers, and October to November for clear skies. December to March brings snow to the valley in many years but the road can close after heavy falls. June to September is monsoon, with frequent landslides on the way. Check current status before you travel."},
+    {"q": "How far is Yumthang from Lachung?", "a": "Yumthang is about 24 km north of Lachung, a drive of 1–1.5 hours on a mountain road. Zero Point is another 23 km beyond, about 1–1.5 hours more. A full trip to both and back takes 6–7 hours, so leave Lachung by 6 am."},
+    {"q": "Can I stay overnight in Yumthang?", "a": "No. There are no tourist rooms in the valley, and overnight stays are not allowed for visitors. All trips are day trips from Lachung, where you sleep before and after. A few tea stalls in the valley serve snacks and noodles in the tourist season."},
+    {"q": "What is Zero Point and can everyone go?", "a": "Zero Point, or Yumesamdong, is the end of the civilian road at about 4,700 m, 23 km beyond Yumthang. Indian travellers can go with an extra vehicle charge of about ₹3,000–4,500. Foreign nationals cannot go beyond Yumthang. Snow usually lies there from November to April. Check current status before you travel."},
+    {"q": "Is there snow at Yumthang in May?", "a": "Usually not on the valley floor, which is green and in flower by May. You will normally find snow at Zero Point in May, sometimes patchy. For snow at Yumthang itself, come between December and March, though heavy snow can block the road."},
+    {"q": "Is the Yumthang hot spring worth a stop?", "a": "It is a simple sulphur spring by the river with a small shed and pool, used for bathing by locals who believe it eases aches. It is not a spa. If you want to bathe, bring a towel and go on the return trip when you are warm, and avoid soaking long at altitude."},
+    {"q": "Will I get altitude sickness at Yumthang or Zero Point?", "a": "Most healthy people manage Yumthang at 3,564 m after a night in Lachung. Zero Point at about 4,700 m is a bigger step, so walk slowly, limit your stay to 30–45 minutes and come down if you feel a pounding headache, nausea or dizziness. Ask your doctor first if you have heart or lung problems."},
+    {"q": "Can foreigners visit Yumthang Valley?", "a": "Yes. Foreign nationals with a Protected Area Permit for North Sikkim, arranged by a registered agent in Gangtok in a group of at least two, can visit Lachung and Yumthang. They cannot continue to Zero Point. Check current status before you travel."},
+    {"q": "What should I wear to Yumthang?", "a": "Layers: thermals, a fleece, a warm windproof jacket, a cap and gloves, with sunglasses and sunscreen for the glare. Waterproof boots help in snow; you can hire gumboots in Lachung. Even in May the morning wind is cold, and at Zero Point it can be well below freezing."}
+  ],
+  "experiences": [
+    {
+      "slug": "yumthang-rhododendron-season-walk",
+      "title": "Rhododendron season walk in Yumthang",
+      "kind": "nature",
+      "duration": "1–2 hours in the valley",
+      "summary": "In April and May the Shingba sanctuary flowers along the road and valley sides, and a slow walk on the meadow edge is the best way to see it.",
+      "body": [
+        "The Shingba Rhododendron Sanctuary protects the slopes around Yumthang, where many species of rhododendron grow between roughly 3,000 and 4,000 m. They flower in turns from mid-April, so colours change through the season. Lower down you pass tree rhododendrons; higher, the shrubs grow short and dense.",
+        "Ask your driver to stop on the road before the valley for photos, then walk along the river on the valley floor. Stay on trodden ground, do not pick blooms and leave no litter. Early morning gives the clearest light and the fewest jeeps."
+      ],
+      "best_time": "Mid-April to late May, before 9 am.",
+      "good_for": ["Photographers", "Families", "Couples"],
+      "cost": "Included in the Lachung package",
+      "wiki": "Shingba Rhododendron Sanctuary",
+      "image_query": "Yumthang rhododendron",
+      "faqs": [
+        {"q": "When do the Yumthang rhododendrons flower?", "a": "Flowering usually starts in mid-April and peaks in early to mid-May, with some species blooming into June. Timing varies with the winter and altitude, so call a Lachung hotel or your operator a week before to ask how far the season has come."},
+        {"q": "Is walking allowed in the sanctuary?", "a": "Yes, on the valley floor and along the road. Keep to paths, do not damage plants and do not light fires. Longer treks inside the sanctuary need separate permission and a local guide, and are rarely possible on a standard package."},
+        {"q": "Is the valley crowded in May?", "a": "Yes, during school holidays dozens of jeeps arrive between 8 and 11 am. Leaving Lachung by 6 am gives you a quieter hour. Walking a few hundred metres away from the parking area also helps."}
+      ]
+    },
+    {
+      "slug": "yumthang-zero-point-yumesamdong-snow",
+      "title": "Snow at Zero Point (Yumesamdong)",
+      "kind": "snow",
+      "duration": "3 hours return from Yumthang",
+      "summary": "Zero Point, about 23 km above Yumthang at roughly 4,700 m, is the end of the tourist road, with snow for much of the year. Indians only.",
+      "body": [
+        "From Yumthang the road climbs above the tree line to a bare, high valley called Yumesamdong. Tourists call it Zero Point because the civilian road ends here. Snow usually lies from November to April and peaks around it stay white year-round. A few stalls sell tea, Maggi and rum, though alcohol at this height is a bad idea.",
+        "Most people spend 30–45 minutes here. Walk slowly, keep warm, and come down promptly if you feel unwell. The trip costs extra and is open only to Indian citizens. In heavy snow the road may stop short of Zero Point."
+      ],
+      "best_time": "November to April for snow; leave Lachung by 6 am.",
+      "good_for": ["Snow seekers", "Adults and older children", "Photographers"],
+      "cost": "₹3,000–4,500 extra per vehicle",
+      "wiki": "",
+      "image_query": "Zero Point Yumesamdong Sikkim",
+      "faqs": [
+        {"q": "How high is Zero Point?", "a": "Zero Point, or Yumesamdong, is commonly given as about 4,700 m, though figures vary between sources. That is over 1,100 m above Yumthang and 2,000 m above Lachung, so the jump is large for one morning. Limit your time there."},
+        {"q": "Is Zero Point safe for children and older people?", "a": "Healthy older children usually manage a short visit. Babies, people with heart or lung disease and anyone already unwell should not go. Take medical advice if unsure. Keep the stay short and drink water."},
+        {"q": "Is Zero Point open all year?", "a": "It is open in most months, but heavy snow can stop vehicles short, and landslides close it in the monsoon. Your driver decides on the day. Check current status before you travel."}
+      ]
+    },
+    {
+      "slug": "yumthang-hot-spring-stop",
+      "title": "The Yumthang hot spring by the river",
+      "kind": "nature",
+      "duration": "30–45 minutes",
+      "summary": "A simple sulphur hot spring near the Lachung river at Yumthang, used by locals and visitors for a warm soak after the cold.",
+      "body": [
+        "Near the Yumthang valley floor, a short walk from the road, warm sulphur water rises into a small pool with a basic shed. Local people value it for aches and skin complaints. It is plain and unglamorous, but a warm soak on a cold morning is welcome.",
+        "Go on the way back from Zero Point. Bring a towel and spare clothes, keep the soak short, and avoid it if you feel light-headed at altitude. Leave no soap or rubbish in the water."
+      ],
+      "best_time": "On the return drive, late morning.",
+      "good_for": ["Couples", "Adults"],
+      "cost": "Usually free",
+      "wiki": "",
+      "image_query": "Yumthang hot spring",
+      "faqs": [
+        {"q": "Is there a fee for the Yumthang hot spring?", "a": "There is usually no fee, though a small donation may be asked in season for upkeep. Facilities are basic: a pool and a simple changing shed. Bring your own towel and slippers."},
+        {"q": "Is bathing at altitude risky?", "a": "A short soak is fine for most people, but hot water at 3,500 m can make you dizzy or faint. Keep it to 10–15 minutes, drink water, and skip it if you have heart problems or symptoms of altitude sickness."},
+        {"q": "How do I find the hot spring?", "a": "Drivers know it. It is a short walk from the road near the valley floor, across or beside the river. Ask your driver to stop on the way down and point out the path."}
+      ]
+    },
+    {
+      "slug": "yumthang-yak-meadow-photography",
+      "title": "Yaks and meadows on the Yumthang floor",
+      "kind": "wildlife",
+      "duration": "1 hour",
+      "summary": "In summer and autumn herders graze yaks on the open meadows of Yumthang, giving the valley its classic picture of animals, river and snow peaks.",
+      "body": [
+        "Yaks are herded up to Yumthang and higher as the snow melts, and come down again in late autumn. You often see them along the river and on the slopes. They are domestic animals belonging to herding families from Lachung, not wild.",
+        "Keep a distance of at least 10 m, do not feed them and never stand between a mother and calf. Some herders offer yak rides near the parking area for a small fee; agree the price first. Morning light from the south side of the valley gives the best pictures."
+      ],
+      "best_time": "May to November, early morning.",
+      "good_for": ["Photographers", "Families"],
+      "cost": "₹0; yak ride ₹200–400 if offered",
+      "wiki": "",
+      "image_query": "Yak Yumthang Valley",
+      "faqs": [
+        {"q": "Are yaks always present at Yumthang?", "a": "Not always. They graze here mostly from late spring to autumn and move as herders decide. In winter they are usually lower down. You will often see some along the road, but sightings are not guaranteed."},
+        {"q": "Are yak rides safe?", "a": "Short rides led by the herder are generally calm, but yaks can be unpredictable and the ground is uneven. Children should ride only with an adult close by. Agree the price before you start."},
+        {"q": "Can I feed the yaks?", "a": "No. Feeding them snacks harms their health and makes them pushy with visitors. Watch and photograph from a distance and let the herders handle the animals."}
+      ]
+    }
+  ]
+}

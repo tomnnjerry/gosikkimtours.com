@@ -1,0 +1,189 @@
+[
+  {
+    "slug": "siliguri-to-kalimpong",
+    "from": "siliguri",
+    "to": "kalimpong-town",
+    "distance_km": 70,
+    "summary": "Siliguri to Kalimpong is about 70 km and takes 2.5–3 hours via Sevoke and NH10 along the Teesta. A shared jeep is the cheapest quick option; a reserved car from NJP or Bagdogra is easiest with luggage.",
+    "options": [
+      {
+        "mode": "Shared jeep",
+        "time": "2.5–3 hours",
+        "fare": "₹200–250 a seat",
+        "text": "Shared jeeps leave from stands near Siliguri Junction and along Hill Cart Road from early morning to mid-afternoon, once full. They drop you at the Kalimpong motor stand in the centre of town. The front seats beside the driver go first, so arrive early to get one."
+      },
+      {
+        "mode": "Shared bus (NBSTC)",
+        "time": "3–3.5 hours",
+        "fare": "₹150–200 a seat",
+        "text": "North Bengal State Transport Corporation buses run from the Tenzing Norgay Central Bus Terminus in Siliguri several times a day. They are slower and less frequent than jeeps but cheap and roomy for bags."
+      },
+      {
+        "mode": "Reserved car",
+        "time": "2.5–3 hours",
+        "fare": "₹3,000–4,000 per car",
+        "text": "Book a small car or SUV from NJP station, Bagdogra airport or Siliguri. The fare covers one way to your hotel in Kalimpong. SUVs such as a Bolero or Innova cost more but handle the hill section better with a full load."
+      }
+    ],
+    "stops_on_way": [
+      "Coronation Bridge at Sevoke",
+      "Teesta riverside at Rambi or Teesta Bazaar",
+      "Chitre viewpoint over the Teesta"
+    ],
+    "tip": "In the monsoon NH10 along the Teesta is often blocked by landslides; the longer route through Malbazar, Gorubathan and Lava adds about 2 hours but usually stays open. Check current status before you travel.",
+    "faqs": [
+      {
+        "q": "Where do shared jeeps to Kalimpong leave from in Siliguri?",
+        "a": "Most leave from jeep stands near Siliguri Junction and along Hill Cart Road, with some from near the Tenzing Norgay bus terminus. They run from early morning until about mid-afternoon and depart when full. Ask locally on the day, since stands sometimes shift. Fares are about ₹200–250 a seat, indicative."
+      },
+      {
+        "q": "Can I get a shared jeep to Kalimpong directly from NJP or Bagdogra?",
+        "a": "Shared jeeps to Kalimpong mostly start in Siliguri town, not at NJP or Bagdogra. From NJP, take an auto or local taxi to Siliguri Junction area for about ₹200–300 and change there. From Bagdogra, a reserved car straight to Kalimpong is often simpler, at about ₹3,200–4,000, indicative."
+      },
+      {
+        "q": "Is the Siliguri to Kalimpong road safe?",
+        "a": "Yes, in normal weather. It is a busy two-lane highway along the Teesta, then a winding climb of about 15 km to the town. Railway construction and landslides cause delays, especially between June and September. Travel in daylight, avoid evening drives in the monsoon, and ask your driver about the road each morning."
+      },
+      {
+        "q": "How long does it take in the monsoon?",
+        "a": "On a good day still 2.5–3 hours, but slides on NH10 can add hours or close the road for a day or more. Drivers then use the route via Malbazar, Gorubathan and Lava, about 120 km and 4.5–5 hours. Keep a spare day at the end of your trip in July and August. Check current status before you travel."
+      }
+    ]
+  },
+  {
+    "slug": "kalimpong-to-lava",
+    "from": "kalimpong-town",
+    "to": "lava",
+    "distance_km": 33,
+    "summary": "Kalimpong to Lava is about 33 km via Algarah and takes 1.5 hours. Take a morning shared jeep from the Kalimpong motor stand, or a reserved car that can stop at Algarah and go on to Rishop.",
+    "options": [
+      {
+        "mode": "Shared jeep",
+        "time": "1.5–2 hours",
+        "fare": "₹100–150 a seat",
+        "text": "A handful of shared jeeps to Lava leave from the Kalimpong motor stand, mostly in the morning and around midday. Ask at the stand the day before for the times. Some continue towards Gorubathan."
+      },
+      {
+        "mode": "Reserved car",
+        "time": "1.5 hours",
+        "fare": "₹2,000–2,800 per car",
+        "text": "A one-way reserved car from your Kalimpong hotel to Lava. For a little more, the driver can include Algarah and drop you in Rishop, about 11 km beyond Lava."
+      }
+    ],
+    "stops_on_way": [
+      "Algarah bazaar",
+      "Pine and cryptomeria forest above Algarah",
+      "Views back to Kalimpong ridge"
+    ],
+    "tip": "Leave Kalimpong by mid-morning; Lava is often in thick mist from early afternoon, and the view from the road disappears.",
+    "faqs": [
+      {
+        "q": "How far is Lava from Kalimpong?",
+        "a": "Lava is about 33 km from Kalimpong by road via Algarah. The drive takes about 1.5 hours in a car and up to two hours in a shared jeep that stops along the way. The road climbs from about 1,250 m to about 2,195 m, through farmland, then pine and cryptomeria forest."
+      },
+      {
+        "q": "Are there regular shared jeeps from Kalimpong to Lava?",
+        "a": "There are a few each day, mostly in the morning and around midday, from the Kalimpong motor stand. They fill with locals and goods, and seats can run out. Ask at the stand the evening before. A seat costs about ₹100–150, indicative. Coming back, jeeps leave Lava early in the morning."
+      },
+      {
+        "q": "Can I go from Lava back to Siliguri without passing Kalimpong?",
+        "a": "Yes. A road runs down from Lava through Gorubathan to Damdim and Malbazar on the plains, about 100–110 km to Siliguri and 3.5–4 hours. It is a useful route when NH10 along the Teesta is closed by landslides. Check current status before you travel."
+      },
+      {
+        "q": "Is a Kalimpong–Lava day trip worth it?",
+        "a": "It can be done, but it is a long day with little time in Lava, and the mist often arrives by early afternoon. A night in Lava, or one in Lava and one in Rishop, is much better. If you only have a day, leave Kalimpong by 7am and visit the monastery and a forest walk before noon."
+      }
+    ]
+  },
+  {
+    "slug": "kalimpong-to-lolegaon",
+    "from": "kalimpong-town",
+    "to": "lolegaon",
+    "distance_km": 55,
+    "summary": "Kalimpong to Lolegaon is about 55 km and takes 2–2.5 hours via Algarah and the Kafer road. A reserved car is the practical choice, since shared jeeps are few.",
+    "options": [
+      {
+        "mode": "Shared jeep",
+        "time": "2.5–3 hours",
+        "fare": "₹120–180 a seat",
+        "text": "One or two shared jeeps a day run between the Kalimpong motor stand and Lolegaon, usually leaving Kalimpong in the afternoon and Lolegaon early in the morning. Times change, so ask at the stand a day ahead."
+      },
+      {
+        "mode": "Reserved car",
+        "time": "2–2.5 hours",
+        "fare": "₹2,500–3,200 per car",
+        "text": "A reserved car from Kalimpong can be combined with Lava the same day: Kalimpong to Lava, then about 24 km on to Lolegaon. Expect a slightly higher fare for that circuit."
+      }
+    ],
+    "stops_on_way": [
+      "Algarah bazaar",
+      "Kafer viewpoint",
+      "Forest stretches of oak and cryptomeria"
+    ],
+    "tip": "If you are going on to Lava and Rishop, visit Lolegaon first and move up, so you end with the high sunrise view at Rishop.",
+    "faqs": [
+      {
+        "q": "How far is Lolegaon from Kalimpong?",
+        "a": "By the usual road via Algarah it is about 55 km and takes 2–2.5 hours. Drivers sometimes mention a shorter road via Relli, but it is narrower and in poorer condition. Lolegaon sits at about 1,675 m, a little higher than Kalimpong, on a ridge facing the Kanchenjunga range."
+      },
+      {
+        "q": "Is there public transport to Lolegaon?",
+        "a": "Only a little. One or two shared jeeps a day link Lolegaon with Kalimpong, at about ₹120–180 a seat, indicative. They mainly serve villagers, so times change. For travellers with luggage or a tight schedule, a reserved car is far easier. Your homestay can usually help arrange one."
+      },
+      {
+        "q": "How far is Lolegaon from Lava?",
+        "a": "About 24 km, roughly an hour by car on a forest road. Many travellers combine the two: a night in Lolegaon for the canopy walk and Jhandi Dara, then on to Lava for the monastery and Neora Valley. A reserved car for the transfer costs about ₹1,500–2,200, indicative."
+      },
+      {
+        "q": "Is the road to Lolegaon open in the monsoon?",
+        "a": "It usually stays open, but slides and fallen trees are common between June and September, and the surface gets slippery. Travel in daylight and keep a spare day. If NH10 is closed, coming up via Gorubathan and Lava can be easier than going through Kalimpong. Check current status before you travel."
+      }
+    ]
+  },
+  {
+    "slug": "kalimpong-to-gangtok",
+    "from": "kalimpong-town",
+    "to": "gangtok",
+    "distance_km": 75,
+    "summary": "Kalimpong to Gangtok is about 75 km and takes about 3 hours via Teesta Bazaar, Melli and Rangpo. Shared jeeps run through the day; a reserved car lets you stop by the river.",
+    "options": [
+      {
+        "mode": "Shared jeep",
+        "time": "3–3.5 hours",
+        "fare": "₹200–270 a seat",
+        "text": "Shared jeeps to Gangtok leave from the Kalimpong motor stand in the morning and early afternoon and arrive at one of the main jeep stands in Gangtok. Book a seat at the counter a day ahead in peak season."
+      },
+      {
+        "mode": "Reserved car",
+        "time": "3 hours",
+        "fare": "₹3,000–3,800 per car",
+        "text": "A one-way car from your Kalimpong hotel to your Gangtok hotel. Note that West Bengal-registered cars may face limits on running local sightseeing inside Sikkim, so book a Sikkim car for Gangtok tours."
+      }
+    ],
+    "stops_on_way": [
+      "Teesta Bazaar",
+      "Melli",
+      "Rangpo checkpost (ILP for foreigners)",
+      "Singtam"
+    ],
+    "tip": "Foreign travellers need a Sikkim Inner Line Permit, issued at Rangpo or online, so carry passport copies and photos. Check current status before you travel.",
+    "faqs": [
+      {
+        "q": "How long is the drive from Kalimpong to Gangtok?",
+        "a": "About 75 km and roughly 3 hours by car, a little longer in a shared jeep. The road drops to the Teesta at Teesta Bazaar, follows the river on NH10 through Melli and Rangpo, then climbs from Singtam to Gangtok. Landslides on NH10 can cause long delays in the monsoon."
+      },
+      {
+        "q": "Do I need a permit to go from Kalimpong to Gangtok?",
+        "a": "Indian citizens do not. Foreign nationals need a Sikkim Inner Line Permit, which can be applied for online or issued at the Rangpo checkpost on this road with a passport, visa and photos. Rules can change. Check current status before you travel."
+      },
+      {
+        "q": "Where do Gangtok jeeps leave from in Kalimpong?",
+        "a": "From the main Kalimpong motor stand in the centre of town, where counters sell seats for Gangtok, Siliguri, Darjeeling and the villages. Morning departures are the most frequent. In October and May, book a seat the day before. Fares are about ₹200–270 a seat, indicative."
+      },
+      {
+        "q": "Is there another road from Kalimpong to Sikkim?",
+        "a": "Yes. A quieter road runs from Kalimpong via Algarah and Pedong to Rhenock in East Sikkim, linking to the Old Silk Route towards Zuluk. It is slower and narrower than NH10 but useful for Sillery Gaon and Silk Route trips. Foreigners should confirm where they can get an ILP on that route."
+      }
+    ]
+  }
+]
