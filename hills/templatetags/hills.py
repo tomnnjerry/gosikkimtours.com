@@ -6,6 +6,10 @@ from ..content import catalogue
 
 register = template.Library()
 STD_WIDTHS = [500, 960, 1280, 1920]
+# Wikimedia only serves thumbnails at its standard widths and refuses hotlinked originals (HTTP 429),
+# so every URL we emit is a thumbnail no wider than the original.
+WIKI_WIDTHS = [250, 330, 500, 960, 1280, 1920]
+_ORIGINAL = re.compile(r"^https://upload\.wikimedia\.org/wikipedia/commons/(?!thumb/)(\w)/(\w\w)/([^/]+)$")
 _THUMB = re.compile(r"/(\d+)px-")
 
 
@@ -13,12 +17,24 @@ def _clean(url):
     return (url or "").split("?")[0]
 
 
+def _fit(img, w):
+    """Largest standard width <= w that is smaller than the original (thumbs at or above it fail)."""
+    full = img.get("width") or 0
+    ok = [x for x in WIKI_WIDTHS if x <= max(w, WIKI_WIDTHS[0]) and (not full or x < full)]
+    return ok[-1] if ok else None
+
+
 def _at(img, w):
     url = _clean(img.get("thumb") or img.get("url"))
+    m = _ORIGINAL.match(url)
+    if m:
+        a, ab, name = m.groups()
+        url = f"https://upload.wikimedia.org/wikipedia/commons/thumb/{a}/{ab}/{name}/960px-{name}"
     if "/thumb/" in url and _THUMB.search(url):
-        if img.get("width") and w >= img["width"]:
-            return _clean(img.get("url"))
-        return _THUMB.sub(f"/{w}px-", url, count=1)
+        fit = _fit(img, w)
+        if fit:
+            return _THUMB.sub(f"/{fit}px-", url, count=1)
+        return _clean(img.get("url"))  # tiny originals only
     return url
 
 
@@ -33,7 +49,9 @@ def src(img, w=960):
 def srcset(img):
     if not img:
         return ""
-    widths = [w for w in STD_WIDTHS if not img.get("width") or w < img["width"]] or [img.get("width") or 960]
+    widths = sorted({_fit(img, w) for w in STD_WIDTHS} - {None})
+    if not widths:
+        return ""
     return ", ".join(f"{_at(img, w)} {w}w" for w in widths)
 
 
