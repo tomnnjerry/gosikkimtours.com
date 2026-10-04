@@ -23,14 +23,36 @@ OUT = CONTENT / "images.json"
 REGIONS = ["east-sikkim", "north-sikkim", "west-sikkim", "darjeeling", "kalimpong", "dooars", "bhutan"]
 BAD_TITLE = re.compile(r"(ISS\d|satellite|NASA|Landsat|Sentinel|portrait|stamp|banknote|coin|\bmap\b|locator|svg|protest|riot|clash|election|rally|"
                        r"minister|president|police|army|military|curfew|flood|earthquake|damage|destroyed|collapse|"
-                       r"accident|relief|topograph|physical|elevation|burning|smoke|strike|bandh|meeting|delegation|signing|logo|poster)", re.I)
+                       r"wing position|wing basking|basking|polytrichum|grave of|college|campus|fruitshop|accident|relief|topograph|physical|elevation|burning|smoke|strike|bandh|meeting|delegation|signing|logo|poster)", re.I)
 
+# Files checked by hand and found to show the wrong place or thing.
+BLOCKED = {
+    'File:Hollong Tourist Lodge WBTDCL.jpg',
+    'File:Basantapur Tower Kathmandu Durbar Square Nepal.jpg',
+    'File:Elephant safari.jpg',
+    'File:Toyota Corona taxi diesel in Bhutan 01.jpg',
+    'File:Chains buried into solid concrete below.jpg',
+    'File:Gajoldoba Barrage on Teesta river in Gajoldoba 13.jpg',
+    'File:Gayabari Railway Station.JPG',
+    'File:Deadly wood logs at crocodile breeding centre.jpg',
+    'File:Yelbong (34766).jpg',
+    'File:Sunset at the Himalayan foothills... (8186520757).jpg',
+}
 
 # Hand-picked sources for keys where the automatic pick was wrong or weak.
 # ("wiki", title) uses that article's images; ("query", text) a Commons search.
 OVERRIDES = {
     "place:tiger-hill": ("query", "Kanchenjunga from Tiger Hill"),
-    "place:siliguri": ("query", "Siliguri city"),
+    "place:siliguri": ("query", "Mahananda river Siliguri"),
+    "place:gangtok": ("query", "Gangtok city view"),
+    "place:darjeeling-town": ("query", "Chowrasta Darjeeling"),
+    "place:nathu-la": ("query", "Nathu La pass Sikkim"),
+    "place:phobjikha": ("query", "Phobjikha valley"),
+    "place:samsing": ("query", "Suntalekhola"),
+    "place:chilapata": ("query", "Chilapata forest"),
+    "place:lolegaon": ("query", "Lolegaon"),
+    "place:lava": ("query", "Lava Kalimpong"),
+    "place:rishop": ("query", "Rishop"),
 }
 
 
@@ -41,7 +63,7 @@ def read(p):
 def clean(recs):
     seen, out = set(), []
     for r in recs:
-        if r["file"] in seen or BAD_TITLE.search(r["file"]):
+        if r["file"] in seen or r["file"] in BLOCKED or BAD_TITLE.search(r["file"]):
             continue
         seen.add(r["file"])
         out.append(r)
@@ -92,7 +114,7 @@ def main():
     regions = [a for a in sys.argv[1:] if not a.startswith("--")] or REGIONS
     images = read(OUT) if OUT.exists() else {}
     # re-apply the current filter to photos saved by earlier runs
-    images = {k: [r for r in v if not BAD_TITLE.search(r["file"]) and not commons.SKIP_WORDS.search(r["file"])]
+    images = {k: [r for r in v if r["file"] not in BLOCKED and not BAD_TITLE.search(r["file"]) and not commons.SKIP_WORDS.search(r["file"])]
               for k, v in images.items() if not k.startswith("region:")}
     if "journal" in regions or len(regions) == len(REGIONS):
         posts = sorted((CONTENT / "journal").glob("*.json")) if (CONTENT / "journal").exists() else []

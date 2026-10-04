@@ -42,7 +42,7 @@ season.
 
 ## Before launch
 
-- Set real business details in `gst/settings.py` (`SITE`) or the environment: `GST_EMAIL`,
+- Contact details default to hello@gosikkimtours.com and +91 99546 34102 (`SITE` in `gst/settings.py`); override with `GST_EMAIL`,
   `GST_PHONE`, `GST_WHATSAPP` (digits with country code), and the office address.
 - Replace the `[BRACKETED]` placeholders in `hills/policies.py`, `templates/hills/about.html`,
   `templates/hills/contact.html` and the footer in `templates/hills/base.html`, and have the
