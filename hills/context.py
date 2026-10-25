@@ -40,5 +40,6 @@ def site(request):
         "wa_text": quote(f"Hello Go Sikkim Tours, I would like to plan a journey. (Page: {S['url']}{request.path})"),
         "social": [(k, v) for k, v in S.get("social", {}).items() if v],
         "GA4": getattr(settings, "GA4_ID", ""),
+        "ADSENSE": getattr(settings, "ADSENSE_CLIENT", ""),
         "V": _asset_version(),
     }

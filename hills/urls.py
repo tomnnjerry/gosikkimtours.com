@@ -52,5 +52,6 @@ urlpatterns = [
     path("photo-credits/", views.photo_credits, name="photo_credits"),
     path("sitemap/", views.html_sitemap, name="html_sitemap"),
     path("robots.txt", views.robots, name="robots"),
+    path("ads.txt", views.ads_txt, name="ads_txt"),
     path("llms.txt", views.llms, name="llms"),
 ]
